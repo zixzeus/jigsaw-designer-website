@@ -37,13 +37,25 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
             Create stunning custom jigsaw puzzles with multi-platform support, advanced SVG editing, and powerful C++ algorithm engine
           </p>
+
+          {/* Video Demo */}
+          <div className="mb-8 flex justify-center">
+            <div className="w-full max-w-4xl bg-white dark:bg-gray-800 rounded-3xl shadow-lg overflow-hidden">
+              <video
+                className="w-full"
+                controls
+                poster="/video-poster.jpg"
+              >
+                <source src="/user-guide.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg">
+            <a href="https://apps.apple.com/app/jigsawdesigner/id6751882340" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg">
               Download Now
-            </button>
-            <button className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-300">
-              Watch Demo
-            </button>
+            </a>
           </div>
         </div>
 
@@ -100,7 +112,7 @@ export default function Home() {
               <span>Mac App Store</span>
             </a>
             <a
-              href="https://github.com/zixzeus/jigsawdesigner-website"
+              href="https://github.com/zixzeus/jigsaw-designer-website"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 inline-block"
@@ -125,7 +137,7 @@ export default function Home() {
               <a href="/privacy" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 transition-colors">
                 Privacy Policy
               </a>
-              <a href="https://github.com/zixzeus/jigsawdesigner-website" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 transition-colors">
+              <a href="https://github.com/zixzeus/jigsaw-designer-website" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 transition-colors">
                 GitHub
               </a>
             </div>

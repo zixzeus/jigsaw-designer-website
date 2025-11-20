@@ -140,7 +140,7 @@ export default function Privacy() {
               <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
                 <p className="text-gray-700 dark:text-gray-300">
                   <strong>Email:</strong> zixzeus@gmail.com<br />
-                  <strong>GitHub:</strong> <a href="https://github.com/zixzeus/jigsawdesigner-website" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">https://github.com/zixzeus/jigsawdesigner-website</a>
+                  <strong>GitHub:</strong> <a href="https://github.com/zixzeus/jigsaw-designer-website" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">https://github.com/zixzeus/jigsaw-designer-website</a>
                 </p>
               </div>
             </section>
