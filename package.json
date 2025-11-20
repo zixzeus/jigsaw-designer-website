@@ -1,6 +1,6 @@
 {
-  "name": "next-starter-template",
-  "description": "Build a full-stack web application with Next.js.",
+  "name": "jigsaw-designer-website",
+  "description": "JigsawDesigner professional website - Build a full-stack web application with Next.js.",
   "private": true,
   "cloudflare": {
     "label": "Next.js Framework Starter",
