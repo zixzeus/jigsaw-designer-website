@@ -18,6 +18,7 @@ export default function Home() {
         <div className="hidden md:flex items-center space-x-8">
           <a href="#features" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Features</a>
           <a href="#download" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Download</a>
+          <a href="/help" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Help</a>
           <a href="/support" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Support</a>
           <a href="/privacy" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors">Privacy</a>
           <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-full hover:from-blue-600 hover:to-purple-700 transition-all duration-300">
