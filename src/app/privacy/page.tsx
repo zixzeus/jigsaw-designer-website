@@ -54,7 +54,7 @@ export default function PrivacyPage() {
                 <p>
                     If you have any questions about this Privacy Policy, please contact us at:
                     <br/>
-                    <a href="mailto:privacy@jigsawdesigner.com" className="text-primary hover:underline">privacy@jigsawdesigner.com</a>
+                    <a href="mailto:zixzeus@jigsawdesigner.com" className="text-primary hover:underline">zixzeus@jigsawdesigner.com</a>
                 </p>
             </section>
             

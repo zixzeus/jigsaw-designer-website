@@ -53,8 +53,8 @@ export default function SupportPage() {
             <p className="text-gray-500 mb-6">
               Need help with a specific issue? Our support team is ready to assist you directly.
             </p>
-            <a href="mailto:support@jigsawdesigner.com" className="text-primary font-semibold hover:underline flex items-center gap-1">
-              support@jigsawdesigner.com <span aria-hidden="true">&rarr;</span>
+            <a href="mailto:zixzeus@jigsawdesigner.com" className="text-primary font-semibold hover:underline flex items-center gap-1">
+              zixzeus@jigsawdesigner.com <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
 
