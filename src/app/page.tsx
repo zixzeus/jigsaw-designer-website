@@ -81,14 +81,17 @@ export default function Home() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
+            <FeatureCard 
               icon={<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />}
               title="Limitless Customization"
               description="Customize everything from slot templates and contours to puzzle interiors. Create unique designs that stand out."
             />
+            <FeatureCard 
               icon={<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />}
               title="Lightning Fast Workflow"
               description="Turn hours of manual work into seconds. Generate complex jigsaw patterns in just 3 seconds with our advanced engine."
             />
+            <FeatureCard 
               icon={<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />}
               title="Design Anywhere"
               description="Start on your Mac, refine on your iPad, and review on your iPhone. Your workspace moves with you."
