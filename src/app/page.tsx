@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,9 +23,9 @@ export default function Home() {
             <a href="#download" className="hover:text-primary transition-colors">Download</a>
             <div className="h-4 w-px bg-border"></div>
             <a href="https://github.com/zixzeus/jigsaw-designer-website" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">GitHub</a>
-            <button className="bg-primary hover:bg-primary-dark text-white px-5 py-2 rounded-full transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+            <Link href="/help#getting-started" className="bg-primary hover:bg-primary-dark text-white px-5 py-2 rounded-full transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
               Get Started
-            </button>
+            </Link>
           </div>
         </div>
       </nav>
