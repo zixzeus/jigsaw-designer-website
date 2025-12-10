@@ -42,7 +42,7 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight max-w-4xl mx-auto leading-tight">
-            Design Puzzles like a <br/>
+            Design Jigsaw Puzzles like a <br/>
             <span className="text-primary">Professional</span>
           </h1>
           
