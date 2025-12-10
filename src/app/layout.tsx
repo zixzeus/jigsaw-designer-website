@@ -47,6 +47,7 @@ export const metadata: Metadata = {
     statusBarStyle: "black-translucent",
   },
   applicationName: "JigsawDesigner",
+  metadataBase: new URL("https://jigsawdesigner.com"),
 };
 
 export default function RootLayout({
