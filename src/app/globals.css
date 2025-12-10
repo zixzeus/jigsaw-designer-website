@@ -1,26 +1,47 @@
 @import "tailwindcss";
 
 :root {
+  /* JigsawDesigner Brand Colors */
+  --primary: #3399FF;
+  --primary-light: #66B3FF;
+  --primary-dark: #1A66CC;
+  --primary-ultra-light: #E6F2FF;
+  
+  /* Semantic Colors */
   --background: #ffffff;
   --foreground: #171717;
+  --background-secondary: #f5f5f7; /* Apple-like secondary background */
+  --border-color: #e5e7eb;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-ultra-light: var(--primary-ultra-light);
+  --color-background-secondary: var(--background-secondary);
+  --color-border: var(--border-color);
+  
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000; /* True black for OLED/Modern feel */
     --foreground: #ededed;
+    --background-secondary: #1c1c1e; /* Apple dark mode secondary */
+    --border-color: #333333;
+    --primary-ultra-light: #1A2533; /* Dark mode version of ultra light */
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

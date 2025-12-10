@@ -5,8 +5,11 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "jigsaw-designer-website",
   "main": ".open-next/worker.js",
-  "compatibility_date": "2025-04-01",
-  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "compatibility_date": "2025-12-10",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
   "assets": {
     "binding": "ASSETS",
     "directory": ".open-next/assets"
