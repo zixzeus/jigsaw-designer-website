@@ -17,6 +17,7 @@
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.6.2",
     "@opennextjs/cloudflare": "^1.14.4",
+    "@swc/helpers": "^0.5.17",
     "negotiator": "^1.0.0",
     "next": "^16.0.8",
     "next-intl": "^4.5.8",
