@@ -1,0 +1,227 @@
+{
+  "Navigation": {
+    "features": "Fonctionnalités",
+    "download": "Télécharger",
+    "github": "GitHub",
+    "getStarted": "Commencer",
+    "home": "Accueil",
+    "support": "Support",
+    "help": "Centre d'Aide"
+  },
+  "Hero": {
+    "version": "v1.3 Bientôt disponible",
+    "titlePart1": "Concevez des Puzzles comme un <br/>",
+    "titleProfessional": "Pro",
+    "subtitle": "L'outil de conception de puzzles le plus puissant pour les plateformes Apple. Performance native, précision SVG et génération pilotée par algorithmes.",
+    "download": "Télécharger",
+    "learnMore": "En savoir plus"
+  },
+  "Features": {
+    "title": "Fonctionnalités Puissantes",
+    "subtitle": "Tout ce dont vous avez besoin pour créer des puzzles de qualité professionnelle.",
+    "list": {
+      "customization": {
+        "title": "Personnalisation Illimitée",
+        "description": "Personnalisez tout, des modèles d'encoches aux contours en passant par l'intérieur des puzzles. Créez des designs uniques qui se démarquent."
+      },
+      "workflow": {
+        "title": "Flux de Travail Ultra-Rapide",
+        "description": "Transformez des heures de travail manuel en secondes. Générez des motifs complexes en seulement 3 secondes avec notre moteur avancé."
+      },
+      "anywhere": {
+        "title": "Concevez Partout",
+        "description": "Commencez sur Mac, affinez sur iPad et prévisualisez sur iPhone. Votre espace de travail vous suit partout."
+      }
+    }
+  },
+  "Footer": {
+    "privacy": "Confidentialité",
+    "support": "Support",
+    "github": "GitHub",
+    "rights": "© {year} JigsawDesigner. Tous droits réservés."
+  },
+  "Privacy": {
+    "title": "Politique de Confidentialité",
+    "introduction": {
+        "title": "Introduction",
+        "content": "JigsawDesigner (« nous », « notre » ou « nos ») respecte votre vie privée et s'engage à la protéger. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application et notre site web."
+    },
+    "dataCollection": {
+        "title": "Collecte de Données",
+        "content": "Nous ne collectons pas de données personnelles.",
+        "content2": "JigsawDesigner est conçu pour traiter vos fichiers localement sur votre appareil. Vos designs, images et projets ne quittent jamais votre appareil, sauf si vous choisissez explicitement de les exporter ou de les partager.",
+        "list": {
+            "behavior": "Nous ne suivons pas votre comportement d'utilisation.",
+            "upload": "Nous ne téléchargeons pas vos photos sur aucun serveur.",
+            "sell": "Nous ne vendons pas vos données à des tiers."
+        }
+    },
+    "analytics": {
+        "title": "Analyses d'Application",
+        "content": "Nous pouvons utiliser les analyses standard d'Apple (sur option) pour améliorer les performances et la stabilité de l'application (par ex. rapports de plantage). Ces données sont anonymes et ne vous identifient pas personnellement. Vous pouvez vous désinscrire à tout moment via les paramètres de votre appareil."
+    },
+    "contact": {
+        "title": "Contactez-nous",
+        "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à :"
+    },
+    "lastUpdated": "Dernière mise à jour : 10 décembre 2025"
+  },
+  "Support": {
+    "hero": {
+        "titlePart1": "Comment pouvons-nous",
+        "titlePart2": "vous aider ?",
+        "subtitle": "Nous sommes là pour soutenir votre parcours créatif. Trouvez des réponses ou contactez notre équipe."
+    },
+    "documentation": {
+        "title": "Documentation",
+        "description": "Explorez nos guides complets pour maîtriser les fonctionnalités et outils de JigsawDesigner.",
+        "action": "Parcourir les Articles"
+    },
+    "email": {
+        "title": "Support par Email",
+        "description": "Besoin d'aide sur un problème spécifique ? Notre équipe de support est prête à vous aider directement."
+    },
+    "faq": {
+        "title": "Questions Fréquentes",
+        "q1": {
+            "question": "JigsawDesigner est-il un achat unique ?",
+            "answer": "Oui, JigsawDesigner propose une option de licence à vie ainsi que des plans d'abonnement. Consultez l'App Store pour les tarifs les plus récents."
+        },
+        "q2": {
+            "question": "Puis-je exporter mes designs pour un usage commercial ?",
+            "answer": "Absolument. Tous les designs créés avec JigsawDesigner vous appartiennent. Vous pouvez les exporter au format SVG ou PDF pour la fabrication ou l'impression commerciale."
+        },
+        "q3": {
+            "question": "Prend-il en charge les lignes de découpe personnalisées ?",
+            "answer": "Oui, vous pouvez importer des chemins SVG personnalisés pour les utiliser comme lignes de découpe, ou utiliser nos algorithmes avancés pour générer automatiquement des motifs uniques."
+        }
+    }
+  },
+  "Help": {
+      "title": "Centre d'Aide",
+      "subtitle": "Guide complet pour utiliser JigsawDesigner et créer des puzzles professionnels.",
+      "toc": "Table des Matières",
+      "sections": {
+          "gettingStarted": "Premiers Pas",
+          "tools": "Outils de Dessin",
+          "operations": "Opérations sur les Éléments",
+          "generation": "Génération de Puzzles",
+          "importExport": "Import et Export",
+          "shortcuts": "Raccourcis Clavier"
+      },
+      "gettingStartedContent": {
+          "title": "Créez Votre Premier Projet",
+          "steps": {
+              "1": { "title": "Lancez JigsawDesigner", "desc": "Ouvrez l'application sur votre Mac ou appareil iOS." },
+              "2": { "title": "Choisissez un Outil", "desc": "Sélectionnez parmi 8 outils de dessin dans la barre d'outils." },
+              "3": { "title": "Dessinez Votre Design", "desc": "Créez des formes, des chemins ou importez des fichiers SVG existants." },
+              "4": { "title": "Générez le Puzzle", "desc": "Cliquez sur « Générer Puzzle » pour créer des pièces emboîtables." },
+              "5": { "title": "Exporter", "desc": "Enregistrez votre puzzle au format SVG pour la fabrication ou l'impression." }
+          }
+      },
+      "toolsContent": {
+        "select": { "title": "Outil Sélection", "desc": "Sélectionnez et déplacez des formes sur le canevas. Shift+Clic pour la sélection multiple, Ctrl+Clic pour descendre dans les groupes." },
+        "edit": { "title": "Outil Édition", "desc": "Modifiez les points de contrôle des formes. Ajustez la géométrie de la forme avec précision en faisant glisser les points." },
+        "pen": { "title": "Outil Plume", "desc": "Dessin de chemin libre. Cliquez et faites glisser pour créer des courbes de Bézier et des formes organiques." },
+        "line": { "title": "Outil Ligne", "desc": "Dessinez des lignes droites. Parfait pour les designs géométriques et les connexions précises." },
+        "rect": { "title": "Outil Rectangle", "desc": "Dessinez des formes rectangulaires. Cliquez et faites glisser depuis le coin pour créer." },
+        "circle": { "title": "Outil Cercle", "desc": "Dessinez des cercles et des ellipses. Faites glisser depuis le centre pour définir le rayon." },
+        "polygon": { "title": "Outil Polygone", "desc": "Dessinez des polygones à plusieurs côtés. Cliquez pour placer chaque sommet, double-cliquez pour terminer." },
+        "bezier": { "title": "Outil Bézier", "desc": "Dessinez des courbes de Bézier précises avec des points d'ancrage et des poignées de contrôle." }
+      },
+      "operationsContent": {
+          "selection": { 
+              "title": "Sélection", 
+              "items": [
+                  "Sélection Simple : Cliquez sur une forme",
+                  "Sélection Multiple : Shift+Clic sur plusieurs formes",
+                  "Tout Sélectionner : Appuyez sur ⌘A pour sélectionner toutes les formes",
+                  "Sélection Profonde : Ctrl+Clic pour sélectionner des éléments enfants dans les groupes"
+              ] 
+          },
+          "grouping": { 
+              "title": "Groupement", 
+              "items": [
+                  "Grouper les Formes : Sélectionnez plusieurs formes et appuyez sur G",
+                  "Dégrouper : Sélectionnez un groupe et appuyez sur ⌘G",
+                  "Groupes Imbriqués : Créez des hiérarchies complexes"
+              ]
+          },
+          "editing": { 
+              "title": "Édition", 
+              "items": [
+                  "Copier : Appuyez sur ⌘C pour dupliquer les éléments sélectionnés",
+                  "Supprimer : Appuyez sur Suppr ou Retour arrière pour supprimer",
+                  "Transformer : Utilisez le panneau Inspecteur pour ajuster la position, l'échelle et la rotation"
+              ]
+          }
+      },
+      "generationContent": {
+          "howItWorks": {
+              "title": "Comment Ça Marche",
+              "desc": "JigsawDesigner utilise des algorithmes C++ avancés avec les bibliothèques OpenCV et Boost pour générer des pièces de puzzle de haute qualité à l'aide de diagrammes de Voronoï et de structures de données DCEL."
+          },
+          "steps": {
+              "1": { "title": "Dessiner la Limite", "desc": "Créez la forme de contour qui sera divisée en pièces de puzzle." },
+              "2": { "title": "Configurer", "desc": "Définissez le nombre de pièces, les paramètres d'encoches et choisissez des modèles." },
+              "3": { "title": "Générer", "desc": "Cliquez sur « Générer » pour exécuter l'algorithme et créer des pièces emboîtables." },
+              "4": { "title": "Exporter", "desc": "Exportez au format SVG pour la fabrication ou l'impression." }
+          }
+      },
+      "importExportContent": {
+          "import": {
+              "title": "Importer SVG",
+              "desc": "Importez des fichiers SVG existants pour les utiliser comme limites de puzzle ou éléments de design.",
+              "shortcut": "Raccourci :",
+              "items": ["Chemins, rectangles, cercles", "Groupes et transformations", "ViewBox et coordonnées"]
+          },
+          "export": {
+              "title": "Exporter SVG",
+              "desc": "Exportez vos designs et puzzles générés sous forme de fichiers SVG standard.",
+              "shortcut": "Raccourci :",
+              "items": ["Format SVG 1.1 standard", "Préserve toutes les transformations", "Maintient les hiérarchies de groupes"]
+          },
+          "premium": {
+              "title": "Fonctionnalité Premium",
+              "desc": "Abonnement Premium requis pour exporter les puzzles générés. Les utilisateurs gratuits peuvent concevoir et générer, mais l'exportation est limitée."
+          }
+      },
+      "shortcutsContent": {
+        "file": {
+            "title": "Opérations Fichier",
+            "new": "Nouveau Projet",
+            "import": "Importer SVG",
+            "export": "Exporter SVG"
+        },
+        "edit": {
+            "title": "Opérations Édition",
+            "copy": "Copier",
+            "delete": "Supprimer",
+            "selectAll": "Tout Sélectionner",
+            "group": "Grouper les Formes",
+            "ungroup": "Dégrouper"
+        },
+        "selection": {
+            "title": "Sélection",
+            "multi": "Sélection Multiple",
+            "drillDown": "Descendre",
+            "drillUp": "Remonter"
+        }
+      },
+      "troubleshooting": {
+          "title": "Dépannage",
+          "items": {
+              "shapes": { "title": "Les formes n'apparaissent pas", "content": "Vérifiez que vous êtes dans le bon mode de dessin. Vérifiez que la taille du canevas a de l'espace pour votre forme. Vérifiez que les couleurs de remplissage/contour de la forme ne sont pas transparentes." },
+              "select": { "title": "Impossible de sélectionner une forme", "content": "Passez à l'Outil Sélection (icône curseur). Assurez-vous que la forme n'est pas cachée derrière d'autres. Essayez d'utiliser Ctrl+Clic pour descendre dans les groupes." },
+              "fail": { "title": "La génération du puzzle échoue", "content": "Assurez-vous que votre forme limite est un chemin fermé. Réduisez le nombre de pièces pour les formes complexes. Vérifiez que les modèles d'encoches sont valides." },
+              "export": { "title": "L'exportation est désactivée", "content": "Abonnement Premium requis pour exporter les puzzles générés. Le niveau gratuit permet la conception mais limite la fonctionnalité d'exportation." }
+          }
+      },
+      "needHelp": {
+          "title": "Besoin de Plus d'Aide ?",
+          "desc": "Visitez notre page de support ou contactez-nous directement pour une assistance personnalisée",
+          "contact": "Contacter le Support",
+          "download": "Télécharger l'App"
+      }
+  }
+}

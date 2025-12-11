@@ -1,0 +1,227 @@
+{
+  "Navigation": {
+    "features": "Funksjoner",
+    "download": "Last ned",
+    "github": "GitHub",
+    "getStarted": "Kom i gang",
+    "home": "Hjem",
+    "support": "Støtte",
+    "help": "Hjelpesenter"
+  },
+  "Hero": {
+    "version": "v1.3 Kommer snart",
+    "titlePart1": "Design puslespill som en <br/>",
+    "titleProfessional": "Proff",
+    "subtitle": "Det kraftigste puslespilldesignverktøyet for Apple-plattformer. Native ytelse, SVG-presisjon og algoritmedrevet generering.",
+    "download": "Last ned",
+    "learnMore": "Lær mer"
+  },
+  "Features": {
+    "title": "Kraftige Funksjoner",
+    "subtitle": "Alt du trenger for å lage puslespill av profesjonell kvalitet.",
+    "list": {
+      "customization": {
+        "title": "Ubegrenset Tilpasning",
+        "description": "Tilpass alt fra sportmaler og konturer til puslespillets innside. Lag unike design som skiller seg ut."
+      },
+      "workflow": {
+        "title": "Lynrask Arbeidsflyt",
+        "description": "Gjør timer med manuelt arbeid om til sekunder. Generer komplekse puslespillmønstre på bare 3 sekunder med vår avanserte motor."
+      },
+      "anywhere": {
+        "title": "Design Hvor som Helst",
+        "description": "Start på Macen, finjuster på iPaden, og gjennomgå på iPhonen. Arbeidsområdet ditt flytter seg med deg."
+      }
+    }
+  },
+  "Footer": {
+    "privacy": "Personvern",
+    "support": "Støtte",
+    "github": "GitHub",
+    "rights": "© {year} JigsawDesigner. Alle rettigheter forbeholdt."
+  },
+  "Privacy": {
+    "title": "Personvernerklæring",
+    "introduction": {
+        "title": "Introduksjon",
+        "content": "JigsawDesigner (\"vi\", \"vår\" eller \"oss\") respekterer personvernet ditt og er forpliktet til å beskytte det. Denne personvernerklæringen forklarer hvordan vi samler inn, bruker og beskytter informasjonen din når du bruker applikasjonen og nettstedet vårt."
+    },
+    "dataCollection": {
+        "title": "Datainnsamling",
+        "content": "Vi samler ikke inn personopplysninger.",
+        "content2": "JigsawDesigner er designet for å behandle filene dine lokalt på enheten din. Designene, bildene og prosjektene dine forlater aldri enheten din med mindre du eksplisitt velger å eksportere eller dele dem.",
+        "list": {
+            "behavior": "Vi sporer ikke bruksatferden din.",
+            "upload": "Vi laster ikke opp bildene dine, for eksempel puslespillbilder, til noen servere.",
+            "sell": "Vi selger ikke dataene dine til tredjeparter."
+        }
+    },
+    "analytics": {
+        "title": "Appanalyse",
+        "content": "Vi kan bruke Apples standard opt-in-analyse for å forbedre appens ytelse og stabilitet (f.eks. krasjrapporter). Disse dataene er anonyme og identifiserer deg ikke personlig. Du kan velge bort når som helst via enhetsinnstillingene."
+    },
+    "contact": {
+        "title": "Kontakt oss",
+        "content": "Hvis du har spørsmål om denne personvernerklæringen, vennligst kontakt oss på:"
+    },
+    "lastUpdated": "Sist oppdatert: 10. desember 2025"
+  },
+  "Support": {
+    "hero": {
+        "titlePart1": "Hvordan kan vi",
+        "titlePart2": "hjelpe deg?",
+        "subtitle": "Vi er her for å støtte din kreative reise. Finn svar eller kontakt teamet vårt."
+    },
+    "documentation": {
+        "title": "Dokumentasjon",
+        "description": "Utforsk våre omfattende guider for å mestre JigsawDesigners funksjoner og verktøy.",
+        "action": "Bla gjennom artikler"
+    },
+    "email": {
+        "title": "E-poststøtte",
+        "description": "Trenger du hjelp med et spesifikt problem? Vårt supportteam er klart til å hjelpe deg direkte."
+    },
+    "faq": {
+        "title": "Ofte stilte spørsmål",
+        "q1": {
+            "question": "Er JigsawDesigner et engangskjøp?",
+            "answer": "Ja, JigsawDesigner tilbyr et livstidslisensalternativ samt abonnementsplaner. Sjekk App Store for de nyeste prisene."
+        },
+        "q2": {
+            "question": "Kan jeg eksportere designene mine for kommersiell bruk?",
+            "answer": "Absolutt. Alle design laget med JigsawDesigner er dine. Du kan eksportere dem som SVG eller PDF for produksjon eller kommersiell utskrift."
+        },
+        "q3": {
+            "question": "Støtter det tilpassede skjærelinjer?",
+            "answer": "Ja, du kan importere tilpassede SVG-baner for bruk som skjærelinjer, eller bruke våre avanserte algoritmer for å generere unike mønstre automatisk."
+        }
+    }
+  },
+  "Help": {
+      "title": "Hjelpesenter",
+      "subtitle": "Komplett guide til bruk av JigsawDesigner for å lage profesjonelle puslespill.",
+      "toc": "Innholdsfortegnelse",
+      "sections": {
+          "gettingStarted": "Kom i gang",
+          "tools": "Tegneverktøy",
+          "operations": "Elementoperasjoner",
+          "generation": "Puslespillgenerering",
+          "importExport": "Import og Eksport",
+          "shortcuts": "Tastatursnarveier"
+      },
+      "gettingStartedContent": {
+          "title": "Lag ditt første prosjekt",
+          "steps": {
+              "1": { "title": "Start JigsawDesigner", "desc": "Åpne appen på din Mac eller iOS-enhet." },
+              "2": { "title": "Velg et Verktøy", "desc": "Velg mellom 8 tegneverktøy i verktøylinjen." },
+              "3": { "title": "Tegn Designet Ditt", "desc": "Lag former, baner eller importer eksisterende SVG-filer." },
+              "4": { "title": "Generer Puslespill", "desc": "Klikk på 'Generer Puslespill' for å lage sammenlåsende brikker." },
+              "5": { "title": "Eksport", "desc": "Lagre puslespillet ditt som SVG for produksjon eller utskrift." }
+          }
+      },
+      "toolsContent": {
+        "select": { "title": "Valgverktøy", "desc": "Velg og flytt former på lerretet. Shift+klikk for flere valg, Ctrl+klikk for å gå inn i grupper." },
+        "edit": { "title": "Redigeringsverktøy", "desc": "Rediger formenes kontrollpunkter. Juster formgeometrien nøyaktig ved å dra punkter." },
+        "pen": { "title": "Penneverktøy", "desc": "Frihåndsbanetegning. Klikk og dra for å lage Bezier-kurver og organiske former." },
+        "line": { "title": "Linjeverktøy", "desc": "Tegn rette linjer. Perfekt for geometriske design og nøyaktige tilkoblinger." },
+        "rect": { "title": "Rektangelverktøy", "desc": "Tegn rektangulære former. Klikk og dra fra hjørnet for å opprette." },
+        "circle": { "title": "Sirkelverktøy", "desc": "Tegn sirkler og ellipser. Dra fra midten for å angi radius." },
+        "polygon": { "title": "Polygonverktøy", "desc": "Tegn flersidige polygoner. Klikk for å plassere hvert hjørne, dobbeltklikk for å fullføre." },
+        "bezier": { "title": "Bezier-verktøy", "desc": "Tegn presise Bezier-kurver med ankerpunkter og kontrollhåndtak." }
+      },
+      "operationsContent": {
+          "selection": { 
+              "title": "Valg", 
+              "items": [
+                  "Enkelt Valg: Klikk på hvilken som helst form",
+                  "Flere Valg: Shift+klikk på flere former",
+                  "Velg Alt: Trykk ⌘A for å velge alle former",
+                  "Dypt Valg: Ctrl+klikk for å velge underliggende elementer i grupper"
+              ] 
+          },
+          "grouping": { 
+              "title": "Gruppering", 
+              "items": [
+                  "Grupper Former: Velg flere former og trykk G",
+                  "Oppløs Gruppe: Velg en gruppe og trykk ⌘G",
+                  "Nestede Grupper: Lag komplekse hierarkier"
+              ]
+          },
+          "editing": { 
+              "title": "Redigering", 
+              "items": [
+                  "Kopier: Trykk ⌘C for å duplikere valgte elementer",
+                  "Slett: Trykk Delete eller Backspace for å fjerne",
+                  "Transformer: Bruk Inspektørpanelet for å justere posisjon, skala og rotasjon"
+              ]
+          }
+      },
+      "generationContent": {
+          "howItWorks": {
+              "title": "Hvordan det Fungerer",
+              "desc": "JigsawDesigner bruker avanserte C++-algoritmer med OpenCV- og Boost-biblioteker for å generere puslespillbrikker av høy kvalitet ved hjelp av Voronoi-diagrammer og DCEL-datastrukturer."
+          },
+          "steps": {
+              "1": { "title": "Tegn Grense", "desc": "Lag konturformen som skal deles opp i puslespillbrikker." },
+              "2": { "title": "Konfigurer", "desc": "Angi antall brikker, sporinnstillinger og velg maler." },
+              "3": { "title": "Generer", "desc": "Klikk på 'Generer' for å kjøre algoritmen og lage sammenlåsende brikker." },
+              "4": { "title": "Eksport", "desc": "Eksporter som SVG for produksjon eller utskrift." }
+          }
+      },
+      "importExportContent": {
+          "import": {
+              "title": "Importer SVG",
+              "desc": "Importer eksisterende SVG-filer for bruk som puslespillgrenser eller designelementer.",
+              "shortcut": "Snarvei:",
+              "items": ["Baner, rektangler, sirkler", "Grupper og transformasjoner", "ViewBox og koordinater"]
+          },
+          "export": {
+              "title": "Eksporter SVG",
+              "desc": "Eksporter designene og de genererte puslespillene dine som standard SVG-filer.",
+              "shortcut": "Snarvei:",
+              "items": ["Standard SVG 1.1-format", "Beholder alle transformasjoner", "Beholder gruppehierarkier"]
+          },
+          "premium": {
+              "title": "Premiumfunksjon",
+              "desc": "Premiumabonnement kreves for å eksportere genererte puslespill. Gratisbrukere kan designe og generere, men eksport er begrenset."
+          }
+      },
+      "shortcutsContent": {
+        "file": {
+            "title": "Filoperasjoner",
+            "new": "Nytt Prosjekt",
+            "import": "Importer SVG",
+            "export": "Eksporter SVG"
+        },
+        "edit": {
+            "title": "Redigeringsoperasjoner",
+            "copy": "Kopier",
+            "delete": "Slett",
+            "selectAll": "Velg Alt",
+            "group": "Grupper Former",
+            "ungroup": "Oppløs Gruppe"
+        },
+        "selection": {
+            "title": "Valg",
+            "multi": "Flere Valg",
+            "drillDown": "Bor Ned",
+            "drillUp": "Bor Opp"
+        }
+      },
+      "troubleshooting": {
+          "title": "Feilsøking",
+          "items": {
+              "shapes": { "title": "Former vises ikke", "content": "Bekreft at du er i riktig tegnemodus. Sjekk at lerretstørrelsen har plass til formen din. Sjekk at formfyll-/strekfarger ikke er gjennomsiktige." },
+              "select": { "title": "Kan ikke velge form", "content": "Bytt til Valgverktøyet (markørikon). Sørg for at formen ikke er skjult bak andre. Prøv å bruke Ctrl+klikk for å bore inn i grupper." },
+              "fail": { "title": "Puslespillgenerering mislykkes", "content": "Sørg for at grenseformen din er en lukket bane. Reduser antall brikker for komplekse former. Sjekk at spormaler er gyldige." },
+              "export": { "title": "Eksport er deaktivert", "content": "Premiumabonnement kreves for å eksportere genererte puslespill. Det gratis nivået tillater design, men begrenser eksportfunksjonalitet." }
+          }
+      },
+      "needHelp": {
+          "title": "Trenger du Mer Hjelp?",
+          "desc": "Besøk støttesiden vår eller kontakt oss direkte for personlig assistanse",
+          "contact": "Kontakt Støtte",
+          "download": "Last ned App"
+      }
+  }
+}

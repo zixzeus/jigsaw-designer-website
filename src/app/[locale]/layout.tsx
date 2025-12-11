@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages} from 'next-intl/server';
+import {notFound} from 'next/navigation';
+import {locales} from '../../i18n/config';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,14 +25,13 @@ export const metadata: Metadata = {
   publisher: "JigsawDesigner",
   openGraph: {
     type: "website",
-    locale: "en_US",
     url: "https://jigsawdesigner.com",
     title: "JigsawDesigner - Professional Jigsaw Puzzle Design Software",
     description: "The ultimate tool for creating custom jigsaw puzzles. Native SVG support, powerful C++ engine, and seamless cross-platform experience.",
     siteName: "JigsawDesigner",
     images: [
       {
-        url: "/og-image.jpg", // Assuming we might add this later or it exists
+        url: "/og-image.jpg", 
         width: 1200,
         height: 630,
         alt: "JigsawDesigner Interface Preview",
@@ -39,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "JigsawDesigner - Professional Jigsaw Puzzle Design Software",
     description: "Create stunning custom jigsaw puzzles with multi-platform support. Advanced SVG editing and powerful algorithms.",
-    creator: "@JigsawDesigner", // Placeholder handle
+    creator: "@JigsawDesigner",
   },
   appleWebApp: {
     capable: true,
@@ -50,17 +53,29 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://jigsawdesigner.com"),
 };
 
-export default function RootLayout({
+export default async function LocaleLayout({
   children,
-}: Readonly<{
+  params
+}: {
   children: React.ReactNode;
-}>) {
+  params: Promise<{locale: string}>;
+}) {
+  const {locale} = await params;
+
+  if (!locales.includes(locale as any)) {
+    notFound();
+  }
+
+  const messages = await getMessages();
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

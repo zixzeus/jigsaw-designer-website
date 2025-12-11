@@ -1,0 +1,227 @@
+{
+  "Navigation": {
+    "features": "Kenmerken",
+    "download": "Downloaden",
+    "github": "GitHub",
+    "getStarted": "Beginnen",
+    "home": "Home",
+    "support": "Ondersteuning",
+    "help": "Helpcentrum"
+  },
+  "Hero": {
+    "version": "v1.3 Binnenkort",
+    "titlePart1": "Ontwerp Puzzels als een <br/>",
+    "titleProfessional": "Pro",
+    "subtitle": "De krachtigste puzzelontwerptool voor Apple-platforms. Native prestaties, SVG-precisie en algoritme-gestuurde generatie.",
+    "download": "Downloaden",
+    "learnMore": "Meer Informatie"
+  },
+  "Features": {
+    "title": "Krachtige Functies",
+    "subtitle": "Alles wat je nodig hebt om puzzels van professionele kwaliteit te maken.",
+    "list": {
+      "customization": {
+        "title": "Onbeperkte Aanpassing",
+        "description": "Pas alles aan, van gastsjablonen en contouren tot de binnenkant van de puzzel. Maak unieke ontwerpen die opvallen."
+      },
+      "workflow": {
+        "title": "Razendsnelle Workflow",
+        "description": "Verander uren handmatig werk in seconden. Genereer complexe puzzelpatronen in slechts 3 seconden met onze geavanceerde engine."
+      },
+      "anywhere": {
+        "title": "Overal Ontwerpen",
+        "description": "Begin op je Mac, verfijn op je iPad en bekijk op je iPhone. Je werkruimte beweegt met je mee."
+      }
+    }
+  },
+  "Footer": {
+    "privacy": "Privacy",
+    "support": "Ondersteuning",
+    "github": "GitHub",
+    "rights": "© {year} JigsawDesigner. Alle rechten voorbehouden."
+  },
+  "Privacy": {
+    "title": "Privacybeleid",
+    "introduction": {
+        "title": "Inleiding",
+        "content": "JigsawDesigner (\"wij\", \"onze\" of \"ons\") respecteert uw privacy en zet zich in om deze te beschermen. Dit Privacybeleid legt uit hoe wij uw informatie verzamelen, gebruiken en beschermen wanneer u onze applicatie en website gebruikt."
+    },
+    "dataCollection": {
+        "title": "Gegevensverzameling",
+        "content": "Wij verzamelen geen persoonlijke gegevens.",
+        "content2": "JigsawDesigner is ontworpen om uw bestanden lokaal op uw apparaat te verwerken. Uw ontwerpen, afbeeldingen en projecten verlaten uw apparaat nooit, tenzij u er expliciet voor kiest om ze te exporteren of te delen.",
+        "list": {
+            "behavior": "Wij volgen uw gebruiksgedrag niet.",
+            "upload": "Wij uploaden uw foto's, zoals puzzelafbeeldingen, niet naar servers.",
+            "sell": "Wij verkopen uw gegevens niet aan derden."
+        }
+    },
+    "analytics": {
+        "title": "App-analyse",
+        "content": "We kunnen standaard opt-in analyses van Apple gebruiken om de prestaties en stabiliteit van de app te verbeteren (bijv. crashrapporten). Deze gegevens zijn anoniem en identificeren u niet persoonlijk. U kunt zich op elk moment afmelden via de instellingen van uw apparaat."
+    },
+    "contact": {
+        "title": "Neem Contact Op",
+        "content": "Als u vragen heeft over dit Privacybeleid, neem dan contact met ons op via:"
+    },
+    "lastUpdated": "Laatst bijgewerkt: 10 december 2025"
+  },
+  "Support": {
+    "hero": {
+        "titlePart1": "Hoe kunnen we",
+        "titlePart2": "u helpen?",
+        "subtitle": "Wij zijn er om uw creatieve reis te ondersteunen. Vind antwoorden of neem contact op met ons team."
+    },
+    "documentation": {
+        "title": "Documentatie",
+        "description": "Verken onze uitgebreide gidsen om de functies en tools van JigsawDesigner onder de knie te krijgen.",
+        "action": "Blader door Artikelen"
+    },
+    "email": {
+        "title": "E-mailondersteuning",
+        "description": "Hulp nodig bij een specifiek probleem? Ons ondersteuningsteam staat klaar om u direct te helpen."
+    },
+    "faq": {
+        "title": "Veelgestelde Vragen",
+        "q1": {
+            "question": "Is JigsawDesigner een eenmalige aankoop?",
+            "answer": "Ja, JigsawDesigner biedt een levenslange licentieoptie en abonnementsplannen. Bekijk de App Store voor de laatste prijzen."
+        },
+        "q2": {
+            "question": "Kan ik mijn ontwerpen exporteren voor commercieel gebruik?",
+            "answer": "Absoluut. Alle ontwerpen die met JigsawDesigner zijn gemaakt, zijn van u. U kunt ze exporteren als SVG of PDF voor productie of commercieel drukwerk."
+        },
+        "q3": {
+            "question": "Ondersteunt het aangepaste stanslijnen?",
+            "answer": "Ja, u kunt aangepaste SVG-paden importeren om als stanslijnen te gebruiken, of onze geavanceerde algoritmen gebruiken om automatisch unieke patronen te genereren."
+        }
+    }
+  },
+  "Help": {
+      "title": "Helpcentrum",
+      "subtitle": "Volledige gids voor het gebruik van JigsawDesigner om professionele puzzels te maken.",
+      "toc": "Inhoudsopgave",
+      "sections": {
+          "gettingStarted": "Aan de slag",
+          "tools": "Tekengereedschappen",
+          "operations": "Elementbewerkingen",
+          "generation": "Puzzelgeneratie",
+          "importExport": "Importeren & Exporteren",
+          "shortcuts": "Sneltoetsen"
+      },
+      "gettingStartedContent": {
+          "title": "Maak Je Eerste Project",
+          "steps": {
+              "1": { "title": "Start JigsawDesigner", "desc": "Open de app op je Mac of iOS-apparaat." },
+              "2": { "title": "Kies een Gereedschap", "desc": "Selecteer een van de 8 tekengereedschappen in de werkbalk." },
+              "3": { "title": "Teken Je Ontwerp", "desc": "Maak vormen, paden of importeer bestaande SVG-bestanden." },
+              "4": { "title": "Genereer Puzzel", "desc": "Klik op 'Genereer Puzzel' om in elkaar grijpende stukjes te maken." },
+              "5": { "title": "Exporteren", "desc": "Sla je puzzel op als SVG voor productie of drukwerk." }
+          }
+      },
+      "toolsContent": {
+        "select": { "title": "Selectiegereedschap", "desc": "Selecteer en verplaats vormen op het canvas. Shift+Klik voor meervoudige selectie, Ctrl+Klik om in groepen te duiken." },
+        "edit": { "title": "Bewerkgereedschap", "desc": "Bewerk de controlepunten van vormen. Pas de geometrie van de vorm nauwkeurig aan door punten te slepen." },
+        "pen": { "title": "Pengereedschap", "desc": "Vrije vorm pad tekenen. Klik en sleep om Bezier-curven en organische vormen te maken." },
+        "line": { "title": "lijngereedschap", "desc": "Teken rechte lijnen. Perfect voor geometrische ontwerpen en nauwkeurige verbindingen." },
+        "rect": { "title": "Rechthoekgereedschap", "desc": "Teken rechthoekige vormen. Klik en sleep vanuit de hoek om te maken." },
+        "circle": { "title": "Cirkelgereedschap", "desc": "Teken cirkels en ellipsen. Sleep vanuit het midden om de straal in te stellen." },
+        "polygon": { "title": "Veelhoekgereedschap", "desc": "Teken veelzijdige veelhoeken. Klik om elk hoekpunt te plaatsen, dubbelklik om te voltooien." },
+        "bezier": { "title": "Beziergereedschap", "desc": "Teken nauwkeurige Bezier-curven met ankerpunten en controlehandgrepen." }
+      },
+      "operationsContent": {
+          "selection": { 
+              "title": "Selectie", 
+              "items": [
+                  "Enkele Selectie: Klik op een vorm",
+                  "Meervoudige Selectie: Shift+Klik op meerdere vormen",
+                  "Selecteer Alles: Druk op ⌘A om alle vormen te selecteren",
+                  "Diepe Selectie: Ctrl+Klik om onderliggende elementen in groepen te selecteren"
+              ] 
+          },
+          "grouping": { 
+              "title": "Groeperen", 
+              "items": [
+                  "Groepeer Vormen: Selecteer meerdere vormen en druk op G",
+                  "Groep Opheffen: Selecteer een groep en druk op ⌘G",
+                  "Geneste Groepen: Maak complexe hiërarchieën"
+              ]
+          },
+          "editing": { 
+              "title": "Bewerken", 
+              "items": [
+                  "Kopiëren: Druk op ⌘C om de geselecteerde elementen te dupliceren",
+                  "Verwijderen: Druk op Delete of Backspace om te verwijderen",
+                  "Transformeren: Gebruik het Inspecteur-paneel om positie, schaal en rotatie aan te passen"
+              ]
+          }
+      },
+      "generationContent": {
+          "howItWorks": {
+              "title": "Hoe Het Werkt",
+              "desc": "JigsawDesigner gebruikt geavanceerde C++ algoritmen met OpenCV en Boost bibliotheken om puzzelstukjes van hoge kwaliteit te genereren met behulp van Voronoi-diagrammen en DCEL-gegevensstructuren."
+          },
+          "steps": {
+              "1": { "title": "Teken Grens", "desc": "Maak de contourvorm die in puzzelstukjes wordt verdeeld." },
+              "2": { "title": "Configureren", "desc": "Stel het aantal stukjes, sleufinstellingen in en kies sjablonen." },
+              "3": { "title": "Genereren", "desc": "Klik op 'Genereren' om het algoritme uit te voeren en in elkaar grijpende stukjes te maken." },
+              "4": { "title": "Exporteren", "desc": "Exporteer als SVG voor productie of drukwerk." }
+          }
+      },
+      "importExportContent": {
+          "import": {
+              "title": "SVG Importeren",
+              "desc": "Importeer bestaande SVG-bestanden om te gebruiken als puzzelgrenzen of ontwerpelementen.",
+              "shortcut": "Sneltoets:",
+              "items": ["Paden, rechthoeken, cirkels", "Groepen en transformaties", "ViewBox en coördinaten"]
+          },
+          "export": {
+              "title": "SVG Exporteren",
+              "desc": "Exporteer je ontwerpen en gegenereerde puzzels als standaard SVG-bestanden.",
+              "shortcut": "Sneltoets:",
+              "items": ["Standaard SVG 1.1 formaat", "Behoudt alle transformaties", "Behoudt groepshiërarchieën"]
+          },
+          "premium": {
+              "title": "Premium Functie",
+              "desc": "Premium abonnement vereist om gegenereerde puzzels te exporteren. Gratis gebruikers kunnen ontwerpen en genereren, maar export is beperkt."
+          }
+      },
+      "shortcutsContent": {
+        "file": {
+            "title": "Bestandsbewerkingen",
+            "new": "Nieuw Project",
+            "import": "SVG Importeren",
+            "export": "SVG Exporteren"
+        },
+        "edit": {
+            "title": "Bewerkingsbewerkingen",
+            "copy": "Kopiëren",
+            "delete": "Verwijderen",
+            "selectAll": "Alles Selecteren",
+            "group": "Groepeer Vormen",
+            "ungroup": "Groep Opheffen"
+        },
+        "selection": {
+            "title": "Selectie",
+            "multi": "Meervoudige Selectie",
+            "drillDown": "Naar Beneden Boren",
+            "drillUp": "Naar Boven Boren"
+        }
+      },
+      "troubleshooting": {
+          "title": "Probleemoplossing",
+          "items": {
+              "shapes": { "title": "Vormen verschijnen niet", "content": "Controleer of je in de juiste tekenmodus bent. Controleer of de canvasgrootte ruimte heeft voor je vorm. Controleer of de vormvulling/lijnkleuren niet transparant zijn." },
+              "select": { "title": "Kan geen vorm selecteren", "content": "Schakel over naar het Selectiegereedschap (cursorpictogram). Zorg ervoor dat de vorm niet achter andere verborgen is. Probeer Ctrl+Klik te gebruiken om in groepen te boren." },
+              "fail": { "title": "Puzzelgeneratie mislukt", "content": "Zorg ervoor dat je grensvorm een gesloten pad is. Verminder het aantal stukjes voor complexe vormen. Controleer of sleufsjablonen geldig zijn." },
+              "export": { "title": "Export is uitgeschakeld", "content": "Premium abonnement vereist om gegenereerde puzzels te exporteren. De gratis laag staat ontwerp toe, maar beperkt de exportfunctionaliteit." }
+          }
+      },
+      "needHelp": {
+          "title": "Meer Hulp Nodig?",
+          "desc": "Bezoek onze ondersteuningspagina of neem direct contact met ons op voor persoonlijke hulp",
+          "contact": "Neem Contact Op",
+          "download": "Download App"
+      }
+  }
+}

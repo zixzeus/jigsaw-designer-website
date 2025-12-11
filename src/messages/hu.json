@@ -1,0 +1,227 @@
+{
+  "Navigation": {
+    "features": "Funkciók",
+    "download": "Letöltés",
+    "github": "GitHub",
+    "getStarted": "Kezdés",
+    "home": "Főoldal",
+    "support": "Támogatás",
+    "help": "Súgó Központ"
+  },
+  "Hero": {
+    "version": "v1.3 Hamarosan",
+    "titlePart1": "Tervezz Puzzle-t Mint Egy <br/>",
+    "titleProfessional": "Profi",
+    "subtitle": "A legerősebb puzzle tervező eszköz Apple platformokra. Natív teljesítmény, SVG pontosság és algoritmus-vezérelt generálás.",
+    "download": "Letöltés",
+    "learnMore": "Tudj Meg Többet"
+  },
+  "Features": {
+    "title": "Erőteljes Funkciók",
+    "subtitle": "Minden, amire szükséged van professzionális minőségű puzzle-k készítéséhez.",
+    "list": {
+      "customization": {
+        "title": "Korlátlan Testreszabás",
+        "description": "Szabj testre mindent a slot sablonoktól és körvonalaktól a puzzle belsejéig. Készíts egyedi terveket, amelyek kitűnnek."
+      },
+      "workflow": {
+        "title": "Villámgyors Munkafolyamat",
+        "description": "Változtasd a kézi munka óráit másodpercekké. Generálj összetett puzzle mintákat mindössze 3 másodperc alatt fejlett motorunkkal."
+      },
+      "anywhere": {
+        "title": "Tervezz Bárhol",
+        "description": "Kezdd a Mac-eden, finomítsd az iPadeden, és ellenőrizd az iPhone-odon. A munkaterületed veled mozog."
+      }
+    }
+  },
+  "Footer": {
+    "privacy": "Adatvédelem",
+    "support": "Támogatás",
+    "github": "GitHub",
+    "rights": "© {year} JigsawDesigner. Minden jog fenntartva."
+  },
+  "Privacy": {
+    "title": "Adatvédelmi Szabályzat",
+    "introduction": {
+        "title": "Bevezetés",
+        "content": "A JigsawDesigner (\"mi\", \"miénk\" vagy \"minket\") tiszteletben tartja az Ön magánéletét és elkötelezett annak védelme iránt. Ez az Adatvédelmi Szabályzat elmagyarázza, hogyan gyűjtjük, használjuk és védjük az Ön adatait, amikor alkalmazásunkat és weboldalunkat használja."
+    },
+    "dataCollection": {
+        "title": "Adatgyűjtés",
+        "content": "Nem gyűjtünk személyes adatokat.",
+        "content2": "A JigsawDesigner úgy lett tervezve, hogy fájljait helyileg dolgozza fel az eszközén. Tervei, képei és projektjei soha nem hagyják el eszközét, kivéve, ha kifejezetten úgy dönt, hogy exportálja vagy megosztja őket.",
+        "list": {
+            "behavior": "Nem követjük nyomon használati viselkedését.",
+            "upload": "Nem töltjük fel fotóit, például puzzle képeket, semmilyen szerverre.",
+            "sell": "Nem adjuk el adatait harmadik feleknek."
+        }
+    },
+    "analytics": {
+        "title": "Alkalmazás Analitika",
+        "content": "Használhatunk szabványos Apple opt-in analitikát az alkalmazás teljesítményének és stabilitásának javítására (pl. összeomlási jelentések). Ezek az adatok névtelenek és nem azonosítják Önt személyesen. Bármikor leiratkozhat az eszköze beállításaiban."
+    },
+    "contact": {
+        "title": "Lépjen Kapcsolatba Velünk",
+        "content": "Ha bármilyen kérdése van ezzel az Adatvédelmi Szabályzattal kapcsolatban, kérjük, lépjen kapcsolatba velünk a következő címen:"
+    },
+    "lastUpdated": "Utoljára frissítve: 2025. december 10."
+  },
+  "Support": {
+    "hero": {
+        "titlePart1": "Hogyan tudunk",
+        "titlePart2": "segíteni Önnek?",
+        "subtitle": "Itt vagyunk, hogy támogassuk kreatív útját. Találjon válaszokat vagy lépjen kapcsolatba csapatunkkal."
+    },
+    "documentation": {
+        "title": "Dokumentáció",
+        "description": "Fedezze fel átfogó útmutatóinkat a JigsawDesigner funkcióinak és eszközeinek elsajátításához.",
+        "action": "Cikkek Böngészése"
+    },
+    "email": {
+        "title": "E-mail Támogatás",
+        "description": "Segítségre van szüksége egy adott problémával kapcsolatban? Támogató csapatunk készen áll, hogy közvetlenül segítsen Önnek."
+    },
+    "faq": {
+        "title": "Gyakran Ismételt Kérdések",
+        "q1": {
+            "question": "A JigsawDesigner egyszeri vásárlás?",
+            "answer": "Igen, a JigsawDesigner kínál élettartamra szóló licenclehetőséget, valamint előfizetési terveket is. Ellenőrizze az App Store-t a legfrissebb árakért."
+        },
+        "q2": {
+            "question": "Exportálhatom a terveimet kereskedelmi használatra?",
+            "answer": "Természetesen. Minden JigsawDesignerrel készített terv az Öné. Exportálhatja őket SVG vagy PDF formátumban gyártáshoz vagy kereskedelmi nyomtatáshoz."
+        },
+        "q3": {
+            "question": "Támogatja az egyedi vágóvonalakat?",
+            "answer": "Igen, importálhat egyedi SVG útvonalakat vágóvonalakként való használatra, vagy használhatja fejlett algoritmusainkat egyedi minták automatikus generálásához."
+        }
+    }
+  },
+  "Help": {
+      "title": "Súgó Központ",
+      "subtitle": "Teljes útmutató a JigsawDesigner használatához professzionális puzzle-k készítéséhez.",
+      "toc": "Tartalomjegyzék",
+      "sections": {
+          "gettingStarted": "Kezdő lépések",
+          "tools": "Rajzeszközök",
+          "operations": "Elem Műveletek",
+          "generation": "Puzzle Generálás",
+          "importExport": "Importálás és Exportálás",
+          "shortcuts": "Billentyűparancsok"
+      },
+      "gettingStartedContent": {
+          "title": "Hozd Létre Első Projektedet",
+          "steps": {
+              "1": { "title": "Indítsd el a JigsawDesignert", "desc": "Nyisd meg az alkalmazást Mac vagy iOS eszközödön." },
+              "2": { "title": "Válassz Eszközt", "desc": "Válassz a 8 rajzeszköz közül az eszköztáron." },
+              "3": { "title": "Rajzold Meg Terveidet", "desc": "Készíts alakzatokat, útvonalakat vagy importálj meglévő SVG fájlokat." },
+              "4": { "title": "Puzzle Generálása", "desc": "Kattints a 'Puzzle Generálása' gombra az egymásba illeszkedő darabok létrehozásához." },
+              "5": { "title": "Exportálás", "desc": "Mentsd el puzzle-ödet SVG-ként gyártáshoz vagy nyomtatáshoz." }
+          }
+      },
+      "toolsContent": {
+        "select": { "title": "Kijelölő Eszköz", "desc": "Jelölj ki és mozgass alakzatokat a vásznon. Shift+Kattintás a többszörös kijelöléshez, Ctrl+Kattintás a csoportokba fúráshoz." },
+        "edit": { "title": "Szerkesztő Eszköz", "desc": "Szerkeszd az alakzatok vezérlőpontjait. Állítsd be pontosan az alakzat geometriáját a pontok húzásával." },
+        "pen": { "title": "Toll Eszköz", "desc": "Szabadkézi útvonal rajzolás. Kattints és húzz a Bezier görbék és organikus alakzatok létrehozásához." },
+        "line": { "title": "Vonal Eszköz", "desc": "Rajzolj egyenes vonalakat. Tökéletes geometriai tervekhez és pontos kapcsolatokhoz." },
+        "rect": { "title": "Téglalap Eszköz", "desc": "Rajzolj téglalap alakzatokat. Kattints és húzz a sarokból a létrehozáshoz." },
+        "circle": { "title": "Kör Eszköz", "desc": "Rajzolj köröket és ellipsziseket. Húzz a középpontból a sugár beállításához." },
+        "polygon": { "title": "Sokszög Eszköz", "desc": "Rajzolj többoldalú sokszögeket. Kattints minden csúcs elhelyezéséhez, dupla kattintás a befejezéshez." },
+        "bezier": { "title": "Bezier Eszköz", "desc": "Rajzolj pontos Bezier görbéket horgonypontokkal és vezérlő karokkal." }
+      },
+      "operationsContent": {
+          "selection": { 
+              "title": "Kijelölés", 
+              "items": [
+                  "Egytelen Kijelölés: Kattints bármelyik alakzatra",
+                  "Többszörös Kijelölés: Shift+Kattintás több alakzatra",
+                  "Összes Kijelölése: Nyomd meg a ⌘A billentyűt az összes alakzat kijelöléséhez",
+                  "Mély Kijelölés: Ctrl+Kattintás a csoportokban lévő gyermekelemek kijelöléséhez"
+              ] 
+          },
+          "grouping": { 
+              "title": "Csoportosítás", 
+              "items": [
+                  "Alakzatok Csoportosítása: Jelölj ki több alakzatot és nyomd meg a G billentyűt",
+                  "Csoport Bontiása: Jelölj ki egy csoportot és nyomd meg a ⌘G billentyűt",
+                  "Beágyazott Csoportok: Hozz létre összetett hierarchiákat"
+              ]
+          },
+          "editing": { 
+              "title": "Szerkesztés", 
+              "items": [
+                  "Másolás: Nyomd meg a ⌘C billentyűt a kijelölt elemek másolásához",
+                  "Törlés: Nyomd meg a Delete vagy Backspace billentyűt az eltávolításhoz",
+                  "Átalakítás: Használd az Inspector panelt a pozíció, méretarány és forgatás beállításához"
+              ]
+          }
+      },
+      "generationContent": {
+          "howItWorks": {
+              "title": "Hogyan Működik",
+              "desc": "A JigsawDesigner fejlett C++ algoritmusokat használ OpenCV és Boost könyvtárakkal kiváló minőségű puzzle darabok generálásához Voronoi diagramok és DCEL adatstruktúrák segítségével."
+          },
+          "steps": {
+              "1": { "title": "Húzz Határt", "desc": "Hozd létre a körvonal alakzatot, amely puzzle darabokra lesz osztva." },
+              "2": { "title": "Konfigurálás", "desc": "Állítsd be a darabszámot, a slot beállításokat és válassz sablonokat." },
+              "3": { "title": "Generálás", "desc": "Kattints a 'Generálás' gombra az algoritmus futtatásához és az egymásba illeszkedő darabok létrehozásához." },
+              "4": { "title": "Exportálás", "desc": "Exportáld SVG-ként gyártáshoz vagy nyomtatáshoz." }
+          }
+      },
+      "importExportContent": {
+          "import": {
+              "title": "SVG Importálása",
+              "desc": "Importálj meglévő SVG fájlokat puzzle határként vagy tervezési elemként való használatra.",
+              "shortcut": "Gyorsbillentyű:",
+              "items": ["Útvonalak, téglalapok, körök", "Csoportok és átalakítások", "ViewBox és koordináták"]
+          },
+          "export": {
+              "title": "SVG Exportálása",
+              "desc": "Exportáld terveidet és generált puzzle-öidet szabványos SVG fájlokként.",
+              "shortcut": "Gyorsbillentyű:",
+              "items": ["Szabványos SVG 1.1 formátum", "Minden átalakítást megőriz", "Megőrzi a csoport hierarchiákat"]
+          },
+          "premium": {
+              "title": "Prémium Funkció",
+              "desc": "Prémium előfizetés szükséges a generált puzzle-ök exportálásához. Az ingyenes felhasználók tervezhetnek és generálhatnak, de az exportálás korlátozott."
+          }
+      },
+      "shortcutsContent": {
+        "file": {
+            "title": "Fájl Műveletek",
+            "new": "Új Projekt",
+            "import": "SVG Importálása",
+            "export": "SVG Exportálása"
+        },
+        "edit": {
+            "title": "Szerkesztési Műveletek",
+            "copy": "Másolás",
+            "delete": "Törlés",
+            "selectAll": "Összes Kijelölése",
+            "group": "Alakzatok Csoportosítása",
+            "ungroup": "Csoport Bontiása"
+        },
+        "selection": {
+            "title": "Kijelölés",
+            "multi": "Többszörös Kijelölés",
+            "drillDown": "Fúrás Le",
+            "drillUp": "Fúrás Fel"
+        }
+      },
+      "troubleshooting": {
+          "title": "Hibaelhárítás",
+          "items": {
+              "shapes": { "title": "Az alakzatok nem jelennek meg", "content": "Ellenőrizd, hogy a megfelelő rajz módban vagy-e. Ellenőrizd, hogy a vászon mérete elegendő-e az alakzatodhoz. Ellenőrizd, hogy az alakzat kitöltése/körvonala nem átlátszó-e." },
+              "select": { "title": "Nem lehet kijelölni az alakzatot", "content": "Válts a Kijelölő Eszközre (kurzor ikon). Győződj meg róla, hogy az alakzat nincs mások mögé rejtve. Próbáld meg a Ctrl+Kattintást a csoportokba fúráshoz." },
+              "fail": { "title": "A puzzle generálás sikertelen", "content": "Győződj meg róla, hogy a határoló alakzatod zárt útvonal. Csökkentsd a darabszámot összetett alakzatoknál. Ellenőrizd, hogy a slot sablonok érvényesek-e." },
+              "export": { "title": "Az exportálás le van tiltva", "content": "Prémium előfizetés szükséges a generált puzzle-ök exportálásához. Az ingyenes szint lehetővé teszi a tervezést, de korlátozza az exportálási funkciókat." }
+          }
+      },
+      "needHelp": {
+          "title": "További Segítségre Van Szüksége?",
+          "desc": "Látogassa meg támogatási oldalunkat vagy lépjen kapcsolatba velünk közvetlenül személyes segítségért",
+          "contact": "Kapcsolatfelvétel a Támogatással",
+          "download": "Alkalmazás Letöltése"
+      }
+  }
+}

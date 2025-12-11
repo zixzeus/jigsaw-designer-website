@@ -1,0 +1,227 @@
+{
+  "Navigation": {
+    "features": "特性",
+    "download": "下载",
+    "github": "GitHub",
+    "getStarted": "开始使用",
+    "home": "首页",
+    "support": "支持",
+    "help": "帮助中心"
+  },
+  "Hero": {
+    "version": "v1.3 即将发布",
+    "titlePart1": "像专业人士一样<br/>",
+    "titleProfessional": "设计拼图",
+    "subtitle": "适用于 Apple 平台的最强大的拼图设计工具。原生性能，SVG 精度，以及算法驱动的生成。",
+    "download": "下载",
+    "learnMore": "了解更多"
+  },
+  "Features": {
+    "title": "强大功能",
+    "subtitle": "创建专业质量拼图所需的一切。",
+    "list": {
+      "customization": {
+        "title": "无限自定义",
+        "description": "自定义从插槽模板和轮廓到拼图内部的一切。创建脱颖而出的独特设计。"
+      },
+      "workflow": {
+        "title": "闪电般的工作流",
+        "description": "将数小时的手工工作转化为几秒钟。使用我们先进的引擎在 3 秒内生成复杂的拼图图案。"
+      },
+      "anywhere": {
+        "title": "随时随地设计",
+        "description": "在 Mac 上开始，在 iPad 上完善，在 iPhone 上预览。您的工作空间随您而动。"
+      }
+    }
+  },
+  "Footer": {
+    "privacy": "隐私",
+    "support": "支持",
+    "github": "GitHub",
+    "rights": "© {year} JigsawDesigner. 保留所有权利。"
+  },
+  "Privacy": {
+    "title": "隐私政策",
+    "introduction": {
+        "title": "介绍",
+        "content": "JigsawDesigner（“我们”或“我们的”）尊重您的隐私并致力于保护它。本隐私政策解释了当您使用我们的应用程序和网站时，我们如何收集、使用和保护您的信息。"
+    },
+    "dataCollection": {
+        "title": "数据收集",
+        "content": "我们不收集个人数据。",
+        "content2": "JigsawDesigner 旨在在您的设备上本地处理文件。您的设计、图像和项目永远不会离开您的设备，除非您明确选择导出或共享它们。",
+        "list": {
+            "behavior": "我们不跟踪您的使用行为。",
+            "upload": "我们不会将您的照片（如拼图图像）上传到任何服务器。",
+            "sell": "我们不会向第三方出售您的数据。"
+        }
+    },
+    "analytics": {
+        "title": "应用分析",
+        "content": "我们可能会使用 Apple 的标准选择性加入分析来提高应用程序的性能和稳定性（例如，崩溃报告）。此数据是匿名的，不会识别您的个人身份。您可以随时通过设备设置选择退出。"
+    },
+    "contact": {
+        "title": "联系我们",
+        "content": "如果您对本隐私政策有任何疑问，请联系我们："
+    },
+    "lastUpdated": "最后更新：2025年12月10日"
+  },
+  "Support": {
+    "hero": {
+        "titlePart1": "我们如何",
+        "titlePart2": "为您提供帮助？",
+        "subtitle": "我们在这里支持您的创作之旅。查找答案或与我们的团队取得联系。"
+    },
+    "documentation": {
+        "title": "文档",
+        "description": "探索我们全面的指南，掌握 JigsawDesigner 的功能和工具。",
+        "action": "浏览文章"
+    },
+    "email": {
+        "title": "电子邮件支持",
+        "description": "需要特定问题的帮助？我们的支持团队随时准备直接为您提供帮助。"
+    },
+    "faq": {
+        "title": "常见问题",
+        "q1": {
+            "question": "JigsawDesigner 是买断制吗？",
+            "answer": "是的，JigsawDesigner 提供终身许可证选项以及订阅计划。请在 App Store 查看最新价格。"
+        },
+        "q2": {
+            "question": "我可以将设计导出用于商业用途吗？",
+            "answer": "当然。使用 JigsawDesigner 创建的所有设计都归您所有。您可以将其导出为 SVG 或 PDF 以进行制造或商业印刷。"
+        },
+        "q3": {
+            "question": "它支持自定义刀模线吗？",
+            "answer": "支持，您可以导入自定义 SVG 路径用作刀模线，或者使用我们先进的算法自动生成独特的图案。"
+        }
+    }
+  },
+  "Help": {
+      "title": "帮助中心",
+      "subtitle": "使用 JigsawDesigner 创建专业拼图的完整指南。",
+      "toc": "目录",
+      "sections": {
+          "gettingStarted": "快速入门",
+          "tools": "绘图工具",
+          "operations": "图元操作",
+          "generation": "拼图生成",
+          "importExport": "导入与导出",
+          "shortcuts": "键盘快捷键"
+      },
+      "gettingStartedContent": {
+          "title": "创建您的第一个项目",
+          "steps": {
+              "1": { "title": "启动 JigsawDesigner", "desc": "在您的 Mac 或 iOS 设备上打开应用程序。" },
+              "2": { "title": "选择工具", "desc": "从工具栏中的 8 个绘图工具中进行选择。" },
+              "3": { "title": "绘制您的设计", "desc": "创建形状、路径或导入现有的 SVG 文件。" },
+              "4": { "title": "生成拼图", "desc": "点击“生成拼图”以创建互锁的拼图块。" },
+              "5": { "title": "导出", "desc": "将拼图保存为 SVG 以进行制造或打印。" }
+          }
+      },
+      "toolsContent": {
+        "select": { "title": "选择工具", "desc": "在画布上选择和移动形状。Shift+单击以多选，Ctrl+单击以深入组内。" },
+        "edit": { "title": "编辑工具", "desc": "编辑形状的控制点。通过拖动点精确调整形状几何。" },
+        "pen": { "title": "钢笔工具", "desc": "自由形式路径绘制。单击并拖动以创建贝塞尔曲线和有机形状。" },
+        "line": { "title": "直线工具", "desc": "绘制直线。非常适合几何设计和精确连接。" },
+        "rect": { "title": "矩形工具", "desc": "绘制矩形形状。从角拖动以创建。" },
+        "circle": { "title": "圆形工具", "desc": "绘制圆形和椭圆。从中心拖动以设置半径。" },
+        "polygon": { "title": "多边形工具", "desc": "绘制多边形。单击以放置每个顶点，双击以完成。" },
+        "bezier": { "title": "贝塞尔工具", "desc": "绘制具有锚点和控制手柄的精确贝塞尔曲线。" }
+      },
+      "operationsContent": {
+          "selection": { 
+              "title": "选择", 
+              "items": [
+                  "单选：单击任意形状",
+                  "多选：Shift+单击多个形状",
+                  "全选：按 ⌘A 选择所有形状",
+                  "深度选择：Ctrl+单击以选择组中的子元素"
+              ] 
+          },
+          "grouping": { 
+              "title": "分组", 
+              "items": [
+                  "组合形状：选择多个形状并按 G",
+                  "取消组合：选择组并按 ⌘G",
+                  "嵌套组：创建复杂的层次结构"
+              ]
+          },
+          "editing": { 
+              "title": "编辑", 
+              "items": [
+                  "复制：按 ⌘C 复制所选元素",
+                  "删除：按 Delete 或 Backspace 移除",
+                  "变换：使用检查器面板调整位置、缩放和旋转"
+              ]
+          }
+      },
+      "generationContent": {
+          "howItWorks": {
+              "title": "工作原理",
+              "desc": "JigsawDesigner 使用带有 OpenCV 和 Boost 库的高级 C++ 算法，利用 Voronoi 图和 DCEL 数据结构生成高质量的拼图块。"
+          },
+          "steps": {
+              "1": { "title": "绘制边界", "desc": "创建将被划分为拼图块的轮廓形状。" },
+              "2": { "title": "配置", "desc": "设置拼图块数量、插槽设置并选择模板。" },
+              "3": { "title": "生成", "desc": "点击“生成”以运行算法并创建互锁块。" },
+              "4": { "title": "导出", "desc": "导出为 SVG 以进行制造或打印。" }
+          }
+      },
+      "importExportContent": {
+          "import": {
+              "title": "导入 SVG",
+              "desc": "导入现有的 SVG 文件用作拼图边界或设计元素。",
+              "shortcut": "快捷键：",
+              "items": ["路径、矩形、圆形", "组和变换", "ViewBox 和坐标"]
+          },
+          "export": {
+              "title": "导出 SVG",
+              "desc": "将您的设计和生成的拼图导出为标准 SVG 文件。",
+              "shortcut": "快捷键：",
+              "items": ["标准 SVG 1.1 格式", "保留所有变换", "维护组层次结构"]
+          },
+          "premium": {
+              "title": "高级功能",
+              "desc": "导出生成的拼图需要高级订阅。免费用户可以设计和生成，但导出受限。"
+          }
+      },
+      "shortcutsContent": {
+        "file": {
+            "title": "文件操作",
+            "new": "新建项目",
+            "import": "导入 SVG",
+            "export": "导出 SVG"
+        },
+        "edit": {
+            "title": "编辑操作",
+            "copy": "复制",
+            "delete": "删除",
+            "selectAll": "全选",
+            "group": "组合形状",
+            "ungroup": "取消组合"
+        },
+        "selection": {
+            "title": "选择",
+            "multi": "多选",
+            "drillDown": "深入",
+            "drillUp": "钻出"
+        }
+      },
+      "troubleshooting": {
+          "title": "故障排除",
+          "items": {
+              "shapes": { "title": "形状未显示", "content": "检查您是否处于正确的绘图模式。验证画布大小是否有空间放置形状。检查形状填充/描边颜色是否透明。" },
+              "select": { "title": "无法选择形状", "content": "切换到选择工具（光标图标）。确保形状未被其他形状遮挡。尝试使用 Ctrl+单击深入组内。" },
+              "fail": { "title": "拼图生成失败", "content": "确保您的边界形状是闭合路径。对于复杂形状，请减少拼图块数量。检查插槽模板是否有效。" },
+              "export": { "title": "导出已禁用", "content": "导出生成的拼图需要高级订阅。免费层允许设计但限制导出功能。" }
+          }
+      },
+      "needHelp": {
+          "title": "需要更多帮助？",
+          "desc": "访问我们的支持页面或直接联系我们以获得个性化帮助",
+          "contact": "联系支持",
+          "download": "下载应用"
+      }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "Navigation": {
+    "features": "Features",
+    "download": "Download",
+    "github": "GitHub",
+    "getStarted": "Get Started",
+    "home": "Home",
+    "support": "Support",
+    "help": "Help Center"
+  },
+  "Hero": {
+    "version": "v1.3 Coming Soon",
+    "titlePart1": "Design Jigsaw Puzzles like a <br/>",
+    "titleProfessional": "Professional",
+    "subtitle": "The most powerful jigsaw puzzle design tool for Apple platforms. Native performance, SVG precision, and algorithm-driven generation.",
+    "download": "Download",
+    "learnMore": "Learn More"
+  },
+  "Features": {
+    "title": "Powerful Features",
+    "subtitle": "Everything you need to create professional quality puzzles.",
+    "list": {
+      "customization": {
+        "title": "Limitless Customization",
+        "description": "Customize everything from slot templates and contours to puzzle interiors. Create unique designs that stand out."
+      },
+      "workflow": {
+        "title": "Lightning Fast Workflow",
+        "description": "Turn hours of manual work into seconds. Generate complex jigsaw patterns in just 3 seconds with our advanced engine."
+      },
+      "anywhere": {
+        "title": "Design Anywhere",
+        "description": "Start on your Mac, refine on your iPad, and review on your iPhone. Your workspace moves with you."
+      }
+    }
+  },
+  "Footer": {
+    "privacy": "Privacy",
+    "support": "Support",
+    "github": "GitHub",
+    "rights": "© {year} JigsawDesigner. All rights reserved."
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "introduction": {
+        "title": "Introduction",
+        "content": "JigsawDesigner (\"we\", \"our\", or \"us\") respects your privacy and is committed to protecting it. This Privacy Policy explains how we collect, use, and safeguard your information when you use our application and website."
+    },
+    "dataCollection": {
+        "title": "Data Collection",
+        "content": "We do not collect personal data.",
+        "content2": "JigsawDesigner is designed to process your files locally on your device. Your designs, images, and projects never leave your device unless you explicitly choose to export or share them.",
+        "list": {
+            "behavior": "We do not track your usage behavior.",
+            "upload": "We do not upload your photos such as puzzle images to any server.",
+            "sell": "We do not sell your data to third parties."
+        }
+    },
+    "analytics": {
+        "title": "App Analytics",
+        "content": "We may use Apple's standard opt-in analytics to improve app performance and stability (e.g., crash reports). This data is anonymous and does not identify you personally. You can opt-out of this at any time through your device settings."
+    },
+    "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:"
+    },
+    "lastUpdated": "Last updated: December 10, 2025"
+  },
+  "Support": {
+    "hero": {
+        "titlePart1": "How can we",
+        "titlePart2": "help you?",
+        "subtitle": "We are here to support your creative journey. Find answers or get in touch with our team."
+    },
+    "documentation": {
+        "title": "Documentation",
+        "description": "Explore our comprehensive guides to master JigsawDesigner features and tools.",
+        "action": "Browse Articles"
+    },
+    "email": {
+        "title": "Email Support",
+        "description": "Need help with a specific issue? Our support team is ready to assist you directly."
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+            "question": "Is JigsawDesigner a one-time purchase?",
+            "answer": "Yes, JigsawDesigner offers a lifetime license option as well as subscription plans. Check the App Store for the latest pricing."
+        },
+        "q2": {
+            "question": "Can I export my designs for commercial use?",
+            "answer": "Absolutely. All designs created with JigsawDesigner are yours. You can export them as SVG or PDF for manufacturing or commercial printing."
+        },
+        "q3": {
+            "question": "Does it support custom die lines?",
+            "answer": "Yes, you can import custom SVG paths to use as die lines, or use our advanced algorithms to generate unique patterns automatically."
+        }
+    }
+  },
+  "Help": {
+      "title": "Help Center",
+      "subtitle": "Complete guide to using JigsawDesigner for creating professional jigsaw puzzles.",
+      "toc": "Table of Contents",
+      "sections": {
+          "gettingStarted": "Getting Started",
+          "tools": "Drawing Tools",
+          "operations": "Element Operations",
+          "generation": "Jigsaw Generation",
+          "importExport": "Import & Export",
+          "shortcuts": "Keyboard Shortcuts"
+      },
+      "gettingStartedContent": {
+          "title": "Create Your First Project",
+          "steps": {
+              "1": { "title": "Launch JigsawDesigner", "desc": "Open the application on your Mac or iOS device." },
+              "2": { "title": "Choose a Tool", "desc": "Select from 8 drawing tools in the toolbar." },
+              "3": { "title": "Draw Your Design", "desc": "Create shapes, paths, or import existing SVG files." },
+              "4": { "title": "Generate Jigsaw", "desc": "Click \"Generate Jigsaw\" to create puzzle pieces." },
+              "5": { "title": "Export", "desc": "Save your puzzle as SVG for manufacturing or printing." }
+          }
+      },
+      "toolsContent": {
+        "select": { "title": "Select Tool", "desc": "Select and move shapes on the canvas. Shift+Click for multi-select, Ctrl+Click to drill into groups." },
+        "edit": { "title": "Edit Tool", "desc": "Edit control points of shapes. Adjust shape geometry precisely by dragging points." },
+        "pen": { "title": "Pen Tool", "desc": "Free-form path drawing. Click and drag to create bezier curves and organic shapes." },
+        "line": { "title": "Line Tool", "desc": "Draw straight lines. Perfect for geometric designs and precise connections." },
+        "rect": { "title": "Rectangle Tool", "desc": "Draw rectangular shapes. Click and drag from corner to create." },
+        "circle": { "title": "Circle Tool", "desc": "Draw circles and ellipses. Drag from center to set radius." },
+        "polygon": { "title": "Polygon Tool", "desc": "Draw multi-sided polygons. Click to place each vertex, double-click to finish." },
+        "bezier": { "title": "Bezier Tool", "desc": "Draw precise Bezier curves with anchor points and control handles." }
+      },
+      "operationsContent": {
+          "selection": { 
+              "title": "Selection", 
+              "items": [
+                  "Single Select: Click on any shape",
+                  "Multi-Select: Shift+Click multiple shapes",
+                  "Select All: Press ⌘A to select all shapes",
+                  "Deep Selection: Ctrl+Click to select child elements in groups"
+              ] 
+          },
+          "grouping": { 
+              "title": "Grouping", 
+              "items": [
+                  "Group Shapes: Select multiple shapes and press G",
+                  "Ungroup: Select a group and press ⌘G",
+                  "Nested Groups: Create complex hierarchies"
+              ]
+          },
+          "editing": { 
+              "title": "Editing", 
+              "items": [
+                  "Copy: Press ⌘C to duplicate selected elements",
+                  "Delete: Press Delete or Backspace to remove",
+                  "Transform: Use Inspector panel to adjust position, scale, and rotation"
+              ]
+          }
+      },
+      "generationContent": {
+          "howItWorks": {
+              "title": "How It Works",
+              "desc": "JigsawDesigner uses advanced C++ algorithms with OpenCV and Boost libraries to generate high-quality puzzle pieces using Voronoi diagrams and DCEL data structures."
+          },
+          "steps": {
+              "1": { "title": "Draw Boundary", "desc": "Create the outline shape that will be divided into puzzle pieces." },
+              "2": { "title": "Configure", "desc": "Set piece count, slot settings, and choose templates." },
+              "3": { "title": "Generate", "desc": "Click 'Generate' to run the algorithm and create interlocking pieces." },
+              "4": { "title": "Export", "desc": "Export as SVG for manufacturing or printing." }
+          }
+      },
+      "importExportContent": {
+          "import": {
+              "title": "Import SVG",
+              "desc": "Import existing SVG files to use as puzzle boundaries or design elements.",
+              "shortcut": "Shortcut:",
+              "items": ["Paths, rectangles, circles", "Groups and transforms", "ViewBox and coordinates"]
+          },
+          "export": {
+              "title": "Export SVG",
+              "desc": "Export your designs and generated puzzles as standard SVG files.",
+              "shortcut": "Shortcut:",
+              "items": ["Standard SVG 1.1 format", "Preserves all transforms", "Maintains group hierarchies"]
+          },
+          "premium": {
+              "title": "Premium Feature",
+              "desc": "Premium subscription required for exporting generated jigsaw puzzles. Free users can design and generate, but export is limited."
+          }
+      },
+      "shortcutsContent": {
+        "file": {
+            "title": "File Operations",
+            "new": "New Project",
+            "import": "Import SVG",
+            "export": "Export SVG"
+        },
+        "edit": {
+            "title": "Edit Operations",
+            "copy": "Copy",
+            "delete": "Delete",
+            "selectAll": "Select All",
+            "group": "Group Shapes",
+            "ungroup": "Ungroup"
+        },
+        "selection": {
+            "title": "Selection",
+            "multi": "Multi-Select",
+            "drillDown": "Drill Down",
+            "drillUp": "Drill Up"
+        }
+      },
+      "troubleshooting": {
+          "title": "Troubleshooting",
+          "items": {
+              "shapes": { "title": "Shapes aren't appearing", "content": "Check that you're in the correct drawing mode. Verify canvas size has space for your shape. Check shape fill/stroke colors aren't transparent." },
+              "select": { "title": "Can't select a shape", "content": "Switch to Select Tool (cursor icon). Ensure the shape isn't hidden behind others. Try using Ctrl+Click to drill into groups." },
+              "fail": { "title": "Jigsaw generation fails", "content": "Ensure your boundary shape is a closed path. Reduce piece count for complex shapes. Check that slot templates are valid." },
+              "export": { "title": "Export is disabled", "content": "Premium subscription required for exporting generated puzzles. Free tier allows design but limits export functionality." }
+          }
+      },
+      "needHelp": {
+          "title": "Need More Help?",
+          "desc": "Visit our support page or contact us directly for personalized assistance",
+          "contact": "Contact Support",
+          "download": "Download App"
+      }
+  }
+}

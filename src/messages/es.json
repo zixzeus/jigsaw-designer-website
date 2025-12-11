@@ -1,0 +1,227 @@
+{
+  "Navigation": {
+    "features": "Características",
+    "download": "Descargar",
+    "github": "GitHub",
+    "getStarted": "Comenzar",
+    "home": "Inicio",
+    "support": "Soporte",
+    "help": "Centro de Ayuda"
+  },
+  "Hero": {
+    "version": "v1.3 Próximamente",
+    "titlePart1": "Diseña Rompecabezas como un <br/>",
+    "titleProfessional": "Profesional",
+    "subtitle": "La herramienta de diseño de rompecabezas más potente para las plataformas de Apple. Rendimiento nativo, precisión SVG y generación controlada por algoritmos.",
+    "download": "Descargar",
+    "learnMore": "Saber Más"
+  },
+  "Features": {
+    "title": "Características Potentes",
+    "subtitle": "Todo lo que necesitas para crear rompecabezas de calidad profesional.",
+    "list": {
+      "customization": {
+        "title": "Personalización Ilimitada",
+        "description": "Personaliza todo, desde plantillas de ranuras y contornos hasta los interiores de los rompecabezas. Crea diseños únicos que destaquen."
+      },
+      "workflow": {
+        "title": "Flujo de Trabajo Ultrarrápido",
+        "description": "Convierte horas de trabajo manual en segundos. Genera patrones de rompecabezas complejos en solo 3 segundos con nuestro motor avanzado."
+      },
+      "anywhere": {
+        "title": "Diseña en Cualquier Lugar",
+        "description": "Comienza en tu Mac, refina en tu iPad y revisa en tu iPhone. Tu espacio de trabajo se mueve contigo."
+      }
+    }
+  },
+  "Footer": {
+    "privacy": "Privacidad",
+    "support": "Soporte",
+    "github": "GitHub",
+    "rights": "© {year} JigsawDesigner. Todos los derechos reservados."
+  },
+  "Privacy": {
+    "title": "Política de Privacidad",
+    "introduction": {
+        "title": "Introducción",
+        "content": "JigsawDesigner (\"nosotros\", \"nuestro\" o \"nos\") respeta tu privacidad y se compromete a protegerla. Esta Política de Privacidad explica cómo recopilamos, usamos y salvaguardamos tu información cuando utilizas nuestra aplicación y sitio web."
+    },
+    "dataCollection": {
+        "title": "Recopilación de Datos",
+        "content": "No recopilamos datos personales.",
+        "content2": "JigsawDesigner está diseñado para procesar tus archivos localmente en tu dispositivo. Tus diseños, imágenes y proyectos nunca salen de tu dispositivo a menos que elijas explícitamente exportarlos o compartirlos.",
+        "list": {
+            "behavior": "No rastreados tu comportamiento de uso.",
+            "upload": "No subimos tus fotos, como imágenes de rompecabezas, a ningún servidor.",
+            "sell": "No vendemos tus datos a terceros."
+        }
+    },
+    "analytics": {
+        "title": "Análisis de la Aplicación",
+        "content": "Podemos utilizar análisis estándar de Apple (opt-in) para mejorar el rendimiento y la estabilidad de la aplicación (por ejemplo, informes de bloqueo). Estos datos son anónimos y no te identifican personalmente. Puedes optar por no participar en cualquier momento a través de la configuración de tu dispositivo."
+    },
+    "contact": {
+        "title": "Contáctanos",
+        "content": "Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en:"
+    },
+    "lastUpdated": "Última actualización: 10 de diciembre de 2025"
+  },
+  "Support": {
+    "hero": {
+        "titlePart1": "¿Cómo podemos",
+        "titlePart2": "ayudarte?",
+        "subtitle": "Estamos aquí para apoyar tu viaje creativo. Encuentra respuestas o ponte en contacto con nuestro equipo."
+    },
+    "documentation": {
+        "title": "Documentación",
+        "description": "Explora nuestras guías completas para dominar las funciones y herramientas de JigsawDesigner.",
+        "action": "Explorar Artículos"
+    },
+    "email": {
+        "title": "Soporte por Correo Electrónico",
+        "description": "¿Necesitas ayuda con un problema específico? Nuestro equipo de soporte está listo para ayudarte directamente."
+    },
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "q1": {
+            "question": "¿Es JigsawDesigner una compra única?",
+            "answer": "Sí, JigsawDesigner ofrece una opción de licencia de por vida, así como planes de suscripción. Consulta la App Store para ver los precios más recientes."
+        },
+        "q2": {
+            "question": "¿Puedo exportar mis diseños para uso comercial?",
+            "answer": "Absolutamente. Todos los diseños creados con JigsawDesigner son tuyos. Puedes exportarlos como SVG o PDF para fabricación o impresión comercial."
+        },
+        "q3": {
+            "question": "¿Soporta líneas de troquel personalizadas?",
+            "answer": "Sí, puedes importar rutas SVG personalizadas para usarlas como líneas de troquel, o utilizar nuestros algoritmos avanzados para generar patrones únicos automáticamente."
+        }
+    }
+  },
+  "Help": {
+      "title": "Centro de Ayuda",
+      "subtitle": "Guía completa para usar JigsawDesigner y crear rompecabezas profesionales.",
+      "toc": "Tabla de Contenidos",
+      "sections": {
+          "gettingStarted": "Primeros Pasos",
+          "tools": "Herramientas de Dibujo",
+          "operations": "Operaciones con Elementos",
+          "generation": "Generación de Rompecabezas",
+          "importExport": "Importar y Exportar",
+          "shortcuts": "Atajos de Teclado"
+      },
+      "gettingStartedContent": {
+          "title": "Crea Tu Primer Proyecto",
+          "steps": {
+              "1": { "title": "Inicia JigsawDesigner", "desc": "Abre la aplicación en tu Mac o dispositivo iOS." },
+              "2": { "title": "Elige una Herramienta", "desc": "Selecciona entre 8 herramientas de dibujo en la barra de herramientas." },
+              "3": { "title": "Dibuja Tu Diseño", "desc": "Crea formas, rutas o importa archivos SVG existentes." },
+              "4": { "title": "Genera el Rompecabezas", "desc": "Haz clic en 'Generar Rompecabezas' para crear piezas entrelazadas." },
+              "5": { "title": "Exportar", "desc": "Guarda tu rompecabezas como SVG para fabricación o impresión." }
+          }
+      },
+      "toolsContent": {
+        "select": { "title": "Herramienta Selección", "desc": "Selecciona y mueve formas en el lienzo. Shift+Clic para selección múltiple, Ctrl+Clic para profundizar en grupos." },
+        "edit": { "title": "Herramienta Edición", "desc": "Edita los puntos de control de las formas. Ajusta la geometría de la forma con precisión arrastrando puntos." },
+        "pen": { "title": "Herramienta Pluma", "desc": "Dibujo de rutas de forma libre. Haz clic y arrastra para crear curvas Bezier y formas orgánicas." },
+        "line": { "title": "Herramienta Línea", "desc": "Dibuja líneas rectas. Perfecto para diseños geométricos y conexiones precisas." },
+        "rect": { "title": "Herramienta Rectángulo", "desc": "Dibuja formas rectangulares. Haz clic y arrastra desde la esquina para crear." },
+        "circle": { "title": "Herramienta Círculo", "desc": "Dibuja círculos y elipses. Arrastra desde el centro para establecer el radio." },
+        "polygon": { "title": "Herramienta Polígono", "desc": "Dibuja polígonos de múltiples lados. Haz clic para colocar cada vértice, doble clic para terminar." },
+        "bezier": { "title": "Herramienta Bezier", "desc": "Dibuja curvas Bezier precisas con puntos de ancla y manejadores de control." }
+      },
+      "operationsContent": {
+          "selection": { 
+              "title": "Selección", 
+              "items": [
+                  "Selección Única: Haz clic en cualquier forma",
+                  "Selección Múltiple: Shift+Clic en múltiples formas",
+                  "Seleccionar Todo: Presiona ⌘A para seleccionar todas las formas",
+                  "Selección Profunda: Ctrl+Clic para seleccionar elementos hijos en grupos"
+              ] 
+          },
+          "grouping": { 
+              "title": "Agrupación", 
+              "items": [
+                  "Agrupar Formas: Selecciona múltiples formas y presiona G",
+                  "Desagrupar: Selecciona un grupo y presiona ⌘G",
+                  "Grupos Anidados: Crea jerarquías complejas"
+              ]
+          },
+          "editing": { 
+              "title": "Edición", 
+              "items": [
+                  "Copiar: Presiona ⌘C para duplicar los elementos seleccionados",
+                  "Eliminar: Presiona Suprimir o Retroceso para eliminar",
+                  "Transformar: Usa el panel Inspector para ajustar posición, escala y rotación"
+              ]
+          }
+      },
+      "generationContent": {
+          "howItWorks": {
+              "title": "Cómo Funciona",
+              "desc": "JigsawDesigner utiliza algoritmos avanzados de C++ con bibliotecas OpenCV y Boost para generar piezas de rompecabezas de alta calidad utilizando diagramas de Voronoi y estructuras de datos DCEL."
+          },
+          "steps": {
+              "1": { "title": "Dibujar el Límite", "desc": "Crea la forma de contorno que se dividirá en piezas de rompecabezas." },
+              "2": { "title": "Configurar", "desc": "Establece el conteo de piezas, configuración de ranuras y elige plantillas." },
+              "3": { "title": "Generar", "desc": "Haz clic en 'Generar' para ejecutar el algoritmo y crear piezas entrelazadas." },
+              "4": { "title": "Exportar", "desc": "Exporta como SVG para fabricación o impresión." }
+          }
+      },
+      "importExportContent": {
+          "import": {
+              "title": "Importar SVG",
+              "desc": "Importa archivos SVG existentes para usarlos como límites de rompecabezas o elementos de diseño.",
+              "shortcut": "Atajo:",
+              "items": ["Rutas, rectángulos, círculos", "Grupos y transformaciones", "ViewBox y coordenadas"]
+          },
+          "export": {
+              "title": "Exportar SVG",
+              "desc": "Exporta tus diseños y rompecabezas generados como archivos SVG estándar.",
+              "shortcut": "Atajo:",
+              "items": ["Formato SVG 1.1 estándar", "Preserva todas las transformaciones", "Mantiene jerarquías de grupos"]
+          },
+          "premium": {
+              "title": "Función Premium",
+              "desc": "Se requiere suscripción Premium para exportar rompecabezas generados. Los usuarios gratuitos pueden diseñar y generar, pero la exportación está limitada."
+          }
+      },
+      "shortcutsContent": {
+        "file": {
+            "title": "Operaciones de Archivo",
+            "new": "Nuevo Proyecto",
+            "import": "Importar SVG",
+            "export": "Exportar SVG"
+        },
+        "edit": {
+            "title": "Operaciones de Edición",
+            "copy": "Copiar",
+            "delete": "Eliminar",
+            "selectAll": "Seleccionar Todo",
+            "group": "Agrupar Formas",
+            "ungroup": "Desagrupar"
+        },
+        "selection": {
+            "title": "Selección",
+            "multi": "Selección Múltiple",
+            "drillDown": "Profundizar",
+            "drillUp": "Subir Nivel"
+        }
+      },
+      "troubleshooting": {
+          "title": "Solución de Problemas",
+          "items": {
+              "shapes": { "title": "Las formas no aparecen", "content": "Verifica que estés en el modo de dibujo correcto. Verifica que el tamaño del lienzo tenga espacio para tu forma. Comprueba que los colores de relleno/trazo de la forma no sean transparentes." },
+              "select": { "title": "No puedo seleccionar una forma", "content": "Cambia a la Herramienta Selección (icono de cursor). Asegúrate de que la forma no esté oculta detrás de otras. Intenta usar Ctrl+Clic para profundizar en los grupos." },
+              "fail": { "title": "La generación del rompecabezas falla", "content": "Asegúrate de que tu forma límite sea una ruta cerrada. Reduce el conteo de piezas para formas complejas. Comprueba que las plantillas de ranuras sean válidas." },
+              "export": { "title": "La exportación está deshabilitada", "content": "Se requiere suscripción Premium para exportar rompecabezas generados. El nivel gratuito permite diseñar pero limita la funcionalidad de exportación." }
+          }
+      },
+      "needHelp": {
+          "title": "¿Necesitas Más Ayuda?",
+          "desc": "Visita nuestra página de soporte o contáctanos directamente para asistencia personalizada",
+          "contact": "Contactar Soporte",
+          "download": "Descargar App"
+      }
+  }
+}

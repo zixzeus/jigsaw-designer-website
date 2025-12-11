@@ -1,0 +1,227 @@
+{
+  "Navigation": {
+    "features": "Ciri-ciri",
+    "download": "Muat Turun",
+    "github": "GitHub",
+    "getStarted": "Mula",
+    "home": "Laman Utama",
+    "support": "Sokongan",
+    "help": "Pusat Bantuan"
+  },
+  "Hero": {
+    "version": "v1.3 Akan Datang",
+    "titlePart1": "Reka Teka-teki Seperti <br/>",
+    "titleProfessional": "Pro",
+    "subtitle": "Alat reka bentuk teka-teki yang paling berkuasa untuk platform Apple. Prestasi asli, ketepatan SVG, dan penjanaan dipacu algoritma.",
+    "download": "Muat Turun",
+    "learnMore": "Ketahui Lebih Lanjut"
+  },
+  "Features": {
+    "title": "Ciri-ciri Berkuasa",
+    "subtitle": "Semua yang anda perlukan untuk mencipta teka-teki berkualiti profesional.",
+    "list": {
+      "customization": {
+        "title": "Penyesuaian Tanpa Had",
+        "description": "Sesuaikan segala-galanya daripada templat slot dan kontur ke bahagian dalam teka-teki. Cipta reka bentuk unik yang menonjol."
+      },
+      "workflow": {
+        "title": "Aliran Kerja Sepantas Kilat",
+        "description": "Tukar jam kerja manual menjadi saat. Hasilkan corak teka-teki yang kompleks dalam hanya 3 saat dengan enjin canggih kami."
+      },
+      "anywhere": {
+        "title": "Reka Di Mana Sahaja",
+        "description": "Mula pada Mac anda, perhalusi pada iPad, dan semak pada iPhone. Ruang kerja anda bergerak bersama anda."
+      }
+    }
+  },
+  "Footer": {
+    "privacy": "Privasi",
+    "support": "Sokongan",
+    "github": "GitHub",
+    "rights": "© {year} JigsawDesigner. Hak cipta terpelihara."
+  },
+  "Privacy": {
+    "title": "Dasar Privasi",
+    "introduction": {
+        "title": "Pengenalan",
+        "content": "JigsawDesigner (\"kami\", \"kita\") menghormati privasi anda dan komited untuk melindunginya. Dasar Privasi ini menerangkan bagaimana kami mengumpul, menggunakan, dan melindungi maklumat anda apabila anda menggunakan aplikasi dan laman web kami."
+    },
+    "dataCollection": {
+        "title": "Pengumpulan Data",
+        "content": "Kami tidak mengumpul data peribadi.",
+        "content2": "JigsawDesigner direka untuk memproses fail anda secara tempatan pada peranti anda. Reka bentuk, imej, dan projek anda tidak pernah meninggalkan peranti anda melainkan anda secara jelas memilih untuk mengeksport atau berkongsinya.",
+        "list": {
+            "behavior": "Kami tidak menjejaki tingkah laku penggunaan anda.",
+            "upload": "Kami tidak memuat naik gambar anda, seperti imej teka-teki, ke mana-mana pelayan.",
+            "sell": "Kami tidak menjual data anda kepada pihak ketiga."
+        }
+    },
+    "analytics": {
+        "title": "Analitik Aplikasi",
+        "content": "Kami mungkin menggunakan analitik standard Apple (ikut serta) untuk meningkatkan prestasi dan kestabilan aplikasi (cth. laporan kerosakan). Data ini adalah tanpa nama dan tidak mengenal pasti anda secara peribadi. Anda boleh memilih keluar pada bila-bila masa melalui tetapan peranti anda."
+    },
+    "contact": {
+        "title": "Hubungi Kami",
+        "content": "Jika anda mempunyai sebarang soalan mengenai Dasar Privasi ini, sila hubungi kami di:"
+    },
+    "lastUpdated": "Terakhir Dikemas Kini: 10 Disember 2025"
+  },
+  "Support": {
+    "hero": {
+        "titlePart1": "Bagaimana kami boleh",
+        "titlePart2": "membantu anda?",
+        "subtitle": "Kami di sini untuk menyokong perjalanan kreatif anda. Cari jawapan atau hubungi pasukan kami."
+    },
+    "documentation": {
+        "title": "Dokumentasi",
+        "description": "Terokai panduan komprehensif kami untuk menguasai ciri dan alat JigsawDesigner.",
+        "action": "Semak Imbas Artikel"
+    },
+    "email": {
+        "title": "Sokongan E-mel",
+        "description": "Perlukan bantuan dengan isu tertentu? Pasukan sokongan kami bersedia untuk membantu anda secara langsung."
+    },
+    "faq": {
+        "title": "Soalan Lazim",
+        "q1": {
+            "question": "Adakah JigsawDesigner pembelian sekali sahaja?",
+            "answer": "Ya, JigsawDesigner menawarkan pilihan lesen seumur hidup serta pelan langganan. Semak App Store untuk harga terkini."
+        },
+        "q2": {
+            "question": "Bolehkah saya mengeksport reka bentuk saya untuk kegunaan komersial?",
+            "answer": "Sudah tentu. Semua reka bentuk yang dicipta dengan JigsawDesigner adalah milik anda. Anda boleh mengeksportnya sebagai SVG atau PDF untuk pembuatan atau percetakan komersial."
+        },
+        "q3": {
+            "question": "Adakah ia menyokong garis acuan tersuai?",
+            "answer": "Ya, anda boleh mengimport laluan SVG tersuai untuk digunakan sebagai garis acuan, atau gunakan algoritma canggih kami untuk menjana corak unik secara automatik."
+        }
+    }
+  },
+  "Help": {
+      "title": "Pusat Bantuan",
+      "subtitle": "Panduan lengkap untuk menggunakan JigsawDesigner untuk mencipta teka-teki profesional.",
+      "toc": "Isi Kandungan",
+      "sections": {
+          "gettingStarted": "Bermula",
+          "tools": "Alat Melukis",
+          "operations": "Operasi Elemen",
+          "generation": "Penjanaan Teka-teki",
+          "importExport": "Import & Eksport",
+          "shortcuts": "Pintasan Papan Kekunci"
+      },
+      "gettingStartedContent": {
+          "title": "Cipta Projek Pertama Anda",
+          "steps": {
+              "1": { "title": "Lancarkan JigsawDesigner", "desc": "Buka aplikasi pada Mac atau peranti iOS anda." },
+              "2": { "title": "Pilih Alat", "desc": "Pilih daripada 8 alat melukis dalam bar alat." },
+              "3": { "title": "Lukis Reka Bentuk Anda", "desc": "Cipta bentuk, laluan, atau import fail SVG sedia ada." },
+              "4": { "title": "Jana Teka-teki", "desc": "Klik 'Jana Teka-teki' untuk mencipta kepingan yang saling berkait." },
+              "5": { "title": "Eksport", "desc": "Simpan teka-teki anda sebagai SVG untuk pembuatan atau percetakan." }
+          }
+      },
+      "toolsContent": {
+        "select": { "title": "Alat Pemilihan", "desc": "Pilih dan gerakkan bentuk pada kanvas. Shift+Klik untuk pemilihan berbilang, Ctrl+Klik untuk menggerudi ke dalam kumpulan." },
+        "edit": { "title": "Alat Suntingan", "desc": "Edit titik kawalan bentuk. Laraskan geometri bentuk dengan tepat dengan menyeret titik." },
+        "pen": { "title": "Alat Pen", "desc": "Melukis laluan bentuk bebas. Klik dan seret untuk mencipta lengkung Bezier dan bentuk organik." },
+        "line": { "title": "Alat Garisan", "desc": "Lukis garisan lurus. Sempurna untuk reka bentuk geometri dan sambungan yang tepat." },
+        "rect": { "title": "Alat Segi Empat Tepat", "desc": "Lukis bentuk segi empat tepat. Klik dan seret dari sudut untuk mencipta." },
+        "circle": { "title": "Alat Bulatan", "desc": "Lukis bulatan dan elips. Seret dari tengah untuk menetapkan jejari." },
+        "polygon": { "title": "Alat Poligon", "desc": "Lukis poligon berbilang sisi. Klik untuk meletakkan setiap bucu, klik dua kali untuk selesai." },
+        "bezier": { "title": "Alat Bezier", "desc": "Lukis lengkung Bezier yang tepat dengan titik labuh dan pemegang kawalan." }
+      },
+      "operationsContent": {
+          "selection": { 
+              "title": "Pemilihan", 
+              "items": [
+                  "Pemilihan Tunggal: Klik mana-mana bentuk",
+                  "Pemilihan Berbilang: Shift+Klik berbilang bentuk",
+                  "Pilih Semua: Tekan ⌘A untuk memilih semua bentuk",
+                  "Pemilihan Mendalam: Ctrl+Klik untuk memilih elemen anak dalam kumpulan"
+              ] 
+          },
+          "grouping": { 
+              "title": "Pengumpulan", 
+              "items": [
+                  "Kumpulan Bentuk: Pilih berbilang bentuk dan tekan G",
+                  "Nyahkumpulan: Pilih kumpulan dan tekan ⌘G",
+                  "Kumpulan Bersarang: Cipta hierarki yang kompleks"
+              ]
+          },
+          "editing": { 
+              "title": "Penyuntingan", 
+              "items": [
+                  "Salin: Tekan ⌘C untuk menyalin elemen yang dipilih",
+                  "Padam: Tekan Delete atau Backspace untuk membuang",
+                  "Transformasi: Gunakan panel Pemeriksa untuk melaraskan kedudukan, skala, dan putaran"
+              ]
+          }
+      },
+      "generationContent": {
+          "howItWorks": {
+              "title": "Bagaimana Ia Berfungsi",
+              "desc": "JigsawDesigner menggunakan algoritma C++ canggih dengan perpustakaan OpenCV dan Boost untuk menjana kepingan teka-teki berkualiti tinggi menggunakan gambar rajah Voronoi dan struktur data DCEL."
+          },
+          "steps": {
+              "1": { "title": "Lukis Sempadan", "desc": "Cipta bentuk garis besar yang akan dibahagikan kepada kepingan teka-teki." },
+              "2": { "title": "Konfigurasi", "desc": "Tetapkan kiraan kepingan, tetapan slot, dan pilih templat." },
+              "3": { "title": "Jana", "desc": "Klik 'Jana' untuk menjalankan algoritma dan mencipta kepingan yang saling berkait." },
+              "4": { "title": "Eksport", "desc": "Eksport sebagai SVG untuk pembuatan atau percetakan." }
+          }
+      },
+      "importExportContent": {
+          "import": {
+              "title": "Import SVG",
+              "desc": "Import fail SVG sedia ada untuk digunakan sebagai sempadan teka-teki atau elemen reka bentuk.",
+              "shortcut": "Pintasan:",
+              "items": ["Laluan, segi empat tepat, bulatan", "Kumpulan dan transformasi", "ViewBox dan koordinat"]
+          },
+          "export": {
+              "title": "Eksport SVG",
+              "desc": "Eksport reka bentuk dan teka-teki yang dijana anda sebagai fail SVG standard.",
+              "shortcut": "Pintasan:",
+              "items": ["Format SVG 1.1 standard", "Kekalkan semua transformasi", "Kekalkan hierarki kumpulan"]
+          },
+          "premium": {
+              "title": "Ciri Premium",
+              "desc": "Langganan Premium diperlukan untuk mengeksport teka-teki yang dijana. Pengguna percuma boleh mereka bentuk dan menjana, tetapi eksport adalah terhad."
+          }
+      },
+      "shortcutsContent": {
+        "file": {
+            "title": "Operasi Fail",
+            "new": "Projek Baru",
+            "import": "Import SVG",
+            "export": "Eksport SVG"
+        },
+        "edit": {
+            "title": "Operasi Suntingan",
+            "copy": "Salin",
+            "delete": "Padam",
+            "selectAll": "Pilih Semua",
+            "group": "Kumpulan Bentuk",
+            "ungroup": "Nyahkumpulan"
+        },
+        "selection": {
+            "title": "Pemilihan",
+            "multi": "Pemilihan Berbilang",
+            "drillDown": "Gerudi Ke Bawah",
+            "drillUp": "Gerudi Ke Atas"
+        }
+      },
+      "troubleshooting": {
+          "title": "Penyelesaian Masalah",
+          "items": {
+              "shapes": { "title": "Bentuk tidak muncul", "content": "Sahkan bahawa anda berada dalam mod melukis yang betul. Semak sama ada saiz kanvas mempunyai ruang untuk bentuk anda. Semak sama ada warna isian/strok bentuk tidak telus." },
+              "select": { "title": "Tidak dapat memilih bentuk", "content": "Tukar ke Alat Pemilihan (ikon kursor). Pastikan bentuk tidak tersembunyi di belakang orang lain. Cuba gunakan Ctrl+Klik untuk menggerudi ke dalam kumpulan." },
+              "fail": { "title": "Penjanaan teka-teki gagal", "content": "Pastikan bentuk sempadan anda adalah laluan tertutup. Kurangkan kiraan kepingan untuk bentuk yang kompleks. Semak sama ada templat slot adalah sah." },
+              "export": { "title": "Eksport dilumpuhkan", "content": "Langganan Premium diperlukan untuk mengeksport teka-teki yang dijana. Tahap percuma membolehkan reka bentuk tetapi mengehadkan fungsi eksport." }
+          }
+      },
+      "needHelp": {
+          "title": "Perlukan Lebih Banyak Bantuan?",
+          "desc": "Lawati halaman sokongan kami atau hubungi kami secara langsung untuk bantuan peribadi",
+          "contact": "Hubungi Sokongan",
+          "download": "Muat Turun Aplikasi"
+      }
+  }
+}

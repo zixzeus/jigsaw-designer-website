@@ -1,0 +1,227 @@
+{
+  "Navigation": {
+    "features": "Funktioner",
+    "download": "Ladda ner",
+    "github": "GitHub",
+    "getStarted": "Kom igång",
+    "home": "Hem",
+    "support": "Support",
+    "help": "Hjälpcenter"
+  },
+  "Hero": {
+    "version": "v1.3 Kommer snart",
+    "titlePart1": "Designa pussel som ett <br/>",
+    "titleProfessional": "Proffs",
+    "subtitle": "Det mest kraftfulla pusseldesignverktyget för Apple-plattformar. Inbyggd prestanda, SVG-precision och algoritmdriven generering.",
+    "download": "Ladda ner",
+    "learnMore": "Läs mer"
+  },
+  "Features": {
+    "title": "Kraftfulla funktioner",
+    "subtitle": "Allt du behöver för att skapa pussel av professionell kvalitet.",
+    "list": {
+      "customization": {
+        "title": "Obegränsad anpassning",
+        "description": "Anpassa allt från skårmallar och konturer till pusselns insida. Skapa unika mönster som sticker ut."
+      },
+      "workflow": {
+        "title": "Blixtsnabbt arbetsflöde",
+        "description": "Förvandla timmar av manuellt arbete till sekunder. Generera komplexa pusselmönster på bara 3 sekunder med vår avancerade motor."
+      },
+      "anywhere": {
+        "title": "Designa var som helst",
+        "description": "Börja på din Mac, förfina på din iPad och granska på din iPhone. Din arbetsyta flyttar med dig."
+      }
+    }
+  },
+  "Footer": {
+    "privacy": "Integritet",
+    "support": "Support",
+    "github": "GitHub",
+    "rights": "© {year} JigsawDesigner. Alla rättigheter förbehållna."
+  },
+  "Privacy": {
+    "title": "Integritetspolicy",
+    "introduction": {
+        "title": "Introduktion",
+        "content": "JigsawDesigner (\"vi\", \"vår\" eller \"oss\") respekterar din integritet och är engagerade i att skydda den. Denna integritetspolicy förklarar hur vi samlar in, använder och skyddar din information när du använder vår applikation och webbplats."
+    },
+    "dataCollection": {
+        "title": "Datainsamling",
+        "content": "Vi samlar inte in personuppgifter.",
+        "content2": "JigsawDesigner är utformad för att bearbeta dina filer lokalt på din enhet. Dina designer, bilder och projekt lämnar aldrig din enhet om du inte uttryckligen väljer att exportera eller dela dem.",
+        "list": {
+            "behavior": "Vi spårar inte ditt användningsbeteende.",
+            "upload": "Vi laddar inte upp dina foton, såsom pusselbilder, till några servrar.",
+            "sell": "Vi säljer inte dina uppgifter till tredje part."
+        }
+    },
+    "analytics": {
+        "title": "Appanalys",
+        "content": "Vi kan använda Apples standardanalys (opt-in) för att förbättra appens prestanda och stabilitet (t.ex. kraschrapporter). Denna data är anonym och identifierar dig inte personligen. Du kan välja bort detta när som helst via dina enhetsinställningar."
+    },
+    "contact": {
+        "title": "Kontakta oss",
+        "content": "Om du har några frågor om denna integritetspolicy, vänligen kontakta oss på:"
+    },
+    "lastUpdated": "Senast uppdaterad: 10 december 2025"
+  },
+  "Support": {
+    "hero": {
+        "titlePart1": "Hur kan vi",
+        "titlePart2": "hjälpa dig?",
+        "subtitle": "Vi är här för att stödja din kreativa resa. Hitta svar eller kontakta vårt team."
+    },
+    "documentation": {
+        "title": "Dokumentation",
+        "description": "Utforska våra omfattande guider för att bemästra JigsawDesigners funktioner och verktyg.",
+        "action": "Bläddra i artiklar"
+    },
+    "email": {
+        "title": "E-postsupport",
+        "description": "Behöver du hjälp med ett specifikt problem? Vårt supportteam är redo att hjälpa dig direkt."
+    },
+    "faq": {
+        "title": "Vanliga frågor",
+        "q1": {
+            "question": "Är JigsawDesigner ett engångsköp?",
+            "answer": "Ja, JigsawDesigner erbjuder ett livstidslicensalternativ samt prenumerationsplaner. Kontrollera App Store för de senaste priserna."
+        },
+        "q2": {
+            "question": "Kan jag exportera mina designer för kommersiellt bruk?",
+            "answer": "Absolut. Alla designer som skapats med JigsawDesigner är dina. Du kan exportera dem som SVG eller PDF för tillverkning eller kommersiellt tryck."
+        },
+        "q3": {
+            "question": "Stöder det anpassade stanslinjer?",
+            "answer": "Ja, du kan importera anpassade SVG-banor för att använda som stanslinjer, eller använda våra avancerade algoritmer för att automatiskt generera unika mönster."
+        }
+    }
+  },
+  "Help": {
+      "title": "Hjälpcenter",
+      "subtitle": "Komplett guide till att använda JigsawDesigner för att skapa professionella pussel.",
+      "toc": "Innehållsförteckning",
+      "sections": {
+          "gettingStarted": "Komma igång",
+          "tools": "Ritverktyg",
+          "operations": "Elementoperationer",
+          "generation": "Pusselgenerering",
+          "importExport": "Importera & Exportera",
+          "shortcuts": "Kortkommandon"
+      },
+      "gettingStartedContent": {
+          "title": "Skapa ditt första projekt",
+          "steps": {
+              "1": { "title": "Starta JigsawDesigner", "desc": "Öppna appen på din Mac eller iOS-enhet." },
+              "2": { "title": "Välj ett verktyg", "desc": "Välj bland 8 ritverktyg i verktygsfältet." },
+              "3": { "title": "Rita din design", "desc": "Skapa former, banor eller importera befintliga SVG-filer." },
+              "4": { "title": "Generera pussel", "desc": "Klicka på 'Generera pussel' för att skapa sammanlänkade bitar." },
+              "5": { "title": "Exportera", "desc": "Spara ditt pussel som SVG för tillverkning eller tryck." }
+          }
+      },
+      "toolsContent": {
+        "select": { "title": "Markeringsverktyg", "desc": "Markera och flytta former på duken. Skift+klick för flera val, Ctrl+klick för att gå in i grupper." },
+        "edit": { "title": "Redigeringsverktyg", "desc": "Redigera formernas kontrollpunkter. Justera formgeometrin exakt genom att dra punkter." },
+        "pen": { "title": "Pennverktyg", "desc": "Frihandsteckning av banor. Klicka och dra för att skapa Bezier-kurvor och organiska former." },
+        "line": { "title": "Linjeverktyg", "desc": "Rita raka linjer. Perfekt för geometriska mönster och exakta anslutningar." },
+        "rect": { "title": "Rektangelverktyg", "desc": "Rita rektangulära former. Klicka och dra från hörnet för att skapa." },
+        "circle": { "title": "Cirkelverktyg", "desc": "Rita cirklar och ellipser. Dra från mitten för att ställa in radien." },
+        "polygon": { "title": "Polygonverktyg", "desc": "Rita mångsidiga polygoner. Klicka för att placera varje hörn, dubbelklicka för att avsluta." },
+        "bezier": { "title": "Bezierverktyg", "desc": "Rita exakta Bezier-kurvor med ankarpunkter och kontrollhandtag." }
+      },
+      "operationsContent": {
+          "selection": { 
+              "title": "Markering", 
+              "items": [
+                  "Enkel markering: Klicka på valfri form",
+                  "Flermarkering: Skift+klick på flera former",
+                  "Markera allt: Tryck ⌘A för att markera alla former",
+                  "Djup markering: Ctrl+klick för att markera underordnade element i grupper"
+              ] 
+          },
+          "grouping": { 
+              "title": "Gruppering", 
+              "items": [
+                  "Gruppera former: Markera flera former och tryck G",
+                  "Avgruppera: Markera en grupp och tryck ⌘G",
+                  "Nästlade grupper: Skapa komplexa hierarkier"
+              ]
+          },
+          "editing": { 
+              "title": "Redigering", 
+              "items": [
+                  "Kopiera: Tryck ⌘C för att duplicera markerade element",
+                  "Ta bort: Tryck Delete eller Backspace för att ta bort",
+                  "Transformera: Använd Inspektörspanelen för att justera position, skala och rotation"
+              ]
+          }
+      },
+      "generationContent": {
+          "howItWorks": {
+              "title": "Hur det fungerar",
+              "desc": "JigsawDesigner använder avancerade C++-algoritmer med OpenCV- och Boost-bibliotek för att generera högkvalitativa pusselbitar med hjälp av Voronoi-diagram och DCEL-datastrukturer."
+          },
+          "steps": {
+              "1": { "title": "Rita gräns", "desc": "Skapa konturformen som ska delas upp i pusselbitar." },
+              "2": { "title": "Konfigurera", "desc": "Ställ in antal bitar, skårinställningar och välj mallar." },
+              "3": { "title": "Generera", "desc": "Klicka på 'Generera' för att köra algoritmen och skapa sammanlänkade bitar." },
+              "4": { "title": "Exportera", "desc": "Exportera som SVG för tillverkning eller tryck." }
+          }
+      },
+      "importExportContent": {
+          "import": {
+              "title": "Importera SVG",
+              "desc": "Importera befintliga SVG-filer för att använda som pusselgränser eller designelement.",
+              "shortcut": "Genväg:",
+              "items": ["Banor, rektanglar, cirklar", "Grupper och transformationer", "ViewBox och koordinater"]
+          },
+          "export": {
+              "title": "Exportera SVG",
+              "desc": "Exportera dina designer och genererade pussel som standard-SVG-filer.",
+              "shortcut": "Genväg:",
+              "items": ["Standard SVG 1.1-format", "Behåller alla transformationer", "Behåller grupphierarkier"]
+          },
+          "premium": {
+              "title": "Premiumfunktion",
+              "desc": "Premiumprenumeration krävs för att exportera genererade pussel. Gratisanvändare kan designa och generera, men exporten är begränsad."
+          }
+      },
+      "shortcutsContent": {
+        "file": {
+            "title": "Filoperationer",
+            "new": "Nytt projekt",
+            "import": "Importera SVG",
+            "export": "Exportera SVG"
+        },
+        "edit": {
+            "title": "Redigeringsoperationer",
+            "copy": "Kopiera",
+            "delete": "Ta bort",
+            "selectAll": "Markera allt",
+            "group": "Gruppera former",
+            "ungroup": "Avgruppera"
+        },
+        "selection": {
+            "title": "Markering",
+            "multi": "Flermarkering",
+            "drillDown": "Borra ner",
+            "drillUp": "Borra upp"
+        }
+      },
+      "troubleshooting": {
+          "title": "Felsökning",
+          "items": {
+              "shapes": { "title": "Former visas inte", "content": "Verifiera att du är i rätt ritläge. Kontrollera att dukstorleken har plats för din form. Kontrollera att formens fyllnings-/streckfärger inte är transparenta." },
+              "select": { "title": "Kan inte markera form", "content": "Byt till Markeringsverktyget (markör-ikon). Se till att formen inte är dold bakom andra. Prova att använda Ctrl+klick för att borra in i grupper." },
+              "fail": { "title": "Pusselgenerering misslyckas", "content": "Se till att din gränsform är en sluten bana. Minska antalet bitar för komplexa former. Kontrollera att skårmallar är giltiga." },
+              "export": { "title": "Export är inaktiverad", "content": "Premiumprenumeration krävs för att exportera genererade pussel. Den fria nivån tillåter design men begränsar exportfunktionen." }
+          }
+      },
+      "needHelp": {
+          "title": "Behöver du mer hjälp?",
+          "desc": "Besök vår supportsida eller kontakta oss direkt för personlig hjälp",
+          "contact": "Kontakta Support",
+          "download": "Ladda ner app"
+      }
+  }
+}

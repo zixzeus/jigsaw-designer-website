@@ -1,0 +1,227 @@
+{
+  "Navigation": {
+    "features": "Ominaisuudet",
+    "download": "Lataa",
+    "github": "GitHub",
+    "getStarted": "Aloita",
+    "home": "Koti",
+    "support": "Tuki",
+    "help": "Ohjekeskus"
+  },
+  "Hero": {
+    "version": "v1.3 Tulossa Pian",
+    "titlePart1": "Suunnittele Palapelejä Kuin <br/>",
+    "titleProfessional": "Ammattilainen",
+    "subtitle": "Tehokkain palapelien suunnittelutyökalu Apple-alustoille. Natiivi suorituskyky, SVG-tarkkuus ja algoritminen generointi.",
+    "download": "Lataa",
+    "learnMore": "Lue Lisää"
+  },
+  "Features": {
+    "title": "Tehokkaat Ominaisuudet",
+    "subtitle": "Kaikki mitä tarvitset ammattilaistasoisten palapelien luomiseen.",
+    "list": {
+      "customization": {
+        "title": "Rajaton Mukautus",
+        "description": "Mukauta kaikkea aukkopohjista ja ääriviivoista palapelin sisäosiin. Luo ainutlaatuisia malleja, jotka erottuvat."
+      },
+      "workflow": {
+        "title": "Salamannopea Työnkulku",
+        "description": "Muuta tuntien käsityö sekunneiksi. Luo monimutkaisia palapelimalleja vain 3 sekunnissa edistyneellä moottorillamme."
+      },
+      "anywhere": {
+        "title": "Suunnittele Missä Tahansa",
+        "description": "Aloita Macilla, viimeistele iPadilla ja tarkista iPhonella. Työtilasi liikkuu mukanasi."
+      }
+    }
+  },
+  "Footer": {
+    "privacy": "Tietosuoja",
+    "support": "Tuki",
+    "github": "GitHub",
+    "rights": "© {year} JigsawDesigner. Kaikki oikeudet pidätetään."
+  },
+  "Privacy": {
+    "title": "Tietosuojaseloste",
+    "introduction": {
+        "title": "Johdanto",
+        "content": "JigsawDesigner (\"me\", \"meidän\" tai \"meitä\") kunnioittaa yksityisyyttäsi ja on sitoutunut suojelemaan sitä. Tämä tietosuojaseloste selittää, miten keräämme, käytämme ja suojaamme tietojasi, kun käytät sovellustamme ja verkkosivustoamme."
+    },
+    "dataCollection": {
+        "title": "Tietojen Keruu",
+        "content": "Emme kerää henkilötietoja.",
+        "content2": "JigsawDesigner on suunniteltu käsittelemään tiedostosi paikallisesti laitteellasi. Suunnitelmasi, kuvasi ja projektisi eivät koskaan poistu laitteeltasi, ellet nimenomaisesti päätä viedä tai jakaa niitä.",
+        "list": {
+            "behavior": "Emme seuraa käyttökäyttäytymistäsi.",
+            "upload": "Emme lataa kuviasi, kuten palapelikuvia, millekään palvelimille.",
+            "sell": "Emme myy tietojasi kolmansille osapuolille."
+        }
+    },
+    "analytics": {
+        "title": "Sovellusanalytiikka",
+        "content": "Saatamme käyttää Applen vakiomuotoista analytiikkaa (valinnainen) parantaaksemme sovelluksen suorituskykyä ja vakautta (esim. kaatumisraportit). Nämä tiedot ovat anonyymejä eivätkä tunnista sinua henkilökohtaisesti. Voit kieltäytyä milloin tahansa laitteesi asetuksista."
+    },
+    "contact": {
+        "title": "Ota Yhteyttä",
+        "content": "Jos sinulla on kysyttävää tästä tietosuojaselosteesta, ota meihin yhteyttä osoitteessa:"
+    },
+    "lastUpdated": "Viimeksi päivitetty: 10. joulukuuta 2025"
+  },
+  "Support": {
+    "hero": {
+        "titlePart1": "Miten voimme",
+        "titlePart2": "auttaa sinua?",
+        "subtitle": "Olemme täällä tukemassa luovaa matkaasi. Löydä vastauksia tai ota yhteyttä tiimiimme."
+    },
+    "documentation": {
+        "title": "Dokumentaatio",
+        "description": "Tutustu kattaviin oppaisiimme JigsawDesignerin ominaisuuksien ja työkalujen hallitsemiseksi.",
+        "action": "Selaa Artikkeleita"
+    },
+    "email": {
+        "title": "Sähköpostituki",
+        "description": "Tarvitsetko apua tietyn ongelman kanssa? Tukitiimimme on valmis auttamaan sinua suoraan."
+    },
+    "faq": {
+        "title": "Usein Kysytyt Kysymykset",
+        "q1": {
+            "question": "Onko JigsawDesigner kertatutkimus?",
+            "answer": "Kyllä, JigsawDesigner tarjoaa elinikäisen lisenssivaihtoehdon sekä tilaussuunnitelmia. Tarkista App Storesta uusimmat hinnat."
+        },
+        "q2": {
+            "question": "Voinko viedä suunnitelmani kaupalliseen käyttöön?",
+            "answer": "Ehdottomasti. Kaikki JigsawDesignerilla luodut mallit ovat sinun. Voit viedä ne SVG- tai PDF-muodossa valmistusta tai kaupallista tulostusta varten."
+        },
+        "q3": {
+            "question": "Tukeeko se mukautettuja leikkauslinjoja?",
+            "answer": "Kyllä, voit tuoda mukautettuja SVG-polkuja käytettäväksi leikkauslinjoina tai käyttää edistyneitä algoritmejamme luodaksesi ainutlaatuisia kuvioita automaattisesti."
+        }
+    }
+  },
+  "Help": {
+      "title": "Ohjekeskus",
+      "subtitle": "Täydellinen opas JigsawDesignerin käyttöön ammattimaisten palapelien luomiseksi.",
+      "toc": "Sisällysluettelo",
+      "sections": {
+          "gettingStarted": "Aloitus",
+          "tools": "Piirustustyökalut",
+          "operations": "Elementtioperaatiot",
+          "generation": "Palapelin Generointi",
+          "importExport": "Tuonti & Vienti",
+          "shortcuts": "Pikanäppäimet"
+      },
+      "gettingStartedContent": {
+          "title": "Luo Ensimmäinen Projektisi",
+          "steps": {
+              "1": { "title": "Käynnistä JigsawDesigner", "desc": "Avaa sovellus Macilla tai iOS-laitteellasi." },
+              "2": { "title": "Valitse Työkalu", "desc": "Valitse 8 piirustustyökalusta työkaluriviltä." },
+              "3": { "title": "Piirrä Suunnitelmasi", "desc": "Luo muotoja, polkuja tai tuo olemassa olevia SVG-tiedostoja." },
+              "4": { "title": "Generoi Palapeli", "desc": "Napsauta 'Generoi Palapeli' luodaksesi toisiinsa kytkeytyviä paloja." },
+              "5": { "title": "Vienti", "desc": "Tallenna palapelisi SVG-muodossa valmistusta tai tulostusta varten." }
+          }
+      },
+      "toolsContent": {
+        "select": { "title": "Valintatyökalu", "desc": "Valitse ja siirrä muotoja kankaalla. Vaihto+Napsautus monivalintaan, Ctrl+Napsautus ryhmien sisään." },
+        "edit": { "title": "Muokkaustyökalu", "desc": "Muokkaa muotojen ohjauspisteitä. Säädä muodon geometriaa tarkasti vetämällä pisteitä." },
+        "pen": { "title": "Kynätyökalu", "desc": "Vapaamuotoinen polun piirtäminen. Napsauta ja vedä luodaksesi Bezier-käyriä ja orgaanisia muotoja." },
+        "line": { "title": "Viivatyökalu", "desc": "Piirrä suoria viivoja. Täydellinen geometrisiin malleihin ja tarkkoihin liitoksiin." },
+        "rect": { "title": "Suorakulmiotyökalu", "desc": "Piirrä suorakulmaisia muotoja. Napsauta ja vedä kulmasta luodaksesi." },
+        "circle": { "title": "Ympyrätyökalu", "desc": "Piirrä ympyröitä ja ellipsejä. Vedä keskustasta asettaaksesi säteen." },
+        "polygon": { "title": "Monikulmiotyökalu", "desc": "Piirrä monisivuisia monikulmioita. Napsauta sijoittaaksesi jokaisen kärjen, kaksoisnapsauta lopettaaksesi." },
+        "bezier": { "title": "Bezier-työkalu", "desc": "Piirrä tarkkoja Bezier-käyriä ankkuripisteillä ja ohjauskahvoilla." }
+      },
+      "operationsContent": {
+          "selection": { 
+              "title": "Valinta", 
+              "items": [
+                  "Yksittäinen Valinta: Napsauta mitä tahansa muotoa",
+                  "Monivalinta: Vaihto+Napsautus useita muotoja",
+                  "Valitse Kaikki: Paina ⌘A valitaksesi kaikki muodot",
+                  "Syvä Valinta: Ctrl+Napsautus valitaksesi alielementtejä ryhmissä"
+              ] 
+          },
+          "grouping": { 
+              "title": "Ryhmittely", 
+              "items": [
+                  "Ryhmitä Muodot: Valitse useita muotoja ja paina G",
+                  "Pura Ryhmitys: Valitse ryhmä ja paina ⌘G",
+                  "Sisäkkäiset Ryhmät: Luo monimutkaisia hierarkioita"
+              ]
+          },
+          "editing": { 
+              "title": "Muokkaus", 
+              "items": [
+                  "Kopioi: Paina ⌘C kopioidaksesi valitut elementit",
+                  "Poista: Paina Delete tai Backspace poistaaksesi",
+                  "Muunna: Käytä Tarkastaja-paneelia sijainnin, skaalan ja kierron säätämiseen"
+              ]
+          }
+      },
+      "generationContent": {
+          "howItWorks": {
+              "title": "Kuinka Se Toimii",
+              "desc": "JigsawDesigner käyttää edistyneitä C++-algoritmeja OpenCV- ja Boost-kirjastojen kanssa korkealaatuisten palapelin palojen luomiseen käyttäen Voronoi-kaavioita ja DCEL-tietorakenteita."
+          },
+          "steps": {
+              "1": { "title": "Piirrä Raja", "desc": "Luo ääriviivamuoto, joka jaetaan palapelin paloihin." },
+              "2": { "title": "Määritä", "desc": "Aseta palojen määrä, aukkotehtävät ja valitse mallit." },
+              "3": { "title": "Generoi", "desc": "Napsauta 'Generoi' suorittaaksesi algoritmin ja luodaksesi toisiinsa kytkeytyviä paloja." },
+              "4": { "title": "Vienti", "desc": "Vie SVG-muodossa valmistusta tai tulostusta varten." }
+          }
+      },
+      "importExportContent": {
+          "import": {
+              "title": "Tuo SVG",
+              "desc": "Tuo olemassa olevia SVG-tiedostoja käytettäväksi palapelin rajoina tai suunnitteluelementteinä.",
+              "shortcut": "Pikanäppäin:",
+              "items": ["Polut, suorakulmiot, ympyrät", "Ryhmät ja muunnokset", "ViewBox ja koordinaatit"]
+          },
+          "export": {
+              "title": "Vie SVG",
+              "desc": "Vie suunnitelmasi ja generoidut palapelisi vakiomuotoisina SVG-tiedostoina.",
+              "shortcut": "Pikanäppäin:",
+              "items": ["Vakiomuotoinen SVG 1.1", "Säilyttää kaikki muunnokset", "Säilyttää ryhmähierarkiat"]
+          },
+          "premium": {
+              "title": "Premium-ominaisuus",
+              "desc": "Premium-tilaus vaaditaan generoitujen palapelien viemiseksi. Ilmaiskäyttäjät voivat suunnitella ja generoida, mutta vienti on rajoitettu."
+          }
+      },
+      "shortcutsContent": {
+        "file": {
+            "title": "Tiedosto-operaatiot",
+            "new": "Uusi Projekti",
+            "import": "Tuo SVG",
+            "export": "Vie SVG"
+        },
+        "edit": {
+            "title": "Muokkausoperaatiot",
+            "copy": "Kopioi",
+            "delete": "Poista",
+            "selectAll": "Valitse Kaikki",
+            "group": "Ryhmitä Muodot",
+            "ungroup": "Pura Ryhmitys"
+        },
+        "selection": {
+            "title": "Valinta",
+            "multi": "Monivalinta",
+            "drillDown": "Poraudu Alas",
+            "drillUp": "Poraudu Ylös"
+        }
+      },
+      "troubleshooting": {
+          "title": "Vianmääritys",
+          "items": {
+              "shapes": { "title": "Muodot eivät näy", "content": "Varmista, että olet oikeassa piirustustilassa. Tarkista, että kankaan koolla on tilaa muodollesi. Tarkista, että muodon täyttö-/viivavärit eivät ole läpinäkyviä." },
+              "select": { "title": "Muotoa ei voi valita", "content": "Vaihda Valintatyökaluun (kohdistinkuvake). Varmista, että muoto ei ole piilossa muiden takana. Kokeile käyttää Ctrl+Napsautusta porautuaksesi ryhmiin." },
+              "fail": { "title": "Palapelin generointi epäonnistuu", "content": "Varmista, että rajamuotosi on suljettu polku. Vähennä palojen määrää monimutkaisille muodoille. Tarkista, että aukkopohjat ovat kelvollisia." },
+              "export": { "title": "Vienti on poistettu käytöstä", "content": "Premium-tilaus vaaditaan generoitujen palapelien viemiseksi. Ilmainen taso sallii suunnittelun, mutta rajoittaa vientitoimintoja." }
+          }
+      },
+      "needHelp": {
+          "title": "Tarvitsetko Lisää Apua?",
+          "desc": "Vieraile tukisivullamme tai ota meihin yhteyttä suoraan saadaksesi henkilökohtaista apua",
+          "contact": "Ota Yhteyttä Tukeen",
+          "download": "Lataa Sovellus"
+      }
+  }
+}

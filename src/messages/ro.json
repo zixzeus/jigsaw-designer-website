@@ -1,0 +1,227 @@
+{
+  "Navigation": {
+    "features": "Caracteristici",
+    "download": "Descarcă",
+    "github": "GitHub",
+    "getStarted": "Începe",
+    "home": "Acasă",
+    "support": "Asistență",
+    "help": "Centru de Ajutor"
+  },
+  "Hero": {
+    "version": "v1.3 În Curând",
+    "titlePart1": "Proiectează Puzzle-uri ca un <br/>",
+    "titleProfessional": "Profesionist",
+    "subtitle": "Cel mai puternic instrument de proiectare a puzzle-urilor pentru platformele Apple. Performanță nativă, precizie SVG și generare bazată pe algoritmi.",
+    "download": "Descarcă",
+    "learnMore": "Află Mai Multe"
+  },
+  "Features": {
+    "title": "Caracteristici Puternice",
+    "subtitle": "Tot ce îți trebuie pentru a crea puzzle-uri de calitate profesională.",
+    "list": {
+      "customization": {
+        "title": "Personalizare Nelimitată",
+        "description": "Personalizează totul, de la șabloanele de fante și contururi până la interiorul puzzle-ului. Creează designuri unice care ies în evidență."
+      },
+      "workflow": {
+        "title": "Flux de Lucru Rapid",
+        "description": "Transformă orele de muncă manuală în secunde. Generează modele complexe de puzzle în doar 3 secunde cu motorul nostru avansat."
+      },
+      "anywhere": {
+        "title": "Proiectează Oriunde",
+        "description": "Începe pe Mac, rafinează pe iPad și revizuiește pe iPhone. Spațiul tău de lucru se mișcă odată cu tine."
+      }
+    }
+  },
+  "Footer": {
+    "privacy": "Confidențialitate",
+    "support": "Asistență",
+    "github": "GitHub",
+    "rights": "© {year} JigsawDesigner. Toate drepturile rezervate."
+  },
+  "Privacy": {
+    "title": "Politica de Confidențialitate",
+    "introduction": {
+        "title": "Introducere",
+        "content": "JigsawDesigner (\"noi\", \"al nostru\" sau \"nouă\") vă respectă confidențialitatea și se angajează să o protejeze. Această Politică de Confidențialitate explică modul în care colectăm, utilizăm și protejăm informațiile dvs. atunci când utilizați aplicația și site-ul nostru web."
+    },
+    "dataCollection": {
+        "title": "Colectarea Datelor",
+        "content": "Nu colectăm date personale.",
+        "content2": "JigsawDesigner este conceput pentru a procesa fișierele dvs. local pe dispozitivul dvs. Designurile, imaginile și proiectele dvs. nu părăsesc niciodată dispozitivul dvs., cu excepția cazului în care alegeți explicit să le exportați sau să le partajați.",
+        "list": {
+            "behavior": "Nu urmărim comportamentul dvs. de utilizare.",
+            "upload": "Nu încărcăm fotografiile dvs., cum ar fi imaginile de puzzle, pe niciun server.",
+            "sell": "Nu vindem datele dvs. către terți."
+        }
+    },
+    "analytics": {
+        "title": "Analiza Aplicației",
+        "content": "Putem utiliza analizele standard Apple (opt-in) pentru a îmbunătăți performanța și stabilitatea aplicației (de exemplu, rapoarte de blocare). Aceste date sunt anonime și nu vă identifică personal. Puteți renunța în orice moment prin setările dispozitivului dvs."
+    },
+    "contact": {
+        "title": "Contactați-ne",
+        "content": "Dacă aveți întrebări despre această Politică de Confidențialitate, vă rugăm să ne contactați la:"
+    },
+    "lastUpdated": "Ultima actualizare: 10 decembrie 2025"
+  },
+  "Support": {
+    "hero": {
+        "titlePart1": "Cum vă putem",
+        "titlePart2": "ajuta?",
+        "subtitle": "Suntem aici pentru a sprijini călătoria dvs. creativă. Găsiți răspunsuri sau contactați echipa noastră."
+    },
+    "documentation": {
+        "title": "Documentație",
+        "description": "Explorați ghidurile noastre cuprinzătoare pentru a stăpâni caracteristicile și instrumentele JigsawDesigner.",
+        "action": "Răsfoiți Articole"
+    },
+    "email": {
+        "title": "Asistență prin E-mail",
+        "description": "Aveți nevoie de ajutor cu o problemă specifică? Echipa noastră de asistență este gata să vă ajute direct."
+    },
+    "faq": {
+        "title": "Întrebări Frecvente",
+        "q1": {
+            "question": "Este JigsawDesigner o achiziție unică?",
+            "answer": "Da, JigsawDesigner oferă o opțiune de licență pe viață, precum și planuri de abonament. Verificați App Store pentru cele mai recente prețuri."
+        },
+        "q2": {
+            "question": "Pot să-mi export designurile pentru uz comercial?",
+            "answer": "Absolut. Toate designurile create cu JigsawDesigner sunt ale tale. Le poți exporta ca SVG sau PDF pentru fabricație sau tipărire comercială."
+        },
+        "q3": {
+            "question": "Suportă linii de tăiere personalizate?",
+            "answer": "Da, puteți importa căi SVG personalizate pentru a le utiliza ca linii de tăiere sau puteți utiliza algoritmii noștri avansați pentru a genera modele unice automat."
+        }
+    }
+  },
+  "Help": {
+      "title": "Centru de Ajutor",
+      "subtitle": "Ghid complet pentru utilizarea JigsawDesigner pentru a crea puzzle-uri profesionale.",
+      "toc": "Cuprins",
+      "sections": {
+          "gettingStarted": "Primii Pași",
+          "tools": "Instrumente de Desen",
+          "operations": "Operațiuni Elemente",
+          "generation": "Generare Puzzle",
+          "importExport": "Import și Export",
+          "shortcuts": "Scurtături Tastatură"
+      },
+      "gettingStartedContent": {
+          "title": "Creează Primul Tău Proiect",
+          "steps": {
+              "1": { "title": "Lansează JigsawDesigner", "desc": "Deschide aplicația pe Mac sau pe dispozitivul iOS." },
+              "2": { "title": "Alege un Instrument", "desc": "Selectează dintre cele 8 instrumente de desen din bara de instrumente." },
+              "3": { "title": "Desenează Designul Tău", "desc": "Creează forme, căi sau importă fișiere SVG existente." },
+              "4": { "title": "Generează Puzzle", "desc": "Fă clic pe 'Generează Puzzle' pentru a crea piese care se întrepătrund." },
+              "5": { "title": "Export", "desc": "Salvează puzzle-ul tău ca SVG pentru fabricație sau tipărire." }
+          }
+      },
+      "toolsContent": {
+        "select": { "title": "Instrument de Selecție", "desc": "Selectează și mută forme pe pânză. Shift+Clic pentru selecție multiplă, Ctrl+Clic pentru a intra în grupuri." },
+        "edit": { "title": "Instrument de Editare", "desc": "Editează punctele de control ale formelor. Ajustează geometria formei precis prin tragerea punctelor." },
+        "pen": { "title": "Instrument Stilou", "desc": "Desenare cale liberă. Clic și trage pentru a crea curbe Bezier și forme organice." },
+        "line": { "title": "Instrument Linie", "desc": "Desenează linii drepte. Perfect pentru designuri geometrice și conexiuni precise." },
+        "rect": { "title": "Instrument Dreptunghi", "desc": "Desenează forme dreptunghiulare. Clic și trage din colț pentru a crea." },
+        "circle": { "title": "Instrument Cerc", "desc": "Desenează cercuri și elipse. Trage din centru pentru a seta raza." },
+        "polygon": { "title": "Instrument Poligon", "desc": "Desenează poligoane cu mai multe laturi. Clic pentru a plasa fiecare vârf, dublu clic pentru a termina." },
+        "bezier": { "title": "Instrument Bezier", "desc": "Desenează curbe Bezier precise cu puncte de ancorare și mânere de control." }
+      },
+      "operationsContent": {
+          "selection": { 
+              "title": "Selecție", 
+              "items": [
+                  "Selecție Unică: Clic pe orice formă",
+                  "Selecție Multiplă: Shift+Clic pe mai multe forme",
+                  "Selectează Tot: Apasă ⌘A pentru a selecta toate formele",
+                  "Selecție Adâncă: Ctrl+Clic pentru a selecta elementele copil în grupuri"
+              ] 
+          },
+          "grouping": { 
+              "title": "Grupare", 
+              "items": [
+                  "Grupează Forme: Selectează mai multe forme și apasă G",
+                  "Dsgrupează: Selectează un grup și apasă ⌘G",
+                  "Grupuri Îmbricate: Creează ierarhii complexe"
+              ]
+          },
+          "editing": { 
+              "title": "Editare", 
+              "items": [
+                  "Copiază: Apasă ⌘C pentru a duplica elementele selectate",
+                  "Șterge: Apasă Delete sau Backspace pentru a elimina",
+                  "Transformă: Utilizează panoul Inspector pentru a ajusta poziția, scara și rotația"
+              ]
+          }
+      },
+      "generationContent": {
+          "howItWorks": {
+              "title": "Cum Funcționează",
+              "desc": "JigsawDesigner utilizează algoritmi C++ avansați cu biblioteci OpenCV și Boost pentru a genera piese de puzzle de înaltă calitate folosind diagrame Voronoi și structuri de date DCEL."
+          },
+          "steps": {
+              "1": { "title": "Desenează Granița", "desc": "Creează forma de contur care va fi împărțită în piese de puzzle." },
+              "2": { "title": "Configurează", "desc": "Setează numărul de piese, setările fantelor și alege șabloane." },
+              "3": { "title": "Generează", "desc": "Fă clic pe 'Generează' pentru a rula algoritmul și a crea piese care se întrepătrund." },
+              "4": { "title": "Export", "desc": "Exportă ca SVG pentru fabricație sau tipărire." }
+          }
+      },
+      "importExportContent": {
+          "import": {
+              "title": "Import SVG",
+              "desc": "Importă fișiere SVG existente pentru a le utiliza ca granițe de puzzle sau elemente de design.",
+              "shortcut": "Scurtătură:",
+              "items": ["Căi, dreptunghiuri, cercuri", "Grupuri și transformări", "ViewBox și coordonate"]
+          },
+          "export": {
+              "title": "Export SVG",
+              "desc": "Exportă designurile și puzzle-urile generate ca fișiere SVG standard.",
+              "shortcut": "Scurtătură:",
+              "items": ["Format SVG 1.1 standard", "Păstrează toate transformările", "Păstrează ierarhiile de grup"]
+          },
+          "premium": {
+              "title": "Caracteristică Premium",
+              "desc": "Abonamentul Premium este necesar pentru a exporta puzzle-urile generate. Utilizatorii gratuiți pot proiecta și genera, dar exportul este limitat."
+          }
+      },
+      "shortcutsContent": {
+        "file": {
+            "title": "Operațiuni Fișier",
+            "new": "Proiect Nou",
+            "import": "Import SVG",
+            "export": "Export SVG"
+        },
+        "edit": {
+            "title": "Operațiuni Editare",
+            "copy": "Copiază",
+            "delete": "Șterge",
+            "selectAll": "Selectează Tot",
+            "group": "Grupează Forme",
+            "ungroup": "Dsgrupează"
+        },
+        "selection": {
+            "title": "Selecție",
+            "multi": "Selecție Multiplă",
+            "drillDown": "Forțează în Jos",
+            "drillUp": "Forțează în Sus"
+        }
+      },
+      "troubleshooting": {
+          "title": "Depanare",
+          "items": {
+              "shapes": { "title": "Formele nu apar", "content": "Verifică dacă ești în modul de desen corect. Verifică dacă dimensiunea pânzei are loc pentru forma ta. Verifică dacă culorile de umplere/contur ale formei nu sunt transparente." },
+              "select": { "title": "Nu se poate selecta forma", "content": "Comută la Instrumentul de Selecție (pictogramă cursor). Asigură-te că forma nu este ascunsă în spatele altora. Încearcă să utilizezi Ctrl+Clic pentru a intra în grupuri." },
+              "fail": { "title": "Generarea puzzle-ului eșuează", "content": "Asigură-te că forma graniței tale este o cale închisă. Redu numărul de piese pentru formele complexe. Verifică dacă șabloanele de fante sunt valide." },
+              "export": { "title": "Exportul este dezactivat", "content": "Abonamentul Premium este necesar pentru a exporta puzzle-urile generate. Nivelul gratuit permite designul, dar limitează funcționalitatea de export." }
+          }
+      },
+      "needHelp": {
+          "title": "Ai Nevoie de Mai Mult Ajutor?",
+          "desc": "Vizitează pagina noastră de asistență sau contactează-ne direct pentru asistență personală",
+          "contact": "Contactează Asistența",
+          "download": "Descarcă Aplicația"
+      }
+  }
+}

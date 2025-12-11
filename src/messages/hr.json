@@ -1,0 +1,227 @@
+{
+  "Navigation": {
+    "features": "Značajke",
+    "download": "Preuzmi",
+    "github": "GitHub",
+    "getStarted": "Započni",
+    "home": "Početna",
+    "support": "Podrška",
+    "help": "Centar za Pomoć"
+  },
+  "Hero": {
+    "version": "v1.3 Uskoro",
+    "titlePart1": "Dizajnirajte Slagalice Kao <br/>",
+    "titleProfessional": "Profesionalac",
+    "subtitle": "Najmoćniji alat za dizajn slagalica za Apple platforme. Izvorna izvedba, SVG preciznost i generiranje pokretano algoritmima.",
+    "download": "Preuzmi",
+    "learnMore": "Saznaj Više"
+  },
+  "Features": {
+    "title": "Moćne Značajke",
+    "subtitle": "Sve što vam treba za stvaranje slagalica profesionalne kvalitete.",
+    "list": {
+      "customization": {
+        "title": "Neograničena Prilagodba",
+        "description": "Prilagodite sve, od predložaka utora i obrisa do unutrašnjosti slagalice. Stvarajte jedinstvene dizajne koji se ističu."
+      },
+      "workflow": {
+        "title": "Munjevit Tijek Rada",
+        "description": "Pretvorite sate ručnog rada u sekunde. Generirajte složene uzorke slagalica u samo 3 sekunde s našim naprednim motorom."
+      },
+      "anywhere": {
+        "title": "Dizajnirajte Bilo Gdje",
+        "description": "Započnite na Macu, usavršite na iPadu i pregledajte na iPhoneu. Vaš radni prostor kreće se s vama."
+      }
+    }
+  },
+  "Footer": {
+    "privacy": "Privatnost",
+    "support": "Podrška",
+    "github": "GitHub",
+    "rights": "© {year} JigsawDesigner. Sva prava pridržana."
+  },
+  "Privacy": {
+    "title": "Politika Privatnosti",
+    "introduction": {
+        "title": "Uvod",
+        "content": "JigsawDesigner (\"mi\", \"naš\" ili \"nas\") poštuje vašu privatnost i predan je njezinoj zaštiti. Ova Politika Privatnosti objašnjava kako prikupljamo, koristimo i štitimo vaše podatke kada koristite našu aplikaciju i web stranicu."
+    },
+    "dataCollection": {
+        "title": "Prikupljanje Podataka",
+        "content": "Ne prikupljamo osobne podatke.",
+        "content2": "JigsawDesigner je dizajniran za obradu vaših datoteka lokalno na vašem uređaju. Vaši dizajni, slike i projekti nikada ne napuštaju vaš uređaj, osim ako izričito ne odlučite izvesti ili podijeliti ih.",
+        "list": {
+            "behavior": "Ne pratimo vaše ponašanje pri korištenju.",
+            "upload": "Ne prenosimo vaše fotografije, poput slika slagalica, ni na koje poslužitelje.",
+            "sell": "Ne prodajemo vaše podatke trećim stranama."
+        }
+    },
+    "analytics": {
+        "title": "Analitika Aplikacije",
+        "content": "Možemo koristiti standardnu Appleovu analitiku (uz pristanak) za poboljšanje performansi i stabilnosti aplikacije (npr. izvješća o rušenju). Ti podaci su anonimni i ne identificiraju vas osobno. Možete se odjaviti u bilo kojem trenutku putem postavki uređaja."
+    },
+    "contact": {
+        "title": "Kontaktirajte Nas",
+        "content": "Ako imate bilo kakvih pitanja o ovoj Politici Privatnosti, molimo kontaktirajte nas na:"
+    },
+    "lastUpdated": "Zadnje Ažuriranje: 10. prosinca 2025."
+  },
+  "Support": {
+    "hero": {
+        "titlePart1": "Kako vam možemo",
+        "titlePart2": "pomoći?",
+        "subtitle": "Ovdje smo da podržimo vaše kreativno putovanje. Pronađite odgovore ili kontaktirajte naš tim."
+    },
+    "documentation": {
+        "title": "Dokumentacija",
+        "description": "Istražite naše sveobuhvatne vodiče za svladavanje značajki i alata JigsawDesignera.",
+        "action": "Pregledaj Članke"
+    },
+    "email": {
+        "title": "Podrška E-poštom",
+        "description": "Trebate pomoć s određenim problemom? Naš tim za podršku spreman vam je izravno pomoći."
+    },
+    "faq": {
+        "title": "Često Postavljana Pitanja",
+        "q1": {
+            "question": "Je li JigsawDesigner jednokratna kupnja?",
+            "answer": "Da, JigsawDesigner nudi opciju doživotne licence, kao i planove pretplate. Provjerite App Store za najnovije cijene."
+        },
+        "q2": {
+            "question": "Mogu li izvesti svoje dizajne za komercijalnu upotrebu?",
+            "answer": "Apsolutno. Svi dizajni stvoreni s JigsawDesignerom su vaši. Možete ih izvesti kao SVG ili PDF za proizvodnju ili komercijalni ispis."
+        },
+        "q3": {
+            "question": "Podržava li prilagođene linije rezanja?",
+            "answer": "Da, možete uvesti prilagođene SVG putanje koje ćete koristiti kao linije rezanja ili koristiti naše napredne algoritme za automatsko generiranje jedinstvenih uzoraka."
+        }
+    }
+  },
+  "Help": {
+      "title": "Centar za Pomoć",
+      "subtitle": "Potpuni vodič za korištenje JigsawDesignera za stvaranje profesionalnih slagalica.",
+      "toc": "Sadržaj",
+      "sections": {
+          "gettingStarted": "Početak Rada",
+          "tools": "Alati za Crtanje",
+          "operations": "Operacije Elemenata",
+          "generation": "Generiranje Slagalica",
+          "importExport": "Uvoz i Izvoz",
+          "shortcuts": "Tipkovnički Prečaci"
+      },
+      "gettingStartedContent": {
+          "title": "Stvorite Svoj Prvi Projekt",
+          "steps": {
+              "1": { "title": "Pokrenite JigsawDesigner", "desc": "Otvorite aplikaciju na svom Macu ili iOS uređaju." },
+              "2": { "title": "Odaberite Alat", "desc": "Odaberite između 8 alata za crtanje na alatnoj traci." },
+              "3": { "title": "Nacrtajte Svoj Dizajn", "desc": "Stvarajte oblike, putanje ili uvezite postojeće SVG datoteke." },
+              "4": { "title": "Generiraj Slagalicu", "desc": "Kliknite 'Generiraj Slagalicu' za stvaranje dijelova koji se međusobno povezuju." },
+              "5": { "title": "Izvoz", "desc": "Spremite svoju slagalicu kao SVG za proizvodnju ili ispis." }
+          }
+      },
+      "toolsContent": {
+        "select": { "title": "Alat za Odabir", "desc": "Odaberite i pomičite oblike na platnu. Shift+Klik za višestruki odabir, Ctrl+Klik za ulazak u grupe." },
+        "edit": { "title": "Alat za Uređivanje", "desc": "Uređujte kontrolne točke oblika. Precizno prilagodite geometriju oblika povlačenjem točaka." },
+        "pen": { "title": "Alat Olovka", "desc": "Crtanje putanje slobodnom rukom. Kliknite i povucite za stvaranje Bezierovih krivulja i organskih oblika." },
+        "line": { "title": "Alat Linija", "desc": "Crtajte ravne linije. Savršeno za geometrijske dizajne i precizne veze." },
+        "rect": { "title": "Alat Pravokutnik", "desc": "Crtajte pravokutne oblike. Kliknite i povucite iz kuta za stvaranje." },
+        "circle": { "title": "Alat Krug", "desc": "Crtajte krugove i elipse. Povucite iz središta za postavljanje polumjera." },
+        "polygon": { "title": "Alat Mnogokut", "desc": "Crtajte višestrane mnogokute. Kliknite za postavljanje svakog vrha, dvaput kliknite za završetak." },
+        "bezier": { "title": "Alat Bezier", "desc": "Crtajte precizne Bezierove krivulje s točkama sidrenja i ručkama za kontrolu." }
+      },
+      "operationsContent": {
+          "selection": { 
+              "title": "Odabir", 
+              "items": [
+                  "Pojedinačni Odabir: Kliknite na bilo koji oblik",
+                  "Višestruki Odabir: Shift+Klik na više oblika",
+                  "Odaberi Sve: Pritisnite ⌘A za odabir svih oblika",
+                  "Duboki Odabir: Ctrl+Klik za odabir podređenih elemenata u grupama"
+              ] 
+          },
+          "grouping": { 
+              "title": "Grupiranje", 
+              "items": [
+                  "Grupiraj Oblike: Odaberite više oblika i pritisnite G",
+                  "Razgrupiraj: Odaberite grupu i pritisnite ⌘G",
+                  "Ugniježđene Grupe: Stvarajte složene hijerarhije"
+              ]
+          },
+          "editing": { 
+              "title": "Uređivanje", 
+              "items": [
+                  "Kopiraj: Pritisnite ⌘C za dupliciranje odabranih elemenata",
+                  "Izbriši: Pritisnite Delete ili Backspace za uklanjanje",
+                  "Transformiraj: Koristite ploču Inspektora za prilagodbu položaja, mjerila i rotacije"
+              ]
+          }
+      },
+      "generationContent": {
+          "howItWorks": {
+              "title": "Kako To Radi",
+              "desc": "JigsawDesigner koristi napredne C++ algoritme s knjižnicama OpenCV i Boost za generiranje visokokvalitetnih dijelova slagalice pomoću Voronoievih dijagrama i struktura podataka DCEL."
+          },
+          "steps": {
+              "1": { "title": "Nacrtaj Granicu", "desc": "Stvorite oblik obrisa koji će se podijeliti na dijelove slagalice." },
+              "2": { "title": "Konfiguriraj", "desc": "Postavite broj dijelova, postavke utora i odaberite predloške." },
+              "3": { "title": "Generiraj", "desc": "Kliknite 'Generiraj' za pokretanje algoritma i stvaranje dijelova koji se međusobno povezuju." },
+              "4": { "title": "Izvoz", "desc": "Izvezite kao SVG za proizvodnju ili ispis." }
+          }
+      },
+      "importExportContent": {
+          "import": {
+              "title": "Uvoz SVG",
+              "desc": "Uvezite postojeće SVG datoteke koje ćete koristiti kao granice slagalica ili elemente dizajna.",
+              "shortcut": "Prečac:",
+              "items": ["Putanje, pravokutnici, krugovi", "Grupe i transformacije", "ViewBox i koordinate"]
+          },
+          "export": {
+              "title": "Izvoz SVG",
+              "desc": "Izvezite svoje dizajne i generirane slagalice kao standardne SVG datoteke.",
+              "shortcut": "Prečac:",
+              "items": ["Standardni SVG 1.1 format", "Zadržava sve transformacije", "Zadržava hijerarhije grupa"]
+          },
+          "premium": {
+              "title": "Premium Značajka",
+              "desc": "Premium pretplata potrebna je za izvoz generiranih slagalica. Besplatni korisnici mogu dizajnirati i generirati, ali izvoz je ograničen."
+          }
+      },
+      "shortcutsContent": {
+        "file": {
+            "title": "Operacije Datoteka",
+            "new": "Novi Projekt",
+            "import": "Uvoz SVG",
+            "export": "Izvoz SVG"
+        },
+        "edit": {
+            "title": "Operacije Uređivanja",
+            "copy": "Kopiraj",
+            "delete": "Izbriši",
+            "selectAll": "Odaberi Sve",
+            "group": "Grupiraj Oblike",
+            "ungroup": "Razgrupiraj"
+        },
+        "selection": {
+            "title": "Odabir",
+            "multi": "Višestruki Odabir",
+            "drillDown": "Buši Dolje",
+            "drillUp": "Buši Gore"
+        }
+      },
+      "troubleshooting": {
+          "title": "Rješavanje Problema",
+          "items": {
+              "shapes": { "title": "Oblici se ne pojavljuju", "content": "Provjerite jeste li u ispravnom načinu crtanja. Provjerite ima li veličina platna mjesta za vaš oblik. Provjerite da boje ispune/obrusa oblika nisu prozirne." },
+              "select": { "title": "Nije moguće odabrati oblik", "content": "Prebacite se na Alat za Odabir (ikona pokazivača). Provjerite da oblik nije skriven iza drugih. Pokušajte koristiti Ctrl+Klik za ulazak u grupe." },
+              "fail": { "title": "Generiranje slagalice nije uspjelo", "content": "Provjerite je li vaš granični oblik zatvorena putanja. Smanjite broj dijelova za složene oblike. Provjerite jesu li predlošci utora valjani." },
+              "export": { "title": "Izvoz je onemogućen", "content": "Premium pretplata potrebna je za izvoz generiranih slagalica. Besplatna razina omogućuje dizajn, ali ograničava funkcionalnost izvoza." }
+          }
+      },
+      "needHelp": {
+          "title": "Trebate Više Pomoći?",
+          "desc": "Posjetite našu stranicu za podršku ili nas kontaktirajte izravno za osobnu pomoć",
+          "contact": "Kontaktirajte Podršku",
+          "download": "Preuzmi Aplikaciju"
+      }
+  }
+}
