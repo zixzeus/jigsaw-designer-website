@@ -1,5 +1,6 @@
 import {useTranslations} from 'next-intl';
 import {Link} from '@/i18n/navigation';
+import Image from "next/image";
 
 export default function SupportPage() {
   const tNav = useTranslations('Navigation');
@@ -11,6 +12,14 @@ export default function SupportPage() {
       <nav className="fixed w-full z-50 bg-background/80 backdrop-blur-md border-b border-border transition-all duration-300">
         <div className="container mx-auto px-6 md:px-12 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
+            <div className="relative w-8 h-8 rounded-lg overflow-hidden shadow-sm">
+                <Image
+                src="/app-icon.png"
+                alt="JigsawDesigner Icon"
+                fill
+                className="object-cover"
+                />
+            </div>
             <span className="text-xl font-bold tracking-tight">JigsawDesigner</span>
           </Link>
           <div className="flex items-center space-x-8 text-sm font-medium">
@@ -108,6 +117,18 @@ function Footer() {
     return (
       <footer className="border-t border-border bg-background py-12">
         <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="flex items-center space-x-2 opacity-80">
+            <div className="relative w-6 h-6 rounded overflow-hidden">
+                 <Image
+                 src="/app-icon.png"
+                 alt="JigsawDesigner Icon"
+                 fill
+                 className="object-cover"
+                 />
+            </div>
+            <span className="font-semibold">JigsawDesigner</span>
+          </div>
+          
           <div className="text-sm text-gray-500">
              {tFoot('rights', {year: new Date().getFullYear()})}
           </div>

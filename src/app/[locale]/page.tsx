@@ -113,8 +113,13 @@ export default function Home() {
       <footer className="border-t border-border bg-background-secondary py-12">
         <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center space-x-2 opacity-80">
-            <div className="w-6 h-6 rounded bg-primary/20 flex items-center justify-center">
-                 <div className="w-3 h-3 bg-primary rounded-sm"></div>
+            <div className="relative w-6 h-6 rounded overflow-hidden">
+                 <Image
+                 src="/app-icon.png"
+                 alt="JigsawDesigner Icon"
+                 fill
+                 className="object-cover"
+                 />
             </div>
             <span className="font-semibold">JigsawDesigner</span>
           </div>
