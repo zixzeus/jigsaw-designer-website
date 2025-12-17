@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className="hidden md:flex items-center space-x-6 text-sm font-medium">
             <a href="#features" className="hover:text-primary transition-colors">{tNav('features')}</a>
-            <a href="#download" className="hover:text-primary transition-colors">{tNav('download')}</a>
+            <a href="https://apps.apple.com/app/jigsawdesigner/id6751882340" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">{tNav('download')}</a>
             <div className="h-4 w-px bg-border"></div>
             <LanguageSwitcher />
             <div className="h-4 w-px bg-border"></div>
@@ -62,12 +62,13 @@ export default function Home() {
           </p>
 
           <div id="download" className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <a href="https://apps.apple.com/app/jigsawdesigner/id6751882340" target="_blank" rel="noopener noreferrer" className="bg-primary h-12 px-8 rounded-full text-white font-semibold hover:bg-primary-dark transition-all duration-300 shadow-lg hover:shadow-primary/25 flex items-center justify-center gap-2 min-w-[180px]">
-              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-              {tHero('download')}
+            <a href="https://apps.apple.com/app/jigsawdesigner/id6751882340" target="_blank" rel="noopener noreferrer">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/app-store-badge.svg" alt="Download on the App Store" style={{height: '54px', width: 'auto'}} />
             </a>
-            <a href="#features" className="h-12 px-8 rounded-full bg-background-secondary text-foreground font-semibold hover:bg-gray-200 dark:hover:bg-gray-700 transition-all duration-300 flex items-center justify-center min-w-[160px]">
-              {tHero('learnMore')}
+            <a href="https://www.producthunt.com/products/jigsawdesigner?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-jigsawdesigner" target="_blank" rel="noopener noreferrer">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1050002&theme=dark&t=1765934501716" alt="JigsawDesigner - Professional jigsaw puzzle design tool for Apple platforms. | Product Hunt" style={{width: '250px', height: '54px'}} width="250" height="54" />
             </a>
           </div>
 
