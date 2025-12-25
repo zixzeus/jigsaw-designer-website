@@ -76,10 +76,14 @@ export default function Home() {
           <div className="relative max-w-5xl mx-auto rounded-2xl p-2 bg-gradient-to-b from-gray-200 to-gray-50 dark:from-gray-700 dark:to-gray-900 shadow-2xl">
              <div className="absolute inset-x-0 top-0 h-px bg-white/50"></div>
              <div className="bg-black rounded-xl overflow-hidden aspect-video shadow-inner">
-               <video className="w-full h-full object-cover" controls poster="/video-poster.jpg">
-                 <source src="/user-guide.mp4" type="video/mp4" />
-                 Your browser does not support the video tag.
-               </video>
+               <iframe 
+                 className="w-full h-full"
+                 src="https://www.youtube-nocookie.com/embed/MyeE4t5dMaU?rel=0&modestbranding=1"
+                 title="JigsawDesigner - Professional Jigsaw Puzzle Design Software"
+                 frameBorder="0"
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                 allowFullScreen
+               ></iframe>
              </div>
           </div>
         </div>
