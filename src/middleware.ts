@@ -7,6 +7,15 @@ const intlMiddleware = createMiddleware(routing);
 
 export default function middleware(request: NextRequest) {
   const {pathname} = request.nextUrl;
+  const hostname = request.headers.get('host') || '';
+
+  // 🔧 SEO: 301重定向 www 到非 www（规范化主域名）
+  // 避免重复内容问题，确保所有流量指向同一个规范URL
+  if (hostname.startsWith('www.')) {
+    const newUrl = request.nextUrl.clone();
+    newUrl.host = hostname.replace('www.', '');
+    return NextResponse.redirect(newUrl, 301);
+  }
 
   // 1. Check if user has a preference cookie
   const hasCookie = request.cookies.has('NEXT_LOCALE');
