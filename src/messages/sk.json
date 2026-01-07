@@ -1,227 +1,623 @@
 {
-  "Navigation": {
-    "features": "Funkcie",
-    "download": "Stiahnuť",
-    "github": "GitHub",
-    "getStarted": "Začať",
-    "home": "Domov",
-    "support": "Podpora",
-    "help": "Centrum Pomoci"
-  },
-  "Hero": {
-    "version": "v1.3 Vydané - Vyskúšajte teraz!",
-    "titlePart1": "Navrhujte Puzzle Ako <br/>",
-    "titleProfessional": "Profesionál",
-    "subtitle": "Najvýkonnejší nástroj na navrhovanie puzzle pre platformy Apple. Natívny výkon, presnosť SVG a generovanie riadené algoritmami.",
-    "download": "Stiahnuť",
-    "learnMore": "Zistiť Viac"
-  },
-  "Features": {
-    "title": "Výkonné Funkcie",
-    "subtitle": "Všetko, čo potrebujete na vytváranie puzzle profesionálnej kvality.",
-    "list": {
-      "customization": {
-        "title": "Neobmedzené Prispôsobenie",
-        "description": "Prispôsobte všetko od šablón slotov a obrysov po vnútro puzzle. Vytvárajte jedinečné dizajny, ktoré vyniknú."
-      },
-      "workflow": {
-        "title": "Bleskovo Rýchly Pracovný Tok",
-        "description": "Premeňte hodiny manuálnej práce na sekundy. Generujte zložité vzory puzzle len za 3 sekundy s naším pokročilým enginom."
-      },
-      "anywhere": {
-        "title": "Navrhujte Kdekoľvek",
-        "description": "Začnite na Macu, vylepšite na iPade a skontrolujte na iPhone. Váš pracovný priestor sa pohybuje s vami."
-      }
-    }
-  },
-  "Footer": {
-    "privacy": "Súkromie",
-    "support": "Podpora",
-    "github": "GitHub",
-    "rights": "© {year} JigsawDesigner. Všetky práva vyhradené."
-  },
-  "Privacy": {
-    "title": "Zásady Ochrany Osobných Údajov",
-    "introduction": {
-        "title": "Úvod",
-        "content": "JigsawDesigner (\"my\", \"naše\" alebo \"nás\") rešpektuje vaše súkromie a zaväzuje sa ho chrániť. Tieto Zásady ochrany osobných údajov vysvetľujú, ako zhromažďujeme, používame a chránime vaše informácie, keď používate našu aplikáciu a webovú stránku."
+    "Navigation": {
+        "features": "Funkcie",
+        "download": "Stiahnuť",
+        "github": "GitHub",
+        "getStarted": "Začať",
+        "home": "Domov",
+        "support": "Podpora",
+        "help": "Centrum Pomoci"
     },
-    "dataCollection": {
-        "title": "Zber Údajov",
-        "content": "Nezhromažďujeme osobné údaje.",
-        "content2": "JigsawDesigner je navrhnutý tak, aby spracovával vaše súbory lokálne na vašom zariadení. Vaše návrhy, obrázky a projekty nikdy neopustia vaše zariadenie, pokiaľsa výslovne nerozhodnete ich exportovať alebo zdieľať.",
+    "Hero": {
+        "version": "{version} Vydané - Vyskúšajte teraz!",
+        "titlePart1": "Navrhujte Puzzle Ako <br/>",
+        "titleProfessional": "Profesionál",
+        "subtitle": "Najvýkonnejší nástroj na navrhovanie puzzle pre platformy Apple. Natívny výkon, presnosť SVG a generovanie riadené algoritmami.",
+        "download": "Stiahnuť",
+        "learnMore": "Zistiť Viac"
+    },
+    "Features": {
+        "title": "Výkonné Funkcie",
+        "subtitle": "Všetko, čo potrebujete na vytváranie puzzle profesionálnej kvality.",
         "list": {
-            "behavior": "Nesledujeme vaše správanie pri používaní.",
-            "upload": "Nenahrávame vaše fotografie, ako sú obrázky puzzle, na žiadne servery.",
-            "sell": "Nepredávame vaše údaje tretím stranám."
+            "customization": {
+                "title": "Neobmedzené Prispôsobenie",
+                "description": "Prispôsobte všetko od šablón slotov a obrysov po vnútro puzzle. Vytvárajte jedinečné dizajny, ktoré vyniknú."
+            },
+            "workflow": {
+                "title": "Bleskovo Rýchly Pracovný Tok",
+                "description": "Premeňte hodiny manuálnej práce na sekundy. Generujte zložité vzory puzzle len za 3 sekundy s naším pokročilým enginom."
+            },
+            "anywhere": {
+                "title": "Navrhujte Kdekoľvek",
+                "description": "Začnite na Macu, vylepšite na iPade a skontrolujte na iPhone. Váš pracovný priestor sa pohybuje s vami."
+            }
         }
     },
-    "analytics": {
-        "title": "Analytika Aplikácie",
-        "content": "Môžeme používať štandardnú opt-in analytiku Apple na zlepšenie výkonu a stability aplikácie (napr. správy o pádoch). Tieto údaje sú anonymné a neidentifikujú vás osobne. Môžete sa kedykoľvek odhlásiť prostredníctvom nastavení vášho zariadenia."
+    "Footer": {
+        "privacy": "Súkromie",
+        "support": "Podpora",
+        "github": "GitHub",
+        "rights": "© {year} JigsawDesigner. Všetky práva vyhradené."
     },
-    "contact": {
-        "title": "Kontaktujte Nás",
-        "content": "Ak máte akékoľvek otázky týkajúce sa týchto Zásad ochrany osobných údajov, kontaktujte nás prosím na:"
-    },
-    "lastUpdated": "Naposledy aktualizované: 10. decembra 2025"
-  },
-  "Support": {
-    "hero": {
-        "titlePart1": "Ako vám môžeme",
-        "titlePart2": "pomôcť?",
-        "subtitle": "Sme tu, aby sme podporili vašu kreatívnu cestu. Nájdite odpovede alebo kontaktujte náš tím."
-    },
-    "documentation": {
-        "title": "Dokumentácia",
-        "description": "Preskúmajte našich komplexných sprievodcov, aby ste zvládli funkcie a nástroje JigsawDesigner.",
-        "action": "Prehľadávať Články"
-    },
-    "email": {
-        "title": "E-mailová Podpora",
-        "description": "Potrebujete pomoc s konkrétnym problémom? Náš tím podpory je pripravený vám priamo pomôcť."
-    },
-    "faq": {
-        "title": "Často Kladené Otázky",
-        "q1": {
-            "question": "Je JigsawDesigner jednorazový nákup?",
-            "answer": "Áno, JigsawDesigner ponúka možnosť doživotnej licencie, ako aj plány predplatného. Skontrolujte App Store pre najnovšie ceny."
+    "Privacy": {
+        "title": "Zásady Ochrany Osobných Údajov",
+        "introduction": {
+            "title": "Úvod",
+            "content": "JigsawDesigner (\"my\", \"naše\" alebo \"nás\") rešpektuje vaše súkromie a zaväzuje sa ho chrániť. Tieto Zásady ochrany osobných údajov vysvetľujú, ako zhromažďujeme, používame a chránime vaše informácie, keď používate našu aplikáciu a webovú stránku."
         },
-        "q2": {
-            "question": "Môžem exportovať svoje návrhy na komerčné použitie?",
-            "answer": "Absolútne. Všetky návrhy vytvorené pomocou JigsawDesigner sú vaše. Môžete ich exportovať ako SVG alebo PDF na výrobu alebo komerčnú tlač."
+        "dataCollection": {
+            "title": "Zber Údajov",
+            "content": "Nezhromažďujeme osobné údaje.",
+            "content2": "JigsawDesigner je navrhnutý tak, aby spracovával vaše súbory lokálne na vašom zariadení. Vaše návrhy, obrázky a projekty nikdy neopustia vaše zariadenie, pokiaľsa výslovne nerozhodnete ich exportovať alebo zdieľať.",
+            "list": {
+                "behavior": "Nesledujeme vaše správanie pri používaní.",
+                "upload": "Nenahrávame vaše fotografie, ako sú obrázky puzzle, na žiadne servery.",
+                "sell": "Nepredávame vaše údaje tretím stranám."
+            }
         },
-        "q3": {
-            "question": "Podporuje to vlastné výsekové linky?",
-            "answer": "Áno, môžete importovať vlastné SVG cesty na použitie ako výsekové linky, alebo použiť naše pokročilé algoritmy na automatické generovanie jedinečných vzorov."
+        "analytics": {
+            "title": "Analytika Aplikácie",
+            "content": "Môžeme používať štandardnú opt-in analytiku Apple na zlepšenie výkonu a stability aplikácie (napr. správy o pádoch). Tieto údaje sú anonymné a neidentifikujú vás osobne. Môžete sa kedykoľvek odhlásiť prostredníctvom nastavení vášho zariadenia."
+        },
+        "contact": {
+            "title": "Kontaktujte Nás",
+            "content": "Ak máte akékoľvek otázky týkajúce sa týchto Zásad ochrany osobných údajov, kontaktujte nás prosím na:"
+        },
+        "lastUpdated": "Naposledy aktualizované: 10. decembra 2025"
+    },
+    "Support": {
+        "hero": {
+            "titlePart1": "Ako vám môžeme",
+            "titlePart2": "pomôcť?",
+            "subtitle": "Sme tu, aby sme podporili vašu kreatívnu cestu. Nájdite odpovede alebo kontaktujte náš tím."
+        },
+        "documentation": {
+            "title": "Dokumentácia",
+            "description": "Preskúmajte našich komplexných sprievodcov, aby ste zvládli funkcie a nástroje JigsawDesigner.",
+            "action": "Prehľadávať Články"
+        },
+        "email": {
+            "title": "E-mailová Podpora",
+            "description": "Potrebujete pomoc s konkrétnym problémom? Náš tím podpory je pripravený vám priamo pomôcť."
+        },
+        "faq": {
+            "title": "Často Kladené Otázky",
+            "q1": {
+                "question": "Je JigsawDesigner jednorazový nákup?",
+                "answer": "Áno, JigsawDesigner ponúka možnosť doživotnej licencie, ako aj plány predplatného. Skontrolujte App Store pre najnovšie ceny."
+            },
+            "q2": {
+                "question": "Môžem exportovať svoje návrhy na komerčné použitie?",
+                "answer": "Absolútne. Všetky návrhy vytvorené pomocou JigsawDesigner sú vaše. Môžete ich exportovať ako SVG alebo PDF na výrobu alebo komerčnú tlač."
+            },
+            "q3": {
+                "question": "Podporuje to vlastné výsekové linky?",
+                "answer": "Áno, môžete importovať vlastné SVG cesty na použitie ako výsekové linky, alebo použiť naše pokročilé algoritmy na automatické generovanie jedinečných vzorov."
+            }
+        }
+    },
+    "Help": {
+        "title": "Centrum pomoci a sprievodca generovaním puzzle",
+        "subtitle": "Kompletný sprievodca profesionálnym generovaním línií rezu a vlastným dizajnom puzzle pomocou JigsawDesignera.",
+        "toc": "Obsah",
+        "sections": {
+            "gettingStarted": "Začíname",
+            "tools": "SVG nástroje na kreslenie",
+            "operations": "Operácie s prvkami puzzle",
+            "generation": "Generovanie línií rezu",
+            "importExport": "SVG Import a Export",
+            "shortcuts": "Klávesové Skratky",
+            "projectLibrary": "Knižnica projektov",
+            "interface": "Rozhranie editora"
+        },
+        "gettingStartedContent": {
+            "title": "Vytvorte Svoj Prvý Projekt",
+            "steps": {
+                "1": {
+                    "title": "Spustite JigsawDesigner",
+                    "desc": "Otvorte aplikáciu na svojom Macu alebo iOS zariadení."
+                },
+                "2": {
+                    "title": "Vyberte Nástroj",
+                    "desc": "Vyberte z 8 kresliacich nástrojov na paneli nástrojov."
+                },
+                "3": {
+                    "title": "Nakreslite Svoj Návrh",
+                    "desc": "Vytvárajte tvary, cesty alebo importujte existujúce SVG súbory."
+                },
+                "4": {
+                    "title": "Generovať Puzzle",
+                    "desc": "Kliknite na 'Generovať Puzzle' pre vytvorenie do seba zapadajúcich dielikov."
+                },
+                "5": {
+                    "title": "Export a Zdieľanie",
+                    "desc": "Uložte svoje puzzle ako SVG pre výrobu alebo tlač."
+                }
+            }
+        },
+        "toolsContent": {
+            "select": {
+                "title": "Nástroj Výberu",
+                "desc": "Vyberajte a presúvajte tvary na plátne. Shift+Klik pre viacnásobný výber, Ctrl+Klik pre vnorenie do skupín."
+            },
+            "edit": {
+                "title": "Nástroj Úprav",
+                "desc": "Upravujte kontrolné body tvarov. Presne upravujte geometriu tvaru ťahaním bodov."
+            },
+            "pen": {
+                "title": "Nástroj Pero",
+                "desc": "Kreslenie voľných ciest. Kliknite a ťahajte pre vytvorenie Bezierových kriviek a organických tvarov."
+            },
+            "line": {
+                "title": "Nástroj Čiara",
+                "desc": "Kreslite rovné čiary. Ideálne pre geometrické návrhy a presné spojenia."
+            },
+            "rect": {
+                "title": "Nástroj Obdĺžnik",
+                "desc": "Kreslite obdĺžnikové tvary. Kliknite a ťahajte z rohu pre vytvorenie."
+            },
+            "circle": {
+                "title": "Nástroj Kruh",
+                "desc": "Kreslite kruhy a elipsy. Ťahajte zo stredu pre nastavenie polomeru."
+            },
+            "polygon": {
+                "title": "Nástroj Mnohouholník",
+                "desc": "Kreslite mnohostranné mnohouholníky. Kliknite pre umiestnenie každého vrcholu, dvojitým kliknutím dokončite."
+            },
+            "bezier": {
+                "title": "Nástroj Bezier",
+                "desc": "Kreslite presné Bezierove krivky s kotviacimi bodmi a ovládacími úchytmi."
+            }
+        },
+        "operationsContent": {
+            "selection": {
+                "title": "Výber",
+                "items": [
+                    "Jeden Výber: Kliknite na akýkoľvek tvar",
+                    "Viacnásobný Výber: Shift+Klik na viac tvarov",
+                    "Vybrať Všetko: Stlačte ⌘A pre výber všetkých tvarov",
+                    "Hlboký Výber: Ctrl+Klik pre výber podradených prvkov v skupinách"
+                ]
+            },
+            "grouping": {
+                "title": "Zoskupovanie",
+                "items": [
+                    "Zoskupiť Tvary: Vyberte viac tvarov a stlačte G",
+                    "Zrušiť Zoskupenie: Vyberte skupinu a stlačte ⌘G",
+                    "Vnorené Skupiny: Vytvárajte zložité hierarchie"
+                ]
+            },
+            "editing": {
+                "title": "Úpravy",
+                "items": [
+                    "Kopírovať: Stlačte ⌘C pre duplikovanie vybraných prvkov",
+                    "Zmazať: Stlačte Delete alebo Backspace pre odstránenie",
+                    "Transformovať: Použite panel Inšpektora pre úpravu pozície, mierky a rotácie"
+                ]
+            }
+        },
+        "generationContent": {
+            "howItWorks": {
+                "title": "Ako To Funguje",
+                "desc": "JigsawDesigner používa pokročilé C++ algoritmy s knižnicami OpenCV a Boost pre generovanie vysoko kvalitných dielikov puzzle pomocou Voronoiových diagramov a dátových štruktúr DCEL."
+            },
+            "steps": {
+                "1": {
+                    "title": "Importovať obrysovú hranicu",
+                    "desc": "Kliknite na \"Importovať SVG\" alebo nakreslite vektorový tvar pre definovanie vonkajšej hranice a špeciálnych dielikov."
+                },
+                "2": {
+                    "title": "Vybrať šablónu zámkov",
+                    "desc": "Vyberte dizajn zámkov (Štandardný vypuklý, viacbodový atď.) pre definovanie spôsobu spojenia dielikov."
+                },
+                "3": {
+                    "title": "Konfigurácia parametrov",
+                    "desc": "V Inšpektore nastavte veľkosť mriežky, počet dielikov a rozsah vzdialenosti zámkov."
+                },
+                "4": {
+                    "title": "Generovať línie rezu",
+                    "desc": "Kliknite na \"Generovať puzzle\". Počas sekúnd budete mať výsekovú formu pripravenú pre laser alebo tlač."
+                }
+            },
+            "title": "Sprievodca generovaním línií rezu puzzle",
+            "desc": "JigsawDesigner využíva pokročilé C++ algoritmy na generovanie profesionálnych línií rezu. Postupujte podľa týchto 4 krokov:"
+        },
+        "importExportContent": {
+            "import": {
+                "title": "Import",
+                "desc": "Importujte existujúce SVG súbory pre použitie ako hranice puzzle alebo dizajnové prvky.",
+                "shortcut": "Skratka:",
+                "items": [
+                    "Cesty, obdĺžniky, kruhy",
+                    "Skupiny a transformácie",
+                    "ViewBox a súradnice"
+                ]
+            },
+            "export": {
+                "title": "Export",
+                "desc": "Exportujte svoje návrhy a vygenerované puzzle ako štandardné SVG súbory.",
+                "shortcut": "Skratka:",
+                "items": [
+                    "Štandardný formát SVG 1.1",
+                    "Zachováva všetky transformácie",
+                    "Zachováva hierarchie skupín"
+                ]
+            },
+            "premium": {
+                "title": "Prémiová Funkcia",
+                "desc": "Prémiové predplatné je vyžadované pre export vygenerovaných puzzle. Bezplatní používatelia môžu navrhovať a generovať, ale export je obmedzený."
+            }
+        },
+        "shortcutsContent": {
+            "file": {
+                "title": "Operácie so Súbormi",
+                "new": "Nový Projekt",
+                "import": "Import",
+                "export": "Export"
+            },
+            "edit": {
+                "title": "Operácie Úprav",
+                "copy": "Kopírovať",
+                "delete": "Zmazať",
+                "selectAll": "Vybrať Všetko",
+                "group": "Zoskupiť Tvary",
+                "ungroup": "Zrušiť Zoskupenie"
+            },
+            "selection": {
+                "title": "Výber",
+                "multi": "Viacnásobný Výber",
+                "drillDown": "Vŕtať Dole",
+                "drillUp": "Vŕtať Hore"
+            }
+        },
+        "troubleshooting": {
+            "title": "Riešenie Problémov",
+            "items": {
+                "shapes": {
+                    "title": "Tvary sa neobjavujú",
+                    "content": "Overte, či ste v správnom kresliacom režime. Skontrolujte, či má veľkosť plátna miesto pre váš tvar. Skontrolujte, či farby výplne/obrysu tvaru nie sú priehľadné."
+                },
+                "select": {
+                    "title": "Nie je možné vybrať tvar",
+                    "content": "Prepnite na Nástroj Výberu (ikona kurzora). Uistite sa, že tvar nie je skrytý za ostatnými. Skúste použiť Ctrl+Klik pre vnorenie do skupín."
+                },
+                "fail": {
+                    "title": "Generovanie puzzle zlyhalo",
+                    "content": "Uistite sa, že váš hraničný tvar je uzavretá cesta. Znížte počet dielikov pre zložité tvary. Skontrolujte, či sú šablóny slotov platné."
+                },
+                "export": {
+                    "title": "Export je zakázaný",
+                    "content": "Prémiové predplatné je vyžadované pre export vygenerovaných puzzle. Bezplatná úroveň umožňuje dizajn, ale obmedzuje funkčnosť exportu."
+                }
+            }
+        },
+        "needHelp": {
+            "title": "Potrebujete Viac Pomoci?",
+            "desc": "Navštívte našu stránku podpory alebo nás kontaktujte priamo pre osobnú asistenciu",
+            "contact": "Kontaktovať Podporu",
+            "download": "Stiahnuť Aplikáciu"
+        },
+        "metaTitle": "Centrum pomoci - Profesionálny generátor línií rezu puzzle a SVG dizajnér",
+        "metaDescription": "Ovládnite JigsawDesigner: Špičkový softvér na generovanie línií rezu puzzle. Naučte sa vytvárať SVG pre laserové rezanie a Voronoi vzory.",
+        "metaKeywords": "generátor línií rezu puzzle, tvorba výsekových foriem, laserový rez SVG, softvér na dizajn puzzle",
+        "interfaceContent": {
+            "title": "Rozhranie editora a línií rezu",
+            "intro": "Editor JigsawDesigner poskytuje profesionálne vektorové pracovné prostredie pre navrhovanie presných línií rezu a výsekových foriem.",
+            "toolbar": {
+                "title": "Horný Panel Nástrojov",
+                "desc": "Rýchly prístup ku všetkým nástrojom kreslenia a operáciám so súbormi.",
+                "tools": [
+                    {
+                        "icon": "🖱️",
+                        "name": "Vybrať",
+                        "desc": "Vybrať a presunúť tvary na plátne"
+                    },
+                    {
+                        "icon": "✏️",
+                        "name": "Upraviť Body",
+                        "desc": "Upraviť kotevné body a úchyty"
+                    },
+                    {
+                        "icon": "✒️",
+                        "name": "Pero",
+                        "desc": "Kresliť voľné cesty"
+                    },
+                    {
+                        "icon": "📏",
+                        "name": "Čiara",
+                        "desc": "Kresliť priamky"
+                    },
+                    {
+                        "icon": "▭",
+                        "name": "Obdĺžnik",
+                        "desc": "Kresliť obdĺžniky a štvorce"
+                    },
+                    {
+                        "icon": "⭕",
+                        "name": "Kruh",
+                        "desc": "Kresliť kruhy a elipsy"
+                    },
+                    {
+                        "icon": "⬟",
+                        "name": "Mnohouholník",
+                        "desc": "Kresliť pravidelné mnohouholníky"
+                    },
+                    {
+                        "icon": "🎨",
+                        "name": "Bézier",
+                        "desc": "Kresliť Bézierove krivky s riadiacimi bodmi"
+                    }
+                ]
+            },
+            "canvas": {
+                "title": "Nekonečné Plátno",
+                "desc": "Hlavný pracovný priestor pre vytváranie návrhov puzzle.",
+                "features": [
+                    "Nekonečné posúvanie - plátno sa rozširuje vo všetkých smeroch",
+                    "Zobrazenie pravítok s meraním v pixeloch",
+                    "Mriežka pre presné zarovnanie",
+                    "Priblíženie/oddialenie kolieskom myši alebo gestami",
+                    "Posun ťahaním so stlačenou medzerníkom alebo dvoma prstami",
+                    "Výberový rámček sa zobrazí pri výbere prvku"
+                ],
+                "tip": "Použite ⌘0 pre reset zoomu na 100%, alebo ⌘1 pre prispôsobenie oknu."
+            },
+            "toolsPanel": {
+                "title": "Panel Nástrojov",
+                "desc": "Rýchly prístup k bežným operáciám a informáciám o nástrojoch.",
+                "sections": {
+                    "currentTool": {
+                        "title": "Aktuálny Nástroj",
+                        "desc": "Zobrazuje aktuálne vybraný nástroj."
+                    },
+                    "elementOps": {
+                        "title": "Operácie s Prvkom",
+                        "desc": "Kopírovať alebo zmazať vybrané prvky."
+                    },
+                    "canvasOps": {
+                        "title": "Operácie s Plátnom",
+                        "desc": "Reset zobrazenia a úprava zoomu."
+                    },
+                    "quickOps": {
+                        "title": "Rýchle Operácie",
+                        "desc": "Vyčistiť plátno, vybrať všetko, zrušiť výber."
+                    }
+                }
+            },
+            "layersPanel": {
+                "title": "Panel Vrstiev",
+                "desc": "Spravujte hierarchiu vášho návrhu.",
+                "features": [
+                    "Zobraziť skupiny a tvary v stromovej štruktúre",
+                    "Rozbaliť skupiny pre zobrazenie položiek",
+                    "Zamknúť tvary (ikona zámku)",
+                    "Prepínanie viditeľnosti (ikona oka)",
+                    "Zobrazuje celkový počet vrstiev hore"
+                ]
+            },
+            "templatesPanel": {
+                "title": "Panel Šablón",
+                "desc": "Šablóny definujú, ako sa dieliky puzzle spájajú.",
+                "features": [
+                    "Zabudované šablóny: Štandardný Vypuklý, Štandardný Vydutý, Priama Čiara",
+                    "Kliknite + pre vytvorenie vlastných šablón",
+                    "Hľadajte šablóny podľa názvu",
+                    "Vyberte šablóny pre generovanie puzzle",
+                    "Vlastné šablóny sa ukladajú s projektom"
+                ],
+                "templateTypes": {
+                    "builtin": {
+                        "title": "Zabudované Šablóny",
+                        "desc": "Predpripravené tvary slotov od JigsawDesigner."
+                    },
+                    "custom": {
+                        "title": "Vlastné Šablóny",
+                        "desc": "Navrhnite vlastné unikátne tvary slotov pomocou bézierových nástrojov."
+                    }
+                }
+            },
+            "inspector": {
+                "title": "Inšpektor Projektu",
+                "desc": "Inšpektor vpravo poskytuje všetky možnosti konfigurácie projektu.",
+                "sections": {
+                    "projectInfo": {
+                        "title": "Info o Projekte",
+                        "desc": "Zobraziť a upraviť názov, dátum vytvorenia a úpravy."
+                    },
+                    "canvasSettings": {
+                        "title": "Nastavenia Plátna",
+                        "desc": "Nastaviť šírku a výšku v pixeloch alebo vybrať predvoľby."
+                    },
+                    "jigsawSettings": {
+                        "title": "Nastavenia Puzzle",
+                        "desc": "Konfigurovať veľkosť mriežky, počet dielikov a vzdialenosť slotov."
+                    },
+                    "statistics": {
+                        "title": "Štatistiky",
+                        "desc": "Zobraziť počet tvarov, šablón a úroveň priblíženia."
+                    },
+                    "operations": {
+                        "title": "Operácie",
+                        "desc": "Prístup k pokročilým nastaveniam a generovaniu puzzle."
+                    }
+                }
+            },
+            "shapeInfo": {
+                "title": "Inšpektor Tvaru",
+                "desc": "Pri výbere tvaru alebo skupiny panel zobrazuje podrobné informácie.",
+                "sections": {
+                    "shapeInfo": {
+                        "title": "Info o Tvare",
+                        "desc": "Zobraziť a upraviť názov, ID a typ (Cesta, Skupina, Kruh, atď.)."
+                    },
+                    "transform": {
+                        "title": "Transformácia",
+                        "desc": "Upraviť pozíciu (X, Y), mierku a rotáciu prvku."
+                    },
+                    "geometry": {
+                        "title": "Geometria",
+                        "desc": "Zobraziť rozmery a pozíciu ohraničujúceho rámika."
+                    },
+                    "operations": {
+                        "title": "Operácie",
+                        "desc": "Kopírovať alebo zmazať vybraný prvok."
+                    }
+                }
+            },
+            "advancedSettings": {
+                "title": "Pokročilé Nastavenia",
+                "desc": "Prístup ku komplexným nastaveniam aplikácie prostredníctvom dialógu Pokročilé Nastavenia.",
+                "sections": {
+                    "language": {
+                        "title": "Nastavenia Jazyka",
+                        "desc": "Zmeňte jazyk aplikácie. Podporuje predvolený systémový alebo vyberte zo 40+ jazykov."
+                    },
+                    "subscription": {
+                        "title": "Správa Predplatného",
+                        "desc": "Zobrazte stav predplatného a spravujte Premium členstvo."
+                    },
+                    "editor": {
+                        "title": "Nastavenia Editora",
+                        "desc": "Prispôsobte zobrazenie plátna vrátane mriežky, pravítok, prichytávania k mriežke, rozostupu mriežky a šírky ťahu."
+                    }
+                },
+                "options": {
+                    "showGrid": {
+                        "title": "Zobraziť mriežku",
+                        "desc": "Zobraziť/Skryť prekrytie mriežky"
+                    },
+                    "showRulers": {
+                        "title": "Zobraziť pravítka",
+                        "desc": "Zobraziť/Skryť pravítka"
+                    },
+                    "snapToGrid": {
+                        "title": "Prichytiť k mriežke",
+                        "desc": "Povoliť/Zakázať prichytávanie k mriežke"
+                    },
+                    "gridSpacing": {
+                        "title": "Rozostup mriežky",
+                        "desc": "Upraviť rozostup mriežky (vzdialenosť v pixeloch)"
+                    },
+                    "strokeWidth": {
+                        "title": "Šírka ťahu",
+                        "desc": "Nastaviť šírku ťahu pre tvary"
+                    }
+                }
+            },
+            "templateEditor": {
+                "title": "Editor Šablón",
+                "desc": "Vytvárajte vlastné šablóny slotov pomocou vstavaného nástroja na kreslenie Bézierových kriviek.",
+                "features": [
+                    "Pomenujte svoju vlastnú šablónu",
+                    "Kreslite Bézierove krivky kliknutím a ťahaním",
+                    "Dvojklikom ukončite cestu",
+                    "Upravujte jednotlivé kontrolné body",
+                    "Importujte existujúce SVG šablóny",
+                    "Exportujte šablóny pre zálohu"
+                ],
+                "buttons": {
+                    "clearPath": {
+                        "title": "Vymazať cestu",
+                        "desc": "Vymazať aktuálnu kresbu"
+                    },
+                    "editPoints": {
+                        "title": "Upraviť body",
+                        "desc": "Prepnúť do režimu úpravy bodov"
+                    },
+                    "importSVG": {
+                        "title": "Importovať SVG",
+                        "desc": "Importovať SVG súbor ako šablónu"
+                    },
+                    "exportSVG": {
+                        "title": "Exportovať SVG",
+                        "desc": "Exportovať šablónu ako SVG"
+                    }
+                }
+            }
+        },
+        "industryKeywords": {
+            "title": "Prečo zvoliť JigsawDesigner?",
+            "laserCutting": {
+                "title": "SVG pre laserové rezanie",
+                "desc": "Generujte čisté, presné SVG cesty optimalizované pre Glowforge, Cricut a CO2 lasery."
+            },
+            "dieline": {
+                "title": "Vlastné výsekové formy",
+                "desc": "Vytvárajte unikátne línie rezu s Voronoi vzormi, ktoré zaručujú, že každý dielik je originál."
+            },
+            "manufacturing": {
+                "title": "Pripravené na výrobu",
+                "desc": "Exportujte návrhy v profesionálnych vektorových formátoch (SVG, PDF) pripravených pre masovú výrobu alebo ručné rezanie."
+            }
+        },
+        "projectLibraryContent": {
+            "title": "Knižnica Projektov",
+            "intro": "Knižnica Projektov je vaše centrum pre správu všetkých návrhov puzzle. Prístup z úvodnej obrazovky alebo Súbor → Knižnica Projektov.",
+            "myProjects": {
+                "title": "Moje Projekty",
+                "icon": "📁",
+                "desc": "Váš osobný pracovný priestor pre všetky návrhy puzzle, bezpečne uložené v iCloud.",
+                "features": [
+                    "Automatická synchronizácia iCloud medzi Mac, iPad a iPhone",
+                    "Vytvárajte nové projekty tlačidlom +",
+                    "Náhľady miniatúr s názvom projektu a dátumom",
+                    "Zmažte projekty červeným tlačidlom koša",
+                    "Projekty s ikonou cloudu ukazujú stav synchronizácie"
+                ],
+                "howTo": "Kliknite \"Nový Projekt\" pre vytvorenie prázdneho puzzle, alebo kliknite na existujúcu miniatúru pre otvorenie v editore.",
+                "contextMenu": {
+                    "title": "Kontextové menu",
+                    "desc": "Kliknite pravým tlačidlom (alebo podržte na iPad/iPhone) na akýkoľvek projekt pre prístup k možnostiam:",
+                    "options": {
+                        "open": {
+                            "title": "Otvoriť Projekt",
+                            "desc": "Otvoriť projekt v editore"
+                        },
+                        "rename": {
+                            "title": "Premenovať",
+                            "desc": "Zmeniť názov projektu"
+                        },
+                        "publish": {
+                            "title": "Publikovať",
+                            "desc": "Zdieľať návrh so všetkými používateľmi JigsawDesigner"
+                        },
+                        "share": {
+                            "title": "Vytvoriť odkaz",
+                            "desc": "Vygenerovať odkaz iCloud. Odošlite priateľom a uvidia váš projekt"
+                        },
+                        "delete": {
+                            "title": "Zmazať",
+                            "desc": "Trvalo odstrániť projekt"
+                        }
+                    }
+                }
+            },
+            "publicProjects": {
+                "title": "Verejné Projekty",
+                "icon": "🌐",
+                "desc": "Komunitné šablóny dostupné všetkým používateľom. Prechádzajte, prezerajte a importujte návrhy z verejnej knižnice.",
+                "features": [
+                    "Prechádzajte šablóny vytvorené tímom JigsawDesigner",
+                    "Zobrazte počet dielikov pred importom",
+                    "Kliknite \"Otvoriť\" pre náhľad",
+                    "Kliknite \"Importovať\" pre kopírovanie do Mojich Projektov",
+                    "Skvelé pre učenie a inšpiráciu"
+                ],
+                "howTo": "Vyberte verejný projekt a kliknite \"Importovať\" pre pridanie kópie do vašej knižnice."
+            },
+            "sharedProjects": {
+                "title": "Zdieľané Projekty",
+                "icon": "👥",
+                "desc": "Priestor pre spoluprácu na projektoch zdieľaných s vami inými používateľmi.",
+                "features": [
+                    "Prijímajte projekty zdieľané kolegami alebo priateľmi",
+                    "Prístup len na čítanie alebo úpravy podľa oprávnení",
+                    "Synchronizácia v reálnom čase s vlastníkom projektu",
+                    "Prijímajte zdieľania cez odkaz pozvánky"
+                ],
+                "howTo": "Keď niekto zdieľa projekt s vami, automaticky sa tu objaví. Kliknite pre otvorenie a spoluprácu."
+            }
         }
     }
-  },
-  "Help": {
-      "title": "Centrum Pomoci",
-      "subtitle": "Kompletný sprievodca používaním JigsawDesigner na vytváranie profesionálnych puzzle.",
-      "toc": "Obsah",
-      "sections": {
-          "gettingStarted": "Začíname",
-          "tools": "Kresliace Nástroje",
-          "operations": "Operácie s Prvkami",
-          "generation": "Generovanie Puzzle",
-          "importExport": "Import a Export",
-          "shortcuts": "Klávesové Skratky"
-      },
-      "gettingStartedContent": {
-          "title": "Vytvorte Svoj Prvý Projekt",
-          "steps": {
-              "1": { "title": "Spustite JigsawDesigner", "desc": "Otvorte aplikáciu na svojom Macu alebo iOS zariadení." },
-              "2": { "title": "Vyberte Nástroj", "desc": "Vyberte z 8 kresliacich nástrojov na paneli nástrojov." },
-              "3": { "title": "Nakreslite Svoj Návrh", "desc": "Vytvárajte tvary, cesty alebo importujte existujúce SVG súbory." },
-              "4": { "title": "Generovať Puzzle", "desc": "Kliknite na 'Generovať Puzzle' pre vytvorenie do seba zapadajúcich dielikov." },
-              "5": { "title": "Export", "desc": "Uložte svoje puzzle ako SVG pre výrobu alebo tlač." }
-          }
-      },
-      "toolsContent": {
-        "select": { "title": "Nástroj Výberu", "desc": "Vyberajte a presúvajte tvary na plátne. Shift+Klik pre viacnásobný výber, Ctrl+Klik pre vnorenie do skupín." },
-        "edit": { "title": "Nástroj Úprav", "desc": "Upravujte kontrolné body tvarov. Presne upravujte geometriu tvaru ťahaním bodov." },
-        "pen": { "title": "Nástroj Pero", "desc": "Kreslenie voľných ciest. Kliknite a ťahajte pre vytvorenie Bezierových kriviek a organických tvarov." },
-        "line": { "title": "Nástroj Čiara", "desc": "Kreslite rovné čiary. Ideálne pre geometrické návrhy a presné spojenia." },
-        "rect": { "title": "Nástroj Obdĺžnik", "desc": "Kreslite obdĺžnikové tvary. Kliknite a ťahajte z rohu pre vytvorenie." },
-        "circle": { "title": "Nástroj Kruh", "desc": "Kreslite kruhy a elipsy. Ťahajte zo stredu pre nastavenie polomeru." },
-        "polygon": { "title": "Nástroj Mnohouholník", "desc": "Kreslite mnohostranné mnohouholníky. Kliknite pre umiestnenie každého vrcholu, dvojitým kliknutím dokončite." },
-        "bezier": { "title": "Nástroj Bezier", "desc": "Kreslite presné Bezierove krivky s kotviacimi bodmi a ovládacími úchytmi." }
-      },
-      "operationsContent": {
-          "selection": { 
-              "title": "Výber", 
-              "items": [
-                  "Jeden Výber: Kliknite na akýkoľvek tvar",
-                  "Viacnásobný Výber: Shift+Klik na viac tvarov",
-                  "Vybrať Všetko: Stlačte ⌘A pre výber všetkých tvarov",
-                  "Hlboký Výber: Ctrl+Klik pre výber podradených prvkov v skupinách"
-              ] 
-          },
-          "grouping": { 
-              "title": "Zoskupovanie", 
-              "items": [
-                  "Zoskupiť Tvary: Vyberte viac tvarov a stlačte G",
-                  "Zrušiť Zoskupenie: Vyberte skupinu a stlačte ⌘G",
-                  "Vnorené Skupiny: Vytvárajte zložité hierarchie"
-              ]
-          },
-          "editing": { 
-              "title": "Úpravy", 
-              "items": [
-                  "Kopírovať: Stlačte ⌘C pre duplikovanie vybraných prvkov",
-                  "Zmazať: Stlačte Delete alebo Backspace pre odstránenie",
-                  "Transformovať: Použite panel Inšpektora pre úpravu pozície, mierky a rotácie"
-              ]
-          }
-      },
-      "generationContent": {
-          "howItWorks": {
-              "title": "Ako To Funguje",
-              "desc": "JigsawDesigner používa pokročilé C++ algoritmy s knižnicami OpenCV a Boost pre generovanie vysoko kvalitných dielikov puzzle pomocou Voronoiových diagramov a dátových štruktúr DCEL."
-          },
-          "steps": {
-              "1": { "title": "Nakreslite Hranicu", "desc": "Vytvorte obrysový tvar, ktorý bude rozdelený na dieliky puzzle." },
-              "2": { "title": "Konfigurácia", "desc": "Nastavte počet dielikov, nastavenia slotov a vyberte šablóny." },
-              "3": { "title": "Generovať", "desc": "Kliknite na 'Generovať' pre spustenie algoritmu a vytvorenie do seba zapadajúcich dielikov." },
-              "4": { "title": "Export", "desc": "Exportujte ako SVG pre výrobu alebo tlač." }
-          }
-      },
-      "importExportContent": {
-          "import": {
-              "title": "Import SVG",
-              "desc": "Importujte existujúce SVG súbory pre použitie ako hranice puzzle alebo dizajnové prvky.",
-              "shortcut": "Skratka:",
-              "items": ["Cesty, obdĺžniky, kruhy", "Skupiny a transformácie", "ViewBox a súradnice"]
-          },
-          "export": {
-              "title": "Export SVG",
-              "desc": "Exportujte svoje návrhy a vygenerované puzzle ako štandardné SVG súbory.",
-              "shortcut": "Skratka:",
-              "items": ["Štandardný formát SVG 1.1", "Zachováva všetky transformácie", "Zachováva hierarchie skupín"]
-          },
-          "premium": {
-              "title": "Prémiová Funkcia",
-              "desc": "Prémiové predplatné je vyžadované pre export vygenerovaných puzzle. Bezplatní používatelia môžu navrhovať a generovať, ale export je obmedzený."
-          }
-      },
-      "shortcutsContent": {
-        "file": {
-            "title": "Operácie so Súbormi",
-            "new": "Nový Projekt",
-            "import": "Import SVG",
-            "export": "Export SVG"
-        },
-        "edit": {
-            "title": "Operácie Úprav",
-            "copy": "Kopírovať",
-            "delete": "Zmazať",
-            "selectAll": "Vybrať Všetko",
-            "group": "Zoskupiť Tvary",
-            "ungroup": "Zrušiť Zoskupenie"
-        },
-        "selection": {
-            "title": "Výber",
-            "multi": "Viacnásobný Výber",
-            "drillDown": "Vŕtať Dole",
-            "drillUp": "Vŕtať Hore"
-        }
-      },
-      "troubleshooting": {
-          "title": "Riešenie Problémov",
-          "items": {
-              "shapes": { "title": "Tvary sa neobjavujú", "content": "Overte, či ste v správnom kresliacom režime. Skontrolujte, či má veľkosť plátna miesto pre váš tvar. Skontrolujte, či farby výplne/obrysu tvaru nie sú priehľadné." },
-              "select": { "title": "Nie je možné vybrať tvar", "content": "Prepnite na Nástroj Výberu (ikona kurzora). Uistite sa, že tvar nie je skrytý za ostatnými. Skúste použiť Ctrl+Klik pre vnorenie do skupín." },
-              "fail": { "title": "Generovanie puzzle zlyhalo", "content": "Uistite sa, že váš hraničný tvar je uzavretá cesta. Znížte počet dielikov pre zložité tvary. Skontrolujte, či sú šablóny slotov platné." },
-              "export": { "title": "Export je zakázaný", "content": "Prémiové predplatné je vyžadované pre export vygenerovaných puzzle. Bezplatná úroveň umožňuje dizajn, ale obmedzuje funkčnosť exportu." }
-          }
-      },
-      "needHelp": {
-          "title": "Potrebujete Viac Pomoci?",
-          "desc": "Navštívte našu stránku podpory alebo nás kontaktujte priamo pre osobnú asistenciu",
-          "contact": "Kontaktovať Podporu",
-          "download": "Stiahnuť Aplikáciu"
-      }
-  }
 }

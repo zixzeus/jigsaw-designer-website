@@ -2,6 +2,7 @@ import Image from "next/image";
 import {useTranslations} from 'next-intl';
 import {Link} from '@/i18n/navigation';
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { APP_VERSION } from "@/config/app";
 
 export default function Home() {
   const t = useTranslations();
@@ -49,7 +50,7 @@ export default function Home() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
             </span>
-            {tHero('version')}
+            {tHero('version', { version: APP_VERSION })}
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight max-w-4xl mx-auto leading-tight">

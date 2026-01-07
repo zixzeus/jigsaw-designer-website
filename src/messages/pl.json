@@ -1,227 +1,628 @@
 {
-  "Navigation": {
-    "features": "Funkcje",
-    "download": "Pobierz",
-    "github": "GitHub",
-    "getStarted": "Rozpocznij",
-    "home": "Strona Główna",
-    "support": "Wsparcie",
-    "help": "Centrum Pomocy"
-  },
-  "Hero": {
-    "version": "v1.3 Wydano - Wypróbuj teraz!",
-    "titlePart1": "Projektuj Puzzli Jak <br/>",
-    "titleProfessional": "Profesjonalista",
-    "subtitle": "Najpotężniejsze narzędzie do projektowania puzzli na platformy Apple. Natywna wydajność, precyzja SVG i generowanie oparte na algorytmach.",
-    "download": "Pobierz",
-    "learnMore": "Dowiedz Się Więcej"
-  },
-  "Features": {
-    "title": "Potężne Funkcje",
-    "subtitle": "Wszystko, czego potrzebujesz, aby tworzyć profesjonalne puzzle.",
-    "list": {
-      "customization": {
-        "title": "Nieograniczona Personalizacja",
-        "description": "Dostosuj wszystko, od szablonów gniazd i konturów po wnętrze puzzli. Twórz unikalne projekty, które się wyróżniają."
-      },
-      "workflow": {
-        "title": "Błyskawiczny Przepływ Pracy",
-        "description": "Zamień godziny ręcznej pracy w sekundy. Generuj złożone wzory puzzli w zaledwie 3 sekundy dzięki naszemu zaawansowanemu silnikowi."
-      },
-      "anywhere": {
-        "title": "Projektuj Gdziekolwiek",
-        "description": "Zacznij na Macu, dopracuj na iPadzie i przejrzyj na iPhonie. Twoja przestrzeń robocza porusza się razem z Tobą."
-      }
-    }
-  },
-  "Footer": {
-    "privacy": "Prywatność",
-    "support": "Wsparcie",
-    "github": "GitHub",
-    "rights": "© {year} JigsawDesigner. Wszelkie prawa zastrzeżone."
-  },
-  "Privacy": {
-    "title": "Polityka Prywatności",
-    "introduction": {
-        "title": "Wstęp",
-        "content": "JigsawDesigner (\"my\", \"nasze\" lub \"nas\") szanuje Twoją prywatność i zobowiązuje się do jej ochrony. Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób zbieramy, wykorzystujemy i chronimy Twoje informacje podczas korzystania z naszej aplikacji i strony internetowej."
+    "Navigation": {
+        "features": "Funkcje",
+        "download": "Pobierz",
+        "github": "GitHub",
+        "getStarted": "Rozpocznij",
+        "home": "Strona Główna",
+        "support": "Wsparcie",
+        "help": "Centrum Pomocy"
     },
-    "dataCollection": {
-        "title": "Zbieranie Danych",
-        "content": "Nie zbieramy danych osobowych.",
-        "content2": "JigsawDesigner został zaprojektowany do przetwarzania Twoich plików lokalnie na Twoim urządzeniu. Twoje projekty, obrazy i projekty nigdy nie opuszczają Twojego urządzenia, chyba że wyraźnie zdecydujesz się je wyeksportować lub udostępnić.",
+    "Hero": {
+        "version": "{version} Wydano - Wypróbuj teraz!",
+        "titlePart1": "Projektuj Puzzli Jak <br/>",
+        "titleProfessional": "Profesjonalista",
+        "subtitle": "Najpotężniejsze narzędzie do projektowania puzzli na platformy Apple. Natywna wydajność, precyzja SVG i generowanie oparte na algorytmach.",
+        "download": "Pobierz",
+        "learnMore": "Dowiedz Się Więcej"
+    },
+    "Features": {
+        "title": "Potężne Funkcje",
+        "subtitle": "Wszystko, czego potrzebujesz, aby tworzyć profesjonalne puzzle.",
         "list": {
-            "behavior": "Nie śledzimy Twojego zachowania podczas użytkowania.",
-            "upload": "Nie przesyłamy Twoich zdjęć, takich jak obrazy puzzli, na żadne serwery.",
-            "sell": "Nie sprzedajemy Twoich danych osobom trzecim."
+            "customization": {
+                "title": "Nieograniczona Personalizacja",
+                "description": "Dostosuj wszystko, od szablonów gniazd i konturów po wnętrze puzzli. Twórz unikalne projekty, które się wyróżniają."
+            },
+            "workflow": {
+                "title": "Błyskawiczny Przepływ Pracy",
+                "description": "Zamień godziny ręcznej pracy w sekundy. Generuj złożone wzory puzzli w zaledwie 3 sekundy dzięki naszemu zaawansowanemu silnikowi."
+            },
+            "anywhere": {
+                "title": "Projektuj Gdziekolwiek",
+                "description": "Zacznij na Macu, dopracuj na iPadzie i przejrzyj na iPhonie. Twoja przestrzeń robocza porusza się razem z Tobą."
+            }
         }
     },
-    "analytics": {
-        "title": "Analityka Aplikacji",
-        "content": "Możemy używać standardowych narzędzi analitycznych Apple (opt-in), aby poprawić wydajność i stabilność aplikacji (np. raporty o awariach). Dane te są anonimowe i nie identyfikują Cię osobiście. Możesz zrezygnować w dowolnym momencie w ustawieniach urządzenia."
+    "Footer": {
+        "privacy": "Prywatność",
+        "support": "Wsparcie",
+        "github": "GitHub",
+        "rights": "© {year} JigsawDesigner. Wszelkie prawa zastrzeżone."
     },
-    "contact": {
-        "title": "Skontaktuj Się z Nami",
-        "content": "Jeśli masz jakiekolwiek pytania dotyczące niniejszej Polityki Prywatności, skontaktuj się z nami:"
-    },
-    "lastUpdated": "Ostatnia aktualizacja: 10 grudnia 2025"
-  },
-  "Support": {
-    "hero": {
-        "titlePart1": "Jak możemy Ci",
-        "titlePart2": "pomóc?",
-        "subtitle": "Jesteśmy tutaj, aby wspierać Twoją twórczą podróż. Znajdź odpowiedzi lub skontaktuj się z naszym zespołem."
-    },
-    "documentation": {
-        "title": "Dokumentacja",
-        "description": "Zapoznaj się z naszymi kompleksowymi przewodnikami, aby opanować funkcje i narzędzia JigsawDesigner.",
-        "action": "Przeglądaj Artykuły"
-    },
-    "email": {
-        "title": "Wsparcie E-mail",
-        "description": "Potrzebujesz pomocy z konkretnym problemem? Nasz zespół wsparcia jest gotowy, aby Ci pomóc bezpośrednio."
-    },
-    "faq": {
-        "title": "Często Zadawane Pytania",
-        "q1": {
-            "question": "Czy JigsawDesigner to jednorazowy zakup?",
-            "answer": "Tak, JigsawDesigner oferuje opcję licencji dożywotniej oraz plany subskrypcji. Sprawdź App Store, aby uzyskać najnowsze ceny."
+    "Privacy": {
+        "title": "Polityka Prywatności",
+        "introduction": {
+            "title": "Wstęp",
+            "content": "JigsawDesigner (\"my\", \"nasze\" lub \"nas\") szanuje Twoją prywatność i zobowiązuje się do jej ochrony. Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób zbieramy, wykorzystujemy i chronimy Twoje informacje podczas korzystania z naszej aplikacji i strony internetowej."
         },
-        "q2": {
-            "question": "Czy mogę eksportować moje projekty do użytku komercyjnego?",
-            "answer": "Oczywiście. Wszystkie projekty stworzone za pomocą JigsawDesigner są Twoje. Możesz je eksportować jako SVG lub PDF do produkcji lub druku komercyjnego."
+        "dataCollection": {
+            "title": "Zbieranie Danych",
+            "content": "Nie zbieramy danych osobowych.",
+            "content2": "JigsawDesigner został zaprojektowany do przetwarzania Twoich plików lokalnie na Twoim urządzeniu. Twoje projekty, obrazy i projekty nigdy nie opuszczają Twojego urządzenia, chyba że wyraźnie zdecydujesz się je wyeksportować lub udostępnić.",
+            "list": {
+                "behavior": "Nie śledzimy Twojego zachowania podczas użytkowania.",
+                "upload": "Nie przesyłamy Twoich zdjęć, takich jak obrazy puzzli, na żadne serwery.",
+                "sell": "Nie sprzedajemy Twoich danych osobom trzecim."
+            }
         },
-        "q3": {
-            "question": "Czy obsługuje niestandardowe linie cięcia?",
-            "answer": "Tak, możesz importować niestandardowe ścieżki SVG do użycia jako linie cięcia lub użyć naszych zaawansowanych algorytmów do automatycznego generowania unikalnych wzorów."
+        "analytics": {
+            "title": "Analityka Aplikacji",
+            "content": "Możemy używać standardowych narzędzi analitycznych Apple (opt-in), aby poprawić wydajność i stabilność aplikacji (np. raporty o awariach). Dane te są anonimowe i nie identyfikują Cię osobiście. Możesz zrezygnować w dowolnym momencie w ustawieniach urządzenia."
+        },
+        "contact": {
+            "title": "Skontaktuj Się z Nami",
+            "content": "Jeśli masz jakiekolwiek pytania dotyczące niniejszej Polityki Prywatności, skontaktuj się z nami:"
+        },
+        "lastUpdated": "Ostatnia aktualizacja: 10 grudnia 2025"
+    },
+    "Support": {
+        "hero": {
+            "titlePart1": "Jak możemy Ci",
+            "titlePart2": "pomóc?",
+            "subtitle": "Jesteśmy tutaj, aby wspierać Twoją twórczą podróż. Znajdź odpowiedzi lub skontaktuj się z naszym zespołem."
+        },
+        "documentation": {
+            "title": "Dokumentacja",
+            "description": "Zapoznaj się z naszymi kompleksowymi przewodnikami, aby opanować funkcje i narzędzia JigsawDesigner.",
+            "action": "Przeglądaj Artykuły"
+        },
+        "email": {
+            "title": "Wsparcie E-mail",
+            "description": "Potrzebujesz pomocy z konkretnym problemem? Nasz zespół wsparcia jest gotowy, aby Ci pomóc bezpośrednio."
+        },
+        "faq": {
+            "title": "Często Zadawane Pytania",
+            "q1": {
+                "question": "Czy JigsawDesigner to jednorazowy zakup?",
+                "answer": "Tak, JigsawDesigner oferuje opcję licencji dożywotniej oraz plany subskrypcji. Sprawdź App Store, aby uzyskać najnowsze ceny."
+            },
+            "q2": {
+                "question": "Czy mogę eksportować moje projekty do użytku komercyjnego?",
+                "answer": "Oczywiście. Wszystkie projekty stworzone za pomocą JigsawDesigner są Twoje. Możesz je eksportować jako SVG lub PDF do produkcji lub druku komercyjnego."
+            },
+            "q3": {
+                "question": "Czy obsługuje niestandardowe linie cięcia?",
+                "answer": "Tak, możesz importować niestandardowe ścieżki SVG do użycia jako linie cięcia lub użyć naszych zaawansowanych algorytmów do automatycznego generowania unikalnych wzorów."
+            }
+        }
+    },
+    "Help": {
+        "title": "Centrum pomocy i przewodnik generowania puzzli",
+        "subtitle": "Kompletny przewodnik po profesjonalnym generowaniu linii cięcia i projektowaniu puzzli przy użyciu JigsawDesigner.",
+        "toc": "Spis Treści",
+        "sections": {
+            "gettingStarted": "Pierwsze Kroki",
+            "tools": "Narzędzia rysunkowe SVG",
+            "operations": "Operacje na elementach puzzli",
+            "generation": "Generowanie linii cięcia",
+            "importExport": "Import i eksport SVG",
+            "shortcuts": "Skróty Klawiszowe",
+            "projectLibrary": "Biblioteka Projektów",
+            "interface": "Interfejs Edytora"
+        },
+        "gettingStartedContent": {
+            "title": "Stwórz Swój Pierwszy Projekt",
+            "steps": {
+                "1": {
+                    "title": "Uruchom JigsawDesigner",
+                    "desc": "Otwórz aplikację na Macu lub urządzeniu iOS."
+                },
+                "2": {
+                    "title": "Wybierz Narzędzie",
+                    "desc": "Wybierz spośród 8 narzędzi rysowania na pasku narzędzi."
+                },
+                "3": {
+                    "title": "Narysuj Swój Projekt",
+                    "desc": "Twórz kształty, ścieżki lub importuj istniejące pliki SVG."
+                },
+                "4": {
+                    "title": "Generuj Puzzle",
+                    "desc": "Kliknij 'Generuj Puzzle', aby stworzyć zazębiające się elementy."
+                },
+                "5": {
+                    "title": "Eksport",
+                    "desc": "Zapisz swoje puzzle jako SVG do produkcji lub druku."
+                }
+            }
+        },
+        "toolsContent": {
+            "select": {
+                "title": "Narzędzie Zaznaczania",
+                "desc": "Zaznaczaj i przesuwaj kształty na płótnie. Shift+Kliknięcie dla wielokrotnego zaznaczania, Ctrl+Kliknięcie, aby wejść w grupy."
+            },
+            "edit": {
+                "title": "Narzędzie Edycji",
+                "desc": "Edytuj punkty kontrolne kształtów. Precyzyjnie dostosuj geometrię kształtu, przeciągając punkty."
+            },
+            "pen": {
+                "title": "Narzędzie Pióra",
+                "desc": "Rysowanie ścieżek odręcznych. Kliknij i przeciągnij, aby tworzyć krzywe Beziera i organiczne kształty."
+            },
+            "line": {
+                "title": "Narzędzie Linii",
+                "desc": "Rysuj proste linie. Idealne do geometrycznych wzorów i precyzyjnych połączeń."
+            },
+            "rect": {
+                "title": "Narzędzie Prostokąta",
+                "desc": "Rysuj prostokątne kształty. Kliknij i przeciągnij od rogu, aby utworzyć."
+            },
+            "circle": {
+                "title": "Narzędzie Koła",
+                "desc": "Rysuj koła i elipsy. Przeciągnij od środka, aby ustawić promień."
+            },
+            "polygon": {
+                "title": "Narzędzie Wielokąta",
+                "desc": "Rysuj wieloboczne wielokąty. Kliknij, aby umieścić każdy wierzchołek, kliknij dwukrotnie, aby zakończyć."
+            },
+            "bezier": {
+                "title": "Narzędzie Beziera",
+                "desc": "Rysuj precyzyjne krzywe Beziera z punktami kotwiczenia i uchwytami kontrolnymi."
+            }
+        },
+        "operationsContent": {
+            "selection": {
+                "title": "Zaznaczanie",
+                "items": [
+                    "Pojedyncze Zaznaczenie: Kliknij dowolny kształt",
+                    "Wielokrotne Zaznaczenie: Shift+Kliknięcie na wiele kształtów",
+                    "Zaznacz Wszystko: Naciśnij ⌘A, aby zaznaczyć wszystkie kształty",
+                    "Głębokie Zaznaczenie: Ctrl+Kliknięcie, aby zaznaczyć elementy podrzędne w grupach"
+                ]
+            },
+            "grouping": {
+                "title": "Grupowanie",
+                "items": [
+                    "Grupuj Kształty: Zaznacz wiele kształtów i naciśnij G",
+                    "Rozgrupuj: Zaznacz grupę i naciśnij ⌘G",
+                    "Zagnieżdżone Grupy: Twórz złożone hierarchie"
+                ]
+            },
+            "editing": {
+                "title": "Edycja",
+                "items": [
+                    "Kopiuj: Naciśnij ⌘C, aby zduplikować zaznaczone elementy",
+                    "Usuń: Naciśnij Delete lub Backspace, aby usunąć",
+                    "Przekształć: Użyj panelu Inspektora, aby dostosować pozycję, skalę i obrót"
+                ]
+            }
+        },
+        "generationContent": {
+            "howItWorks": {
+                "title": "Jak To Działa",
+                "desc": "JigsawDesigner używa zaawansowanych algorytmów C++ z bibliotekami OpenCV i Boost do generowania wysokiej jakości elementów puzzli przy użyciu diagramów Woronoja i struktur danych DCEL."
+            },
+            "steps": {
+                "1": {
+                    "title": "Importuj kontur graniczny",
+                    "desc": "Kliknij \"Importuj SVG\" lub narysuj kształt wektorowy, aby zdefiniować zewnętrzną granicę i elementy specjalne."
+                },
+                "2": {
+                    "title": "Wybierz szablon wypustek",
+                    "desc": "Wybierz wzór wypustek (Standardowy wypukły, wielopunktowy itp.), aby określić sposób łączenia elementów."
+                },
+                "3": {
+                    "title": "Konfiguruj parametry",
+                    "desc": "Użyj Inspektora, aby ustawić rozmiar siatki, liczbę elementów i zakres odległości wypustek."
+                },
+                "4": {
+                    "title": "Generuj linie cięcia",
+                    "desc": "Kliknij \"Generuj puzzle\". W kilka sekund otrzymasz gotowy wykrojnik do cięcia laserowego lub druku."
+                }
+            },
+            "title": "Przewodnik generowania linii cięcia puzzli",
+            "desc": "JigsawDesigner używa zaawansowanych algorytmów C++ do generowania profesjonalnych linii cięcia. Wykonaj te 4 kroki:"
+        },
+        "importExportContent": {
+            "import": {
+                "title": "Import",
+                "desc": "Importuj istniejące pliki SVG do wykorzystania jako granice puzzli lub elementy projektu.",
+                "shortcut": "Skrót:",
+                "items": [
+                    "Ścieżki, prostokąty, koła",
+                    "Grupy i przekształcenia",
+                    "ViewBox i współrzędne"
+                ]
+            },
+            "export": {
+                "title": "Eksport",
+                "desc": "Eksportuj swoje projekty i wygenerowane puzzle jako standardowe pliki SVG.",
+                "shortcut": "Skrót:",
+                "items": [
+                    "Standardowy format SVG 1.1",
+                    "Zachowuje wszystkie przekształcenia",
+                    "Zachowuje hierarchie grup"
+                ]
+            },
+            "premium": {
+                "title": "Funkcja Premium",
+                "desc": "Subskrypcja Premium jest wymagana do eksportowania wygenerowanych puzzli. Darmowi użytkownicy mogą projektować i generować, ale eksport jest ograniczony."
+            }
+        },
+        "shortcutsContent": {
+            "file": {
+                "title": "Operacje na Plikach",
+                "new": "Nowy Projekt",
+                "import": "Importuj",
+                "export": "Eksport SVG"
+            },
+            "edit": {
+                "title": "Operacje Edycji",
+                "copy": "Kopiuj",
+                "delete": "Usuń",
+                "selectAll": "Zaznacz Wszystko",
+                "group": "Grupuj Kształty",
+                "ungroup": "Rozgrupuj"
+            },
+            "selection": {
+                "title": "Zaznaczanie",
+                "multi": "Wielokrotne Zaznaczanie",
+                "drillDown": "Wiercenie w Dół",
+                "drillUp": "Wiercenie w Górę"
+            }
+        },
+        "troubleshooting": {
+            "title": "Rozwiązywanie Problemów",
+            "items": {
+                "shapes": {
+                    "title": "Kształty się nie pojawiają",
+                    "content": "Sprawdź, czy jesteś w odpowiednim trybie rysowania. Sprawdź, czy rozmiar płótna ma miejsce na Twój kształt. Sprawdź, czy kolory wypełnienia/obrysu kształtu nie są przezroczyste."
+                },
+                "select": {
+                    "title": "Nie można zaznaczyć kształtu",
+                    "content": "Przełącz na Narzędzie Zaznaczania (ikona kursora). Upewnij się, że kształt nie jest ukryty za innymi. Spróbuj użyć Ctrl+Kliknięcie, aby wejść w grupy."
+                },
+                "fail": {
+                    "title": "Generowanie puzzli nie powiodło się",
+                    "content": "Upewnij się, że kształt granicy jest zamkniętą ścieżką. Zmniejsz liczbę elementów dla złożonych kształtów. Sprawdź, czy szablony gniazd są prawidłowe."
+                },
+                "export": {
+                    "title": "Eksport jest wyłączony",
+                    "content": "Subskrypcja Premium jest wymagana do eksportowania wygenerowanych puzzli. Darmowa wersja pozwala na projektowanie, ale ogranicza funkcjonalność eksportu."
+                }
+            }
+        },
+        "needHelp": {
+            "title": "Potrzebujesz Więcej Pomocy?",
+            "desc": "Odwiedź naszą stronę wsparcia lub skontaktuj się z nami bezpośrednio, aby uzyskać osobistą pomoc",
+            "contact": "Skontaktuj Się ze Wsparciem",
+            "download": "Pobierz Aplikację"
+        },
+        "metaTitle": "Centrum pomocy - Profesjonalny generator linii cięcia puzzli i projektant SVG",
+        "metaDescription": "Opanuj JigsawDesigner: Najlepsze oprogramowanie do generowania linii cięcia puzzli. Dowiedz się, jak tworzyć SVG do cięcia laserowego i wzory Voronoi.",
+        "metaKeywords": "generator linii cięcia puzzli, kreator wykrojników, SVG do lasera, oprogramowanie do projektowania puzzli",
+        "interfaceContent": {
+            "title": "Interfejs edytora i linii cięcia",
+            "intro": "Edytor JigsawDesigner zapewnia profesjonalną przestrzeń roboczą wektorową do projektowania precyzyjnych linii cięcia i wykrojników.",
+            "toolbar": {
+                "title": "Górny Pasek Narzędzi",
+                "desc": "Szybki dostęp do wszystkich narzędzi rysunkowych i operacji na plikach.",
+                "tools": [
+                    {
+                        "icon": "🖱️",
+                        "name": "Zaznacz",
+                        "desc": "Zaznacz i przesuń kształty na płótnie"
+                    },
+                    {
+                        "icon": "✏️",
+                        "name": "Edytuj Punkty",
+                        "desc": "Edytuj punkty zakotwiczenia i uchwyty"
+                    },
+                    {
+                        "icon": "✒️",
+                        "name": "Pióro",
+                        "desc": "Rysuj dowolne ścieżki"
+                    },
+                    {
+                        "icon": "📏",
+                        "name": "Linia",
+                        "desc": "Rysuj linie proste"
+                    },
+                    {
+                        "icon": "▭",
+                        "name": "Prostokąt",
+                        "desc": "Rysuj prostokąty i kwadraty"
+                    },
+                    {
+                        "icon": "⭕",
+                        "name": "Okrąg",
+                        "desc": "Rysuj okręgi i elipsy"
+                    },
+                    {
+                        "icon": "⬟",
+                        "name": "Wielokąt",
+                        "desc": "Rysuj wielokąty foremne"
+                    },
+                    {
+                        "icon": "🎨",
+                        "name": "Bézier",
+                        "desc": "Rysuj krzywe Béziera z punktami kontrolnymi"
+                    }
+                ],
+                "buttons": {
+                    "import": "Importuj istniejące pliki SVG do projektu",
+                    "export": "Eksportuj projekt jako plik SVG",
+                    "projectName": "Pokazuje nazwę projektu i liczbę kształtów"
+                }
+            },
+            "canvas": {
+                "title": "Nieskończone Płótno",
+                "desc": "Główna przestrzeń robocza do tworzenia projektów puzzli.",
+                "features": [
+                    "Nieskończone przewijanie - płótno rozszerza się we wszystkich kierunkach",
+                    "Wyświetlanie linijek z pomiarami w pikselach",
+                    "Siatka do precyzyjnego wyrównania",
+                    "Powiększanie/pomniejszanie kółkiem myszy lub gestami",
+                    "Przesuwanie przez przeciąganie z wciśniętą spacją lub dwoma palcami",
+                    "Ramka zaznaczenia pojawia się po wybraniu elementu"
+                ],
+                "tip": "Użyj ⌘0 aby zresetować zoom do 100%, lub ⌘1 aby dopasować płótno do okna."
+            },
+            "toolsPanel": {
+                "title": "Panel Narzędzi",
+                "desc": "Szybki dostęp do typowych operacji i informacji o narzędziach.",
+                "sections": {
+                    "currentTool": {
+                        "title": "Aktualne Narzędzie",
+                        "desc": "Wyświetla aktualnie wybrane narzędzie."
+                    },
+                    "elementOps": {
+                        "title": "Operacje na Elemencie",
+                        "desc": "Kopiuj lub usuń wybrane elementy."
+                    },
+                    "canvasOps": {
+                        "title": "Operacje na Płótnie",
+                        "desc": "Resetuj widok i dostosuj zoom."
+                    },
+                    "quickOps": {
+                        "title": "Szybkie Operacje",
+                        "desc": "Wyczyść płótno, zaznacz wszystko, odznacz."
+                    }
+                }
+            },
+            "layersPanel": {
+                "title": "Panel Warstw",
+                "desc": "Zarządzaj hierarchią projektu.",
+                "features": [
+                    "Wyświetl grupy i kształty w strukturze drzewa",
+                    "Rozwiń grupy aby zobaczyć elementy",
+                    "Zablokuj kształty (ikona kłódki)",
+                    "Przełączaj widoczność (ikona oka)",
+                    "Wyświetla całkowitą liczbę warstw na górze"
+                ]
+            },
+            "templatesPanel": {
+                "title": "Panel Szablonów",
+                "desc": "Szablony definiują jak łączą się elementy puzzli.",
+                "features": [
+                    "Wbudowane szablony: Standardowy Wypukły, Standardowy Wklęsły, Linia Prosta",
+                    "Kliknij + aby utworzyć własne szablony",
+                    "Szukaj szablonów według nazwy",
+                    "Wybierz szablony do generowania puzzli",
+                    "Własne szablony zapisywane są z projektem"
+                ],
+                "templateTypes": {
+                    "builtin": {
+                        "title": "Wbudowane Szablony",
+                        "desc": "Gotowe kształty slotów dostarczone przez JigsawDesigner."
+                    },
+                    "custom": {
+                        "title": "Własne Szablony",
+                        "desc": "Projektuj własne unikalne kształty slotów używając narzędzi beziera."
+                    }
+                }
+            },
+            "inspector": {
+                "title": "Inspektor Projektu",
+                "desc": "Inspektor po prawej stronie zapewnia wszystkie opcje konfiguracji projektu.",
+                "sections": {
+                    "projectInfo": {
+                        "title": "Info o Projekcie",
+                        "desc": "Przeglądaj i edytuj nazwę, datę utworzenia i modyfikacji."
+                    },
+                    "canvasSettings": {
+                        "title": "Ustawienia Płótna",
+                        "desc": "Ustaw szerokość i wysokość w pikselach lub wybierz ustawienia wstępne."
+                    },
+                    "jigsawSettings": {
+                        "title": "Ustawienia Puzzli",
+                        "desc": "Konfiguruj rozmiar siatki, liczbę elementów i odległość gniazd."
+                    },
+                    "statistics": {
+                        "title": "Statystyki",
+                        "desc": "Przeglądaj liczbę kształtów, szablonów i poziom powiększenia."
+                    },
+                    "operations": {
+                        "title": "Operacje",
+                        "desc": "Dostęp do zaawansowanych ustawień i przycisku generowania puzzli."
+                    }
+                }
+            },
+            "shapeInfo": {
+                "title": "Inspektor Kształtu",
+                "desc": "Po wybraniu kształtu lub grupy panel pokazuje szczegółowe informacje.",
+                "sections": {
+                    "shapeInfo": {
+                        "title": "Info o Kształcie",
+                        "desc": "Przeglądaj i edytuj nazwę, ID i typ (Ścieżka, Grupa, Okrąg, itp.)."
+                    },
+                    "transform": {
+                        "title": "Przekształć",
+                        "desc": "Dostosuj pozycję (X, Y), skalę i rotację elementu."
+                    },
+                    "geometry": {
+                        "title": "Geometria",
+                        "desc": "Przeglądaj wymiary i pozycję ramki ograniczającej."
+                    },
+                    "operations": {
+                        "title": "Operacje",
+                        "desc": "Kopiuj lub usuń wybrany element."
+                    }
+                }
+            },
+            "advancedSettings": {
+                "title": "Zaawansowane Ustawienia",
+                "desc": "Uzyskaj dostęp do kompleksowych ustawień aplikacji poprzez okno dialogowe Zaawansowane Ustawienia.",
+                "sections": {
+                    "language": {
+                        "title": "Ustawienia Języka",
+                        "desc": "Zmień język aplikacji. Obsługuje domyślny systemowy lub wybierz spośród 40+ języków."
+                    },
+                    "subscription": {
+                        "title": "Zarządzanie Subskrypcją",
+                        "desc": "Wyświetl status subskrypcji i zarządzaj członkostwem Premium."
+                    },
+                    "editor": {
+                        "title": "Ustawienia Edytora",
+                        "desc": "Dostosuj wyświetlanie płótna, w tym siatkę, linijki, przyciąganie do siatki, odstępy siatki i szerokość obrysu."
+                    }
+                },
+                "options": {
+                    "showGrid": {
+                        "title": "Pokaż Siatkę",
+                        "desc": "Pokaż/Ukryj nakładkę siatki"
+                    },
+                    "showRulers": {
+                        "title": "Pokaż Linijki",
+                        "desc": "Pokaż/Ukryj linijki"
+                    },
+                    "snapToGrid": {
+                        "title": "Przyciągaj do Siatki",
+                        "desc": "Włącz/Wyłącz przyciąganie do siatki"
+                    },
+                    "gridSpacing": {
+                        "title": "Odstęp Siatki",
+                        "desc": "Dostosuj odstęp siatki (odległość w pikselach)"
+                    },
+                    "strokeWidth": {
+                        "title": "Szerokość Linii",
+                        "desc": "Ustaw szerokość linii dla kształtów"
+                    }
+                }
+            },
+            "templateEditor": {
+                "title": "Edytor Szablonów",
+                "desc": "Twórz własne szablony slotów za pomocą wbudowanego narzędzia do rysowania krzywych Béziera.",
+                "features": [
+                    "Nazwij swój własny szablon",
+                    "Rysuj krzywe Béziera kliknięciem i przeciągnięciem",
+                    "Podwójne kliknięcie aby zakończyć ścieżkę",
+                    "Edytuj poszczególne punkty kontrolne",
+                    "Importuj istniejące szablony SVG",
+                    "Eksportuj szablony do kopii zapasowej"
+                ],
+                "buttons": {
+                    "clearPath": {
+                        "title": "Wyczyść ścieżkę",
+                        "desc": "Wyczyść bieżący rysunek"
+                    },
+                    "editPoints": {
+                        "title": "Edytuj punkty",
+                        "desc": "Przełącz do trybu edycji punktów"
+                    },
+                    "importSVG": {
+                        "title": "Importuj SVG",
+                        "desc": "Importuj plik SVG jako szablon"
+                    },
+                    "exportSVG": {
+                        "title": "Eksportuj SVG",
+                        "desc": "Eksportuj szablon jako SVG"
+                    }
+                }
+            }
+        },
+        "industryKeywords": {
+            "title": "Dlaczego JigsawDesigner do linii cięcia?",
+            "laserCutting": {
+                "title": "SVG do cięcia laserowego",
+                "desc": "Generuj czyste, precyzyjne ścieżki SVG zoptymalizowane pod kątem urządzeń Glowforge, Cricut i laserów CO2."
+            },
+            "dieline": {
+                "title": "Niestandardowe wykrojniki",
+                "desc": "Twórz unikalne linie cięcia ze wzorami Voronoi, które gwarantują, że każdy element jest jedyny w swoim rodzaju."
+            },
+            "manufacturing": {
+                "title": "Gotowe do produkcji",
+                "desc": "Eksportuj projekty w profesjonalnych formatach wektorowych (SVG, PDF) gotowych do produkcji masowej lub ręcznej."
+            }
+        },
+        "projectLibraryContent": {
+            "title": "Biblioteka Projektów",
+            "intro": "Biblioteka Projektów to Twoje centrum zarządzania wszystkimi projektami puzzli. Dostęp z ekranu powitalnego lub przez Plik → Biblioteka Projektów.",
+            "myProjects": {
+                "title": "Moje Projekty",
+                "icon": "📁",
+                "desc": "Twoja osobista przestrzeń robocza dla wszystkich projektów puzzli, bezpiecznie przechowywana w iCloud.",
+                "features": [
+                    "Automatyczna synchronizacja iCloud między Mac, iPad i iPhone",
+                    "Twórz nowe projekty przyciskiem +",
+                    "Podglądy miniatur z nazwą projektu i datą",
+                    "Usuń projekty czerwonym przyciskiem kosza",
+                    "Projekty oznaczone ikoną chmury wskazują status synchronizacji"
+                ],
+                "howTo": "Kliknij \"Nowy Projekt\" aby utworzyć pusty puzzle, lub kliknij istniejącą miniaturę aby otworzyć w edytorze.",
+                "contextMenu": {
+                    "title": "Menu kontekstowe",
+                    "desc": "Kliknij prawym przyciskiem (lub przytrzymaj na iPad/iPhone) na dowolnym projekcie aby uzyskać dostęp do opcji:",
+                    "options": {
+                        "open": {
+                            "title": "Otwórz Projekt",
+                            "desc": "Otwórz projekt w edytorze"
+                        },
+                        "rename": {
+                            "title": "Zmień nazwę",
+                            "desc": "Zmień nazwę projektu"
+                        },
+                        "publish": {
+                            "title": "Opublikuj",
+                            "desc": "Udostępnij projekt wszystkim użytkownikom JigsawDesigner"
+                        },
+                        "share": {
+                            "title": "Utwórz link",
+                            "desc": "Wygeneruj link iCloud. Wyślij znajomym i zobaczą Twój projekt"
+                        },
+                        "delete": {
+                            "title": "Usuń",
+                            "desc": "Trwale usuń projekt"
+                        }
+                    }
+                }
+            },
+            "publicProjects": {
+                "title": "Projekty Publiczne",
+                "icon": "🌐",
+                "desc": "Szablony społeczności dostępne dla wszystkich użytkowników. Przeglądaj, podglądaj i importuj projekty z biblioteki publicznej.",
+                "features": [
+                    "Przeglądaj szablony utworzone przez zespół JigsawDesigner",
+                    "Zobacz liczbę elementów przed importem",
+                    "Kliknij \"Otwórz\" aby podejrzeć projekt",
+                    "Kliknij \"Importuj\" aby skopiować do Moich Projektów",
+                    "Świetne do nauki i inspiracji"
+                ],
+                "howTo": "Wybierz projekt publiczny i kliknij \"Importuj\" aby dodać kopię do swojej biblioteki."
+            },
+            "sharedProjects": {
+                "title": "Udostępnione Projekty",
+                "icon": "👥",
+                "desc": "Przestrzeń współpracy dla projektów udostępnionych Ci przez innych użytkowników.",
+                "features": [
+                    "Otrzymuj projekty udostępnione przez współpracowników lub znajomych",
+                    "Dostęp tylko do odczytu lub edycji w zależności od uprawnień",
+                    "Synchronizacja w czasie rzeczywistym z właścicielem projektu",
+                    "Akceptuj udostępnienia przez link zaproszenia"
+                ],
+                "howTo": "Gdy ktoś udostępni Ci projekt, pojawi się tutaj automatycznie. Kliknij aby otworzyć i współpracować."
+            }
         }
     }
-  },
-  "Help": {
-      "title": "Centrum Pomocy",
-      "subtitle": "Pełny przewodnik po używaniu JigsawDesigner do tworzenia profesjonalnych puzzli.",
-      "toc": "Spis Treści",
-      "sections": {
-          "gettingStarted": "Pierwsze Kroki",
-          "tools": "Narzędzia Rysowania",
-          "operations": "Operacje na Elementach",
-          "generation": "Generowanie Puzzli",
-          "importExport": "Import i Eksport",
-          "shortcuts": "Skróty Klawiszowe"
-      },
-      "gettingStartedContent": {
-          "title": "Stwórz Swój Pierwszy Projekt",
-          "steps": {
-              "1": { "title": "Uruchom JigsawDesigner", "desc": "Otwórz aplikację na Macu lub urządzeniu iOS." },
-              "2": { "title": "Wybierz Narzędzie", "desc": "Wybierz spośród 8 narzędzi rysowania na pasku narzędzi." },
-              "3": { "title": "Narysuj Swój Projekt", "desc": "Twórz kształty, ścieżki lub importuj istniejące pliki SVG." },
-              "4": { "title": "Generuj Puzzle", "desc": "Kliknij 'Generuj Puzzle', aby stworzyć zazębiające się elementy." },
-              "5": { "title": "Eksport", "desc": "Zapisz swoje puzzle jako SVG do produkcji lub druku." }
-          }
-      },
-      "toolsContent": {
-        "select": { "title": "Narzędzie Zaznaczania", "desc": "Zaznaczaj i przesuwaj kształty na płótnie. Shift+Kliknięcie dla wielokrotnego zaznaczania, Ctrl+Kliknięcie, aby wejść w grupy." },
-        "edit": { "title": "Narzędzie Edycji", "desc": "Edytuj punkty kontrolne kształtów. Precyzyjnie dostosuj geometrię kształtu, przeciągając punkty." },
-        "pen": { "title": "Narzędzie Pióra", "desc": "Rysowanie ścieżek odręcznych. Kliknij i przeciągnij, aby tworzyć krzywe Beziera i organiczne kształty." },
-        "line": { "title": "Narzędzie Linii", "desc": "Rysuj proste linie. Idealne do geometrycznych wzorów i precyzyjnych połączeń." },
-        "rect": { "title": "Narzędzie Prostokąta", "desc": "Rysuj prostokątne kształty. Kliknij i przeciągnij od rogu, aby utworzyć." },
-        "circle": { "title": "Narzędzie Koła", "desc": "Rysuj koła i elipsy. Przeciągnij od środka, aby ustawić promień." },
-        "polygon": { "title": "Narzędzie Wielokąta", "desc": "Rysuj wieloboczne wielokąty. Kliknij, aby umieścić każdy wierzchołek, kliknij dwukrotnie, aby zakończyć." },
-        "bezier": { "title": "Narzędzie Beziera", "desc": "Rysuj precyzyjne krzywe Beziera z punktami kotwiczenia i uchwytami kontrolnymi." }
-      },
-      "operationsContent": {
-          "selection": { 
-              "title": "Zaznaczanie", 
-              "items": [
-                  "Pojedyncze Zaznaczenie: Kliknij dowolny kształt",
-                  "Wielokrotne Zaznaczenie: Shift+Kliknięcie na wiele kształtów",
-                  "Zaznacz Wszystko: Naciśnij ⌘A, aby zaznaczyć wszystkie kształty",
-                  "Głębokie Zaznaczenie: Ctrl+Kliknięcie, aby zaznaczyć elementy podrzędne w grupach"
-              ] 
-          },
-          "grouping": { 
-              "title": "Grupowanie", 
-              "items": [
-                  "Grupuj Kształty: Zaznacz wiele kształtów i naciśnij G",
-                  "Rozgrupuj: Zaznacz grupę i naciśnij ⌘G",
-                  "Zagnieżdżone Grupy: Twórz złożone hierarchie"
-              ]
-          },
-          "editing": { 
-              "title": "Edycja", 
-              "items": [
-                  "Kopiuj: Naciśnij ⌘C, aby zduplikować zaznaczone elementy",
-                  "Usuń: Naciśnij Delete lub Backspace, aby usunąć",
-                  "Przekształć: Użyj panelu Inspektora, aby dostosować pozycję, skalę i obrót"
-              ]
-          }
-      },
-      "generationContent": {
-          "howItWorks": {
-              "title": "Jak To Działa",
-              "desc": "JigsawDesigner używa zaawansowanych algorytmów C++ z bibliotekami OpenCV i Boost do generowania wysokiej jakości elementów puzzli przy użyciu diagramów Woronoja i struktur danych DCEL."
-          },
-          "steps": {
-              "1": { "title": "Rysuj Granicę", "desc": "Stwórz kształt konturu, który zostanie podzielony na elementy puzzli." },
-              "2": { "title": "Konfiguruj", "desc": "Ustaw liczbę elementów, ustawienia gniazd i wybierz szablony." },
-              "3": { "title": "Generuj", "desc": "Kliknij 'Generuj', aby uruchomić algorytm i stworzyć zazębiające się elementy." },
-              "4": { "title": "Eksport", "desc": "Eksportuj jako SVG do produkcji lub druku." }
-          }
-      },
-      "importExportContent": {
-          "import": {
-              "title": "Import SVG",
-              "desc": "Importuj istniejące pliki SVG do wykorzystania jako granice puzzli lub elementy projektu.",
-              "shortcut": "Skrót:",
-              "items": ["Ścieżki, prostokąty, koła", "Grupy i przekształcenia", "ViewBox i współrzędne"]
-          },
-          "export": {
-              "title": "Eksport SVG",
-              "desc": "Eksportuj swoje projekty i wygenerowane puzzle jako standardowe pliki SVG.",
-              "shortcut": "Skrót:",
-              "items": ["Standardowy format SVG 1.1", "Zachowuje wszystkie przekształcenia", "Zachowuje hierarchie grup"]
-          },
-          "premium": {
-              "title": "Funkcja Premium",
-              "desc": "Subskrypcja Premium jest wymagana do eksportowania wygenerowanych puzzli. Darmowi użytkownicy mogą projektować i generować, ale eksport jest ograniczony."
-          }
-      },
-      "shortcutsContent": {
-        "file": {
-            "title": "Operacje na Plikach",
-            "new": "Nowy Projekt",
-            "import": "Import SVG",
-            "export": "Eksport SVG"
-        },
-        "edit": {
-            "title": "Operacje Edycji",
-            "copy": "Kopiuj",
-            "delete": "Usuń",
-            "selectAll": "Zaznacz Wszystko",
-            "group": "Grupuj Kształty",
-            "ungroup": "Rozgrupuj"
-        },
-        "selection": {
-            "title": "Zaznaczanie",
-            "multi": "Wielokrotne Zaznaczanie",
-            "drillDown": "Wiercenie w Dół",
-            "drillUp": "Wiercenie w Górę"
-        }
-      },
-      "troubleshooting": {
-          "title": "Rozwiązywanie Problemów",
-          "items": {
-              "shapes": { "title": "Kształty się nie pojawiają", "content": "Sprawdź, czy jesteś w odpowiednim trybie rysowania. Sprawdź, czy rozmiar płótna ma miejsce na Twój kształt. Sprawdź, czy kolory wypełnienia/obrysu kształtu nie są przezroczyste." },
-              "select": { "title": "Nie można zaznaczyć kształtu", "content": "Przełącz na Narzędzie Zaznaczania (ikona kursora). Upewnij się, że kształt nie jest ukryty za innymi. Spróbuj użyć Ctrl+Kliknięcie, aby wejść w grupy." },
-              "fail": { "title": "Generowanie puzzli nie powiodło się", "content": "Upewnij się, że kształt granicy jest zamkniętą ścieżką. Zmniejsz liczbę elementów dla złożonych kształtów. Sprawdź, czy szablony gniazd są prawidłowe." },
-              "export": { "title": "Eksport jest wyłączony", "content": "Subskrypcja Premium jest wymagana do eksportowania wygenerowanych puzzli. Darmowa wersja pozwala na projektowanie, ale ogranicza funkcjonalność eksportu." }
-          }
-      },
-      "needHelp": {
-          "title": "Potrzebujesz Więcej Pomocy?",
-          "desc": "Odwiedź naszą stronę wsparcia lub skontaktuj się z nami bezpośrednio, aby uzyskać osobistą pomoc",
-          "contact": "Skontaktuj Się ze Wsparciem",
-          "download": "Pobierz Aplikację"
-      }
-  }
 }

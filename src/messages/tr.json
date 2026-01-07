@@ -1,227 +1,628 @@
 {
-  "Navigation": {
-    "features": "Özellikler",
-    "download": "İndir",
-    "github": "GitHub",
-    "getStarted": "Başlayın",
-    "home": "Ana Sayfa",
-    "support": "Destek",
-    "help": "Yardım Merkezi"
-  },
-  "Hero": {
-    "version": "v1.3 Yayında - Şimdi deneyin!",
-    "titlePart1": "Bulmacaları Bir <br/>",
-    "titleProfessional": "Profesyonel Gibi Tasarlayın",
-    "subtitle": "Apple platformları için en güçlü bulmaca tasarım aracı. Yerel performans, SVG hassasiyeti ve algoritma destekli üretim.",
-    "download": "İndir",
-    "learnMore": "Daha Fazla Bilgi"
-  },
-  "Features": {
-    "title": "Güçlü Özellikler",
-    "subtitle": "Profesyonel kalitede bulmacalar oluşturmak için ihtiyacınız olan her şey.",
-    "list": {
-      "customization": {
-        "title": "Sınırsız Özelleştirme",
-        "description": "Yuva şablonlarından ve konturlardan bulmaca içlerine kadar her şeyi özelleştirin. Öne çıkan benzersiz tasarımlar oluşturun."
-      },
-      "workflow": {
-        "title": "Yıldırım Hızında İş Akışı",
-        "description": "Saatler süren manuel çalışmayı saniyelere dönüştürün. Gelişmiş motorumuzla sadece 3 saniyede karmaşık bulmaca desenleri oluşturun."
-      },
-      "anywhere": {
-        "title": "Her Yerde Tasarlayın",
-        "description": "Mac'inizde başlayın, iPad'inizde geliştirin ve iPhone'unuzda inceleyin. Çalışma alanınız sizinle birlikte hareket eder."
-      }
-    }
-  },
-  "Footer": {
-    "privacy": "Gizlilik",
-    "support": "Destek",
-    "github": "GitHub",
-    "rights": "© {year} JigsawDesigner. Tüm hakları saklıdır."
-  },
-  "Privacy": {
-    "title": "Gizlilik Politikası",
-    "introduction": {
-        "title": "Giriş",
-        "content": "JigsawDesigner (\"biz\", \"bizim\" veya \"bize\") gizliliğinize saygı duyar ve onu korumayı taahhüt eder. Bu Gizlilik Politikası, uygulamamızı ve web sitemizi kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar."
+    "Navigation": {
+        "features": "Özellikler",
+        "download": "İndir",
+        "github": "GitHub",
+        "getStarted": "Başlayın",
+        "home": "Ana Sayfa",
+        "support": "Destek",
+        "help": "Yardım Merkezi"
     },
-    "dataCollection": {
-        "title": "Veri Toplama",
-        "content": "Kişisel verileri toplamıyoruz.",
-        "content2": "JigsawDesigner, dosyalarınızı cihazınızda yerel olarak işlemek üzere tasarlanmıştır. Tasarımlarınız, görselleriniz ve projeleriniz, açıkça dışa aktarmayı veya paylaşmayı seçmediğiniz sürece cihazınızdan asla ayrılmaz.",
+    "Hero": {
+        "version": "{version} Yayında - Şimdi deneyin!",
+        "titlePart1": "Bulmacaları Bir <br/>",
+        "titleProfessional": "Profesyonel Gibi Tasarlayın",
+        "subtitle": "Apple platformları için en güçlü bulmaca tasarım aracı. Yerel performans, SVG hassasiyeti ve algoritma destekli üretim.",
+        "download": "İndir",
+        "learnMore": "Daha Fazla Bilgi"
+    },
+    "Features": {
+        "title": "Güçlü Özellikler",
+        "subtitle": "Profesyonel kalitede bulmacalar oluşturmak için ihtiyacınız olan her şey.",
         "list": {
-            "behavior": "Kullanım davranışınızı takip etmiyoruz.",
-            "upload": "Bulmaca görselleri gibi fotoğraflarınızı herhangi bir sunucuya yüklemiyoruz.",
-            "sell": "Verilerinizi üçüncü taraflara satmıyoruz."
+            "customization": {
+                "title": "Sınırsız Özelleştirme",
+                "description": "Yuva şablonlarından ve konturlardan bulmaca içlerine kadar her şeyi özelleştirin. Öne çıkan benzersiz tasarımlar oluşturun."
+            },
+            "workflow": {
+                "title": "Yıldırım Hızında İş Akışı",
+                "description": "Saatler süren manuel çalışmayı saniyelere dönüştürün. Gelişmiş motorumuzla sadece 3 saniyede karmaşık bulmaca desenleri oluşturun."
+            },
+            "anywhere": {
+                "title": "Her Yerde Tasarlayın",
+                "description": "Mac'inizde başlayın, iPad'inizde geliştirin ve iPhone'unuzda inceleyin. Çalışma alanınız sizinle birlikte hareket eder."
+            }
         }
     },
-    "analytics": {
-        "title": "Uygulama Analitiği",
-        "content": "Uygulama performansını ve kararlılığını iyileştirmek için Apple'ın standart isteğe bağlı analitiğini (ör. çökme raporları) kullanabiliriz. Bu veriler anonimdir ve sizi kişisel olarak tanımlamaz. Cihaz ayarlarınızdan istediğiniz zaman vazgeçebilirsiniz."
+    "Footer": {
+        "privacy": "Gizlilik",
+        "support": "Destek",
+        "github": "GitHub",
+        "rights": "© {year} JigsawDesigner. Tüm hakları saklıdır."
     },
-    "contact": {
-        "title": "Bize Ulaşın",
-        "content": "Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen bizimle iletişime geçin:"
-    },
-    "lastUpdated": "Son Güncelleme: 10 Aralık 2025"
-  },
-  "Support": {
-    "hero": {
-        "titlePart1": "Size nasıl",
-        "titlePart2": "yardımcı olabiliriz?",
-        "subtitle": "Yaratıcı yolculuğunuzu desteklemek için buradayız. Cevapları bulun veya ekibimizle iletişime geçin."
-    },
-    "documentation": {
-        "title": "Dokümantasyon",
-        "description": "JigsawDesigner'ın özelliklerinde ve araçlarında ustalaşmak için kapsamlı rehberlerimizi keşfedin.",
-        "action": "Makalelere Göz At"
-    },
-    "email": {
-        "title": "E-posta Desteği",
-        "description": "Belirli bir sorunla ilgili yardıma mı ihtiyacınız var? Destek ekibimiz doğrudan size yardımcı olmaya hazır."
-    },
-    "faq": {
-        "title": "Sıkça Sorulan Sorular",
-        "q1": {
-            "question": "JigsawDesigner tek seferlik bir satın alma mı?",
-            "answer": "Evet, JigsawDesigner ömür boyu lisans seçeneğinin yanı sıra abonelik planları da sunar. En güncel fiyatlar için App Store'u kontrol edin."
+    "Privacy": {
+        "title": "Gizlilik Politikası",
+        "introduction": {
+            "title": "Giriş",
+            "content": "JigsawDesigner (\"biz\", \"bizim\" veya \"bize\") gizliliğinize saygı duyar ve onu korumayı taahhüt eder. Bu Gizlilik Politikası, uygulamamızı ve web sitemizi kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar."
         },
-        "q2": {
-            "question": "Tasarımlarımı ticari kullanım için dışa aktarabilir miyim?",
-            "answer": "Kesinlikle. JigsawDesigner ile oluşturulan tüm tasarımlar size aittir. Bunları üretim veya ticari baskı için SVG veya PDF olarak dışa aktarabilirsiniz."
+        "dataCollection": {
+            "title": "Veri Toplama",
+            "content": "Kişisel verileri toplamıyoruz.",
+            "content2": "JigsawDesigner, dosyalarınızı cihazınızda yerel olarak işlemek üzere tasarlanmıştır. Tasarımlarınız, görselleriniz ve projeleriniz, açıkça dışa aktarmayı veya paylaşmayı seçmediğiniz sürece cihazınızdan asla ayrılmaz.",
+            "list": {
+                "behavior": "Kullanım davranışınızı takip etmiyoruz.",
+                "upload": "Bulmaca görselleri gibi fotoğraflarınızı herhangi bir sunucuya yüklemiyoruz.",
+                "sell": "Verilerinizi üçüncü taraflara satmıyoruz."
+            }
         },
-        "q3": {
-            "question": "Özel kesim çizgilerini destekliyor mu?",
-            "answer": "Evet, kesim çizgileri olarak kullanmak için özel SVG yollarını içe aktarabilir veya benzersiz desenleri otomatik olarak oluşturmak için gelişmiş algoritmalarımızı kullanabilirsiniz."
+        "analytics": {
+            "title": "Uygulama Analitiği",
+            "content": "Uygulama performansını ve kararlılığını iyileştirmek için Apple'ın standart isteğe bağlı analitiğini (ör. çökme raporları) kullanabiliriz. Bu veriler anonimdir ve sizi kişisel olarak tanımlamaz. Cihaz ayarlarınızdan istediğiniz zaman vazgeçebilirsiniz."
+        },
+        "contact": {
+            "title": "Bize Ulaşın",
+            "content": "Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen bizimle iletişime geçin:"
+        },
+        "lastUpdated": "Son Güncelleme: 10 Aralık 2025"
+    },
+    "Support": {
+        "hero": {
+            "titlePart1": "Size nasıl",
+            "titlePart2": "yardımcı olabiliriz?",
+            "subtitle": "Yaratıcı yolculuğunuzu desteklemek için buradayız. Cevapları bulun veya ekibimizle iletişime geçin."
+        },
+        "documentation": {
+            "title": "Dokümantasyon",
+            "description": "JigsawDesigner'ın özelliklerinde ve araçlarında ustalaşmak için kapsamlı rehberlerimizi keşfedin.",
+            "action": "Makalelere Göz At"
+        },
+        "email": {
+            "title": "E-posta Desteği",
+            "description": "Belirli bir sorunla ilgili yardıma mı ihtiyacınız var? Destek ekibimiz doğrudan size yardımcı olmaya hazır."
+        },
+        "faq": {
+            "title": "Sıkça Sorulan Sorular",
+            "q1": {
+                "question": "JigsawDesigner tek seferlik bir satın alma mı?",
+                "answer": "Evet, JigsawDesigner ömür boyu lisans seçeneğinin yanı sıra abonelik planları da sunar. En güncel fiyatlar için App Store'u kontrol edin."
+            },
+            "q2": {
+                "question": "Tasarımlarımı ticari kullanım için dışa aktarabilir miyim?",
+                "answer": "Kesinlikle. JigsawDesigner ile oluşturulan tüm tasarımlar size aittir. Bunları üretim veya ticari baskı için SVG veya PDF olarak dışa aktarabilirsiniz."
+            },
+            "q3": {
+                "question": "Özel kesim çizgilerini destekliyor mu?",
+                "answer": "Evet, kesim çizgileri olarak kullanmak için özel SVG yollarını içe aktarabilir veya benzersiz desenleri otomatik olarak oluşturmak için gelişmiş algoritmalarımızı kullanabilirsiniz."
+            }
+        }
+    },
+    "Help": {
+        "title": "Yardım Merkezi ve Jigsaw Oluşturma Kılavuzu",
+        "subtitle": "JigsawDesigner kullanarak profesyonel kesim hattı üretimi ve tasarımı için tam kılavuz.",
+        "toc": "İçindekiler",
+        "sections": {
+            "gettingStarted": "Başlarken",
+            "tools": "SVG Çizim Araçları",
+            "operations": "Öğe İşlemleri",
+            "generation": "Kesim Hattı Üretimi",
+            "importExport": "SVG İçe ve Dışa Aktarma",
+            "shortcuts": "Klavye Kısayolları",
+            "projectLibrary": "Proje Kitaplığı",
+            "interface": "Editör Arayüzü"
+        },
+        "gettingStartedContent": {
+            "title": "İlk Projenizi Oluşturun",
+            "steps": {
+                "1": {
+                    "title": "JigsawDesigner'ı Başlatın",
+                    "desc": "Mac veya iOS cihazınızda uygulamayı açın."
+                },
+                "2": {
+                    "title": "Bir Araç Seçin",
+                    "desc": "Araç çubuğundaki 8 çizim aracından birini seçin."
+                },
+                "3": {
+                    "title": "Tasarımınızı Çizin",
+                    "desc": "Şekiller, yollar oluşturun veya mevcut SVG dosyalarını içe aktarın."
+                },
+                "4": {
+                    "title": "Bulmaca Oluştur",
+                    "desc": "Kilitli parçalar oluşturmak için 'Bulmaca Oluştur'a tıklayın."
+                },
+                "5": {
+                    "title": "Dışa Aktar",
+                    "desc": "Bulmacanızı üretim veya baskı için SVG olarak kaydedin."
+                }
+            }
+        },
+        "toolsContent": {
+            "select": {
+                "title": "Seçim Aracı",
+                "desc": "Tuval üzerindeki şekilleri seçin ve taşıyın. Çoklu seçim için Shift+Tıklama, grupların içine girmek için Ctrl+Tıklama."
+            },
+            "edit": {
+                "title": "Düzenleme Aracı",
+                "desc": "Şekillerin kontrol noktalarını düzenleyin. Noktaları sürükleyerek şekil geometrisini hassas bir şekilde ayarlayın."
+            },
+            "pen": {
+                "title": "Kalem Aracı",
+                "desc": "Serbest form yol çizimi. Bezier eğrileri ve organik şekiller oluşturmak için tıklayın ve sürükleyin."
+            },
+            "line": {
+                "title": "Çizgi Aracı",
+                "desc": "Düz çizgiler çizin. Geometrik tasarımlar ve hassas bağlantılar için mükemmeldir."
+            },
+            "rect": {
+                "title": "Dikdörtgen Aracı",
+                "desc": "Dikdörtgen şekiller çizin. Oluşturmak için köşeden sürükleyin."
+            },
+            "circle": {
+                "title": "Daire Aracı",
+                "desc": "Daireler ve elipsler çizin. Yarıçapı ayarlamak için merkezden sürükleyin."
+            },
+            "polygon": {
+                "title": "Çokgen Aracı",
+                "desc": "Çok kenarlı çokgenler çizin. Her köşeyi yerleştirmek için tıklayın, bitirmek için çift tıklayın."
+            },
+            "bezier": {
+                "title": "Bezier Aracı",
+                "desc": "Bağlantı noktaları ve kontrol kolları ile hassas Bezier eğrileri çizin."
+            }
+        },
+        "operationsContent": {
+            "selection": {
+                "title": "Seçim",
+                "items": [
+                    "Tekli Seçim: Herhangi bir şekle tıklayın",
+                    "Çoklu Seçim: Birden fazla şekle Shift+Tıklama",
+                    "Tümünü Seç: Tüm şekilleri seçmek için ⌘A'ya basın",
+                    "Derin Seçim: Grupların içindeki alt öğeleri seçmek için Ctrl+Tıklama"
+                ]
+            },
+            "grouping": {
+                "title": "Gruplama",
+                "items": [
+                    "Şekilleri Grupla: Birden fazla şekil seçin ve G'ye basın",
+                    "Grubu Çöz: Bir grup seçin ve ⌘G'ye basın",
+                    "İç İçe Gruplar: Karmaşık hiyerarşiler oluşturun"
+                ]
+            },
+            "editing": {
+                "title": "Düzenleme",
+                "items": [
+                    "Kopyala: Seçili öğeleri çoğaltmak için ⌘C'ye basın",
+                    "Sil: Kaldırmak için Delete veya Backspace tuşuna basın",
+                    "Dönüştür: Konum, ölçek ve döndürmeyi ayarlamak için Denetçi panelini kullanın"
+                ]
+            }
+        },
+        "generationContent": {
+            "howItWorks": {
+                "title": "Nasıl Çalışır",
+                "desc": "JigsawDesigner, Voronoi diyagramları ve DCEL veri yapılarını kullanarak yüksek kaliteli bulmaca parçaları oluşturmak için OpenCV ve Boost kütüphaneleriyle gelişmiş C++ algoritmaları kullanır."
+            },
+            "steps": {
+                "1": {
+                    "title": "Sınır Konturunu İçe Aktar",
+                    "desc": "\"SVG İçe Aktar\"a tıklayın veya dış sınırı ve \"whimsy\" parçaları tanımlamak için bir şekil çizin."
+                },
+                "2": {
+                    "title": "Geçme Şablonunu Seç",
+                    "desc": "Parçaların nasıl birleşeceğini tanımlamak için bir geçme tasarımı (Standart, Çok noktalı vb.) seçin."
+                },
+                "3": {
+                    "title": "Parametreleri Yapılandır",
+                    "desc": "Müfettiş panelinden Izgara Boyutu, Parça Sayısı ve Geçme Mesafesi aralığını ayarlayın."
+                },
+                "4": {
+                    "title": "Kesim Hatlarını Oluştur",
+                    "desc": "\"Jigsaw Oluştur\"a tıklayın. Saniyeler içinde lazer kesime hazır kalıbınız hazır olacaktır."
+                }
+            },
+            "title": "Jigsaw Kesim Hattı Üretim Kılavuzu",
+            "desc": "JigsawDesigner, profesyonel kesim hatları üretmek için gelişmiş C++ algoritmaları kullanır. Bu 4 adımı izleyin:"
+        },
+        "importExportContent": {
+            "import": {
+                "title": "SVG İçe Aktar",
+                "desc": "Bulmaca sınırları veya tasarım öğeleri olarak kullanmak üzere mevcut SVG dosyalarını içe aktarın.",
+                "shortcut": "Kısayol:",
+                "items": [
+                    "Yollar, dikdörtgenler, daireler",
+                    "Gruplar ve dönüşümler",
+                    "ViewBox ve koordinatlar"
+                ]
+            },
+            "export": {
+                "title": "SVG Dışa Aktar",
+                "desc": "Tasarımlarınızı ve oluşturulan bulmacaları standart SVG dosyaları olarak dışa aktarın.",
+                "shortcut": "Kısayol:",
+                "items": [
+                    "Standart SVG 1.1 formatı",
+                    "Tüm dönüşümleri korur",
+                    "Grup hiyerarşilerini korur"
+                ]
+            },
+            "premium": {
+                "title": "Premium Özellik",
+                "desc": "Oluşturulan bulmacaları dışa aktarmak için Premium abonelik gerekir. Ücretsiz kullanıcılar tasarlayabilir ve oluşturabilir, ancak dışa aktarma sınırlıdır."
+            }
+        },
+        "shortcutsContent": {
+            "file": {
+                "title": "Dosya İşlemleri",
+                "new": "Yeni Proje",
+                "import": "SVG İçe Aktar",
+                "export": "SVG Dışa Aktar"
+            },
+            "edit": {
+                "title": "Düzenleme İşlemleri",
+                "copy": "Kopyala",
+                "delete": "Sil",
+                "selectAll": "Tümünü Seç",
+                "group": "Şekilleri Grupla",
+                "ungroup": "Grubu Çöz"
+            },
+            "selection": {
+                "title": "Seçim",
+                "multi": "Çoklu Seçim",
+                "drillDown": "Detaya İn",
+                "drillUp": "Yukarı Çık"
+            }
+        },
+        "troubleshooting": {
+            "title": "Sorun Giderme",
+            "items": {
+                "shapes": {
+                    "title": "Şekiller görünmüyor",
+                    "content": "Doğru çizim modunda olduğunuzu doğrulayın. Tuval boyutunun şekliniz için alanı olup olmadığını kontrol edin. Şekil dolgu/kontur renklerinin şeffaf olmadığından emin olun."
+                },
+                "select": {
+                    "title": "Şekil seçilemiyor",
+                    "content": "Seçim Aracına (imleç simgesi) geçin. Şeklin diğerlerinin arkasında gizli olmadığından emin olun. Grupların içine girmek için Ctrl+Tıklama kullanmayı deneyin."
+                },
+                "fail": {
+                    "title": "Bulmaca oluşumu başarısız",
+                    "content": "Sınır şeklinizin kapalı bir yol olduğundan emin olun. Karmaşık şekiller için parça sayısını azaltın. Yuva şablonlarının geçerli olup olmadığını kontrol edin."
+                },
+                "export": {
+                    "title": "Dışa aktarma devre dışı",
+                    "content": "Oluşturulan bulmacaları dışa aktarmak için Premium abonelik gerekir. Ücretsiz katman tasarıma izin verir ancak dışa aktarma işlevini sınırlar."
+                }
+            }
+        },
+        "needHelp": {
+            "title": "Daha Fazla Yardıma mı İhtiyacınız Var?",
+            "desc": "Destek sayfamızı ziyaret edin veya kişiselleştirilmiş yardım için doğrudan bizimle iletişime geçin",
+            "contact": "Destek ile İletişime Geç",
+            "download": "Uygulamayı İndir"
+        },
+        "metaTitle": "Yardım Merkezi - Profesyonel Jigsaw Kesim Hattı Oluşturucu ve SVG Tasarımcı",
+        "metaDescription": "JigsawDesigner’da uzmanlaşın: Jigsaw kesim hattı üretimi için nihai yazılım. Lazer kesim SVG’leri ve Voronoi desenleri oluşturun.",
+        "metaKeywords": "kesim hattı oluşturucu, yapboz kalıbı yapma, lazer kesim SVG, yapboz tasarım yazılımı, Voronoi oluşturucu",
+        "interfaceContent": {
+            "title": "Editör ve Kesim Arayüzü",
+            "intro": "JigsawDesigner editörü, hassas kesim hatları ve kalıplar tasarlamak için profesyonel bir vektör çalışma alanı sunar.",
+            "toolbar": {
+                "title": "Üst Araç Çubuğu",
+                "desc": "Tüm çizim araçlarına ve dosya işlemlerine hızlı erişim.",
+                "tools": [
+                    {
+                        "icon": "🖱️",
+                        "name": "Seç",
+                        "desc": "Tuvalde şekilleri seç ve taşı"
+                    },
+                    {
+                        "icon": "✏️",
+                        "name": "Nokta Düzenle",
+                        "desc": "Bağlantı noktalarını ve tutamaçları düzenle"
+                    },
+                    {
+                        "icon": "✒️",
+                        "name": "Kalem",
+                        "desc": "Serbest yollar çiz"
+                    },
+                    {
+                        "icon": "📏",
+                        "name": "Çizgi",
+                        "desc": "Düz çizgiler çiz"
+                    },
+                    {
+                        "icon": "▭",
+                        "name": "Dikdörtgen",
+                        "desc": "Dikdörtgenler ve kareler çiz"
+                    },
+                    {
+                        "icon": "⭕",
+                        "name": "Daire",
+                        "desc": "Daireler ve elipsler çiz"
+                    },
+                    {
+                        "icon": "⬟",
+                        "name": "Çokgen",
+                        "desc": "Düzgün çokgenler çiz"
+                    },
+                    {
+                        "icon": "🎨",
+                        "name": "Bezier",
+                        "desc": "Kontrol noktaları ile Bezier eğrileri çizin"
+                    }
+                ],
+                "buttons": {
+                    "import": "Mevcut SVG dosyalarını içe aktar",
+                    "export": "Tasarımı SVG olarak dışa aktar",
+                    "projectName": "Proje adını ve şekil sayısını gösterir"
+                }
+            },
+            "canvas": {
+                "title": "Sonsuz Tuval",
+                "desc": "Tasarımlarınız için ana çalışma alanı.",
+                "features": [
+                    "Her yöne sonsuz kaydırma",
+                    "Piksel ölçümlü cetvel",
+                    "Hassas hizalama için ızgara",
+                    "Tekerlek veya çimdik ile yakınlaştırma",
+                    "Boşluk tuşu veya iki parmakla kaydırma",
+                    "Seçim kutusu görünürlüğü"
+                ],
+                "tip": "Yakınlaştırmayı sıfırlamak için ⌘0, pencereye sığdırmak için ⌘1 kullanın."
+            },
+            "toolsPanel": {
+                "title": "Araç Paneli",
+                "desc": "Yaygın işlemlere hızlı erişim.",
+                "sections": {
+                    "currentTool": {
+                        "title": "Mevcut Araç",
+                        "desc": "Seçilen aracı gösterir."
+                    },
+                    "elementOps": {
+                        "title": "Öğe İşlemleri",
+                        "desc": "Seçileni kopyala veya sil."
+                    },
+                    "canvasOps": {
+                        "title": "Tuval İşlemleri",
+                        "desc": "Görünümü sıfırla ve yakınlaştır."
+                    },
+                    "quickOps": {
+                        "title": "Hızlı İşlemler",
+                        "desc": "Tuvali temizle, Tümünü seç."
+                    }
+                }
+            },
+            "layersPanel": {
+                "title": "Katmanlar Paneli",
+                "desc": "Tasarım hiyerarşisini yönetin.",
+                "features": [
+                    "Grupları ve şekilleri ağaç yapısında gör",
+                    "Grupları genişlet",
+                    "Şekilleri kilitle (kilit)",
+                    "Görünürlüğü değiştir (göz)",
+                    "Toplam katman sayısı üstte"
+                ]
+            },
+            "templatesPanel": {
+                "title": "Şablonlar Paneli",
+                "desc": "Şablonlar parça bağlantı şeklini tanımlar.",
+                "features": [
+                    "Yerleşik şablonlar: Standart Dışbükey, Standart İçbükey, Düz Çizgi",
+                    "+ düğmesine tıklayarak özel şablonlar oluşturun",
+                    "Şablonları isme göre arayın",
+                    "Puzzle oluşturma için bir şablon seçin",
+                    "Özel şablonlar projenize kaydedilir"
+                ],
+                "templateTypes": {
+                    "builtin": {
+                        "title": "Yerleşik Şablonlar",
+                        "desc": "JigsawDesigner tarafından sağlanan önceden tasarlanmış yuva şekilleri. Klasik dışbükey/içbükey puzzle dişleri içerir."
+                    },
+                    "custom": {
+                        "title": "Özel Şablonlar",
+                        "desc": "Bezier çizim araçlarını kullanarak kendi benzersiz yuva şekillerinizi tasarlayın. Farklı puzzle stilleri oluşturmak için mükemmel."
+                    }
+                }
+            },
+            "inspector": {
+                "title": "Proje Denetçisi",
+                "desc": "Sağ taraftaki denetçi tüm proje yapılandırma seçeneklerini sağlar.",
+                "sections": {
+                    "projectInfo": {
+                        "title": "Proje Bilgisi",
+                        "desc": "Proje adı, oluşturma ve değiştirme tarihini görüntüle ve düzenle."
+                    },
+                    "canvasSettings": {
+                        "title": "Tuval Ayarları",
+                        "desc": "Piksel cinsinden genişlik ve yükseklik ayarla veya ön ayarlar seç."
+                    },
+                    "jigsawSettings": {
+                        "title": "Puzzle Ayarları",
+                        "desc": "Izgara boyutu, hedef parça sayısı ve yuva mesafesini yapılandır."
+                    },
+                    "statistics": {
+                        "title": "İstatistikler",
+                        "desc": "Şekil sayısı, şablon sayısı ve yakınlaştırma seviyesini görüntüle."
+                    },
+                    "operations": {
+                        "title": "İşlemler",
+                        "desc": "Gelişmiş ayarlara ve puzzle oluşturma düğmesine eriş."
+                    }
+                }
+            },
+            "shapeInfo": {
+                "title": "Şekil Denetçisi",
+                "desc": "Bir şekil veya grup seçildiğinde, panel detaylı bilgileri gösterir.",
+                "sections": {
+                    "shapeInfo": {
+                        "title": "Şekil Bilgisi",
+                        "desc": "Ad, ID ve tür (Yol, Grup, Daire, vb.) görüntüle ve düzenle."
+                    },
+                    "transform": {
+                        "title": "Dönüştür",
+                        "desc": "Öğenin konum (X, Y), ölçek ve rotasyonunu ayarla."
+                    },
+                    "geometry": {
+                        "title": "Geometri",
+                        "desc": "Sınırlayıcı kutu boyutlarını ve konumunu görüntüle."
+                    },
+                    "operations": {
+                        "title": "İşlemler",
+                        "desc": "Seçili öğeyi kopyala veya sil."
+                    }
+                }
+            },
+            "advancedSettings": {
+                "title": "Gelişmiş Ayarlar",
+                "desc": "Kapsamlı uygulama ayarlarına erişin.",
+                "sections": {
+                    "language": {
+                        "title": "Dil Ayarları",
+                        "desc": "Dili değiştirin. Sistem varsayılanı veya 40+ dil."
+                    },
+                    "subscription": {
+                        "title": "Abonelik Yönetimi",
+                        "desc": "Abonelik durumunu görüntüleyin ve Premium'u yönetin."
+                    },
+                    "editor": {
+                        "title": "Editör Ayarları",
+                        "desc": "Izgara, cetvel ve çizgi kalınlığı dahil tuval görünümünü özelleştirin."
+                    }
+                },
+                "options": {
+                    "showGrid": {
+                        "title": "Izgarayı Göster",
+                        "desc": "Izgarayı Göster/Gizle"
+                    },
+                    "showRulers": {
+                        "title": "Cetvelleri Göster",
+                        "desc": "Cetvelleri Göster/Gizle"
+                    },
+                    "snapToGrid": {
+                        "title": "Izgaraya Yapış",
+                        "desc": "Izgaraya Yapış Aç/Kapa"
+                    },
+                    "gridSpacing": {
+                        "title": "Izgara Aralığı",
+                        "desc": "Izgara Aralığını Ayarla"
+                    },
+                    "strokeWidth": {
+                        "title": "Çizgi Kalınlığı",
+                        "desc": "Çizgi Kalınlığını Ayarla"
+                    }
+                }
+            },
+            "templateEditor": {
+                "title": "Şablon Editörü",
+                "desc": "Bézier aracıyla özel yuva şablonları oluşturun.",
+                "features": [
+                    "Şablonunuza ad verin",
+                    "Tıkla ve sürükle ile Bézier eğrileri çizin",
+                    "Bitirmek için çift tıklayın",
+                    "Kontrol noktalarını düzenleyin",
+                    "SVG şablonları içe aktarın",
+                    "Yedekleme için dışa aktarın"
+                ],
+                "buttons": {
+                    "clearPath": {
+                        "title": "Yolu Temizle",
+                        "desc": "Çizimi temizle"
+                    },
+                    "editPoints": {
+                        "title": "Noktaları Düzenle",
+                        "desc": "Nokta düzenleme modu"
+                    },
+                    "importSVG": {
+                        "title": "SVG İçe Aktar",
+                        "desc": "SVG içe aktar"
+                    },
+                    "exportSVG": {
+                        "title": "SVG Dışa Aktar",
+                        "desc": "SVG dışa aktar"
+                    }
+                }
+            }
+        },
+        "industryKeywords": {
+            "title": "Neden JigsawDesigner?",
+            "laserCutting": {
+                "title": "Lazer Kesim SVG",
+                "desc": "Glowforge, Cricut ve CO2 lazerler için optimize edilmiş temiz ve hassas SVG yolları oluşturun."
+            },
+            "dieline": {
+                "title": "Özel Yapboz Kalıpları",
+                "desc": "Her bir parçanın benzersiz olmasını sağlayan Voronoi desenli kalıplar oluşturun."
+            },
+            "manufacturing": {
+                "title": "Üretime Hazır",
+                "desc": "Seri üretim veya el kesimi için hazır profesyonel vektör formatlarında (SVG, PDF) aktarın."
+            }
+        },
+        "projectLibraryContent": {
+            "title": "Proje Kitaplığı",
+            "intro": "Proje Kitaplığı tüm tasarımlarınızı yönetmek için merkezi merkezinizdir.",
+            "myProjects": {
+                "title": "Projelerim",
+                "desc": "iCloud'da saklanan bulmaca tasarımları için kişisel çalışma alanınız.",
+                "features": [
+                    "Mac, iPad ve iPhone arasında otomatik iCloud senkronizasyonu",
+                    "+ düğmesiyle yeni projeler oluşturun",
+                    "Proje adı ve tarihiyle küçük resim önizlemeleri",
+                    "Kırmızı çöp kutusu düğmesiyle projeleri silin",
+                    "Bulut simgesiyle işaretlenmiş projeler senkronizasyon durumunu gösterir"
+                ],
+                "howTo": "Boş bir bulmaca oluşturmak için \"Yeni Proje\"ye tıklayın veya mevcut bir projeyi açın.",
+                "contextMenu": {
+                    "title": "Sağ Tık Menüsü",
+                    "desc": "Seçenekler için sağ tıklayın veya uzun basın:",
+                    "options": {
+                        "open": {
+                            "title": "Aç",
+                            "desc": "Projeyi editörde aç"
+                        },
+                        "rename": {
+                            "title": "Yeniden Adlandır",
+                            "desc": "Proje adını değiştir"
+                        },
+                        "publish": {
+                            "title": "Yayınla",
+                            "desc": "Tasarımınızı tüm JigsawDesigner kullanıcılarıyla paylaşın. Yayınlanan projeler Genel Projeler kitaplığında görünür."
+                        },
+                        "share": {
+                            "title": "Bağlantı Oluştur",
+                            "desc": "iCloud paylaşım bağlantısı oluşturun. Bu bağlantıyı arkadaşlarınıza gönderin - açtıklarında projeniz onların Paylaşılan Projeler bölümünde görünür."
+                        },
+                        "delete": {
+                            "title": "Sil",
+                            "desc": "Projeyi kalıcı olarak kaldır"
+                        }
+                    }
+                },
+                "icon": "📁"
+            },
+            "publicProjects": {
+                "title": "Genel Projeler",
+                "icon": "🌐",
+                "desc": "Tüm kullanıcılar için mevcut topluluk paylaşımlı şablonlar. Genel kitaplığımızdan tasarımları inceleyin, önizleyin ve içe aktarın.",
+                "features": [
+                    "JigsawDesigner ekibi tarafından oluşturulan şablonları inceleyin",
+                    "İçe aktarmadan önce parça sayısını görüntüleyin",
+                    "Tasarımı önizlemek için \"Aç\"a tıklayın",
+                    "Projelerime kopyalamak için \"İçe Aktar\"a tıklayın",
+                    "Öğrenme ve ilham için harika"
+                ],
+                "howTo": "Herhangi bir genel projeyi seçin ve kişisel kitaplığınıza bir kopya eklemek için \"İçe Aktar\"a tıklayın. Sonra serbestçe özelleştirebilirsiniz."
+            },
+            "sharedProjects": {
+                "title": "Paylaşılan Projeler",
+                "icon": "👥",
+                "desc": "iCloud paylaşımı aracılığıyla diğer kullanıcılar tarafından sizinle paylaşılan projeler için işbirliği çalışma alanı.",
+                "features": [
+                    "Meslektaşlar veya arkadaşlar tarafından paylaşılan projeleri alın",
+                    "İzinlere göre salt okunur veya düzenleme erişimi",
+                    "Proje sahibiyle gerçek zamanlı senkronizasyon",
+                    "Davet bağlantısı aracılığıyla paylaşımları kabul edin"
+                ],
+                "howTo": "Biri sizinle bir proje paylaştığında, otomatik olarak burada görünür. Açmak ve işbirliği yapmak için tıklayın."
+            }
         }
     }
-  },
-  "Help": {
-      "title": "Yardım Merkezi",
-      "subtitle": "Profesyonel bulmacalar oluşturmak için JigsawDesigner kullanma rehberi.",
-      "toc": "İçindekiler",
-      "sections": {
-          "gettingStarted": "Başlarken",
-          "tools": "Çizim Araçları",
-          "operations": "Eleman İşlemleri",
-          "generation": "Bulmaca Oluşturma",
-          "importExport": "İçe ve Dışa Aktarma",
-          "shortcuts": "Klavye Kısayolları"
-      },
-      "gettingStartedContent": {
-          "title": "İlk Projenizi Oluşturun",
-          "steps": {
-              "1": { "title": "JigsawDesigner'ı Başlatın", "desc": "Mac veya iOS cihazınızda uygulamayı açın." },
-              "2": { "title": "Bir Araç Seçin", "desc": "Araç çubuğundaki 8 çizim aracından birini seçin." },
-              "3": { "title": "Tasarımınızı Çizin", "desc": "Şekiller, yollar oluşturun veya mevcut SVG dosyalarını içe aktarın." },
-              "4": { "title": "Bulmaca Oluştur", "desc": "Kilitli parçalar oluşturmak için 'Bulmaca Oluştur'a tıklayın." },
-              "5": { "title": "Dışa Aktar", "desc": "Bulmacanızı üretim veya baskı için SVG olarak kaydedin." }
-          }
-      },
-      "toolsContent": {
-        "select": { "title": "Seçim Aracı", "desc": "Tuval üzerindeki şekilleri seçin ve taşıyın. Çoklu seçim için Shift+Tıklama, grupların içine girmek için Ctrl+Tıklama." },
-        "edit": { "title": "Düzenleme Aracı", "desc": "Şekillerin kontrol noktalarını düzenleyin. Noktaları sürükleyerek şekil geometrisini hassas bir şekilde ayarlayın." },
-        "pen": { "title": "Kalem Aracı", "desc": "Serbest form yol çizimi. Bezier eğrileri ve organik şekiller oluşturmak için tıklayın ve sürükleyin." },
-        "line": { "title": "Çizgi Aracı", "desc": "Düz çizgiler çizin. Geometrik tasarımlar ve hassas bağlantılar için mükemmeldir." },
-        "rect": { "title": "Dikdörtgen Aracı", "desc": "Dikdörtgen şekiller çizin. Oluşturmak için köşeden sürükleyin." },
-        "circle": { "title": "Daire Aracı", "desc": "Daireler ve elipsler çizin. Yarıçapı ayarlamak için merkezden sürükleyin." },
-        "polygon": { "title": "Çokgen Aracı", "desc": "Çok kenarlı çokgenler çizin. Her köşeyi yerleştirmek için tıklayın, bitirmek için çift tıklayın." },
-        "bezier": { "title": "Bezier Aracı", "desc": "Bağlantı noktaları ve kontrol kolları ile hassas Bezier eğrileri çizin." }
-      },
-      "operationsContent": {
-          "selection": { 
-              "title": "Seçim", 
-              "items": [
-                  "Tekli Seçim: Herhangi bir şekle tıklayın",
-                  "Çoklu Seçim: Birden fazla şekle Shift+Tıklama",
-                  "Tümünü Seç: Tüm şekilleri seçmek için ⌘A'ya basın",
-                  "Derin Seçim: Grupların içindeki alt öğeleri seçmek için Ctrl+Tıklama"
-              ] 
-          },
-          "grouping": { 
-              "title": "Gruplama", 
-              "items": [
-                  "Şekilleri Grupla: Birden fazla şekil seçin ve G'ye basın",
-                  "Grubu Çöz: Bir grup seçin ve ⌘G'ye basın",
-                  "İç İçe Gruplar: Karmaşık hiyerarşiler oluşturun"
-              ]
-          },
-          "editing": { 
-              "title": "Düzenleme", 
-              "items": [
-                  "Kopyala: Seçili öğeleri çoğaltmak için ⌘C'ye basın",
-                  "Sil: Kaldırmak için Delete veya Backspace tuşuna basın",
-                  "Dönüştür: Konum, ölçek ve döndürmeyi ayarlamak için Denetçi panelini kullanın"
-              ]
-          }
-      },
-      "generationContent": {
-          "howItWorks": {
-              "title": "Nasıl Çalışır",
-              "desc": "JigsawDesigner, Voronoi diyagramları ve DCEL veri yapılarını kullanarak yüksek kaliteli bulmaca parçaları oluşturmak için OpenCV ve Boost kütüphaneleriyle gelişmiş C++ algoritmaları kullanır."
-          },
-          "steps": {
-              "1": { "title": "Sınır Çiz", "desc": "Bulmaca parçalarına bölünecek dış hat şeklini oluşturun." },
-              "2": { "title": "Yapılandır", "desc": "Parça sayısını, yuva ayarlarını belirleyin ve şablonları seçin." },
-              "3": { "title": "Oluştur", "desc": "Algoritmayı çalıştırmak ve kilitli parçalar oluşturmak için 'Oluştur'a tıklayın." },
-              "4": { "title": "Dışa Aktar", "desc": "Üretim veya baskı için SVG olarak dışa aktarın." }
-          }
-      },
-      "importExportContent": {
-          "import": {
-              "title": "SVG İçe Aktar",
-              "desc": "Bulmaca sınırları veya tasarım öğeleri olarak kullanmak üzere mevcut SVG dosyalarını içe aktarın.",
-              "shortcut": "Kısayol:",
-              "items": ["Yollar, dikdörtgenler, daireler", "Gruplar ve dönüşümler", "ViewBox ve koordinatlar"]
-          },
-          "export": {
-              "title": "SVG Dışa Aktar",
-              "desc": "Tasarımlarınızı ve oluşturulan bulmacaları standart SVG dosyaları olarak dışa aktarın.",
-              "shortcut": "Kısayol:",
-              "items": ["Standart SVG 1.1 formatı", "Tüm dönüşümleri korur", "Grup hiyerarşilerini korur"]
-          },
-          "premium": {
-              "title": "Premium Özellik",
-              "desc": "Oluşturulan bulmacaları dışa aktarmak için Premium abonelik gerekir. Ücretsiz kullanıcılar tasarlayabilir ve oluşturabilir, ancak dışa aktarma sınırlıdır."
-          }
-      },
-      "shortcutsContent": {
-        "file": {
-            "title": "Dosya İşlemleri",
-            "new": "Yeni Proje",
-            "import": "SVG İçe Aktar",
-            "export": "SVG Dışa Aktar"
-        },
-        "edit": {
-            "title": "Düzenleme İşlemleri",
-            "copy": "Kopyala",
-            "delete": "Sil",
-            "selectAll": "Tümünü Seç",
-            "group": "Şekilleri Grupla",
-            "ungroup": "Grubu Çöz"
-        },
-        "selection": {
-            "title": "Seçim",
-            "multi": "Çoklu Seçim",
-            "drillDown": "Detaya İn",
-            "drillUp": "Yukarı Çık"
-        }
-      },
-      "troubleshooting": {
-          "title": "Sorun Giderme",
-          "items": {
-              "shapes": { "title": "Şekiller görünmüyor", "content": "Doğru çizim modunda olduğunuzu doğrulayın. Tuval boyutunun şekliniz için alanı olup olmadığını kontrol edin. Şekil dolgu/kontur renklerinin şeffaf olmadığından emin olun." },
-              "select": { "title": "Şekil seçilemiyor", "content": "Seçim Aracına (imleç simgesi) geçin. Şeklin diğerlerinin arkasında gizli olmadığından emin olun. Grupların içine girmek için Ctrl+Tıklama kullanmayı deneyin." },
-              "fail": { "title": "Bulmaca oluşumu başarısız", "content": "Sınır şeklinizin kapalı bir yol olduğundan emin olun. Karmaşık şekiller için parça sayısını azaltın. Yuva şablonlarının geçerli olup olmadığını kontrol edin." },
-              "export": { "title": "Dışa aktarma devre dışı", "content": "Oluşturulan bulmacaları dışa aktarmak için Premium abonelik gerekir. Ücretsiz katman tasarıma izin verir ancak dışa aktarma işlevini sınırlar." }
-          }
-      },
-      "needHelp": {
-          "title": "Daha Fazla Yardıma mı İhtiyacınız Var?",
-          "desc": "Destek sayfamızı ziyaret edin veya kişiselleştirilmiş yardım için doğrudan bizimle iletişime geçin",
-          "contact": "Destek ile İletişime Geç",
-          "download": "Uygulamayı İndir"
-      }
-  }
 }

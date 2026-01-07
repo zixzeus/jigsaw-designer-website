@@ -1,227 +1,628 @@
 {
-  "Navigation": {
-    "features": "Funktioner",
-    "download": "Ladda ner",
-    "github": "GitHub",
-    "getStarted": "Kom igång",
-    "home": "Hem",
-    "support": "Support",
-    "help": "Hjälpcenter"
-  },
-  "Hero": {
-    "version": "v1.3 Lanserad - Prova det nu!",
-    "titlePart1": "Designa pussel som ett <br/>",
-    "titleProfessional": "Proffs",
-    "subtitle": "Det mest kraftfulla pusseldesignverktyget för Apple-plattformar. Inbyggd prestanda, SVG-precision och algoritmdriven generering.",
-    "download": "Ladda ner",
-    "learnMore": "Läs mer"
-  },
-  "Features": {
-    "title": "Kraftfulla funktioner",
-    "subtitle": "Allt du behöver för att skapa pussel av professionell kvalitet.",
-    "list": {
-      "customization": {
-        "title": "Obegränsad anpassning",
-        "description": "Anpassa allt från skårmallar och konturer till pusselns insida. Skapa unika mönster som sticker ut."
-      },
-      "workflow": {
-        "title": "Blixtsnabbt arbetsflöde",
-        "description": "Förvandla timmar av manuellt arbete till sekunder. Generera komplexa pusselmönster på bara 3 sekunder med vår avancerade motor."
-      },
-      "anywhere": {
-        "title": "Designa var som helst",
-        "description": "Börja på din Mac, förfina på din iPad och granska på din iPhone. Din arbetsyta flyttar med dig."
-      }
-    }
-  },
-  "Footer": {
-    "privacy": "Integritet",
-    "support": "Support",
-    "github": "GitHub",
-    "rights": "© {year} JigsawDesigner. Alla rättigheter förbehållna."
-  },
-  "Privacy": {
-    "title": "Integritetspolicy",
-    "introduction": {
-        "title": "Introduktion",
-        "content": "JigsawDesigner (\"vi\", \"vår\" eller \"oss\") respekterar din integritet och är engagerade i att skydda den. Denna integritetspolicy förklarar hur vi samlar in, använder och skyddar din information när du använder vår applikation och webbplats."
+    "Navigation": {
+        "features": "Funktioner",
+        "download": "Ladda ner",
+        "github": "GitHub",
+        "getStarted": "Kom igång",
+        "home": "Hem",
+        "support": "Support",
+        "help": "Hjälpcenter"
     },
-    "dataCollection": {
-        "title": "Datainsamling",
-        "content": "Vi samlar inte in personuppgifter.",
-        "content2": "JigsawDesigner är utformad för att bearbeta dina filer lokalt på din enhet. Dina designer, bilder och projekt lämnar aldrig din enhet om du inte uttryckligen väljer att exportera eller dela dem.",
+    "Hero": {
+        "version": "{version} Lanserad - Prova det nu!",
+        "titlePart1": "Designa pussel som ett <br/>",
+        "titleProfessional": "Proffs",
+        "subtitle": "Det mest kraftfulla pusseldesignverktyget för Apple-plattformar. Inbyggd prestanda, SVG-precision och algoritmdriven generering.",
+        "download": "Ladda ner",
+        "learnMore": "Läs mer"
+    },
+    "Features": {
+        "title": "Kraftfulla funktioner",
+        "subtitle": "Allt du behöver för att skapa pussel av professionell kvalitet.",
         "list": {
-            "behavior": "Vi spårar inte ditt användningsbeteende.",
-            "upload": "Vi laddar inte upp dina foton, såsom pusselbilder, till några servrar.",
-            "sell": "Vi säljer inte dina uppgifter till tredje part."
+            "customization": {
+                "title": "Obegränsad anpassning",
+                "description": "Anpassa allt från skårmallar och konturer till pusselns insida. Skapa unika mönster som sticker ut."
+            },
+            "workflow": {
+                "title": "Blixtsnabbt arbetsflöde",
+                "description": "Förvandla timmar av manuellt arbete till sekunder. Generera komplexa pusselmönster på bara 3 sekunder med vår avancerade motor."
+            },
+            "anywhere": {
+                "title": "Designa var som helst",
+                "description": "Börja på din Mac, förfina på din iPad och granska på din iPhone. Din arbetsyta flyttar med dig."
+            }
         }
     },
-    "analytics": {
-        "title": "Appanalys",
-        "content": "Vi kan använda Apples standardanalys (opt-in) för att förbättra appens prestanda och stabilitet (t.ex. kraschrapporter). Denna data är anonym och identifierar dig inte personligen. Du kan välja bort detta när som helst via dina enhetsinställningar."
+    "Footer": {
+        "privacy": "Integritet",
+        "support": "Support",
+        "github": "GitHub",
+        "rights": "© {year} JigsawDesigner. Alla rättigheter förbehållna."
     },
-    "contact": {
-        "title": "Kontakta oss",
-        "content": "Om du har några frågor om denna integritetspolicy, vänligen kontakta oss på:"
-    },
-    "lastUpdated": "Senast uppdaterad: 10 december 2025"
-  },
-  "Support": {
-    "hero": {
-        "titlePart1": "Hur kan vi",
-        "titlePart2": "hjälpa dig?",
-        "subtitle": "Vi är här för att stödja din kreativa resa. Hitta svar eller kontakta vårt team."
-    },
-    "documentation": {
-        "title": "Dokumentation",
-        "description": "Utforska våra omfattande guider för att bemästra JigsawDesigners funktioner och verktyg.",
-        "action": "Bläddra i artiklar"
-    },
-    "email": {
-        "title": "E-postsupport",
-        "description": "Behöver du hjälp med ett specifikt problem? Vårt supportteam är redo att hjälpa dig direkt."
-    },
-    "faq": {
-        "title": "Vanliga frågor",
-        "q1": {
-            "question": "Är JigsawDesigner ett engångsköp?",
-            "answer": "Ja, JigsawDesigner erbjuder ett livstidslicensalternativ samt prenumerationsplaner. Kontrollera App Store för de senaste priserna."
+    "Privacy": {
+        "title": "Integritetspolicy",
+        "introduction": {
+            "title": "Introduktion",
+            "content": "JigsawDesigner (\"vi\", \"vår\" eller \"oss\") respekterar din integritet och är engagerade i att skydda den. Denna integritetspolicy förklarar hur vi samlar in, använder och skyddar din information när du använder vår applikation och webbplats."
         },
-        "q2": {
-            "question": "Kan jag exportera mina designer för kommersiellt bruk?",
-            "answer": "Absolut. Alla designer som skapats med JigsawDesigner är dina. Du kan exportera dem som SVG eller PDF för tillverkning eller kommersiellt tryck."
+        "dataCollection": {
+            "title": "Datainsamling",
+            "content": "Vi samlar inte in personuppgifter.",
+            "content2": "JigsawDesigner är utformad för att bearbeta dina filer lokalt på din enhet. Dina designer, bilder och projekt lämnar aldrig din enhet om du inte uttryckligen väljer att exportera eller dela dem.",
+            "list": {
+                "behavior": "Vi spårar inte ditt användningsbeteende.",
+                "upload": "Vi laddar inte upp dina foton, såsom pusselbilder, till några servrar.",
+                "sell": "Vi säljer inte dina uppgifter till tredje part."
+            }
         },
-        "q3": {
-            "question": "Stöder det anpassade stanslinjer?",
-            "answer": "Ja, du kan importera anpassade SVG-banor för att använda som stanslinjer, eller använda våra avancerade algoritmer för att automatiskt generera unika mönster."
+        "analytics": {
+            "title": "Appanalys",
+            "content": "Vi kan använda Apples standardanalys (opt-in) för att förbättra appens prestanda och stabilitet (t.ex. kraschrapporter). Denna data är anonym och identifierar dig inte personligen. Du kan välja bort detta när som helst via dina enhetsinställningar."
+        },
+        "contact": {
+            "title": "Kontakta oss",
+            "content": "Om du har några frågor om denna integritetspolicy, vänligen kontakta oss på:"
+        },
+        "lastUpdated": "Senast uppdaterad: 10 december 2025"
+    },
+    "Support": {
+        "hero": {
+            "titlePart1": "Hur kan vi",
+            "titlePart2": "hjälpa dig?",
+            "subtitle": "Vi är här för att stödja din kreativa resa. Hitta svar eller kontakta vårt team."
+        },
+        "documentation": {
+            "title": "Dokumentation",
+            "description": "Utforska våra omfattande guider för att bemästra JigsawDesigners funktioner och verktyg.",
+            "action": "Bläddra i artiklar"
+        },
+        "email": {
+            "title": "E-postsupport",
+            "description": "Behöver du hjälp med ett specifikt problem? Vårt supportteam är redo att hjälpa dig direkt."
+        },
+        "faq": {
+            "title": "Vanliga frågor",
+            "q1": {
+                "question": "Är JigsawDesigner ett engångsköp?",
+                "answer": "Ja, JigsawDesigner erbjuder ett livstidslicensalternativ samt prenumerationsplaner. Kontrollera App Store för de senaste priserna."
+            },
+            "q2": {
+                "question": "Kan jag exportera mina designer för kommersiellt bruk?",
+                "answer": "Absolut. Alla designer som skapats med JigsawDesigner är dina. Du kan exportera dem som SVG eller PDF för tillverkning eller kommersiellt tryck."
+            },
+            "q3": {
+                "question": "Stöder det anpassade stanslinjer?",
+                "answer": "Ja, du kan importera anpassade SVG-banor för att använda som stanslinjer, eller använda våra avancerade algoritmer för att automatiskt generera unika mönster."
+            }
+        }
+    },
+    "Help": {
+        "title": "Hjälpcenter & Guide för Pusselskapande",
+        "subtitle": "Komplett guide för professionell generering av skärlinjer och anpassad pusseldesign med JigsawDesigner.",
+        "toc": "Innehållsförteckning",
+        "sections": {
+            "gettingStarted": "Komma igång",
+            "tools": "SVG-ritverktyg",
+            "operations": "Operationer för Pusselelement",
+            "generation": "Generering av Skärlinjer",
+            "importExport": "SVG-import & export",
+            "shortcuts": "Kortkommandon",
+            "projectLibrary": "Projektbibliotek",
+            "interface": "Editor Gränssnitt"
+        },
+        "gettingStartedContent": {
+            "title": "Skapa ditt första projekt",
+            "steps": {
+                "1": {
+                    "title": "Starta JigsawDesigner",
+                    "desc": "Öppna appen på din Mac eller iOS-enhet."
+                },
+                "2": {
+                    "title": "Välj ett verktyg",
+                    "desc": "Välj bland 8 ritverktyg i verktygsfältet."
+                },
+                "3": {
+                    "title": "Rita din design",
+                    "desc": "Skapa former, banor eller importera befintliga SVG-filer."
+                },
+                "4": {
+                    "title": "Generera pussel",
+                    "desc": "Klicka på 'Generera pussel' för att skapa sammanlänkade bitar."
+                },
+                "5": {
+                    "title": "Exportera",
+                    "desc": "Spara ditt pussel som SVG för tillverkning eller tryck."
+                }
+            }
+        },
+        "toolsContent": {
+            "select": {
+                "title": "Markeringsverktyg",
+                "desc": "Markera och flytta former på duken. Skift+klick för flera val, Ctrl+klick för att gå in i grupper."
+            },
+            "edit": {
+                "title": "Redigeringsverktyg",
+                "desc": "Redigera formernas kontrollpunkter. Justera formgeometrin exakt genom att dra punkter."
+            },
+            "pen": {
+                "title": "Pennverktyg",
+                "desc": "Frihandsteckning av banor. Klicka och dra för att skapa Bezier-kurvor och organiska former."
+            },
+            "line": {
+                "title": "Linjeverktyg",
+                "desc": "Rita raka linjer. Perfekt för geometriska mönster och exakta anslutningar."
+            },
+            "rect": {
+                "title": "Rektangelverktyg",
+                "desc": "Rita rektangulära former. Klicka och dra från hörnet för att skapa."
+            },
+            "circle": {
+                "title": "Cirkelverktyg",
+                "desc": "Rita cirklar och ellipser. Dra från mitten för att ställa in radien."
+            },
+            "polygon": {
+                "title": "Polygonverktyg",
+                "desc": "Rita mångsidiga polygoner. Klicka för att placera varje hörn, dubbelklicka för att avsluta."
+            },
+            "bezier": {
+                "title": "Bezierverktyg",
+                "desc": "Rita exakta Bezier-kurvor med ankarpunkter och kontrollhandtag."
+            }
+        },
+        "operationsContent": {
+            "selection": {
+                "title": "Markering",
+                "items": [
+                    "Enkel markering: Klicka på valfri form",
+                    "Flermarkering: Skift+klick på flera former",
+                    "Markera allt: Tryck ⌘A för att markera alla former",
+                    "Djup markering: Ctrl+klick för att markera underordnade element i grupper"
+                ]
+            },
+            "grouping": {
+                "title": "Gruppering",
+                "items": [
+                    "Gruppera former: Markera flera former och tryck G",
+                    "Avgruppera: Markera en grupp och tryck ⌘G",
+                    "Nästlade grupper: Skapa komplexa hierarkier"
+                ]
+            },
+            "editing": {
+                "title": "Redigering",
+                "items": [
+                    "Kopiera: Tryck ⌘C för att duplicera markerade element",
+                    "Ta bort: Tryck Delete eller Backspace för att ta bort",
+                    "Transformera: Använd Inspektörspanelen för att justera position, skala och rotation"
+                ]
+            }
+        },
+        "generationContent": {
+            "howItWorks": {
+                "title": "Hur det fungerar",
+                "desc": "JigsawDesigner använder avancerade C++-algoritmer med OpenCV- och Boost-bibliotek för att generera högkvalitativa pusselbitar med hjälp av Voronoi-diagram och DCEL-datastrukturer."
+            },
+            "steps": {
+                "1": {
+                    "title": "Importera Gränskontur",
+                    "desc": "Klicka på \"Importera SVG\" eller rita en form för att definiera den yttre gränsen och \"whimsy\"-bitar."
+                },
+                "2": {
+                    "title": "Välj Slitsmall",
+                    "desc": "Välj en slitsdesign (Standard konvex, Flerpunkts, etc.) för att definiera hur bitarna kopplas samman."
+                },
+                "3": {
+                    "title": "Konfigurera Parametrar",
+                    "desc": "Använd Inspektören för att ställa in rutnätsstorlek, antal bitar och slitsavstånd."
+                },
+                "4": {
+                    "title": "Generera Skärlinjer",
+                    "desc": "Klicka på \"Generera Jigsaw\". Inom sekunder har du en stansmall redo för lasern eller utskrift."
+                }
+            },
+            "title": "Guide för Generering av Skärlinjer",
+            "desc": "JigsawDesigner använder avancerade C++-algoritmer (Voronoi & DCEL) för att skapa professionella skärlinjer. Följ dessa 4 steg:"
+        },
+        "importExportContent": {
+            "import": {
+                "title": "Importera SVG",
+                "desc": "Importera befintliga SVG-filer för att använda som pusselgränser eller designelement.",
+                "shortcut": "Genväg:",
+                "items": [
+                    "Banor, rektanglar, cirklar",
+                    "Grupper och transformationer",
+                    "ViewBox och koordinater"
+                ]
+            },
+            "export": {
+                "title": "Exportera SVG",
+                "desc": "Exportera dina designer och genererade pussel som standard-SVG-filer.",
+                "shortcut": "Genväg:",
+                "items": [
+                    "Standard SVG 1.1-format",
+                    "Behåller alla transformationer",
+                    "Behåller grupphierarkier"
+                ]
+            },
+            "premium": {
+                "title": "Premiumfunktion",
+                "desc": "Premiumprenumeration krävs för att exportera genererade pussel. Gratisanvändare kan designa och generera, men exporten är begränsad."
+            }
+        },
+        "shortcutsContent": {
+            "file": {
+                "title": "Filoperationer",
+                "new": "Nytt projekt",
+                "import": "Importera SVG",
+                "export": "Exportera SVG"
+            },
+            "edit": {
+                "title": "Redigeringsoperationer",
+                "copy": "Kopiera",
+                "delete": "Ta bort",
+                "selectAll": "Markera allt",
+                "group": "Gruppera former",
+                "ungroup": "Avgruppera"
+            },
+            "selection": {
+                "title": "Markering",
+                "multi": "Flermarkering",
+                "drillDown": "Borra ner",
+                "drillUp": "Borra upp"
+            }
+        },
+        "troubleshooting": {
+            "title": "Felsökning",
+            "items": {
+                "shapes": {
+                    "title": "Former visas inte",
+                    "content": "Verifiera att du är i rätt ritläge. Kontrollera att dukstorleken har plats för din form. Kontrollera att formens fyllnings-/streckfärger inte är transparenta."
+                },
+                "select": {
+                    "title": "Kan inte markera form",
+                    "content": "Byt till Markeringsverktyget (markör-ikon). Se till att formen inte är dold bakom andra. Prova att använda Ctrl+klick för att borra in i grupper."
+                },
+                "fail": {
+                    "title": "Pusselgenerering misslyckas",
+                    "content": "Se till att din gränsform är en sluten bana. Minska antalet bitar för komplexa former. Kontrollera att skårmallar är giltiga."
+                },
+                "export": {
+                    "title": "Export är inaktiverad",
+                    "content": "Premiumprenumeration krävs för att exportera genererade pussel. Den fria nivån tillåter design men begränsar exportfunktionen."
+                }
+            }
+        },
+        "needHelp": {
+            "title": "Behöver du mer hjälp?",
+            "desc": "Besök vår supportsida eller kontakta oss direkt för personlig hjälp",
+            "contact": "Kontakta Support",
+            "download": "Ladda ner app"
+        },
+        "metaTitle": "Hjälpcenter - Professionell Generator för Pusselskärlinjer & SVG-designer",
+        "metaDescription": "Bemästra JigsawDesigner: Den ultimata programvaran för att generera skärlinjer för pussel. Lär dig skapa laservänliga SVG:er och Voronoi-mönster.",
+        "metaKeywords": "pusselskärlinje generator, stanslinje skapare, laserklipp SVG, pussel design mjukvara, Voronoi generator",
+        "interfaceContent": {
+            "title": "Editor & Skärlinje-gränssnitt",
+            "intro": "Editor för JigsawDesigner erbjuder en professionell vektorarbetsyta för att designa exakta skärlinjer och stansmallar.",
+            "toolbar": {
+                "title": "Övre Verktygsfält",
+                "desc": "Snabb åtkomst till alla ritverktyg och filoperationer.",
+                "tools": [
+                    {
+                        "icon": "🖱️",
+                        "name": "Välj",
+                        "desc": "Välj och flytta former på arbetsytan"
+                    },
+                    {
+                        "icon": "✏️",
+                        "name": "Redigera Punkter",
+                        "desc": "Redigera ankarpunkter och handtag"
+                    },
+                    {
+                        "icon": "✒️",
+                        "name": "Penna",
+                        "desc": "Rita fria banor"
+                    },
+                    {
+                        "icon": "📏",
+                        "name": "Linje",
+                        "desc": "Rita raka linjer"
+                    },
+                    {
+                        "icon": "▭",
+                        "name": "Rektangel",
+                        "desc": "Rita rektanglar och kvadrater"
+                    },
+                    {
+                        "icon": "⭕",
+                        "name": "Cirkel",
+                        "desc": "Rita cirklar och ellipser"
+                    },
+                    {
+                        "icon": "⬟",
+                        "name": "Polygon",
+                        "desc": "Rita regelbundna polygoner"
+                    },
+                    {
+                        "icon": "🎨",
+                        "name": "Bézier",
+                        "desc": "Rita Bézier-kurvor med kontrollpunkter"
+                    }
+                ],
+                "buttons": {
+                    "import": "Importera befintliga SVG-filer",
+                    "export": "Exportera design som SVG",
+                    "projectName": "Visar projektnamn och formantal"
+                }
+            },
+            "canvas": {
+                "title": "Oändlig Canvas",
+                "desc": "Huvudytan för dina mönster.",
+                "features": [
+                    "Oändlig rullning åt alla håll",
+                    "Linjal med pixelmått",
+                    "Rutnät för exakt justering",
+                    "Zooma med scrollhjul eller nyp",
+                    "Panorera med mellanslag eller två fingrar",
+                    "Markeringsruta synlig vid val"
+                ],
+                "tip": "Använd ⌘0 för att återställa zoom, ⌘1 för att anpassa till fönster."
+            },
+            "toolsPanel": {
+                "title": "Verktygspanel",
+                "desc": "Snabb åtkomst till vanliga åtgärder.",
+                "sections": {
+                    "currentTool": {
+                        "title": "Aktuellt Verktyg",
+                        "desc": "Visar valt verktyg."
+                    },
+                    "elementOps": {
+                        "title": "Element Ops",
+                        "desc": "Kopiera eller ta bort valt element."
+                    },
+                    "canvasOps": {
+                        "title": "Canvas Ops",
+                        "desc": "Återställ vy och justera zoom."
+                    },
+                    "quickOps": {
+                        "title": "Snabba Ops",
+                        "desc": "Rensa canvas, Markera allt, Avmarkera."
+                    }
+                }
+            },
+            "layersPanel": {
+                "title": "Lagerpanel",
+                "desc": "Hantera designhierarkin.",
+                "features": [
+                    "Se grupper och former i trädstruktur",
+                    "Expandera grupper för objekt",
+                    "Lås former (lås)",
+                    "Växla synlighet (öga)",
+                    "Totalt lagerantal överst"
+                ]
+            },
+            "templatesPanel": {
+                "title": "Mallpanel",
+                "desc": "Mallar definierar formen på anslutningar.",
+                "features": [
+                    "Inbyggda mallar: Standard Konvex, Standard Konkav, Rak Linje",
+                    "Skapa anpassade mallar genom att klicka på +-knappen",
+                    "Sök mallar efter namn",
+                    "Välj en mall för pusselgenerering",
+                    "Anpassade mallar sparas i ditt projekt"
+                ],
+                "templateTypes": {
+                    "builtin": {
+                        "title": "Inbyggda Mallar",
+                        "desc": "Fördesignade slotformer från JigsawDesigner."
+                    },
+                    "custom": {
+                        "title": "Anpassade Mallar",
+                        "desc": "Designa dina egna unika slotformer med Bézier-ritverktygen."
+                    }
+                }
+            },
+            "inspector": {
+                "title": "Projektinspektor",
+                "desc": "Inspektören till höger tillhandahåller alla projektkonfigurationsalternativ.",
+                "sections": {
+                    "projectInfo": {
+                        "title": "Projektinfo",
+                        "desc": "Visa och redigera projektnamn, skapande- och ändringsdatum."
+                    },
+                    "canvasSettings": {
+                        "title": "Arbetsyteinställningar",
+                        "desc": "Ställ in bredd och höjd i pixlar eller välj förinställningar."
+                    },
+                    "jigsawSettings": {
+                        "title": "Pusselinställningar",
+                        "desc": "Konfigurera rutnätsstorlek, målantal bitar och slotavstånd."
+                    },
+                    "statistics": {
+                        "title": "Statistik",
+                        "desc": "Visa antal former, mallar och zoomnivå."
+                    },
+                    "operations": {
+                        "title": "Operationer",
+                        "desc": "Tillgång till avancerade inställningar och pusselgenerering."
+                    }
+                }
+            },
+            "shapeInfo": {
+                "title": "Forminspektor",
+                "desc": "När en form eller grupp är vald visar panelen detaljerad information.",
+                "sections": {
+                    "shapeInfo": {
+                        "title": "Forminfo",
+                        "desc": "Visa och redigera namn, ID och typ (Bana, Grupp, Cirkel, etc.)."
+                    },
+                    "transform": {
+                        "title": "Transformera",
+                        "desc": "Justera position (X, Y), skala och rotation av elementet."
+                    },
+                    "geometry": {
+                        "title": "Geometri",
+                        "desc": "Visa avgränsningsrutans dimensioner och position."
+                    },
+                    "operations": {
+                        "title": "Operationer",
+                        "desc": "Kopiera eller ta bort det valda elementet."
+                    }
+                }
+            },
+            "advancedSettings": {
+                "title": "Avancerade Inställningar",
+                "desc": "Få tillgång till omfattande programinställningar via dialogrutan Avancerade Inställningar.",
+                "sections": {
+                    "language": {
+                        "title": "Språkinställningar",
+                        "desc": "Ändra programspråk. Stöder systemstandard eller välj bland 40+ språk."
+                    },
+                    "subscription": {
+                        "title": "Prenumerationshantering",
+                        "desc": "Visa prenumerationsstatus och hantera Premium-medlemskap."
+                    },
+                    "editor": {
+                        "title": "Redigerarinställningar",
+                        "desc": "Anpassa arbetsytevisning inklusive rutnät, linjaler, fäst vid rutnät, rutnätsavstånd och linjebredd."
+                    }
+                },
+                "options": {
+                    "showGrid": {
+                        "title": "Visa Rutnät",
+                        "desc": "Visa/Dölj rutnätsöverlägg"
+                    },
+                    "showRulers": {
+                        "title": "Visa Linjaler",
+                        "desc": "Visa/Dölj linjaler"
+                    },
+                    "snapToGrid": {
+                        "title": "Fäst vid Rutnät",
+                        "desc": "Aktivera/Avaktivera fästning vid rutnät"
+                    },
+                    "gridSpacing": {
+                        "title": "Rutnätsavstånd",
+                        "desc": "Justera rutnätsavstånd (pixelavstånd)"
+                    },
+                    "strokeWidth": {
+                        "title": "Linjebredd",
+                        "desc": "Ställ in linjebredd för former"
+                    }
+                }
+            },
+            "templateEditor": {
+                "title": "Mallredigerare",
+                "desc": "Skapa anpassade spårmallar med det inbyggda Bézier-kurvritverktygeet.",
+                "features": [
+                    "Namnge din anpassade mall",
+                    "Rita Bézier-kurvor med klick och dra",
+                    "Dubbelklicka för att avsluta banan",
+                    "Redigera individuella kontrollpunkter",
+                    "Importera befintliga SVG-mallar",
+                    "Exportera mallar för säkerhetskopiering"
+                ],
+                "buttons": {
+                    "clearPath": {
+                        "title": "Rensa bana",
+                        "desc": "Rensa aktuell ritning"
+                    },
+                    "editPoints": {
+                        "title": "Redigera punkter",
+                        "desc": "Växla till punktredigeringsläge"
+                    },
+                    "importSVG": {
+                        "title": "Importera SVG",
+                        "desc": "Importera SVG-fil som mall"
+                    },
+                    "exportSVG": {
+                        "title": "Exportera SVG",
+                        "desc": "Exportera mall som SVG"
+                    }
+                }
+            }
+        },
+        "industryKeywords": {
+            "title": "Varför JigsawDesigner?",
+            "laserCutting": {
+                "title": "Laser-skärning SVG",
+                "desc": "Generera rena och exakta SVG-banor optimerade för Glowforge, Cricut och CO2-lasrar."
+            },
+            "dieline": {
+                "title": "Anpassade Stansmallar",
+                "desc": "Skapa unika mallar med Voronoi-mönster som garanterar att varje pusselbit är helt unik."
+            },
+            "manufacturing": {
+                "title": "Redo för Tillverkning",
+                "desc": "Exportera design i professionella vektorformat (SVG, PDF) redo för massproduktion eller hantverk."
+            }
+        },
+        "projectLibraryContent": {
+            "title": "Projektbibliotek",
+            "intro": "Projektbiblioteket är ditt nav för att hantera alla pusseldesigner. Åtkomst från välkomstskärmen eller via Arkiv → Projektbibliotek.",
+            "myProjects": {
+                "title": "Mina Projekt",
+                "icon": "📁",
+                "desc": "Din personliga arbetsyta för alla pusseldesigner, säkert lagrade i iCloud.",
+                "features": [
+                    "Automatisk iCloud-synk mellan Mac, iPad och iPhone",
+                    "Skapa nya projekt med +-knappen",
+                    "Miniatyrförhandsvisningar med projektnamn och datum",
+                    "Ta bort projekt med den röda papperskorgsknappen",
+                    "Projekt märkta med moln-ikon visar synkstatus"
+                ],
+                "howTo": "Klicka \"Nytt Projekt\" för att skapa ett tomt pussel, eller klicka på en befintlig miniatyr för att öppna i redigeraren.",
+                "contextMenu": {
+                    "title": "Högerklicksmeny",
+                    "desc": "Högerklicka (eller långtryck på iPad/iPhone) på valfritt projekt för åtkomst till alternativ:",
+                    "options": {
+                        "open": {
+                            "title": "Öppna Projekt",
+                            "desc": "Öppna projektet i redigeraren"
+                        },
+                        "rename": {
+                            "title": "Byt namn",
+                            "desc": "Ändra projektnamnet"
+                        },
+                        "publish": {
+                            "title": "Publicera",
+                            "desc": "Dela designen med alla JigsawDesigner-användare"
+                        },
+                        "share": {
+                            "title": "Skapa länk",
+                            "desc": "Generera iCloud-länk. Skicka till vänner och de ser ditt projekt"
+                        },
+                        "delete": {
+                            "title": "Ta bort",
+                            "desc": "Ta bort projektet permanent"
+                        }
+                    }
+                }
+            },
+            "publicProjects": {
+                "title": "Offentliga Projekt",
+                "icon": "🌐",
+                "desc": "Gemenskapsmallar tillgängliga för alla användare. Bläddra, förhandsgranska och importera designer från det offentliga biblioteket.",
+                "features": [
+                    "Bläddra bland mallar skapade av JigsawDesigner-teamet",
+                    "Visa antal bitar före import",
+                    "Klicka \"Öppna\" för att förhandsgranska",
+                    "Klicka \"Importera\" för att kopiera till Mina Projekt",
+                    "Perfekt för lärande och inspiration"
+                ],
+                "howTo": "Välj ett offentligt projekt och klicka \"Importera\" för att lägga till en kopia i ditt bibliotek."
+            },
+            "sharedProjects": {
+                "title": "Delade Projekt",
+                "icon": "👥",
+                "desc": "Samarbetsutrymme för projekt som delats med dig av andra användare.",
+                "features": [
+                    "Ta emot projekt delade av kollegor eller vänner",
+                    "Endast läs- eller redigeringsåtkomst beroende på behörigheter",
+                    "Realtidssynk med projektägaren",
+                    "Acceptera delningar via inbjudningslänk"
+                ],
+                "howTo": "När någon delar ett projekt med dig visas det här automatiskt. Klicka för att öppna och samarbeta."
+            }
         }
     }
-  },
-  "Help": {
-      "title": "Hjälpcenter",
-      "subtitle": "Komplett guide till att använda JigsawDesigner för att skapa professionella pussel.",
-      "toc": "Innehållsförteckning",
-      "sections": {
-          "gettingStarted": "Komma igång",
-          "tools": "Ritverktyg",
-          "operations": "Elementoperationer",
-          "generation": "Pusselgenerering",
-          "importExport": "Importera & Exportera",
-          "shortcuts": "Kortkommandon"
-      },
-      "gettingStartedContent": {
-          "title": "Skapa ditt första projekt",
-          "steps": {
-              "1": { "title": "Starta JigsawDesigner", "desc": "Öppna appen på din Mac eller iOS-enhet." },
-              "2": { "title": "Välj ett verktyg", "desc": "Välj bland 8 ritverktyg i verktygsfältet." },
-              "3": { "title": "Rita din design", "desc": "Skapa former, banor eller importera befintliga SVG-filer." },
-              "4": { "title": "Generera pussel", "desc": "Klicka på 'Generera pussel' för att skapa sammanlänkade bitar." },
-              "5": { "title": "Exportera", "desc": "Spara ditt pussel som SVG för tillverkning eller tryck." }
-          }
-      },
-      "toolsContent": {
-        "select": { "title": "Markeringsverktyg", "desc": "Markera och flytta former på duken. Skift+klick för flera val, Ctrl+klick för att gå in i grupper." },
-        "edit": { "title": "Redigeringsverktyg", "desc": "Redigera formernas kontrollpunkter. Justera formgeometrin exakt genom att dra punkter." },
-        "pen": { "title": "Pennverktyg", "desc": "Frihandsteckning av banor. Klicka och dra för att skapa Bezier-kurvor och organiska former." },
-        "line": { "title": "Linjeverktyg", "desc": "Rita raka linjer. Perfekt för geometriska mönster och exakta anslutningar." },
-        "rect": { "title": "Rektangelverktyg", "desc": "Rita rektangulära former. Klicka och dra från hörnet för att skapa." },
-        "circle": { "title": "Cirkelverktyg", "desc": "Rita cirklar och ellipser. Dra från mitten för att ställa in radien." },
-        "polygon": { "title": "Polygonverktyg", "desc": "Rita mångsidiga polygoner. Klicka för att placera varje hörn, dubbelklicka för att avsluta." },
-        "bezier": { "title": "Bezierverktyg", "desc": "Rita exakta Bezier-kurvor med ankarpunkter och kontrollhandtag." }
-      },
-      "operationsContent": {
-          "selection": { 
-              "title": "Markering", 
-              "items": [
-                  "Enkel markering: Klicka på valfri form",
-                  "Flermarkering: Skift+klick på flera former",
-                  "Markera allt: Tryck ⌘A för att markera alla former",
-                  "Djup markering: Ctrl+klick för att markera underordnade element i grupper"
-              ] 
-          },
-          "grouping": { 
-              "title": "Gruppering", 
-              "items": [
-                  "Gruppera former: Markera flera former och tryck G",
-                  "Avgruppera: Markera en grupp och tryck ⌘G",
-                  "Nästlade grupper: Skapa komplexa hierarkier"
-              ]
-          },
-          "editing": { 
-              "title": "Redigering", 
-              "items": [
-                  "Kopiera: Tryck ⌘C för att duplicera markerade element",
-                  "Ta bort: Tryck Delete eller Backspace för att ta bort",
-                  "Transformera: Använd Inspektörspanelen för att justera position, skala och rotation"
-              ]
-          }
-      },
-      "generationContent": {
-          "howItWorks": {
-              "title": "Hur det fungerar",
-              "desc": "JigsawDesigner använder avancerade C++-algoritmer med OpenCV- och Boost-bibliotek för att generera högkvalitativa pusselbitar med hjälp av Voronoi-diagram och DCEL-datastrukturer."
-          },
-          "steps": {
-              "1": { "title": "Rita gräns", "desc": "Skapa konturformen som ska delas upp i pusselbitar." },
-              "2": { "title": "Konfigurera", "desc": "Ställ in antal bitar, skårinställningar och välj mallar." },
-              "3": { "title": "Generera", "desc": "Klicka på 'Generera' för att köra algoritmen och skapa sammanlänkade bitar." },
-              "4": { "title": "Exportera", "desc": "Exportera som SVG för tillverkning eller tryck." }
-          }
-      },
-      "importExportContent": {
-          "import": {
-              "title": "Importera SVG",
-              "desc": "Importera befintliga SVG-filer för att använda som pusselgränser eller designelement.",
-              "shortcut": "Genväg:",
-              "items": ["Banor, rektanglar, cirklar", "Grupper och transformationer", "ViewBox och koordinater"]
-          },
-          "export": {
-              "title": "Exportera SVG",
-              "desc": "Exportera dina designer och genererade pussel som standard-SVG-filer.",
-              "shortcut": "Genväg:",
-              "items": ["Standard SVG 1.1-format", "Behåller alla transformationer", "Behåller grupphierarkier"]
-          },
-          "premium": {
-              "title": "Premiumfunktion",
-              "desc": "Premiumprenumeration krävs för att exportera genererade pussel. Gratisanvändare kan designa och generera, men exporten är begränsad."
-          }
-      },
-      "shortcutsContent": {
-        "file": {
-            "title": "Filoperationer",
-            "new": "Nytt projekt",
-            "import": "Importera SVG",
-            "export": "Exportera SVG"
-        },
-        "edit": {
-            "title": "Redigeringsoperationer",
-            "copy": "Kopiera",
-            "delete": "Ta bort",
-            "selectAll": "Markera allt",
-            "group": "Gruppera former",
-            "ungroup": "Avgruppera"
-        },
-        "selection": {
-            "title": "Markering",
-            "multi": "Flermarkering",
-            "drillDown": "Borra ner",
-            "drillUp": "Borra upp"
-        }
-      },
-      "troubleshooting": {
-          "title": "Felsökning",
-          "items": {
-              "shapes": { "title": "Former visas inte", "content": "Verifiera att du är i rätt ritläge. Kontrollera att dukstorleken har plats för din form. Kontrollera att formens fyllnings-/streckfärger inte är transparenta." },
-              "select": { "title": "Kan inte markera form", "content": "Byt till Markeringsverktyget (markör-ikon). Se till att formen inte är dold bakom andra. Prova att använda Ctrl+klick för att borra in i grupper." },
-              "fail": { "title": "Pusselgenerering misslyckas", "content": "Se till att din gränsform är en sluten bana. Minska antalet bitar för komplexa former. Kontrollera att skårmallar är giltiga." },
-              "export": { "title": "Export är inaktiverad", "content": "Premiumprenumeration krävs för att exportera genererade pussel. Den fria nivån tillåter design men begränsar exportfunktionen." }
-          }
-      },
-      "needHelp": {
-          "title": "Behöver du mer hjälp?",
-          "desc": "Besök vår supportsida eller kontakta oss direkt för personlig hjälp",
-          "contact": "Kontakta Support",
-          "download": "Ladda ner app"
-      }
-  }
 }

@@ -1,227 +1,628 @@
 {
-  "Navigation": {
-    "features": "Funktioner",
-    "download": "Download",
-    "github": "GitHub",
-    "getStarted": "Kom i gang",
-    "home": "Hjem",
-    "support": "Support",
-    "help": "Hjælpecenter"
-  },
-  "Hero": {
-    "version": "v1.3 Udgivet - Prøv det nu!",
-    "titlePart1": "Design puslespil som en <br/>",
-    "titleProfessional": "Pro",
-    "subtitle": "Det mest kraftfulde værktøj til puslespilsdesign til Apple-platforme. Native ydeevne, SVG-præcision og algoritme-drevet generering.",
-    "download": "Download",
-    "learnMore": "Lær mere"
-  },
-  "Features": {
-    "title": "Kraftfulde Funktioner",
-    "subtitle": "Alt hvad du behøver for at skabe puslespil i professionel kvalitet.",
-    "list": {
-      "customization": {
-        "title": "Ubegrænset Tilpasning",
-        "description": "Tilpas alt fra slot-skabeloner og konturer til puslespillets indre. Skab unikke designs, der skiller sig ud."
-      },
-      "workflow": {
-        "title": "Lynhurtigt Workflow",
-        "description": "Forvandl timers manuelt arbejde til sekunder. Generer komplekse puslespilsmønstre på kun 3 sekunder med vores avancerede motor."
-      },
-      "anywhere": {
-        "title": "Design Hvor som Helst",
-        "description": "Start på din Mac, forfin på din iPad, og gennemgå på din iPhone. Dit arbejdsområde flytter sig med dig."
-      }
-    }
-  },
-  "Footer": {
-    "privacy": "Privatliv",
-    "support": "Support",
-    "github": "GitHub",
-    "rights": "© {year} JigsawDesigner. Alle rettigheder forbeholdes."
-  },
-  "Privacy": {
-    "title": "Privatlivspolitik",
-    "introduction": {
-        "title": "Introduktion",
-        "content": "JigsawDesigner (\"vi\", \"vores\" eller \"os\") respekterer dit privatliv og er forpligtet til at beskytte det. Denne privatlivspolitik forklarer, hvordan vi indsamler, bruger og beskytter dine oplysninger, når du bruger vores applikation og hjemmeside."
+    "Navigation": {
+        "features": "Funktioner",
+        "download": "Download",
+        "github": "GitHub",
+        "getStarted": "Kom i gang",
+        "home": "Hjem",
+        "support": "Support",
+        "help": "Hjælpecenter"
     },
-    "dataCollection": {
-        "title": "Dataindsamling",
-        "content": "Vi indsamler ikke personlige data.",
-        "content2": "JigsawDesigner er designet til at behandle dine filer lokalt på din enhed. Dine designs, billeder og projekter forlader aldrig din enhed, medmindre du eksplicit vælger at eksportere eller dele dem.",
+    "Hero": {
+        "version": "{version} Udgivet - Prøv det nu!",
+        "titlePart1": "Design puslespil som en <br/>",
+        "titleProfessional": "Pro",
+        "subtitle": "Det mest kraftfulde værktøj til puslespilsdesign til Apple-platforme. Native ydeevne, SVG-præcision og algoritme-drevet generering.",
+        "download": "Download",
+        "learnMore": "Lær mere"
+    },
+    "Features": {
+        "title": "Kraftfulde Funktioner",
+        "subtitle": "Alt hvad du behøver for at skabe puslespil i professionel kvalitet.",
         "list": {
-            "behavior": "Vi sporer ikke din brugsadfærd.",
-            "upload": "Vi uploader ikke dine fotos, såsom puslespilsbilleder, til nogen servere.",
-            "sell": "Vi sælger ikke dine data til tredjeparter."
+            "customization": {
+                "title": "Ubegrænset Tilpasning",
+                "description": "Tilpas alt fra slot-skabeloner og konturer til puslespillets indre. Skab unikke designs, der skiller sig ud."
+            },
+            "workflow": {
+                "title": "Lynhurtigt Workflow",
+                "description": "Forvandl timers manuelt arbejde til sekunder. Generer komplekse puslespilsmønstre på kun 3 sekunder med vores avancerede motor."
+            },
+            "anywhere": {
+                "title": "Design Hvor som Helst",
+                "description": "Start på din Mac, forfin på din iPad, og gennemgå på din iPhone. Dit arbejdsområde flytter sig med dig."
+            }
         }
     },
-    "analytics": {
-        "title": "App Analytics",
-        "content": "Vi kan bruge Apples standard opt-in analytics til at forbedre appens ydeevne og stabilitet (f.eks. nedbrudsrapporter). Disse data er anonyme og identificerer dig ikke personligt. Du kan fravælge dette til enhver tid via dine enhedsindstillinger."
+    "Footer": {
+        "privacy": "Privatliv",
+        "support": "Support",
+        "github": "GitHub",
+        "rights": "© {year} JigsawDesigner. Alle rettigheder forbeholdes."
     },
-    "contact": {
-        "title": "Kontakt os",
-        "content": "Hvis du har spørgsmål om denne privatlivspolitik, bedes du kontakte os på:"
-    },
-    "lastUpdated": "Sidst opdateret: 10. december 2025"
-  },
-  "Support": {
-    "hero": {
-        "titlePart1": "Hvordan kan vi",
-        "titlePart2": "hjælpe dig?",
-        "subtitle": "Vi er her for at støtte din kreative rejse. Find svar eller kontakt vores team."
-    },
-    "documentation": {
-        "title": "Dokumentation",
-        "description": "Udforsk vores omfattende guider til at mestre JigsawDesigners funktioner og værktøjer.",
-        "action": "Gennemse Artikler"
-    },
-    "email": {
-        "title": "Email Support",
-        "description": "Har du brug for hjælp til et specifikt problem? Vores supportteam er klar til at hjælpe dig direkte."
-    },
-    "faq": {
-        "title": "Ofte Stillede Spørgsmål",
-        "q1": {
-            "question": "Er JigsawDesigner et engangskøb?",
-            "answer": "Ja, JigsawDesigner tilbyder en livstidslicensmulighed samt abonnementsplaner. Tjek App Store for de nyeste priser."
+    "Privacy": {
+        "title": "Privatlivspolitik",
+        "introduction": {
+            "title": "Introduktion",
+            "content": "JigsawDesigner (\"vi\", \"vores\" eller \"os\") respekterer dit privatliv og er forpligtet til at beskytte det. Denne privatlivspolitik forklarer, hvordan vi indsamler, bruger og beskytter dine oplysninger, når du bruger vores applikation og hjemmeside."
         },
-        "q2": {
-            "question": "Kan jeg eksportere mine designs til kommerciel brug?",
-            "answer": "Absolut. Alle designs skabt med JigsawDesigner er dine. Du kan eksportere dem som SVG eller PDF til fremstilling eller kommercielt tryk."
+        "dataCollection": {
+            "title": "Dataindsamling",
+            "content": "Vi indsamler ikke personlige data.",
+            "content2": "JigsawDesigner er designet til at behandle dine filer lokalt på din enhed. Dine designs, billeder og projekter forlader aldrig din enhed, medmindre du eksplicit vælger at eksportere eller dele dem.",
+            "list": {
+                "behavior": "Vi sporer ikke din brugsadfærd.",
+                "upload": "Vi uploader ikke dine fotos, såsom puslespilsbilleder, til nogen servere.",
+                "sell": "Vi sælger ikke dine data til tredjeparter."
+            }
         },
-        "q3": {
-            "question": "Understøtter det tilpassede skærelinjer?",
-            "answer": "Ja, du kan importere tilpassede SVG-stier til brug som skærelinjer, eller bruge vores avancerede algoritmer til automatisk at generere unikke mønstre."
+        "analytics": {
+            "title": "Analyse",
+            "content": "Vi kan bruge Apples standard opt-in analytics til at forbedre appens ydeevne og stabilitet (f.eks. nedbrudsrapporter). Disse data er anonyme og identificerer dig ikke personligt. Du kan fravælge dette til enhver tid via dine enhedsindstillinger."
+        },
+        "contact": {
+            "title": "Kontakt os",
+            "content": "Hvis du har spørgsmål om denne privatlivspolitik, bedes du kontakte os på:"
+        },
+        "lastUpdated": "Sidst opdateret: 10. december 2025"
+    },
+    "Support": {
+        "hero": {
+            "titlePart1": "Hvordan kan vi",
+            "titlePart2": "hjælpe dig?",
+            "subtitle": "Vi er her for at støtte din kreative rejse. Find svar eller kontakt vores team."
+        },
+        "documentation": {
+            "title": "Dokumentation",
+            "description": "Udforsk vores omfattende guider til at mestre JigsawDesigners funktioner og værktøjer.",
+            "action": "Gennemse Artikler"
+        },
+        "email": {
+            "title": "E-mail Support",
+            "description": "Har du brug for hjælp til et specifikt problem? Vores supportteam er klar til at hjælpe dig direkte."
+        },
+        "faq": {
+            "title": "Ofte Stillede Spørgsmål",
+            "q1": {
+                "question": "Er JigsawDesigner et engangskøb?",
+                "answer": "Ja, JigsawDesigner tilbyder en livstidslicensmulighed samt abonnementsplaner. Tjek App Store for de nyeste priser."
+            },
+            "q2": {
+                "question": "Kan jeg eksportere mine designs til kommerciel brug?",
+                "answer": "Absolut. Alle designs skabt med JigsawDesigner er dine. Du kan eksportere dem som SVG eller PDF til fremstilling eller kommercielt tryk."
+            },
+            "q3": {
+                "question": "Understøtter det tilpassede skærelinjer?",
+                "answer": "Ja, du kan importere tilpassede SVG-stier til brug som skærelinjer, eller bruge vores avancerede algoritmer til automatisk at generere unikke mønstre."
+            }
+        }
+    },
+    "Help": {
+        "title": "Hjælpecenter & Guide til Puslespilsgenerering",
+        "subtitle": "Komplet guide til professionel skærelinje-generering og tilpasset puslespilsdesign med JigsawDesigner.",
+        "toc": "Indholdsfortegnelse",
+        "sections": {
+            "gettingStarted": "Kom i gang",
+            "tools": "SVG Tegneværktøjer",
+            "operations": "Operationer for Puslespilslementer",
+            "generation": "Generering af Skærelinjer",
+            "importExport": "SVG Import & Eksport",
+            "shortcuts": "Tastaturgenveje",
+            "projectLibrary": "Projektbibliotek",
+            "interface": "Grænseflade"
+        },
+        "gettingStartedContent": {
+            "title": "Opret dit Første Projekt",
+            "steps": {
+                "1": {
+                    "title": "Start JigsawDesigner",
+                    "desc": "Åbn appen på din Mac eller iOS-enhed."
+                },
+                "2": {
+                    "title": "Vælg et Værktøj",
+                    "desc": "Vælg mellem 8 tegneværktøjer på værktøjslinjen."
+                },
+                "3": {
+                    "title": "Tegn dit Design",
+                    "desc": "Opret former, stier eller importer eksisterende SVG-filer."
+                },
+                "4": {
+                    "title": "Generer Puslespil",
+                    "desc": "Klik på 'Generer Puslespil' for at skabe sammenlåsende brikker."
+                },
+                "5": {
+                    "title": "Eksport",
+                    "desc": "Gem dit puslespil som SVG til fremstilling eller tryk."
+                }
+            }
+        },
+        "toolsContent": {
+            "select": {
+                "title": "Markeringsværktøj",
+                "desc": "Vælg og flyt former på lærredet. Shift+klik for flere valg, Ctrl+klik for at dykke ned i grupper."
+            },
+            "edit": {
+                "title": "Redigeringsværktøj",
+                "desc": "Rediger formernes kontrolpunkter. Juster formgeometrien præcist ved at trække punkter."
+            },
+            "pen": {
+                "title": "Penneværktøj",
+                "desc": "Frihåndssti tegning. Klik og træk for at skabe Bezier-kurver og organiske former."
+            },
+            "line": {
+                "title": "Linjeværktøj",
+                "desc": "Tegn rette linjer. Perfekt til geometriske designs og præcise forbindelser."
+            },
+            "rect": {
+                "title": "Rektangelværktøj",
+                "desc": "Tegn rektangulære former. Klik og træk fra hjørnet for at oprette."
+            },
+            "circle": {
+                "title": "Cirkelværktøj",
+                "desc": "Tegn cirkler og ellipser. Træk fra midten for at indstille radius."
+            },
+            "polygon": {
+                "title": "Polygonværktøj",
+                "desc": "Tegn flersidede polygoner. Klik for at placere hvert hjørne, dobbeltklik for at afslutte."
+            },
+            "bezier": {
+                "title": "Bezier-værktøj",
+                "desc": "Tegn præcise Bezier-kurver med ankerpunkter og kontrolhåndtag."
+            }
+        },
+        "operationsContent": {
+            "selection": {
+                "title": "Markering",
+                "items": [
+                    "Enkelt Valg: Klik på enhver form",
+                    "Flere Valg: Shift+klik på flere former",
+                    "Vælg Alt: Tryk ⌘A for at vælge alle former",
+                    "Dybt Valg: Ctrl+klik for at vælge underelementer i grupper"
+                ]
+            },
+            "grouping": {
+                "title": "Gruppering",
+                "items": [
+                    "Grupper Former: Vælg flere former og tryk G",
+                    "Opløs Gruppe: Vælg en gruppe og tryk ⌘G",
+                    "Indlejrede Grupper: Opret komplekse hierarkier"
+                ]
+            },
+            "editing": {
+                "title": "Redigering",
+                "items": [
+                    "Kopier: Tryk ⌘C for at duplikere valgte elementer",
+                    "Slet: Tryk Delete eller Backspace for at fjerne",
+                    "Transformer: Brug Inspektørpanelet til at justere position, skala og rotation"
+                ]
+            }
+        },
+        "generationContent": {
+            "howItWorks": {
+                "title": "Hvordan det Virker",
+                "desc": "JigsawDesigner bruger avancerede C++ algoritmer med OpenCV og Boost biblioteker til at generere højkvalitets puslespilsbrikker ved hjælp af Voronoi-diagrammer og DCEL-datastrukturer."
+            },
+            "steps": {
+                "1": {
+                    "title": "Importer Grænsekontur",
+                    "desc": "Klik på \"Importer SVG\" eller tegn en form for at definere den ydre grænse og \"whimsy\"-brikker."
+                },
+                "2": {
+                    "title": "Vælg Skabelon",
+                    "desc": "Vælg et slots-design (Standard Konveks, Flerpunkts osv.) for at definere, hvordan brikkerne låser sammen."
+                },
+                "3": {
+                    "title": "Konfigurer Parametre",
+                    "desc": "Brug Inspektøren til at indstille gitterstørrelse, brikantal og slots-afstand."
+                },
+                "4": {
+                    "title": "Generer Skærelinjer",
+                    "desc": "Klik på \"Generer Jigsaw\". På få sekunder har du en stanseform klar til laserskæring eller tryk."
+                }
+            },
+            "title": "Guide til Generering af Skærelinjer",
+            "desc": "JigsawDesigner bruger avancerede C++ algoritmer til at generere professionelle skærelinjer. Følg disse 4 trin:"
+        },
+        "importExportContent": {
+            "import": {
+                "title": "Importer SVG",
+                "desc": "Importer eksisterende SVG-filer til brug som puslespilsgrænser eller designelementer.",
+                "shortcut": "Genvej:",
+                "items": [
+                    "Stier, rektangler, cirkler",
+                    "Grupper og transformationer",
+                    "ViewBox og koordinater"
+                ]
+            },
+            "export": {
+                "title": "Eksporter SVG",
+                "desc": "Eksporter dine designs og genererede puslespil som standard SVG-filer.",
+                "shortcut": "Genvej:",
+                "items": [
+                    "Klik på Export-knappen i værktøjslinjen",
+                    "Bevarer alle transformationer",
+                    "Bevarer gruppehierarkier"
+                ]
+            },
+            "premium": {
+                "title": "Premium Funktion",
+                "desc": "Premium-abonnement kræves for at eksportere genererede puslespil. Gratis brugere kan designe og generere, men eksport er begrænset."
+            }
+        },
+        "shortcutsContent": {
+            "file": {
+                "title": "Filoperationer",
+                "new": "Nyt Projekt",
+                "import": "Importer SVG",
+                "export": "Eksporter SVG"
+            },
+            "edit": {
+                "title": "Redigeringsoperationer",
+                "copy": "Kopier",
+                "delete": "Slet",
+                "selectAll": "Vælg Alt",
+                "group": "Grupper Former",
+                "ungroup": "Opløs Gruppe"
+            },
+            "selection": {
+                "title": "Markering",
+                "multi": "Flere Valg",
+                "drillDown": "Bor Ned",
+                "drillUp": "Bor Op"
+            }
+        },
+        "troubleshooting": {
+            "title": "Fejlfinding",
+            "items": {
+                "shapes": {
+                    "title": "Former vises ikke",
+                    "content": "Verificer, at du er i den rigtige tegnetilstand. Tjek, at lærredstørrelsen har plads til din form. Tjek, at formudfyldnings-/stregfarver ikke er gennemsigtige."
+                },
+                "select": {
+                    "title": "Kan ikke vælge form",
+                    "content": "Skift til Markeringsværktøjet (markør-ikon). Sørg for, at formen ikke er skjult bag andre. Prøv at bruge Ctrl+klik for at bore ind i grupper."
+                },
+                "fail": {
+                    "title": "Puslespilsgenerering fejler",
+                    "content": "Sørg for, at din grænseform er en lukket sti. Reducer antal brikker for komplekse former. Tjek, at slot-skabeloner er gyldige."
+                },
+                "export": {
+                    "title": "Eksport er deaktiveret",
+                    "content": "Premium-abonnement kræves for at eksportere genererede puslespil. Det gratis niveau tillader design men begrænser eksportfunktionalitet."
+                }
+            }
+        },
+        "needHelp": {
+            "title": "Har du brug for mere hjælp?",
+            "desc": "Besøg vores supportside eller kontakt os direkte for personlig assistance",
+            "contact": "Kontakt Support",
+            "download": "Download"
+        },
+        "metaTitle": "Hjælpecenter - Professionel Jigsaw Skærelinje Generator & SVG Designer",
+        "metaDescription": "Mestre JigsawDesigner: Den ultimative software til generering af skærelinjer til puslespil. Lær at skabe laserskårne SVG’er og Voronoi-mønstre.",
+        "metaKeywords": "puslespil skærelinje generator, stanselinje maker, laserskåret SVG, puslespil design software",
+        "interfaceContent": {
+            "title": "Editor & Skærelinje Grænseflade",
+            "intro": "JigsawDesigner-editoren tilbyder et professionelt vektor-arbejdsområde til design af præcise skærelinjer og stanseforme.",
+            "toolbar": {
+                "title": "Øverste Værktøjslinje",
+                "desc": "Hurtig adgang til alle tegneværktøjer og filhandlinger.",
+                "tools": [
+                    {
+                        "icon": "🖱️",
+                        "name": "Vælg",
+                        "desc": "Vælg og flyt figurer på lærredet"
+                    },
+                    {
+                        "icon": "✏️",
+                        "name": "Rediger Punkter",
+                        "desc": "Rediger ankerpunkter og håndtag"
+                    },
+                    {
+                        "icon": "✒️",
+                        "name": "Pen",
+                        "desc": "Tegn frie stier"
+                    },
+                    {
+                        "icon": "📏",
+                        "name": "Linje",
+                        "desc": "Tegn lige linjer"
+                    },
+                    {
+                        "icon": "▭",
+                        "name": "Rektangel",
+                        "desc": "Tegn rektangler og firkanter"
+                    },
+                    {
+                        "icon": "⭕",
+                        "name": "Cirkel",
+                        "desc": "Tegn cirkler og ellipser"
+                    },
+                    {
+                        "icon": "⬟",
+                        "name": "Polygon",
+                        "desc": "Tegn regulære polygoner"
+                    },
+                    {
+                        "icon": "🎨",
+                        "name": "Bézier",
+                        "desc": "Tegn Bézier-kurver med kontrolpunkter"
+                    }
+                ],
+                "buttons": {
+                    "import": "Importer eksisterende SVG-filer",
+                    "export": "Eksporter design som SVG",
+                    "projectName": "Viser projektnavn og forme antal"
+                }
+            },
+            "canvas": {
+                "title": "Uendeligt Lærred",
+                "desc": "Hovedarbejdsområdet til at skabe dine puslespilsdesigns.",
+                "features": [
+                    "Uendelig scrolling - lærredet udvides i alle retninger",
+                    "Linealvisning med pixelmålinger",
+                    "Gitteroverlay til præcis justering",
+                    "Zoom ind/ud med musens scrollehjul eller pinch-bevægelse",
+                    "Panorer ved at trække med mellemrumstasten holdt nede eller med to fingre",
+                    "Valgboks vises når et element er valgt"
+                ],
+                "tip": "Brug ⌘0 til at nulstille zoom til 100%, eller ⌘1 for at tilpasse lærredet til vinduet."
+            },
+            "toolsPanel": {
+                "title": "Værktøjspanel",
+                "desc": "Hurtig adgang til almindelige operationer og værktøjsinfo.",
+                "sections": {
+                    "currentTool": {
+                        "title": "Aktuelt Værktøj",
+                        "desc": "Viser det aktuelt valgte værktøj."
+                    },
+                    "elementOps": {
+                        "title": "Elementoperationer",
+                        "desc": "Kopier eller slet valgte elementer."
+                    },
+                    "canvasOps": {
+                        "title": "Lærredsoperationer",
+                        "desc": "Nulstil visning og juster zoom."
+                    },
+                    "quickOps": {
+                        "title": "Hurtige Operationer",
+                        "desc": "Ryd lærred, vælg alle, fravælg."
+                    }
+                }
+            },
+            "layersPanel": {
+                "title": "Lagpanel",
+                "desc": "Administrer dit designhierarki.",
+                "features": [
+                    "Se grupper og figurer i træstruktur",
+                    "Udvid grupper for at se elementer",
+                    "Lås figurer (låseikon)",
+                    "Skift synlighed (øjeikon)",
+                    "Viser det samlede antal lag øverst"
+                ]
+            },
+            "templatesPanel": {
+                "title": "Skabelonpanel",
+                "desc": "Skabeloner definerer, hvordan puslespilsbrikker forbindes.",
+                "features": [
+                    "Indbyggede skabeloner: Standard Konveks, Standard Konkav, Lige Linje",
+                    "Klik + for at oprette tilpassede skabeloner",
+                    "Søg skabeloner efter navn",
+                    "Vælg skabeloner til puslespilsgenerering",
+                    "Tilpassede skabeloner gemmes med projektet"
+                ],
+                "templateTypes": {
+                    "builtin": {
+                        "title": "Indbyggede Skabeloner",
+                        "desc": "Prædesignede slotformer leveret af JigsawDesigner."
+                    },
+                    "custom": {
+                        "title": "Tilpassede Skabeloner",
+                        "desc": "Design dine egne unikke slotformer med bezier-værktøjer."
+                    }
+                }
+            },
+            "inspector": {
+                "title": "Projektinspektør",
+                "desc": "Inspektøren til højre giver alle projektkonfigurationsmuligheder.",
+                "sections": {
+                    "projectInfo": {
+                        "title": "Projektinfo",
+                        "desc": "Se og rediger navn, oprettelses- og ændringsdato."
+                    },
+                    "canvasSettings": {
+                        "title": "Lærredsindstillinger",
+                        "desc": "Indstil bredde og højde i pixels eller vælg forudindstillinger."
+                    },
+                    "jigsawSettings": {
+                        "title": "Puslespilsindstillinger",
+                        "desc": "Konfigurer gitterstørrelse, antal brikker og slotafstand."
+                    },
+                    "statistics": {
+                        "title": "Statistik",
+                        "desc": "Se antal figurer, skabeloner og zoomniveau."
+                    },
+                    "operations": {
+                        "title": "Operationer",
+                        "desc": "Adgang til avancerede indstillinger og puslespilsgenerering."
+                    }
+                }
+            },
+            "shapeInfo": {
+                "title": "Figurinspektør",
+                "desc": "Når en figur eller gruppe er valgt, viser panelet detaljerede oplysninger.",
+                "sections": {
+                    "shapeInfo": {
+                        "title": "Figurinfo",
+                        "desc": "Se og rediger navn, ID og type (Sti, Gruppe, Cirkel, osv.)."
+                    },
+                    "transform": {
+                        "title": "Transformation",
+                        "desc": "Juster position (X, Y), skala og rotation."
+                    },
+                    "geometry": {
+                        "title": "Geometri",
+                        "desc": "Se dimensioner og position af afgrænsningsboks."
+                    },
+                    "operations": {
+                        "title": "Operationer",
+                        "desc": "Kopier eller slet valgt element."
+                    }
+                }
+            },
+            "advancedSettings": {
+                "title": "Avancerede Indstillinger",
+                "desc": "Få adgang til omfattende programindstillinger via dialogboksen Avancerede Indstillinger.",
+                "sections": {
+                    "language": {
+                        "title": "Sprogindstillinger",
+                        "desc": "Skift programsprog. Understøtter systemstandard eller vælg blandt 40+ sprog."
+                    },
+                    "subscription": {
+                        "title": "Abonnementsstyring",
+                        "desc": "Se abonnementsstatus og administrer Premium-medlemskab."
+                    },
+                    "editor": {
+                        "title": "Editorindstillinger",
+                        "desc": "Tilpas lærredsvisning inklusive gitter, linealer, fastgør til gitter, gitterafstand og stregbredde."
+                    }
+                },
+                "options": {
+                    "showGrid": {
+                        "title": "Vis Gitter",
+                        "desc": "Vis/Skjul gitteroverlay"
+                    },
+                    "showRulers": {
+                        "title": "Vis Linealer",
+                        "desc": "Vis/Skjul linealer"
+                    },
+                    "snapToGrid": {
+                        "title": "Fastgør til Gitter",
+                        "desc": "Aktiver/Deaktiver fastgørelse til gitter"
+                    },
+                    "gridSpacing": {
+                        "title": "Gitterafstand",
+                        "desc": "Juster gitterafstand (pixelafstand)"
+                    },
+                    "strokeWidth": {
+                        "title": "Stregbredde",
+                        "desc": "Indstil stregbredde for figurer"
+                    }
+                }
+            },
+            "templateEditor": {
+                "title": "Skabeloneditor",
+                "desc": "Opret tilpassede slotskabeloner med det indbyggede Bézier-kurvetegneværktøj.",
+                "features": [
+                    "Navngiv din tilpassede skabelon",
+                    "Tegn Bézier-kurver med klik og træk",
+                    "Dobbeltklik for at afslutte stien",
+                    "Rediger individuelle kontrolpunkter",
+                    "Importer eksisterende SVG-skabeloner",
+                    "Eksporter skabeloner til backup"
+                ],
+                "buttons": {
+                    "clearPath": {
+                        "title": "Ryd sti",
+                        "desc": "Ryd den aktuelle tegning"
+                    },
+                    "editPoints": {
+                        "title": "Rediger punkter",
+                        "desc": "Skift til punktredigeringstilstand"
+                    },
+                    "importSVG": {
+                        "title": "Importer SVG",
+                        "desc": "Importer SVG-fil som skabelon"
+                    },
+                    "exportSVG": {
+                        "title": "Eksporter SVG",
+                        "desc": "Eksporter skabelon som SVG"
+                    }
+                }
+            }
+        },
+        "industryKeywords": {
+            "title": "Hvorfor JigsawDesigner?",
+            "laserCutting": {
+                "title": "Laserskæring SVG",
+                "desc": "Generer rene, præcise SVG-stier optimeret til Glowforge, Cricut og CO2-lasere."
+            },
+            "dieline": {
+                "title": "Tilpassede Stanseforme",
+                "desc": "Skab unikke former med Voronoi-mønstre, der sikrer, at hver brik er unik."
+            },
+            "manufacturing": {
+                "title": "Klar til Produktion",
+                "desc": "Eksporter design i professionelle vektorformater (SVG, PDF) klar til masseproduktion eller håndskæring."
+            }
+        },
+        "projectLibraryContent": {
+            "title": "Projektbibliotek",
+            "intro": "Projektbiblioteket er dit centrum til at administrere alle puslespilsdesigns. Adgang fra velkomstskærmen eller via Filer → Projektbibliotek.",
+            "myProjects": {
+                "title": "Mine Projekter",
+                "icon": "📁",
+                "desc": "Dit personlige arbejdsområde til alle puslespilsdesigns, sikkert gemt i iCloud.",
+                "features": [
+                    "Automatisk iCloud-synkronisering på tværs af Mac, iPad og iPhone",
+                    "Opret nye projekter med +-knappen",
+                    "Miniatureforhåndsvisninger med projektnavn og dato",
+                    "Slet projekter med den røde papirkurvknap",
+                    "Projekter markeret med skyikon viser synkstatus"
+                ],
+                "howTo": "Klik \"Nyt Projekt\" for at oprette et tomt puslespil, eller klik på et eksisterende miniature for at åbne i editoren.",
+                "contextMenu": {
+                    "title": "Højrekliksmenu",
+                    "desc": "Højreklik (eller langt tryk på iPad/iPhone) på et projekt for at få adgang til muligheder:",
+                    "options": {
+                        "open": {
+                            "title": "Åbn Projekt",
+                            "desc": "Åbn projektet i editoren"
+                        },
+                        "rename": {
+                            "title": "Omdøb",
+                            "desc": "Skift projektnavn"
+                        },
+                        "publish": {
+                            "title": "Udgiv",
+                            "desc": "Del designet med alle JigsawDesigner-brugere"
+                        },
+                        "share": {
+                            "title": "Opret link",
+                            "desc": "Generer iCloud-link. Send til venner og de ser dit projekt"
+                        },
+                        "delete": {
+                            "title": "Slet",
+                            "desc": "Fjern projektet permanent"
+                        }
+                    }
+                }
+            },
+            "publicProjects": {
+                "title": "Offentlige Projekter",
+                "icon": "🌐",
+                "desc": "Fællesskabsskabeloner tilgængelige for alle brugere. Gennemse, forhåndsvis og importer designs fra det offentlige bibliotek.",
+                "features": [
+                    "Gennemse skabeloner oprettet af JigsawDesigner-teamet",
+                    "Se antal brikker før import",
+                    "Klik \"Åbn\" for at forhåndsvise",
+                    "Klik \"Importer\" for at kopiere til Mine Projekter",
+                    "Fantastisk til læring og inspiration"
+                ],
+                "howTo": "Vælg et offentligt projekt og klik \"Importer\" for at tilføje en kopi til dit bibliotek."
+            },
+            "sharedProjects": {
+                "title": "Delte Projekter",
+                "icon": "👥",
+                "desc": "Samarbejdsrum for projekter delt med dig af andre brugere.",
+                "features": [
+                    "Modtag projekter delt af kolleger eller venner",
+                    "Kun læse- eller redigeringsadgang afhængigt af tilladelser",
+                    "Realtidssynkronisering med projektejeren",
+                    "Accepter delinger via invitationslink"
+                ],
+                "howTo": "Når nogen deler et projekt med dig, vises det her automatisk. Klik for at åbne og samarbejde."
+            }
         }
     }
-  },
-  "Help": {
-      "title": "Hjælpecenter",
-      "subtitle": "Komplet guide til brug af JigsawDesigner til at skabe professionelle puslespil.",
-      "toc": "Indholdsfortegnelse",
-      "sections": {
-          "gettingStarted": "Kom i gang",
-          "tools": "Tegneværktøjer",
-          "operations": "Elementoperationer",
-          "generation": "Puslespilsgenerering",
-          "importExport": "Import & Eksport",
-          "shortcuts": "Tastaturgenveje"
-      },
-      "gettingStartedContent": {
-          "title": "Opret dit Første Projekt",
-          "steps": {
-              "1": { "title": "Start JigsawDesigner", "desc": "Åbn appen på din Mac eller iOS-enhed." },
-              "2": { "title": "Vælg et Værktøj", "desc": "Vælg mellem 8 tegneværktøjer på værktøjslinjen." },
-              "3": { "title": "Tegn dit Design", "desc": "Opret former, stier eller importer eksisterende SVG-filer." },
-              "4": { "title": "Generer Puslespil", "desc": "Klik på 'Generer Puslespil' for at skabe sammenlåsende brikker." },
-              "5": { "title": "Eksport", "desc": "Gem dit puslespil som SVG til fremstilling eller tryk." }
-          }
-      },
-      "toolsContent": {
-        "select": { "title": "Markeringsværktøj", "desc": "Vælg og flyt former på lærredet. Shift+klik for flere valg, Ctrl+klik for at dykke ned i grupper." },
-        "edit": { "title": "Redigeringsværktøj", "desc": "Rediger formernes kontrolpunkter. Juster formgeometrien præcist ved at trække punkter." },
-        "pen": { "title": "Penneværktøj", "desc": "Frihåndssti tegning. Klik og træk for at skabe Bezier-kurver og organiske former." },
-        "line": { "title": "Linjeværktøj", "desc": "Tegn rette linjer. Perfekt til geometriske designs og præcise forbindelser." },
-        "rect": { "title": "Rektangelværktøj", "desc": "Tegn rektangulære former. Klik og træk fra hjørnet for at oprette." },
-        "circle": { "title": "Cirkelværktøj", "desc": "Tegn cirkler og ellipser. Træk fra midten for at indstille radius." },
-        "polygon": { "title": "Polygonværktøj", "desc": "Tegn flersidede polygoner. Klik for at placere hvert hjørne, dobbeltklik for at afslutte." },
-        "bezier": { "title": "Bezier-værktøj", "desc": "Tegn præcise Bezier-kurver med ankerpunkter og kontrolhåndtag." }
-      },
-      "operationsContent": {
-          "selection": { 
-              "title": "Markering", 
-              "items": [
-                  "Enkelt Valg: Klik på enhver form",
-                  "Flere Valg: Shift+klik på flere former",
-                  "Vælg Alt: Tryk ⌘A for at vælge alle former",
-                  "Dybt Valg: Ctrl+klik for at vælge underelementer i grupper"
-              ] 
-          },
-          "grouping": { 
-              "title": "Gruppering", 
-              "items": [
-                  "Grupper Former: Vælg flere former og tryk G",
-                  "Opløs Gruppe: Vælg en gruppe og tryk ⌘G",
-                  "Indlejrede Grupper: Opret komplekse hierarkier"
-              ]
-          },
-          "editing": { 
-              "title": "Redigering", 
-              "items": [
-                  "Kopier: Tryk ⌘C for at duplikere valgte elementer",
-                  "Slet: Tryk Delete eller Backspace for at fjerne",
-                  "Transformer: Brug Inspektørpanelet til at justere position, skala og rotation"
-              ]
-          }
-      },
-      "generationContent": {
-          "howItWorks": {
-              "title": "Hvordan det Virker",
-              "desc": "JigsawDesigner bruger avancerede C++ algoritmer med OpenCV og Boost biblioteker til at generere højkvalitets puslespilsbrikker ved hjælp af Voronoi-diagrammer og DCEL-datastrukturer."
-          },
-          "steps": {
-              "1": { "title": "Tegn Grænse", "desc": "Opret konturformen, der skal opdeles i puslespilsbrikker." },
-              "2": { "title": "Konfigurer", "desc": "Indstil antal brikker, slot-indstillinger og vælg skabeloner." },
-              "3": { "title": "Generer", "desc": "Klik på 'Generer' for at køre algoritmen og skabe sammenlåsende brikker." },
-              "4": { "title": "Eksport", "desc": "Eksporter som SVG til fremstilling eller tryk." }
-          }
-      },
-      "importExportContent": {
-          "import": {
-              "title": "Importer SVG",
-              "desc": "Importer eksisterende SVG-filer til brug som puslespilsgrænser eller designelementer.",
-              "shortcut": "Genvej:",
-              "items": ["Stier, rektangler, cirkler", "Grupper og transformationer", "ViewBox og koordinater"]
-          },
-          "export": {
-              "title": "Eksporter SVG",
-              "desc": "Eksporter dine designs og genererede puslespil som standard SVG-filer.",
-              "shortcut": "Genvej:",
-              "items": ["Standard SVG 1.1 format", "Bevarer alle transformationer", "Bevarer gruppehierarkier"]
-          },
-          "premium": {
-              "title": "Premium Funktion",
-              "desc": "Premium-abonnement kræves for at eksportere genererede puslespil. Gratis brugere kan designe og generere, men eksport er begrænset."
-          }
-      },
-      "shortcutsContent": {
-        "file": {
-            "title": "Filoperationer",
-            "new": "Nyt Projekt",
-            "import": "Importer SVG",
-            "export": "Eksporter SVG"
-        },
-        "edit": {
-            "title": "Redigeringsoperationer",
-            "copy": "Kopier",
-            "delete": "Slet",
-            "selectAll": "Vælg Alt",
-            "group": "Grupper Former",
-            "ungroup": "Opløs Gruppe"
-        },
-        "selection": {
-            "title": "Markering",
-            "multi": "Flere Valg",
-            "drillDown": "Bor Ned",
-            "drillUp": "Bor Op"
-        }
-      },
-      "troubleshooting": {
-          "title": "Fejlfinding",
-          "items": {
-              "shapes": { "title": "Former vises ikke", "content": "Verificer, at du er i den rigtige tegnetilstand. Tjek, at lærredstørrelsen har plads til din form. Tjek, at formudfyldnings-/stregfarver ikke er gennemsigtige." },
-              "select": { "title": "Kan ikke vælge form", "content": "Skift til Markeringsværktøjet (markør-ikon). Sørg for, at formen ikke er skjult bag andre. Prøv at bruge Ctrl+klik for at bore ind i grupper." },
-              "fail": { "title": "Puslespilsgenerering fejler", "content": "Sørg for, at din grænseform er en lukket sti. Reducer antal brikker for komplekse former. Tjek, at slot-skabeloner er gyldige." },
-              "export": { "title": "Eksport er deaktiveret", "content": "Premium-abonnement kræves for at eksportere genererede puslespil. Det gratis niveau tillader design men begrænser eksportfunktionalitet." }
-          }
-      },
-      "needHelp": {
-          "title": "Har du brug for mere hjælp?",
-          "desc": "Besøg vores supportside eller kontakt os direkte for personlig assistance",
-          "contact": "Kontakt Support",
-          "download": "Download App"
-      }
-  }
 }

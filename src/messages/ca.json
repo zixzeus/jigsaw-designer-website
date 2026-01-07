@@ -1,227 +1,623 @@
 {
-  "Navigation": {
-    "features": "Característiques",
-    "download": "Descarregar",
-    "github": "GitHub",
-    "getStarted": "Començar",
-    "home": "Inici",
-    "support": "Suport",
-    "help": "Centre d'Ajuda"
-  },
-  "Hero": {
-    "version": "v1.3 Llançat - Prova-ho ara!",
-    "titlePart1": "Dissenya Puzzles Com un <br/>",
-    "titleProfessional": "Professional",
-    "subtitle": "L'eina de disseny de puzzles més potent per a plataformes Apple. Rendiment natiu, precisió SVG i generació impulsada per algoritmes.",
-    "download": "Descarregar",
-    "learnMore": "Saber Més"
-  },
-  "Features": {
-    "title": "Característiques Potents",
-    "subtitle": "Tot el que necessites per crear puzzles de qualitat professional.",
-    "list": {
-      "customization": {
-        "title": "Personalització Il·limitada",
-        "description": "Personalitza-ho tot, des de plantilles de ranures i contorns fins a l'interior del puzzle. Crea dissenys únics que destaquin."
-      },
-      "workflow": {
-        "title": "Flux de Treball Ràpid com el Llamp",
-        "description": "Converteix hores de treball manual en segons. Genera patrons de puzzle complexos en només 3 segons amb el nostre motor avançat."
-      },
-      "anywhere": {
-        "title": "Dissenya a Qualsevol Lloc",
-        "description": "Comença al teu Mac, perfecciona al teu iPad i revisa al teu iPhone. El teu espai de treball es mou amb tu."
-      }
-    }
-  },
-  "Footer": {
-    "privacy": "Privacitat",
-    "support": "Suport",
-    "github": "GitHub",
-    "rights": "© {year} JigsawDesigner. Tots els drets reservats."
-  },
-  "Privacy": {
-    "title": "Política de Privacitat",
-    "introduction": {
-        "title": "Introducció",
-        "content": "JigsawDesigner (\"nosaltres\", \"nostre\" o \"ens\") respecta la teva privacitat i es compromet a protegir-la. Aquesta Política de Privacitat explica com recopilem, utilitzem i protegim la teva informació quan utilitzes la nostra aplicació i lloc web."
+    "Navigation": {
+        "features": "Característiques",
+        "download": "Descarregar",
+        "github": "GitHub",
+        "getStarted": "Començar",
+        "home": "Inici",
+        "support": "Suport",
+        "help": "Centre d'Ajuda"
     },
-    "dataCollection": {
-        "title": "Recollida de Dades",
-        "content": "No recopilem dades personals.",
-        "content2": "JigsawDesigner està dissenyat per processar els teus fitxers localment al teu dispositiu. Els teus dissenys, imatges i projectes mai surten del teu dispositiu tret que decideixis explícitament exportar-los o compartir-los.",
+    "Hero": {
+        "version": "{version} Llançat - Prova-ho ara!",
+        "titlePart1": "Dissenya Puzzles Com un <br/>",
+        "titleProfessional": "Professional",
+        "subtitle": "L'eina de disseny de puzzles més potent per a plataformes Apple. Rendiment natiu, precisió SVG i generació impulsada per algoritmes.",
+        "download": "Descarregar",
+        "learnMore": "Saber Més"
+    },
+    "Features": {
+        "title": "Característiques Potents",
+        "subtitle": "Tot el que necessites per crear puzzles de qualitat professional.",
         "list": {
-            "behavior": "No rastregem el teu comportament d'ús.",
-            "upload": "No pugem les teves fotos, com ara imatges de puzzles, a cap servidor.",
-            "sell": "No venem les teves dades a tercers."
+            "customization": {
+                "title": "Personalització Il·limitada",
+                "description": "Personalitza-ho tot, des de plantilles de ranures i contorns fins a l'interior del puzzle. Crea dissenys únics que destaquin."
+            },
+            "workflow": {
+                "title": "Flux de Treball Ràpid com el Llamp",
+                "description": "Converteix hores de treball manual en segons. Genera patrons de puzzle complexos en només 3 segons amb el nostre motor avançat."
+            },
+            "anywhere": {
+                "title": "Dissenya a Qualsevol Lloc",
+                "description": "Comença al teu Mac, perfecciona al teu iPad i revisa al teu iPhone. El teu espai de treball es mou amb tu."
+            }
         }
     },
-    "analytics": {
-        "title": "Anàlisi de l'Aplicació",
-        "content": "Podem utilitzar les analítiques estàndard de Apple (amb opció d'inclusió) per millorar el rendiment i l'estabilitat de l'aplicació (per exemple, informes d'errors). Aquestes dades són anònimes i no t'identifiquen personalment. Pots optar per no participar en qualsevol moment a través de la configuració del teu dispositiu."
+    "Footer": {
+        "privacy": "Privacitat",
+        "support": "Suport",
+        "github": "GitHub",
+        "rights": "© {year} JigsawDesigner. Tots els drets reservats."
     },
-    "contact": {
-        "title": "Contacta amb Nosaltres",
-        "content": "Si tens alguna pregunta sobre aquesta Política de Privacitat, sisplau contacta amb nosaltres a:"
-    },
-    "lastUpdated": "Última Actualització: 10 de desembre de 2025"
-  },
-  "Support": {
-    "hero": {
-        "titlePart1": "Com et podem",
-        "titlePart2": "ajudar?",
-        "subtitle": "Som aquí per donar suport al teu viatge creatiu. Troba respostes o contacta amb el nostre equip."
-    },
-    "documentation": {
-        "title": "Documentació",
-        "description": "Explora les nostres guies completes per dominar les característiques i eines de JigsawDesigner.",
-        "action": "Navegar per Articles"
-    },
-    "email": {
-        "title": "Suport per Correu Electrònic",
-        "description": "Necessites ajuda amb un problema específic? El nostre equip de suport està preparat per ajudar-te directament."
-    },
-    "faq": {
-        "title": "Preguntes Freqüents",
-        "q1": {
-            "question": "És JigsawDesigner una compra única?",
-            "answer": "Sí, JigsawDesigner ofereix una opció de llicència de per vida així com plans de subscripció. Consulta l'App Store per veure els preus més recents."
+    "Privacy": {
+        "title": "Política de Privacitat",
+        "introduction": {
+            "title": "Introducció",
+            "content": "JigsawDesigner (\"nosaltres\", \"nostre\" o \"ens\") respecta la teva privacitat i es compromet a protegir-la. Aquesta Política de Privacitat explica com recopilem, utilitzem i protegim la teva informació quan utilitzes la nostra aplicació i lloc web."
         },
-        "q2": {
-            "question": "Puc exportar els meus dissenys per a ús comercial?",
-            "answer": "Absolutament. Tots els dissenys creats amb JigsawDesigner són teus. Pots exportar-los com a SVG o PDF per a la fabricació o impressió comercial."
+        "dataCollection": {
+            "title": "Recollida de Dades",
+            "content": "No recopilem dades personals.",
+            "content2": "JigsawDesigner està dissenyat per processar els teus fitxers localment al teu dispositiu. Els teus dissenys, imatges i projectes mai surten del teu dispositiu tret que decideixis explícitament exportar-los o compartir-los.",
+            "list": {
+                "behavior": "No rastregem el teu comportament d'ús.",
+                "upload": "No pugem les teves fotos, com ara imatges de puzzles, a cap servidor.",
+                "sell": "No venem les teves dades a tercers."
+            }
         },
-        "q3": {
-            "question": "Admet línies de tall personalitzades?",
-            "answer": "Sí, pots importar camins SVG personalitzats per utilitzar-los com a línies de tall, o utilitzar els nostres algoritmes avançats per generar automàticament patrons únics."
+        "analytics": {
+            "title": "Anàlisi de l'Aplicació",
+            "content": "Podem utilitzar les analítiques estàndard de Apple (amb opció d'inclusió) per millorar el rendiment i l'estabilitat de l'aplicació (per exemple, informes d'errors). Aquestes dades són anònimes i no t'identifiquen personalment. Pots optar per no participar en qualsevol moment a través de la configuració del teu dispositiu."
+        },
+        "contact": {
+            "title": "Contacta amb Nosaltres",
+            "content": "Si tens alguna pregunta sobre aquesta Política de Privacitat, sisplau contacta amb nosaltres a:"
+        },
+        "lastUpdated": "Última Actualització: 10 de desembre de 2025"
+    },
+    "Support": {
+        "hero": {
+            "titlePart1": "Com et podem",
+            "titlePart2": "ajudar?",
+            "subtitle": "Som aquí per donar suport al teu viatge creatiu. Troba respostes o contacta amb el nostre equip."
+        },
+        "documentation": {
+            "title": "Documentació",
+            "description": "Explora les nostres guies completes per dominar les característiques i eines de JigsawDesigner.",
+            "action": "Navegar per Articles"
+        },
+        "email": {
+            "title": "Suport per Correu Electrònic",
+            "description": "Necessites ajuda amb un problema específic? El nostre equip de suport està preparat per ajudar-te directament."
+        },
+        "faq": {
+            "title": "Preguntes Freqüents",
+            "q1": {
+                "question": "És JigsawDesigner una compra única?",
+                "answer": "Sí, JigsawDesigner ofereix una opció de llicència de per vida així com plans de subscripció. Consulta l'App Store per veure els preus més recents."
+            },
+            "q2": {
+                "question": "Puc exportar els meus dissenys per a ús comercial?",
+                "answer": "Absolutament. Tots els dissenys creats amb JigsawDesigner són teus. Pots exportar-los com a SVG o PDF per a la fabricació o impressió comercial."
+            },
+            "q3": {
+                "question": "Admet línies de tall personalitzades?",
+                "answer": "Sí, pots importar camins SVG personalitzats per utilitzar-los com a línies de tall, o utilitzar els nostres algoritmes avançats per generar automàticament patrons únics."
+            }
+        }
+    },
+    "Help": {
+        "title": "Centre d'ajuda i guia de generació de trencaclosques",
+        "subtitle": "Guia completa per a la generació professional de línies de tall i disseny de trencaclosques amb JigsawDesigner.",
+        "toc": "Taula de Continguts",
+        "sections": {
+            "gettingStarted": "Començar",
+            "tools": "Eines de dibuix SVG",
+            "operations": "Operacions d'elements",
+            "generation": "Generació de línies de tall",
+            "importExport": "Importació i exportació SVG",
+            "shortcuts": "Dreceres de Teclat",
+            "projectLibrary": "Biblioteca de Projectes",
+            "interface": "Interfície de l'Editor"
+        },
+        "gettingStartedContent": {
+            "title": "Crea el Teu Primer Projecte",
+            "steps": {
+                "1": {
+                    "title": "Inicia JigsawDesigner",
+                    "desc": "Obre l'aplicació al teu Mac o dispositiu iOS."
+                },
+                "2": {
+                    "title": "Tria una Eina",
+                    "desc": "Selecciona entre les 8 eines de dibuix a la barra d'eines."
+                },
+                "3": {
+                    "title": "Dibuixa el Teu Disseny",
+                    "desc": "Crea formes, camins o importa fitxers SVG existents."
+                },
+                "4": {
+                    "title": "Generar Puzzle",
+                    "desc": "Fes clic a 'Generar Puzzle' per crear peces que s'entrellacin."
+                },
+                "5": {
+                    "title": "Exportar",
+                    "desc": "Desa el teu puzzle com a SVG per a la fabricació o impressió."
+                }
+            }
+        },
+        "toolsContent": {
+            "select": {
+                "title": "Eina de Selecció",
+                "desc": "Selecciona i mou formes al llenç. Shift+Clic per a selecció múltiple, Ctrl+Clic per aprofundir en grups."
+            },
+            "edit": {
+                "title": "Eina d'Edició",
+                "desc": "Edita els punts de control de les formes. Ajusta la geometria de la forma amb precisió arrossegant punts."
+            },
+            "pen": {
+                "title": "Eina Ploma",
+                "desc": "Dibuix de camí lliure. Fes clic i arrossega per crear corbes Bezier i formes orgàniques."
+            },
+            "line": {
+                "title": "Eina de Línia",
+                "desc": "Dibuixa línies rectes. Perfecte per a dissenys geomètrics i connexions precises."
+            },
+            "rect": {
+                "title": "Eina de Rectangle",
+                "desc": "Dibuixa formes rectangulars. Fes clic i arrossega des de la cantonada per crear."
+            },
+            "circle": {
+                "title": "Eina de Cercle",
+                "desc": "Dibuixa cercles i el·lipses. Arrossega des del centre per establir el radi."
+            },
+            "polygon": {
+                "title": "Eina de Polígon",
+                "desc": "Dibuixa polígons de múltiples costats. Fes clic per col·locar cada vèrtex, doble clic per acabar."
+            },
+            "bezier": {
+                "title": "Eina de Bezier",
+                "desc": "Dibuixa corbes Bezier precises amb punts d'ancoratge i nanses de control."
+            }
+        },
+        "operationsContent": {
+            "selection": {
+                "title": "Selecció",
+                "items": [
+                    "Selecció Única: Fes clic a qualsevol forma",
+                    "Selecció Múltiple: Shift+Clic en múltiples formes",
+                    "Selecciona Tot: Prem ⌘A per seleccionar totes les formes",
+                    "Selecció Profunda: Ctrl+Clic per seleccionar elements fills en grups"
+                ]
+            },
+            "grouping": {
+                "title": "Agrupament",
+                "items": [
+                    "Agrupa Formes: Selecciona múltiples formes i prem G",
+                    "Desagrupa: Selecciona un grup i prem ⌘G",
+                    "Grups Imbricats: Crea jerarquies complexes"
+                ]
+            },
+            "editing": {
+                "title": "Edició",
+                "items": [
+                    "Copia: Prem ⌘C per duplicar els elements seleccionats",
+                    "Esborra: Prem Delete o Backspace per eliminar",
+                    "Transforma: Utilitza el panell Inspector per ajustar la posició, escala i rotació"
+                ]
+            }
+        },
+        "generationContent": {
+            "howItWorks": {
+                "title": "Com Funciona",
+                "desc": "JigsawDesigner utilitza algoritmes C++ avançats amb biblioteques OpenCV i Boost per generar peces de puzzle d'alta qualitat utilitzant diagrames de Voronoi i estructures de dades DCEL."
+            },
+            "steps": {
+                "1": {
+                    "title": "Importar contorn límit",
+                    "desc": "Fes clic a \"Importar SVG\" o dibuixa una forma per definir el límit exterior i les peces especials (\"whimsy\")."
+                },
+                "2": {
+                    "title": "Seleccionar plantilla d'encaix",
+                    "desc": "Tria un disseny d'encaix (Estàndard Convex, Multipunt, etc.) per definir com es connecten les peces."
+                },
+                "3": {
+                    "title": "Configurar paràmetres",
+                    "desc": "Utilitza l'Inspector per establir la mida de la graella, el nombre de peces i la distància d'encaix."
+                },
+                "4": {
+                    "title": "Generar línies de tall",
+                    "desc": "Fes clic a \"Generar trencaclosques\". En segons, tindràs un troquel llest per a tall làser o impressió."
+                }
+            },
+            "title": "Guia de generació de línies de tall",
+            "desc": "JigsawDesigner utilitza algorismes C++ avançats per generar línies de tall professionals. Segueix aquests 4 passos:"
+        },
+        "importExportContent": {
+            "import": {
+                "title": "Importar SVG",
+                "desc": "Importa fitxers SVG existents per utilitzar-los com a límits de puzzle o elements de disseny.",
+                "shortcut": "Drecera:",
+                "items": [
+                    "Camins, rectangles, cercles",
+                    "Grups i transformacions",
+                    "ViewBox i coordenades"
+                ]
+            },
+            "export": {
+                "title": "Exportar SVG",
+                "desc": "Exporta els teus dissenys i puzzles generats com a fitxers SVG estàndard.",
+                "shortcut": "Drecera:",
+                "items": [
+                    "Format SVG 1.1 estàndard",
+                    "Manté totes les transformacions",
+                    "Manté les jerarquies de grups"
+                ]
+            },
+            "premium": {
+                "title": "Característica Premium",
+                "desc": "Es requereix subscripció Premium per exportar els puzzles generats. Els usuaris gratuïts poden dissenyar i generar, però l'exportació està limitada."
+            }
+        },
+        "shortcutsContent": {
+            "file": {
+                "title": "Operacions de Fitxer",
+                "new": "Nou Projecte",
+                "import": "Importar SVG",
+                "export": "Exportar SVG"
+            },
+            "edit": {
+                "title": "Operacions d'Edició",
+                "copy": "Copia",
+                "delete": "Esborra",
+                "selectAll": "Selecciona Tot",
+                "group": "Agrupa Formes",
+                "ungroup": "Desagrupa"
+            },
+            "selection": {
+                "title": "Selecció",
+                "multi": "Selecció Múltiple",
+                "drillDown": "Aprofundir",
+                "drillUp": "Pujar"
+            }
+        },
+        "troubleshooting": {
+            "title": "Resolució de Problemes",
+            "items": {
+                "shapes": {
+                    "title": "Les formes no apareixen",
+                    "content": "Verifica que estàs en el mode de dibuix correcte. Comprova que la mida del llenç tingui espai per a la teva forma. Comprova que els colors de farciment/traç de la forma no siguin transparents."
+                },
+                "select": {
+                    "title": "No es pot seleccionar la forma",
+                    "content": "Canvia a l'Eina de Selecció (icona del cursor). Assegura't que la forma no estigui amagada darrere d'altres. Prova d'utilitzar Ctrl+Clic per aprofundir en grups."
+                },
+                "fail": {
+                    "title": "Fallada en la generació del puzzle",
+                    "content": "Assegura't que la teva forma límit és un camí tancat. Redueix el nombre de peces per a formes complexes. Comprova que les plantilles de ranures siguin vàlides."
+                },
+                "export": {
+                    "title": "L'exportació està desactivada",
+                    "content": "Es requereix subscripció Premium per exportar els puzzles generats. El nivell gratuït permet el disseny però limita la funcionalitat d'exportació."
+                }
+            }
+        },
+        "needHelp": {
+            "title": "Necessites Més Ajuda?",
+            "desc": "Visita la nostra pàgina de suport o contacta amb nosaltres directament per a assistència personal",
+            "contact": "Contactar amb Suport",
+            "download": "Descarregar Aplicació"
+        },
+        "metaTitle": "Centre d'ajuda - Generador professional de línies de tall de trencaclosques i dissenyador SVG",
+        "metaDescription": "Domina JigsawDesigner: El programari definitiu per a la generació de línies de tall de trencaclosques. Aprèn a crear SVGs per a tall làser i patrons Voronoi.",
+        "metaKeywords": "generador de línies de tall, creador de troquels, SVG per a tall làser, programari de disseny de trencaclosques",
+        "interfaceContent": {
+            "title": "Interfície d'editor i tall",
+            "intro": "L'editor de JigsawDesigner ofereix un espai de treball vectorial professional per dissenyar línies de tall i troquels de precisió.",
+            "toolbar": {
+                "title": "Barra d'Eines Superior",
+                "desc": "Accés ràpid a totes les eines de dibuix i operacions amb fitxers.",
+                "tools": [
+                    {
+                        "icon": "🖱️",
+                        "name": "Seleccionar",
+                        "desc": "Seleccioneu i moveu formes al llenç"
+                    },
+                    {
+                        "icon": "✏️",
+                        "name": "Editar Punts",
+                        "desc": "Editeu punts d'ancoratge i manetes"
+                    },
+                    {
+                        "icon": "✒️",
+                        "name": "Ploma",
+                        "desc": "Dibuixeu traçats lliures"
+                    },
+                    {
+                        "icon": "📏",
+                        "name": "Línia",
+                        "desc": "Dibuixeu línies rectes"
+                    },
+                    {
+                        "icon": "▭",
+                        "name": "Rectangle",
+                        "desc": "Dibuixeu rectangles i quadrats"
+                    },
+                    {
+                        "icon": "⭕",
+                        "name": "Cercle",
+                        "desc": "Dibuixeu cercles i el·lipses"
+                    },
+                    {
+                        "icon": "⬟",
+                        "name": "Polígon",
+                        "desc": "Dibuixeu polígons regulars"
+                    },
+                    {
+                        "icon": "🎨",
+                        "name": "Bézier",
+                        "desc": "Dibuixeu corbes Bézier amb punts de control"
+                    }
+                ]
+            },
+            "canvas": {
+                "title": "Llenç Infinit",
+                "desc": "L'àrea de treball principal per crear els vostres dissenys de trencaclosques.",
+                "features": [
+                    "Desplaçament infinit - el llenç s'estén en totes direccions",
+                    "Visualització de regles amb mesures en píxels",
+                    "Quadrícula per a alineació precisa",
+                    "Ampliació/reducció amb la roda del ratolí o gestos de pessic",
+                    "Panoràmica arrossegant amb la barra espaiadora premuda o amb dos dits",
+                    "El quadre de selecció apareix quan es selecciona un element"
+                ],
+                "tip": "Utilitzeu ⌘0 per restablir el zoom al 100%, o ⌘1 per ajustar el llenç a la finestra."
+            },
+            "toolsPanel": {
+                "title": "Panell d'Eines",
+                "desc": "Accés ràpid a operacions comunes i informació d'eines.",
+                "sections": {
+                    "currentTool": {
+                        "title": "Eina Actual",
+                        "desc": "Mostra l'eina seleccionada actualment."
+                    },
+                    "elementOps": {
+                        "title": "Operacions d'Element",
+                        "desc": "Copieu o suprimiu elements seleccionats."
+                    },
+                    "canvasOps": {
+                        "title": "Operacions de Llenç",
+                        "desc": "Restabliu la visualització i ajusteu el zoom."
+                    },
+                    "quickOps": {
+                        "title": "Operacions Ràpides",
+                        "desc": "Netegeu el llenç, seleccioneu tot, deseleccioneu."
+                    }
+                }
+            },
+            "layersPanel": {
+                "title": "Panell de Capes",
+                "desc": "Gestioneu la jerarquia del vostre disseny.",
+                "features": [
+                    "Visualitzeu grups i formes en estructura d'arbre",
+                    "Expandiu grups per veure elements",
+                    "Bloquegeu formes (icona de cadenat)",
+                    "Alterneu la visibilitat (icona d'ull)",
+                    "Mostra el total de capes a la part superior"
+                ]
+            },
+            "templatesPanel": {
+                "title": "Panell de Plantilles",
+                "desc": "Les plantilles defineixen com es connecten les peces del trencaclosques.",
+                "features": [
+                    "Plantilles integrades: Convex Estàndard, Còncau Estàndard, Línia Recta",
+                    "Feu clic a + per crear plantilles personalitzades",
+                    "Cerqueu plantilles per nom",
+                    "Seleccioneu plantilles per a la generació de trencaclosques",
+                    "Les plantilles personalitzades es guarden amb el projecte"
+                ],
+                "templateTypes": {
+                    "builtin": {
+                        "title": "Plantilles Integrades",
+                        "desc": "Formes de ranura predissenyades proporcionades per JigsawDesigner."
+                    },
+                    "custom": {
+                        "title": "Plantilles Personalitzades",
+                        "desc": "Dissenyeu les vostres pròpies formes de ranura úniques amb eines bezier."
+                    }
+                }
+            },
+            "inspector": {
+                "title": "Inspector de Projecte",
+                "desc": "L'inspector de la dreta proporciona totes les opcions de configuració del projecte.",
+                "sections": {
+                    "projectInfo": {
+                        "title": "Info del Projecte",
+                        "desc": "Visualitzeu i editeu el nom, data de creació i modificació."
+                    },
+                    "canvasSettings": {
+                        "title": "Configuració del Llenç",
+                        "desc": "Establiu l'amplada i l'alçada en píxels o trieu preajustos."
+                    },
+                    "jigsawSettings": {
+                        "title": "Configuració del Trencaclosques",
+                        "desc": "Configureu la mida de la quadrícula, el nombre de peces i la distància de les ranures."
+                    },
+                    "statistics": {
+                        "title": "Estadístiques",
+                        "desc": "Visualitzeu el recompte de formes, plantilles i nivell de zoom."
+                    },
+                    "operations": {
+                        "title": "Operacions",
+                        "desc": "Accediu a la configuració avançada i la generació de trencaclosques."
+                    }
+                }
+            },
+            "shapeInfo": {
+                "title": "Inspector de Forma",
+                "desc": "Quan se selecciona una forma o grup, el panell mostra informació detallada.",
+                "sections": {
+                    "shapeInfo": {
+                        "title": "Info de Forma",
+                        "desc": "Visualitzeu i editeu el nom, ID i tipus (Traçat, Grup, Cercle, etc.)."
+                    },
+                    "transform": {
+                        "title": "Transformar",
+                        "desc": "Ajusteu la posició (X, Y), l'escala i la rotació de l'element."
+                    },
+                    "geometry": {
+                        "title": "Geometria",
+                        "desc": "Visualitzeu les dimensions i la posició del quadre delimitador."
+                    },
+                    "operations": {
+                        "title": "Operacions",
+                        "desc": "Copieu o suprimiu l'element seleccionat."
+                    }
+                }
+            },
+            "advancedSettings": {
+                "title": "Configuració Avançada",
+                "desc": "Accediu a la configuració completa de l'aplicació mitjançant el diàleg Configuració Avançada.",
+                "sections": {
+                    "language": {
+                        "title": "Configuració d'Idioma",
+                        "desc": "Canvieu l'idioma de l'aplicació. Admet el predeterminat del sistema o trieu entre 40+ idiomes."
+                    },
+                    "subscription": {
+                        "title": "Gestió de Subscripció",
+                        "desc": "Visualitzeu l'estat de la subscripció i gestioneu la membresía Premium."
+                    },
+                    "editor": {
+                        "title": "Configuració de l'Editor",
+                        "desc": "Personalitzeu la visualització del llenç incloent-hi la quadrícula, regles, ajust a la quadrícula, espaiat de la quadrícula i amplada del traç."
+                    }
+                },
+                "options": {
+                    "showGrid": {
+                        "title": "Mostra Quadrícula",
+                        "desc": "Mostra/Amaga superposició de quadrícula"
+                    },
+                    "showRulers": {
+                        "title": "Mostra Regles",
+                        "desc": "Mostra/Amaga regles"
+                    },
+                    "snapToGrid": {
+                        "title": "Ajusta a Quadrícula",
+                        "desc": "Activa/Desactiva ajust a la quadrícula"
+                    },
+                    "gridSpacing": {
+                        "title": "Espaiat Quadrícula",
+                        "desc": "Ajusta l'espaiat de la quadrícula (distància en píxels)"
+                    },
+                    "strokeWidth": {
+                        "title": "Amplada Traç",
+                        "desc": "Estableix l'amplada del traç per a les formes"
+                    }
+                }
+            },
+            "templateEditor": {
+                "title": "Editor de Plantilles",
+                "desc": "Creeu plantilles de ranura personalitzades amb l'eina de dibuix de corbes Bézier integrada.",
+                "features": [
+                    "Poseu nom a la vostra plantilla personalitzada",
+                    "Dibuixeu corbes Bézier amb clic i arrossegar",
+                    "Feu doble clic per acabar el traçat",
+                    "Editeu punts de control individuals",
+                    "Importeu plantilles SVG existents",
+                    "Exporteu plantilles per a còpia de seguretat"
+                ],
+                "buttons": {
+                    "clearPath": {
+                        "title": "Esborra traçat",
+                        "desc": "Esborra el dibuix actual"
+                    },
+                    "editPoints": {
+                        "title": "Edita punts",
+                        "desc": "Canvia al mode d'edició de punts"
+                    },
+                    "importSVG": {
+                        "title": "Importa SVG",
+                        "desc": "Importa fitxer SVG com a plantilla"
+                    },
+                    "exportSVG": {
+                        "title": "Exporta SVG",
+                        "desc": "Exporta la plantilla com a SVG"
+                    }
+                }
+            }
+        },
+        "industryKeywords": {
+            "title": "Per què triar JigsawDesigner?",
+            "laserCutting": {
+                "title": "SVG per a tall làser",
+                "desc": "Genera camins SVG nets i precisos optimitzats per a Glowforge, Cricut i làsers CO2."
+            },
+            "dieline": {
+                "title": "Troquels personalitzats",
+                "desc": "Crea línies de tall úniques amb patrons Voronoi que asseguren que cada peça sigui única."
+            },
+            "manufacturing": {
+                "title": "Llest per a la fabricació",
+                "desc": "Exporta dissenys en formats vectorials professionals (SVG, PDF) llestos per a producció en massa o tall manual."
+            }
+        },
+        "projectLibraryContent": {
+            "title": "Biblioteca de Projectes",
+            "intro": "La Biblioteca de Projectes és el vostre centre per gestionar tots els dissenys de trencaclosques. Accediu des de la pantalla de benvinguda o Fitxer → Biblioteca de Projectes.",
+            "myProjects": {
+                "title": "Els Meus Projectes",
+                "icon": "📁",
+                "desc": "El vostre espai de treball personal per a tots els dissenys de trencaclosques, emmagatzemats de manera segura a iCloud.",
+                "features": [
+                    "Sincronització automàtica d'iCloud entre Mac, iPad i iPhone",
+                    "Creeu projectes nous amb el botó +",
+                    "Previsualitzacions de miniatures amb el nom del projecte i la data",
+                    "Suprimiu projectes amb el botó vermell de la paperera",
+                    "Els projectes marcats amb la icona del núvol indiquen l'estat de sincronització"
+                ],
+                "howTo": "Feu clic a \"Nou Projecte\" per crear un trencaclosques en blanc, o feu clic a una miniatura existent per obrir-lo a l'editor.",
+                "contextMenu": {
+                    "title": "Menú contextual",
+                    "desc": "Feu clic dret (o premeu llargament a iPad/iPhone) a qualsevol projecte per accedir a les opcions:",
+                    "options": {
+                        "open": {
+                            "title": "Obrir Projecte",
+                            "desc": "Obrir el projecte a l'editor"
+                        },
+                        "rename": {
+                            "title": "Canviar el nom",
+                            "desc": "Canviar el nom del projecte"
+                        },
+                        "publish": {
+                            "title": "Publicar",
+                            "desc": "Compartir el disseny amb tots els usuaris de JigsawDesigner"
+                        },
+                        "share": {
+                            "title": "Crear enllaç",
+                            "desc": "Generar un enllaç d'iCloud. Envieu-lo als amics i veuran el vostre projecte"
+                        },
+                        "delete": {
+                            "title": "Suprimir",
+                            "desc": "Eliminar permanentment el projecte"
+                        }
+                    }
+                }
+            },
+            "publicProjects": {
+                "title": "Projectes Públics",
+                "icon": "🌐",
+                "desc": "Plantilles de la comunitat disponibles per a tots els usuaris. Navegueu, previsualitzeu i importeu dissenys de la biblioteca pública.",
+                "features": [
+                    "Navegueu per les plantilles creades per l'equip de JigsawDesigner",
+                    "Visualitzeu el nombre de peces abans d'importar",
+                    "Feu clic a \"Obrir\" per previsualitzar",
+                    "Feu clic a \"Importar\" per copiar als Meus Projectes",
+                    "Fantàstic per aprendre i inspirar-se"
+                ],
+                "howTo": "Seleccioneu un projecte públic i feu clic a \"Importar\" per afegir una còpia a la vostra biblioteca."
+            },
+            "sharedProjects": {
+                "title": "Projectes Compartits",
+                "icon": "👥",
+                "desc": "Espai de col·laboració per a projectes compartits amb vosaltres per altres usuaris.",
+                "features": [
+                    "Rebeu projectes compartits per col·legues o amics",
+                    "Accés de només lectura o edició segons els permisos",
+                    "Sincronització en temps real amb el propietari del projecte",
+                    "Accepteu comparticions mitjançant l'enllaç d'invitació"
+                ],
+                "howTo": "Quan algú comparteixi un projecte amb vosaltres, apareixerà automàticament aquí. Feu clic per obrir i col·laborar."
+            }
         }
     }
-  },
-  "Help": {
-      "title": "Centre d'Ajuda",
-      "subtitle": "Guia completa per utilitzar JigsawDesigner per crear puzzles professionals.",
-      "toc": "Taula de Continguts",
-      "sections": {
-          "gettingStarted": "Començar",
-          "tools": "Eines de Dibuix",
-          "operations": "Operacions d'Elements",
-          "generation": "Generació de Puzzles",
-          "importExport": "Importació i Exportació",
-          "shortcuts": "Dreceres de Teclat"
-      },
-      "gettingStartedContent": {
-          "title": "Crea el Teu Primer Projecte",
-          "steps": {
-              "1": { "title": "Inicia JigsawDesigner", "desc": "Obre l'aplicació al teu Mac o dispositiu iOS." },
-              "2": { "title": "Tria una Eina", "desc": "Selecciona entre les 8 eines de dibuix a la barra d'eines." },
-              "3": { "title": "Dibuixa el Teu Disseny", "desc": "Crea formes, camins o importa fitxers SVG existents." },
-              "4": { "title": "Generar Puzzle", "desc": "Fes clic a 'Generar Puzzle' per crear peces que s'entrellacin." },
-              "5": { "title": "Exportar", "desc": "Desa el teu puzzle com a SVG per a la fabricació o impressió." }
-          }
-      },
-      "toolsContent": {
-        "select": { "title": "Eina de Selecció", "desc": "Selecciona i mou formes al llenç. Shift+Clic per a selecció múltiple, Ctrl+Clic per aprofundir en grups." },
-        "edit": { "title": "Eina d'Edició", "desc": "Edita els punts de control de les formes. Ajusta la geometria de la forma amb precisió arrossegant punts." },
-        "pen": { "title": "Eina Ploma", "desc": "Dibuix de camí lliure. Fes clic i arrossega per crear corbes Bezier i formes orgàniques." },
-        "line": { "title": "Eina de Línia", "desc": "Dibuixa línies rectes. Perfecte per a dissenys geomètrics i connexions precises." },
-        "rect": { "title": "Eina de Rectangle", "desc": "Dibuixa formes rectangulars. Fes clic i arrossega des de la cantonada per crear." },
-        "circle": { "title": "Eina de Cercle", "desc": "Dibuixa cercles i el·lipses. Arrossega des del centre per establir el radi." },
-        "polygon": { "title": "Eina de Polígon", "desc": "Dibuixa polígons de múltiples costats. Fes clic per col·locar cada vèrtex, doble clic per acabar." },
-        "bezier": { "title": "Eina de Bezier", "desc": "Dibuixa corbes Bezier precises amb punts d'ancoratge i nanses de control." }
-      },
-      "operationsContent": {
-          "selection": { 
-              "title": "Selecció", 
-              "items": [
-                  "Selecció Única: Fes clic a qualsevol forma",
-                  "Selecció Múltiple: Shift+Clic en múltiples formes",
-                  "Selecciona Tot: Prem ⌘A per seleccionar totes les formes",
-                  "Selecció Profunda: Ctrl+Clic per seleccionar elements fills en grups"
-              ] 
-          },
-          "grouping": { 
-              "title": "Agrupament", 
-              "items": [
-                  "Agrupa Formes: Selecciona múltiples formes i prem G",
-                  "Desagrupa: Selecciona un grup i prem ⌘G",
-                  "Grups Imbricats: Crea jerarquies complexes"
-              ]
-          },
-          "editing": { 
-              "title": "Edició", 
-              "items": [
-                  "Copia: Prem ⌘C per duplicar els elements seleccionats",
-                  "Esborra: Prem Delete o Backspace per eliminar",
-                  "Transforma: Utilitza el panell Inspector per ajustar la posició, escala i rotació"
-              ]
-          }
-      },
-      "generationContent": {
-          "howItWorks": {
-              "title": "Com Funciona",
-              "desc": "JigsawDesigner utilitza algoritmes C++ avançats amb biblioteques OpenCV i Boost per generar peces de puzzle d'alta qualitat utilitzant diagrames de Voronoi i estructures de dades DCEL."
-          },
-          "steps": {
-              "1": { "title": "Dibuixa el Límit", "desc": "Crea la forma de contorn que es dividirà en peces de puzzle." },
-              "2": { "title": "Configura", "desc": "Estableix el nombre de peces, la configuració de les ranures i tria plantilles." },
-              "3": { "title": "Generar", "desc": "Fes clic a 'Generar' per executar l'algoritme i crear peces que s'entrellacin." },
-              "4": { "title": "Exportar", "desc": "Exporta com a SVG per a la fabricació o impressió." }
-          }
-      },
-      "importExportContent": {
-          "import": {
-              "title": "Importar SVG",
-              "desc": "Importa fitxers SVG existents per utilitzar-los com a límits de puzzle o elements de disseny.",
-              "shortcut": "Drecera:",
-              "items": ["Camins, rectangles, cercles", "Grups i transformacions", "ViewBox i coordenades"]
-          },
-          "export": {
-              "title": "Exportar SVG",
-              "desc": "Exporta els teus dissenys i puzzles generats com a fitxers SVG estàndard.",
-              "shortcut": "Drecera:",
-              "items": ["Format SVG 1.1 estàndard", "Manté totes les transformacions", "Manté les jerarquies de grups"]
-          },
-          "premium": {
-              "title": "Característica Premium",
-              "desc": "Es requereix subscripció Premium per exportar els puzzles generats. Els usuaris gratuïts poden dissenyar i generar, però l'exportació està limitada."
-          }
-      },
-      "shortcutsContent": {
-        "file": {
-            "title": "Operacions de Fitxer",
-            "new": "Nou Projecte",
-            "import": "Importar SVG",
-            "export": "Exportar SVG"
-        },
-        "edit": {
-            "title": "Operacions d'Edició",
-            "copy": "Copia",
-            "delete": "Esborra",
-            "selectAll": "Selecciona Tot",
-            "group": "Agrupa Formes",
-            "ungroup": "Desagrupa"
-        },
-        "selection": {
-            "title": "Selecció",
-            "multi": "Selecció Múltiple",
-            "drillDown": "Aprofundir",
-            "drillUp": "Pujar"
-        }
-      },
-      "troubleshooting": {
-          "title": "Resolució de Problemes",
-          "items": {
-              "shapes": { "title": "Les formes no apareixen", "content": "Verifica que estàs en el mode de dibuix correcte. Comprova que la mida del llenç tingui espai per a la teva forma. Comprova que els colors de farciment/traç de la forma no siguin transparents." },
-              "select": { "title": "No es pot seleccionar la forma", "content": "Canvia a l'Eina de Selecció (icona del cursor). Assegura't que la forma no estigui amagada darrere d'altres. Prova d'utilitzar Ctrl+Clic per aprofundir en grups." },
-              "fail": { "title": "Fallada en la generació del puzzle", "content": "Assegura't que la teva forma límit és un camí tancat. Redueix el nombre de peces per a formes complexes. Comprova que les plantilles de ranures siguin vàlides." },
-              "export": { "title": "L'exportació està desactivada", "content": "Es requereix subscripció Premium per exportar els puzzles generats. El nivell gratuït permet el disseny però limita la funcionalitat d'exportació." }
-          }
-      },
-      "needHelp": {
-          "title": "Necessites Més Ajuda?",
-          "desc": "Visita la nostra pàgina de suport o contacta amb nosaltres directament per a assistència personal",
-          "contact": "Contactar amb Suport",
-          "download": "Descarregar Aplicació"
-      }
-  }
 }

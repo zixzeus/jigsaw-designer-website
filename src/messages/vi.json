@@ -1,227 +1,628 @@
 {
-  "Navigation": {
-    "features": "Tính năng",
-    "download": "Tải xuống",
-    "github": "GitHub",
-    "getStarted": "Bắt đầu",
-    "home": "Trang chủ",
-    "support": "Hỗ trợ",
-    "help": "Trung tâm trợ giúp"
-  },
-  "Hero": {
-    "version": "v1.3 Đã phát hành - Thử ngay!",
-    "titlePart1": "Thiết kế Tranh ghép như <br/>",
-    "titleProfessional": "Chuyên gia",
-    "subtitle": "Công cụ thiết kế tranh ghép mạnh mẽ nhất cho nền tảng Apple. Hiệu suất gốc, độ chính xác SVG và tạo hình dựa trên thuật toán.",
-    "download": "Tải xuống",
-    "learnMore": "Tìm hiểu thêm"
-  },
-  "Features": {
-    "title": "Tính năng Mạnh mẽ",
-    "subtitle": "Mọi thứ bạn cần để tạo ra các bức tranh ghép chất lượng chuyên nghiệp.",
-    "list": {
-      "customization": {
-        "title": "Tùy chỉnh Không giới hạn",
-        "description": "Tùy chỉnh mọi thứ từ mẫu khe và đường viền đến bên trong tranh ghép. Tạo ra các thiết kế độc đáo nổi bật."
-      },
-      "workflow": {
-        "title": "Quy trình làm việc Siêu tốc",
-        "description": "Biến hàng giờ làm việc thủ công thành vài giây. Tạo ra các mẫu tranh ghép phức tạp chỉ trong 3 giây với công cụ tiên tiến của chúng tôi."
-      },
-      "anywhere": {
-        "title": "Thiết kế Mọi nơi",
-        "description": "Bắt đầu trên Mac, tinh chỉnh trên iPad và xem lại trên iPhone. Không gian làm việc di chuyển cùng bạn."
-      }
-    }
-  },
-  "Footer": {
-    "privacy": "Quyền riêng tư",
-    "support": "Hỗ trợ",
-    "github": "GitHub",
-    "rights": "© {year} JigsawDesigner. Đã đăng ký bản quyền."
-  },
-  "Privacy": {
-    "title": "Chính sách quyền riêng tư",
-    "introduction": {
-        "title": "Giới thiệu",
-        "content": "JigsawDesigner (\"chúng tôi\", \"của chúng tôi\") tôn trọng quyền riêng tư của bạn và cam kết bảo vệ nó. Chính sách quyền riêng tư này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi bạn sử dụng ứng dụng và trang web của chúng tôi."
+    "Navigation": {
+        "features": "Tính năng",
+        "download": "Tải xuống",
+        "github": "GitHub",
+        "getStarted": "Bắt đầu",
+        "home": "Trang chủ",
+        "support": "Hỗ trợ",
+        "help": "Trung tâm trợ giúp"
     },
-    "dataCollection": {
-        "title": "Thu thập dữ liệu",
-        "content": "Chúng tôi không thu thập dữ liệu cá nhân.",
-        "content2": "JigsawDesigner được thiết kế để xử lý tệp của bạn cục bộ trên thiết bị của bạn. Thiết kế, hình ảnh và dự án của bạn không bao giờ rời khỏi thiết bị trừ khi bạn chọn xuất hoặc chia sẻ chúng một cách rõ ràng.",
+    "Hero": {
+        "version": "{version} Đã phát hành - Thử ngay!",
+        "titlePart1": "Thiết kế Tranh ghép như <br/>",
+        "titleProfessional": "Chuyên gia",
+        "subtitle": "Công cụ thiết kế tranh ghép mạnh mẽ nhất cho nền tảng Apple. Hiệu suất gốc, độ chính xác SVG và tạo hình dựa trên thuật toán.",
+        "download": "Tải xuống",
+        "learnMore": "Tìm hiểu thêm"
+    },
+    "Features": {
+        "title": "Tính năng Mạnh mẽ",
+        "subtitle": "Mọi thứ bạn cần để tạo ra các bức tranh ghép chất lượng chuyên nghiệp.",
         "list": {
-            "behavior": "Chúng tôi không theo dõi hành vi sử dụng của bạn.",
-            "upload": "Chúng tôi không tải ảnh của bạn, chẳng hạn như hình ảnh tranh ghép, lên bất kỳ máy chủ nào.",
-            "sell": "Chúng tôi không bán dữ liệu của bạn cho bên thứ ba."
+            "customization": {
+                "title": "Tùy chỉnh Không giới hạn",
+                "description": "Tùy chỉnh mọi thứ từ mẫu khe và đường viền đến bên trong tranh ghép. Tạo ra các thiết kế độc đáo nổi bật."
+            },
+            "workflow": {
+                "title": "Quy trình làm việc Siêu tốc",
+                "description": "Biến hàng giờ làm việc thủ công thành vài giây. Tạo ra các mẫu tranh ghép phức tạp chỉ trong 3 giây với công cụ tiên tiến của chúng tôi."
+            },
+            "anywhere": {
+                "title": "Thiết kế Mọi nơi",
+                "description": "Bắt đầu trên Mac, tinh chỉnh trên iPad và xem lại trên iPhone. Không gian làm việc di chuyển cùng bạn."
+            }
         }
     },
-    "analytics": {
-        "title": "Phân tích ứng dụng",
-        "content": "Chúng tôi có thể sử dụng các phân tích chọn tham gia tiêu chuẩn của Apple để cải thiện hiệu suất và độ ổn định của ứng dụng (ví dụ: báo cáo sự cố). Dữ liệu này là ẩn danh và không xác định danh tính cá nhân của bạn. Bạn có thể chọn không tham gia bất cứ lúc nào thông qua cài đặt thiết bị của mình."
+    "Footer": {
+        "privacy": "Quyền riêng tư",
+        "support": "Hỗ trợ",
+        "github": "GitHub",
+        "rights": "© {year} JigsawDesigner. Đã đăng ký bản quyền."
     },
-    "contact": {
-        "title": "Liên hệ với chúng tôi",
-        "content": "Nếu bạn có bất kỳ câu hỏi nào về Chính sách quyền riêng tư này, vui lòng liên hệ với chúng tôi theo địa chỉ:"
-    },
-    "lastUpdated": "Cập nhật lần cuối: 10 tháng 12 năm 2025"
-  },
-  "Support": {
-    "hero": {
-        "titlePart1": "Chúng tôi có thể",
-        "titlePart2": "giúp gì cho bạn?",
-        "subtitle": "Chúng tôi ở đây để hỗ trợ hành trình sáng tạo của bạn. Tìm câu trả lời hoặc liên hệ với nhóm của chúng tôi."
-    },
-    "documentation": {
-        "title": "Tài liệu",
-        "description": "Khám phá các hướng dẫn toàn diện của chúng tôi để nắm vững các tính năng và công cụ của JigsawDesigner.",
-        "action": "Duyệt bài viết"
-    },
-    "email": {
-        "title": "Hỗ trợ qua Email",
-        "description": "Cần giúp đỡ với một vấn đề cụ thể? Nhóm hỗ trợ của chúng tôi sẵn sàng giúp bạn trực tiếp."
-    },
-    "faq": {
-        "title": "Câu hỏi thường gặp",
-        "q1": {
-            "question": "JigsawDesigner có phải là mua một lần không?",
-            "answer": "Có, JigsawDesigner cung cấp tùy chọn giấy phép trọn đời cũng như các gói đăng ký. Kiểm tra App Store để biết giá mới nhất."
+    "Privacy": {
+        "title": "Chính sách quyền riêng tư",
+        "introduction": {
+            "title": "Giới thiệu",
+            "content": "JigsawDesigner (\"chúng tôi\", \"của chúng tôi\") tôn trọng quyền riêng tư của bạn và cam kết bảo vệ nó. Chính sách quyền riêng tư này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi bạn sử dụng ứng dụng và trang web của chúng tôi."
         },
-        "q2": {
-            "question": "Tôi có thể xuất thiết kế của mình cho mục đích thương mại không?",
-            "answer": "Chắc chắn rồi. Tất cả các thiết kế được tạo bằng JigsawDesigner đều thuộc về bạn. Bạn có thể xuất chúng dưới dạng SVG hoặc PDF để sản xuất hoặc in ấn thương mại."
+        "dataCollection": {
+            "title": "Thu thập dữ liệu",
+            "content": "Chúng tôi không thu thập dữ liệu cá nhân.",
+            "content2": "JigsawDesigner được thiết kế để xử lý tệp của bạn cục bộ trên thiết bị của bạn. Thiết kế, hình ảnh và dự án của bạn không bao giờ rời khỏi thiết bị trừ khi bạn chọn xuất hoặc chia sẻ chúng một cách rõ ràng.",
+            "list": {
+                "behavior": "Chúng tôi không theo dõi hành vi sử dụng của bạn.",
+                "upload": "Chúng tôi không tải ảnh của bạn, chẳng hạn như hình ảnh tranh ghép, lên bất kỳ máy chủ nào.",
+                "sell": "Chúng tôi không bán dữ liệu của bạn cho bên thứ ba."
+            }
         },
-        "q3": {
-            "question": "Nó có hỗ trợ các đường cắt tùy chỉnh không?",
-            "answer": "Có, bạn có thể nhập các đường dẫn SVG tùy chỉnh để sử dụng làm đường cắt hoặc sử dụng các thuật toán tiên tiến của chúng tôi để tự động tạo ra các mẫu độc đáo."
+        "analytics": {
+            "title": "Phân tích ứng dụng",
+            "content": "Chúng tôi có thể sử dụng các phân tích chọn tham gia tiêu chuẩn của Apple để cải thiện hiệu suất và độ ổn định của ứng dụng (ví dụ: báo cáo sự cố). Dữ liệu này là ẩn danh và không xác định danh tính cá nhân của bạn. Bạn có thể chọn không tham gia bất cứ lúc nào thông qua cài đặt thiết bị của mình."
+        },
+        "contact": {
+            "title": "Liên hệ với chúng tôi",
+            "content": "Nếu bạn có bất kỳ câu hỏi nào về Chính sách quyền riêng tư này, vui lòng liên hệ với chúng tôi theo địa chỉ:"
+        },
+        "lastUpdated": "Cập nhật lần cuối: 10 tháng 12 năm 2025"
+    },
+    "Support": {
+        "hero": {
+            "titlePart1": "Chúng tôi có thể",
+            "titlePart2": "giúp gì cho bạn?",
+            "subtitle": "Chúng tôi ở đây để hỗ trợ hành trình sáng tạo của bạn. Tìm câu trả lời hoặc liên hệ với nhóm của chúng tôi."
+        },
+        "documentation": {
+            "title": "Tài liệu",
+            "description": "Khám phá các hướng dẫn toàn diện của chúng tôi để nắm vững các tính năng và công cụ của JigsawDesigner.",
+            "action": "Duyệt bài viết"
+        },
+        "email": {
+            "title": "Hỗ trợ qua Email",
+            "description": "Cần giúp đỡ với một vấn đề cụ thể? Nhóm hỗ trợ của chúng tôi sẵn sàng giúp bạn trực tiếp."
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "q1": {
+                "question": "JigsawDesigner có phải là mua một lần không?",
+                "answer": "Có, JigsawDesigner cung cấp tùy chọn giấy phép trọn đời cũng như các gói đăng ký. Kiểm tra App Store để biết giá mới nhất."
+            },
+            "q2": {
+                "question": "Tôi có thể xuất thiết kế của mình cho mục đích thương mại không?",
+                "answer": "Chắc chắn rồi. Tất cả các thiết kế được tạo bằng JigsawDesigner đều thuộc về bạn. Bạn có thể xuất chúng dưới dạng SVG hoặc PDF để sản xuất hoặc in ấn thương mại."
+            },
+            "q3": {
+                "question": "Nó có hỗ trợ các đường cắt tùy chỉnh không?",
+                "answer": "Có, bạn có thể nhập các đường dẫn SVG tùy chỉnh để sử dụng làm đường cắt hoặc sử dụng các thuật toán tiên tiến của chúng tôi để tự động tạo ra các mẫu độc đáo."
+            }
+        }
+    },
+    "Help": {
+        "title": "Trung tâm Hỗ trợ & Hướng dẫn tạo Jigsaw",
+        "subtitle": "Hướng dẫn đầy đủ về cách tạo đường cắt chuyên nghiệp và thiết kế puzzle bằng JigsawDesigner.",
+        "toc": "Mục lục",
+        "sections": {
+            "gettingStarted": "Bắt đầu",
+            "tools": "Công cụ Vẽ SVG",
+            "operations": "Thao tác với Phần tử",
+            "generation": "Tạo Đường cắt Jigsaw",
+            "importExport": "Nhập & Xuất SVG",
+            "shortcuts": "Phím tắt",
+            "projectLibrary": "Thư viện Dự án",
+            "interface": "Giao diện Chỉnh sửa"
+        },
+        "gettingStartedContent": {
+            "title": "Tạo dự án đầu tiên của bạn",
+            "steps": {
+                "1": {
+                    "title": "Khởi chạy JigsawDesigner",
+                    "desc": "Mở ứng dụng trên máy Mac hoặc thiết bị iOS của bạn."
+                },
+                "2": {
+                    "title": "Chọn công cụ",
+                    "desc": "Chọn từ 8 công cụ vẽ trong thanh công cụ."
+                },
+                "3": {
+                    "title": "Vẽ thiết kế của bạn",
+                    "desc": "Tạo hình dạng, đường dẫn hoặc nhập tệp SVG hiện có."
+                },
+                "4": {
+                    "title": "Tạo tranh ghép",
+                    "desc": "Nhấp vào 'Tạo tranh ghép' để tạo các mảnh lồng vào nhau."
+                },
+                "5": {
+                    "title": "Xuất",
+                    "desc": "Lưu tranh ghép của bạn dưới dạng SVG để sản xuất hoặc in ấn."
+                }
+            }
+        },
+        "toolsContent": {
+            "select": {
+                "title": "Công cụ chọn",
+                "desc": "Chọn và di chuyển hình dạng trên canvas. Shift+Click để chọn nhiều, Ctrl+Click để chọn sâu trong nhóm."
+            },
+            "edit": {
+                "title": "Công cụ chỉnh sửa",
+                "desc": "Chỉnh sửa các điểm kiểm soát của hình dạng. Điều chỉnh hình học hình dạng chính xác bằng cách kéo các điểm."
+            },
+            "pen": {
+                "title": "Công cụ bút",
+                "desc": "Vẽ đường dẫn tự do. Nhấp và kéo để tạo các đường cong Bezier và hình dạng hữu cơ."
+            },
+            "line": {
+                "title": "Công cụ đường thẳng",
+                "desc": "Vẽ các đường thẳng. Hoàn hảo cho các thiết kế hình học và kết nối chính xác."
+            },
+            "rect": {
+                "title": "Công cụ hình chữ nhật",
+                "desc": "Vẽ các hình chữ nhật. Nhấp và kéo từ góc để tạo."
+            },
+            "circle": {
+                "title": "Công cụ hình tròn",
+                "desc": "Vẽ hình tròn và elip. Kéo từ tâm để đặt bán kính."
+            },
+            "polygon": {
+                "title": "Công cụ đa giác",
+                "desc": "Vẽ đa giác nhiều cạnh. Nhấp để đặt từng đỉnh, nhấp đúp để kết thúc."
+            },
+            "bezier": {
+                "title": "Công cụ Bezier",
+                "desc": "Vẽ các đường cong Bezier chính xác với các điểm neo và tay cầm điều khiển."
+            }
+        },
+        "operationsContent": {
+            "selection": {
+                "title": "Lựa chọn",
+                "items": [
+                    "Chọn đơn: Nhấp vào bất kỳ hình dạng nào",
+                    "Chọn nhiều: Shift+Click vào nhiều hình dạng",
+                    "Chọn tất cả: Nhấn ⌘A để chọn tất cả các hình dạng",
+                    "Chọn sâu: Ctrl+Click để chọn các phần tử con trong nhóm"
+                ]
+            },
+            "grouping": {
+                "title": "Nhóm",
+                "items": [
+                    "Nhóm hình dạng: Chọn nhiều hình dạng và nhấn G",
+                    "Hủy nhóm: Chọn một nhóm và nhấn ⌘G",
+                    "Nhóm lồng nhau: Tạo cấu trúc phân cấp phức tạp"
+                ]
+            },
+            "editing": {
+                "title": "Chỉnh sửa",
+                "items": [
+                    "Sao chép: Nhấn ⌘C để sao chép các phần tử đã chọn",
+                    "Xóa: Nhấn Delete hoặc Backspace để xóa",
+                    "Biến đổi: Sử dụng bảng Inspector để điều chỉnh vị trí, tỷ lệ và xoay"
+                ]
+            }
+        },
+        "generationContent": {
+            "howItWorks": {
+                "title": "Cách hoạt động",
+                "desc": "JigsawDesigner sử dụng các thuật toán C++ tiên tiến với thư viện OpenCV và Boost để tạo ra các mảnh ghép chất lượng cao bằng cách sử dụng biểu đồ Voronoi và cấu trúc dữ liệu DCEL."
+            },
+            "steps": {
+                "1": {
+                    "title": "Nhập Đường bao",
+                    "desc": "Nhấp vào \"Nhập SVG\" hoặc vẽ một hình vector để xác định ranh giới bên ngoài và các mảnh \"whimsy\"."
+                },
+                "2": {
+                    "title": "Chọn Mẫu Rãnh",
+                    "desc": "Chọn một thiết kế rãnh (Tiêu chuẩn, Đa điểm, v.v.) để xác định cách các mảnh kết nối với nhau."
+                },
+                "3": {
+                    "title": "Cấu hình Thông số",
+                    "desc": "Thiết lập Kích thước Lưới, Số lượng Mảnh và Khoảng cách Rãnh trong bảng Thanh tra."
+                },
+                "4": {
+                    "title": "Tạo Đường cắt Jigsaw",
+                    "desc": "Nhấp vào \"Tạo Jigsaw\". Trong vài giây, bạn sẽ có một bản vẽ khuôn bế sẵn sàng để cắt laser."
+                }
+            },
+            "title": "Hướng dẫn Tạo Đường cắt Jigsaw",
+            "desc": "JigsawDesigner sử dụng các thuật toán C++ tiên tiến để tạo ra các đường cắt chuyên nghiệp. Làm theo 4 bước sau:"
+        },
+        "importExportContent": {
+            "import": {
+                "title": "Nhập SVG",
+                "desc": "Nhập các tệp SVG hiện có để sử dụng làm đường viền tranh ghép hoặc các yếu tố thiết kế.",
+                "shortcut": "Phím tắt:",
+                "items": [
+                    "Đường dẫn, hình chữ nhật, hình tròn",
+                    "Nhóm và biến đổi",
+                    "ViewBox và tọa độ"
+                ]
+            },
+            "export": {
+                "title": "Xuất SVG",
+                "desc": "Xuất các thiết kế và tranh ghép đã tạo của bạn dưới dạng tệp SVG tiêu chuẩn.",
+                "shortcut": "Phím tắt:",
+                "items": [
+                    "Định dạng SVG 1.1 tiêu chuẩn",
+                    "Giữ nguyên mọi biến đổi",
+                    "Duy trì phân cấp nhóm"
+                ]
+            },
+            "premium": {
+                "title": "Tính năng cao cấp",
+                "desc": "Cần đăng ký Premium để xuất các tranh ghép đã tạo. Người dùng miễn phí có thể thiết kế và tạo, nhưng việc xuất bị hạn chế."
+            }
+        },
+        "shortcutsContent": {
+            "file": {
+                "title": "Thao tác tệp",
+                "new": "Dự án mới",
+                "import": "Nhập SVG",
+                "export": "Xuất SVG"
+            },
+            "edit": {
+                "title": "Thao tác chỉnh sửa",
+                "copy": "Sao chép",
+                "delete": "Xóa",
+                "selectAll": "Chọn tất cả",
+                "group": "Nhóm hình dạng",
+                "ungroup": "Hủy nhóm"
+            },
+            "selection": {
+                "title": "Lựa chọn",
+                "multi": "Chọn nhiều",
+                "drillDown": "Đi sâu xuống",
+                "drillUp": "Đi lên trên"
+            }
+        },
+        "troubleshooting": {
+            "title": "Khắc phục sự cố",
+            "items": {
+                "shapes": {
+                    "title": "Hình dạng không xuất hiện",
+                    "content": "Xác minh rằng bạn đang ở đúng chế độ vẽ. Kiểm tra xem kích thước canvas có đủ chỗ cho hình dạng của bạn không. Kiểm tra xem màu tô/nét của hình dạng có trong suốt không."
+                },
+                "select": {
+                    "title": "Không thể chọn hình dạng",
+                    "content": "Chuyển sang Công cụ chọn (biểu tượng con trỏ). Đảm bảo hình dạng không bị ẩn sau các hình dạng khác. Hãy thử sử dụng Ctrl+Click để đi sâu vào trong các nhóm."
+                },
+                "fail": {
+                    "title": "Tạo tranh ghép thất bại",
+                    "content": "Đảm bảo hình dạng đường viền của bạn là một đường dẫn khép kín. Giảm số lượng mảnh cho các hình dạng phức tạp. Kiểm tra xem các mẫu khe có hợp lệ không."
+                },
+                "export": {
+                    "title": "Xuất bị vô hiệu hóa",
+                    "content": "Cần đăng ký Premium để xuất các tranh ghép đã tạo. Cấp miễn phí cho phép thiết kế nhưng hạn chế chức năng xuất."
+                }
+            }
+        },
+        "needHelp": {
+            "title": "Cần thêm trợ giúp?",
+            "desc": "Truy cập trang hỗ trợ của chúng tôi hoặc liên hệ trực tiếp với chúng tôi để được hỗ trợ cá nhân",
+            "contact": "Liên hệ Hỗ trợ",
+            "download": "Tải ứng dụng"
+        },
+        "metaTitle": "Trung tâm Hỗ trợ - Công cụ Tạo Đường cắt Jigsaw Chuyên nghiệp & Thiết kế SVG",
+        "metaDescription": "Làm chủ JigsawDesigner: Phần mềm tối ưu để tạo đường cắt jigsaw. Tạo SVG cắt laser và các mẫu Voronoi chuyên nghiệp.",
+        "metaKeywords": "tạo đường cắt jigsaw, làm khuôn bế puzzle, SVG cắt laser, phần mềm thiết kế puzzle, tạo mẫu Voronoi",
+        "interfaceContent": {
+            "title": "Giao diện Chỉnh sửa & Đường cắt",
+            "intro": "Trình chỉnh sửa JigsawDesigner cung cấp không gian làm việc vector chuyên nghiệp để thiết kế các đường cắt chính xác.",
+            "toolbar": {
+                "title": "Thanh Công Cụ Trên",
+                "desc": "Truy cập nhanh tất cả công cụ vẽ và thao tác tệp.",
+                "tools": [
+                    {
+                        "icon": "🖱️",
+                        "name": "Chọn",
+                        "desc": "Chọn và di chuyển hình dạng trên canvas"
+                    },
+                    {
+                        "icon": "✏️",
+                        "name": "Chỉnh sửa Điểm",
+                        "desc": "Chỉnh sửa điểm neo và tay cầm"
+                    },
+                    {
+                        "icon": "✒️",
+                        "name": "Bút",
+                        "desc": "Vẽ đường dẫn tự do"
+                    },
+                    {
+                        "icon": "📏",
+                        "name": "Đường thẳng",
+                        "desc": "Vẽ đường thẳng"
+                    },
+                    {
+                        "icon": "▭",
+                        "name": "Hình chữ nhật",
+                        "desc": "Vẽ hình chữ nhật và hình vuông"
+                    },
+                    {
+                        "icon": "⭕",
+                        "name": "Hình tròn",
+                        "desc": "Vẽ hình tròn và elip"
+                    },
+                    {
+                        "icon": "⬟",
+                        "name": "Đa giác",
+                        "desc": "Vẽ đa giác đều"
+                    },
+                    {
+                        "icon": "🎨",
+                        "name": "Bezier",
+                        "desc": "Vẽ đường cong Bezier với điểm điều khiển"
+                    }
+                ],
+                "buttons": {
+                    "import": "Nhập tệp SVG hiện có",
+                    "export": "Xuất thiết kế dưới dạng SVG",
+                    "projectName": "Hiển thị tên dự án và số lượng hình"
+                }
+            },
+            "canvas": {
+                "title": "Vùng vẽ vô hạn",
+                "desc": "Không gian làm việc chính cho thiết kế của bạn.",
+                "features": [
+                    "Cuộn vô hạn theo mọi hướng",
+                    "Thước đo pixel",
+                    "Lưới để căn chỉnh chính xác",
+                    "Phóng to bằng chuột hoặc cử chỉ",
+                    "Di chuyển bằng phím cách hoặc hai ngón tay",
+                    "Hiển thị khung chọn"
+                ],
+                "tip": "Dùng ⌘0 để đặt lại thu phóng, ⌘1 để vừa màn hình."
+            },
+            "toolsPanel": {
+                "title": "Bảng công cụ",
+                "desc": "Truy cập nhanh các thao tác phổ biến.",
+                "sections": {
+                    "currentTool": {
+                        "title": "Công cụ hiện tại",
+                        "desc": "Hiển thị công cụ đã chọn."
+                    },
+                    "elementOps": {
+                        "title": "Thao tác phần tử",
+                        "desc": "Sao chép hoặc xóa phần tử."
+                    },
+                    "canvasOps": {
+                        "title": "Thao tác vùng vẽ",
+                        "desc": "Đặt lại chế độ xem và thu phóng."
+                    },
+                    "quickOps": {
+                        "title": "Thao tác nhanh",
+                        "desc": "Xóa vùng vẽ, Chọn tất cả."
+                    }
+                }
+            },
+            "layersPanel": {
+                "title": "Bảng lớp",
+                "desc": "Quản lý cấu trúc thiết kế.",
+                "features": [
+                    "Xem nhóm và hình dạng cây",
+                    "Mở rộng nhóm",
+                    "Khóa hình dạng (ổ khóa)",
+                    "Bật tắt hiển thị (mắt)",
+                    "Tổng số lớp ở trên cùng"
+                ]
+            },
+            "templatesPanel": {
+                "title": "Bảng mẫu",
+                "desc": "Mẫu xác định hình dạng kết nối mảnh.",
+                "features": [
+                    "Mẫu có sẵn: Lồi Tiêu chuẩn, Lõm Tiêu chuẩn, Đường Thẳng",
+                    "Tạo mẫu tùy chỉnh bằng cách nhấp nút +",
+                    "Tìm kiếm mẫu theo tên",
+                    "Chọn mẫu để sử dụng cho việc tạo puzzle",
+                    "Mẫu tùy chỉnh được lưu trong dự án của bạn"
+                ],
+                "templateTypes": {
+                    "builtin": {
+                        "title": "Mẫu Có Sẵn",
+                        "desc": "Các hình dạng khe được thiết kế sẵn bởi JigsawDesigner. Bao gồm các tab puzzle lồi/lõm cổ điển."
+                    },
+                    "custom": {
+                        "title": "Mẫu Tùy Chỉnh",
+                        "desc": "Thiết kế hình dạng khe độc đáo của riêng bạn bằng công cụ vẽ Bezier. Hoàn hảo để tạo phong cách puzzle đặc biệt."
+                    }
+                }
+            },
+            "inspector": {
+                "title": "Trình kiểm tra Dự án",
+                "desc": "Trình kiểm tra bên phải cung cấp tất cả tùy chọn cấu hình dự án.",
+                "sections": {
+                    "projectInfo": {
+                        "title": "Thông tin Dự án",
+                        "desc": "Xem và chỉnh sửa tên, ngày tạo và sửa đổi."
+                    },
+                    "canvasSettings": {
+                        "title": "Cài đặt Canvas",
+                        "desc": "Đặt chiều rộng và cao bằng pixel hoặc chọn cài đặt sẵn."
+                    },
+                    "jigsawSettings": {
+                        "title": "Cài đặt Puzzle",
+                        "desc": "Cấu hình kích thước lưới, số mảnh mục tiêu và khoảng cách khe."
+                    },
+                    "statistics": {
+                        "title": "Thống kê",
+                        "desc": "Xem số lượng hình dạng, mẫu và mức thu phóng."
+                    },
+                    "operations": {
+                        "title": "Thao tác",
+                        "desc": "Truy cập cài đặt nâng cao và nút tạo puzzle."
+                    }
+                }
+            },
+            "shapeInfo": {
+                "title": "Trình kiểm tra Hình dạng",
+                "desc": "Khi một hình dạng hoặc nhóm được chọn, bảng hiển thị thông tin chi tiết.",
+                "sections": {
+                    "shapeInfo": {
+                        "title": "Thông tin Hình dạng",
+                        "desc": "Xem và chỉnh sửa tên, ID và loại (Đường dẫn, Nhóm, Hình tròn, v.v.)."
+                    },
+                    "transform": {
+                        "title": "Biến đổi",
+                        "desc": "Điều chỉnh vị trí (X, Y), tỷ lệ và xoay của phần tử."
+                    },
+                    "geometry": {
+                        "title": "Hình học",
+                        "desc": "Xem kích thước và vị trí hộp giới hạn."
+                    },
+                    "operations": {
+                        "title": "Thao tác",
+                        "desc": "Sao chép hoặc xóa phần tử đã chọn."
+                    }
+                }
+            },
+            "advancedSettings": {
+                "title": "Cài đặt Nâng cao",
+                "desc": "Truy cập cài đặt ứng dụng toàn diện.",
+                "sections": {
+                    "language": {
+                        "title": "Cài đặt Ngôn ngữ",
+                        "desc": "Thay đổi ngôn ngữ. Mặc định hệ thống hoặc 40+ ngôn ngữ."
+                    },
+                    "subscription": {
+                        "title": "Quản lý Đăng ký",
+                        "desc": "Xem trạng thái đăng ký và quản lý Premium."
+                    },
+                    "editor": {
+                        "title": "Cài đặt Trình chỉnh sửa",
+                        "desc": "Tùy chỉnh hiển thị canvas bao gồm lưới, thước kẻ và độ dày nét."
+                    }
+                },
+                "options": {
+                    "showGrid": {
+                        "title": "Hiện Lưới",
+                        "desc": "Hiện/Ẩn lưới"
+                    },
+                    "showRulers": {
+                        "title": "Hiện Thước",
+                        "desc": "Hiện/Ẩn thước kẻ"
+                    },
+                    "snapToGrid": {
+                        "title": "Hút vào Lưới",
+                        "desc": "Bật/Tắt hút vào lưới"
+                    },
+                    "gridSpacing": {
+                        "title": "Khoảng cách Lưới",
+                        "desc": "Điều chỉnh khoảng cách lưới"
+                    },
+                    "strokeWidth": {
+                        "title": "Độ dày Nét",
+                        "desc": "Đặt độ dày nét"
+                    }
+                }
+            },
+            "templateEditor": {
+                "title": "Trình sửa Mẫu",
+                "desc": "Tạo mẫu khe tùy chỉnh với công cụ Bézier.",
+                "features": [
+                    "Đặt tên mẫu của bạn",
+                    "Vẽ đường cong Bézier",
+                    "Nhấp đôi để hoàn thành",
+                    "Chỉnh sửa điểm điều khiển",
+                    "Nhập mẫu SVG",
+                    "Xuất để sao lưu"
+                ],
+                "buttons": {
+                    "clearPath": {
+                        "title": "Xóa Đường dẫn",
+                        "desc": "Xóa bản vẽ"
+                    },
+                    "editPoints": {
+                        "title": "Chỉnh sửa Điểm",
+                        "desc": "Chế độ chỉnh sửa điểm"
+                    },
+                    "importSVG": {
+                        "title": "Nhập SVG",
+                        "desc": "Nhập SVG"
+                    },
+                    "exportSVG": {
+                        "title": "Xuất SVG",
+                        "desc": "Xuất SVG"
+                    }
+                }
+            }
+        },
+        "industryKeywords": {
+            "title": "Tại sao chọn JigsawDesigner?",
+            "laserCutting": {
+                "title": "SVG cho Cắt Laser",
+                "desc": "Tạo các đường dẫn SVG sạch và chính xác được tối ưu hóa cho Glowforge, Cricut và laser CO2."
+            },
+            "dieline": {
+                "title": "Khuôn bế Puzzle Tùy chỉnh",
+                "desc": "Tạo các đường khuôn bế độc đáo với mẫu Voronoi đảm bảo mỗi mảnh ghép là duy nhất."
+            },
+            "manufacturing": {
+                "title": "Sẵn sàng Sản xuất",
+                "desc": "Xuất thiết kế ở các định dạng vector chuyên nghiệp (SVG, PDF) sẵn sàng để sản xuất hàng loạt."
+            }
+        },
+        "projectLibraryContent": {
+            "title": "Thư viện Dự án",
+            "intro": "Thư viện Dự án là trung tâm quản lý tất cả các thiết kế của bạn.",
+            "myProjects": {
+                "title": "Dự án của tôi",
+                "desc": "Không gian cá nhân cho thiết kế puzzle trong iCloud.",
+                "features": [
+                    "Đồng bộ iCloud tự động giữa Mac, iPad và iPhone",
+                    "Tạo dự án mới bằng nút +",
+                    "Hình thu nhỏ với tên và ngày dự án",
+                    "Xóa dự án bằng nút thùng rác đỏ",
+                    "Dự án có biểu tượng đám mây cho biết trạng thái đồng bộ"
+                ],
+                "howTo": "Nhấp \"Dự án Mới\" để tạo một puzzle trống hoặc mở dự án hiện có.",
+                "contextMenu": {
+                    "title": "Menu Chuột phải",
+                    "desc": "Nhấp chuột phải hoặc nhấn giữ để xem các tùy chọn:",
+                    "options": {
+                        "open": {
+                            "title": "Mở",
+                            "desc": "Mở dự án trong trình chỉnh sửa"
+                        },
+                        "rename": {
+                            "title": "Đổi tên",
+                            "desc": "Thay đổi tên dự án"
+                        },
+                        "publish": {
+                            "title": "Xuất bản",
+                            "desc": "Chia sẻ thiết kế với tất cả người dùng JigsawDesigner. Dự án đã đăng xuất hiện trong thư viện Dự án Công khai."
+                        },
+                        "share": {
+                            "title": "Tạo Liên kết",
+                            "desc": "Tạo liên kết chia sẻ iCloud. Gửi liên kết này cho đồng nghiệp hoặc bạn bè - khi họ mở, dự án của bạn xuất hiện trong phần Dự án Được Chia sẻ của họ."
+                        },
+                        "delete": {
+                            "title": "Xóa",
+                            "desc": "Xóa vĩnh viễn dự án"
+                        }
+                    }
+                },
+                "icon": "📁"
+            },
+            "publicProjects": {
+                "title": "Dự án Công khai",
+                "icon": "🌐",
+                "desc": "Mẫu được cộng đồng chia sẻ có sẵn cho tất cả người dùng. Duyệt, xem trước và nhập thiết kế từ thư viện công khai.",
+                "features": [
+                    "Duyệt mẫu do đội ngũ JigsawDesigner tạo",
+                    "Xem số lượng mảnh trước khi nhập",
+                    "Nhấp \"Mở\" để xem trước thiết kế",
+                    "Nhấp \"Nhập\" để sao chép vào Dự án của tôi",
+                    "Tuyệt vời để học hỏi và lấy cảm hứng"
+                ],
+                "howTo": "Chọn bất kỳ dự án công khai nào và nhấp \"Nhập\" để thêm bản sao vào thư viện cá nhân. Sau đó bạn có thể tùy chỉnh tự do."
+            },
+            "sharedProjects": {
+                "title": "Dự án Được Chia sẻ",
+                "icon": "👥",
+                "desc": "Không gian làm việc cộng tác cho các dự án được chia sẻ với bạn bởi người dùng khác qua iCloud.",
+                "features": [
+                    "Nhận dự án được chia sẻ từ đồng nghiệp hoặc bạn bè",
+                    "Quyền chỉ xem hoặc chỉnh sửa dựa trên quyền hạn",
+                    "Đồng bộ thời gian thực với chủ dự án",
+                    "Chấp nhận chia sẻ qua liên kết mời"
+                ],
+                "howTo": "Khi ai đó chia sẻ dự án với bạn, nó sẽ tự động xuất hiện ở đây. Nhấp để mở và cộng tác."
+            }
         }
     }
-  },
-  "Help": {
-      "title": "Trung tâm trợ giúp",
-      "subtitle": "Hướng dẫn đầy đủ về cách sử dụng JigsawDesigner để tạo ra các bức tranh ghép chuyên nghiệp.",
-      "toc": "Mục lục",
-      "sections": {
-          "gettingStarted": "Bắt đầu",
-          "tools": "Công cụ vẽ",
-          "operations": "Thao tác phần tử",
-          "generation": "Tạo tranh ghép",
-          "importExport": "Nhập & Xuất",
-          "shortcuts": "Phím tắt"
-      },
-      "gettingStartedContent": {
-          "title": "Tạo dự án đầu tiên của bạn",
-          "steps": {
-              "1": { "title": "Khởi chạy JigsawDesigner", "desc": "Mở ứng dụng trên máy Mac hoặc thiết bị iOS của bạn." },
-              "2": { "title": "Chọn công cụ", "desc": "Chọn từ 8 công cụ vẽ trong thanh công cụ." },
-              "3": { "title": "Vẽ thiết kế của bạn", "desc": "Tạo hình dạng, đường dẫn hoặc nhập tệp SVG hiện có." },
-              "4": { "title": "Tạo tranh ghép", "desc": "Nhấp vào 'Tạo tranh ghép' để tạo các mảnh lồng vào nhau." },
-              "5": { "title": "Xuất", "desc": "Lưu tranh ghép của bạn dưới dạng SVG để sản xuất hoặc in ấn." }
-          }
-      },
-      "toolsContent": {
-        "select": { "title": "Công cụ chọn", "desc": "Chọn và di chuyển hình dạng trên canvas. Shift+Click để chọn nhiều, Ctrl+Click để chọn sâu trong nhóm." },
-        "edit": { "title": "Công cụ chỉnh sửa", "desc": "Chỉnh sửa các điểm kiểm soát của hình dạng. Điều chỉnh hình học hình dạng chính xác bằng cách kéo các điểm." },
-        "pen": { "title": "Công cụ bút", "desc": "Vẽ đường dẫn tự do. Nhấp và kéo để tạo các đường cong Bezier và hình dạng hữu cơ." },
-        "line": { "title": "Công cụ đường thẳng", "desc": "Vẽ các đường thẳng. Hoàn hảo cho các thiết kế hình học và kết nối chính xác." },
-        "rect": { "title": "Công cụ hình chữ nhật", "desc": "Vẽ các hình chữ nhật. Nhấp và kéo từ góc để tạo." },
-        "circle": { "title": "Công cụ hình tròn", "desc": "Vẽ hình tròn và elip. Kéo từ tâm để đặt bán kính." },
-        "polygon": { "title": "Công cụ đa giác", "desc": "Vẽ đa giác nhiều cạnh. Nhấp để đặt từng đỉnh, nhấp đúp để kết thúc." },
-        "bezier": { "title": "Công cụ Bezier", "desc": "Vẽ các đường cong Bezier chính xác với các điểm neo và tay cầm điều khiển." }
-      },
-      "operationsContent": {
-          "selection": { 
-              "title": "Lựa chọn", 
-              "items": [
-                  "Chọn đơn: Nhấp vào bất kỳ hình dạng nào",
-                  "Chọn nhiều: Shift+Click vào nhiều hình dạng",
-                  "Chọn tất cả: Nhấn ⌘A để chọn tất cả các hình dạng",
-                  "Chọn sâu: Ctrl+Click để chọn các phần tử con trong nhóm"
-              ] 
-          },
-          "grouping": { 
-              "title": "Nhóm", 
-              "items": [
-                  "Nhóm hình dạng: Chọn nhiều hình dạng và nhấn G",
-                  "Hủy nhóm: Chọn một nhóm và nhấn ⌘G",
-                  "Nhóm lồng nhau: Tạo cấu trúc phân cấp phức tạp"
-              ]
-          },
-          "editing": { 
-              "title": "Chỉnh sửa", 
-              "items": [
-                  "Sao chép: Nhấn ⌘C để sao chép các phần tử đã chọn",
-                  "Xóa: Nhấn Delete hoặc Backspace để xóa",
-                  "Biến đổi: Sử dụng bảng Inspector để điều chỉnh vị trí, tỷ lệ và xoay"
-              ]
-          }
-      },
-      "generationContent": {
-          "howItWorks": {
-              "title": "Cách hoạt động",
-              "desc": "JigsawDesigner sử dụng các thuật toán C++ tiên tiến với thư viện OpenCV và Boost để tạo ra các mảnh ghép chất lượng cao bằng cách sử dụng biểu đồ Voronoi và cấu trúc dữ liệu DCEL."
-          },
-          "steps": {
-              "1": { "title": "Vẽ đường viền", "desc": "Tạo hình dạng đường viền sẽ được chia thành các mảnh ghép." },
-              "2": { "title": "Cấu hình", "desc": "Thiết lập số lượng mảnh, cài đặt khe và chọn mẫu." },
-              "3": { "title": "Tạo", "desc": "Nhấp vào 'Tạo' để chạy thuật toán và tạo các mảnh lồng vào nhau." },
-              "4": { "title": "Xuất", "desc": "Xuất dưới dạng SVG để sản xuất hoặc in ấn." }
-          }
-      },
-      "importExportContent": {
-          "import": {
-              "title": "Nhập SVG",
-              "desc": "Nhập các tệp SVG hiện có để sử dụng làm đường viền tranh ghép hoặc các yếu tố thiết kế.",
-              "shortcut": "Phím tắt:",
-              "items": ["Đường dẫn, hình chữ nhật, hình tròn", "Nhóm và biến đổi", "ViewBox và tọa độ"]
-          },
-          "export": {
-              "title": "Xuất SVG",
-              "desc": "Xuất các thiết kế và tranh ghép đã tạo của bạn dưới dạng tệp SVG tiêu chuẩn.",
-              "shortcut": "Phím tắt:",
-              "items": ["Định dạng SVG 1.1 tiêu chuẩn", "Giữ nguyên mọi biến đổi", "Duy trì phân cấp nhóm"]
-          },
-          "premium": {
-              "title": "Tính năng cao cấp",
-              "desc": "Cần đăng ký Premium để xuất các tranh ghép đã tạo. Người dùng miễn phí có thể thiết kế và tạo, nhưng việc xuất bị hạn chế."
-          }
-      },
-      "shortcutsContent": {
-        "file": {
-            "title": "Thao tác tệp",
-            "new": "Dự án mới",
-            "import": "Nhập SVG",
-            "export": "Xuất SVG"
-        },
-        "edit": {
-            "title": "Thao tác chỉnh sửa",
-            "copy": "Sao chép",
-            "delete": "Xóa",
-            "selectAll": "Chọn tất cả",
-            "group": "Nhóm hình dạng",
-            "ungroup": "Hủy nhóm"
-        },
-        "selection": {
-            "title": "Lựa chọn",
-            "multi": "Chọn nhiều",
-            "drillDown": "Đi sâu xuống",
-            "drillUp": "Đi lên trên"
-        }
-      },
-      "troubleshooting": {
-          "title": "Khắc phục sự cố",
-          "items": {
-              "shapes": { "title": "Hình dạng không xuất hiện", "content": "Xác minh rằng bạn đang ở đúng chế độ vẽ. Kiểm tra xem kích thước canvas có đủ chỗ cho hình dạng của bạn không. Kiểm tra xem màu tô/nét của hình dạng có trong suốt không." },
-              "select": { "title": "Không thể chọn hình dạng", "content": "Chuyển sang Công cụ chọn (biểu tượng con trỏ). Đảm bảo hình dạng không bị ẩn sau các hình dạng khác. Hãy thử sử dụng Ctrl+Click để đi sâu vào trong các nhóm." },
-              "fail": { "title": "Tạo tranh ghép thất bại", "content": "Đảm bảo hình dạng đường viền của bạn là một đường dẫn khép kín. Giảm số lượng mảnh cho các hình dạng phức tạp. Kiểm tra xem các mẫu khe có hợp lệ không." },
-              "export": { "title": "Xuất bị vô hiệu hóa", "content": "Cần đăng ký Premium để xuất các tranh ghép đã tạo. Cấp miễn phí cho phép thiết kế nhưng hạn chế chức năng xuất." }
-          }
-      },
-      "needHelp": {
-          "title": "Cần thêm trợ giúp?",
-          "desc": "Truy cập trang hỗ trợ của chúng tôi hoặc liên hệ trực tiếp với chúng tôi để được hỗ trợ cá nhân",
-          "contact": "Liên hệ Hỗ trợ",
-          "download": "Tải ứng dụng"
-      }
-  }
 }
