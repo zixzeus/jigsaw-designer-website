@@ -12,26 +12,26 @@
   },
   "Hero": {
     "version": "{version} Dilancarkan - Cuba sekarang!",
-    "titlePart1": "Reka Teka-teki Seperti <br/>",
-    "titleProfessional": "Pro",
-    "subtitle": "Alat reka bentuk teka-teki profesional untuk iPhone, iPad dan Mac, dengan penyuntingan SVG yang tepat dan penjanaan berasaskan algoritma.",
-    "learnMore": "Ketahui Lebih Lanjut"
+        "titlePart1": "Ubah sebarang bentuk menjadi",
+        "titleProfessional": "garisan potong teka-teki yang boleh diedit",
+        "subtitle": "Lukis atau import sempadan, jana corak, kemaskan vektor dan eksport SVG pada iPhone, iPad atau Mac.",
+        "learnMore": "Lihat cara ia berfungsi"
   },
   "Features": {
-    "title": "Ciri-ciri Berkuasa",
-    "subtitle": "Alat khusus untuk menjana dan menyunting reka bentuk teka-teki tersuai.",
+        "title": "Perkara yang boleh anda lakukan",
+        "subtitle": "Aliran kerja terfokus untuk menjana garisan potong teka-teki dan menyunting SVG.",
     "list": {
       "customization": {
-        "title": "Penyesuaian Tanpa Had",
-        "description": "Sesuaikan segala-galanya daripada templat slot dan kontur ke bahagian dalam teka-teki. Cipta reka bentuk unik yang menonjol."
+                "title": "Sediakan sempadan dan profil slot",
+                "description": "Lukis atau import sempadan SVG tertutup, kemudian pilih templat slot laluan terbuka terbina dalam atau tersuai."
       },
       "workflow": {
-        "title": "Aliran Kerja Sepantas Kilat",
-        "description": "Kurangkan surihan manual berulang dengan penjanaan corak teka-teki berasaskan algoritma."
+                "title": "Jana garisan potong yang boleh diedit",
+                "description": "Tetapkan nilai grid, bilangan kepingan dan jarak, kemudian jana hasil sebagai kumpulan SVG yang boleh diedit."
       },
       "anywhere": {
-        "title": "Reka Di Mana Sahaja",
-        "description": "Mula pada Mac anda, perhalusi pada iPad, dan semak pada iPhone. Ruang kerja anda bergerak bersama anda."
+                "title": "Teruskan pada peranti Apple",
+                "description": "Bekerja pada iPhone, iPad atau Mac, dengan penyegerakan iCloud pilihan apabila didayakan dan tersedia."
       }
     }
   },
@@ -103,8 +103,8 @@
     }
   },
   "Help": {
-    "title": "Pusat Bantuan & Panduan Pembuatan Jigsaw",
-    "subtitle": "Panduan lengkap untuk penjanaan garis potong jigsaw profesional dan reka bentuk puzzle tersuai menggunakan JigsawDesigner.",
+        "title": "Bantuan JigsawDesigner",
+        "subtitle": "Panduan terfokus untuk menjana garisan potong teka-teki, menyunting geometri SVG, mengurus templat dan menyusun projek.",
     "toc": "Isi Kandungan",
     "sections": {
       "gettingStarted": "Bermula",

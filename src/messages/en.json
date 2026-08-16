@@ -18,20 +18,20 @@
     "learnMore": "See how it works"
   },
   "Features": {
-    "title": "Powerful Features",
-    "subtitle": "Focused tools for generating and editing custom jigsaw puzzle designs.",
+    "title": "What you can do",
+    "subtitle": "A focused workflow for puzzle cutline generation and SVG editing.",
     "list": {
       "customization": {
-        "title": "Limitless Customization",
-        "description": "Customize everything from slot templates and contours to puzzle interiors. Create unique designs that stand out."
+        "title": "Prepare the boundary and slot profile",
+        "description": "Draw or import a closed SVG boundary, then choose a built-in or custom open-path slot template."
       },
       "workflow": {
-        "title": "Lightning Fast Workflow",
-        "description": "Reduce repetitive manual tracing with algorithm-driven jigsaw pattern generation."
+        "title": "Generate editable cutlines",
+        "description": "Set grid, piece-count, and spacing values, then generate the result as an editable SVG group."
       },
       "anywhere": {
-        "title": "Design Anywhere",
-        "description": "Start on your Mac, refine on your iPad, and review on your iPhone. Your workspace moves with you."
+        "title": "Continue on Apple devices",
+        "description": "Work on iPhone, iPad, or Mac, with optional iCloud sync when it is enabled and available."
       }
     }
   },
@@ -165,10 +165,10 @@
     }
   },
   "Help": {
-    "title": "Help Center & Jigsaw Generation Guide",
+    "title": "JigsawDesigner Help",
     "metaTitle": "Help Center & Jigsaw Generation Guide",
     "metaDescription": "Learn how to generate jigsaw cutlines, edit vector shapes, manage projects, and export SVG files with JigsawDesigner.",
-    "subtitle": "Complete guide to professional jigsaw cutline generation and custom puzzle design using JigsawDesigner.",
+    "subtitle": "Focused guides for generating puzzle cutlines, editing SVG geometry, managing templates, and organizing projects.",
     "toc": "Table of Contents",
     "sections": {
       "gettingStarted": "Getting Started",

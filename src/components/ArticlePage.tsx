@@ -32,6 +32,9 @@ export default function ArticlePage({
   if (!isRouteAvailable(pathname, locale)) notFound();
 
   const canonical = localizedAbsoluteUrl(locale, pathname);
+  const leadImage = content.leadImage;
+  const isHelpArticle = pathname.startsWith("/help/");
+  const showHeroCta = !isHelpArticle;
   const breadcrumbs = [
     {label: content.labels.home, href: "/"},
     ...(sectionLabel && sectionHref
@@ -91,32 +94,37 @@ export default function ArticlePage({
 
       <main>
         <article>
-          <header className="border-b border-border bg-gradient-to-b from-primary-ultra-light/70 to-background pt-28 pb-16 md:pt-36 md:pb-20">
-            <div className="container mx-auto max-w-5xl px-6 md:px-12">
+          <header className="border-b border-border pt-28 pb-14 md:pt-32 md:pb-16">
+            <div className="container mx-auto max-w-6xl px-6 md:px-12">
               <Breadcrumbs
                 items={breadcrumbs}
                 ariaLabel={content.labels.breadcrumbs}
               />
-              <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-primary-dark dark:text-primary-light">
-                {content.eyebrow}
-              </p>
-              <h1 className="max-w-4xl text-4xl font-bold tracking-tight md:text-6xl md:leading-[1.08]">
-                {content.title}
-              </h1>
-              <p className="mt-7 max-w-3xl text-lg leading-8 text-gray-600 dark:text-gray-300 md:text-xl">
-                {content.intro}
-              </p>
-              <AppStoreCTA
-                location="article"
-                pageId={content.slug}
-                label={content.labels.ctaLabel}
-                className="mt-8 inline-flex rounded-full bg-primary-dark px-6 py-3 font-semibold text-white shadow-md transition-colors hover:bg-[#1452a3]"
-              />
+              <div className="max-w-4xl">
+                <p className="mb-4 text-sm font-semibold text-primary-dark dark:text-primary-light">
+                  {content.eyebrow}
+                </p>
+                <h1 className="text-4xl font-bold tracking-[-0.025em] md:text-5xl md:leading-[1.08]">
+                  {content.title}
+                </h1>
+                <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-600 dark:text-gray-300">
+                  {content.intro}
+                </p>
+                {showHeroCta ? (
+                  <AppStoreCTA
+                    location="article"
+                    pageId={content.slug}
+                    label={content.labels.ctaLabel}
+                    className="mt-8 inline-flex rounded-full bg-primary-dark px-6 py-3 font-semibold text-white transition-colors hover:bg-[#1452a3]"
+                  />
+                ) : null}
+              </div>
+              {leadImage ? <ArticleImage image={leadImage} hero priority /> : null}
             </div>
           </header>
 
-          <div className="container mx-auto grid max-w-6xl gap-12 px-6 py-16 md:px-12 lg:grid-cols-[240px_minmax(0,1fr)]">
-            <aside className="lg:sticky lg:top-24 lg:self-start">
+          <div className="container mx-auto grid max-w-6xl gap-14 px-6 py-14 md:px-12 md:py-16 lg:grid-cols-[200px_minmax(0,1fr)]">
+            <aside className="hidden lg:sticky lg:top-24 lg:block lg:self-start">
               <h2 className="text-sm font-bold uppercase tracking-wider text-gray-600 dark:text-gray-300">
                 {content.labels.contents}
               </h2>
@@ -137,16 +145,36 @@ export default function ArticlePage({
             </aside>
 
             <div className="min-w-0">
-              {content.highlights?.length ? (
-                <section className="mb-14 rounded-3xl border border-primary/15 bg-primary-ultra-light/40 p-7 md:p-9">
-                  <h2 className="text-xl font-bold">
+              <details className="mb-10 border-y border-border py-4 lg:hidden">
+                <summary className="cursor-pointer font-semibold">
+                  {content.labels.contents}
+                </summary>
+                <nav aria-label={content.labels.contents} className="mt-4">
+                  <ol className="space-y-3 border-s border-border ps-4 text-sm">
+                    {content.sections.map((section) => (
+                      <li key={section.id}>
+                        <a
+                          href={`#${section.id}`}
+                          className="leading-5 text-gray-600 hover:text-primary-dark dark:text-gray-300 dark:hover:text-primary-light"
+                        >
+                          {section.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ol>
+                </nav>
+              </details>
+
+              {!isHelpArticle && content.highlights?.length ? (
+                <section className="mb-14 border-y border-border py-7">
+                  <h2 className="text-lg font-semibold">
                     {content.labels.highlights}
                   </h2>
-                  <ul className="mt-5 grid gap-4 sm:grid-cols-2">
+                  <ul className="mt-5 grid gap-x-8 gap-y-3 sm:grid-cols-2">
                     {content.highlights.map((highlight) => (
                       <li key={highlight} className="flex gap-3 leading-7">
-                        <span className="mt-1 text-primary-dark dark:text-primary-light" aria-hidden="true">
-                          ✓
+                        <span className="text-primary-dark dark:text-primary-light" aria-hidden="true">
+                          —
                         </span>
                         <span>{highlight}</span>
                       </li>
@@ -155,7 +183,7 @@ export default function ArticlePage({
                 </section>
               ) : null}
 
-              <div className="space-y-16">
+              <div className="space-y-14">
                 {content.sections.map((section) => (
                   <section
                     key={section.id}
@@ -171,7 +199,7 @@ export default function ArticlePage({
                       ))}
                     </div>
                     {section.bullets?.length ? (
-                      <ul className="mt-6 space-y-3 rounded-2xl bg-background-secondary p-6 leading-7">
+                      <ul className="mt-6 space-y-3 border-s-2 border-border ps-5 leading-7">
                         {section.bullets.map((bullet) => (
                           <li key={bullet} className="flex gap-3">
                             <span className="text-primary-dark dark:text-primary-light" aria-hidden="true">
@@ -183,11 +211,13 @@ export default function ArticlePage({
                       </ul>
                     ) : null}
                     {section.note ? (
-                      <p className="mt-6 border-s-4 border-primary bg-primary-ultra-light/40 px-5 py-4 text-sm leading-6 text-gray-700 dark:text-gray-200">
+                      <p className="mt-6 border-s-2 border-primary px-5 py-3 text-sm leading-6 text-gray-700 dark:text-gray-200">
                         {section.note}
                       </p>
                     ) : null}
-                    {section.image ? <ArticleImage image={section.image} /> : null}
+                    {section.image && section.image.src !== leadImage?.src ? (
+                      <ArticleImage image={section.image} />
+                    ) : null}
                   </section>
                 ))}
               </div>
@@ -195,14 +225,23 @@ export default function ArticlePage({
               {content.faq?.length ? (
                 <section className="mt-20 border-t border-border pt-14">
                   <h2 className="text-3xl font-bold">{content.labels.faq}</h2>
-                  <div className="mt-7 space-y-4">
+                  <div className="mt-7 border-y border-border">
                     {content.faq.map((item) => (
                       <details
                         key={item.question}
-                        className="group rounded-2xl border border-border bg-background p-6"
+                        data-faq-item="true"
+                        className="group border-b border-border py-5 last:border-b-0"
                       >
-                        <summary className="cursor-pointer list-none pe-8 font-semibold marker:hidden">
-                          {item.question}
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold marker:hidden">
+                          <span>{item.question}</span>
+                          <svg
+                            aria-hidden="true"
+                            className="h-5 w-5 shrink-0 text-gray-500 transition-transform group-open:rotate-45"
+                            viewBox="0 0 20 20"
+                            fill="none"
+                          >
+                            <path d="M10 4v12M4 10h12" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+                          </svg>
                         </summary>
                         <p className="mt-4 leading-7 text-gray-600 dark:text-gray-300">
                           {item.answer}
@@ -216,12 +255,12 @@ export default function ArticlePage({
               {content.related?.length ? (
                 <section className="mt-20">
                   <h2 className="text-2xl font-bold">{content.labels.related}</h2>
-                  <div className="mt-6 grid gap-5 sm:grid-cols-2">
+                  <div className="mt-6 divide-y divide-border border-y border-border">
                     {content.related.map((item) => (
                       <Link
                         key={item.href}
                         href={item.href}
-                        className="rounded-2xl border border-border p-6 transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg"
+                        className="block py-5 transition-colors hover:text-primary-dark dark:hover:text-primary-light"
                       >
                         <h3 className="font-bold text-primary-dark dark:text-primary-light">
                           {item.title}
@@ -237,7 +276,7 @@ export default function ArticlePage({
             </div>
           </div>
 
-          <section className="border-t border-border bg-background-secondary py-16">
+          <section className="border-t border-border py-14">
             <div className="container mx-auto max-w-4xl px-6 text-center md:px-12">
               <h2 className="text-3xl font-bold">{content.labels.ctaTitle}</h2>
               <p className="mx-auto mt-4 max-w-2xl leading-7 text-gray-600 dark:text-gray-300">
@@ -259,18 +298,57 @@ export default function ArticlePage({
   );
 }
 
-function ArticleImage({image}: {image: ContentImage}) {
+function ArticleImage({
+  image,
+  hero = false,
+  priority = false,
+}: {
+  image: ContentImage;
+  hero?: boolean;
+  priority?: boolean;
+}) {
   const dimensions = getMediaDimensions(image.src);
+  const {width, height} = dimensions;
+  const aspectRatio = width / height;
+  const layout =
+    image.layout ??
+    (aspectRatio < 0.9 ? "panel" : aspectRatio > 6 ? "strip" : "wide");
+  const figureClass = hero
+    ? layout === "panel"
+      ? "mx-auto mt-10 w-fit max-w-full overflow-hidden rounded-2xl border border-border bg-background-secondary shadow-sm"
+      : layout === "strip"
+        ? "mt-10 overflow-x-auto rounded-2xl border border-border bg-background-secondary shadow-sm"
+      : "mt-10 overflow-hidden rounded-2xl border border-border bg-background-secondary shadow-sm"
+    : layout === "panel"
+      ? "mx-auto mt-8 w-fit max-w-full overflow-hidden rounded-2xl border border-border bg-background-secondary shadow-sm"
+      : layout === "strip"
+        ? "mt-8 overflow-x-auto rounded-2xl border border-border bg-background-secondary shadow-sm"
+        : "mt-8 overflow-hidden rounded-2xl border border-border bg-background-secondary shadow-sm";
+  const imageClass =
+    layout === "panel"
+      ? "mx-auto h-auto w-auto max-w-full"
+      : layout === "strip"
+        ? "h-auto w-[64rem] max-w-none"
+        : "h-auto w-full";
 
   return (
-    <figure className="mt-8 overflow-hidden rounded-2xl border border-border bg-background-secondary shadow-sm">
+    <figure className={figureClass}>
       <Image
         src={image.src}
         alt={image.alt}
-        width={image.width ?? dimensions.width}
-        height={image.height ?? dimensions.height}
-        sizes="(max-width: 1024px) calc(100vw - 3rem), 824px"
-        className="h-auto w-full"
+        width={width}
+        height={height}
+        sizes={
+          layout === "panel"
+            ? "(max-width: 640px) calc(100vw - 3rem), 501px"
+            : layout === "strip"
+              ? "1024px"
+              : hero
+                ? "(max-width: 1024px) calc(100vw - 3rem), 1056px"
+                : "(max-width: 1024px) calc(100vw - 3rem), 824px"
+        }
+        className={imageClass}
+        priority={priority}
       />
       {image.caption ? (
         <figcaption className="border-t border-border px-5 py-3 text-sm leading-6 text-gray-600 dark:text-gray-300">

@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Veröffentlicht - Jetzt testen!",
-        "titlePart1": "Entwerfen Sie Puzzles wie ein <br/>",
-        "titleProfessional": "Profi",
-        "subtitle": "Ein professionelles Puzzle-Designwerkzeug für iPhone, iPad und Mac mit präziser SVG-Bearbeitung und algorithmischer Generierung.",
-        "learnMore": "Mehr erfahren"
+    "titlePart1": "Verwandeln Sie jede Form in",
+    "titleProfessional": "bearbeitbare Puzzle-Schnittlinien",
+    "subtitle": "Zeichnen oder importieren Sie eine Kontur, erzeugen Sie das Muster, bearbeiten Sie die Vektoren und exportieren Sie SVG auf iPhone, iPad oder Mac.",
+    "learnMore": "So funktioniert es"
     },
     "Features": {
-        "title": "Leistungsstarke Funktionen",
-        "subtitle": "Gezielte Werkzeuge zum Erzeugen und Bearbeiten eigener Puzzle-Designs.",
+    "title": "Das können Sie tun",
+    "subtitle": "Ein fokussierter Arbeitsablauf zum Erzeugen von Puzzle-Schnittlinien und Bearbeiten von SVG-Dateien.",
         "list": {
             "customization": {
-                "title": "Grenzenlose Anpassung",
-                "description": "Passen Sie alles an, von Slot-Vorlagen und Konturen bis hin zum Inneren der Puzzles. Erstellen Sie einzigartige Designs, die auffallen."
+        "title": "Kontur und Steckprofil vorbereiten",
+        "description": "Zeichnen oder importieren Sie eine geschlossene SVG-Kontur und wählen Sie anschließend eine integrierte oder eigene Steckvorlage mit offenem Pfad."
             },
             "workflow": {
-                "title": "Blitzschneller Workflow",
-                "description": "Reduzieren Sie wiederholtes manuelles Nachzeichnen durch algorithmische Puzzle-Mustergenerierung."
+        "title": "Bearbeitbare Schnittlinien erzeugen",
+        "description": "Legen Sie Raster, Teileanzahl und Abstände fest und erzeugen Sie das Ergebnis anschließend als bearbeitbare SVG-Gruppe."
             },
             "anywhere": {
-                "title": "Überall Designen",
-                "description": "Beginnen Sie auf Ihrem Mac, verfeinern Sie auf Ihrem iPad und überprüfen Sie auf Ihrem iPhone. Ihr Arbeitsplatz bewegt sich mit Ihnen."
+        "title": "Auf Apple-Geräten weiterarbeiten",
+        "description": "Arbeiten Sie auf iPhone, iPad oder Mac – mit optionaler iCloud-Synchronisierung, wenn sie aktiviert und verfügbar ist."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Hilfe-Center & Anleitung zur Puzzlegenerierung",
-        "subtitle": "Vollständiger Leitfaden für professionelle Puzzle-Schnittlinien und Design mit JigsawDesigner.",
+    "title": "JigsawDesigner-Hilfe",
+    "subtitle": "Praxisnahe Anleitungen zum Erzeugen von Puzzle-Schnittlinien, Bearbeiten von SVG-Geometrie, Verwalten von Vorlagen und Organisieren von Projekten.",
         "toc": "Inhaltsverzeichnis",
         "sections": {
             "gettingStarted": "Erste Schritte",

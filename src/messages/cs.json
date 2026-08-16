@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Vydáno - Vyzkoušejte nyní!",
-        "titlePart1": "Navrhujte Puzzle Jako <br/>",
-        "titleProfessional": "Profesionál",
-        "subtitle": "Profesionální nástroj pro návrh skládaček na iPhonu, iPadu a Macu s přesnou editací SVG a algoritmickým generováním.",
-        "learnMore": "Zjistit Více"
+    "titlePart1": "Převeďte libovolný tvar na",
+    "titleProfessional": "upravitelné řezné linie skládačky",
+    "subtitle": "Nakreslete nebo importujte obrys, vygenerujte vzor, upravte vektory a exportujte SVG na iPhonu, iPadu nebo Macu.",
+    "learnMore": "Podívejte se, jak to funguje"
     },
     "Features": {
-        "title": "Mocné Funkce",
-        "subtitle": "Specializované nástroje pro generování a úpravy vlastních návrhů skládaček.",
+    "title": "Co můžete dělat",
+    "subtitle": "Cílený pracovní postup pro generování řezných linií skládaček a úpravy SVG.",
         "list": {
             "customization": {
-                "title": "Neomezené Přizpůsobení",
-                "description": "Přizpůsobte vše od šablon slotů a obrysů až po vnitřek puzzle. Vytvářejte jedinečné designy, které vyniknou."
+        "title": "Připravte obrys a profil spoje",
+        "description": "Nakreslete nebo importujte uzavřený obrys SVG a poté zvolte vestavěnou nebo vlastní šablonu spoje s otevřenou cestou."
             },
             "workflow": {
-                "title": "Bleskově Rychlý Pracovní Postup",
-                "description": "Omezte opakované ruční obkreslování pomocí algoritmického generování vzorů skládaček."
+        "title": "Vygenerujte upravitelné řezné linie",
+        "description": "Nastavte mřížku, počet dílků a rozestupy a poté vygenerujte výsledek jako upravitelnou skupinu SVG."
             },
             "anywhere": {
-                "title": "Navrhujte Kdekoliv",
-                "description": "Začněte na Macu, vylepšete na iPadu a zkontrolujte na iPhonu. Váš pracovní prostor se pohybuje s vámi."
+        "title": "Pokračujte na zařízeních Apple",
+        "description": "Pracujte na iPhonu, iPadu nebo Macu s volitelnou synchronizací přes iCloud, pokud je zapnutá a dostupná."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Centrum nápovědy a průvodce generováním puzzle",
-        "subtitle": "Kompletní průvodce profesionálním generováním linií řezu a vlastním designem puzzle pomocí JigsawDesigneru.",
+    "title": "Nápověda k JigsawDesigneru",
+    "subtitle": "Praktické návody pro generování řezných linií skládaček, úpravy geometrie SVG, správu šablon a organizaci projektů.",
         "toc": "Obsah",
         "sections": {
             "gettingStarted": "Začínáme",

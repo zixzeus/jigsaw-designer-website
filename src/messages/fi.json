@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Julkaistu - Kokeile nyt!",
-        "titlePart1": "Suunnittele Palapelejä Kuin <br/>",
-        "titleProfessional": "Ammattilainen",
-        "subtitle": "Ammattimainen palapelien suunnittelutyökalu iPhonelle, iPadille ja Macille sekä tarkka SVG-muokkaus ja algoritmipohjainen generointi.",
-        "learnMore": "Lue Lisää"
+        "titlePart1": "Muunna mikä tahansa muoto",
+        "titleProfessional": "muokattaviksi palapelin leikkauslinjoiksi",
+        "subtitle": "Piirrä tai tuo rajaus, luo kuvio, viimeistele vektorit ja vie SVG iPhonella, iPadilla tai Macilla.",
+        "learnMore": "Katso, miten se toimii"
     },
     "Features": {
-        "title": "Tehokkaat Ominaisuudet",
-        "subtitle": "Kohdennetut työkalut mukautettujen palapelimallien generointiin ja muokkaamiseen.",
+        "title": "Mitä voit tehdä",
+        "subtitle": "Kohdennettu työnkulku palapelin leikkauslinjojen luontiin ja SVG-muokkaukseen.",
         "list": {
             "customization": {
-                "title": "Rajaton Mukautus",
-                "description": "Mukauta kaikkea aukkopohjista ja ääriviivoista palapelin sisäosiin. Luo ainutlaatuisia malleja, jotka erottuvat."
+                "title": "Valmistele rajaus ja liitosprofiili",
+                "description": "Piirrä tai tuo suljettu SVG-rajaus ja valitse sitten sisäänrakennettu tai oma avoimen polun liitosmalli."
             },
             "workflow": {
-                "title": "Salamannopea Työnkulku",
-                "description": "Vähennä toistuvaa käsin jäljentämistä algoritmipohjaisella palapelikuviogeneroinnilla."
+                "title": "Luo muokattavat leikkauslinjat",
+                "description": "Määritä ruudukon, palamäärän ja välistyksen arvot ja luo tulos sitten muokattavana SVG-ryhmänä."
             },
             "anywhere": {
-                "title": "Suunnittele Missä Tahansa",
-                "description": "Aloita Macilla, viimeistele iPadilla ja tarkista iPhonella. Työtilasi liikkuu mukanasi."
+                "title": "Jatka Apple-laitteilla",
+                "description": "Työskentele iPhonella, iPadilla tai Macilla ja käytä halutessasi iCloud-synkronointia, kun se on käytössä ja saatavilla."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Ohjekeskus & Palapelin luontiopas",
-        "subtitle": "Täydellinen opas ammattimaisten leikkausviivojen luomiseen ja palapelien suunnitteluun JigsawDesignerilla.",
+        "title": "JigsawDesignerin ohje",
+        "subtitle": "Kohdennetut ohjeet palapelin leikkauslinjojen luontiin, SVG-geometrian muokkaukseen, mallien hallintaan ja projektien järjestämiseen.",
         "toc": "Sisällysluettelo",
         "sections": {
             "gettingStarted": "Aloitus",

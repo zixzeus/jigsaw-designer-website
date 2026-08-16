@@ -18,20 +18,20 @@
     "learnMore": "查看使用方式"
   },
   "Features": {
-    "title": "強大功能",
-    "subtitle": "專注於自訂拼圖產生與編輯的實用工具。",
+    "title": "你可以做什麼",
+    "subtitle": "一套專注於拼圖切線產生與 SVG 編輯的工作流程。",
     "list": {
       "customization": {
-        "title": "無限自訂",
-        "description": "自訂從插槽範本和輪廓到拼圖內部的一切。建立脫穎而出的獨特設計。"
+        "title": "準備邊界和卡槽輪廓",
+        "description": "繪製或匯入封閉的 SVG 邊界，然後選擇內建或自訂的開放路徑卡槽範本。"
       },
       "workflow": {
-        "title": "閃電般的工作流程",
-        "description": "透過演算法產生拼圖圖樣，減少重複的手工描線工作。"
+        "title": "產生可編輯的切線",
+        "description": "設定網格、拼圖片數和間距，然後將結果產生為可編輯的 SVG 群組。"
       },
       "anywhere": {
-        "title": "隨時隨地設計",
-        "description": "在 Mac 上開始，在 iPad 上完善，在 iPhone 上預覽。您的工作空間隨您而動。"
+        "title": "在 Apple 裝置上繼續工作",
+        "description": "在 iPhone、iPad 或 Mac 上工作；iCloud 同步可在啟用且可用時視需要使用。"
       }
     }
   },
@@ -165,10 +165,10 @@
     }
   },
   "Help": {
-    "title": "說明中心與拼圖產生指南",
+    "title": "JigsawDesigner 說明",
     "metaTitle": "說明中心與拼圖產生指南",
     "metaDescription": "瞭解如何使用 JigsawDesigner 產生拼圖切割線、編輯向量圖形、管理專案並匯出 SVG 檔案。",
-    "subtitle": "使用 JigsawDesigner 進行專業拼圖切割線產生與自訂拼圖設計的完整指南。",
+    "subtitle": "依主題了解拼圖切割線產生、SVG 編輯、卡槽範本與專案管理。",
     "toc": "目錄",
     "sections": {
       "gettingStarted": "快速入門",

@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Lançado - Experimente agora!",
-        "titlePart1": "Crie Puzzles como um <br/>",
-        "titleProfessional": "Pro",
-        "subtitle": "Uma ferramenta profissional de design de puzzles para iPhone, iPad e Mac, com edição SVG precisa e geração orientada por algoritmos.",
-        "learnMore": "Saber Mais"
+        "titlePart1": "Transforme qualquer forma em",
+        "titleProfessional": "linhas de corte editáveis para puzzles",
+        "subtitle": "Desenhe ou importe um contorno, gere o padrão, ajuste os vetores e exporte SVG no iPhone, iPad ou Mac.",
+        "learnMore": "Veja como funciona"
     },
     "Features": {
-        "title": "Funcionalidades Poderosas",
-        "subtitle": "Ferramentas focadas para gerar e editar designs de puzzles personalizados.",
+        "title": "O que pode fazer",
+        "subtitle": "Um fluxo de trabalho focado na geração de linhas de corte para puzzles e na edição de SVG.",
         "list": {
             "customization": {
-                "title": "Personalização Ilimitada",
-                "description": "Personalize tudo, desde modelos de ranhuras e contornos até aos interiores dos puzzles. Crie designs únicos que se destacam."
+                "title": "Prepare o contorno e o perfil do encaixe",
+                "description": "Desenhe ou importe um contorno SVG fechado e escolha um modelo de encaixe de caminho aberto, integrado ou personalizado."
             },
             "workflow": {
-                "title": "Fluxo de Trabalho Ultrarrápido",
-                "description": "Reduza o traçado manual repetitivo com a geração algorítmica de padrões de puzzle."
+                "title": "Gere linhas de corte editáveis",
+                "description": "Defina os valores de grelha, número de peças e espaçamento e gere o resultado como um grupo SVG editável."
             },
             "anywhere": {
-                "title": "Crie em Qualquer Lugar",
-                "description": "Comece no Mac, refine no iPad e reveja no iPhone. O seu espaço de trabalho move-se consigo."
+                "title": "Continue nos dispositivos Apple",
+                "description": "Trabalhe no iPhone, iPad ou Mac, com sincronização iCloud opcional quando estiver ativada e disponível."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Central de Ajuda e Guia de Geração",
-        "subtitle": "Guia completo para geração profissional de linhas de corte e design de quebra-cabeças com o JigsawDesigner.",
+        "title": "Ajuda do JigsawDesigner",
+        "subtitle": "Guias focados na geração de linhas de corte para puzzles, edição de geometria SVG, gestão de modelos e organização de projetos.",
         "toc": "Índice",
         "sections": {
             "gettingStarted": "Primeiros Passos",

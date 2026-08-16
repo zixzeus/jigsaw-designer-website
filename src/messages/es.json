@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Lanzado - ¡Pruébalo ahora!",
-        "titlePart1": "Diseña Rompecabezas como un <br/>",
-        "titleProfessional": "Profesional",
-        "subtitle": "Una herramienta profesional de diseño de rompecabezas para iPhone, iPad y Mac, con edición SVG precisa y generación mediante algoritmos.",
-        "learnMore": "Saber Más"
+        "titlePart1": "Convierte cualquier forma en",
+        "titleProfessional": "líneas de corte de rompecabezas editables",
+        "subtitle": "Dibuja o importa un contorno, genera el patrón, ajusta los vectores y exporta SVG en iPhone, iPad o Mac.",
+        "learnMore": "Mira cómo funciona"
     },
     "Features": {
-        "title": "Características Potentes",
-        "subtitle": "Herramientas específicas para generar y editar diseños de rompecabezas personalizados.",
+        "title": "Lo que puedes hacer",
+        "subtitle": "Un flujo de trabajo centrado en generar líneas de corte para rompecabezas y editar SVG.",
         "list": {
             "customization": {
-                "title": "Personalización Ilimitada",
-                "description": "Personaliza todo, desde plantillas de ranuras y contornos hasta los interiores de los rompecabezas. Crea diseños únicos que destaquen."
+                "title": "Prepara el contorno y el perfil de la ranura",
+                "description": "Dibuja o importa un contorno SVG cerrado y elige una plantilla de ranura de trazado abierto, integrada o personalizada."
             },
             "workflow": {
-                "title": "Flujo de Trabajo Ultrarrápido",
-                "description": "Reduce el trazado manual repetitivo con la generación algorítmica de patrones de rompecabezas."
+                "title": "Genera líneas de corte editables",
+                "description": "Configura la cuadrícula, el número de piezas y el espaciado; después, genera el resultado como un grupo SVG editable."
             },
             "anywhere": {
-                "title": "Diseña en Cualquier Lugar",
-                "description": "Comienza en tu Mac, refina en tu iPad y revisa en tu iPhone. Tu espacio de trabajo se mueve contigo."
+                "title": "Continúa en dispositivos Apple",
+                "description": "Trabaja en iPhone, iPad o Mac, con sincronización opcional mediante iCloud cuando esté activada y disponible."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Centro de Ayuda y Guía de Generación",
-        "subtitle": "Guía completa para la generación profesional de líneas de corte y diseño de rompecabezas con JigsawDesigner.",
+        "title": "Ayuda de JigsawDesigner",
+        "subtitle": "Guías específicas para generar líneas de corte de rompecabezas, editar geometría SVG, gestionar plantillas y organizar proyectos.",
         "toc": "Tabla de Contenidos",
         "sections": {
             "gettingStarted": "Primeros Pasos",

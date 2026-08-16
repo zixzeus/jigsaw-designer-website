@@ -12,26 +12,26 @@
   },
   "Hero": {
     "version": "{version} Đã phát hành - Thử ngay!",
-    "titlePart1": "Thiết kế Tranh ghép như <br/>",
-    "titleProfessional": "Chuyên gia",
-    "subtitle": "Công cụ thiết kế tranh ghép chuyên nghiệp cho iPhone, iPad và Mac, với khả năng chỉnh sửa SVG chính xác và tạo hình dựa trên thuật toán.",
-    "learnMore": "Tìm hiểu thêm"
+        "titlePart1": "Biến mọi hình dạng thành",
+        "titleProfessional": "đường cắt tranh ghép có thể chỉnh sửa",
+        "subtitle": "Vẽ hoặc nhập đường biên, tạo mẫu, tinh chỉnh các đường vector và xuất SVG trên iPhone, iPad hoặc Mac.",
+        "learnMore": "Xem cách hoạt động"
   },
   "Features": {
-    "title": "Tính năng Mạnh mẽ",
-    "subtitle": "Các công cụ tập trung vào việc tạo và chỉnh sửa thiết kế tranh ghép tùy chỉnh.",
+        "title": "Bạn có thể làm gì",
+        "subtitle": "Quy trình tập trung vào việc tạo đường cắt tranh ghép và chỉnh sửa SVG.",
     "list": {
       "customization": {
-        "title": "Tùy chỉnh Không giới hạn",
-        "description": "Tùy chỉnh mọi thứ từ mẫu khe và đường viền đến bên trong tranh ghép. Tạo ra các thiết kế độc đáo nổi bật."
+                "title": "Chuẩn bị đường biên và biên dạng khớp nối",
+                "description": "Vẽ hoặc nhập đường biên SVG khép kín, sau đó chọn mẫu khớp nối dạng đường dẫn mở có sẵn hoặc tùy chỉnh."
       },
       "workflow": {
-        "title": "Quy trình làm việc Siêu tốc",
-        "description": "Giảm thao tác đồ lại thủ công lặp đi lặp lại bằng cách tạo mẫu tranh ghép theo thuật toán."
+                "title": "Tạo đường cắt có thể chỉnh sửa",
+                "description": "Đặt các giá trị lưới, số mảnh và khoảng cách, sau đó tạo kết quả dưới dạng nhóm SVG có thể chỉnh sửa."
       },
       "anywhere": {
-        "title": "Thiết kế Mọi nơi",
-        "description": "Bắt đầu trên Mac, tinh chỉnh trên iPad và xem lại trên iPhone. Không gian làm việc di chuyển cùng bạn."
+                "title": "Tiếp tục trên các thiết bị Apple",
+                "description": "Làm việc trên iPhone, iPad hoặc Mac, với tùy chọn đồng bộ iCloud khi được bật và khả dụng."
       }
     }
   },
@@ -103,8 +103,8 @@
     }
   },
   "Help": {
-    "title": "Trung tâm Hỗ trợ & Hướng dẫn tạo Jigsaw",
-    "subtitle": "Hướng dẫn đầy đủ về cách tạo đường cắt chuyên nghiệp và thiết kế puzzle bằng JigsawDesigner.",
+        "title": "Trợ giúp JigsawDesigner",
+        "subtitle": "Hướng dẫn tập trung vào việc tạo đường cắt tranh ghép, chỉnh sửa hình học SVG, quản lý mẫu và sắp xếp dự án.",
     "toc": "Mục lục",
     "sections": {
       "gettingStarted": "Bắt đầu",

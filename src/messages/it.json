@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Rilasciato - Provalo ora!",
-        "titlePart1": "Progetta Puzzle come un <br/>",
-        "titleProfessional": "Pro",
-        "subtitle": "Uno strumento professionale per progettare puzzle su iPhone, iPad e Mac, con modifica SVG precisa e generazione basata su algoritmi.",
-        "learnMore": "Scopri di più"
+        "titlePart1": "Trasforma qualsiasi forma in",
+        "titleProfessional": "linee di taglio per puzzle modificabili",
+        "subtitle": "Disegna o importa un contorno, genera il motivo, perfeziona i vettori ed esporta SVG su iPhone, iPad o Mac.",
+        "learnMore": "Scopri come funziona"
     },
     "Features": {
-        "title": "Funzionalità Potenti",
-        "subtitle": "Strumenti mirati per generare e modificare puzzle personalizzati.",
+        "title": "Cosa puoi fare",
+        "subtitle": "Un flusso di lavoro mirato per generare linee di taglio per puzzle e modificare SVG.",
         "list": {
             "customization": {
-                "title": "Personalizzazione Illimitata",
-                "description": "Personalizza tutto, dai modelli di slot e contorni agli interni dei puzzle. Crea design unici che si distinguono."
+                "title": "Prepara il contorno e il profilo dell’incastro",
+                "description": "Disegna o importa un contorno SVG chiuso, quindi scegli un modello di incastro a tracciato aperto, integrato o personalizzato."
             },
             "workflow": {
-                "title": "Flusso di Lavoro Velocissimo",
-                "description": "Riduci il tracciamento manuale ripetitivo grazie alla generazione algoritmica dei motivi del puzzle."
+                "title": "Genera linee di taglio modificabili",
+                "description": "Imposta i valori di griglia, numero di pezzi e spaziatura, quindi genera il risultato come gruppo SVG modificabile."
             },
             "anywhere": {
-                "title": "Progetta Ovunque",
-                "description": "Inizia sul tuo Mac, perfeziona sul tuo iPad e rivedi sul tuo iPhone. Il tuo spazio di lavoro si muove con te."
+                "title": "Continua sui dispositivi Apple",
+                "description": "Lavora su iPhone, iPad o Mac, con sincronizzazione iCloud facoltativa quando è attiva e disponibile."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Centro Assistenza e Guida alla Generazione",
-        "subtitle": "Guida completa alla generazione professionale di linee di taglio e al design di puzzle con JigsawDesigner.",
+        "title": "Aiuto JigsawDesigner",
+        "subtitle": "Guide mirate per generare linee di taglio per puzzle, modificare la geometria SVG, gestire i modelli e organizzare i progetti.",
         "toc": "Indice",
         "sections": {
             "gettingStarted": "Per Iniziare",

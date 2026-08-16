@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Vydané - Vyskúšajte teraz!",
-        "titlePart1": "Navrhujte Puzzle Ako <br/>",
-        "titleProfessional": "Profesionál",
-        "subtitle": "Profesionálny nástroj na návrh skladačiek pre iPhone, iPad a Mac s presnou úpravou SVG a algoritmickým generovaním.",
-        "learnMore": "Zistiť Viac"
+        "titlePart1": "Premeňte ľubovoľný tvar na",
+        "titleProfessional": "upraviteľné rezné línie skladačky",
+        "subtitle": "Nakreslite alebo importujte obrys, vygenerujte vzor, upravte vektory a exportujte SVG na iPhone, iPade alebo Macu.",
+        "learnMore": "Pozrite sa, ako to funguje"
     },
     "Features": {
-        "title": "Výkonné Funkcie",
-        "subtitle": "Špecializované nástroje na generovanie a úpravu vlastných návrhov skladačiek.",
+        "title": "Čo môžete robiť",
+        "subtitle": "Cielený pracovný postup na generovanie rezných línií skladačky a úpravu SVG.",
         "list": {
             "customization": {
-                "title": "Neobmedzené Prispôsobenie",
-                "description": "Prispôsobte všetko od šablón slotov a obrysov po vnútro puzzle. Vytvárajte jedinečné dizajny, ktoré vyniknú."
+                "title": "Pripravte obrys a profil spoja",
+                "description": "Nakreslite alebo importujte uzavretý obrys SVG a potom vyberte vstavanú alebo vlastnú šablónu spoja s otvorenou cestou."
             },
             "workflow": {
-                "title": "Bleskovo Rýchly Pracovný Tok",
-                "description": "Obmedzte opakované ručné obkresľovanie pomocou algoritmického generovania vzorov skladačiek."
+                "title": "Vygenerujte upraviteľné rezné línie",
+                "description": "Nastavte mriežku, počet dielikov a rozstupy a potom vygenerujte výsledok ako upraviteľnú skupinu SVG."
             },
             "anywhere": {
-                "title": "Navrhujte Kdekoľvek",
-                "description": "Začnite na Macu, vylepšite na iPade a skontrolujte na iPhone. Váš pracovný priestor sa pohybuje s vami."
+                "title": "Pokračujte na zariadeniach Apple",
+                "description": "Pracujte na iPhone, iPade alebo Macu s voliteľnou synchronizáciou cez iCloud, keď je zapnutá a dostupná."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Centrum pomoci a sprievodca generovaním puzzle",
-        "subtitle": "Kompletný sprievodca profesionálnym generovaním línií rezu a vlastným dizajnom puzzle pomocou JigsawDesignera.",
+        "title": "Pomocník JigsawDesigner",
+        "subtitle": "Cielené návody na generovanie rezných línií skladačky, úpravu geometrie SVG, správu šablón a organizovanie projektov.",
         "toc": "Obsah",
         "sections": {
             "gettingStarted": "Začíname",

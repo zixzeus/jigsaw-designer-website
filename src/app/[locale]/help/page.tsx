@@ -9,9 +9,10 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
-import {getMediaDimensions} from "@/config/media";
+import {getMediaDimensions, type VersionedMediaPath} from "@/config/media";
 import {PRODUCT_FACTS} from "@/config/product";
 import {isRouteAvailable, isSiteLocale, type SiteLocale} from "@/config/seo";
+import {isTierOneLocale, type TierOneLocale} from "@/content/types";
 import {Link} from "@/i18n/navigation";
 import {createBreadcrumbJsonLd, createPageMetadata, localizedAbsoluteUrl} from "@/lib/seo";
 
@@ -40,12 +41,20 @@ const splitGuides = [
   ["troubleshooting", "troubleshooting.title"],
 ] as const;
 
+const TIER_ONE_HELP_LEAD_ALT: Record<TierOneLocale, string> = {
+  en: "Generated puzzle cutlines selected as an editable group, with Layers and Shape Info visible in JigsawDesigner",
+  "zh-Hans": "JigsawDesigner 中作为可编辑分组选中的拼图切割线，并显示图层和形状信息",
+  "zh-Hant": "JigsawDesigner 中以可編輯群組選取的拼圖切割線，並顯示圖層與形狀資訊",
+};
+
 function HelpContent({locale}: {locale: SiteLocale}) {
   const navigation = useTranslations("Navigation");
   const help = useTranslations("Help");
   const common = useTranslations("Common");
-  const showSplitGuides =
-    isSiteLocale(locale) && isRouteAvailable("/help/getting-started", locale);
+  const tierOneLocale = isTierOneLocale(locale) ? locale : null;
+  const showSplitGuides = Boolean(
+    tierOneLocale && isRouteAvailable("/help/getting-started", tierOneLocale),
+  );
 
   const techArticle = {
     "@context": "https://schema.org",
@@ -78,16 +87,24 @@ function HelpContent({locale}: {locale: SiteLocale}) {
           ]}
         />
         <header className="max-w-4xl">
-          <h1 className="text-4xl font-bold tracking-tight md:text-6xl">{help("title")}</h1>
-          <p className="mt-6 border-s-4 border-primary ps-6 text-xl leading-8 text-gray-600 dark:text-gray-300">{help("subtitle")}</p>
+          <h1 className="text-4xl font-bold tracking-tight md:text-5xl">{help("title")}</h1>
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-600 dark:text-gray-300">{help("subtitle")}</p>
         </header>
 
         {showSplitGuides ? (
-          <section className="mt-14 rounded-3xl border border-border bg-background-secondary p-7 md:p-10">
+          <HelpImage
+            src="/generated-result-editable-v1-6.webp"
+            alt={tierOneLocale ? TIER_ONE_HELP_LEAD_ALT[tierOneLocale] : ""}
+            priority
+          />
+        ) : null}
+
+        {showSplitGuides ? (
+          <section className="mt-14 border-y border-border py-8">
             <h2 className="text-2xl font-bold">{help("toc")}</h2>
-            <div className="mt-7 grid gap-4 md:grid-cols-2">
+            <div className="mt-5 grid gap-x-10 md:grid-cols-2">
               {splitGuides.map(([slug, labelKey]) => (
-                <Link key={slug} href={`/help/${slug}`} className="rounded-2xl border border-border bg-background p-6 font-semibold transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary-dark hover:shadow-md dark:hover:text-primary-light">
+                <Link key={slug} href={`/help/${slug}`} className="flex items-center justify-between gap-4 border-b border-border py-4 font-semibold transition-colors hover:text-primary-dark dark:hover:text-primary-light">
                   {help(labelKey)} <span aria-hidden="true">→</span>
                 </Link>
               ))}
@@ -111,7 +128,7 @@ function HelpContent({locale}: {locale: SiteLocale}) {
           </nav>
         )}
 
-        <div className="mt-20 space-y-20">
+        {!showSplitGuides ? <div className="mt-20 space-y-20">
           <HelpSection id="getting-started" title={help("sections.gettingStarted")}>
             <p>{help("gettingStartedContent.title")}</p>
             <ol className="mt-6 grid gap-4 md:grid-cols-2">
@@ -167,9 +184,9 @@ function HelpContent({locale}: {locale: SiteLocale}) {
               <Shortcut keys="Shift+Click / Ctrl+Click / Esc" label={help("shortcutsContent.selection.title")} />
             </div>
           </HelpSection>
-        </div>
+        </div> : null}
 
-        <section className="mt-20 rounded-3xl border border-border bg-background-secondary p-9 text-center">
+        <section className="mt-20 border-t border-border pt-12 text-center">
           <h2 className="text-2xl font-bold">{help("needHelp.title")}</h2>
           <p className="mt-3 text-gray-600 dark:text-gray-300">{help("needHelp.desc")}</p>
           <AppStoreCTA location="article" pageId="help" label={navigation("download")} ariaLabel={common("appStoreAria")} className="mt-6 inline-flex rounded-full bg-primary-dark px-7 py-3 font-semibold text-white hover:bg-[#1452a3]" />
@@ -184,9 +201,17 @@ function HelpSection({id, title, children}: {id: string; title: string; children
   return <section id={id} className="scroll-mt-24"><h2 className="text-3xl font-bold md:text-4xl">{title}</h2><div className="mt-6 text-[1.05rem] leading-8 text-gray-600 dark:text-gray-300">{children}</div></section>;
 }
 
-function HelpImage({src, alt}: {src: string; alt: string}) {
+function HelpImage({
+  src,
+  alt,
+  priority = false,
+}: {
+  src: VersionedMediaPath;
+  alt: string;
+  priority?: boolean;
+}) {
   const {width, height} = getMediaDimensions(src);
-  return <Image src={src} alt={alt} width={width} height={height} sizes="(max-width: 1024px) calc(100vw - 3rem), 1056px" className="mt-7 h-auto w-full rounded-2xl border border-border shadow-lg" />;
+  return <Image src={src} alt={alt} width={width} height={height} sizes="(max-width: 1024px) calc(100vw - 3rem), 1056px" className="mt-10 h-auto w-full rounded-2xl border border-border shadow-sm" priority={priority} />;
 }
 
 function Shortcut({keys, label}: {keys: string; label: string}) {

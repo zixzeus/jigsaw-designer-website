@@ -12,26 +12,26 @@
   },
   "Hero": {
     "version": "{version} lançado — experimente agora!",
-    "titlePart1": "Crie quebra-cabeças como um <br/>",
-    "titleProfessional": "profissional",
-    "subtitle": "Uma ferramenta profissional de design de quebra-cabeças para iPhone, iPad e Mac, com edição SVG precisa e geração baseada em algoritmos.",
-    "learnMore": "Saber Mais"
+        "titlePart1": "Transforme qualquer forma em",
+        "titleProfessional": "linhas de corte editáveis para quebra-cabeças",
+        "subtitle": "Desenhe ou importe um contorno, gere o padrão, ajuste os vetores e exporte SVG no iPhone, iPad ou Mac.",
+        "learnMore": "Veja como funciona"
   },
   "Features": {
-    "title": "Funcionalidades Poderosas",
-    "subtitle": "Ferramentas focadas para gerar e editar designs de quebra-cabeças personalizados.",
+        "title": "O que você pode fazer",
+        "subtitle": "Um fluxo de trabalho focado na geração de linhas de corte de quebra-cabeças e na edição de SVG.",
     "list": {
       "customization": {
-        "title": "Personalização Ilimitada",
-        "description": "Personalize tudo, desde modelos de ranhuras e contornos até aos interiores dos quebra-cabeças. Crie designs únicos que se destacam."
+                "title": "Prepare o contorno e o perfil do encaixe",
+                "description": "Desenhe ou importe um contorno SVG fechado e escolha um modelo de encaixe de caminho aberto, integrado ou personalizado."
       },
       "workflow": {
-        "title": "Fluxo de Trabalho Ultrarrápido",
-        "description": "Reduza o traçado manual repetitivo com a geração algorítmica de padrões de quebra-cabeça."
+                "title": "Gere linhas de corte editáveis",
+                "description": "Defina os valores de grade, número de peças e espaçamento e gere o resultado como um grupo SVG editável."
       },
       "anywhere": {
-        "title": "Crie em Qualquer Lugar",
-        "description": "Comece no Mac, refine no iPad e reveja no iPhone. O seu espaço de trabalho move-se consigo."
+                "title": "Continue nos dispositivos Apple",
+                "description": "Trabalhe no iPhone, iPad ou Mac, com sincronização opcional pelo iCloud quando estiver ativada e disponível."
       }
     }
   },
@@ -103,8 +103,8 @@
     }
   },
   "Help": {
-    "title": "Central de Ajuda e Guia de Geração",
-    "subtitle": "Guia completo para geração profissional de linhas de corte e design de quebra-cabeças com o JigsawDesigner.",
+        "title": "Ajuda do JigsawDesigner",
+        "subtitle": "Guias focados em gerar linhas de corte de quebra-cabeças, editar geometria SVG, gerenciar modelos e organizar projetos.",
     "toc": "Índice",
     "sections": {
       "gettingStarted": "Primeiros Passos",

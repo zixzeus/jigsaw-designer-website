@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Uitgebracht - Probeer het nu!",
-        "titlePart1": "Ontwerp Puzzels als een <br/>",
-        "titleProfessional": "Pro",
-        "subtitle": "Een professioneel ontwerpprogramma voor legpuzzels op iPhone, iPad en Mac, met nauwkeurige SVG-bewerking en algoritmische generatie.",
-        "learnMore": "Meer Informatie"
+        "titlePart1": "Zet elke vorm om in",
+        "titleProfessional": "bewerkbare snijlijnen voor puzzels",
+        "subtitle": "Teken of importeer een omtrek, genereer het patroon, verfijn de vectoren en exporteer SVG op iPhone, iPad of Mac.",
+        "learnMore": "Bekijk hoe het werkt"
     },
     "Features": {
-        "title": "Krachtige Functies",
-        "subtitle": "Gerichte hulpmiddelen voor het genereren en bewerken van eigen puzzelontwerpen.",
+        "title": "Wat je kunt doen",
+        "subtitle": "Een gerichte workflow voor het genereren van puzzelsnijlijnen en het bewerken van SVG.",
         "list": {
             "customization": {
-                "title": "Onbeperkte Aanpassing",
-                "description": "Pas alles aan, van gastsjablonen en contouren tot de binnenkant van de puzzel. Maak unieke ontwerpen die opvallen."
+                "title": "Bereid de omtrek en het sleufprofiel voor",
+                "description": "Teken of importeer een gesloten SVG-omtrek en kies vervolgens een ingebouwde of eigen sleufsjabloon met een open pad."
             },
             "workflow": {
-                "title": "Razendsnelle Workflow",
-                "description": "Verminder herhaald handmatig overtrekken met algoritmische generatie van puzzelpatronen."
+                "title": "Genereer bewerkbare snijlijnen",
+                "description": "Stel het raster, het aantal stukjes en de tussenruimte in en genereer het resultaat vervolgens als een bewerkbare SVG-groep."
             },
             "anywhere": {
-                "title": "Overal Ontwerpen",
-                "description": "Begin op je Mac, verfijn op je iPad en bekijk op je iPhone. Je werkruimte beweegt met je mee."
+                "title": "Werk verder op Apple-apparaten",
+                "description": "Werk op iPhone, iPad of Mac, met optionele iCloud-synchronisatie wanneer die is ingeschakeld en beschikbaar is."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Helpcentrum & Gids voor Puzzelgeneratie",
-        "subtitle": "Volledige gids voor professionele snijlijn-generatie en aangepast puzzelontwerp met JigsawDesigner.",
+        "title": "JigsawDesigner-help",
+        "subtitle": "Gerichte handleidingen voor het genereren van puzzelsnijlijnen, het bewerken van SVG-geometrie, het beheren van sjablonen en het ordenen van projecten.",
         "toc": "Inhoudsopgave",
         "sections": {
             "gettingStarted": "Aan de slag",

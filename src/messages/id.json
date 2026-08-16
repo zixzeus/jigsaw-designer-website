@@ -12,26 +12,26 @@
   },
   "Hero": {
     "version": "{version} Dirilis - Coba sekarang!",
-    "titlePart1": "Desain Puzzle Seperti <br/>",
-    "titleProfessional": "Profesional",
-    "subtitle": "Alat desain puzzle profesional untuk iPhone, iPad, dan Mac, dengan penyuntingan SVG presisi dan pembuatan berbasis algoritma.",
-    "learnMore": "Pelajari Lebih Lanjut"
+        "titlePart1": "Ubah bentuk apa pun menjadi",
+        "titleProfessional": "garis potong puzzle yang dapat diedit",
+        "subtitle": "Gambar atau impor batas, buat pola, sesuaikan vektor, lalu ekspor SVG di iPhone, iPad, atau Mac.",
+        "learnMore": "Lihat cara kerjanya"
   },
   "Features": {
-    "title": "Fitur Canggih",
-    "subtitle": "Perangkat terfokus untuk membuat dan menyunting desain puzzle khusus.",
+        "title": "Yang dapat Anda lakukan",
+        "subtitle": "Alur kerja terfokus untuk membuat garis potong puzzle dan menyunting SVG.",
     "list": {
       "customization": {
-        "title": "Kustomisasi Tanpa Batas",
-        "description": "Sesuaikan semuanya mulai dari template slot dan garis luar hingga bagian dalam puzzle. Buat desain unik yang menonjol."
+                "title": "Siapkan batas dan profil slot",
+                "description": "Gambar atau impor batas SVG tertutup, lalu pilih template slot jalur terbuka bawaan atau khusus."
       },
       "workflow": {
-        "title": "Alur Kerja Secepat Kilat",
-        "description": "Kurangi penelusuran manual yang berulang dengan pembuatan pola puzzle berbasis algoritma."
+                "title": "Buat garis potong yang dapat diedit",
+                "description": "Atur nilai kisi, jumlah keping, dan jarak, lalu buat hasil sebagai grup SVG yang dapat diedit."
       },
       "anywhere": {
-        "title": "Desain Di Mana Saja",
-        "description": "Mulai di Mac Anda, sempurnakan di iPad, dan tinjau di iPhone. Ruang kerja Anda bergerak bersama Anda."
+                "title": "Lanjutkan di perangkat Apple",
+                "description": "Bekerja di iPhone, iPad, atau Mac, dengan sinkronisasi iCloud opsional saat diaktifkan dan tersedia."
       }
     }
   },
@@ -103,8 +103,8 @@
     }
   },
   "Help": {
-    "title": "Pusat Bantuan & Panduan Pembuatan Jigsaw",
-    "subtitle": "Panduan lengkap untuk pembuatan garis potong jigsaw profesional dan desain puzzle khusus menggunakan JigsawDesigner.",
+        "title": "Bantuan JigsawDesigner",
+        "subtitle": "Panduan terfokus untuk membuat garis potong puzzle, menyunting geometri SVG, mengelola template, dan menata proyek.",
     "toc": "Daftar Isi",
     "sections": {
       "gettingStarted": "Memulai",

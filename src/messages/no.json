@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Utgitt - Prøv det nå!",
-        "titlePart1": "Design puslespill som en <br/>",
-        "titleProfessional": "Proff",
-        "subtitle": "Et profesjonelt verktøy for puslespilldesign på iPhone, iPad og Mac, med presis SVG-redigering og algoritmestyrt generering.",
-        "learnMore": "Lær mer"
+        "titlePart1": "Gjør enhver form om til",
+        "titleProfessional": "redigerbare skjærelinjer til puslespill",
+        "subtitle": "Tegn eller importer et omriss, generer mønsteret, juster vektorene og eksporter SVG på iPhone, iPad eller Mac.",
+        "learnMore": "Se hvordan det fungerer"
     },
     "Features": {
-        "title": "Kraftige Funksjoner",
-        "subtitle": "Målrettede verktøy for å generere og redigere egendefinerte puslespilldesign.",
+        "title": "Dette kan du gjøre",
+        "subtitle": "En fokusert arbeidsflyt for generering av skjærelinjer til puslespill og redigering av SVG.",
         "list": {
             "customization": {
-                "title": "Ubegrenset Tilpasning",
-                "description": "Tilpass alt fra sportmaler og konturer til puslespillets innside. Lag unike design som skiller seg ut."
+                "title": "Klargjør omrisset og sporprofilen",
+                "description": "Tegn eller importer et lukket SVG-omriss, og velg deretter en innebygd eller egendefinert spormal med åpen bane."
             },
             "workflow": {
-                "title": "Lynrask Arbeidsflyt",
-                "description": "Reduser gjentatt manuell opptegning med algoritmestyrt generering av puslespillmønstre."
+                "title": "Generer redigerbare skjærelinjer",
+                "description": "Angi verdier for rutenett, antall brikker og avstand, og generer deretter resultatet som en redigerbar SVG-gruppe."
             },
             "anywhere": {
-                "title": "Design Hvor som Helst",
-                "description": "Start på Macen, finjuster på iPaden, og gjennomgå på iPhonen. Arbeidsområdet ditt flytter seg med deg."
+                "title": "Fortsett på Apple-enheter",
+                "description": "Arbeid på iPhone, iPad eller Mac, med valgfri iCloud-synkronisering når den er aktivert og tilgjengelig."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Hjelpesenter og guide for puslespillgenerering",
-        "subtitle": "Komplett guide for profesjonell generering av skjærelinjer og tilpasset puslespilldesign med JigsawDesigner.",
+        "title": "Hjelp for JigsawDesigner",
+        "subtitle": "Målrettede veiledninger for generering av skjærelinjer til puslespill, redigering av SVG-geometri, håndtering av maler og organisering av prosjekter.",
         "toc": "Innholdsfortegnelse",
         "sections": {
             "gettingStarted": "Kom i gang",

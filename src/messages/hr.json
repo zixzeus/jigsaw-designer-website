@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Objavljeno - Isprobajte sada!",
-        "titlePart1": "Dizajnirajte Slagalice Kao <br/>",
-        "titleProfessional": "Profesionalac",
-        "subtitle": "Profesionalni alat za dizajn slagalica na iPhoneu, iPadu i Macu, s preciznim uređivanjem SVG-a i algoritamskim generiranjem.",
-        "learnMore": "Saznaj Više"
+        "titlePart1": "Pretvorite bilo koji oblik u",
+        "titleProfessional": "rezne linije slagalice koje možete uređivati",
+        "subtitle": "Nacrtajte ili uvezite obris, generirajte uzorak, uredite vektore i izvezite SVG na iPhoneu, iPadu ili Macu.",
+        "learnMore": "Pogledajte kako radi"
     },
     "Features": {
-        "title": "Moćne Značajke",
-        "subtitle": "Usmjereni alati za generiranje i uređivanje prilagođenih dizajna slagalica.",
+        "title": "Što možete učiniti",
+        "subtitle": "Usmjeren tijek rada za izradu reznih linija slagalice i uređivanje SVG-a.",
         "list": {
             "customization": {
-                "title": "Neograničena Prilagodba",
-                "description": "Prilagodite sve, od predložaka utora i obrisa do unutrašnjosti slagalice. Stvarajte jedinstvene dizajne koji se ističu."
+                "title": "Pripremite obris i profil utora",
+                "description": "Nacrtajte ili uvezite zatvoreni SVG obris, a zatim odaberite ugrađeni ili prilagođeni predložak utora s otvorenom putanjom."
             },
             "workflow": {
-                "title": "Munjevit Tijek Rada",
-                "description": "Smanjite ponavljano ručno precrtavanje algoritamskim generiranjem uzoraka slagalice."
+                "title": "Generirajte rezne linije koje se mogu uređivati",
+                "description": "Postavite vrijednosti mreže, broja dijelova i razmaka, a zatim generirajte rezultat kao SVG grupu koju možete uređivati."
             },
             "anywhere": {
-                "title": "Dizajnirajte Bilo Gdje",
-                "description": "Započnite na Macu, usavršite na iPadu i pregledajte na iPhoneu. Vaš radni prostor kreće se s vama."
+                "title": "Nastavite na Apple uređajima",
+                "description": "Radite na iPhoneu, iPadu ili Macu, uz opcionalnu iCloud sinkronizaciju kada je omogućena i dostupna."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Centar za pomoć i vodič za izradu puzzli",
-        "subtitle": "Potpuni vodič za profesionalno generiranje linija rezanja i vlastiti dizajn puzzli koristeći JigsawDesigner.",
+        "title": "Pomoć za JigsawDesigner",
+        "subtitle": "Usmjereni vodiči za izradu reznih linija slagalice, uređivanje SVG geometrije, upravljanje predlošcima i organizaciju projekata.",
         "toc": "Sadržaj",
         "sections": {
             "gettingStarted": "Početak Rada",

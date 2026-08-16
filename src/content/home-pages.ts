@@ -1,4 +1,5 @@
 import {PRODUCT_FACTS, type PremiumEntitlement} from "@/config/product";
+import type {VersionedMediaPath} from "@/config/media";
 
 import type {TierOneLocale} from "./types";
 
@@ -13,7 +14,7 @@ type HomeLink = {
 };
 
 type HomeGalleryItem = {
-  src: string;
+  src: VersionedMediaPath;
   alt: string;
   caption: string;
 };
@@ -104,32 +105,37 @@ export const HOME_PAGES: Record<TierOneLocale, HomePageContent> = {
     gallery: {
       title: "Inside JigsawDesigner",
       intro:
-        "The canvas, editor settings, template editor, and project library as they appear in the app.",
+        "See the generation setup, editable result, point tools, SVG import, editor settings, and project library as they appear in the app.",
       items: [
         {
-          src: "/editor_overview-v1-6.webp",
-          alt: "JigsawDesigner vector editor with a puzzle project open",
-          caption: "Vector editor and canvas",
+          src: "/generation-ready-v1-6.webp",
+          alt: "A closed puzzle boundary, selected slot template, and generation values ready in JigsawDesigner",
+          caption: "Boundary, template, and generation setup",
         },
         {
-          src: "/canvas_workspace-v1-6.webp",
-          alt: "A custom dragon outline on the JigsawDesigner canvas",
-          caption: "Focused canvas workspace",
+          src: "/generated-result-editable-v1-6.webp",
+          alt: "Generated jigsaw cutlines selected as an editable group in JigsawDesigner",
+          caption: "Editable generated cutlines",
         },
         {
-          src: "/advanced_settings-v1-6.webp",
+          src: "/vector-point-edit-v1-6.webp",
+          alt: "Point Edit anchors shown around a puzzle boundary in JigsawDesigner",
+          caption: "Point-level path editing",
+        },
+        {
+          src: "/svg-import-fidelity-v1-6.webp",
+          alt: "Imported SVG artwork selected in JigsawDesigner with its Layers hierarchy and Shape Info visible",
+          caption: "SVG import fidelity",
+        },
+        {
+          src: "/advanced-settings-editor-v1-6.webp",
           alt: "JigsawDesigner language, subscription, grid, ruler, snapping, and stroke settings",
           caption: "Editor settings",
         },
         {
-          src: "/template_editor-v1-6.webp",
-          alt: "Custom open slot path in the JigsawDesigner Template Editor",
-          caption: "Custom slot templates",
-        },
-        {
-          src: "/my_projects-v1-6.webp",
-          alt: "My Projects in the JigsawDesigner Project Library",
-          caption: "Editable project library",
+          src: "/project-library-v1-6.webp",
+          alt: "JigsawDesigner Project Library with editable local puzzle projects",
+          caption: "Local project library",
         },
       ],
     },
@@ -184,13 +190,14 @@ export const HOME_PAGES: Record<TierOneLocale, HomePageContent> = {
     },
     gallery: {
       title: "JigsawDesigner 实际界面",
-      intro: "查看应用中的画布、编辑器设置、模板编辑器和项目库。",
+      intro: "查看应用中的生成准备、可编辑结果、点编辑、SVG 导入、编辑器设置和项目库。",
       items: [
-        {src: "/editor_overview-v1-6.webp", alt: "打开拼图项目的 JigsawDesigner 矢量编辑器", caption: "矢量编辑器与画布"},
-        {src: "/canvas_workspace-v1-6.webp", alt: "JigsawDesigner 画布上的自定义龙形轮廓", caption: "画布工作区"},
-        {src: "/advanced_settings-v1-6.webp", alt: "JigsawDesigner 的语言、订阅、网格、标尺、吸附与描边设置", caption: "编辑器设置"},
-        {src: "/template_editor-v1-6.webp", alt: "JigsawDesigner 模板编辑器中的自定义开放卡槽路径", caption: "自定义卡槽模板"},
-        {src: "/my_projects-v1-6.webp", alt: "JigsawDesigner 项目库中的我的项目", caption: "可编辑项目库"},
+        {src: "/generation-ready-v1-6.webp", alt: "JigsawDesigner 中已准备好的闭合拼图边界、所选卡槽模板和生成参数", caption: "边界、模板与生成设置"},
+        {src: "/generated-result-editable-v1-6.webp", alt: "JigsawDesigner 中作为可编辑分组选中的拼图切割线", caption: "可编辑的生成切割线"},
+        {src: "/vector-point-edit-v1-6.webp", alt: "JigsawDesigner 中使用点编辑显示拼图边界锚点", caption: "路径节点编辑"},
+        {src: "/svg-import-fidelity-v1-6.webp", alt: "JigsawDesigner 中选中的导入 SVG 图稿及其图层层级和形状信息", caption: "SVG 导入保真度"},
+        {src: "/advanced-settings-editor-v1-6.webp", alt: "JigsawDesigner 的语言、订阅、网格、标尺、吸附与描边设置", caption: "编辑器设置"},
+        {src: "/project-library-v1-6.webp", alt: "JigsawDesigner 项目库中的本地可编辑拼图项目", caption: "本地项目库"},
       ],
     },
     plans: {
@@ -243,13 +250,14 @@ export const HOME_PAGES: Record<TierOneLocale, HomePageContent> = {
     },
     gallery: {
       title: "JigsawDesigner 實際介面",
-      intro: "查看 App 中的畫布、編輯器設定、範本編輯器和專案庫。",
+      intro: "查看 App 中的產生準備、可編輯結果、節點編輯、SVG 匯入、編輯器設定與專案庫。",
       items: [
-        {src: "/editor_overview-v1-6.webp", alt: "開啟拼圖專案的 JigsawDesigner 向量編輯器", caption: "向量編輯器與畫布"},
-        {src: "/canvas_workspace-v1-6.webp", alt: "JigsawDesigner 畫布上的自訂龍形輪廓", caption: "畫布工作區"},
-        {src: "/advanced_settings-v1-6.webp", alt: "JigsawDesigner 的語言、訂閱、網格、尺規、貼齊與筆畫設定", caption: "編輯器設定"},
-        {src: "/template_editor-v1-6.webp", alt: "JigsawDesigner 範本編輯器中的自訂開放卡槽路徑", caption: "自訂卡槽範本"},
-        {src: "/my_projects-v1-6.webp", alt: "JigsawDesigner 專案庫中的我的專案", caption: "可編輯專案庫"},
+        {src: "/generation-ready-v1-6.webp", alt: "JigsawDesigner 中已準備好的封閉拼圖邊界、所選卡槽範本與產生參數", caption: "邊界、範本與產生設定"},
+        {src: "/generated-result-editable-v1-6.webp", alt: "JigsawDesigner 中以可編輯群組選取的拼圖切割線", caption: "可編輯的產生切割線"},
+        {src: "/vector-point-edit-v1-6.webp", alt: "JigsawDesigner 中使用節點編輯顯示拼圖邊界錨點", caption: "路徑節點編輯"},
+        {src: "/svg-import-fidelity-v1-6.webp", alt: "JigsawDesigner 中選取的匯入 SVG 圖稿及其圖層階層與形狀資訊", caption: "SVG 匯入保真度"},
+        {src: "/advanced-settings-editor-v1-6.webp", alt: "JigsawDesigner 的語言、訂閱、網格、尺規、貼齊與筆畫設定", caption: "編輯器設定"},
+        {src: "/project-library-v1-6.webp", alt: "JigsawDesigner 專案庫中的本機可編輯拼圖專案", caption: "本機專案庫"},
       ],
     },
     plans: {

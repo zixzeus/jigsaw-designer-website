@@ -1,3 +1,4 @@
+import type {VersionedMediaPath} from "@/config/media";
 import {PRIMARY_SEO_LOCALES, type SiteLocale} from "@/config/seo";
 
 export const tierOneLocales = PRIMARY_SEO_LOCALES;
@@ -9,11 +10,10 @@ export function isTierOneLocale(locale: string): locale is TierOneLocale {
 }
 
 export type ContentImage = {
-  src: string;
+  src: VersionedMediaPath;
   alt: string;
   caption?: string;
-  width?: number;
-  height?: number;
+  layout?: "wide" | "panel" | "strip";
 };
 
 export type ContentSection = {
@@ -44,6 +44,7 @@ export type ArticleContent = {
   seoDescription: string;
   eyebrow: string;
   intro: string;
+  leadImage?: ContentImage;
   highlights?: string[];
   sections: ContentSection[];
   faq?: ContentFaq[];

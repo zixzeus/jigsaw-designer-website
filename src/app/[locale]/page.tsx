@@ -150,7 +150,9 @@ function HomeContent({
     intro: features("subtitle"),
     items: baselineCards,
   };
-  const editorOverviewDimensions = getMediaDimensions("/editor_overview-v1-6.webp");
+  const leadGalleryItem = content?.gallery.items[0];
+  const leadGalleryPath = leadGalleryItem?.src ?? "/editor_overview-v1-6.webp";
+  const leadGalleryDimensions = getMediaDimensions(leadGalleryPath);
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -238,17 +240,17 @@ function HomeContent({
             <figure>
               <div className="overflow-hidden rounded-[1.75rem] border border-border bg-background-secondary shadow-xl shadow-black/5">
                 <Image
-                  src="/editor_overview-v1-6.webp"
-                  alt={content?.gallery.items[0].alt ?? help("interfaceContent.title")}
-                  width={editorOverviewDimensions.width}
-                  height={editorOverviewDimensions.height}
+                  src={leadGalleryPath}
+                  alt={leadGalleryItem?.alt ?? help("interfaceContent.title")}
+                  width={leadGalleryDimensions.width}
+                  height={leadGalleryDimensions.height}
                   sizes="(max-width: 1024px) calc(100vw - 2.5rem), 55vw"
                   className="h-auto w-full"
                 />
               </div>
               {content ? (
                 <figcaption className="mt-4 flex flex-wrap items-center justify-between gap-3 px-1 text-sm text-gray-600 dark:text-gray-300">
-                  <span>{content.gallery.items[0].caption}</span>
+                  <span>{leadGalleryItem?.caption}</span>
                   <Link href="/changelog/1-6-0" className="font-semibold text-primary-dark hover:underline dark:text-primary-light">
                     {content.release.changelogLabel} <span aria-hidden="true">→</span>
                   </Link>
@@ -267,7 +269,11 @@ function HomeContent({
             </h2>
             <div className="border-y border-border">
               {faq.map((item) => (
-                <details key={item.question} className="group border-b border-border py-6 last:border-b-0">
+                <details
+                  key={item.question}
+                  data-faq-item="true"
+                  className="group border-b border-border py-6 last:border-b-0"
+                >
                   <summary className="flex cursor-pointer list-none items-center justify-between gap-5 font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark dark:focus-visible:ring-primary-light">
                     <span>{item.question}</span>
                     <svg

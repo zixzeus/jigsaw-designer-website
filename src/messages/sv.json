@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Lanserad - Prova det nu!",
-        "titlePart1": "Designa pussel som ett <br/>",
-        "titleProfessional": "Proffs",
-        "subtitle": "Ett professionellt verktyg för pusseldesign på iPhone, iPad och Mac, med exakt SVG-redigering och algoritmstyrd generering.",
-        "learnMore": "Läs mer"
+        "titlePart1": "Förvandla valfri form till",
+        "titleProfessional": "redigerbara skärlinjer för pussel",
+        "subtitle": "Rita eller importera en kontur, skapa mönstret, justera vektorerna och exportera SVG på iPhone, iPad eller Mac.",
+        "learnMore": "Se hur det fungerar"
     },
     "Features": {
-        "title": "Kraftfulla funktioner",
-        "subtitle": "Fokuserade verktyg för att generera och redigera anpassade pusseldesigner.",
+        "title": "Det här kan du göra",
+        "subtitle": "Ett fokuserat arbetsflöde för att skapa skärlinjer till pussel och redigera SVG.",
         "list": {
             "customization": {
-                "title": "Obegränsad anpassning",
-                "description": "Anpassa allt från skårmallar och konturer till pusselns insida. Skapa unika mönster som sticker ut."
+                "title": "Förbered konturen och spårprofilen",
+                "description": "Rita eller importera en sluten SVG-kontur och välj sedan en inbyggd eller egen spårmall med öppen bana."
             },
             "workflow": {
-                "title": "Blixtsnabbt arbetsflöde",
-                "description": "Minska upprepad manuell uppritning med algoritmstyrd generering av pusselmönster."
+                "title": "Skapa redigerbara skärlinjer",
+                "description": "Ange värden för rutnät, antal bitar och mellanrum och skapa sedan resultatet som en redigerbar SVG-grupp."
             },
             "anywhere": {
-                "title": "Designa var som helst",
-                "description": "Börja på din Mac, förfina på din iPad och granska på din iPhone. Din arbetsyta flyttar med dig."
+                "title": "Fortsätt på Apple-enheter",
+                "description": "Arbeta på iPhone, iPad eller Mac, med valfri iCloud-synkronisering när den är aktiverad och tillgänglig."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Hjälpcenter & Guide för Pusselskapande",
-        "subtitle": "Komplett guide för professionell generering av skärlinjer och anpassad pusseldesign med JigsawDesigner.",
+        "title": "Hjälp för JigsawDesigner",
+        "subtitle": "Fokuserade guider för att skapa skärlinjer till pussel, redigera SVG-geometri, hantera mallar och organisera projekt.",
         "toc": "Innehållsförteckning",
         "sections": {
             "gettingStarted": "Komma igång",

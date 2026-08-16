@@ -12,26 +12,26 @@
   },
   "Hero": {
     "version": "{version} 已发布 - 快来体验",
-    "titlePart1": "像专业人士一样<br/>",
-    "titleProfessional": "设计拼图",
-    "subtitle": "适用于 iPhone、iPad 和 Mac 的专业拼图设计工具，支持精准 SVG 编辑和算法生成。",
-    "learnMore": "了解更多"
+    "titlePart1": "从任意轮廓生成",
+    "titleProfessional": "可编辑拼图切线",
+    "subtitle": "绘制或导入边界，生成拼图、调整矢量，并在 iPhone、iPad 或 Mac 上导出 SVG。",
+    "learnMore": "查看使用方式"
   },
   "Features": {
-    "title": "强大功能",
-    "subtitle": "专注于自定义拼图生成与编辑的实用工具。",
+    "title": "你可以做什么",
+    "subtitle": "一套专注于拼图切线生成与 SVG 编辑的工作流程。",
     "list": {
       "customization": {
-        "title": "无限自定义",
-        "description": "自定义从插槽模板和轮廓到拼图内部的一切。创建脱颖而出的独特设计。"
+        "title": "准备边界和卡槽轮廓",
+        "description": "绘制或导入闭合的 SVG 边界，然后选择内置或自定义的开放路径卡槽模板。"
       },
       "workflow": {
-        "title": "闪电般的工作流",
-        "description": "通过算法生成拼图图案，减少重复的手工描线工作。"
+        "title": "生成可编辑的切线",
+        "description": "设置网格、拼图片数和间距，然后将结果生成为可编辑的 SVG 群组。"
       },
       "anywhere": {
-        "title": "随时随地设计",
-        "description": "在 Mac 上开始，在 iPad 上完善，在 iPhone 上预览。您的工作空间随您而动。"
+        "title": "在 Apple 设备上继续工作",
+        "description": "在 iPhone、iPad 或 Mac 上工作；iCloud 同步可在启用且可用时按需使用。"
       }
     }
   },
@@ -165,10 +165,10 @@
     }
   },
   "Help": {
-    "title": "帮助中心与拼图生成指南",
+    "title": "JigsawDesigner 帮助",
     "metaTitle": "帮助中心与拼图生成指南",
     "metaDescription": "了解如何使用 JigsawDesigner 生成拼图切割线、编辑矢量图形、管理项目并导出 SVG 文件。",
-    "subtitle": "使用 JigsawDesigner 进行专业拼图切割线生成与自定义拼图设计的完整指南。",
+    "subtitle": "按专题了解拼图切割线生成、SVG 编辑、卡槽模板和项目管理。",
     "toc": "目录",
     "sections": {
       "gettingStarted": "快速入门",

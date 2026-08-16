@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Wydano - Wypróbuj teraz!",
-        "titlePart1": "Projektuj Puzzli Jak <br/>",
-        "titleProfessional": "Profesjonalista",
-        "subtitle": "Profesjonalne narzędzie do projektowania puzzli na iPhone’a, iPada i Maca z precyzyjną edycją SVG i generowaniem algorytmicznym.",
-        "learnMore": "Dowiedz Się Więcej"
+        "titlePart1": "Zamień dowolny kształt w",
+        "titleProfessional": "edytowalne linie cięcia puzzli",
+        "subtitle": "Narysuj lub zaimportuj obrys, wygeneruj wzór, dopracuj wektory i wyeksportuj SVG na iPhonie, iPadzie lub Macu.",
+        "learnMore": "Zobacz, jak to działa"
     },
     "Features": {
-        "title": "Potężne Funkcje",
-        "subtitle": "Specjalistyczne narzędzia do generowania i edytowania własnych projektów puzzli.",
+        "title": "Co możesz zrobić",
+        "subtitle": "Ukierunkowany proces generowania linii cięcia puzzli i edycji SVG.",
         "list": {
             "customization": {
-                "title": "Nieograniczona Personalizacja",
-                "description": "Dostosuj wszystko, od szablonów gniazd i konturów po wnętrze puzzli. Twórz unikalne projekty, które się wyróżniają."
+                "title": "Przygotuj obrys i profil łączenia",
+                "description": "Narysuj lub zaimportuj zamknięty obrys SVG, a następnie wybierz wbudowany lub własny szablon łączenia z otwartą ścieżką."
             },
             "workflow": {
-                "title": "Błyskawiczny Przepływ Pracy",
-                "description": "Ogranicz powtarzalne ręczne obrysowywanie dzięki algorytmicznemu generowaniu wzorów puzzli."
+                "title": "Generuj edytowalne linie cięcia",
+                "description": "Ustaw wartości siatki, liczby elementów i odstępów, a następnie wygeneruj wynik jako edytowalną grupę SVG."
             },
             "anywhere": {
-                "title": "Projektuj Gdziekolwiek",
-                "description": "Zacznij na Macu, dopracuj na iPadzie i przejrzyj na iPhonie. Twoja przestrzeń robocza porusza się razem z Tobą."
+                "title": "Kontynuuj na urządzeniach Apple",
+                "description": "Pracuj na iPhonie, iPadzie lub Macu, z opcjonalną synchronizacją iCloud, gdy jest włączona i dostępna."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Centrum pomocy i przewodnik generowania puzzli",
-        "subtitle": "Kompletny przewodnik po profesjonalnym generowaniu linii cięcia i projektowaniu puzzli przy użyciu JigsawDesigner.",
+        "title": "Pomoc JigsawDesigner",
+        "subtitle": "Praktyczne przewodniki dotyczące generowania linii cięcia puzzli, edycji geometrii SVG, zarządzania szablonami i organizowania projektów.",
         "toc": "Spis Treści",
         "sections": {
             "gettingStarted": "Pierwsze Kroki",

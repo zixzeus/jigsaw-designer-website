@@ -12,26 +12,26 @@
   },
   "Hero": {
     "version": "{version} リリース - 今すぐ体験",
-    "titlePart1": "プロのようにパズルを<br/>",
-    "titleProfessional": "デザイン",
-    "subtitle": "iPhone、iPad、Mac向けのプロ仕様ジグソーパズルデザインツール。精密なSVG編集とアルゴリズムによる生成に対応しています。",
-    "learnMore": "詳細を見る"
+        "titlePart1": "どんな形状からでも",
+        "titleProfessional": "編集可能なパズルのカットラインを生成",
+        "subtitle": "境界線を描画または読み込み、パターンを生成してベクターを調整し、iPhone、iPad、MacでSVGを書き出せます。",
+        "learnMore": "使い方を見る"
   },
   "Features": {
-    "title": "強力な機能",
-    "subtitle": "カスタムジグソーパズルの生成と編集に特化したツールです。",
+        "title": "できること",
+        "subtitle": "パズルのカットライン生成とSVG編集に絞ったワークフローです。",
     "list": {
       "customization": {
-        "title": "無限のカスタマイズ",
-        "description": "スロットテンプレートや輪郭からパズルの内部まで、すべてをカスタマイズ。際立つユニークなデザインを作成します。"
+                "title": "境界線とスロット形状を準備",
+                "description": "閉じたSVG境界線を描画または読み込み、組み込みまたはカスタムのオープンパス型スロットテンプレートを選びます。"
       },
       "workflow": {
-        "title": "超高速ワークフロー",
-        "description": "アルゴリズムによるパズルパターン生成で、繰り返しの手作業を減らします。"
+                "title": "編集可能なカットラインを生成",
+                "description": "グリッド、ピース数、間隔を設定し、結果を編集可能なSVGグループとして生成します。"
       },
       "anywhere": {
-        "title": "どこでもデザイン",
-        "description": "Macで開始し、iPadで調整し、iPhoneで確認します。ワークスペースはあなたと共に移動します。"
+                "title": "Appleデバイスで作業を続ける",
+                "description": "iPhone、iPad、Macで作業できます。iCloud同期は、有効で利用可能な場合に任意で使用できます。"
       }
     }
   },
@@ -103,8 +103,8 @@
     }
   },
   "Help": {
-    "title": "ヘルプセンター＆ジグソー生成ガイド",
-    "subtitle": "JigsawDesignerを使用したプロフェッショナルなカットライン生成とデザインの完全ガイド。",
+        "title": "JigsawDesigner ヘルプ",
+        "subtitle": "パズルのカットライン生成、SVGジオメトリの編集、テンプレート管理、プロジェクト整理に関する目的別ガイドです。",
     "toc": "目次",
     "sections": {
       "gettingStarted": "はじめに",

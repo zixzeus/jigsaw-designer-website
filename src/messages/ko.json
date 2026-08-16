@@ -12,26 +12,26 @@
   },
   "Hero": {
     "version": "{version} 출시 - 지금 체험하기",
-    "titlePart1": "전문가처럼 퍼즐을 <br/>",
-    "titleProfessional": "디자인하세요",
-    "subtitle": "iPhone, iPad, Mac용 전문 직소 퍼즐 디자인 도구로, 정밀한 SVG 편집과 알고리즘 기반 생성을 지원합니다.",
-    "learnMore": "더 알아보기"
+        "titlePart1": "어떤 형태든",
+        "titleProfessional": "편집 가능한 퍼즐 재단선으로",
+        "subtitle": "경계를 그리거나 가져오고, 패턴을 생성하고, 벡터를 다듬은 다음 iPhone, iPad 또는 Mac에서 SVG로 내보냅니다.",
+        "learnMore": "작동 방식 보기"
   },
   "Features": {
-    "title": "강력한 기능",
-    "subtitle": "맞춤형 직소 퍼즐 디자인을 생성하고 편집하는 데 초점을 둔 도구입니다.",
+        "title": "할 수 있는 작업",
+        "subtitle": "퍼즐 재단선 생성과 SVG 편집에 초점을 맞춘 작업 흐름입니다.",
     "list": {
       "customization": {
-        "title": "무제한 커스터마이징",
-        "description": "슬롯 템플릿과 윤곽선부터 퍼즐 내부까지 모든 것을 사용자 정의하세요. 돋보이는 독특한 디자인을 만드세요."
+                "title": "경계와 슬롯 형태 준비",
+                "description": "닫힌 SVG 경계를 그리거나 가져온 다음, 기본 제공 또는 사용자 지정 열린 경로 슬롯 템플릿을 선택합니다."
       },
       "workflow": {
-        "title": "초고속 워크플로우",
-        "description": "알고리즘 기반 퍼즐 패턴 생성으로 반복적인 수작업 트레이싱을 줄입니다."
+                "title": "편집 가능한 재단선 생성",
+                "description": "그리드, 조각 수, 간격 값을 설정한 다음 결과를 편집 가능한 SVG 그룹으로 생성합니다."
       },
       "anywhere": {
-        "title": "어디서나 디자인",
-        "description": "Mac에서 시작하고 iPad에서 다듬고 iPhone에서 검토하세요. 작업 공간이 당신과 함께 이동합니다."
+                "title": "Apple 기기에서 계속 작업",
+                "description": "iPhone, iPad 또는 Mac에서 작업하고, iCloud 동기화가 활성화되어 있고 사용 가능한 경우 선택적으로 이용할 수 있습니다."
       }
     }
   },
@@ -103,8 +103,8 @@
     }
   },
   "Help": {
-    "title": "도움말 센터 및 직소 생성 가이드",
-    "subtitle": "JigsawDesigner를 사용한 전문가용 직소 커팅 라인 생성 및 디자인 전체 가이드.",
+        "title": "JigsawDesigner 도움말",
+        "subtitle": "퍼즐 재단선 생성, SVG 도형 편집, 템플릿 관리, 프로젝트 정리를 위한 주제별 안내입니다.",
     "toc": "목차",
     "sections": {
       "gettingStarted": "시작하기",

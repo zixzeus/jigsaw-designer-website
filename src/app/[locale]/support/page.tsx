@@ -81,7 +81,11 @@ function SupportContent({locale}: {locale: SiteLocale}) {
             <h2 className="text-center text-3xl font-bold">{support("faq.title")}</h2>
             <div className="mt-9 space-y-4">
               {faq.map((item) => (
-                <details key={item.question} className="rounded-2xl border border-border bg-background p-6">
+                <details
+                  key={item.question}
+                  data-faq-item="true"
+                  className="rounded-2xl border border-border bg-background p-6"
+                >
                   <summary className="cursor-pointer font-semibold">{item.question}</summary>
                   <p className="mt-4 leading-7 text-gray-600 dark:text-gray-300">{item.answer}</p>
                 </details>

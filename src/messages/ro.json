@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Lansat - Încercați acum!",
-        "titlePart1": "Proiectează Puzzle-uri ca un <br/>",
-        "titleProfessional": "Profesionist",
-        "subtitle": "Un instrument profesional de proiectare a puzzle-urilor pentru iPhone, iPad și Mac, cu editare SVG precisă și generare bazată pe algoritmi.",
-        "learnMore": "Află Mai Multe"
+        "titlePart1": "Transformă orice formă în",
+        "titleProfessional": "linii de tăiere editabile pentru puzzle",
+        "subtitle": "Desenează sau importă un contur, generează modelul, ajustează vectorii și exportă SVG pe iPhone, iPad sau Mac.",
+        "learnMore": "Vezi cum funcționează"
     },
     "Features": {
-        "title": "Caracteristici Puternice",
-        "subtitle": "Instrumente specializate pentru generarea și editarea designurilor de puzzle personalizate.",
+        "title": "Ce poți face",
+        "subtitle": "Un flux de lucru concentrat pe generarea liniilor de tăiere pentru puzzle și editarea SVG.",
         "list": {
             "customization": {
-                "title": "Personalizare Nelimitată",
-                "description": "Personalizează totul, de la șabloanele de fante și contururi până la interiorul puzzle-ului. Creează designuri unice care ies în evidență."
+                "title": "Pregătește conturul și profilul îmbinării",
+                "description": "Desenează sau importă un contur SVG închis, apoi alege un șablon de îmbinare cu traseu deschis, integrat sau personalizat."
             },
             "workflow": {
-                "title": "Flux de Lucru Rapid",
-                "description": "Reduce trasarea manuală repetitivă prin generarea algoritmică a modelelor de puzzle."
+                "title": "Generează linii de tăiere editabile",
+                "description": "Setează valorile pentru grilă, numărul de piese și spațiere, apoi generează rezultatul ca grup SVG editabil."
             },
             "anywhere": {
-                "title": "Proiectează Oriunde",
-                "description": "Începe pe Mac, rafinează pe iPad și revizuiește pe iPhone. Spațiul tău de lucru se mișcă odată cu tine."
+                "title": "Continuă pe dispozitivele Apple",
+                "description": "Lucrează pe iPhone, iPad sau Mac, cu sincronizare iCloud opțională atunci când este activată și disponibilă."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Centru de ajutor și ghid de generare a puzzle-urilor",
-        "subtitle": "Ghid complet pentru generarea profesională a liniilor de tăiere și designul personalizat al puzzle-urilor folosind JigsawDesigner.",
+        "title": "Ajutor JigsawDesigner",
+        "subtitle": "Ghiduri concentrate pe generarea liniilor de tăiere pentru puzzle, editarea geometriei SVG, gestionarea șabloanelor și organizarea proiectelor.",
         "toc": "Cuprins",
         "sections": {
             "gettingStarted": "Primii Pași",

@@ -149,7 +149,7 @@ function visibleText(html) {
 
 function visibleFaqEntries(html) {
   const entries = [];
-  for (const match of html.matchAll(/<details\b[^>]*>([\s\S]*?)<\/details>/gi)) {
+  for (const match of html.matchAll(/<details\b[^>]*\bdata-faq-item=["']true["'][^>]*>([\s\S]*?)<\/details>/gi)) {
     const block = match[1];
     const summary = block.match(/<summary\b[^>]*>([\s\S]*?)<\/summary>/i);
     if (!summary) continue;

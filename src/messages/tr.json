@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Yayında - Şimdi deneyin!",
-        "titlePart1": "Bulmacaları Bir <br/>",
-        "titleProfessional": "Profesyonel Gibi Tasarlayın",
-        "subtitle": "iPhone, iPad ve Mac için hassas SVG düzenleme ve algoritma destekli üretim sunan profesyonel bir yapboz tasarım aracı.",
-        "learnMore": "Daha Fazla Bilgi"
+        "titlePart1": "Herhangi bir şekli",
+        "titleProfessional": "düzenlenebilir yapboz kesim çizgilerine dönüştürün",
+        "subtitle": "Bir sınır çizin veya içe aktarın, deseni oluşturun, vektörleri düzenleyin ve iPhone, iPad ya da Mac'te SVG olarak dışa aktarın.",
+        "learnMore": "Nasıl çalıştığını görün"
     },
     "Features": {
-        "title": "Güçlü Özellikler",
-        "subtitle": "Özel yapboz tasarımları üretmek ve düzenlemek için odaklanmış araçlar.",
+        "title": "Yapabilecekleriniz",
+        "subtitle": "Yapboz kesim çizgileri oluşturma ve SVG düzenlemeye odaklanan bir iş akışı.",
         "list": {
             "customization": {
-                "title": "Sınırsız Özelleştirme",
-                "description": "Yuva şablonlarından ve konturlardan bulmaca içlerine kadar her şeyi özelleştirin. Öne çıkan benzersiz tasarımlar oluşturun."
+                "title": "Sınırı ve geçme profilini hazırlayın",
+                "description": "Kapalı bir SVG sınırı çizin veya içe aktarın, ardından yerleşik ya da özel bir açık yol geçme şablonu seçin."
             },
             "workflow": {
-                "title": "Yıldırım Hızında İş Akışı",
-                "description": "Algoritma destekli yapboz deseni üretimiyle tekrarlanan elle çizim işini azaltın."
+                "title": "Düzenlenebilir kesim çizgileri oluşturun",
+                "description": "Izgara, parça sayısı ve aralık değerlerini ayarlayın, ardından sonucu düzenlenebilir bir SVG grubu olarak oluşturun."
             },
             "anywhere": {
-                "title": "Her Yerde Tasarlayın",
-                "description": "Mac'inizde başlayın, iPad'inizde geliştirin ve iPhone'unuzda inceleyin. Çalışma alanınız sizinle birlikte hareket eder."
+                "title": "Apple aygıtlarında devam edin",
+                "description": "iPhone, iPad veya Mac üzerinde çalışın; iCloud eşzamanlama etkin ve kullanılabilir olduğunda isteğe bağlı olarak kullanabilirsiniz."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Yardım Merkezi ve Jigsaw Oluşturma Kılavuzu",
-        "subtitle": "JigsawDesigner kullanarak profesyonel kesim hattı üretimi ve tasarımı için tam kılavuz.",
+        "title": "JigsawDesigner Yardımı",
+        "subtitle": "Yapboz kesim çizgileri oluşturma, SVG geometrisini düzenleme, şablonları yönetme ve projeleri düzenleme için odaklanmış kılavuzlar.",
         "toc": "İçindekiler",
         "sections": {
             "gettingStarted": "Başlarken",

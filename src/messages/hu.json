@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Megjelent - Próbálja ki most!",
-        "titlePart1": "Tervezz Puzzle-t Mint Egy <br/>",
-        "titleProfessional": "Profi",
-        "subtitle": "Professzionális kirakótervező eszköz iPhone-ra, iPadre és Macre, pontos SVG-szerkesztéssel és algoritmikus generálással.",
-        "learnMore": "Tudj Meg Többet"
+        "titlePart1": "Alakítson bármilyen formát",
+        "titleProfessional": "szerkeszthető kirakó-vágóvonalakká",
+        "subtitle": "Rajzoljon vagy importáljon körvonalat, hozza létre a mintát, finomítsa a vektorokat, majd exportáljon SVG-t iPhone-on, iPaden vagy Macen.",
+        "learnMore": "Nézze meg, hogyan működik"
     },
     "Features": {
-        "title": "Erőteljes Funkciók",
-        "subtitle": "Célzott eszközök egyedi kirakótervek generálásához és szerkesztéséhez.",
+        "title": "Mire használható",
+        "subtitle": "Célzott munkafolyamat kirakók vágóvonalainak létrehozásához és SVG-szerkesztéshez.",
         "list": {
             "customization": {
-                "title": "Korlátlan Testreszabás",
-                "description": "Szabj testre mindent a slot sablonoktól és körvonalaktól a puzzle belsejéig. Készíts egyedi terveket, amelyek kitűnnek."
+                "title": "Készítse elő a körvonalat és a csatlakozóprofilt",
+                "description": "Rajzoljon vagy importáljon zárt SVG-körvonalat, majd válasszon beépített vagy egyéni, nyitott útvonalú csatlakozósablont."
             },
             "workflow": {
-                "title": "Villámgyors Munkafolyamat",
-                "description": "Csökkentse az ismétlődő kézi átrajzolást algoritmikus kirakóminta-generálással."
+                "title": "Hozzon létre szerkeszthető vágóvonalakat",
+                "description": "Adja meg a rács, az elemszám és a térköz értékeit, majd hozza létre az eredményt szerkeszthető SVG-csoportként."
             },
             "anywhere": {
-                "title": "Tervezz Bárhol",
-                "description": "Kezdd a Mac-eden, finomítsd az iPadeden, és ellenőrizd az iPhone-odon. A munkaterületed veled mozog."
+                "title": "Folytassa Apple-eszközökön",
+                "description": "Dolgozzon iPhone-on, iPaden vagy Macen, és ha engedélyezve van és elérhető, használhat opcionális iCloud-szinkronizálást."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Súgó és puzzle generálási útmutató",
-        "subtitle": "Teljes útmutató professzionális puzzle vágóvonal generáláshoz és egyedi tervezéshez a JigsawDesignerrel.",
+        "title": "JigsawDesigner súgó",
+        "subtitle": "Célzott útmutatók kirakók vágóvonalainak létrehozásához, SVG-geometria szerkesztéséhez, sablonok kezeléséhez és projektek rendszerezéséhez.",
         "toc": "Tartalomjegyzék",
         "sections": {
             "gettingStarted": "Kezdő lépések",

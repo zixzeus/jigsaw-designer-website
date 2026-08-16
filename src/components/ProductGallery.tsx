@@ -17,15 +17,15 @@ export default function ProductGallery({items}: {items: GalleryItem[]}) {
 
   return (
     <div className="mt-10">
-      <figure className="overflow-hidden rounded-[1.75rem] border border-border bg-background shadow-sm">
-        <div className="relative aspect-[4/3] bg-[#e9eef4] sm:aspect-[16/10] dark:bg-[#11151a]">
+      <figure className="overflow-hidden rounded-2xl border border-border bg-background shadow-sm">
+        <div className="relative aspect-[16/9] bg-[#e9eef4] dark:bg-[#11151a]">
           <Image
             key={activeItem.src}
             src={activeItem.src}
             alt={activeItem.alt}
             fill
             sizes="(max-width: 768px) calc(100vw - 2.5rem), 1152px"
-            className="object-contain p-3 sm:p-5"
+            className="object-contain p-2 sm:p-4"
           />
         </div>
         <figcaption className="flex items-center justify-between gap-4 border-t border-border px-5 py-4 text-sm font-medium sm:px-6">
@@ -37,7 +37,7 @@ export default function ProductGallery({items}: {items: GalleryItem[]}) {
       </figure>
 
       <div className="-mx-5 mt-4 overflow-x-auto px-5 pb-2 md:mx-0 md:px-0">
-        <div className="flex min-w-max gap-3 md:grid md:min-w-0 md:grid-cols-4">
+        <div className="flex min-w-max gap-3 md:grid md:min-w-0 md:grid-cols-3 lg:grid-cols-5">
           {items.map((item, index) => {
             const isActive = index === activeIndex;
             return (

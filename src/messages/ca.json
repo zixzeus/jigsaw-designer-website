@@ -12,26 +12,26 @@
     },
     "Hero": {
         "version": "{version} Llançat - Prova-ho ara!",
-        "titlePart1": "Dissenya Puzzles Com un <br/>",
-        "titleProfessional": "Professional",
-        "subtitle": "Una eina professional de disseny de trencaclosques per a iPhone, iPad i Mac, amb edició SVG precisa i generació mitjançant algoritmes.",
-        "learnMore": "Saber Més"
+    "titlePart1": "Converteix qualsevol forma en",
+    "titleProfessional": "línies de tall de trencaclosques editables",
+    "subtitle": "Dibuixa o importa un contorn, genera el patró, ajusta els vectors i exporta SVG a l'iPhone, l'iPad o el Mac.",
+    "learnMore": "Consulta com funciona"
     },
     "Features": {
-        "title": "Característiques Potents",
-        "subtitle": "Eines específiques per generar i editar dissenys de trencaclosques personalitzats.",
+    "title": "Què pots fer",
+    "subtitle": "Un flux de treball centrat en la generació de línies de tall per a trencaclosques i l'edició SVG.",
         "list": {
             "customization": {
-                "title": "Personalització Il·limitada",
-                "description": "Personalitza-ho tot, des de plantilles de ranures i contorns fins a l'interior del puzzle. Crea dissenys únics que destaquin."
+        "title": "Prepara el contorn i el perfil de la ranura",
+        "description": "Dibuixa o importa un contorn SVG tancat i, després, tria una plantilla de ranura de traçat obert, integrada o personalitzada."
             },
             "workflow": {
-                "title": "Flux de Treball Ràpid com el Llamp",
-                "description": "Redueix el traçat manual repetitiu amb la generació algorítmica de patrons de trencaclosques."
+        "title": "Genera línies de tall editables",
+        "description": "Defineix els valors de la quadrícula, el nombre de peces i l'espaiat; després, genera el resultat com un grup SVG editable."
             },
             "anywhere": {
-                "title": "Dissenya a Qualsevol Lloc",
-                "description": "Comença al teu Mac, perfecciona al teu iPad i revisa al teu iPhone. El teu espai de treball es mou amb tu."
+        "title": "Continua als dispositius Apple",
+        "description": "Treballa a l'iPhone, l'iPad o el Mac, amb sincronització opcional via iCloud quan estigui activada i disponible."
             }
         }
     },
@@ -103,8 +103,8 @@
         }
     },
     "Help": {
-        "title": "Centre d'ajuda i guia de generació de trencaclosques",
-        "subtitle": "Guia completa per a la generació professional de línies de tall i disseny de trencaclosques amb JigsawDesigner.",
+    "title": "Ajuda de JigsawDesigner",
+    "subtitle": "Guies específiques per generar línies de tall de trencaclosques, editar geometria SVG, gestionar plantilles i organitzar projectes.",
         "toc": "Taula de Continguts",
         "sections": {
             "gettingStarted": "Començar",
