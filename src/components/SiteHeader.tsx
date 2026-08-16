@@ -66,11 +66,8 @@ export default function SiteHeader({
 
         <nav
           aria-label={navigationLabel}
-          className="hidden items-center gap-5 text-sm font-medium md:flex"
+          className="hidden items-center gap-5 text-sm font-medium lg:flex"
         >
-          <Link href="/" className="transition-colors hover:text-primary-dark dark:hover:text-primary-light">
-            {navigation("home")}
-          </Link>
           <Link
             href="/#features"
             className="transition-colors hover:text-primary-dark dark:hover:text-primary-light"
@@ -91,12 +88,6 @@ export default function SiteHeader({
               {navigation("pricing")}
             </Link>
           ) : null}
-          <Link
-            href="/support"
-            className="transition-colors hover:text-primary-dark dark:hover:text-primary-light"
-          >
-            {navigation("support")}
-          </Link>
           {showLanguageSwitcher ? <LanguageSwitcher /> : null}
           <AppStoreCTA
             location="header"
@@ -109,7 +100,7 @@ export default function SiteHeader({
         <button
           ref={menuButtonRef}
           type="button"
-          className="flex h-10 w-10 items-center justify-center rounded-full border border-border focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark dark:focus-visible:ring-primary-light md:hidden"
+          className="flex h-10 w-10 items-center justify-center rounded-full border border-border focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark dark:focus-visible:ring-primary-light lg:hidden"
           aria-label={
             isMenuOpen ? navigation("closeMenu") : navigation("openMenu")
           }
@@ -127,7 +118,7 @@ export default function SiteHeader({
         <nav
           id="mobile-site-navigation"
           aria-label={navigationLabel}
-          className="border-t border-border bg-background px-5 py-5 shadow-xl md:hidden"
+          className="border-t border-border bg-background px-5 py-5 shadow-xl lg:hidden"
         >
           <div className="mx-auto flex max-w-xl flex-col gap-4 text-sm font-medium">
             <Link

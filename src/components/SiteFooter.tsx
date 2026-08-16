@@ -4,13 +4,11 @@ import {useLocale, useTranslations} from "next-intl";
 import {isRouteAvailable, isSiteLocale} from "@/config/seo";
 import {Link} from "@/i18n/navigation";
 
-import AppStoreCTA from "./AppStoreCTA";
 import AnalyticsSettingsButton from "./AnalyticsSettingsButton";
 
 export default function SiteFooter() {
   const footer = useTranslations("Footer");
   const navigation = useTranslations("Navigation");
-  const hero = useTranslations("Hero");
   const common = useTranslations("Common");
   const locale = useLocale();
   const showTierOneLinks =
@@ -36,9 +34,6 @@ export default function SiteFooter() {
             </span>
             <span className="font-semibold">{common("appName")}</span>
           </Link>
-          <p className="mt-3 max-w-xl text-sm leading-6 text-gray-600 dark:text-gray-300">
-            {hero("subtitle")}
-          </p>
         </div>
 
         <nav
@@ -72,12 +67,6 @@ export default function SiteFooter() {
             {footer("support")}
           </Link>
           <AnalyticsSettingsButton />
-          <AppStoreCTA
-            location="footer"
-            label={navigation("download")}
-            ariaLabel={common("appStoreAria")}
-            className="font-semibold text-primary-dark hover:underline dark:text-primary-light"
-          />
         </nav>
 
         <p className="text-sm text-gray-600 dark:text-gray-300 md:col-span-2">

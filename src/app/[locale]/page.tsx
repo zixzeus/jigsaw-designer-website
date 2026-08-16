@@ -143,6 +143,12 @@ function HomeContent({
     {title: features("list.workflow.title"), description: features("list.workflow.description")},
     {title: features("list.anywhere.title"), description: features("list.anywhere.description")},
   ];
+  const story = content?.workflow ?? {
+    eyebrow: "",
+    title: features("title"),
+    intro: features("subtitle"),
+    items: baselineCards,
+  };
   const editorOverviewDimensions = getMediaDimensions("/editor_overview-v1-6.webp");
 
   return (
@@ -150,20 +156,20 @@ function HomeContent({
       <JsonLd data={structuredData} />
       <SiteHeader />
       <main>
-        <section className="overflow-hidden bg-gradient-to-b from-primary-ultra-light/60 to-background pt-32 pb-20 md:pt-40 md:pb-28">
-          <div className="container mx-auto px-6 text-center md:px-12">
-            <p className="mx-auto mb-8 inline-flex items-center gap-2 rounded-full border border-primary/15 bg-background/80 px-4 py-2 text-sm font-semibold text-primary-dark dark:text-primary-light">
+        <section className="overflow-hidden bg-gradient-to-b from-primary-ultra-light/55 via-background to-background pt-28 pb-16 md:pt-36 md:pb-24">
+          <div className="mx-auto max-w-6xl px-5 text-center md:px-8">
+            <p className="mx-auto mb-6 inline-flex items-center gap-2 rounded-full border border-primary/15 bg-background/75 px-4 py-2 text-sm font-medium text-primary-dark dark:text-primary-light">
               <span className="h-2 w-2 rounded-full bg-primary" aria-hidden="true" />
               {hero("version", {version: PRODUCT_FACTS.currentVersion})}
             </p>
-            <h1 className="mx-auto max-w-5xl text-5xl font-bold tracking-tight md:text-7xl md:leading-[1.05]">
+            <h1 className="mx-auto max-w-4xl text-4xl font-bold tracking-[-0.035em] sm:text-5xl md:text-6xl md:leading-[1.06]">
               <span>{hero("titlePart1").replace(/<br\s*\/?\s*>/gi, " ")}</span>{" "}
               <span className="text-primary-dark dark:text-primary-light">{hero("titleProfessional")}</span>
             </h1>
-            <p className="mx-auto mt-7 max-w-3xl text-xl leading-8 text-gray-600 dark:text-gray-300">
+            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600 dark:text-gray-300 md:text-xl">
               {hero("subtitle")}
             </p>
-            <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <div className="mt-9 flex flex-col items-center justify-center gap-5 sm:flex-row">
               <AppStoreCTA
                 location="hero"
                 pageId="home"
@@ -172,13 +178,13 @@ function HomeContent({
                 badge
               />
               <Link
-                href="/help"
-                className="rounded-full border border-border bg-background px-6 py-3 font-semibold transition-colors hover:border-primary/30 hover:text-primary-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark dark:hover:text-primary-light dark:focus-visible:ring-primary-light"
+                href="/#features"
+                className="inline-flex items-center gap-2 font-semibold text-foreground underline decoration-border underline-offset-8 transition-colors hover:text-primary-dark hover:decoration-primary dark:hover:text-primary-light"
               >
-                {navigation("help")}
+                {hero("learnMore")} <span aria-hidden="true">↓</span>
               </Link>
             </div>
-            <div className="mx-auto mt-16 max-w-5xl rounded-3xl bg-gradient-to-b from-gray-200 to-gray-50 p-2 shadow-2xl dark:from-gray-700 dark:to-gray-900">
+            <div className="mx-auto mt-12 max-w-5xl rounded-[1.75rem] bg-gradient-to-b from-gray-200 to-gray-50 p-2 shadow-2xl shadow-black/10 dark:from-gray-700 dark:to-gray-900 md:mt-14">
               <VideoFacade
                 videoId="MyeE4t5dMaU"
                 title={`${common("appName")} — ${hero("learnMore")}`}
@@ -188,168 +194,148 @@ function HomeContent({
           </div>
         </section>
 
-        <section id="features" className="scroll-mt-24 py-24">
-          <div className="container mx-auto px-6 md:px-12">
-            <SectionHeading
-              title={content?.audience.title ?? features("title")}
-              description={content?.audience.intro ?? features("subtitle")}
-            />
-            <div className="grid gap-7 md:grid-cols-3">
-              {(content?.audience.items ?? baselineCards).map((item, index) => (
-                <FeatureCard key={item.title} index={index + 1} {...item} />
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {content ? (
-          <TierOneHomeSections content={content} />
-        ) : (
-          <section className="border-y border-border bg-background-secondary py-20">
-            <div className="container mx-auto grid items-center gap-10 px-6 md:grid-cols-2 md:px-12">
-              <div>
-                <p className="text-sm font-bold uppercase tracking-wider text-primary-dark dark:text-primary-light">
-                  {help("sections.importExport")}
+        <section id="features" className="scroll-mt-20 py-20 md:py-28">
+          <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 md:px-8 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)] lg:gap-16">
+            <div>
+              {story.eyebrow ? (
+                <p className="text-sm font-semibold text-primary-dark dark:text-primary-light">
+                  {story.eyebrow}
                 </p>
-                <h2 className="mt-3 text-3xl font-bold">{help("generationContent.title")}</h2>
-                <p className="mt-5 leading-7 text-gray-600 dark:text-gray-300">
-                  {help("generationContent.desc")}
-                </p>
-                <ul className="mt-6 grid gap-3 text-sm sm:grid-cols-2">
-                  {[
-                    help("sections.tools"),
-                    help("sections.generation"),
-                    help("interfaceContent.layersPanel.title"),
-                    help("projectLibraryContent.title"),
-                  ].map((item) => (
-                    <li key={item} className="flex gap-2">
-                      <span className="text-primary-dark dark:text-primary-light" aria-hidden="true">✓</span>
-                      {item}
+              ) : null}
+              <h2 className="mt-3 max-w-xl text-3xl font-bold tracking-tight md:text-5xl">
+                {story.title}
+              </h2>
+              <p className="mt-5 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-300">
+                {story.intro}
+              </p>
+              {content ? (
+                <ol className="mt-9 border-y border-border">
+                  {story.items.map((item, index) => (
+                    <li key={item.title} className="grid grid-cols-[2.25rem_1fr] gap-3 border-b border-border py-5 last:border-b-0">
+                      <span className="pt-0.5 text-sm font-semibold tabular-nums text-primary-dark dark:text-primary-light">
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
+                      <div>
+                        <h3 className="font-semibold">{item.title}</h3>
+                        <p className="mt-2 leading-7 text-gray-600 dark:text-gray-300">{item.description}</p>
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+              ) : (
+                <ul className="mt-9 border-y border-border">
+                  {story.items.map((item) => (
+                    <li key={item.title} className="border-b border-border py-5 last:border-b-0">
+                      <h3 className="font-semibold">{item.title}</h3>
+                      <p className="mt-2 leading-7 text-gray-600 dark:text-gray-300">{item.description}</p>
                     </li>
                   ))}
                 </ul>
-              </div>
-              <Image
-                src="/editor_overview-v1-6.webp"
-                alt={help("interfaceContent.title")}
-                width={editorOverviewDimensions.width}
-                height={editorOverviewDimensions.height}
-                sizes="(max-width: 768px) calc(100vw - 3rem), 50vw"
-                className="h-auto w-full rounded-2xl border border-border shadow-lg"
-              />
+              )}
             </div>
-          </section>
-        )}
 
-        <section className="border-t border-border py-24">
-          <div className="container mx-auto max-w-4xl px-6 md:px-12">
-            <h2 className="text-center text-3xl font-bold md:text-4xl">
+            <figure>
+              <div className="overflow-hidden rounded-[1.75rem] border border-border bg-background-secondary shadow-xl shadow-black/5">
+                <Image
+                  src="/editor_overview-v1-6.webp"
+                  alt={content?.gallery.items[0].alt ?? help("interfaceContent.title")}
+                  width={editorOverviewDimensions.width}
+                  height={editorOverviewDimensions.height}
+                  sizes="(max-width: 1024px) calc(100vw - 2.5rem), 55vw"
+                  className="h-auto w-full"
+                />
+              </div>
+              {content ? (
+                <figcaption className="mt-4 flex flex-wrap items-center justify-between gap-3 px-1 text-sm text-gray-600 dark:text-gray-300">
+                  <span>{content.gallery.items[0].caption}</span>
+                  <Link href="/changelog/1-6-0" className="font-semibold text-primary-dark hover:underline dark:text-primary-light">
+                    {content.release.changelogLabel} <span aria-hidden="true">→</span>
+                  </Link>
+                </figcaption>
+              ) : null}
+            </figure>
+          </div>
+        </section>
+
+        {content ? <TierOneHomeSections content={content} navigationDownload={navigation("download")} appStoreAria={common("appStoreAria")} /> : null}
+
+        <section className="border-t border-border py-20 md:py-24">
+          <div className="mx-auto grid max-w-6xl gap-10 px-5 md:px-8 lg:grid-cols-[minmax(0,0.65fr)_minmax(0,1.35fr)] lg:gap-16">
+            <h2 className="max-w-sm text-3xl font-bold tracking-tight md:text-4xl">
               {content?.faq.title ?? support("faq.title")}
             </h2>
-            <div className="mt-10 space-y-4">
+            <div className="border-y border-border">
               {faq.map((item) => (
-                <details key={item.question} className="rounded-2xl border border-border bg-background p-6 open:border-primary/30">
-                <summary className="cursor-pointer font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark dark:focus-visible:ring-primary-light">
-                    {item.question}
+                <details key={item.question} className="group border-b border-border py-6 last:border-b-0">
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-5 font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark dark:focus-visible:ring-primary-light">
+                    <span>{item.question}</span>
+                    <svg
+                      aria-hidden="true"
+                      className="h-5 w-5 shrink-0 text-gray-500 transition-transform group-open:rotate-45"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                    >
+                      <path d="M10 4v12M4 10h12" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+                    </svg>
                   </summary>
-                  <p className="mt-4 leading-7 text-gray-600 dark:text-gray-300">{item.answer}</p>
+                  <p className="max-w-2xl pt-4 leading-7 text-gray-600 dark:text-gray-300">{item.answer}</p>
                 </details>
               ))}
             </div>
           </div>
         </section>
 
-        <section className="bg-background-secondary py-20 text-center">
-          <div className="container mx-auto max-w-3xl px-6">
-            <h2 className="text-3xl font-bold">{content?.finalCta.title ?? common("appName")}</h2>
-            <p className="mx-auto mt-4 max-w-2xl leading-7 text-gray-600 dark:text-gray-300">
-              {content?.finalCta.description ?? hero("subtitle")}
-            </p>
-            <AppStoreCTA
-              location="home-final"
-              pageId="home"
-              label={navigation("download")}
-              ariaLabel={common("appStoreAria")}
-              className="mt-7 inline-flex rounded-full bg-primary-dark px-7 py-3 font-semibold text-white hover:bg-[#1452a3] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark focus-visible:ring-offset-2"
-            />
-          </div>
-        </section>
+        {content ? (
+          <nav aria-label={content.explore.title} className="pb-16 md:pb-20">
+            <div className="mx-auto flex max-w-6xl flex-col gap-4 border-t border-border px-5 pt-7 text-sm md:flex-row md:items-start md:px-8">
+              <span className="shrink-0 font-semibold">{content.explore.title}</span>
+              <div className="flex flex-wrap gap-x-6 gap-y-3 text-gray-600 dark:text-gray-300">
+                {content.explore.items.map((item) => (
+                  <Link key={item.href} href={item.href} className="hover:text-primary-dark hover:underline dark:hover:text-primary-light">
+                    {item.title}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </nav>
+        ) : null}
       </main>
       <SiteFooter />
     </div>
   );
 }
 
-function TierOneHomeSections({content}: {content: HomePageContent}) {
-  const editorOverviewDimensions = getMediaDimensions("/editor_overview-v1-6.webp");
-
+function TierOneHomeSections({
+  content,
+  navigationDownload,
+  appStoreAria,
+}: {
+  content: HomePageContent;
+  navigationDownload: string;
+  appStoreAria: string;
+}) {
   return (
     <>
-      <section className="border-y border-border bg-background-secondary py-24">
-        <div className="container mx-auto px-6 md:px-12">
-          <p className="text-center text-sm font-bold uppercase tracking-[0.2em] text-primary-dark dark:text-primary-light">
-            {content.workflow.eyebrow}
-          </p>
-          <SectionHeading title={content.workflow.title} description={content.workflow.intro} />
-          <ol className="grid gap-7 md:grid-cols-3">
-            {content.workflow.items.map((item) => (
-              <li key={item.title} className="rounded-3xl border border-border bg-background p-8">
-                <h3 className="text-xl font-bold">{item.title}</h3>
-                <p className="mt-4 leading-7 text-gray-600 dark:text-gray-300">{item.description}</p>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
-
-      <section className="py-24">
-        <div className="container mx-auto grid items-center gap-12 px-6 md:px-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)]">
-          <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-primary-dark dark:text-primary-light">
-              {content.release.eyebrow}
-            </p>
-            <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-5xl">{content.release.title}</h2>
-            <p className="mt-5 leading-7 text-gray-600 dark:text-gray-300">{content.release.description}</p>
-            <ul className="mt-7 space-y-3">
-              {content.release.capabilities.map((capability) => (
-                <li key={capability} className="flex gap-3 leading-7">
-                  <span className="text-primary-dark dark:text-primary-light" aria-hidden="true">✓</span>
-                  <span>{capability}</span>
-                </li>
-              ))}
-            </ul>
-            <Link href="/changelog/1-6-0" className="mt-8 inline-flex font-semibold text-primary-dark underline-offset-4 hover:underline dark:text-primary-light">
-              {content.release.changelogLabel} <span className="ms-2" aria-hidden="true">→</span>
-            </Link>
+      <section className="border-y border-border bg-background-secondary py-20 md:py-24">
+        <div className="mx-auto max-w-6xl px-5 md:px-8">
+          <div className="max-w-2xl">
+            <h2 className="text-3xl font-bold tracking-tight md:text-4xl">{content.gallery.title}</h2>
+            <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">{content.gallery.intro}</p>
           </div>
-          <Image
-            src="/editor_overview-v1-6.webp"
-            alt={content.gallery.items[0].alt}
-            width={editorOverviewDimensions.width}
-            height={editorOverviewDimensions.height}
-            sizes="(max-width: 1024px) calc(100vw - 3rem), 50vw"
-            className="h-auto w-full rounded-3xl border border-border shadow-xl"
-          />
-        </div>
-      </section>
-
-      <section className="border-y border-border bg-background-secondary py-24">
-        <div className="container mx-auto px-6 md:px-12">
-          <SectionHeading title={content.gallery.title} description={content.gallery.intro} />
-          <div className="grid gap-7 md:grid-cols-2">
-            {content.gallery.items.slice(1).map((item) => {
+          <div className="mt-10 grid items-start gap-6 md:grid-cols-[minmax(0,0.7fr)_minmax(0,1fr)]">
+            {content.gallery.items.slice(1, 3).map((item) => {
               const dimensions = getMediaDimensions(item.src);
               return (
-                <figure key={item.src} className="overflow-hidden rounded-3xl border border-border bg-background shadow-sm">
+                <figure key={item.src} className="overflow-hidden rounded-[1.5rem] border border-border bg-background">
                   <Image
                     src={item.src}
                     alt={item.alt}
                     width={dimensions.width}
                     height={dimensions.height}
-                    sizes="(max-width: 768px) calc(100vw - 3rem), 50vw"
+                    sizes="(max-width: 768px) calc(100vw - 2.5rem), 50vw"
                     className="h-auto w-full"
                   />
-                  <figcaption className="border-t border-border px-6 py-4 text-sm font-semibold">{item.caption}</figcaption>
+                  <figcaption className="border-t border-border px-5 py-4 text-sm font-medium">{item.caption}</figcaption>
                 </figure>
               );
             })}
@@ -357,43 +343,32 @@ function TierOneHomeSections({content}: {content: HomePageContent}) {
         </div>
       </section>
 
-      <section className="py-24">
-        <div className="container mx-auto px-6 md:px-12">
-          <SectionHeading title={content.useCases.title} description={content.useCases.intro} />
-          <div className="grid gap-7 md:grid-cols-3">
-            {content.useCases.items.map((item, index) => (
-              <FeatureCard key={item.title} index={index + 1} {...item} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="border-y border-border bg-background-secondary py-24">
-        <div className="container mx-auto px-6 md:px-12">
-          <SectionHeading title={content.plans.title} description={content.plans.intro} />
-          <div className="mx-auto grid max-w-5xl gap-7 md:grid-cols-2">
-            <PlanCard name={content.plans.freeName} summary={content.plans.freeSummary} features={content.plans.freeFeatures} />
-            <PlanCard name={content.plans.premiumName} summary={content.plans.premiumSummary} features={content.plans.premiumFeatures} featured />
-          </div>
-          <div className="mt-8 text-center">
-            <p className="text-sm text-gray-600 dark:text-gray-300">{content.plans.storeNote}</p>
-            <Link href="/pricing" className="mt-4 inline-flex rounded-full border border-primary/30 bg-background px-6 py-3 font-semibold text-primary-dark hover:border-primary dark:text-primary-light">
-              {content.plans.pricingLabel} <span className="ms-2" aria-hidden="true">→</span>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-24">
-        <div className="container mx-auto px-6 md:px-12">
-          <SectionHeading title={content.explore.title} description={content.explore.intro} />
-          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {content.explore.items.map((item) => (
-              <Link key={item.href} href={item.href} className="rounded-2xl border border-border bg-background p-7 transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark dark:focus-visible:ring-primary-light">
-                <h3 className="text-lg font-bold text-primary-dark dark:text-primary-light">{item.title}</h3>
-                <p className="mt-2 leading-6 text-gray-600 dark:text-gray-300">{item.description}</p>
-              </Link>
-            ))}
+      <section className="py-20 md:py-24">
+        <div className="mx-auto max-w-6xl px-5 md:px-8">
+          <div className="grid gap-10 rounded-[2rem] border border-border bg-background-secondary px-6 py-8 md:px-10 md:py-10 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:items-center">
+            <div>
+              <h2 className="text-3xl font-bold tracking-tight">{content.plans.title}</h2>
+              <p className="mt-4 max-w-lg leading-7 text-gray-600 dark:text-gray-300">{content.plans.intro}</p>
+              <p className="mt-3 text-sm text-gray-500">{content.plans.storeNote}</p>
+            </div>
+            <div>
+              <div className="grid gap-6 sm:grid-cols-2">
+                <PlanSummary name={content.plans.freeName} summary={content.plans.freeSummary} features={content.plans.freeFeatures} />
+                <PlanSummary name={content.plans.premiumName} summary={content.plans.premiumSummary} features={content.plans.premiumFeatures} />
+              </div>
+              <div className="mt-8 flex flex-wrap items-center gap-5">
+                <AppStoreCTA
+                  location="home-final"
+                  pageId="home"
+                  label={navigationDownload}
+                  ariaLabel={appStoreAria}
+                  className="inline-flex rounded-full bg-primary-dark px-6 py-3 font-semibold text-white transition-colors hover:bg-[#1452a3] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark focus-visible:ring-offset-2"
+                />
+                <Link href="/pricing" className="font-semibold text-primary-dark hover:underline dark:text-primary-light">
+                  {content.plans.pricingLabel} <span aria-hidden="true">→</span>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -401,40 +376,19 @@ function TierOneHomeSections({content}: {content: HomePageContent}) {
   );
 }
 
-function SectionHeading({title, description}: {title: string; description: string}) {
+function PlanSummary({name, summary, features}: {name: string; summary: string; features: string[]}) {
   return (
-    <div className="mx-auto mb-14 max-w-3xl text-center">
-      <h2 className="text-3xl font-bold tracking-tight md:text-4xl">{title}</h2>
-      <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">{description}</p>
-    </div>
-  );
-}
-
-function FeatureCard({index, title, description}: {index: number; title: string; description: string}) {
-  return (
-    <article className="rounded-3xl border border-border bg-background p-8 transition-all hover:-translate-y-0.5 hover:border-primary/25 hover:shadow-lg">
-      <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary-ultra-light font-bold text-primary-dark dark:text-primary-light">
-        {String(index).padStart(2, "0")}
-      </span>
-      <h3 className="mt-6 text-xl font-bold">{title}</h3>
-      <p className="mt-3 leading-7 text-gray-600 dark:text-gray-300">{description}</p>
-    </article>
-  );
-}
-
-function PlanCard({name, summary, features, featured = false}: {name: string; summary: string; features: string[]; featured?: boolean}) {
-  return (
-    <article className={`rounded-3xl border p-8 ${featured ? "border-primary bg-primary-ultra-light/30 shadow-lg" : "border-border bg-background"}`}>
-      <h3 className="text-2xl font-bold">{name}</h3>
-      <p className="mt-3 leading-7 text-gray-600 dark:text-gray-300">{summary}</p>
-      <ul className="mt-7 space-y-3">
+    <div>
+      <h3 className="font-semibold">{name}</h3>
+      <p className="mt-1 text-sm leading-6 text-gray-600 dark:text-gray-300">{summary}</p>
+      <ul className="mt-3 space-y-2 text-sm">
         {features.map((feature) => (
-          <li key={feature} className="flex gap-3 leading-7">
+          <li key={feature} className="flex gap-2">
             <span className="text-primary-dark dark:text-primary-light" aria-hidden="true">✓</span>
             <span>{feature}</span>
           </li>
         ))}
       </ul>
-    </article>
+    </div>
   );
 }

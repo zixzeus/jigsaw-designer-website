@@ -11,11 +11,11 @@
     "closeMenu": "關閉選單"
   },
   "Hero": {
-    "version": "{version} 已發佈 - 快來體驗",
-    "titlePart1": "像專業人士一樣<br/>",
-    "titleProfessional": "設計拼圖",
-    "subtitle": "適用於 iPhone、iPad 和 Mac 的專業拼圖設計工具，支援精準 SVG 編輯和演算法產生。",
-    "learnMore": "瞭解更多"
+    "version": "版本 {version} 現已上架 App Store",
+    "titlePart1": "從任意輪廓產生",
+    "titleProfessional": "可編輯拼圖切割線",
+    "subtitle": "繪製或匯入邊界、產生拼圖、調整向量，並在 iPhone、iPad 或 Mac 上匯出 SVG。",
+    "learnMore": "查看使用方式"
   },
   "Features": {
     "title": "強大功能",

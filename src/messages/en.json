@@ -11,11 +11,11 @@
     "closeMenu": "Close menu"
   },
   "Hero": {
-    "version": "{version} Released - Try it now!",
-    "titlePart1": "Design Jigsaw Puzzles like a <br/>",
-    "titleProfessional": "Professional",
-    "subtitle": "A professional jigsaw puzzle design tool for iPhone, iPad, and Mac, with precise SVG editing and algorithm-driven generation.",
-    "learnMore": "Learn More"
+    "version": "Version {version} is on the App Store",
+    "titlePart1": "Turn any shape into",
+    "titleProfessional": "editable puzzle cutlines",
+    "subtitle": "Draw or import a boundary, generate the pattern, refine the vectors, and export SVG on iPhone, iPad, or Mac.",
+    "learnMore": "See how it works"
   },
   "Features": {
     "title": "Powerful Features",

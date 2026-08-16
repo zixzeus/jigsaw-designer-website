@@ -3,7 +3,7 @@ import nextVitals from "eslint-config-next/core-web-vitals";
 import nextTypescript from "eslint-config-next/typescript";
 
 const eslintConfig = defineConfig([
-  globalIgnores(["env.d.ts", ".open-next/**"]),
+  globalIgnores(["env.d.ts", ".open-next/**", ".wrangler/**"]),
   ...nextVitals,
   ...nextTypescript,
   {
