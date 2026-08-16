@@ -2,23 +2,24 @@
     "Navigation": {
         "features": "Ominaisuudet",
         "download": "Lataa",
-        "github": "GitHub",
-        "getStarted": "Aloita",
         "home": "Koti",
         "support": "Tuki",
-        "help": "Ohjekeskus"
+        "help": "Ohjekeskus",
+        "pricing": "Hinnat",
+        "language": "Kieli",
+        "openMenu": "Avaa valikko",
+        "closeMenu": "Sulje valikko"
     },
     "Hero": {
         "version": "{version} Julkaistu - Kokeile nyt!",
         "titlePart1": "Suunnittele Palapelejä Kuin <br/>",
         "titleProfessional": "Ammattilainen",
-        "subtitle": "Tehokkain palapelien suunnittelutyökalu Apple-alustoille. Natiivi suorituskyky, SVG-tarkkuus ja algoritminen generointi.",
-        "download": "Lataa",
+        "subtitle": "Ammattimainen palapelien suunnittelutyökalu iPhonelle, iPadille ja Macille sekä tarkka SVG-muokkaus ja algoritmipohjainen generointi.",
         "learnMore": "Lue Lisää"
     },
     "Features": {
         "title": "Tehokkaat Ominaisuudet",
-        "subtitle": "Kaikki mitä tarvitset ammattilaistasoisten palapelien luomiseen.",
+        "subtitle": "Kohdennetut työkalut mukautettujen palapelimallien generointiin ja muokkaamiseen.",
         "list": {
             "customization": {
                 "title": "Rajaton Mukautus",
@@ -26,7 +27,7 @@
             },
             "workflow": {
                 "title": "Salamannopea Työnkulku",
-                "description": "Muuta tuntien käsityö sekunneiksi. Luo monimutkaisia palapelimalleja vain 3 sekunnissa edistyneellä moottorillamme."
+                "description": "Vähennä toistuvaa käsin jäljentämistä algoritmipohjaisella palapelikuviogeneroinnilla."
             },
             "anywhere": {
                 "title": "Suunnittele Missä Tahansa",
@@ -37,34 +38,38 @@
     "Footer": {
         "privacy": "Tietosuoja",
         "support": "Tuki",
-        "github": "GitHub",
-        "rights": "© {year} JigsawDesigner. Kaikki oikeudet pidätetään."
+        "rights": "© {year} JigsawDesigner. Kaikki oikeudet pidätetään.",
+        "pricing": "Hinnat",
+        "terms": "Käyttöehdot",
+        "refund": "Hyvityskäytäntö",
+        "help": "Ohjekeskus"
     },
     "Privacy": {
         "title": "Tietosuojaseloste",
+        "metaDescription": "Sovellus käsittelee suunnittelutiedostot pääasiassa laitteellasi. Emme myy henkilötietoja.",
         "introduction": {
             "title": "Johdanto",
-            "content": "JigsawDesigner (\"me\", \"meidän\" tai \"meitä\") kunnioittaa yksityisyyttäsi ja on sitoutunut suojelemaan sitä. Tämä tietosuojaseloste selittää, miten keräämme, käytämme ja suojaamme tietojasi, kun käytät sovellustamme ja verkkosivustoamme."
+            "content": "Tämä käytäntö selittää, miten JigsawDesigner käsittelee tietoja sovelluksessa ja tällä verkkosivustolla, mukaan lukien valinnaiset pilvitoiminnot, julkinen julkaiseminen, välttämätön kieliasetus ja valinnainen analytiikka."
         },
         "dataCollection": {
             "title": "Tietojen Keruu",
-            "content": "Emme kerää henkilötietoja.",
-            "content2": "JigsawDesigner on suunniteltu käsittelemään tiedostosi paikallisesti laitteellasi. Suunnitelmasi, kuvasi ja projektisi eivät koskaan poistu laitteeltasi, ellet nimenomaisesti päätä viedä tai jakaa niitä.",
+            "content": "Sovellus käsittelee suunnittelutiedostot pääasiassa laitteellasi.",
+            "content2": "Jos otat iCloudin käyttöön, projektitiedot voivat synkronoitua Applen iCloud- ja CloudKit-palvelujen kautta. Julkaiseminen lähettää valitun projektin julkiseen CloudKit-tietokantaan, ja jakolinkki voi antaa valittuun projektiin vain luku -oikeuden.",
             "list": {
-                "behavior": "Emme seuraa käyttökäyttäytymistäsi.",
-                "upload": "Emme lataa kuviasi, kuten palapelikuvia, millekään palvelimille.",
-                "sell": "Emme myy tietojasi kolmansille osapuolille."
+                "behavior": "Kun valitset kielen itse, sivusto tallentaa välttämättömän kieliasetusevästeen enintään vuodeksi. Valinnainen analytiikkavalintasi tallennetaan siitä erillään tämän selaimen localStorageen. Suostumuksellasi Google Analytics 4 voi mitata käyntejä ja toimintoja; Cloudflare käsittelee sivuston toimittamiseen tarvittavat pyynnöt ja suojaustiedot.",
+                "upload": "Kolmannen osapuolen mediaan tai palveluihin, kuten videopalveluun, otetaan yhteys vasta, kun päätät ladata tai avata kyseisen sisällön; tällöin sovelletaan niiden omia tietosuojakäytäntöjä.",
+                "sell": "Emme myy henkilötietoja."
             }
         },
         "analytics": {
-            "title": "Sovellusanalytiikka",
-            "content": "Saatamme käyttää Applen vakiomuotoista analytiikkaa (valinnainen) parantaaksemme sovelluksen suorituskykyä ja vakautta (esim. kaatumisraportit). Nämä tiedot ovat anonyymejä eivätkä tunnista sinua henkilökohtaisesti. Voit kieltäytyä milloin tahansa laitteesi asetuksista."
+            "title": "Analytiikka ja palveluntarjoajat",
+            "content": "Apple voi toimittaa valinnaisia sovellusanalytiikka- ja kaatumistietoja laiteasetustesi mukaisesti. Valinnainen sivustoanalytiikka käyttää Google Analytics 4:ää vasta suostumuksen jälkeen, ja valinta tallennetaan selaimen localStorageen. Cloudflare ylläpitää ja suojaa sivustoa. Voit hylätä analytiikan vaikuttamatta kielivalintaan."
         },
         "contact": {
             "title": "Ota Yhteyttä",
             "content": "Jos sinulla on kysyttävää tästä tietosuojaselosteesta, ota meihin yhteyttä osoitteessa:"
         },
-        "lastUpdated": "Viimeksi päivitetty: 10. joulukuuta 2025"
+        "lastUpdated": "Päivitetty viimeksi: 16. elokuuta 2026"
     },
     "Support": {
         "hero": {
@@ -85,11 +90,11 @@
             "title": "Usein Kysytyt Kysymykset",
             "q1": {
                 "question": "Onko JigsawDesigner kertatutkimus?",
-                "answer": "Kyllä, JigsawDesigner tarjoaa elinikäisen lisenssivaihtoehdon sekä tilaussuunnitelmia. Tarkista App Storesta uusimmat hinnat."
+                "answer": "JigsawDesigner tarjoaa kuukausi- ja vuositilaukset Applen kautta; Apple näyttää kauppasi nykyisen hinnan."
             },
             "q2": {
                 "question": "Voinko viedä suunnitelmani kaupalliseen käyttöön?",
-                "answer": "Ehdottomasti. Kaikki JigsawDesignerilla luodut mallit ovat sinun. Voit viedä ne SVG- tai PDF-muodossa valmistusta tai kaupallista tulostusta varten."
+                "answer": "Premium-tilaajat voivat viedä SVG-tiedostoja. Kaupallinen käyttö riippuu myös malliin sisältyvien kuvien, fonttien, mallipohjien ja muun sisällön oikeuksista."
             },
             "q3": {
                 "question": "Tukeeko se mukautettuja leikkauslinjoja?",
@@ -147,11 +152,11 @@
             },
             "pen": {
                 "title": "Kynätyökalu",
-                "desc": "Vapaamuotoinen polun piirtäminen. Napsauta ja vedä luodaksesi Bezier-käyriä ja orgaanisia muotoja."
+                "desc": "Piirrä tasaisia vapaamuotoisia polkuja, myös avoimia ääriviivoja, joita voit jatkaa tai yhdistää."
             },
             "line": {
                 "title": "Viivatyökalu",
-                "desc": "Piirrä suoria viivoja. Täydellinen geometrisiin malleihin ja tarkkoihin liitoksiin."
+                "desc": "Piirrä suoria viivoja."
             },
             "rect": {
                 "title": "Suorakulmiotyökalu",
@@ -198,10 +203,6 @@
             }
         },
         "generationContent": {
-            "howItWorks": {
-                "title": "Kuinka Se Toimii",
-                "desc": "JigsawDesigner käyttää edistyneitä C++-algoritmeja OpenCV- ja Boost-kirjastojen kanssa korkealaatuisten palapelin palojen luomiseen käyttäen Voronoi-kaavioita ja DCEL-tietorakenteita."
-            },
             "steps": {
                 "1": {
                     "title": "Tuo rajaviiva",
@@ -209,19 +210,19 @@
                 },
                 "2": {
                     "title": "Valitse liitosmalli",
-                    "desc": "Valitse liitosmalli (standardi konveksi, monipisteliitos jne.) määritelläksesi miten palat lukittuvat."
+                    "desc": "Mallit määrittelevät liitosten muodon. Sisäänrakennetut mallit: Standardi Kupera, Standardi Kovera, Suora Viiva"
                 },
                 "3": {
                     "title": "Määritä parametrit",
-                    "desc": "Aseta ruudukon koko, palojen määrä ja liitosten etäisyys tarkastuspaneelissa."
+                    "desc": "Aseta Tarkastajassa ruudukon koko, palamäärä ja liitosvälin alue. Nämä parametrit vaikuttavat generoitujen leikkausviivojen tiheyteen ja monimutkaisuuteen."
                 },
                 "4": {
                     "title": "Luo leikkausviivat",
-                    "desc": "Napsauta \"Luo palapeli\". Sekunneissa sinulla on laserleikkaukseen tai tulostukseen valmis stanssi."
+                    "desc": "Suorita generointi, tarkista tulos ja säädä asetuksia tarvittaessa ennen SVG-tiedoston vientiä."
                 }
             },
             "title": "Opas leikkausviivojen luomiseen",
-            "desc": "JigsawDesigner käyttää edistyneitä C++ -algoritmeja ammattimaisten leikkausviivojen luomiseen. Seuraa näitä 4 vaihetta:"
+            "desc": "JigsawDesigner käyttää C++-algoritmeja, kuten Voronoi- ja DCEL-tekniikoita, mukautettavien palapelien leikkausviivojen generointiin. Noudata näitä neljää vaihetta:"
         },
         "importExportContent": {
             "import": {
@@ -246,7 +247,7 @@
             },
             "premium": {
                 "title": "Premium-ominaisuus",
-                "desc": "Premium-tilaus vaaditaan generoitujen palapelien viemiseksi. Ilmaiskäyttäjät voivat suunnitella ja generoida, mutta vienti on rajoitettu."
+                "desc": "Uudet käyttäjät saavat {count} ilmaista palapeligenerointia. SVG-vienti ja rajoittamaton generointi edellyttävät aktiivista Apple-tilausta."
             }
         },
         "shortcutsContent": {
@@ -272,35 +273,14 @@
             }
         },
         "troubleshooting": {
-            "title": "Vianmääritys",
-            "items": {
-                "shapes": {
-                    "title": "Muodot eivät näy",
-                    "content": "Varmista, että olet oikeassa piirustustilassa. Tarkista, että kankaan koolla on tilaa muodollesi. Tarkista, että muodon täyttö-/viivavärit eivät ole läpinäkyviä."
-                },
-                "select": {
-                    "title": "Muotoa ei voi valita",
-                    "content": "Vaihda Valintatyökaluun (kohdistinkuvake). Varmista, että muoto ei ole piilossa muiden takana. Kokeile käyttää Ctrl+Napsautusta porautuaksesi ryhmiin."
-                },
-                "fail": {
-                    "title": "Palapelin generointi epäonnistuu",
-                    "content": "Varmista, että rajamuotosi on suljettu polku. Vähennä palojen määrää monimutkaisille muodoille. Tarkista, että aukkopohjat ovat kelvollisia."
-                },
-                "export": {
-                    "title": "Vienti on poistettu käytöstä",
-                    "content": "Premium-tilaus vaaditaan generoitujen palapelien viemiseksi. Ilmainen taso sallii suunnittelun, mutta rajoittaa vientitoimintoja."
-                }
-            }
+            "title": "Vianmääritys"
         },
         "needHelp": {
             "title": "Tarvitsetko Lisää Apua?",
-            "desc": "Vieraile tukisivullamme tai ota meihin yhteyttä suoraan saadaksesi henkilökohtaista apua",
-            "contact": "Ota Yhteyttä Tukeen",
-            "download": "Lataa Sovellus"
+            "desc": "Vieraile tukisivullamme tai ota meihin yhteyttä suoraan saadaksesi henkilökohtaista apua"
         },
-        "metaTitle": "Ohjekeskus - Ammattimainen palapelin leikkausviivojen luonti & SVG-suunnittelu",
-        "metaDescription": "Hallitse JigsawDesigner: Lopullinen ohjelmisto palapelin leikkausviivojen luomiseen. Luo laserleikattuja SVG-tiedostoja ja Voronoi-malleja.",
-        "metaKeywords": "palapelin leikkausviiva generaattori, stanssiviiva valmistaja, laserleikkaus SVG, palapelisuunnittelu",
+        "metaTitle": "Ohjekeskus & Palapelin luontiopas",
+        "metaDescription": "Opi generoimaan palapelien leikkausviivoja, muokkaamaan vektorimuotoja, hallitsemaan projekteja ja viemään SVG-tiedostoja JigsawDesignerilla.",
         "interfaceContent": {
             "title": "Editori & Leikkausviiva-käyttöliittymä",
             "intro": "JigsawDesigner-editori tarjoaa ammattimaisen vektorialueen tarkkojen leikkausviivojen ja stanssien suunnitteluun.",
@@ -321,7 +301,7 @@
                     {
                         "icon": "✒️",
                         "name": "Kynä",
-                        "desc": "Piirrä vapaita polkuja"
+                        "desc": "Piirrä tasaisia vapaamuotoisia polkuja"
                     },
                     {
                         "icon": "📏",
@@ -350,8 +330,8 @@
                     }
                 ],
                 "buttons": {
-                    "import": "Tuo olemassa olevat SVG-tiedostot",
-                    "export": "Vie suunnittelu SVG:nä",
+                    "import": "Tuo olemassa olevia SVG-tiedostoja projektiin",
+                    "export": "Vie malli SVG-tiedostona",
                     "projectName": "Näyttää projektin nimen ja muotojen määrän"
                 }
             },
@@ -476,7 +456,7 @@
                 "sections": {
                     "language": {
                         "title": "Kieliasetukset",
-                        "desc": "Vaihda sovelluksen kieli. Tukee järjestelmän oletusta tai valitse 40+ kielestä."
+                        "desc": "Käytä järjestelmän kieltä tai valitse jokin sovelluksen tukemista kielistä."
                     },
                     "subscription": {
                         "title": "Tilaushallinta",
@@ -541,21 +521,6 @@
                 }
             }
         },
-        "industryKeywords": {
-            "title": "Miksi JigsawDesigner?",
-            "laserCutting": {
-                "title": "Laserleikkaus SVG",
-                "desc": "Luo puhtaita ja tarkkoja SVG-polkuja, jotka on optimoitu Glowforge-, Cricut- ja CO2-lasereille."
-            },
-            "dieline": {
-                "title": "Yksilölliset stanssit",
-                "desc": "Luo uniikkeja stansseja Voronoi-malleilla, jotka takaavat jokaisen palan yksilöllisyyden."
-            },
-            "manufacturing": {
-                "title": "Tuotantovalmis",
-                "desc": "Vie mallit ammattimaisissa vektorimuodoissa (SVG, PDF) massatuotantoon tai käsityöhön."
-            }
-        },
         "projectLibraryContent": {
             "title": "Projektikirjasto",
             "intro": "Projektikirjasto on keskuksesi kaikkien palapelimallien hallintaan. Pääsy tervetuloruudulta tai Tiedosto → Projektikirjasto.",
@@ -589,7 +554,7 @@
                         },
                         "share": {
                             "title": "Luo linkki",
-                            "desc": "Luo iCloud-linkki. Lähetä ystäville ja he näkevät projektisi"
+                            "desc": "Luo iCloud-linkki, joka antaa vastaanottajille vain luku -oikeuden valittuun projektiin Jaetuissa projekteissa."
                         },
                         "delete": {
                             "title": "Poista",
@@ -614,15 +579,26 @@
             "sharedProjects": {
                 "title": "Jaetut Projektit",
                 "icon": "👥",
-                "desc": "Yhteistyötila projekteille, jotka muut käyttäjät ovat jakaneet kanssasi.",
+                "desc": "Tarkastele projekteja, jotka muut käyttäjät jakavat kanssasi iCloudin kautta.",
                 "features": [
                     "Vastaanota kollegoiden tai ystävien jakamia projekteja",
-                    "Vain luku- tai muokkausoikeus käyttöoikeuksien mukaan",
-                    "Reaaliaikainen synkronointi projektin omistajan kanssa",
+                    "Vain luku -oikeus jaettuihin projekteihin",
+                    "Päivitykset voivat tulla näkyviin, kun iCloud on synkronoinut omistajan muutokset",
                     "Hyväksy jakoja kutsulinkin kautta"
                 ],
-                "howTo": "Kun joku jakaa projektin kanssasi, se näkyy täällä automaattisesti. Napsauta avataksesi ja tehdäksesi yhteistyötä."
+                "howTo": "Kun hyväksyt kelvollisen jakolinkin, projekti voi näkyä Jaetuissa projekteissa vain luku -tilassa."
             }
         }
+    },
+    "Common": {
+        "appName": "JigsawDesigner",
+        "appStoreAria": "Näytä JigsawDesigner App Storessa"
+    },
+    "Consent": {
+        "title": "Valinnainen analytiikka",
+        "description": "Salli valinnainen Google Analytics 4 -mittaus, jotta voimme ymmärtää verkkosivuston käyttöä. Valintasi tallennetaan tämän selaimen localStorageen, ja GA4 ladataan vasta hyväksymisen jälkeen.",
+        "privacyLink": "Lue tietosuojakäytäntö",
+        "reject": "Hylkää valinnainen analytiikka",
+        "accept": "Hyväksy valinnainen analytiikka"
     }
 }

@@ -2,23 +2,24 @@
     "Navigation": {
         "features": "Özellikler",
         "download": "İndir",
-        "github": "GitHub",
-        "getStarted": "Başlayın",
         "home": "Ana Sayfa",
         "support": "Destek",
-        "help": "Yardım Merkezi"
+        "help": "Yardım Merkezi",
+        "pricing": "Fiyatlar",
+        "language": "Dil",
+        "openMenu": "Menüyü aç",
+        "closeMenu": "Menüyü kapat"
     },
     "Hero": {
         "version": "{version} Yayında - Şimdi deneyin!",
         "titlePart1": "Bulmacaları Bir <br/>",
         "titleProfessional": "Profesyonel Gibi Tasarlayın",
-        "subtitle": "Apple platformları için en güçlü bulmaca tasarım aracı. Yerel performans, SVG hassasiyeti ve algoritma destekli üretim.",
-        "download": "İndir",
+        "subtitle": "iPhone, iPad ve Mac için hassas SVG düzenleme ve algoritma destekli üretim sunan profesyonel bir yapboz tasarım aracı.",
         "learnMore": "Daha Fazla Bilgi"
     },
     "Features": {
         "title": "Güçlü Özellikler",
-        "subtitle": "Profesyonel kalitede bulmacalar oluşturmak için ihtiyacınız olan her şey.",
+        "subtitle": "Özel yapboz tasarımları üretmek ve düzenlemek için odaklanmış araçlar.",
         "list": {
             "customization": {
                 "title": "Sınırsız Özelleştirme",
@@ -26,7 +27,7 @@
             },
             "workflow": {
                 "title": "Yıldırım Hızında İş Akışı",
-                "description": "Saatler süren manuel çalışmayı saniyelere dönüştürün. Gelişmiş motorumuzla sadece 3 saniyede karmaşık bulmaca desenleri oluşturun."
+                "description": "Algoritma destekli yapboz deseni üretimiyle tekrarlanan elle çizim işini azaltın."
             },
             "anywhere": {
                 "title": "Her Yerde Tasarlayın",
@@ -37,34 +38,38 @@
     "Footer": {
         "privacy": "Gizlilik",
         "support": "Destek",
-        "github": "GitHub",
-        "rights": "© {year} JigsawDesigner. Tüm hakları saklıdır."
+        "rights": "© {year} JigsawDesigner. Tüm hakları saklıdır.",
+        "pricing": "Fiyatlar",
+        "terms": "Hizmet Koşulları",
+        "refund": "İade Politikası",
+        "help": "Yardım Merkezi"
     },
     "Privacy": {
         "title": "Gizlilik Politikası",
+        "metaDescription": "Uygulama, tasarım dosyalarını ağırlıklı olarak cihazınızda işler. Kişisel bilgileri satmıyoruz.",
         "introduction": {
             "title": "Giriş",
-            "content": "JigsawDesigner (\"biz\", \"bizim\" veya \"bize\") gizliliğinize saygı duyar ve onu korumayı taahhüt eder. Bu Gizlilik Politikası, uygulamamızı ve web sitemizi kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar."
+            "content": "Bu politika, isteğe bağlı bulut özellikleri, herkese açık yayımlama, dil tercihi ve isteğe bağlı analiz dâhil olmak üzere JigsawDesigner’ın uygulamada ve bu web sitesinde bilgileri nasıl işlediğini açıklar."
         },
         "dataCollection": {
             "title": "Veri Toplama",
-            "content": "Kişisel verileri toplamıyoruz.",
-            "content2": "JigsawDesigner, dosyalarınızı cihazınızda yerel olarak işlemek üzere tasarlanmıştır. Tasarımlarınız, görselleriniz ve projeleriniz, açıkça dışa aktarmayı veya paylaşmayı seçmediğiniz sürece cihazınızdan asla ayrılmaz.",
+            "content": "Uygulama, tasarım dosyalarını ağırlıklı olarak cihazınızda işler.",
+            "content2": "iCloud’u etkinleştirirseniz proje verileri Apple’ın iCloud ve CloudKit hizmetleri üzerinden eşzamanlanabilir. Yayımlama, seçilen projeyi herkese açık bir CloudKit veritabanına gönderir; paylaşım bağlantısı ise seçilen projeye salt okunur erişim sağlayabilir.",
             "list": {
-                "behavior": "Kullanım davranışınızı takip etmiyoruz.",
-                "upload": "Bulmaca görselleri gibi fotoğraflarınızı herhangi bir sunucuya yüklemiyoruz.",
-                "sell": "Verilerinizi üçüncü taraflara satmıyoruz."
+                "behavior": "Bir dili kendiniz seçtikten sonra site, gerekli dil tercihi çerezini en fazla bir yıl saklar. İsteğe bağlı analiz seçiminiz bundan ayrı olarak tarayıcının localStorage alanında saklanır. Onay verirseniz Google Analytics 4 ziyaretleri ve etkileşimleri ölçebilir; Cloudflare sitenin sunulması için gereken istekleri ve güvenlik verilerini işler.",
+                "upload": "Video sağlayıcısı gibi üçüncü taraf medya veya hizmetlerle yalnızca ilgili içeriği yüklemeyi ya da açmayı seçtikten sonra bağlantı kurulur; ardından kendi gizlilik koşulları geçerli olur.",
+                "sell": "Kişisel bilgileri satmıyoruz."
             }
         },
         "analytics": {
-            "title": "Uygulama Analitiği",
-            "content": "Uygulama performansını ve kararlılığını iyileştirmek için Apple'ın standart isteğe bağlı analitiğini (ör. çökme raporları) kullanabiliriz. Bu veriler anonimdir ve sizi kişisel olarak tanımlamaz. Cihaz ayarlarınızdan istediğiniz zaman vazgeçebilirsiniz."
+            "title": "Analiz ve hizmet sağlayıcıları",
+            "content": "Apple, cihaz ayarlarınıza göre isteğe bağlı uygulama analizi ve çökme bilgileri sağlayabilir. İsteğe bağlı site analizi Google Analytics 4’ü yalnızca localStorage’da saklanan onaydan sonra kullanır. Cloudflare siteyi barındırır ve korur. Dil seçimini etkilemeden analizi reddedebilirsiniz."
         },
         "contact": {
             "title": "Bize Ulaşın",
             "content": "Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen bizimle iletişime geçin:"
         },
-        "lastUpdated": "Son Güncelleme: 10 Aralık 2025"
+        "lastUpdated": "Son güncelleme: 16 Ağustos 2026"
     },
     "Support": {
         "hero": {
@@ -85,11 +90,11 @@
             "title": "Sıkça Sorulan Sorular",
             "q1": {
                 "question": "JigsawDesigner tek seferlik bir satın alma mı?",
-                "answer": "Evet, JigsawDesigner ömür boyu lisans seçeneğinin yanı sıra abonelik planları da sunar. En güncel fiyatlar için App Store'u kontrol edin."
+                "answer": "JigsawDesigner aylık ve yıllık Apple abonelikleri sunar; Apple mağazanız için güncel fiyatı gösterir."
             },
             "q2": {
                 "question": "Tasarımlarımı ticari kullanım için dışa aktarabilir miyim?",
-                "answer": "Kesinlikle. JigsawDesigner ile oluşturulan tüm tasarımlar size aittir. Bunları üretim veya ticari baskı için SVG veya PDF olarak dışa aktarabilirsiniz."
+                "answer": "Premium aboneler SVG dosyalarını dışa aktarabilir. Ticari kullanım ayrıca tasarımdaki görüntü, yazı tipi, şablon ve diğer içeriklerin haklarına bağlıdır."
             },
             "q3": {
                 "question": "Özel kesim çizgilerini destekliyor mu?",
@@ -146,12 +151,12 @@
                 "desc": "Şekillerin kontrol noktalarını düzenleyin. Noktaları sürükleyerek şekil geometrisini hassas bir şekilde ayarlayın."
             },
             "pen": {
-                "title": "Kalem Aracı",
-                "desc": "Serbest form yol çizimi. Bezier eğrileri ve organik şekiller oluşturmak için tıklayın ve sürükleyin."
+                "title": "Kurşun Kalem Aracı",
+                "desc": "Devam ettirebileceğiniz veya birleştirebileceğiniz açık konturlar dâhil akıcı serbest el yolları çizin."
             },
             "line": {
                 "title": "Çizgi Aracı",
-                "desc": "Düz çizgiler çizin. Geometrik tasarımlar ve hassas bağlantılar için mükemmeldir."
+                "desc": "Düz çizgiler çizin."
             },
             "rect": {
                 "title": "Dikdörtgen Aracı",
@@ -198,10 +203,6 @@
             }
         },
         "generationContent": {
-            "howItWorks": {
-                "title": "Nasıl Çalışır",
-                "desc": "JigsawDesigner, Voronoi diyagramları ve DCEL veri yapılarını kullanarak yüksek kaliteli bulmaca parçaları oluşturmak için OpenCV ve Boost kütüphaneleriyle gelişmiş C++ algoritmaları kullanır."
-            },
             "steps": {
                 "1": {
                     "title": "Sınır Konturunu İçe Aktar",
@@ -209,19 +210,19 @@
                 },
                 "2": {
                     "title": "Geçme Şablonunu Seç",
-                    "desc": "Parçaların nasıl birleşeceğini tanımlamak için bir geçme tasarımı (Standart, Çok noktalı vb.) seçin."
+                    "desc": "Şablonlar parça bağlantı şeklini tanımlar. Yerleşik şablonlar: Standart Dışbükey, Standart İçbükey, Düz Çizgi"
                 },
                 "3": {
                     "title": "Parametreleri Yapılandır",
-                    "desc": "Müfettiş panelinden Izgara Boyutu, Parça Sayısı ve Geçme Mesafesi aralığını ayarlayın."
+                    "desc": "Denetçi’de ızgara boyutunu, parça sayısını ve bağlantı mesafesi aralığını ayarlayın. Bu parametreler üretilen çizgilerin yoğunluğunu ve karmaşıklığını etkiler."
                 },
                 "4": {
                     "title": "Kesim Hatlarını Oluştur",
-                    "desc": "\"Jigsaw Oluştur\"a tıklayın. Saniyeler içinde lazer kesime hazır kalıbınız hazır olacaktır."
+                    "desc": "Üreticiyi çalıştırın, sonucu inceleyin ve SVG dışa aktarmadan önce gerekirse ayarları değiştirin."
                 }
             },
             "title": "Jigsaw Kesim Hattı Üretim Kılavuzu",
-            "desc": "JigsawDesigner, profesyonel kesim hatları üretmek için gelişmiş C++ algoritmaları kullanır. Bu 4 adımı izleyin:"
+            "desc": "JigsawDesigner, özelleştirilebilir yapboz kesim çizgileri üretmek için Voronoi ve DCEL tekniklerini de içeren C++ algoritmaları kullanır. Şu dört adımı izleyin:"
         },
         "importExportContent": {
             "import": {
@@ -246,7 +247,7 @@
             },
             "premium": {
                 "title": "Premium Özellik",
-                "desc": "Oluşturulan bulmacaları dışa aktarmak için Premium abonelik gerekir. Ücretsiz kullanıcılar tasarlayabilir ve oluşturabilir, ancak dışa aktarma sınırlıdır."
+                "desc": "Yeni kullanıcılar {count} ücretsiz yapboz üretimi alır. SVG dışa aktarma ve sınırsız üretim için etkin bir Apple aboneliği gerekir."
             }
         },
         "shortcutsContent": {
@@ -272,35 +273,14 @@
             }
         },
         "troubleshooting": {
-            "title": "Sorun Giderme",
-            "items": {
-                "shapes": {
-                    "title": "Şekiller görünmüyor",
-                    "content": "Doğru çizim modunda olduğunuzu doğrulayın. Tuval boyutunun şekliniz için alanı olup olmadığını kontrol edin. Şekil dolgu/kontur renklerinin şeffaf olmadığından emin olun."
-                },
-                "select": {
-                    "title": "Şekil seçilemiyor",
-                    "content": "Seçim Aracına (imleç simgesi) geçin. Şeklin diğerlerinin arkasında gizli olmadığından emin olun. Grupların içine girmek için Ctrl+Tıklama kullanmayı deneyin."
-                },
-                "fail": {
-                    "title": "Bulmaca oluşumu başarısız",
-                    "content": "Sınır şeklinizin kapalı bir yol olduğundan emin olun. Karmaşık şekiller için parça sayısını azaltın. Yuva şablonlarının geçerli olup olmadığını kontrol edin."
-                },
-                "export": {
-                    "title": "Dışa aktarma devre dışı",
-                    "content": "Oluşturulan bulmacaları dışa aktarmak için Premium abonelik gerekir. Ücretsiz katman tasarıma izin verir ancak dışa aktarma işlevini sınırlar."
-                }
-            }
+            "title": "Sorun Giderme"
         },
         "needHelp": {
             "title": "Daha Fazla Yardıma mı İhtiyacınız Var?",
-            "desc": "Destek sayfamızı ziyaret edin veya kişiselleştirilmiş yardım için doğrudan bizimle iletişime geçin",
-            "contact": "Destek ile İletişime Geç",
-            "download": "Uygulamayı İndir"
+            "desc": "Destek sayfamızı ziyaret edin veya kişiselleştirilmiş yardım için doğrudan bizimle iletişime geçin"
         },
-        "metaTitle": "Yardım Merkezi - Profesyonel Jigsaw Kesim Hattı Oluşturucu ve SVG Tasarımcı",
-        "metaDescription": "JigsawDesigner’da uzmanlaşın: Jigsaw kesim hattı üretimi için nihai yazılım. Lazer kesim SVG’leri ve Voronoi desenleri oluşturun.",
-        "metaKeywords": "kesim hattı oluşturucu, yapboz kalıbı yapma, lazer kesim SVG, yapboz tasarım yazılımı, Voronoi oluşturucu",
+        "metaTitle": "Yardım Merkezi ve Jigsaw Oluşturma Kılavuzu",
+        "metaDescription": "JigsawDesigner ile yapboz kesim çizgileri üretmeyi, vektör şekillerini düzenlemeyi, projeleri yönetmeyi ve SVG dosyalarını dışa aktarmayı öğrenin.",
         "interfaceContent": {
             "title": "Editör ve Kesim Arayüzü",
             "intro": "JigsawDesigner editörü, hassas kesim hatları ve kalıplar tasarlamak için profesyonel bir vektör çalışma alanı sunar.",
@@ -320,8 +300,8 @@
                     },
                     {
                         "icon": "✒️",
-                        "name": "Kalem",
-                        "desc": "Serbest yollar çiz"
+                        "name": "Kurşun Kalem",
+                        "desc": "Akıcı serbest el yolları çizin"
                     },
                     {
                         "icon": "📏",
@@ -350,8 +330,8 @@
                     }
                 ],
                 "buttons": {
-                    "import": "Mevcut SVG dosyalarını içe aktar",
-                    "export": "Tasarımı SVG olarak dışa aktar",
+                    "import": "Mevcut SVG dosyalarını projenize aktarın",
+                    "export": "Tasarımınızı SVG dosyası olarak dışa aktarın",
                     "projectName": "Proje adını ve şekil sayısını gösterir"
                 }
             },
@@ -418,7 +398,7 @@
                     },
                     "custom": {
                         "title": "Özel Şablonlar",
-                        "desc": "Bezier çizim araçlarını kullanarak kendi benzersiz yuva şekillerinizi tasarlayın. Farklı puzzle stilleri oluşturmak için mükemmel."
+                        "desc": "Bezier çizim araçlarını kullanarak kendi benzersiz yuva şekillerinizi tasarlayın."
                     }
                 }
             },
@@ -476,7 +456,7 @@
                 "sections": {
                     "language": {
                         "title": "Dil Ayarları",
-                        "desc": "Dili değiştirin. Sistem varsayılanı veya 40+ dil."
+                        "desc": "Sistem dilini kullanın veya uygulamanın desteklediği dillerden birini seçin."
                     },
                     "subscription": {
                         "title": "Abonelik Yönetimi",
@@ -541,21 +521,6 @@
                 }
             }
         },
-        "industryKeywords": {
-            "title": "Neden JigsawDesigner?",
-            "laserCutting": {
-                "title": "Lazer Kesim SVG",
-                "desc": "Glowforge, Cricut ve CO2 lazerler için optimize edilmiş temiz ve hassas SVG yolları oluşturun."
-            },
-            "dieline": {
-                "title": "Özel Yapboz Kalıpları",
-                "desc": "Her bir parçanın benzersiz olmasını sağlayan Voronoi desenli kalıplar oluşturun."
-            },
-            "manufacturing": {
-                "title": "Üretime Hazır",
-                "desc": "Seri üretim veya el kesimi için hazır profesyonel vektör formatlarında (SVG, PDF) aktarın."
-            }
-        },
         "projectLibraryContent": {
             "title": "Proje Kitaplığı",
             "intro": "Proje Kitaplığı tüm tasarımlarınızı yönetmek için merkezi merkezinizdir.",
@@ -588,7 +553,7 @@
                         },
                         "share": {
                             "title": "Bağlantı Oluştur",
-                            "desc": "iCloud paylaşım bağlantısı oluşturun. Bu bağlantıyı arkadaşlarınıza gönderin - açtıklarında projeniz onların Paylaşılan Projeler bölümünde görünür."
+                            "desc": "Alıcılara Paylaşılan Projeler’de seçilen projeye salt okunur erişim veren bir iCloud bağlantısı oluşturun."
                         },
                         "delete": {
                             "title": "Sil",
@@ -614,15 +579,26 @@
             "sharedProjects": {
                 "title": "Paylaşılan Projeler",
                 "icon": "👥",
-                "desc": "iCloud paylaşımı aracılığıyla diğer kullanıcılar tarafından sizinle paylaşılan projeler için işbirliği çalışma alanı.",
+                "desc": "Diğer kullanıcıların iCloud üzerinden sizinle paylaştığı projeleri görüntüleyin.",
                 "features": [
                     "Meslektaşlar veya arkadaşlar tarafından paylaşılan projeleri alın",
-                    "İzinlere göre salt okunur veya düzenleme erişimi",
-                    "Proje sahibiyle gerçek zamanlı senkronizasyon",
+                    "Paylaşılan projelere salt okunur erişim",
+                    "Güncellemeler, iCloud sahibin değişikliklerini eşzamanladıktan sonra görünebilir",
                     "Davet bağlantısı aracılığıyla paylaşımları kabul edin"
                 ],
-                "howTo": "Biri sizinle bir proje paylaştığında, otomatik olarak burada görünür. Açmak ve işbirliği yapmak için tıklayın."
+                "howTo": "Geçerli bir paylaşım bağlantısını kabul ettikten sonra proje, salt okunur görüntüleme için Paylaşılan Projeler’de görünebilir."
             }
         }
+    },
+    "Common": {
+        "appName": "JigsawDesigner",
+        "appStoreAria": "JigsawDesigner’ı App Store’da görüntüle"
+    },
+    "Consent": {
+        "title": "İsteğe bağlı analiz",
+        "description": "Web sitesinin kullanımını anlamamıza yardımcı olması için Google Analytics 4 ile isteğe bağlı ölçüme izin verin. Seçiminiz bu tarayıcının localStorage alanında saklanır ve GA4 yalnızca kabulünüzden sonra yüklenir.",
+        "privacyLink": "Gizlilik Politikasını okuyun",
+        "reject": "İsteğe bağlı analizi reddet",
+        "accept": "İsteğe bağlı analizi kabul et"
     }
 }

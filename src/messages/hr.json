@@ -2,23 +2,24 @@
     "Navigation": {
         "features": "Značajke",
         "download": "Preuzmi",
-        "github": "GitHub",
-        "getStarted": "Započni",
         "home": "Početna",
         "support": "Podrška",
-        "help": "Centar za Pomoć"
+        "help": "Centar za Pomoć",
+        "pricing": "Cijene",
+        "language": "Jezik",
+        "openMenu": "Otvori izbornik",
+        "closeMenu": "Zatvori izbornik"
     },
     "Hero": {
         "version": "{version} Objavljeno - Isprobajte sada!",
         "titlePart1": "Dizajnirajte Slagalice Kao <br/>",
         "titleProfessional": "Profesionalac",
-        "subtitle": "Najmoćniji alat za dizajn slagalica za Apple platforme. Izvorna izvedba, SVG preciznost i generiranje pokretano algoritmima.",
-        "download": "Preuzmi",
+        "subtitle": "Profesionalni alat za dizajn slagalica na iPhoneu, iPadu i Macu, s preciznim uređivanjem SVG-a i algoritamskim generiranjem.",
         "learnMore": "Saznaj Više"
     },
     "Features": {
         "title": "Moćne Značajke",
-        "subtitle": "Sve što vam treba za stvaranje slagalica profesionalne kvalitete.",
+        "subtitle": "Usmjereni alati za generiranje i uređivanje prilagođenih dizajna slagalica.",
         "list": {
             "customization": {
                 "title": "Neograničena Prilagodba",
@@ -26,7 +27,7 @@
             },
             "workflow": {
                 "title": "Munjevit Tijek Rada",
-                "description": "Pretvorite sate ručnog rada u sekunde. Generirajte složene uzorke slagalica u samo 3 sekunde s našim naprednim motorom."
+                "description": "Smanjite ponavljano ručno precrtavanje algoritamskim generiranjem uzoraka slagalice."
             },
             "anywhere": {
                 "title": "Dizajnirajte Bilo Gdje",
@@ -37,34 +38,38 @@
     "Footer": {
         "privacy": "Privatnost",
         "support": "Podrška",
-        "github": "GitHub",
-        "rights": "© {year} JigsawDesigner. Sva prava pridržana."
+        "rights": "© {year} JigsawDesigner. Sva prava pridržana.",
+        "pricing": "Cijene",
+        "terms": "Uvjeti korištenja",
+        "refund": "Pravila povrata novca",
+        "help": "Centar za Pomoć"
     },
     "Privacy": {
         "title": "Politika Privatnosti",
+        "metaDescription": "Aplikacija uglavnom obrađuje datoteke dizajna na vašem uređaju. Ne prodajemo osobne podatke.",
         "introduction": {
             "title": "Uvod",
-            "content": "JigsawDesigner (\"mi\", \"naš\" ili \"nas\") poštuje vašu privatnost i predan je njezinoj zaštiti. Ova Politika Privatnosti objašnjava kako prikupljamo, koristimo i štitimo vaše podatke kada koristite našu aplikaciju i web stranicu."
+            "content": "Ova pravila objašnjavaju kako JigsawDesigner obrađuje informacije u aplikaciji i na ovom web-mjestu, uključujući neobavezne funkcije oblaka, javnu objavu, jezične postavke i neobaveznu analitiku."
         },
         "dataCollection": {
             "title": "Prikupljanje Podataka",
-            "content": "Ne prikupljamo osobne podatke.",
-            "content2": "JigsawDesigner je dizajniran za obradu vaših datoteka lokalno na vašem uređaju. Vaši dizajni, slike i projekti nikada ne napuštaju vaš uređaj, osim ako izričito ne odlučite izvesti ili podijeliti ih.",
+            "content": "Aplikacija uglavnom obrađuje datoteke dizajna na vašem uređaju.",
+            "content2": "Ako uključite iCloud, podaci projekata mogu se sinkronizirati putem Appleovih usluga iCloud i CloudKit. Objavljivanje šalje odabrani projekt u javnu bazu CloudKit, a poveznica za dijeljenje može omogućiti pristup samo za čitanje odabranom projektu.",
             "list": {
-                "behavior": "Ne pratimo vaše ponašanje pri korištenju.",
-                "upload": "Ne prenosimo vaše fotografije, poput slika slagalica, ni na koje poslužitelje.",
-                "sell": "Ne prodajemo vaše podatke trećim stranama."
+                "behavior": "Nakon što sami odaberete jezik, web-mjesto pohranjuje nužni kolačić za jezičnu postavku do godinu dana. Odabir neobavezne analitike sprema se zasebno u localStorage ovog preglednika. Uz vaš pristanak Google Analytics 4 može mjeriti posjete i interakcije; Cloudflare obrađuje zahtjeve i sigurnosne podatke potrebne za isporuku web-mjesta.",
+                "upload": "Mediji ili usluge trećih strana, poput pružatelja videozapisa, kontaktiraju se tek nakon što odlučite učitati ili otvoriti sadržaj; tada vrijede njihovi uvjeti privatnosti.",
+                "sell": "Ne prodajemo osobne podatke."
             }
         },
         "analytics": {
-            "title": "Analitika Aplikacije",
-            "content": "Možemo koristiti standardnu Appleovu analitiku (uz pristanak) za poboljšanje performansi i stabilnosti aplikacije (npr. izvješća o rušenju). Ti podaci su anonimni i ne identificiraju vas osobno. Možete se odjaviti u bilo kojem trenutku putem postavki uređaja."
+            "title": "Analitika i pružatelji usluga",
+            "content": "Apple može pružati neobaveznu analitiku aplikacije i podatke o rušenjima prema postavkama uređaja. Neobavezna analitika web-mjesta koristi Google Analytics 4 tek nakon pristanka spremljenog u localStorage preglednika. Cloudflare udomljuje i štiti web-mjesto. Analitiku možete odbiti bez utjecaja na odabir jezika."
         },
         "contact": {
             "title": "Kontaktirajte Nas",
             "content": "Ako imate bilo kakvih pitanja o ovoj Politici Privatnosti, molimo kontaktirajte nas na:"
         },
-        "lastUpdated": "Zadnje Ažuriranje: 10. prosinca 2025."
+        "lastUpdated": "Posljednje ažuriranje: 16. kolovoza 2026."
     },
     "Support": {
         "hero": {
@@ -85,11 +90,11 @@
             "title": "Često Postavljana Pitanja",
             "q1": {
                 "question": "Je li JigsawDesigner jednokratna kupnja?",
-                "answer": "Da, JigsawDesigner nudi opciju doživotne licence, kao i planove pretplate. Provjerite App Store za najnovije cijene."
+                "answer": "JigsawDesigner nudi mjesečne i godišnje Apple pretplate; Apple prikazuje trenutačnu cijenu za vašu trgovinu."
             },
             "q2": {
                 "question": "Mogu li izvesti svoje dizajne za komercijalnu upotrebu?",
-                "answer": "Apsolutno. Svi dizajni stvoreni s JigsawDesignerom su vaši. Možete ih izvesti kao SVG ili PDF za proizvodnju ili komercijalni ispis."
+                "answer": "Premium pretplatnici mogu izvoziti SVG datoteke. Komercijalna uporaba ovisi i o pravima na slike, fontove, predloške i drugi sadržaj u dizajnu."
             },
             "q3": {
                 "question": "Podržava li prilagođene linije rezanja?",
@@ -147,11 +152,11 @@
             },
             "pen": {
                 "title": "Alat Olovka",
-                "desc": "Crtanje putanje slobodnom rukom. Kliknite i povucite za stvaranje Bezierovih krivulja i organskih oblika."
+                "desc": "Crtajte glatke slobodne putanje, uključujući otvorene konture koje možete nastaviti ili spojiti."
             },
             "line": {
                 "title": "Alat Linija",
-                "desc": "Crtajte ravne linije. Savršeno za geometrijske dizajne i precizne veze."
+                "desc": "Crtajte ravne linije."
             },
             "rect": {
                 "title": "Alat Pravokutnik",
@@ -198,10 +203,6 @@
             }
         },
         "generationContent": {
-            "howItWorks": {
-                "title": "Kako To Radi",
-                "desc": "JigsawDesigner koristi napredne C++ algoritme s knjižnicama OpenCV i Boost za generiranje visokokvalitetnih dijelova slagalice pomoću Voronoievih dijagrama i struktura podataka DCEL."
-            },
             "steps": {
                 "1": {
                     "title": "Uvoz konture granice",
@@ -209,19 +210,19 @@
                 },
                 "2": {
                     "title": "Odabir predloška utora",
-                    "desc": "Odaberite dizajn utora (standardni konveksni, višestruki itd.) kako biste definirali način povezivanja dijelova."
+                    "desc": "Predlošci definiraju kako se dijelovi slagalice povezuju. Ugrađeni predlošci: Standardni Ispupčeni, Standardni Udubljeni, Ravna Linija"
                 },
                 "3": {
                     "title": "Konfiguracija parametara",
-                    "desc": "Koristite Inspektor za postavljanje veličine mreže, broja dijelova i raspona udaljenosti utora."
+                    "desc": "U Inspektoru postavite veličinu mreže, broj dijelova i raspon udaljenosti spojeva. Ti parametri utječu na gustoću i složenost generiranih linija."
                 },
                 "4": {
                     "title": "Generiraj linije rezanja",
-                    "desc": "Kliknite na \"Generiraj puzzle\". U sekundama ćete imati kalup spreman za lasersko rezanje ili ispis."
+                    "desc": "Pokrenite generator, pregledajte rezultat i po potrebi prilagodite postavke prije izvoza SVG-a."
                 }
             },
             "title": "Vodič za generiranje linija rezanja puzzli",
-            "desc": "JigsawDesigner koristi napredne C++ algoritme za generiranje profesionalnih linija rezanja. Slijedite ova 4 koraka:"
+            "desc": "JigsawDesigner koristi C++ algoritme, uključujući Voronoi i DCEL tehnike, za generiranje prilagodljivih linija rezanja slagalice. Slijedite ova četiri koraka:"
         },
         "importExportContent": {
             "import": {
@@ -246,7 +247,7 @@
             },
             "premium": {
                 "title": "Premium Značajka",
-                "desc": "Premium pretplata potrebna je za izvoz generiranih slagalica. Besplatni korisnici mogu dizajnirati i generirati, ali izvoz je ograničen."
+                "desc": "Novi korisnici dobivaju {count} besplatnih generiranja slagalice. Izvoz SVG-a i neograničeno generiranje zahtijevaju aktivnu Apple pretplatu."
             }
         },
         "shortcutsContent": {
@@ -272,35 +273,14 @@
             }
         },
         "troubleshooting": {
-            "title": "Rješavanje Problema",
-            "items": {
-                "shapes": {
-                    "title": "Oblici se ne pojavljuju",
-                    "content": "Provjerite jeste li u ispravnom načinu crtanja. Provjerite ima li veličina platna mjesta za vaš oblik. Provjerite da boje ispune/obrusa oblika nisu prozirne."
-                },
-                "select": {
-                    "title": "Nije moguće odabrati oblik",
-                    "content": "Prebacite se na Alat za Odabir (ikona pokazivača). Provjerite da oblik nije skriven iza drugih. Pokušajte koristiti Ctrl+Klik za ulazak u grupe."
-                },
-                "fail": {
-                    "title": "Generiranje slagalice nije uspjelo",
-                    "content": "Provjerite je li vaš granični oblik zatvorena putanja. Smanjite broj dijelova za složene oblike. Provjerite jesu li predlošci utora valjani."
-                },
-                "export": {
-                    "title": "Izvoz je onemogućen",
-                    "content": "Premium pretplata potrebna je za izvoz generiranih slagalica. Besplatna razina omogućuje dizajn, ali ograničava funkcionalnost izvoza."
-                }
-            }
+            "title": "Rješavanje Problema"
         },
         "needHelp": {
             "title": "Trebate Više Pomoći?",
-            "desc": "Posjetite našu stranicu za podršku ili nas kontaktirajte izravno za osobnu pomoć",
-            "contact": "Kontaktirajte Podršku",
-            "download": "Preuzmi Aplikaciju"
+            "desc": "Posjetite našu stranicu za podršku ili nas kontaktirajte izravno za osobnu pomoć"
         },
-        "metaTitle": "Centar za pomoć - Profesionalni generator linija rezanja puzzli i SVG dizajner",
-        "metaDescription": "Ovladajte JigsawDesignerom: Vrhunskim softverom za generiranje linija rezanja puzzli. Naučite kako izraditi SVG za lasersko rezanje i Voronoi uzorke.",
-        "metaKeywords": "generator linija rezanja puzzli, izrada kalupa za puzzle, laserski rez SVG, softver za dizajn puzzli",
+        "metaTitle": "Centar za pomoć i vodič za izradu puzzli",
+        "metaDescription": "Saznajte kako u JigsawDesigneru generirati linije rezanja slagalica, uređivati vektorske oblike, upravljati projektima i izvoziti SVG datoteke.",
         "interfaceContent": {
             "title": "Sučelje editora i linija rezanja",
             "intro": "JigsawDesigner editor pruža profesionalno vektorsko radno okruženje za dizajniranje preciznih linija rezanja i kalupa.",
@@ -320,8 +300,8 @@
                     },
                     {
                         "icon": "✒️",
-                        "name": "Pero",
-                        "desc": "Crtajte slobodne putanje"
+                        "name": "Olovka",
+                        "desc": "Crtanje glatkih slobodnih putanja"
                     },
                     {
                         "icon": "📏",
@@ -348,7 +328,12 @@
                         "name": "Bézier",
                         "desc": "Crtajte Bézierove krivulje s kontrolnim točkama"
                     }
-                ]
+                ],
+                "buttons": {
+                    "import": "Uvezi postojeće SVG datoteke u projekt",
+                    "export": "Izvezi dizajn kao SVG datoteku",
+                    "projectName": "Prikazuje naziv projekta i broj oblika"
+                }
             },
             "canvas": {
                 "title": "Beskonačno Platno",
@@ -471,7 +456,7 @@
                 "sections": {
                     "language": {
                         "title": "Postavke Jezika",
-                        "desc": "Promijenite jezik aplikacije. Podržava zadani sustav ili odaberite među 40+ jezika."
+                        "desc": "Upotrijebite jezik sustava ili odaberite jedan od jezika koje aplikacija podržava."
                     },
                     "subscription": {
                         "title": "Upravljanje Pretplatom",
@@ -536,21 +521,6 @@
                 }
             }
         },
-        "industryKeywords": {
-            "title": "Zašto odabrati JigsawDesigner?",
-            "laserCutting": {
-                "title": "SVG za lasersko rezanje",
-                "desc": "Generirajte čiste, precizne SVG staze optimizirane za Glowforge, Cricut i CO2 lasere."
-            },
-            "dieline": {
-                "title": "Prilagođeni kalupi",
-                "desc": "Izradite jedinstvene linije kalupa s Voronoi uzorcima koji osiguravaju da je svaki dio unikatan."
-            },
-            "manufacturing": {
-                "title": "Spremno za proizvodnju",
-                "desc": "Izvezite dizajn u profesionalnim vektorskim formatima (SVG, PDF) spremnim za masovnu proizvodnju ili ručno rezanje."
-            }
-        },
         "projectLibraryContent": {
             "title": "Knjižnica Projekata",
             "intro": "Knjižnica Projekata je vaše središte za upravljanje svim dizajnima slagalica. Pristupite s ekrana dobrodošlice ili Datoteka → Knjižnica Projekata.",
@@ -584,7 +554,7 @@
                         },
                         "share": {
                             "title": "Stvori poveznicu",
-                            "desc": "Generirajte iCloud poveznicu. Pošaljite prijateljima i vidjet će vaš projekt"
+                            "desc": "Izradite iCloud poveznicu koja primateljima daje pristup samo za čitanje odabranom projektu u Dijeljenim projektima."
                         },
                         "delete": {
                             "title": "Obriši",
@@ -609,15 +579,26 @@
             "sharedProjects": {
                 "title": "Dijeljeni Projekti",
                 "icon": "👥",
-                "desc": "Prostor za suradnju za projekte koje su podijelili drugi korisnici.",
+                "desc": "Pregledajte projekte koje drugi korisnici dijele s vama putem iClouda.",
                 "features": [
                     "Primajte projekte koje su podijelili kolege ili prijatelji",
-                    "Pristup samo za čitanje ili uređivanje ovisno o dozvolama",
-                    "Sinkronizacija u stvarnom vremenu s vlasnikom projekta",
+                    "Pristup dijeljenim projektima samo za čitanje",
+                    "Ažuriranja se mogu pojaviti nakon što iCloud sinkronizira promjene vlasnika",
                     "Prihvatite dijeljenja putem poveznice pozivnice"
                 ],
-                "howTo": "Kada netko podijeli projekt s vama, automatski će se pojaviti ovdje. Kliknite za otvaranje i suradnju."
+                "howTo": "Nakon prihvaćanja valjane poveznice projekt se može pojaviti u Dijeljenim projektima za pregled samo za čitanje."
             }
         }
+    },
+    "Common": {
+        "appName": "JigsawDesigner",
+        "appStoreAria": "Prikaži JigsawDesigner u App Storeu"
+    },
+    "Consent": {
+        "title": "Neobavezna analitika",
+        "description": "Dopustite neobavezno mjerenje putem Google Analyticsa 4 kako bismo razumjeli upotrebu web-mjesta. Vaš se odabir sprema u localStorage ovog preglednika, a GA4 učitava tek nakon pristanka.",
+        "privacyLink": "Pročitajte Pravila privatnosti",
+        "reject": "Odbij neobaveznu analitiku",
+        "accept": "Prihvati neobaveznu analitiku"
     }
 }

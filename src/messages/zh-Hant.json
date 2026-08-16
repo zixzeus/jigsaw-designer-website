@@ -1,0 +1,655 @@
+{
+  "Navigation": {
+    "features": "特性",
+    "pricing": "價格",
+    "download": "下載",
+    "home": "首頁",
+    "support": "支援",
+    "help": "說明中心",
+    "language": "語言",
+    "openMenu": "開啟選單",
+    "closeMenu": "關閉選單"
+  },
+  "Hero": {
+    "version": "{version} 已發佈 - 快來體驗",
+    "titlePart1": "像專業人士一樣<br/>",
+    "titleProfessional": "設計拼圖",
+    "subtitle": "適用於 iPhone、iPad 和 Mac 的專業拼圖設計工具，支援精準 SVG 編輯和演算法產生。",
+    "learnMore": "瞭解更多"
+  },
+  "Features": {
+    "title": "強大功能",
+    "subtitle": "專注於自訂拼圖產生與編輯的實用工具。",
+    "list": {
+      "customization": {
+        "title": "無限自訂",
+        "description": "自訂從插槽範本和輪廓到拼圖內部的一切。建立脫穎而出的獨特設計。"
+      },
+      "workflow": {
+        "title": "閃電般的工作流程",
+        "description": "透過演算法產生拼圖圖樣，減少重複的手工描線工作。"
+      },
+      "anywhere": {
+        "title": "隨時隨地設計",
+        "description": "在 Mac 上開始，在 iPad 上完善，在 iPhone 上預覽。您的工作空間隨您而動。"
+      }
+    }
+  },
+  "Footer": {
+    "privacy": "隱私",
+    "support": "支援",
+    "rights": "© {year} JigsawDesigner. 保留所有權利。",
+    "pricing": "價格",
+    "terms": "服務條款",
+    "refund": "退款政策",
+    "help": "說明中心"
+  },
+  "Common": {
+    "appName": "JigsawDesigner",
+    "appStoreAria": "在 App Store 中檢視 JigsawDesigner"
+  },
+  "Consent": {
+    "title": "可選分析",
+    "description": "允許使用可選的 Google Analytics 4，協助我們瞭解網站使用情況。即使拒絕分析，必要的語言偏好仍可正常使用。",
+    "privacyLink": "閱讀隱私權政策",
+    "reject": "拒絕可選分析",
+    "accept": "接受可選分析"
+  },
+  "Pricing": {
+    "title": "JigsawDesigner 訂閱方案",
+    "subtitle": "可免費試用 {count} 次拼圖產生。Apple 每月或每年訂閱可解鎖無限產生和 SVG 匯出。",
+    "monthly": {
+      "name": "每月訂閱",
+      "period": "由 Apple 按月計費"
+    },
+    "yearly": {
+      "name": "每年訂閱",
+      "period": "由 Apple 按年計費"
+    },
+    "features": {
+      "unlimited": "無限次拼圖產生",
+      "export": "SVG 匯出"
+    },
+    "cta": "前往 App Store"
+  },
+  "Terms": {
+    "title": "服務條款",
+    "lastUpdated": "最後更新：2026年8月16日",
+    "sections": {
+      "agreement": {
+        "title": "1. 接受條款",
+        "content": "透過存取或使用 JigsawDesigner，您同意受這些服務條款的約束。如果您不同意，則不得使用我們的服務。"
+      },
+      "license": {
+        "title": "2. 使用許可",
+        "content": "除非 App 隨附其他自訂授權條款，否則透過 Apple 分發的應用受 Apple《標準授權應用程式最終使用者授權協議》（Standard EULA）及適用的 Apple 媒體服務條款與條件約束。"
+      },
+      "subscriptions": {
+        "title": "3. 訂閱與支付",
+        "monthly": "每月訂閱：以 Apple 針對您所在商店顯示的價格為準",
+        "yearly": "每年訂閱：以 Apple 針對您所在商店顯示的價格為準",
+        "content": "訂閱的購買、扣款、續期、取消和退款均透過 Apple 處理。目前不提供網站直接購買。"
+      },
+      "termination": {
+        "title": "4. 終止",
+        "content": "在法律、Apple 平台規則、帳號安全或公開分享功能被濫用時，存取權限可能受到限制。"
+      }
+    }
+  },
+  "Refund": {
+    "title": "退款政策",
+    "lastUpdated": "最後更新：2026年8月16日",
+    "content": {
+      "intro": "JigsawDesigner 目前僅透過 Apple 提供購買。如需協助確認購買內容或訂閱，請聯絡支援。",
+      "appStore": "App Store 購買的扣款與退款申請由 Apple 按其現行政策和當地要求處理。",
+      "direct": "JigsawDesigner 目前不透過本網站直接銷售訂閱或許可證。",
+      "process": "符合條件的退款請透過 Apple 的「回報問題」服務或 Apple 帳號中的購買記錄工具申請。"
+    }
+  },
+  "Privacy": {
+    "title": "隱私權政策",
+    "metaDescription": "應用主要在您的裝置上處理設計檔案。 我們不會出售個人資訊。",
+    "introduction": {
+      "title": "介紹",
+      "content": "本政策說明 JigsawDesigner 應用和網站如何處理資訊，包括可選雲端功能、公開發佈、基於 URL 的語言選擇以及可選分析。"
+    },
+    "dataCollection": {
+      "title": "資料收集",
+      "content": "應用主要在您的裝置上處理設計檔案。",
+      "content2": "啓用 iCloud 後，專案資料可能透過 Apple 的 iCloud 和 CloudKit 服務同步。公開發佈會將所選專案傳送到公開 CloudKit 資料庫，分享連結可向接收者提供所選專案的唯讀存取。",
+      "list": {
+        "behavior": "當您主動選擇語言後，網站會將必要的語言偏好 Cookie 儲存最長一年。您對可選分析的選擇則單獨儲存在此瀏覽器的 localStorage 中。徵得同意後，Google Analytics 4 可能統計頁面瀏覽和互動；Cloudflare 會處理提供網站所需的請求和安全資料。",
+        "upload": "只有在您選擇載入或開啟第三方媒體或服務（例如影片服務供應商）後，網站才會與其連線；屆時適用該第三方的隱私條款。",
+        "sell": "我們不會出售個人資訊。"
+      }
+    },
+    "analytics": {
+      "title": "分析與服務供應商",
+      "content": "Apple 可根據您的裝置設定提供選擇加入的應用分析和當機資訊。網站僅在徵得同意後使用 Google Analytics 4，並將該選擇儲存在瀏覽器的 localStorage 中。Cloudflare 提供網站代管與安全防護。拒絕分析不會影響語言選擇。"
+    },
+    "contact": {
+      "title": "聯絡我們",
+      "content": "如果您對本隱私權政策有任何疑問，請聯絡我們："
+    },
+    "lastUpdated": "最後更新：2026年8月16日"
+  },
+  "Support": {
+    "hero": {
+      "titlePart1": "我們如何",
+      "titlePart2": "協助您？",
+      "subtitle": "我們在這裡支援您的創作之旅。查找答案或與我們的團隊取得聯絡。"
+    },
+    "documentation": {
+      "title": "說明文件",
+      "description": "探索我們全面的指南，掌握 JigsawDesigner 的功能和工具。",
+      "action": "瀏覽文章"
+    },
+    "email": {
+      "title": "電子郵件支援",
+      "description": "需要特定問題的協助？我們的支援團隊隨時準備直接協助您。"
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "JigsawDesigner 是買斷制嗎？",
+        "answer": "JigsawDesigner 提供 Apple 每月和每年訂閱，價格以您所在 App Store 顯示為準。"
+      },
+      "q2": {
+        "question": "我可以將設計匯出用於商業用途嗎？",
+        "answer": "進階訂閱使用者可以匯出 SVG。商業用途還取決於設計中圖片、字型、範本及其他內容的權利。"
+      },
+      "q3": {
+        "question": "它支援自訂刀模線嗎？",
+        "answer": "支援，您可以匯入自訂 SVG 路徑用作刀模線，或者使用我們先進的演算法自動產生獨特的圖樣。"
+      }
+    }
+  },
+  "Help": {
+    "title": "說明中心與拼圖產生指南",
+    "metaTitle": "說明中心與拼圖產生指南",
+    "metaDescription": "瞭解如何使用 JigsawDesigner 產生拼圖切割線、編輯向量圖形、管理專案並匯出 SVG 檔案。",
+    "subtitle": "使用 JigsawDesigner 進行專業拼圖切割線產生與自訂拼圖設計的完整指南。",
+    "toc": "目錄",
+    "sections": {
+      "gettingStarted": "快速入門",
+      "projectLibrary": "專案庫",
+      "interface": "編輯器介面",
+      "generation": "拼圖切割線產生",
+      "tools": "SVG 繪圖工具",
+      "operations": "圖元操作與對齊",
+      "importExport": "SVG 匯入與匯出",
+      "shortcuts": "鍵盤快速鍵"
+    },
+    "interfaceContent": {
+      "title": "編輯器與切割線介面",
+      "intro": "JigsawDesigner 編輯器提供了一個專業的向量工作區，用於設計高精度的拼圖切割線和刀版圖紙。掌握每個工具以建立高品質的雷射切割範本。",
+      "toolbar": {
+        "title": "頂部工具列",
+        "desc": "工具列提供對所有繪圖工具和檔案操作的快速存取。",
+        "tools": [
+          {
+            "icon": "🖱️",
+            "name": "選擇",
+            "desc": "在畫布上選擇和移動形狀"
+          },
+          {
+            "icon": "✏️",
+            "name": "點編輯",
+            "desc": "編輯錨點和貝塞爾手柄"
+          },
+          {
+            "icon": "✒️",
+            "name": "鉛筆",
+            "desc": "繪制平滑的自由路徑"
+          },
+          {
+            "icon": "📏",
+            "name": "直線",
+            "desc": "繪制直線"
+          },
+          {
+            "icon": "▭",
+            "name": "矩形",
+            "desc": "繪制矩形和正方形"
+          },
+          {
+            "icon": "⭕",
+            "name": "圓形",
+            "desc": "繪制圓形和橢圓"
+          },
+          {
+            "icon": "⬟",
+            "name": "多邊形",
+            "desc": "繪制正多邊形"
+          },
+          {
+            "icon": "🎨",
+            "name": "貝塞爾",
+            "desc": "使用控制點繪制貝塞爾曲線"
+          }
+        ],
+        "buttons": {
+          "import": "將現有 SVG 檔案匯入到您的專案",
+          "export": "將您的設計匯出為 SVG 檔案",
+          "projectName": "顯示當前專案名稱和形狀數量"
+        }
+      },
+      "canvas": {
+        "title": "無限畫布",
+        "desc": "建立拼圖設計的主要工作區域。",
+        "features": [
+          "無限滾動 - 畫布在所有方向上延伸",
+          "帶像素測量的標尺顯示",
+          "用於精確對齊的網格疊加",
+          "使用滾輪或捏合手勢進行縮放",
+          "按住空格鍵拖動或雙指拖動進行平移",
+          "選中元素時顯示選擇框"
+        ],
+        "tip": "使用 ⌘0 將縮放重置為 100%，或使用 ⌘1 使畫布適應視窗。"
+      },
+      "toolsPanel": {
+        "title": "工具面板",
+        "desc": "工具面板提供對常用操作和當前工具資訊的快速存取。",
+        "sections": {
+          "currentTool": {
+            "title": "當前工具",
+            "desc": "顯示當前選擇的繪圖工具及其描述。"
+          },
+          "elementOps": {
+            "title": "元素操作",
+            "desc": "一鍵複製或刪除當前選中的元素。"
+          },
+          "canvasOps": {
+            "title": "畫布操作",
+            "desc": "將視圖重置為居中，並使用滑塊調整縮放級別（顯示為百分比）。"
+          },
+          "quickOps": {
+            "title": "快捷操作",
+            "desc": "透過便捷按鈕清除整個畫布、選擇所有形狀或取消全選。"
+          }
+        }
+      },
+      "layersPanel": {
+        "title": "圖層面板",
+        "desc": "使用圖層面板管理您的設計層次結構 - 類似於 Photoshop 或 Illustrator。",
+        "features": [
+          "以樹狀結構檢視所有組和形狀",
+          "展開組以檢視嵌套專案",
+          "鎖定形狀以防止意外編輯（鎖定圖示）",
+          "切換可見性以隱藏/顯示元素（眼睛圖示）",
+          "圖層總數顯示在頂部"
+        ]
+      },
+      "templatesPanel": {
+        "title": "範本面板",
+        "desc": "插槽範本定義拼圖塊連線的形狀。此面板允許您管理和建立自訂範本。",
+        "features": [
+          "內置範本：標準凸形、標準凹形、直線",
+          "點按 + 按鈕建立自訂範本",
+          "按名稱搜索範本",
+          "選擇範本用於拼圖產生",
+          "自訂範本保存到您的專案中"
+        ],
+        "templateTypes": {
+          "builtin": {
+            "title": "內置範本",
+            "desc": "JigsawDesigner 提供的預設計插槽形狀。包括經典的凸形/凹形拼圖接頭。"
+          },
+          "custom": {
+            "title": "自訂範本",
+            "desc": "使用貝塞爾繪圖工具設計自訂插槽形狀。"
+          }
+        }
+      },
+      "inspector": {
+        "title": "專案檢查器",
+        "desc": "右側檢查器提供所有專案配置選項。",
+        "sections": {
+          "projectInfo": {
+            "title": "專案資訊",
+            "desc": "檢視和編輯專案名稱、建立日期和修改時間。"
+          },
+          "canvasSettings": {
+            "title": "畫布設定",
+            "desc": "以像素為單位設定畫布寬度和高度，或從預設尺寸中選擇（A4、A3、Letter 等）。"
+          },
+          "jigsawSettings": {
+            "title": "拼圖設定",
+            "desc": "配置網格大小、目標拼圖塊數量和插槽距離範圍以進行拼圖產生。"
+          },
+          "statistics": {
+            "title": "統計資訊",
+            "desc": "檢視形狀數量、範本數量和當前縮放級別。"
+          },
+          "operations": {
+            "title": "專案操作",
+            "desc": "存取進階設定和產生拼圖按鈕。"
+          }
+        }
+      },
+      "shapeInfo": {
+        "title": "形狀檢查器",
+        "desc": "當選中形狀或組時，右側面板顯示該元素的詳細資訊。",
+        "sections": {
+          "shapeInfo": {
+            "title": "形狀資訊",
+            "desc": "檢視和編輯所選元素的名稱、ID 和類型（路徑、組、圓形等）。"
+          },
+          "transform": {
+            "title": "變換",
+            "desc": "調整所選元素的位置（X、Y）、縮放和旋轉。"
+          },
+          "geometry": {
+            "title": "幾何",
+            "desc": "檢視元素的邊界框尺寸和位置。"
+          },
+          "operations": {
+            "title": "操作",
+            "desc": "一鍵複製或刪除所選元素。"
+          }
+        }
+      },
+      "advancedSettings": {
+        "title": "進階設定",
+        "desc": "透過進階設定對話框存取全面的應用程式設定。",
+        "sections": {
+          "language": {
+            "title": "語言設定",
+            "desc": "使用系統語言，或選擇應用支援的語言。"
+          },
+          "subscription": {
+            "title": "訂閱管理",
+            "desc": "檢視您的訂閱狀態並管理您的進階會員資格。"
+          },
+          "editor": {
+            "title": "編輯器設定",
+            "desc": "自訂畫布顯示，包括網格、標尺、對齊網格、網格間距和描邊寬度。"
+          }
+        },
+        "options": {
+          "showGrid": {
+            "title": "顯示網格",
+            "desc": "顯示/隱藏網格疊加"
+          },
+          "showRulers": {
+            "title": "顯示標尺",
+            "desc": "顯示/隱藏標尺"
+          },
+          "snapToGrid": {
+            "title": "對齊網格",
+            "desc": "啓用/禁用對齊網格"
+          },
+          "gridSpacing": {
+            "title": "網格間距",
+            "desc": "調整網格間距（像素距離）"
+          },
+          "strokeWidth": {
+            "title": "描邊寬度",
+            "desc": "設定形狀描邊寬度"
+          }
+        }
+      },
+      "templateEditor": {
+        "title": "範本編輯器",
+        "desc": "使用內置貝塞爾曲線繪圖工具建立自訂插槽範本。",
+        "features": [
+          "為您的自訂範本命名",
+          "透過點按和拖動繪制貝塞爾曲線",
+          "雙擊完成路徑",
+          "編輯單個控制點",
+          "匯入現有 SVG 範本",
+          "匯出範本以備份"
+        ],
+        "buttons": {
+          "clearPath": {
+            "title": "清除路徑",
+            "desc": "清除當前繪圖"
+          },
+          "editPoints": {
+            "title": "編輯點",
+            "desc": "切換到點編輯模式"
+          },
+          "importSVG": {
+            "title": "匯入 SVG",
+            "desc": "匯入 SVG 檔案作為範本"
+          },
+          "exportSVG": {
+            "title": "匯出 SVG",
+            "desc": "將範本匯出為 SVG"
+          }
+        }
+      }
+    },
+    "projectLibraryContent": {
+      "title": "專案庫",
+      "intro": "專案庫是您管理所有拼圖設計的中心。可從歡迎螢幕或透過『檔案 → 專案庫』存取。",
+      "myProjects": {
+        "title": "我的專案",
+        "icon": "📁",
+        "desc": "您所有拼圖設計的個人工作區，安全存儲在 iCloud 中。",
+        "features": [
+          "在 Mac、iPad 和 iPhone 之間自動 iCloud 同步",
+          "使用 + 按鈕建立新專案",
+          "帶有專案名稱和日期的縮略圖預覽",
+          "使用紅色垃圾桶按鈕刪除專案",
+          "帶有雲圖示的專案表示同步狀態"
+        ],
+        "howTo": "點按『新建專案』建立空白拼圖，或點按任何現有專案縮略圖在編輯器中開啟它。",
+        "contextMenu": {
+          "title": "右鍵選單選項",
+          "desc": "右鍵點按（或在 iPad/iPhone 上長按）任何專案可存取以下選項：",
+          "options": {
+            "open": {
+              "title": "開啟專案",
+              "desc": "在編輯器中開啟專案"
+            },
+            "rename": {
+              "title": "重命名",
+              "desc": "更改專案名稱"
+            },
+            "publish": {
+              "title": "發佈到公開專案",
+              "desc": "與全球所有 JigsawDesigner 使用者分享您的設計。發佈的專案會出現在公開專案庫中，供所有人匯入和學習。"
+            },
+            "share": {
+              "title": "建立分享連結",
+              "desc": "產生 iCloud 連結，讓接收者在『分享專案』中唯讀檢視所選專案。"
+            },
+            "delete": {
+              "title": "刪除",
+              "desc": "永久刪除專案"
+            }
+          }
+        }
+      },
+      "publicProjects": {
+        "title": "公開專案",
+        "icon": "🌐",
+        "desc": "所有使用者可用的社區分享範本。瀏覽、預覽和匯入我們公開庫中的設計。",
+        "features": [
+          "瀏覽由 JigsawDesigner 團隊建立的範本",
+          "匯入前檢視拼圖塊數量",
+          "點按『開啟』預覽設計",
+          "點按『匯入』複製到您的專案",
+          "非常適合學習和獲取靈感"
+        ],
+        "howTo": "選擇任何公開專案並點按『匯入』將副本添加到您的個人庫中。然後您可以自由定制。"
+      },
+      "sharedProjects": {
+        "title": "分享專案",
+        "icon": "👥",
+        "desc": "檢視其他使用者透過 iCloud 與您分享的專案。",
+        "features": [
+          "接收同事或朋友分享的專案",
+          "以唯讀方式存取分享專案",
+          "iCloud 同步所有者的更新後，變化可能隨之顯示",
+          "透過邀請連結接受分享"
+        ],
+        "howTo": "接受有效的分享連結後，專案可出現在『分享專案』中供唯讀檢視。"
+      }
+    },
+    "gettingStartedContent": {
+      "title": "建立您的第一個專案",
+      "steps": {
+        "1": {
+          "title": "啓動 JigsawDesigner",
+          "desc": "在您的 Mac 或 iOS 裝置上開啟應用程式。"
+        },
+        "2": {
+          "title": "選擇工具",
+          "desc": "從工具列中的 8 個繪圖工具中進行選擇。"
+        },
+        "3": {
+          "title": "繪制您的設計",
+          "desc": "建立形狀、路徑或匯入現有的 SVG 檔案。"
+        },
+        "4": {
+          "title": "產生拼圖",
+          "desc": "點按“產生拼圖”以建立互鎖的拼圖塊。"
+        },
+        "5": {
+          "title": "匯出",
+          "desc": "將拼圖保存為 SVG 以進行製造或列印。"
+        }
+      }
+    },
+    "toolsContent": {
+      "select": {
+        "title": "選擇工具",
+        "desc": "在畫布上選擇和移動形狀。Shift+單擊以多選，Ctrl+單擊以深入組內。"
+      },
+      "edit": {
+        "title": "編輯工具",
+        "desc": "編輯形狀的控制點。透過拖動點精確調整形狀幾何。"
+      },
+      "pen": {
+        "title": "鉛筆工具",
+        "desc": "繪制平滑的自由路徑，並可延續或連線開放輪廓。"
+      },
+      "line": {
+        "title": "直線工具",
+        "desc": "繪製直線。"
+      },
+      "rect": {
+        "title": "矩形工具",
+        "desc": "繪制矩形形狀。從角拖動以建立。"
+      },
+      "circle": {
+        "title": "圓形工具",
+        "desc": "繪制圓形和橢圓。從中心拖動以設定半徑。"
+      },
+      "polygon": {
+        "title": "多邊形工具",
+        "desc": "繪制多邊形。單擊以放置每個頂點，雙擊以完成。"
+      },
+      "bezier": {
+        "title": "貝塞爾工具",
+        "desc": "繪制具有錨點和控制手柄的精確貝塞爾曲線。"
+      }
+    },
+    "operationsContent": {
+      "selection": {
+        "title": "選擇",
+        "items": [
+          "單選：單擊任意形狀",
+          "多選：Shift+單擊多個形狀",
+          "全選：按 ⌘A 選擇所有形狀",
+          "深度選擇：Ctrl+單擊以選擇組中的子元素"
+        ]
+      },
+      "grouping": {
+        "title": "分組",
+        "items": [
+          "組合形狀：選擇多個形狀並按 G",
+          "取消組合：選擇組並按 ⌘G",
+          "嵌套組：建立複雜的層次結構"
+        ]
+      },
+      "editing": {
+        "title": "編輯",
+        "items": [
+          "複製：按 ⌘C 複製所選元素",
+          "刪除：按 Delete 或 Backspace 移除",
+          "變換：使用檢查器面板調整位置、縮放和旋轉"
+        ]
+      }
+    },
+    "generationContent": {
+      "title": "拼圖切割線產生指南",
+      "desc": "JigsawDesigner 使用包括 Voronoi 和 DCEL 技術在內的 C++ 演算法產生可配置的拼圖切割線。請按以下 4 個步驟操作：",
+      "steps": {
+        "1": {
+          "title": "第一步：匯入邊界輪廓",
+          "desc": "點按『匯入 SVG』或繪制自訂向量形狀，來定義拼圖切割線的外邊界以及內部的『異形』(whimsy) 形狀。"
+        },
+        "2": {
+          "title": "第二步：選擇卡槽範本",
+          "desc": "插槽範本定義拼圖塊連線的形狀。此面板允許您管理和建立自訂範本。 內置範本：標準凸形、標準凹形、直線"
+        },
+        "3": {
+          "title": "第三步：配置產生參數",
+          "desc": "使用『檢查器』設定網格大小、拼圖塊數量和卡槽距離。這些參數控制產生切割線的密度和複雜度。"
+        },
+        "4": {
+          "title": "第四步：產生拼圖切割線",
+          "desc": "運行產生器、檢查結果，並在匯出 SVG 前根據需要調整設定。"
+        }
+      }
+    },
+    "importExportContent": {
+      "import": {
+        "title": "匯入 SVG",
+        "desc": "匯入現有的 SVG 檔案用作拼圖邊界或設計元素。",
+        "shortcut": "快速鍵：",
+        "items": [
+          "路徑、矩形、圓形",
+          "組和變換",
+          "ViewBox 和坐標"
+        ]
+      },
+      "export": {
+        "title": "匯出 SVG",
+        "desc": "將您的設計和產生的拼圖匯出為標準 SVG 檔案。",
+        "shortcut": "快速鍵：",
+        "items": [
+          "標準 SVG 1.1 格式",
+          "保留所有變換",
+          "維護組層次結構"
+        ]
+      },
+      "premium": {
+        "title": "進階功能",
+        "desc": "新使用者可免費產生 {count} 次拼圖。SVG 匯出和無限次產生需要有效的 Apple 訂閱。"
+      }
+    },
+    "shortcutsContent": {
+      "file": {
+        "title": "檔案操作",
+        "new": "新建專案",
+        "import": "匯入 SVG",
+        "export": "匯出 SVG"
+      },
+      "edit": {
+        "title": "編輯操作",
+        "copy": "複製",
+        "delete": "刪除",
+        "selectAll": "全選",
+        "group": "組合形狀",
+        "ungroup": "取消組合"
+      },
+      "selection": {
+        "title": "選擇",
+        "multi": "多選",
+        "drillDown": "深入",
+        "drillUp": "鑽出"
+      }
+    },
+    "troubleshooting": {
+      "title": "故障排除"
+    },
+    "needHelp": {
+      "title": "需要更多說明？",
+      "desc": "存取我們的支援頁面或直接聯絡我們以獲得個性化說明"
+    }
+  }
+}

@@ -1,628 +1,604 @@
 {
-    "Navigation": {
-        "features": "Fitur",
-        "download": "Unduh",
-        "github": "GitHub",
-        "getStarted": "Mulai",
-        "home": "Beranda",
-        "support": "Dukungan",
-        "help": "Pusat Bantuan"
-    },
-    "Hero": {
-        "version": "{version} Dirilis - Coba sekarang!",
-        "titlePart1": "Desain Puzzle Seperti <br/>",
-        "titleProfessional": "Profesional",
-        "subtitle": "Alat desain puzzle paling kuat untuk platform Apple. Performa asli, presisi SVG, dan pembuatan berbasis algoritma.",
-        "download": "Unduh",
-        "learnMore": "Pelajari Lebih Lanjut"
-    },
-    "Features": {
-        "title": "Fitur Canggih",
-        "subtitle": "Semua yang Anda butuhkan untuk membuat puzzle berkualitas profesional.",
-        "list": {
-            "customization": {
-                "title": "Kustomisasi Tanpa Batas",
-                "description": "Sesuaikan semuanya mulai dari template slot dan garis luar hingga bagian dalam puzzle. Buat desain unik yang menonjol."
-            },
-            "workflow": {
-                "title": "Alur Kerja Secepat Kilat",
-                "description": "Ubah jam kerja manual menjadi detik. Hasilkan pola puzzle yang rumit hanya dalam 3 detik dengan mesin canggih kami."
-            },
-            "anywhere": {
-                "title": "Desain Di Mana Saja",
-                "description": "Mulai di Mac Anda, sempurnakan di iPad, dan tinjau di iPhone. Ruang kerja Anda bergerak bersama Anda."
-            }
-        }
-    },
-    "Footer": {
-        "privacy": "Privasi",
-        "support": "Dukungan",
-        "github": "GitHub",
-        "rights": "© {year} JigsawDesigner. Dilindungi undang-undang."
-    },
-    "Privacy": {
-        "title": "Kebijakan Privasi",
-        "introduction": {
-            "title": "Pengantar",
-            "content": "JigsawDesigner (\"kami\", \"milik kami\") menghormati privasi Anda dan berkomitmen untuk melindunginya. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi Anda saat Anda menggunakan aplikasi dan situs web kami."
-        },
-        "dataCollection": {
-            "title": "Pengumpulan Data",
-            "content": "Kami tidak mengumpulkan data pribadi.",
-            "content2": "JigsawDesigner dirancang untuk memproses file Anda secara lokal di perangkat Anda. Desain, gambar, dan proyek Anda tidak pernah meninggalkan perangkat Anda kecuali Anda secara eksplisit memilih untuk mengekspor atau membagikannya.",
-            "list": {
-                "behavior": "Kami tidak melacak perilaku penggunaan Anda.",
-                "upload": "Kami tidak mengunggah foto Anda, seperti gambar puzzle, ke server mana pun.",
-                "sell": "Kami tidak menjual data Anda kepada pihak ketiga."
-            }
-        },
-        "analytics": {
-            "title": "Analitik Aplikasi",
-            "content": "Kami dapat menggunakan analitik standar Apple (opt-in) untuk meningkatkan kinerja dan stabilitas aplikasi (mis., laporan kerusakan). Data ini anonim dan tidak mengidentifikasi Anda secara pribadi. Anda dapat memilih keluar kapan saja melalui pengaturan perangkat Anda."
-        },
-        "contact": {
-            "title": "Hubungi Kami",
-            "content": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi kami di:"
-        },
-        "lastUpdated": "Terakhir Diperbarui: 10 Desember 2025"
-    },
-    "Support": {
-        "hero": {
-            "titlePart1": "Bagaimana kami bisa",
-            "titlePart2": "membantu Anda?",
-            "subtitle": "Kami di sini untuk mendukung perjalanan kreatif Anda. Temukan jawaban atau hubungi tim kami."
-        },
-        "documentation": {
-            "title": "Dokumentasi",
-            "description": "Jelajahi panduan komprehensif kami untuk menguasai fitur dan alat JigsawDesigner.",
-            "action": "Jelajahi Artikel"
-        },
-        "email": {
-            "title": "Dukungan Email",
-            "description": "Butuh bantuan dengan masalah tertentu? Tim dukungan kami siap membantu Anda secara langsung."
-        },
-        "faq": {
-            "title": "Pertanyaan yang Sering Diajukan",
-            "q1": {
-                "question": "Apakah JigsawDesigner pembelian satu kali?",
-                "answer": "Ya, JigsawDesigner menawarkan opsi lisensi seumur hidup serta paket berlangganan. Periksa App Store untuk harga terbaru."
-            },
-            "q2": {
-                "question": "Bisakah saya mengekspor desain saya untuk penggunaan komersial?",
-                "answer": "Tentu saja. Semua desain yang dibuat dengan JigsawDesigner adalah milik Anda. Anda dapat mengekspornya sebagai SVG atau PDF untuk pembuatan atau pencetakan komersial."
-            },
-            "q3": {
-                "question": "Apakah ini mendukung garis potong kustom?",
-                "answer": "Ya, Anda dapat mengimpor jalur SVG khusus untuk digunakan sebagai garis potong, atau menggunakan algoritma canggih kami untuk menghasilkan pola unik secara otomatis."
-            }
-        }
-    },
-    "Help": {
-        "title": "Pusat Bantuan & Panduan Pembuatan Jigsaw",
-        "subtitle": "Panduan lengkap untuk pembuatan garis potong jigsaw profesional dan desain puzzle khusus menggunakan JigsawDesigner.",
-        "toc": "Daftar Isi",
-        "sections": {
-            "gettingStarted": "Memulai",
-            "tools": "Alat Menggambar SVG",
-            "operations": "Operasi Elemen Puzzle",
-            "generation": "Pembuatan Garis Potong Jigsaw",
-            "importExport": "Impor & Ekspor SVG",
-            "shortcuts": "Pintasan Keyboard",
-            "projectLibrary": "Perpustakaan Proyek",
-            "interface": "Antarmuka Editor"
-        },
-        "gettingStartedContent": {
-            "title": "Buat Proyek Pertama Anda",
-            "steps": {
-                "1": {
-                    "title": "Luncurkan JigsawDesigner",
-                    "desc": "Buka aplikasi di Mac atau perangkat iOS Anda."
-                },
-                "2": {
-                    "title": "Pilih Alat",
-                    "desc": "Pilih dari 8 alat gambar di bilah alat."
-                },
-                "3": {
-                    "title": "Gambar Desain Anda",
-                    "desc": "Buat bentuk, jalur, atau impor file SVG yang ada."
-                },
-                "4": {
-                    "title": "Hasilkan Puzzle",
-                    "desc": "Klik 'Hasilkan Puzzle' untuk membuat potongan yang saling terkait."
-                },
-                "5": {
-                    "title": "Ekspor",
-                    "desc": "Simpan puzzle Anda sebagai SVG untuk pembuatan atau pencetakan."
-                }
-            }
-        },
-        "toolsContent": {
-            "select": {
-                "title": "Alat Seleksi",
-                "desc": "Pilih dan pindahkan bentuk di kanvas. Shift+Klik untuk seleksi ganda, Ctrl+Klik untuk menelusuri ke dalam grup."
-            },
-            "edit": {
-                "title": "Alat Edit",
-                "desc": "Edit titik kontrol bentuk. Sesuaikan geometri bentuk dengan presisi dengan menyeret titik."
-            },
-            "pen": {
-                "title": "Alat Pena",
-                "desc": "Menggambar jalur bentuk bebas. Klik dan seret untuk membuat kurva Bezier dan bentuk organik."
-            },
-            "line": {
-                "title": "Alat Garis",
-                "desc": "Gambar garis lurus. Sempurna untuk desain geometris dan koneksi yang presisi."
-            },
-            "rect": {
-                "title": "Alat Persegi Panjang",
-                "desc": "Gambar bentuk persegi panjang. Klik dan seret dari sudut untuk membuat."
-            },
-            "circle": {
-                "title": "Alat Lingkaran",
-                "desc": "Gambar lingkaran dan elips. Seret dari tengah untuk mengatur jari-jari."
-            },
-            "polygon": {
-                "title": "Alat Poligon",
-                "desc": "Gambar poligon bersisi banyak. Klik untuk menempatkan setiap titik, klik dua kali untuk menyelesaikan."
-            },
-            "bezier": {
-                "title": "Alat Bezier",
-                "desc": "Gambar kurva Bezier presisi dengan titik jangkar dan pegangan kontrol."
-            }
-        },
-        "operationsContent": {
-            "selection": {
-                "title": "Seleksi",
-                "items": [
-                    "Seleksi Tunggal: Klik bentuk apa saja",
-                    "Seleksi Ganda: Shift+Klik beberapa bentuk",
-                    "Pilih Semua: Tekan ⌘A untuk memilih semua bentuk",
-                    "Seleksi Dalam: Ctrl+Klik untuk memilih elemen anak dalam grup"
-                ]
-            },
-            "grouping": {
-                "title": "Pengelompokan",
-                "items": [
-                    "Kelompokkan Bentuk: Pilih beberapa bentuk dan tekan G",
-                    "Buka Grup: Pilih grup dan tekan ⌘G",
-                    "Grup Bersarang: Buat hierarki yang kompleks"
-                ]
-            },
-            "editing": {
-                "title": "Pengeditan",
-                "items": [
-                    "Salin: Tekan ⌘C untuk menduplikasi elemen yang dipilih",
-                    "Hapus: Tekan Delete atau Backspace untuk menghapus",
-                    "Transformasi: Gunakan panel Inspektur untuk menyesuaikan posisi, skala, dan rotasi"
-                ]
-            }
-        },
-        "generationContent": {
-            "howItWorks": {
-                "title": "Cara Kerjanya",
-                "desc": "JigsawDesigner menggunakan algoritma C++ canggih dengan perpustakaan OpenCV dan Boost untuk menghasilkan potongan puzzle berkualitas tinggi menggunakan diagram Voronoi dan struktur data DCEL."
-            },
-            "steps": {
-                "1": {
-                    "title": "Impor Kontur Batas",
-                    "desc": "Klik \"Impor SVG\" atau gambar bentuk vektor khusus untuk menentukan batas luar dan potongan \"whimsy\" interior."
-                },
-                "2": {
-                    "title": "Pilih Templat Slot",
-                    "desc": "Pilih desain slot (Konveks Standar, Multipoint, dll.) untuk menentukan bagaimana potongan puzzle Anda akan saling mengunci."
-                },
-                "3": {
-                    "title": "Konfigurasi Parameter",
-                    "desc": "Gunakan Inspektur untuk mengatur Ukuran Kisi, Jumlah Potongan, dan Rentang Jarak Slot."
-                },
-                "4": {
-                    "title": "Hasilkan Garis Potong Jigsaw",
-                    "desc": "Klik \"Generate Jigsaw\". Dalam hitungan detik, Anda akan mendapatkan dieline puzzle yang siap untuk dipotong laser."
-                }
-            },
-            "title": "Panduan Pembuatan Garis Potong Jigsaw",
-            "desc": "JigsawDesigner menggunakan algoritma C++ canggih untuk menghasilkan garis potong puzzle yang saling mengunci secara profesional. Ikuti 4 langkah ini:"
-        },
-        "importExportContent": {
-            "import": {
-                "title": "Impor SVG",
-                "desc": "Impor file SVG yang ada untuk digunakan sebagai batas puzzle atau elemen desain.",
-                "shortcut": "Pintasan:",
-                "items": [
-                    "Jalur, persegi panjang, lingkaran",
-                    "Grup dan transformasi",
-                    "ViewBox dan koordinat"
-                ]
-            },
-            "export": {
-                "title": "Ekspor SVG",
-                "desc": "Ekspor desain dan puzzle yang dihasilkan sebagai file SVG standar.",
-                "shortcut": "Pintasan:",
-                "items": [
-                    "Format SVG 1.1 standar",
-                    "Pertahankan semua transformasi",
-                    "Pertahankan hierarki grup"
-                ]
-            },
-            "premium": {
-                "title": "Fitur Premium",
-                "desc": "Langganan Premium diperlukan untuk mengekspor puzzle yang dihasilkan. Pengguna gratis dapat mendesain dan menghasilkan, tetapi ekspor terbatas."
-            }
-        },
-        "shortcutsContent": {
-            "file": {
-                "title": "Operasi File",
-                "new": "Proyek Baru",
-                "import": "Impor SVG",
-                "export": "Ekspor SVG"
-            },
-            "edit": {
-                "title": "Operasi Edit",
-                "copy": "Salin",
-                "delete": "Hapus",
-                "selectAll": "Pilih Semua",
-                "group": "Kelompokkan Bentuk",
-                "ungroup": "Buka Grup"
-            },
-            "selection": {
-                "title": "Seleksi",
-                "multi": "Seleksi Ganda",
-                "drillDown": "Telusuri ke Bawah",
-                "drillUp": "Telusuri ke Atas"
-            }
-        },
-        "troubleshooting": {
-            "title": "Pemecahan Masalah",
-            "items": {
-                "shapes": {
-                    "title": "Bentuk tidak muncul",
-                    "content": "Verifikasi bahwa Anda berada dalam mode gambar yang benar. Periksa apakah ukuran kanvas memiliki ruang untuk bentuk Anda. Periksa apakah warna isi/garis bentuk tidak transparan."
-                },
-                "select": {
-                    "title": "Tidak bisa memilih bentuk",
-                    "content": "Beralih ke Alat Seleksi (ikon kursor). Pastikan bentuk tidak tersembunyi di belakang yang lain. Coba gunakan Ctrl+Klik untuk menelusuri ke dalam grup."
-                },
-                "fail": {
-                    "title": "Pembuatan puzzle gagal",
-                    "content": "Pastikan bentuk batas Anda adalah jalur tertutup. Kurangi jumlah potongan untuk bentuk yang kompleks. Periksa apakah template slot valid."
-                },
-                "export": {
-                    "title": "Ekspor dinonaktifkan",
-                    "content": "Langganan Premium diperlukan untuk mengekspor puzzle yang dihasilkan. Tingkat gratis memungkinkan desain tetapi membatasi fungsionalitas ekspor."
-                }
-            }
-        },
-        "needHelp": {
-            "title": "Butuh Bantuan Lebih Lanjut?",
-            "desc": "Kunjungi halaman dukungan kami atau hubungi kami secara langsung untuk bantuan yang dipersonalisasi",
-            "contact": "Hubungi Dukungan",
-            "download": "Unduh Aplikasi"
-        },
-        "metaTitle": "Pusat Bantuan - Generator Garis Potong Jigsaw Profesional & Desainer SVG",
-        "metaDescription": "Kuasai JigsawDesigner: Perangkat lunak terbaik untuk pembuatan garis potong jigsaw. Pelajari cara membuat SVG potong laser dan pola Voronoi.",
-        "metaKeywords": "generator garis potong jigsaw, pembuat dieline puzzle, SVG potong laser, perangkat lunak desain puzzle, generator Voronoi",
-        "interfaceContent": {
-            "title": "Antarmuka Editor & Garis Potong",
-            "intro": "Editor JigsawDesigner menyediakan ruang kerja vektor profesional untuk mendesain garis potong dan pola puzzle.",
-            "toolbar": {
-                "title": "Toolbar Atas",
-                "desc": "Toolbar menyediakan akses cepat ke semua alat gambar dan operasi file.",
-                "tools": [
-                    {
-                        "icon": "🖱️",
-                        "name": "Pilih",
-                        "desc": "Pilih dan pindahkan bentuk di kanvas"
-                    },
-                    {
-                        "icon": "✏️",
-                        "name": "Edit Titik",
-                        "desc": "Edit titik jangkar dan pegangan"
-                    },
-                    {
-                        "icon": "✒️",
-                        "name": "Pena",
-                        "desc": "Gambar jalur bebas"
-                    },
-                    {
-                        "icon": "📏",
-                        "name": "Garis",
-                        "desc": "Gambar garis lurus"
-                    },
-                    {
-                        "icon": "▭",
-                        "name": "Persegi Panjang",
-                        "desc": "Gambar persegi panjang dan kotak"
-                    },
-                    {
-                        "icon": "⭕",
-                        "name": "Lingkaran",
-                        "desc": "Gambar lingkaran dan elips"
-                    },
-                    {
-                        "icon": "⬟",
-                        "name": "Poligon",
-                        "desc": "Gambar poligon beraturan"
-                    },
-                    {
-                        "icon": "🎨",
-                        "name": "Bezier",
-                        "desc": "Gambar kurva Bezier dengan titik kontrol"
-                    }
-                ],
-                "buttons": {
-                    "import": "Impor file SVG yang ada ke proyek Anda",
-                    "export": "Ekspor desain Anda sebagai file SVG",
-                    "projectName": "Menampilkan nama proyek saat ini dan jumlah bentuk"
-                }
-            },
-            "canvas": {
-                "title": "Kanvas Tak Terbatas",
-                "desc": "Ruang kerja utama untuk membuat desain puzzle Anda.",
-                "features": [
-                    "Gulir tak terbatas - kanvas meluas ke semua arah",
-                    "Tampilan penggaris dengan pengukuran piksel",
-                    "Lapisan grid untuk penyelarasan tepat",
-                    "Zoom masuk/keluar dengan roda gulir atau gerakan cubit",
-                    "Pan dengan menyeret sambil menahan spacebar atau dua jari",
-                    "Kotak seleksi muncul saat elemen dipilih"
-                ],
-                "tip": "Gunakan ⌘0 untuk reset zoom ke 100%, atau ⌘1 untuk menyesuaikan kanvas di jendela."
-            },
-            "toolsPanel": {
-                "title": "Panel Alat",
-                "desc": "Akses cepat ke operasi umum dan info alat.",
-                "sections": {
-                    "currentTool": {
-                        "title": "Alat Saat Ini",
-                        "desc": "Menampilkan alat yang dipilih."
-                    },
-                    "elementOps": {
-                        "title": "Operasi Elemen",
-                        "desc": "Salin atau hapus elemen terpilih."
-                    },
-                    "canvasOps": {
-                        "title": "Operasi Kanvas",
-                        "desc": "Reset tampilan dan sesuaikan zoom."
-                    },
-                    "quickOps": {
-                        "title": "Operasi Cepat",
-                        "desc": "Bersihkan kanvas, pilih semua, batalkan pilihan."
-                    }
-                }
-            },
-            "layersPanel": {
-                "title": "Panel Layer",
-                "desc": "Kelola hierarki desain Anda.",
-                "features": [
-                    "Lihat grup dan bentuk dalam struktur pohon",
-                    "Perluas grup untuk melihat item",
-                    "Kunci bentuk (ikon gembok)",
-                    "Toggle visibilitas (ikon mata)",
-                    "Menampilkan total layer di bagian atas"
-                ]
-            },
-            "templatesPanel": {
-                "title": "Panel Template",
-                "desc": "Template menentukan bagaimana potongan puzzle terhubung.",
-                "features": [
-                    "Template bawaan: Cembung Standar, Cekung Standar, Garis Lurus",
-                    "Klik + untuk membuat template kustom",
-                    "Cari template berdasarkan nama",
-                    "Pilih template untuk digunakan dalam pembuatan puzzle",
-                    "Template kustom disimpan dengan proyek"
-                ],
-                "templateTypes": {
-                    "builtin": {
-                        "title": "Template Bawaan",
-                        "desc": "Bentuk slot pra-desain yang disediakan oleh JigsawDesigner."
-                    },
-                    "custom": {
-                        "title": "Template Kustom",
-                        "desc": "Desain bentuk slot unik Anda sendiri menggunakan alat gambar bezier."
-                    }
-                }
-            },
-            "inspector": {
-                "title": "Inspektor Proyek",
-                "desc": "Inspektor di sisi kanan menyediakan semua opsi konfigurasi proyek.",
-                "sections": {
-                    "projectInfo": {
-                        "title": "Info Proyek",
-                        "desc": "Lihat dan edit nama, tanggal pembuatan dan modifikasi."
-                    },
-                    "canvasSettings": {
-                        "title": "Pengaturan Kanvas",
-                        "desc": "Atur lebar dan tinggi dalam piksel atau pilih preset."
-                    },
-                    "jigsawSettings": {
-                        "title": "Pengaturan Puzzle",
-                        "desc": "Konfigurasi ukuran grid, jumlah potongan target dan jarak slot."
-                    },
-                    "statistics": {
-                        "title": "Statistik",
-                        "desc": "Lihat jumlah bentuk, template dan level zoom."
-                    },
-                    "operations": {
-                        "title": "Operasi",
-                        "desc": "Akses pengaturan lanjutan dan pembuatan puzzle."
-                    }
-                }
-            },
-            "shapeInfo": {
-                "title": "Inspektor Bentuk",
-                "desc": "Saat bentuk atau grup dipilih, panel menampilkan informasi detail.",
-                "sections": {
-                    "shapeInfo": {
-                        "title": "Info Bentuk",
-                        "desc": "Lihat dan edit nama, ID dan tipe (Path, Grup, Lingkaran, dll.)."
-                    },
-                    "transform": {
-                        "title": "Transformasi",
-                        "desc": "Sesuaikan posisi (X, Y), skala dan rotasi."
-                    },
-                    "geometry": {
-                        "title": "Geometri",
-                        "desc": "Lihat dimensi dan posisi kotak pembatas."
-                    },
-                    "operations": {
-                        "title": "Operasi",
-                        "desc": "Salin atau hapus elemen terpilih."
-                    }
-                }
-            },
-            "advancedSettings": {
-                "title": "Pengaturan Lanjutan",
-                "desc": "Akses pengaturan aplikasi komprehensif melalui dialog Pengaturan Lanjutan.",
-                "sections": {
-                    "language": {
-                        "title": "Pengaturan Bahasa",
-                        "desc": "Ubah bahasa aplikasi. Mendukung default sistem atau pilih dari 40+ bahasa."
-                    },
-                    "subscription": {
-                        "title": "Manajemen Langganan",
-                        "desc": "Lihat status langganan dan kelola keanggotaan Premium."
-                    },
-                    "editor": {
-                        "title": "Pengaturan Editor",
-                        "desc": "Sesuaikan tampilan kanvas termasuk grid, penggaris, snap ke grid, jarak grid, dan lebar garis."
-                    }
-                },
-                "options": {
-                    "showGrid": {
-                        "title": "Tampilkan Grid",
-                        "desc": "Tampilkan/Sembunyikan lapisan grid"
-                    },
-                    "showRulers": {
-                        "title": "Tampilkan Penggaris",
-                        "desc": "Tampilkan/Sembunyikan penggaris"
-                    },
-                    "snapToGrid": {
-                        "title": "Snap ke Grid",
-                        "desc": "Aktifkan/Nonaktifkan snap ke grid"
-                    },
-                    "gridSpacing": {
-                        "title": "Jarak Grid",
-                        "desc": "Sesuaikan jarak grid (jarak piksel)"
-                    },
-                    "strokeWidth": {
-                        "title": "Lebar Garis",
-                        "desc": "Atur lebar garis untuk bentuk"
-                    }
-                }
-            },
-            "templateEditor": {
-                "title": "Editor Template",
-                "desc": "Buat template slot kustom menggunakan alat gambar kurva Bézier bawaan.",
-                "features": [
-                    "Beri nama template kustom Anda",
-                    "Gambar kurva Bézier dengan klik dan seret",
-                    "Klik dua kali untuk menyelesaikan jalur",
-                    "Edit titik kontrol individual",
-                    "Impor template SVG yang ada",
-                    "Ekspor template untuk cadangan"
-                ],
-                "buttons": {
-                    "clearPath": {
-                        "title": "Hapus Jalur",
-                        "desc": "Hapus gambar saat ini"
-                    },
-                    "editPoints": {
-                        "title": "Edit Titik",
-                        "desc": "Beralih ke mode edit titik"
-                    },
-                    "importSVG": {
-                        "title": "Impor SVG",
-                        "desc": "Impor file SVG sebagai template"
-                    },
-                    "exportSVG": {
-                        "title": "Ekspor SVG",
-                        "desc": "Ekspor template sebagai SVG"
-                    }
-                }
-            }
-        },
-        "industryKeywords": {
-            "title": "Mengapa JigsawDesigner untuk Pembuatan Garis Potong?",
-            "laserCutting": {
-                "title": "SVG Potong Laser",
-                "desc": "Hasilkan jalur SVG yang bersih dan presisi, dioptimalkan untuk mesin Glowforge, Cricut, dan laser CO2."
-            },
-            "dieline": {
-                "title": "Dieline Puzzle Khusus",
-                "desc": "Buat garis potong unik dengan pola Voronoi yang menjamin setiap potongan puzzle bersifat unik."
-            },
-            "manufacturing": {
-                "title": "Siap Manufaktur",
-                "desc": "Ekspor desain dalam format vektor profesional (SVG, PDF) siap untuk produksi massal atau pemotongan manual."
-            }
-        },
-        "projectLibraryContent": {
-            "title": "Perpustakaan Proyek",
-            "intro": "Perpustakaan Proyek adalah pusat Anda untuk mengelola semua desain puzzle. Akses dari layar selamat datang atau File → Perpustakaan Proyek.",
-            "myProjects": {
-                "title": "Proyek Saya",
-                "icon": "📁",
-                "desc": "Ruang kerja pribadi Anda untuk semua desain puzzle, disimpan dengan aman di iCloud.",
-                "features": [
-                    "Sinkronisasi iCloud otomatis di Mac, iPad dan iPhone",
-                    "Buat proyek baru dengan tombol +",
-                    "Pratinjau thumbnail dengan nama proyek dan tanggal",
-                    "Hapus proyek menggunakan tombol tempat sampah merah",
-                    "Proyek dengan ikon awan menunjukkan status sinkronisasi"
-                ],
-                "howTo": "Klik \"Proyek Baru\" untuk membuat puzzle kosong, atau klik thumbnail yang ada untuk membuka di editor.",
-                "contextMenu": {
-                    "title": "Menu Klik Kanan",
-                    "desc": "Klik kanan (atau tekan lama di iPad/iPhone) pada proyek mana pun untuk akses opsi:",
-                    "options": {
-                        "open": {
-                            "title": "Buka Proyek",
-                            "desc": "Buka proyek di editor"
-                        },
-                        "rename": {
-                            "title": "Ganti Nama",
-                            "desc": "Ubah nama proyek"
-                        },
-                        "publish": {
-                            "title": "Publikasikan",
-                            "desc": "Bagikan desain dengan semua pengguna JigsawDesigner"
-                        },
-                        "share": {
-                            "title": "Buat Tautan",
-                            "desc": "Buat tautan iCloud. Kirim ke teman dan mereka akan melihat proyek Anda"
-                        },
-                        "delete": {
-                            "title": "Hapus",
-                            "desc": "Hapus proyek secara permanen"
-                        }
-                    }
-                }
-            },
-            "publicProjects": {
-                "title": "Proyek Publik",
-                "icon": "🌐",
-                "desc": "Template komunitas tersedia untuk semua pengguna. Jelajahi, pratinjau dan impor desain dari perpustakaan publik.",
-                "features": [
-                    "Jelajahi template yang dibuat oleh tim JigsawDesigner",
-                    "Lihat jumlah potongan sebelum impor",
-                    "Klik \"Buka\" untuk pratinjau",
-                    "Klik \"Impor\" untuk menyalin ke Proyek Saya",
-                    "Bagus untuk belajar dan inspirasi"
-                ],
-                "howTo": "Pilih proyek publik dan klik \"Impor\" untuk menambahkan salinan ke perpustakaan Anda."
-            },
-            "sharedProjects": {
-                "title": "Proyek Bersama",
-                "icon": "👥",
-                "desc": "Ruang kolaborasi untuk proyek yang dibagikan dengan Anda oleh pengguna lain.",
-                "features": [
-                    "Terima proyek yang dibagikan oleh rekan atau teman",
-                    "Akses baca saja atau edit tergantung izin",
-                    "Sinkronisasi waktu nyata dengan pemilik proyek",
-                    "Terima berbagi melalui tautan undangan"
-                ],
-                "howTo": "Ketika seseorang membagikan proyek dengan Anda, akan muncul di sini secara otomatis. Klik untuk membuka dan berkolaborasi."
-            }
-        }
+  "Navigation": {
+    "features": "Fitur",
+    "download": "Unduh",
+    "home": "Beranda",
+    "support": "Dukungan",
+    "help": "Pusat Bantuan",
+    "pricing": "Paket",
+    "language": "Bahasa",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu"
+  },
+  "Hero": {
+    "version": "{version} Dirilis - Coba sekarang!",
+    "titlePart1": "Desain Puzzle Seperti <br/>",
+    "titleProfessional": "Profesional",
+    "subtitle": "Alat desain puzzle profesional untuk iPhone, iPad, dan Mac, dengan penyuntingan SVG presisi dan pembuatan berbasis algoritma.",
+    "learnMore": "Pelajari Lebih Lanjut"
+  },
+  "Features": {
+    "title": "Fitur Canggih",
+    "subtitle": "Perangkat terfokus untuk membuat dan menyunting desain puzzle khusus.",
+    "list": {
+      "customization": {
+        "title": "Kustomisasi Tanpa Batas",
+        "description": "Sesuaikan semuanya mulai dari template slot dan garis luar hingga bagian dalam puzzle. Buat desain unik yang menonjol."
+      },
+      "workflow": {
+        "title": "Alur Kerja Secepat Kilat",
+        "description": "Kurangi penelusuran manual yang berulang dengan pembuatan pola puzzle berbasis algoritma."
+      },
+      "anywhere": {
+        "title": "Desain Di Mana Saja",
+        "description": "Mulai di Mac Anda, sempurnakan di iPad, dan tinjau di iPhone. Ruang kerja Anda bergerak bersama Anda."
+      }
     }
+  },
+  "Footer": {
+    "privacy": "Privasi",
+    "support": "Dukungan",
+    "rights": "© {year} JigsawDesigner. Dilindungi undang-undang.",
+    "pricing": "Paket",
+    "terms": "Ketentuan Layanan",
+    "refund": "Kebijakan Pengembalian Dana",
+    "help": "Pusat Bantuan"
+  },
+  "Privacy": {
+    "title": "Kebijakan Privasi",
+    "metaDescription": "Aplikasi terutama memproses file desain di perangkat Anda. Kami tidak menjual informasi pribadi.",
+    "introduction": {
+      "title": "Pengantar",
+      "content": "Kebijakan ini menjelaskan cara JigsawDesigner menangani informasi di aplikasi dan situs, termasuk fitur cloud opsional, publikasi umum, pilihan bahasa berbasis URL, dan analitik opsional."
+    },
+    "dataCollection": {
+      "title": "Pengumpulan Data",
+      "content": "Aplikasi terutama memproses file desain di perangkat Anda.",
+      "content2": "Jika iCloud diaktifkan, data proyek dapat disinkronkan melalui layanan iCloud dan CloudKit Apple. Publikasi mengirim proyek yang dipilih ke basis data CloudKit publik, dan tautan berbagi dapat memberi akses hanya-baca ke proyek yang dipilih.",
+      "list": {
+        "behavior": "Setelah Anda memilih bahasa secara aktif, situs menyimpan cookie preferensi bahasa yang diperlukan hingga satu tahun. Pilihan analitik opsional disimpan secara terpisah di localStorage peramban ini. Jika Anda menyetujui, Google Analytics 4 dapat mengukur kunjungan dan interaksi; Cloudflare memproses permintaan dan data keamanan yang diperlukan untuk menyediakan situs.",
+        "upload": "Media atau layanan pihak ketiga, seperti penyedia video, baru dihubungi setelah Anda memilih untuk memuat atau membuka konten tersebut; ketentuan privasi mereka kemudian berlaku.",
+        "sell": "Kami tidak menjual informasi pribadi."
+      }
+    },
+    "analytics": {
+      "title": "Analitik dan penyedia layanan",
+      "content": "Apple dapat menyediakan analitik aplikasi dan informasi kerusakan opsional sesuai pengaturan perangkat. Analitik situs hanya menggunakan Google Analytics 4 setelah persetujuan disimpan di localStorage peramban. Cloudflare menghosting dan melindungi situs. Anda dapat menolak analitik tanpa memengaruhi pilihan bahasa."
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "content": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi kami di:"
+    },
+    "lastUpdated": "Terakhir diperbarui: 16 Agustus 2026"
+  },
+  "Support": {
+    "hero": {
+      "titlePart1": "Bagaimana kami bisa",
+      "titlePart2": "membantu Anda?",
+      "subtitle": "Kami di sini untuk mendukung perjalanan kreatif Anda. Temukan jawaban atau hubungi tim kami."
+    },
+    "documentation": {
+      "title": "Dokumentasi",
+      "description": "Jelajahi panduan komprehensif kami untuk menguasai fitur dan alat JigsawDesigner.",
+      "action": "Jelajahi Artikel"
+    },
+    "email": {
+      "title": "Dukungan Email",
+      "description": "Butuh bantuan dengan masalah tertentu? Tim dukungan kami siap membantu Anda secara langsung."
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "q1": {
+        "question": "Apakah JigsawDesigner pembelian satu kali?",
+        "answer": "JigsawDesigner menyediakan langganan Apple bulanan dan tahunan; Apple menampilkan harga saat ini untuk etalase Anda."
+      },
+      "q2": {
+        "question": "Bisakah saya mengekspor desain saya untuk penggunaan komersial?",
+        "answer": "Pelanggan Premium dapat mengekspor file SVG. Penggunaan komersial juga bergantung pada hak atas gambar, font, templat, dan konten lain dalam desain."
+      },
+      "q3": {
+        "question": "Apakah ini mendukung garis potong kustom?",
+        "answer": "Ya, Anda dapat mengimpor jalur SVG khusus untuk digunakan sebagai garis potong, atau menggunakan algoritma canggih kami untuk menghasilkan pola unik secara otomatis."
+      }
+    }
+  },
+  "Help": {
+    "title": "Pusat Bantuan & Panduan Pembuatan Jigsaw",
+    "subtitle": "Panduan lengkap untuk pembuatan garis potong jigsaw profesional dan desain puzzle khusus menggunakan JigsawDesigner.",
+    "toc": "Daftar Isi",
+    "sections": {
+      "gettingStarted": "Memulai",
+      "tools": "Alat Menggambar SVG",
+      "operations": "Operasi Elemen Puzzle",
+      "generation": "Pembuatan Garis Potong Jigsaw",
+      "importExport": "Impor & Ekspor SVG",
+      "shortcuts": "Pintasan Keyboard",
+      "projectLibrary": "Perpustakaan Proyek",
+      "interface": "Antarmuka Editor"
+    },
+    "gettingStartedContent": {
+      "title": "Buat Proyek Pertama Anda",
+      "steps": {
+        "1": {
+          "title": "Luncurkan JigsawDesigner",
+          "desc": "Buka aplikasi di Mac atau perangkat iOS Anda."
+        },
+        "2": {
+          "title": "Pilih Alat",
+          "desc": "Pilih dari 8 alat gambar di bilah alat."
+        },
+        "3": {
+          "title": "Gambar Desain Anda",
+          "desc": "Buat bentuk, jalur, atau impor file SVG yang ada."
+        },
+        "4": {
+          "title": "Hasilkan Puzzle",
+          "desc": "Klik 'Hasilkan Puzzle' untuk membuat potongan yang saling terkait."
+        },
+        "5": {
+          "title": "Ekspor",
+          "desc": "Simpan puzzle Anda sebagai SVG untuk pembuatan atau pencetakan."
+        }
+      }
+    },
+    "toolsContent": {
+      "select": {
+        "title": "Alat Seleksi",
+        "desc": "Pilih dan pindahkan bentuk di kanvas. Shift+Klik untuk seleksi ganda, Ctrl+Klik untuk menelusuri ke dalam grup."
+      },
+      "edit": {
+        "title": "Alat Edit",
+        "desc": "Edit titik kontrol bentuk. Sesuaikan geometri bentuk dengan presisi dengan menyeret titik."
+      },
+      "pen": {
+        "title": "Alat Pensil",
+        "desc": "Gambar jalur bebas yang halus, termasuk kontur terbuka yang dapat dilanjutkan atau disambungkan."
+      },
+      "line": {
+        "title": "Alat Garis",
+        "desc": "Gambar garis lurus."
+      },
+      "rect": {
+        "title": "Alat Persegi Panjang",
+        "desc": "Gambar bentuk persegi panjang. Klik dan seret dari sudut untuk membuat."
+      },
+      "circle": {
+        "title": "Alat Lingkaran",
+        "desc": "Gambar lingkaran dan elips. Seret dari tengah untuk mengatur jari-jari."
+      },
+      "polygon": {
+        "title": "Alat Poligon",
+        "desc": "Gambar poligon bersisi banyak. Klik untuk menempatkan setiap titik, klik dua kali untuk menyelesaikan."
+      },
+      "bezier": {
+        "title": "Alat Bezier",
+        "desc": "Gambar kurva Bezier presisi dengan titik jangkar dan pegangan kontrol."
+      }
+    },
+    "operationsContent": {
+      "selection": {
+        "title": "Seleksi",
+        "items": [
+          "Seleksi Tunggal: Klik bentuk apa saja",
+          "Seleksi Ganda: Shift+Klik beberapa bentuk",
+          "Pilih Semua: Tekan ⌘A untuk memilih semua bentuk",
+          "Seleksi Dalam: Ctrl+Klik untuk memilih elemen anak dalam grup"
+        ]
+      },
+      "grouping": {
+        "title": "Pengelompokan",
+        "items": [
+          "Kelompokkan Bentuk: Pilih beberapa bentuk dan tekan G",
+          "Buka Grup: Pilih grup dan tekan ⌘G",
+          "Grup Bersarang: Buat hierarki yang kompleks"
+        ]
+      },
+      "editing": {
+        "title": "Pengeditan",
+        "items": [
+          "Salin: Tekan ⌘C untuk menduplikasi elemen yang dipilih",
+          "Hapus: Tekan Delete atau Backspace untuk menghapus",
+          "Transformasi: Gunakan panel Inspektur untuk menyesuaikan posisi, skala, dan rotasi"
+        ]
+      }
+    },
+    "generationContent": {
+      "steps": {
+        "1": {
+          "title": "Impor Kontur Batas",
+          "desc": "Klik \"Impor SVG\" atau gambar bentuk vektor khusus untuk menentukan batas luar dan potongan \"whimsy\" interior."
+        },
+        "2": {
+          "title": "Pilih Templat Slot",
+          "desc": "Template menentukan bagaimana potongan puzzle terhubung. Template bawaan: Cembung Standar, Cekung Standar, Garis Lurus"
+        },
+        "3": {
+          "title": "Konfigurasi Parameter",
+          "desc": "Gunakan Inspektur untuk mengatur ukuran kisi, jumlah keping, dan rentang jarak slot. Parameter ini memengaruhi kepadatan dan kerumitan garis potong yang dibuat."
+        },
+        "4": {
+          "title": "Hasilkan Garis Potong Jigsaw",
+          "desc": "Jalankan pembuat, periksa hasilnya, dan sesuaikan pengaturan bila perlu sebelum mengekspor SVG."
+        }
+      },
+      "title": "Panduan Pembuatan Garis Potong Jigsaw",
+      "desc": "JigsawDesigner menggunakan algoritma C++, termasuk teknik Voronoi dan DCEL, untuk membuat garis potong puzzle yang dapat disesuaikan. Ikuti empat langkah berikut:"
+    },
+    "importExportContent": {
+      "import": {
+        "title": "Impor SVG",
+        "desc": "Impor file SVG yang ada untuk digunakan sebagai batas puzzle atau elemen desain.",
+        "shortcut": "Pintasan:",
+        "items": [
+          "Jalur, persegi panjang, lingkaran",
+          "Grup dan transformasi",
+          "ViewBox dan koordinat"
+        ]
+      },
+      "export": {
+        "title": "Ekspor SVG",
+        "desc": "Ekspor desain dan puzzle yang dihasilkan sebagai file SVG standar.",
+        "shortcut": "Pintasan:",
+        "items": [
+          "Format SVG 1.1 standar",
+          "Pertahankan semua transformasi",
+          "Pertahankan hierarki grup"
+        ]
+      },
+      "premium": {
+        "title": "Fitur Premium",
+        "desc": "Pengguna baru mendapat {count} kali pembuatan puzzle gratis. Ekspor SVG dan pembuatan tanpa batas memerlukan langganan Apple aktif."
+      }
+    },
+    "shortcutsContent": {
+      "file": {
+        "title": "Operasi File",
+        "new": "Proyek Baru",
+        "import": "Impor SVG",
+        "export": "Ekspor SVG"
+      },
+      "edit": {
+        "title": "Operasi Edit",
+        "copy": "Salin",
+        "delete": "Hapus",
+        "selectAll": "Pilih Semua",
+        "group": "Kelompokkan Bentuk",
+        "ungroup": "Buka Grup"
+      },
+      "selection": {
+        "title": "Seleksi",
+        "multi": "Seleksi Ganda",
+        "drillDown": "Telusuri ke Bawah",
+        "drillUp": "Telusuri ke Atas"
+      }
+    },
+    "troubleshooting": {
+      "title": "Pemecahan Masalah"
+    },
+    "needHelp": {
+      "title": "Butuh Bantuan Lebih Lanjut?",
+      "desc": "Kunjungi halaman dukungan kami atau hubungi kami secara langsung untuk bantuan yang dipersonalisasi"
+    },
+    "metaTitle": "Pusat Bantuan & Panduan Pembuatan Jigsaw",
+    "metaDescription": "Pelajari cara membuat garis potong puzzle, menyunting bentuk vektor, mengelola proyek, dan mengekspor file SVG dengan JigsawDesigner.",
+    "interfaceContent": {
+      "title": "Antarmuka Editor & Garis Potong",
+      "intro": "Editor JigsawDesigner menyediakan ruang kerja vektor profesional untuk mendesain garis potong dan pola puzzle.",
+      "toolbar": {
+        "title": "Toolbar Atas",
+        "desc": "Toolbar menyediakan akses cepat ke semua alat gambar dan operasi file.",
+        "tools": [
+          {
+            "icon": "🖱️",
+            "name": "Pilih",
+            "desc": "Pilih dan pindahkan bentuk di kanvas"
+          },
+          {
+            "icon": "✏️",
+            "name": "Edit Titik",
+            "desc": "Edit titik jangkar dan pegangan"
+          },
+          {
+            "icon": "✒️",
+            "name": "Pensil",
+            "desc": "Gambar jalur bebas yang halus"
+          },
+          {
+            "icon": "📏",
+            "name": "Garis",
+            "desc": "Gambar garis lurus"
+          },
+          {
+            "icon": "▭",
+            "name": "Persegi Panjang",
+            "desc": "Gambar persegi panjang dan kotak"
+          },
+          {
+            "icon": "⭕",
+            "name": "Lingkaran",
+            "desc": "Gambar lingkaran dan elips"
+          },
+          {
+            "icon": "⬟",
+            "name": "Poligon",
+            "desc": "Gambar poligon beraturan"
+          },
+          {
+            "icon": "🎨",
+            "name": "Bezier",
+            "desc": "Gambar kurva Bezier dengan titik kontrol"
+          }
+        ],
+        "buttons": {
+          "import": "Impor file SVG yang ada ke proyek Anda",
+          "export": "Ekspor desain Anda sebagai file SVG",
+          "projectName": "Menampilkan nama proyek saat ini dan jumlah bentuk"
+        }
+      },
+      "canvas": {
+        "title": "Kanvas Tak Terbatas",
+        "desc": "Ruang kerja utama untuk membuat desain puzzle Anda.",
+        "features": [
+          "Gulir tak terbatas - kanvas meluas ke semua arah",
+          "Tampilan penggaris dengan pengukuran piksel",
+          "Lapisan grid untuk penyelarasan tepat",
+          "Zoom masuk/keluar dengan roda gulir atau gerakan cubit",
+          "Pan dengan menyeret sambil menahan spacebar atau dua jari",
+          "Kotak seleksi muncul saat elemen dipilih"
+        ],
+        "tip": "Gunakan ⌘0 untuk reset zoom ke 100%, atau ⌘1 untuk menyesuaikan kanvas di jendela."
+      },
+      "toolsPanel": {
+        "title": "Panel Alat",
+        "desc": "Akses cepat ke operasi umum dan info alat.",
+        "sections": {
+          "currentTool": {
+            "title": "Alat Saat Ini",
+            "desc": "Menampilkan alat yang dipilih."
+          },
+          "elementOps": {
+            "title": "Operasi Elemen",
+            "desc": "Salin atau hapus elemen terpilih."
+          },
+          "canvasOps": {
+            "title": "Operasi Kanvas",
+            "desc": "Reset tampilan dan sesuaikan zoom."
+          },
+          "quickOps": {
+            "title": "Operasi Cepat",
+            "desc": "Bersihkan kanvas, pilih semua, batalkan pilihan."
+          }
+        }
+      },
+      "layersPanel": {
+        "title": "Panel Layer",
+        "desc": "Kelola hierarki desain Anda.",
+        "features": [
+          "Lihat grup dan bentuk dalam struktur pohon",
+          "Perluas grup untuk melihat item",
+          "Kunci bentuk (ikon gembok)",
+          "Toggle visibilitas (ikon mata)",
+          "Menampilkan total layer di bagian atas"
+        ]
+      },
+      "templatesPanel": {
+        "title": "Panel Template",
+        "desc": "Template menentukan bagaimana potongan puzzle terhubung.",
+        "features": [
+          "Template bawaan: Cembung Standar, Cekung Standar, Garis Lurus",
+          "Klik + untuk membuat template kustom",
+          "Cari template berdasarkan nama",
+          "Pilih template untuk digunakan dalam pembuatan puzzle",
+          "Template kustom disimpan dengan proyek"
+        ],
+        "templateTypes": {
+          "builtin": {
+            "title": "Template Bawaan",
+            "desc": "Bentuk slot pra-desain yang disediakan oleh JigsawDesigner."
+          },
+          "custom": {
+            "title": "Template Kustom",
+            "desc": "Buat bentuk slot khusus dengan alat Bézier."
+          }
+        }
+      },
+      "inspector": {
+        "title": "Inspektor Proyek",
+        "desc": "Inspektor di sisi kanan menyediakan semua opsi konfigurasi proyek.",
+        "sections": {
+          "projectInfo": {
+            "title": "Info Proyek",
+            "desc": "Lihat dan edit nama, tanggal pembuatan dan modifikasi."
+          },
+          "canvasSettings": {
+            "title": "Pengaturan Kanvas",
+            "desc": "Atur lebar dan tinggi dalam piksel atau pilih preset."
+          },
+          "jigsawSettings": {
+            "title": "Pengaturan Puzzle",
+            "desc": "Konfigurasi ukuran grid, jumlah potongan target dan jarak slot."
+          },
+          "statistics": {
+            "title": "Statistik",
+            "desc": "Lihat jumlah bentuk, template dan level zoom."
+          },
+          "operations": {
+            "title": "Operasi",
+            "desc": "Akses pengaturan lanjutan dan pembuatan puzzle."
+          }
+        }
+      },
+      "shapeInfo": {
+        "title": "Inspektor Bentuk",
+        "desc": "Saat bentuk atau grup dipilih, panel menampilkan informasi detail.",
+        "sections": {
+          "shapeInfo": {
+            "title": "Info Bentuk",
+            "desc": "Lihat dan edit nama, ID dan tipe (Path, Grup, Lingkaran, dll.)."
+          },
+          "transform": {
+            "title": "Transformasi",
+            "desc": "Sesuaikan posisi (X, Y), skala dan rotasi."
+          },
+          "geometry": {
+            "title": "Geometri",
+            "desc": "Lihat dimensi dan posisi kotak pembatas."
+          },
+          "operations": {
+            "title": "Operasi",
+            "desc": "Salin atau hapus elemen terpilih."
+          }
+        }
+      },
+      "advancedSettings": {
+        "title": "Pengaturan Lanjutan",
+        "desc": "Akses pengaturan aplikasi komprehensif melalui dialog Pengaturan Lanjutan.",
+        "sections": {
+          "language": {
+            "title": "Pengaturan Bahasa",
+            "desc": "Gunakan bahasa sistem atau pilih salah satu bahasa yang didukung aplikasi."
+          },
+          "subscription": {
+            "title": "Manajemen Langganan",
+            "desc": "Lihat status langganan dan kelola keanggotaan Premium."
+          },
+          "editor": {
+            "title": "Pengaturan Editor",
+            "desc": "Sesuaikan tampilan kanvas termasuk grid, penggaris, snap ke grid, jarak grid, dan lebar garis."
+          }
+        },
+        "options": {
+          "showGrid": {
+            "title": "Tampilkan Grid",
+            "desc": "Tampilkan/Sembunyikan lapisan grid"
+          },
+          "showRulers": {
+            "title": "Tampilkan Penggaris",
+            "desc": "Tampilkan/Sembunyikan penggaris"
+          },
+          "snapToGrid": {
+            "title": "Snap ke Grid",
+            "desc": "Aktifkan/Nonaktifkan snap ke grid"
+          },
+          "gridSpacing": {
+            "title": "Jarak Grid",
+            "desc": "Sesuaikan jarak grid (jarak piksel)"
+          },
+          "strokeWidth": {
+            "title": "Lebar Garis",
+            "desc": "Atur lebar garis untuk bentuk"
+          }
+        }
+      },
+      "templateEditor": {
+        "title": "Editor Template",
+        "desc": "Buat template slot kustom menggunakan alat gambar kurva Bézier bawaan.",
+        "features": [
+          "Beri nama template kustom Anda",
+          "Gambar kurva Bézier dengan klik dan seret",
+          "Klik dua kali untuk menyelesaikan jalur",
+          "Edit titik kontrol individual",
+          "Impor template SVG yang ada",
+          "Ekspor template untuk cadangan"
+        ],
+        "buttons": {
+          "clearPath": {
+            "title": "Hapus Jalur",
+            "desc": "Hapus gambar saat ini"
+          },
+          "editPoints": {
+            "title": "Edit Titik",
+            "desc": "Beralih ke mode edit titik"
+          },
+          "importSVG": {
+            "title": "Impor SVG",
+            "desc": "Impor file SVG sebagai template"
+          },
+          "exportSVG": {
+            "title": "Ekspor SVG",
+            "desc": "Ekspor template sebagai SVG"
+          }
+        }
+      }
+    },
+    "projectLibraryContent": {
+      "title": "Perpustakaan Proyek",
+      "intro": "Perpustakaan Proyek adalah pusat Anda untuk mengelola semua desain puzzle. Akses dari layar selamat datang atau File → Perpustakaan Proyek.",
+      "myProjects": {
+        "title": "Proyek Saya",
+        "icon": "📁",
+        "desc": "Ruang kerja pribadi Anda untuk semua desain puzzle, disimpan dengan aman di iCloud.",
+        "features": [
+          "Sinkronisasi iCloud otomatis di Mac, iPad dan iPhone",
+          "Buat proyek baru dengan tombol +",
+          "Pratinjau thumbnail dengan nama proyek dan tanggal",
+          "Hapus proyek menggunakan tombol tempat sampah merah",
+          "Proyek dengan ikon awan menunjukkan status sinkronisasi"
+        ],
+        "howTo": "Klik \"Proyek Baru\" untuk membuat puzzle kosong, atau klik thumbnail yang ada untuk membuka di editor.",
+        "contextMenu": {
+          "title": "Menu Klik Kanan",
+          "desc": "Klik kanan (atau tekan lama di iPad/iPhone) pada proyek mana pun untuk akses opsi:",
+          "options": {
+            "open": {
+              "title": "Buka Proyek",
+              "desc": "Buka proyek di editor"
+            },
+            "rename": {
+              "title": "Ganti Nama",
+              "desc": "Ubah nama proyek"
+            },
+            "publish": {
+              "title": "Publikasikan",
+              "desc": "Bagikan desain dengan semua pengguna JigsawDesigner"
+            },
+            "share": {
+              "title": "Buat Tautan",
+              "desc": "Buat tautan iCloud yang memberi penerima akses hanya-baca ke proyek yang dipilih di Proyek Bersama."
+            },
+            "delete": {
+              "title": "Hapus",
+              "desc": "Hapus proyek secara permanen"
+            }
+          }
+        }
+      },
+      "publicProjects": {
+        "title": "Proyek Publik",
+        "icon": "🌐",
+        "desc": "Template komunitas tersedia untuk semua pengguna. Jelajahi, pratinjau dan impor desain dari perpustakaan publik.",
+        "features": [
+          "Jelajahi template yang dibuat oleh tim JigsawDesigner",
+          "Lihat jumlah potongan sebelum impor",
+          "Klik \"Buka\" untuk pratinjau",
+          "Klik \"Impor\" untuk menyalin ke Proyek Saya",
+          "Bagus untuk belajar dan inspirasi"
+        ],
+        "howTo": "Pilih proyek publik dan klik \"Impor\" untuk menambahkan salinan ke perpustakaan Anda."
+      },
+      "sharedProjects": {
+        "title": "Proyek Bersama",
+        "icon": "👥",
+        "desc": "Lihat proyek yang dibagikan pengguna lain kepada Anda melalui iCloud.",
+        "features": [
+          "Terima proyek yang dibagikan oleh rekan atau teman",
+          "Akses hanya-baca ke proyek bersama",
+          "Pembaruan dapat muncul setelah iCloud menyinkronkan perubahan pemilik",
+          "Terima berbagi melalui tautan undangan"
+        ],
+        "howTo": "Setelah menerima tautan berbagi yang valid, proyek dapat muncul di Proyek Bersama untuk dilihat saja."
+      }
+    }
+  },
+  "Common": {
+    "appName": "JigsawDesigner",
+    "appStoreAria": "Lihat JigsawDesigner di App Store"
+  },
+  "Consent": {
+    "title": "Analitik opsional",
+    "description": "Izinkan pengukuran opsional Google Analytics 4 untuk membantu kami memahami penggunaan situs. Pilihan bahasa tetap tersedia jika Anda menolak analitik.",
+    "privacyLink": "Baca Kebijakan Privasi",
+    "reject": "Tolak analitik opsional",
+    "accept": "Terima analitik opsional"
+  }
 }

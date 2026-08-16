@@ -2,23 +2,24 @@
     "Navigation": {
         "features": "Funkcje",
         "download": "Pobierz",
-        "github": "GitHub",
-        "getStarted": "Rozpocznij",
         "home": "Strona Główna",
         "support": "Wsparcie",
-        "help": "Centrum Pomocy"
+        "help": "Centrum Pomocy",
+        "pricing": "Ceny",
+        "language": "Język",
+        "openMenu": "Otwórz menu",
+        "closeMenu": "Zamknij menu"
     },
     "Hero": {
         "version": "{version} Wydano - Wypróbuj teraz!",
         "titlePart1": "Projektuj Puzzli Jak <br/>",
         "titleProfessional": "Profesjonalista",
-        "subtitle": "Najpotężniejsze narzędzie do projektowania puzzli na platformy Apple. Natywna wydajność, precyzja SVG i generowanie oparte na algorytmach.",
-        "download": "Pobierz",
+        "subtitle": "Profesjonalne narzędzie do projektowania puzzli na iPhone’a, iPada i Maca z precyzyjną edycją SVG i generowaniem algorytmicznym.",
         "learnMore": "Dowiedz Się Więcej"
     },
     "Features": {
         "title": "Potężne Funkcje",
-        "subtitle": "Wszystko, czego potrzebujesz, aby tworzyć profesjonalne puzzle.",
+        "subtitle": "Specjalistyczne narzędzia do generowania i edytowania własnych projektów puzzli.",
         "list": {
             "customization": {
                 "title": "Nieograniczona Personalizacja",
@@ -26,7 +27,7 @@
             },
             "workflow": {
                 "title": "Błyskawiczny Przepływ Pracy",
-                "description": "Zamień godziny ręcznej pracy w sekundy. Generuj złożone wzory puzzli w zaledwie 3 sekundy dzięki naszemu zaawansowanemu silnikowi."
+                "description": "Ogranicz powtarzalne ręczne obrysowywanie dzięki algorytmicznemu generowaniu wzorów puzzli."
             },
             "anywhere": {
                 "title": "Projektuj Gdziekolwiek",
@@ -37,34 +38,38 @@
     "Footer": {
         "privacy": "Prywatność",
         "support": "Wsparcie",
-        "github": "GitHub",
-        "rights": "© {year} JigsawDesigner. Wszelkie prawa zastrzeżone."
+        "rights": "© {year} JigsawDesigner. Wszelkie prawa zastrzeżone.",
+        "pricing": "Ceny",
+        "terms": "Warunki korzystania z usługi",
+        "refund": "Zasady zwrotów",
+        "help": "Centrum Pomocy"
     },
     "Privacy": {
         "title": "Polityka Prywatności",
+        "metaDescription": "Aplikacja przetwarza pliki projektów głównie na Twoim urządzeniu. Nie sprzedajemy danych osobowych.",
         "introduction": {
             "title": "Wstęp",
-            "content": "JigsawDesigner (\"my\", \"nasze\" lub \"nas\") szanuje Twoją prywatność i zobowiązuje się do jej ochrony. Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób zbieramy, wykorzystujemy i chronimy Twoje informacje podczas korzystania z naszej aplikacji i strony internetowej."
+            "content": "Niniejsza polityka wyjaśnia, jak JigsawDesigner przetwarza informacje w aplikacji i w tej witrynie, w tym opcjonalne funkcje chmurowe, publikowanie publiczne, preferencję języka i opcjonalną analitykę."
         },
         "dataCollection": {
             "title": "Zbieranie Danych",
-            "content": "Nie zbieramy danych osobowych.",
-            "content2": "JigsawDesigner został zaprojektowany do przetwarzania Twoich plików lokalnie na Twoim urządzeniu. Twoje projekty, obrazy i projekty nigdy nie opuszczają Twojego urządzenia, chyba że wyraźnie zdecydujesz się je wyeksportować lub udostępnić.",
+            "content": "Aplikacja przetwarza pliki projektów głównie na Twoim urządzeniu.",
+            "content2": "Jeśli włączysz iCloud, dane projektów mogą synchronizować się przez usługi Apple iCloud i CloudKit. Publikacja wysyła wybrany projekt do publicznej bazy CloudKit, a link udostępniania może zapewnić dostęp tylko do odczytu do wybranego projektu.",
             "list": {
-                "behavior": "Nie śledzimy Twojego zachowania podczas użytkowania.",
-                "upload": "Nie przesyłamy Twoich zdjęć, takich jak obrazy puzzli, na żadne serwery.",
-                "sell": "Nie sprzedajemy Twoich danych osobom trzecim."
+                "behavior": "Gdy samodzielnie wybierzesz język, witryna zapisze niezbędny plik cookie preferencji językowej na okres do jednego roku. Wybór opcjonalnej analityki jest przechowywany oddzielnie w localStorage tej przeglądarki. Za zgodą Google Analytics 4 może mierzyć wizyty i interakcje; Cloudflare przetwarza żądania i dane bezpieczeństwa potrzebne do działania witryny.",
+                "upload": "Media lub usługi innych firm, na przykład dostawca wideo, są kontaktowane dopiero po wybraniu opcji wczytania lub otwarcia treści; wtedy obowiązują ich własne zasady prywatności.",
+                "sell": "Nie sprzedajemy danych osobowych."
             }
         },
         "analytics": {
-            "title": "Analityka Aplikacji",
-            "content": "Możemy używać standardowych narzędzi analitycznych Apple (opt-in), aby poprawić wydajność i stabilność aplikacji (np. raporty o awariach). Dane te są anonimowe i nie identyfikują Cię osobiście. Możesz zrezygnować w dowolnym momencie w ustawieniach urządzenia."
+            "title": "Analityka i dostawcy usług",
+            "content": "Apple może udostępniać opcjonalne dane analityczne aplikacji i informacje o awariach zgodnie z ustawieniami urządzenia. Opcjonalna analityka witryny używa Google Analytics 4 dopiero po zgodzie zapisanej w localStorage przeglądarki. Cloudflare hostuje i chroni witrynę. Możesz odrzucić analitykę bez wpływu na wybór języka."
         },
         "contact": {
             "title": "Skontaktuj Się z Nami",
             "content": "Jeśli masz jakiekolwiek pytania dotyczące niniejszej Polityki Prywatności, skontaktuj się z nami:"
         },
-        "lastUpdated": "Ostatnia aktualizacja: 10 grudnia 2025"
+        "lastUpdated": "Ostatnia aktualizacja: 16 sierpnia 2026"
     },
     "Support": {
         "hero": {
@@ -85,11 +90,11 @@
             "title": "Często Zadawane Pytania",
             "q1": {
                 "question": "Czy JigsawDesigner to jednorazowy zakup?",
-                "answer": "Tak, JigsawDesigner oferuje opcję licencji dożywotniej oraz plany subskrypcji. Sprawdź App Store, aby uzyskać najnowsze ceny."
+                "answer": "JigsawDesigner oferuje miesięczne i roczne subskrypcje Apple; Apple pokazuje aktualną cenę dla Twojego sklepu."
             },
             "q2": {
                 "question": "Czy mogę eksportować moje projekty do użytku komercyjnego?",
-                "answer": "Oczywiście. Wszystkie projekty stworzone za pomocą JigsawDesigner są Twoje. Możesz je eksportować jako SVG lub PDF do produkcji lub druku komercyjnego."
+                "answer": "Subskrybenci Premium mogą eksportować pliki SVG. Użycie komercyjne zależy również od praw do obrazów, czcionek, szablonów i innych treści zawartych w projekcie."
             },
             "q3": {
                 "question": "Czy obsługuje niestandardowe linie cięcia?",
@@ -146,12 +151,12 @@
                 "desc": "Edytuj punkty kontrolne kształtów. Precyzyjnie dostosuj geometrię kształtu, przeciągając punkty."
             },
             "pen": {
-                "title": "Narzędzie Pióra",
-                "desc": "Rysowanie ścieżek odręcznych. Kliknij i przeciągnij, aby tworzyć krzywe Beziera i organiczne kształty."
+                "title": "Narzędzie Ołówek",
+                "desc": "Rysuj płynne ścieżki odręczne, w tym otwarte kontury, które możesz kontynuować lub łączyć."
             },
             "line": {
                 "title": "Narzędzie Linii",
-                "desc": "Rysuj proste linie. Idealne do geometrycznych wzorów i precyzyjnych połączeń."
+                "desc": "Rysuj proste linie."
             },
             "rect": {
                 "title": "Narzędzie Prostokąta",
@@ -198,10 +203,6 @@
             }
         },
         "generationContent": {
-            "howItWorks": {
-                "title": "Jak To Działa",
-                "desc": "JigsawDesigner używa zaawansowanych algorytmów C++ z bibliotekami OpenCV i Boost do generowania wysokiej jakości elementów puzzli przy użyciu diagramów Woronoja i struktur danych DCEL."
-            },
             "steps": {
                 "1": {
                     "title": "Importuj kontur graniczny",
@@ -209,19 +210,19 @@
                 },
                 "2": {
                     "title": "Wybierz szablon wypustek",
-                    "desc": "Wybierz wzór wypustek (Standardowy wypukły, wielopunktowy itp.), aby określić sposób łączenia elementów."
+                    "desc": "Szablony definiują jak łączą się elementy puzzli. Wbudowane szablony: Standardowy Wypukły, Standardowy Wklęsły, Linia Prosta"
                 },
                 "3": {
                     "title": "Konfiguruj parametry",
-                    "desc": "Użyj Inspektora, aby ustawić rozmiar siatki, liczbę elementów i zakres odległości wypustek."
+                    "desc": "W Inspektorze ustaw rozmiar siatki, liczbę elementów i zakres odległości łączeń. Parametry te wpływają na gęstość i złożoność generowanych linii."
                 },
                 "4": {
                     "title": "Generuj linie cięcia",
-                    "desc": "Kliknij \"Generuj puzzle\". W kilka sekund otrzymasz gotowy wykrojnik do cięcia laserowego lub druku."
+                    "desc": "Uruchom generator, sprawdź wynik i w razie potrzeby dostosuj ustawienia przed eksportem SVG."
                 }
             },
             "title": "Przewodnik generowania linii cięcia puzzli",
-            "desc": "JigsawDesigner używa zaawansowanych algorytmów C++ do generowania profesjonalnych linii cięcia. Wykonaj te 4 kroki:"
+            "desc": "JigsawDesigner wykorzystuje algorytmy C++, w tym techniki Voronoi i DCEL, do generowania konfigurowalnych linii cięcia puzzli. Wykonaj te cztery kroki:"
         },
         "importExportContent": {
             "import": {
@@ -246,7 +247,7 @@
             },
             "premium": {
                 "title": "Funkcja Premium",
-                "desc": "Subskrypcja Premium jest wymagana do eksportowania wygenerowanych puzzli. Darmowi użytkownicy mogą projektować i generować, ale eksport jest ograniczony."
+                "desc": "Nowi użytkownicy otrzymują {count} bezpłatnych generowań puzzli. Eksport SVG i nielimitowane generowanie wymagają aktywnej subskrypcji Apple."
             }
         },
         "shortcutsContent": {
@@ -272,35 +273,14 @@
             }
         },
         "troubleshooting": {
-            "title": "Rozwiązywanie Problemów",
-            "items": {
-                "shapes": {
-                    "title": "Kształty się nie pojawiają",
-                    "content": "Sprawdź, czy jesteś w odpowiednim trybie rysowania. Sprawdź, czy rozmiar płótna ma miejsce na Twój kształt. Sprawdź, czy kolory wypełnienia/obrysu kształtu nie są przezroczyste."
-                },
-                "select": {
-                    "title": "Nie można zaznaczyć kształtu",
-                    "content": "Przełącz na Narzędzie Zaznaczania (ikona kursora). Upewnij się, że kształt nie jest ukryty za innymi. Spróbuj użyć Ctrl+Kliknięcie, aby wejść w grupy."
-                },
-                "fail": {
-                    "title": "Generowanie puzzli nie powiodło się",
-                    "content": "Upewnij się, że kształt granicy jest zamkniętą ścieżką. Zmniejsz liczbę elementów dla złożonych kształtów. Sprawdź, czy szablony gniazd są prawidłowe."
-                },
-                "export": {
-                    "title": "Eksport jest wyłączony",
-                    "content": "Subskrypcja Premium jest wymagana do eksportowania wygenerowanych puzzli. Darmowa wersja pozwala na projektowanie, ale ogranicza funkcjonalność eksportu."
-                }
-            }
+            "title": "Rozwiązywanie Problemów"
         },
         "needHelp": {
             "title": "Potrzebujesz Więcej Pomocy?",
-            "desc": "Odwiedź naszą stronę wsparcia lub skontaktuj się z nami bezpośrednio, aby uzyskać osobistą pomoc",
-            "contact": "Skontaktuj Się ze Wsparciem",
-            "download": "Pobierz Aplikację"
+            "desc": "Odwiedź naszą stronę wsparcia lub skontaktuj się z nami bezpośrednio, aby uzyskać osobistą pomoc"
         },
-        "metaTitle": "Centrum pomocy - Profesjonalny generator linii cięcia puzzli i projektant SVG",
-        "metaDescription": "Opanuj JigsawDesigner: Najlepsze oprogramowanie do generowania linii cięcia puzzli. Dowiedz się, jak tworzyć SVG do cięcia laserowego i wzory Voronoi.",
-        "metaKeywords": "generator linii cięcia puzzli, kreator wykrojników, SVG do lasera, oprogramowanie do projektowania puzzli",
+        "metaTitle": "Centrum pomocy i przewodnik generowania puzzli",
+        "metaDescription": "Dowiedz się, jak generować linie cięcia puzzli, edytować kształty wektorowe, zarządzać projektami i eksportować pliki SVG w JigsawDesigner.",
         "interfaceContent": {
             "title": "Interfejs edytora i linii cięcia",
             "intro": "Edytor JigsawDesigner zapewnia profesjonalną przestrzeń roboczą wektorową do projektowania precyzyjnych linii cięcia i wykrojników.",
@@ -320,8 +300,8 @@
                     },
                     {
                         "icon": "✒️",
-                        "name": "Pióro",
-                        "desc": "Rysuj dowolne ścieżki"
+                        "name": "Ołówek",
+                        "desc": "Rysuj płynne ścieżki odręczne"
                     },
                     {
                         "icon": "📏",
@@ -476,7 +456,7 @@
                 "sections": {
                     "language": {
                         "title": "Ustawienia Języka",
-                        "desc": "Zmień język aplikacji. Obsługuje domyślny systemowy lub wybierz spośród 40+ języków."
+                        "desc": "Użyj języka systemu lub wybierz jeden z języków obsługiwanych przez aplikację."
                     },
                     "subscription": {
                         "title": "Zarządzanie Subskrypcją",
@@ -541,21 +521,6 @@
                 }
             }
         },
-        "industryKeywords": {
-            "title": "Dlaczego JigsawDesigner do linii cięcia?",
-            "laserCutting": {
-                "title": "SVG do cięcia laserowego",
-                "desc": "Generuj czyste, precyzyjne ścieżki SVG zoptymalizowane pod kątem urządzeń Glowforge, Cricut i laserów CO2."
-            },
-            "dieline": {
-                "title": "Niestandardowe wykrojniki",
-                "desc": "Twórz unikalne linie cięcia ze wzorami Voronoi, które gwarantują, że każdy element jest jedyny w swoim rodzaju."
-            },
-            "manufacturing": {
-                "title": "Gotowe do produkcji",
-                "desc": "Eksportuj projekty w profesjonalnych formatach wektorowych (SVG, PDF) gotowych do produkcji masowej lub ręcznej."
-            }
-        },
         "projectLibraryContent": {
             "title": "Biblioteka Projektów",
             "intro": "Biblioteka Projektów to Twoje centrum zarządzania wszystkimi projektami puzzli. Dostęp z ekranu powitalnego lub przez Plik → Biblioteka Projektów.",
@@ -589,7 +554,7 @@
                         },
                         "share": {
                             "title": "Utwórz link",
-                            "desc": "Wygeneruj link iCloud. Wyślij znajomym i zobaczą Twój projekt"
+                            "desc": "Utwórz link iCloud, który zapewnia odbiorcom dostęp tylko do odczytu do wybranego projektu w Projektach udostępnionych."
                         },
                         "delete": {
                             "title": "Usuń",
@@ -614,15 +579,26 @@
             "sharedProjects": {
                 "title": "Udostępnione Projekty",
                 "icon": "👥",
-                "desc": "Przestrzeń współpracy dla projektów udostępnionych Ci przez innych użytkowników.",
+                "desc": "Wyświetl projekty udostępnione Ci przez innych użytkowników przez iCloud.",
                 "features": [
                     "Otrzymuj projekty udostępnione przez współpracowników lub znajomych",
-                    "Dostęp tylko do odczytu lub edycji w zależności od uprawnień",
-                    "Synchronizacja w czasie rzeczywistym z właścicielem projektu",
+                    "Dostęp tylko do odczytu do udostępnionych projektów",
+                    "Aktualizacje mogą pojawić się po zsynchronizowaniu zmian właściciela przez iCloud",
                     "Akceptuj udostępnienia przez link zaproszenia"
                 ],
-                "howTo": "Gdy ktoś udostępni Ci projekt, pojawi się tutaj automatycznie. Kliknij aby otworzyć i współpracować."
+                "howTo": "Po zaakceptowaniu prawidłowego linku projekt może pojawić się w Projektach udostępnionych do przeglądania tylko do odczytu."
             }
         }
+    },
+    "Common": {
+        "appName": "JigsawDesigner",
+        "appStoreAria": "Zobacz JigsawDesigner w App Store"
+    },
+    "Consent": {
+        "title": "Opcjonalna analityka",
+        "description": "Zezwól na opcjonalny pomiar przez Google Analytics 4, aby pomóc nam zrozumieć korzystanie z witryny. Twój wybór zostanie zapisany w localStorage tej przeglądarki, a GA4 wczyta się dopiero po wyrażeniu zgody.",
+        "privacyLink": "Przeczytaj Politykę prywatności",
+        "reject": "Odrzuć opcjonalną analitykę",
+        "accept": "Zaakceptuj opcjonalną analitykę"
     }
 }

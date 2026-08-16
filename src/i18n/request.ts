@@ -1,22 +1,17 @@
 import {getRequestConfig} from 'next-intl/server';
-import {locales} from './config';
+import {isSiteLocale} from '@/config/seo';
 
 export default getRequestConfig(async ({requestLocale}) => {
-  let locale = await requestLocale;
+  const locale = await requestLocale;
 
-  if (!locale || !locales.includes(locale as any)) {
-    locale = 'en';
+  if (!locale || !isSiteLocale(locale)) {
+    throw new Error(`Invalid website locale: ${locale ?? '(missing)'}`);
   }
 
-  let messages;
-  try {
-    messages = (await import(`../messages/${locale}.json`)).default;
-  } catch (error) {
-    messages = (await import(`../messages/en.json`)).default;
-  }
+  const messages = (await import(`../messages/${locale}.json`)).default;
 
   return {
     locale,
-    messages
+    messages,
   };
 });

@@ -1,122 +1,89 @@
-import type { Metadata } from "next";
-import Script from "next/script";
-import { Geist, Geist_Mono } from "next/font/google";
+import type {Metadata} from "next";
 import "../globals.css";
-import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
-import {notFound} from 'next/navigation';
-import {locales, defaultLocale, type Locale} from '../../i18n/config';
+import {NextIntlClientProvider} from "next-intl";
+import {getMessages, setRequestLocale} from "next-intl/server";
+import {notFound} from "next/navigation";
+import {isSiteLocale, LOCALE_SPECS} from "@/config/seo";
+import {PRODUCT_FACTS} from "@/config/product";
+import {locales} from "@/i18n/config";
+import AnalyticsConsent from "@/components/AnalyticsConsent";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+/**
+ * Locale-independent defaults only. Route pages must call
+ * createPageMetadata so canonical, hreflang and social URLs include the full
+ * pathname; putting those fields here would make child pages canonicalize to
+ * the locale homepage.
+ */
+export const metadata: Metadata = {
+  metadataBase: new URL(PRODUCT_FACTS.websiteOrigin),
+  title: {
+    default: PRODUCT_FACTS.name,
+    template: `%s | ${PRODUCT_FACTS.name}`,
+  },
+  description:
+    "Create and edit custom jigsaw puzzle cutlines as SVG on iPhone, iPad and Mac.",
+  applicationName: PRODUCT_FACTS.name,
+  authors: [{name: "JigsawDesigner Team"}],
+  creator: PRODUCT_FACTS.name,
+  publisher: PRODUCT_FACTS.name,
+  appleWebApp: {
+    capable: true,
+    title: PRODUCT_FACTS.name,
+    statusBarStyle: "black-translucent",
+  },
+  openGraph: {
+    type: "website",
+    siteName: PRODUCT_FACTS.name,
+    images: [
+      {
+        url: PRODUCT_FACTS.defaultSocialImage,
+        width: 1200,
+        height: 630,
+        alt: PRODUCT_FACTS.name,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: [PRODUCT_FACTS.defaultSocialImage],
+  },
+};
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const BASE_URL = "https://jigsawdesigner.com";
-
-// 动态生成SEO元数据（包括canonical和hreflang）
-export async function generateMetadata({
-  params
-}: {
-  params: Promise<{locale: string}>
-}): Promise<Metadata> {
-  const {locale} = await params;
-  
-  // 生成所有语言版本的hreflang链接
-  const languages: Record<string, string> = {};
-  for (const loc of locales) {
-    languages[loc] = `${BASE_URL}/${loc}`;
-  }
-  // 添加x-default指向默认语言
-  languages['x-default'] = `${BASE_URL}/${defaultLocale}`;
-  
-  return {
-    title: "JigsawDesigner - Professional Jigsaw Puzzle Design Software",
-    description: "Create stunning custom jigsaw puzzles with multi-platform support (macOS, iOS, iPadOS). Features advanced SVG editing, Voronoi algorithms, and export to PDF/SVG/PNG.",
-    keywords: ["jigsaw puzzle maker", "puzzle generator", "SVG editor", "vector design", "JigsawDesigner", "puzzle software", "custom puzzles", "Voronoi diagram", "Apple platforms"],
-    authors: [{ name: "JigsawDesigner Team" }],
-    creator: "JigsawDesigner",
-    publisher: "JigsawDesigner",
-    
-    // 🔧 SEO: Canonical标签 - 每个语言版本指向自己
-    alternates: {
-      canonical: `${BASE_URL}/${locale}`,
-      languages: languages,
-    },
-    
-    openGraph: {
-      type: "website",
-      url: `${BASE_URL}/${locale}`,
-      title: "JigsawDesigner - Professional Jigsaw Puzzle Design Software",
-      description: "The ultimate tool for creating custom jigsaw puzzles. Native SVG support, powerful C++ engine, and seamless cross-platform experience.",
-      siteName: "JigsawDesigner",
-      locale: locale,
-      images: [
-        {
-          url: "/og-image.jpg", 
-          width: 1200,
-          height: 630,
-          alt: "JigsawDesigner Interface Preview",
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "JigsawDesigner - Professional Jigsaw Puzzle Design Software",
-      description: "Create stunning custom jigsaw puzzles with multi-platform support. Advanced SVG editing and powerful algorithms.",
-      creator: "@JigsawDesigner",
-    },
-    appleWebApp: {
-      capable: true,
-      title: "JigsawDesigner",
-      statusBarStyle: "black-translucent",
-    },
-    applicationName: "JigsawDesigner",
-    metadataBase: new URL(BASE_URL),
-  };
+export function generateStaticParams() {
+  return locales.map((locale) => ({locale}));
 }
+
+export const dynamicParams = false;
 
 export default async function LocaleLayout({
   children,
-  params
+  params,
 }: {
   children: React.ReactNode;
   params: Promise<{locale: string}>;
 }) {
   const {locale} = await params;
 
-  if (!locales.includes(locale as any)) {
+  if (!isSiteLocale(locale)) {
     notFound();
   }
 
+  setRequestLocale(locale);
   const messages = await getMessages();
+  const clientMessages = {
+    Navigation: messages.Navigation,
+    Common: messages.Common,
+    Consent: messages.Consent,
+  };
+  const localeSpec = LOCALE_SPECS[locale];
 
   return (
-    <html lang={locale}>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <NextIntlClientProvider messages={messages}>
+    <html lang={localeSpec.htmlLang} dir={localeSpec.direction}>
+      <body className="antialiased">
+        <NextIntlClientProvider messages={clientMessages}>
           {children}
+          <AnalyticsConsent />
         </NextIntlClientProvider>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-3TZD2EK8YR"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-3TZD2EK8YR');
-          `}
-        </Script>
       </body>
     </html>
   );

@@ -2,23 +2,24 @@
     "Navigation": {
         "features": "Funkce",
         "download": "Stáhnout",
-        "github": "GitHub",
-        "getStarted": "Začít",
         "home": "Domů",
         "support": "Podpora",
-        "help": "Centrum Nápovědy"
+        "help": "Centrum Nápovědy",
+        "pricing": "Ceny",
+        "language": "Jazyk",
+        "openMenu": "Otevřít nabídku",
+        "closeMenu": "Zavřít nabídku"
     },
     "Hero": {
         "version": "{version} Vydáno - Vyzkoušejte nyní!",
         "titlePart1": "Navrhujte Puzzle Jako <br/>",
         "titleProfessional": "Profesionál",
-        "subtitle": "Nejmocnější nástroj pro návrh puzzle pro platformy Apple. Nativní výkon, přesnost SVG a generování řízené algoritmy.",
-        "download": "Stáhnout",
+        "subtitle": "Profesionální nástroj pro návrh skládaček na iPhonu, iPadu a Macu s přesnou editací SVG a algoritmickým generováním.",
         "learnMore": "Zjistit Více"
     },
     "Features": {
         "title": "Mocné Funkce",
-        "subtitle": "Vše, co potřebujete k vytváření puzzle profesionální kvality.",
+        "subtitle": "Specializované nástroje pro generování a úpravy vlastních návrhů skládaček.",
         "list": {
             "customization": {
                 "title": "Neomezené Přizpůsobení",
@@ -26,7 +27,7 @@
             },
             "workflow": {
                 "title": "Bleskově Rychlý Pracovní Postup",
-                "description": "Proměňte hodiny ruční práce v sekundy. Generujte složité vzory puzzle za pouhé 3 sekundy s naším pokročilým enginem."
+                "description": "Omezte opakované ruční obkreslování pomocí algoritmického generování vzorů skládaček."
             },
             "anywhere": {
                 "title": "Navrhujte Kdekoliv",
@@ -37,34 +38,38 @@
     "Footer": {
         "privacy": "Soukromí",
         "support": "Podpora",
-        "github": "GitHub",
-        "rights": "© {year} JigsawDesigner. Všechna práva vyhrazena."
+        "rights": "© {year} JigsawDesigner. Všechna práva vyhrazena.",
+        "pricing": "Ceny",
+        "terms": "Podmínky služby",
+        "refund": "Zásady vrácení peněz",
+        "help": "Centrum Nápovědy"
     },
     "Privacy": {
         "title": "Zásady Ochrany Osobních Údajů",
+        "metaDescription": "Aplikace zpracovává návrhové soubory především ve vašem zařízení. Osobní údaje neprodáváme.",
         "introduction": {
             "title": "Úvod",
-            "content": "JigsawDesigner (\"my\", \"naše\" nebo \"nás\") respektuje vaše soukromí a zavazuje se ho chránit. Tyto Zásady ochrany osobních údajů vysvětlují, jak shromažďujeme, používáme a chráníme vaše informace, když používáte naši aplikaci a webové stránky."
+            "content": "Tyto zásady vysvětlují, jak JigsawDesigner zpracovává informace v aplikaci a na tomto webu, včetně volitelných cloudových funkcí, veřejného publikování, jazykových předvoleb a volitelné analytiky."
         },
         "dataCollection": {
             "title": "Sběr Dat",
-            "content": "Neshromažďujeme osobní údaje.",
-            "content2": "JigsawDesigner je navržen tak, aby zpracovával vaše soubory lokálně na vašem zařízení. Vaše návrhy, obrázky a projekty nikdy neopustí vaše zařízení, pokud se výslovně nerozhodnete je exportovat nebo sdílet.",
+            "content": "Aplikace zpracovává návrhové soubory především ve vašem zařízení.",
+            "content2": "Pokud zapnete iCloud, mohou se data projektů synchronizovat prostřednictvím služeb Apple iCloud a CloudKit. Publikování odešle vybraný projekt do veřejné databáze CloudKit a odkaz ke sdílení může poskytnout přístup jen pro čtení k vybranému projektu.",
             "list": {
-                "behavior": "Nesledujeme vaše chování při používání.",
-                "upload": "Nenahráváme vaše fotografie, jako jsou obrázky puzzle, na žádné servery.",
-                "sell": "Neprodáváme vaše údaje třetím stranám."
+                "behavior": "Jakmile si sami zvolíte jazyk, web uloží nezbytný soubor cookie s jazykovou předvolbou až na jeden rok. Volba volitelné analytiky se ukládá odděleně do localStorage tohoto prohlížeče. Pokud souhlasíte, Google Analytics 4 může měřit návštěvy a interakce; Cloudflare zpracovává požadavky a bezpečnostní údaje potřebné k poskytování webu.",
+                "upload": "Média nebo služby třetích stran, například poskytovatel videa, jsou kontaktovány až poté, co se rozhodnete obsah načíst nebo otevřít; poté platí jejich vlastní podmínky ochrany soukromí.",
+                "sell": "Osobní údaje neprodáváme."
             }
         },
         "analytics": {
-            "title": "Analytika Aplikace",
-            "content": "Můžeme používat standardní opt-in analytiku Apple ke zlepšení výkonu a stability aplikace (např. zprávy o pádech). Tato data jsou anonymní a neidentifikují vás osobně. Můžete se kdykoli odhlásit prostřednictvím nastavení vašeho zařízení."
+            "title": "Analytika a poskytovatelé služeb",
+            "content": "Apple může podle nastavení zařízení poskytovat volitelné údaje o používání aplikace a pádech. Volitelná webová analytika používá Google Analytics 4 až po souhlasu uloženém v localStorage prohlížeče. Cloudflare web hostuje a chrání. Analytiku můžete odmítnout bez ovlivnění výběru jazyka."
         },
         "contact": {
             "title": "Kontaktujte Nás",
             "content": "Pokud máte jakékoli dotazy ohledně těchto Zásad ochrany osobních údajů, kontaktujte nás prosím na:"
         },
-        "lastUpdated": "Naposledy aktualizováno: 10. prosince 2025"
+        "lastUpdated": "Poslední aktualizace: 16. srpna 2026"
     },
     "Support": {
         "hero": {
@@ -85,11 +90,11 @@
             "title": "Často Kladené Otázky",
             "q1": {
                 "question": "Je JigsawDesigner jednorázový nákup?",
-                "answer": "Ano, JigsawDesigner nabízí možnost doživotní licence i plány předplatného. Zkontrolujte App Store pro aktuální ceny."
+                "answer": "JigsawDesigner nabízí měsíční a roční předplatné Apple; Apple zobrazuje aktuální cenu pro váš obchod."
             },
             "q2": {
                 "question": "Mohu exportovat své návrhy pro komerční použití?",
-                "answer": "Absolutně. Všechny návrhy vytvořené pomocí JigsawDesigner jsou vaše. Můžete je exportovat jako SVG nebo PDF pro výrobu nebo komerční tisk."
+                "answer": "Předplatitelé Premium mohou exportovat soubory SVG. Komerční použití závisí také na právech k obrázkům, písmům, šablonám a dalšímu obsahu návrhu."
             },
             "q3": {
                 "question": "Podporuje to vlastní výsekové linky?",
@@ -146,12 +151,12 @@
                 "desc": "Upravujte kontrolní body tvarů. Přesně upravujte geometrii tvaru tažením bodů."
             },
             "pen": {
-                "title": "Nástroj Pero",
-                "desc": "Kreslení volných cest. Klikněte a táhněte pro vytvoření Beziérových křivek a organických tvarů."
+                "title": "Nástroj Tužka",
+                "desc": "Kreslete plynulé cesty od ruky včetně otevřených obrysů, které můžete prodloužit nebo spojit."
             },
             "line": {
                 "title": "Nástroj Čára",
-                "desc": "Kreslete rovné čáry. Ideální pro geometrické návrhy a přesná spojení."
+                "desc": "Kreslete rovné čáry."
             },
             "rect": {
                 "title": "Nástroj Obdélník",
@@ -198,10 +203,6 @@
             }
         },
         "generationContent": {
-            "howItWorks": {
-                "title": "Jak To Funguje",
-                "desc": "JigsawDesigner používá pokročilé C++ algoritmy s knihovnami OpenCV a Boost pro generování vysoce kvalitních dílků puzzle pomocí Voronoových diagramů a datových struktur DCEL."
-            },
             "steps": {
                 "1": {
                     "title": "Importovat obrysovou hranici",
@@ -209,19 +210,19 @@
                 },
                 "2": {
                     "title": "Vybrat šablonu zámků",
-                    "desc": "Vyberte design zámků (Standardní vypouklý, vícebodový atd.) pro definování způsobu spojení dílků."
+                    "desc": "Šablony definují, jak se dílky puzzle spojují. Vestavěné šablony: Standardní Vypuklý, Standardní Vydutý, Přímá Čára"
                 },
                 "3": {
                     "title": "Konfigurace parametrů",
-                    "desc": "V Inspektoru nastavte velikost mřížky, počet dílků a rozsah vzdálenosti zámků."
+                    "desc": "V Inspektoru nastavte velikost mřížky, počet dílků a rozsah vzdálenosti spojů. Tyto parametry ovlivňují hustotu a složitost generovaných linií."
                 },
                 "4": {
                     "title": "Generovat linie řezu",
-                    "desc": "Klikněte na \"Generovat puzzle\". Během sekund budete mít výsekovou formu připravenou pro laser nebo tisk."
+                    "desc": "Spusťte generátor, zkontrolujte výsledek a podle potřeby upravte nastavení před exportem SVG."
                 }
             },
             "title": "Průvodce generováním linií řezu puzzle",
-            "desc": "JigsawDesigner využívá pokročilé C++ algoritmy ke generování profesionálních linií řezu. Postupujte podle těchto 4 kroků:"
+            "desc": "JigsawDesigner používá algoritmy C++, včetně technik Voronoi a DCEL, ke generování přizpůsobitelných řezných linií skládaček. Postupujte podle těchto čtyř kroků:"
         },
         "importExportContent": {
             "import": {
@@ -246,7 +247,7 @@
             },
             "premium": {
                 "title": "Prémiová Funkce",
-                "desc": "Prémiové předplatné je vyžadováno pro export vygenerovaných puzzle. Bezplatní uživatelé mohou navrhovat a generovat, ale export je omezen."
+                "desc": "Noví uživatelé získají {count} bezplatných generování skládaček. Export SVG a neomezené generování vyžadují aktivní předplatné Apple."
             }
         },
         "shortcutsContent": {
@@ -272,35 +273,14 @@
             }
         },
         "troubleshooting": {
-            "title": "Odstraňování Problémů",
-            "items": {
-                "shapes": {
-                    "title": "Tvary se neobjevují",
-                    "content": "Ověřte, že jste ve správném kreslicím režimu. Zkontrolujte, zda má velikost plátna místo pro váš tvar. Zkontrolujte, zda barvy výplně/obrysu tvaru nejsou průhledné."
-                },
-                "select": {
-                    "title": "Nelze vybrat tvar",
-                    "content": "Přepněte na Nástroj Výběru (ikona kurzoru). Ujistěte se, že tvar není skryt za ostatními. Zkuste použít Ctrl+Klik pro zanoření do skupin."
-                },
-                "fail": {
-                    "title": "Generování puzzle selhalo",
-                    "content": "Ujistěte se, že váš hraniční tvar je uzavřená cesta. Snižte počet dílků pro složité tvary. Zkontrolujte, zda jsou šablony slotů platné."
-                },
-                "export": {
-                    "title": "Export je zakázán",
-                    "content": "Prémiové předplatné je vyžadováno pro export vygenerovaných puzzle. Bezplatná úroveň umožňuje design, ale omezuje funkčnost exportu."
-                }
-            }
+            "title": "Odstraňování Problémů"
         },
         "needHelp": {
             "title": "Potřebujete Více Pomoci?",
-            "desc": "Navštivte naši stránku podpory nebo nás kontaktujte přímo pro osobní asistenci",
-            "contact": "Kontaktovat Podporu",
-            "download": "Stáhnout Aplikaci"
+            "desc": "Navštivte naši stránku podpory nebo nás kontaktujte přímo pro osobní asistenci"
         },
-        "metaTitle": "Centrum nápovědy - Profesionální generátor linií řezu a SVG designér",
-        "metaDescription": "Ovládněte JigsawDesigner: Špičkový software pro generování linií řezu puzzle. Naučte se vytvářet SVG pro laserové řezání a Voronoi vzory.",
-        "metaKeywords": "generátor linií řezu puzzle, tvorba výsekových forem, laserový řez SVG, software na design puzzle",
+        "metaTitle": "Centrum nápovědy a průvodce generováním puzzle",
+        "metaDescription": "Zjistěte, jak v JigsawDesigner generovat řezné linie skládaček, upravovat vektorové tvary, spravovat projekty a exportovat soubory SVG.",
         "interfaceContent": {
             "title": "Rozhraní editoru a linií řezu",
             "intro": "Editor JigsawDesigner poskytuje profesionální vektorové pracovní prostředí pro navrhování přesných linií řezu a výsekových forem.",
@@ -320,8 +300,8 @@
                     },
                     {
                         "icon": "✒️",
-                        "name": "Pero",
-                        "desc": "Kreslit volné cesty"
+                        "name": "Tužka",
+                        "desc": "Kreslení plynulých cest od ruky"
                     },
                     {
                         "icon": "📏",
@@ -348,7 +328,12 @@
                         "name": "Bézier",
                         "desc": "Kreslit Bézierovy křivky s řídícími body"
                     }
-                ]
+                ],
+                "buttons": {
+                    "import": "Importovat existující soubory SVG do projektu",
+                    "export": "Exportovat návrh jako soubor SVG",
+                    "projectName": "Zobrazuje název projektu a počet tvarů"
+                }
             },
             "canvas": {
                 "title": "Nekonečné Plátno",
@@ -471,7 +456,7 @@
                 "sections": {
                     "language": {
                         "title": "Nastavení Jazyka",
-                        "desc": "Změňte jazyk aplikace. Podporuje výchozí systémový nebo vyberte z 40+ jazyků."
+                        "desc": "Použijte jazyk systému nebo vyberte jeden z jazyků podporovaných aplikací."
                     },
                     "subscription": {
                         "title": "Správa Předplatného",
@@ -536,21 +521,6 @@
                 }
             }
         },
-        "industryKeywords": {
-            "title": "Proč zvolit JigsawDesigner pro linie řezu?",
-            "laserCutting": {
-                "title": "SVG pro laserové řezání",
-                "desc": "Generujte čisté, přesné SVG cesty optimalizované pro Glowforge, Cricut a CO2 lasery."
-            },
-            "dieline": {
-                "title": "Vlastní výsekové formy",
-                "desc": "Vytvářejte unikátní linie řezu s Voronoi vzory, které zaručují, že každý dílek je originál."
-            },
-            "manufacturing": {
-                "title": "Připraveno pro výrobu",
-                "desc": "Exportujte návrhy v profesionálních vektorových formátech (SVG, PDF) připravených pro masovou výrobu nebo ruční řezání."
-            }
-        },
         "projectLibraryContent": {
             "title": "Knihovna Projektů",
             "intro": "Knihovna Projektů je vaše centrum pro správu všech návrhů puzzle. Přístup z úvodní obrazovky nebo Soubor → Knihovna Projektů.",
@@ -584,7 +554,7 @@
                         },
                         "share": {
                             "title": "Vytvořit odkaz",
-                            "desc": "Vygenerovat odkaz iCloud. Odešlete přátelům a uvidí váš projekt"
+                            "desc": "Vytvořte odkaz iCloud, který příjemcům poskytne přístup jen pro čtení k vybranému projektu ve Sdílených projektech."
                         },
                         "delete": {
                             "title": "Smazat",
@@ -609,15 +579,26 @@
             "sharedProjects": {
                 "title": "Sdílené Projekty",
                 "icon": "👥",
-                "desc": "Prostor pro spolupráci na projektech sdílených s vámi jinými uživateli.",
+                "desc": "Zobrazte projekty, které s vámi ostatní uživatelé sdílejí přes iCloud.",
                 "features": [
                     "Přijímejte projekty sdílené kolegy nebo přáteli",
-                    "Přístup pouze pro čtení nebo úpravy podle oprávnění",
-                    "Synchronizace v reálném čase s vlastníkem projektu",
+                    "Přístup ke sdíleným projektům jen pro čtení",
+                    "Aktualizace se mohou zobrazit po synchronizaci změn vlastníka přes iCloud",
                     "Přijímejte sdílení přes odkaz pozvánky"
                 ],
-                "howTo": "Když někdo sdílí projekt s vámi, automaticky se zde objeví. Klikněte pro otevření a spolupráci."
+                "howTo": "Po přijetí platného odkazu se projekt může zobrazit ve Sdílených projektech k prohlížení jen pro čtení."
             }
         }
+    },
+    "Common": {
+        "appName": "JigsawDesigner",
+        "appStoreAria": "Zobrazit JigsawDesigner v App Storu"
+    },
+    "Consent": {
+        "title": "Volitelná analytika",
+        "description": "Povolte volitelné měření pomocí Google Analytics 4, které nám pomůže porozumět používání webu. Vaše volba se uloží do localStorage tohoto prohlížeče a GA4 se načte až po udělení souhlasu.",
+        "privacyLink": "Přečíst zásady ochrany soukromí",
+        "reject": "Odmítnout volitelnou analytiku",
+        "accept": "Přijmout volitelnou analytiku"
     }
 }

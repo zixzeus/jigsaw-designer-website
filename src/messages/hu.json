@@ -2,23 +2,24 @@
     "Navigation": {
         "features": "Funkciók",
         "download": "Letöltés",
-        "github": "GitHub",
-        "getStarted": "Kezdés",
         "home": "Főoldal",
         "support": "Támogatás",
-        "help": "Súgó Központ"
+        "help": "Súgó Központ",
+        "pricing": "Árak",
+        "language": "Nyelv",
+        "openMenu": "Menü megnyitása",
+        "closeMenu": "Menü bezárása"
     },
     "Hero": {
         "version": "{version} Megjelent - Próbálja ki most!",
         "titlePart1": "Tervezz Puzzle-t Mint Egy <br/>",
         "titleProfessional": "Profi",
-        "subtitle": "A legerősebb puzzle tervező eszköz Apple platformokra. Natív teljesítmény, SVG pontosság és algoritmus-vezérelt generálás.",
-        "download": "Letöltés",
+        "subtitle": "Professzionális kirakótervező eszköz iPhone-ra, iPadre és Macre, pontos SVG-szerkesztéssel és algoritmikus generálással.",
         "learnMore": "Tudj Meg Többet"
     },
     "Features": {
         "title": "Erőteljes Funkciók",
-        "subtitle": "Minden, amire szükséged van professzionális minőségű puzzle-k készítéséhez.",
+        "subtitle": "Célzott eszközök egyedi kirakótervek generálásához és szerkesztéséhez.",
         "list": {
             "customization": {
                 "title": "Korlátlan Testreszabás",
@@ -26,7 +27,7 @@
             },
             "workflow": {
                 "title": "Villámgyors Munkafolyamat",
-                "description": "Változtasd a kézi munka óráit másodpercekké. Generálj összetett puzzle mintákat mindössze 3 másodperc alatt fejlett motorunkkal."
+                "description": "Csökkentse az ismétlődő kézi átrajzolást algoritmikus kirakóminta-generálással."
             },
             "anywhere": {
                 "title": "Tervezz Bárhol",
@@ -37,34 +38,38 @@
     "Footer": {
         "privacy": "Adatvédelem",
         "support": "Támogatás",
-        "github": "GitHub",
-        "rights": "© {year} JigsawDesigner. Minden jog fenntartva."
+        "rights": "© {year} JigsawDesigner. Minden jog fenntartva.",
+        "pricing": "Árak",
+        "terms": "Felhasználási feltételek",
+        "refund": "Visszatérítési szabályzat",
+        "help": "Súgó Központ"
     },
     "Privacy": {
         "title": "Adatvédelmi Szabályzat",
+        "metaDescription": "Az alkalmazás elsősorban az eszközén dolgozza fel a tervfájlokat. Nem értékesítünk személyes adatokat.",
         "introduction": {
             "title": "Bevezetés",
-            "content": "A JigsawDesigner (\"mi\", \"miénk\" vagy \"minket\") tiszteletben tartja az Ön magánéletét és elkötelezett annak védelme iránt. Ez az Adatvédelmi Szabályzat elmagyarázza, hogyan gyűjtjük, használjuk és védjük az Ön adatait, amikor alkalmazásunkat és weboldalunkat használja."
+            "content": "Ez a szabályzat ismerteti, hogyan kezeli a JigsawDesigner az információkat az alkalmazásban és ezen a webhelyen, beleértve az opcionális felhőfunkciókat, a nyilvános közzétételt, a nyelvi beállítást és az opcionális analitikát."
         },
         "dataCollection": {
             "title": "Adatgyűjtés",
-            "content": "Nem gyűjtünk személyes adatokat.",
-            "content2": "A JigsawDesigner úgy lett tervezve, hogy fájljait helyileg dolgozza fel az eszközén. Tervei, képei és projektjei soha nem hagyják el eszközét, kivéve, ha kifejezetten úgy dönt, hogy exportálja vagy megosztja őket.",
+            "content": "Az alkalmazás elsősorban az eszközén dolgozza fel a tervfájlokat.",
+            "content2": "Az iCloud engedélyezésekor a projektadatok szinkronizálódhatnak az Apple iCloud és CloudKit szolgáltatásain keresztül. A közzététel a kiválasztott projektet nyilvános CloudKit-adatbázisba küldi, a megosztási hivatkozás pedig csak olvasási hozzáférést adhat a kiválasztott projekthez.",
             "list": {
-                "behavior": "Nem követjük nyomon használati viselkedését.",
-                "upload": "Nem töltjük fel fotóit, például puzzle képeket, semmilyen szerverre.",
-                "sell": "Nem adjuk el adatait harmadik feleknek."
+                "behavior": "Miután Ön kiválaszt egy nyelvet, a webhely legfeljebb egy évig tárolja a szükséges nyelvi beállítási cookie-t. Az opcionális analitikai választás ettől külön, a böngésző localStorage tárhelyén marad. Hozzájárulásával a Google Analytics 4 mérheti a látogatásokat és interakciókat; a Cloudflare a webhely működéséhez szükséges kéréseket és biztonsági adatokat kezeli.",
+                "upload": "Harmadik fél médiájához vagy szolgáltatásához, például videószolgáltatóhoz csak akkor kapcsolódunk, ha Ön a tartalom betöltését vagy megnyitását választja; ezután az adott fél adatvédelmi feltételei érvényesek.",
+                "sell": "Nem értékesítünk személyes adatokat."
             }
         },
         "analytics": {
-            "title": "Alkalmazás Analitika",
-            "content": "Használhatunk szabványos Apple opt-in analitikát az alkalmazás teljesítményének és stabilitásának javítására (pl. összeomlási jelentések). Ezek az adatok névtelenek és nem azonosítják Önt személyesen. Bármikor leiratkozhat az eszköze beállításaiban."
+            "title": "Analitika és szolgáltatók",
+            "content": "Az Apple az eszköz beállításai alapján opcionális alkalmazásanalitikai és összeomlási adatokat biztosíthat. Az opcionális webhelyanalitika csak a böngésző localStorage tárhelyén rögzített hozzájárulás után használja a Google Analytics 4-et. A Cloudflare üzemelteti és védi a webhelyet. Az analitika a nyelvválasztás befolyásolása nélkül elutasítható."
         },
         "contact": {
             "title": "Lépjen Kapcsolatba Velünk",
             "content": "Ha bármilyen kérdése van ezzel az Adatvédelmi Szabályzattal kapcsolatban, kérjük, lépjen kapcsolatba velünk a következő címen:"
         },
-        "lastUpdated": "Utoljára frissítve: 2025. december 10."
+        "lastUpdated": "Utolsó frissítés: 2026. augusztus 16."
     },
     "Support": {
         "hero": {
@@ -85,11 +90,11 @@
             "title": "Gyakran Ismételt Kérdések",
             "q1": {
                 "question": "A JigsawDesigner egyszeri vásárlás?",
-                "answer": "Igen, a JigsawDesigner kínál élettartamra szóló licenclehetőséget, valamint előfizetési terveket is. Ellenőrizze az App Store-t a legfrissebb árakért."
+                "answer": "A JigsawDesigner havi és éves Apple-előfizetést kínál; az Apple az Ön áruházához tartozó aktuális árat mutatja."
             },
             "q2": {
                 "question": "Exportálhatom a terveimet kereskedelmi használatra?",
-                "answer": "Természetesen. Minden JigsawDesignerrel készített terv az Öné. Exportálhatja őket SVG vagy PDF formátumban gyártáshoz vagy kereskedelmi nyomtatáshoz."
+                "answer": "A Premium-előfizetők SVG-fájlokat exportálhatnak. A kereskedelmi felhasználás a tervben lévő képek, betűtípusok, sablonok és más tartalmak jogaitól is függ."
             },
             "q3": {
                 "question": "Támogatja az egyedi vágóvonalakat?",
@@ -146,12 +151,12 @@
                 "desc": "Szerkeszd az alakzatok vezérlőpontjait. Állítsd be pontosan az alakzat geometriáját a pontok húzásával."
             },
             "pen": {
-                "title": "Toll Eszköz",
-                "desc": "Szabadkézi útvonal rajzolás. Kattints és húzz a Bezier görbék és organikus alakzatok létrehozásához."
+                "title": "Ceruza eszköz",
+                "desc": "Rajzoljon sima szabadkézi útvonalakat, beleértve a folytatható vagy összekapcsolható nyitott kontúrokat is."
             },
             "line": {
                 "title": "Vonal Eszköz",
-                "desc": "Rajzolj egyenes vonalakat. Tökéletes geometriai tervekhez és pontos kapcsolatokhoz."
+                "desc": "Rajzolj egyenes vonalakat."
             },
             "rect": {
                 "title": "Téglalap Eszköz",
@@ -198,10 +203,6 @@
             }
         },
         "generationContent": {
-            "howItWorks": {
-                "title": "Hogyan Működik",
-                "desc": "A JigsawDesigner fejlett C++ algoritmusokat használ OpenCV és Boost könyvtárakkal kiváló minőségű puzzle darabok generálásához Voronoi diagramok és DCEL adatstruktúrák segítségével."
-            },
             "steps": {
                 "1": {
                     "title": "Határvonal importálása",
@@ -209,19 +210,19 @@
                 },
                 "2": {
                     "title": "Sablon kiválasztása",
-                    "desc": "Válasszon egy mintát (Standard konvex, többpontos stb.), amely meghatározza a darabok illeszkedését."
+                    "desc": "A sablonok határozzák meg, hogyan kapcsolódnak a puzzle darabok. Beépített sablonok: Szabványos Domború, Szabványos Homorú, Egyenes Vonal"
                 },
                 "3": {
                     "title": "Paraméterek beállítása",
-                    "desc": "Használja az Inspektort a rácsméret, a darabszám és az illeszkedési távolság beállításához."
+                    "desc": "Az Inspektorban állítsa be a rácsméretet, a darabszámot és a kapcsolattávolság tartományát. Ezek befolyásolják a generált vonalak sűrűségét és összetettségét."
                 },
                 "4": {
                     "title": "Vágóvonalak generálása",
-                    "desc": "Kattintson a \"Generálás\" gombra. Másodpercek alatt kész a stancrajz lézeres vágáshoz oder nyomtatáshoz."
+                    "desc": "Futtassa a generátort, ellenőrizze az eredményt, és szükség esetén módosítsa a beállításokat az SVG exportja előtt."
                 }
             },
             "title": "Puzzle vágóvonal generálási útmutató",
-            "desc": "A JigsawDesigner fejlett C++ algoritmusokat használ professzionális vágóvonalak generálásához. Kövesse ezt a 4 lépést:"
+            "desc": "A JigsawDesigner C++ algoritmusokat, köztük Voronoi- és DCEL-technikákat használ testreszabható kirakó-vágóvonalak generálásához. Kövesse ezt a négy lépést:"
         },
         "importExportContent": {
             "import": {
@@ -246,7 +247,7 @@
             },
             "premium": {
                 "title": "Prémium Funkció",
-                "desc": "Prémium előfizetés szükséges a generált puzzle-ök exportálásához. Az ingyenes felhasználók tervezhetnek és generálhatnak, de az exportálás korlátozott."
+                "desc": "Az új felhasználók {count} ingyenes kirakógenerálást kapnak. Az SVG-exporthoz és a korlátlan generáláshoz aktív Apple-előfizetés szükséges."
             }
         },
         "shortcutsContent": {
@@ -272,35 +273,14 @@
             }
         },
         "troubleshooting": {
-            "title": "Hibaelhárítás",
-            "items": {
-                "shapes": {
-                    "title": "Az alakzatok nem jelennek meg",
-                    "content": "Ellenőrizd, hogy a megfelelő rajz módban vagy-e. Ellenőrizd, hogy a vászon mérete elegendő-e az alakzatodhoz. Ellenőrizd, hogy az alakzat kitöltése/körvonala nem átlátszó-e."
-                },
-                "select": {
-                    "title": "Nem lehet kijelölni az alakzatot",
-                    "content": "Válts a Kijelölő Eszközre (kurzor ikon). Győződj meg róla, hogy az alakzat nincs mások mögé rejtve. Próbáld meg a Ctrl+Kattintást a csoportokba fúráshoz."
-                },
-                "fail": {
-                    "title": "A puzzle generálás sikertelen",
-                    "content": "Győződj meg róla, hogy a határoló alakzatod zárt útvonal. Csökkentsd a darabszámot összetett alakzatoknál. Ellenőrizd, hogy a slot sablonok érvényesek-e."
-                },
-                "export": {
-                    "title": "Az exportálás le van tiltva",
-                    "content": "Prémium előfizetés szükséges a generált puzzle-ök exportálásához. Az ingyenes szint lehetővé teszi a tervezést, de korlátozza az exportálási funkciókat."
-                }
-            }
+            "title": "Hibaelhárítás"
         },
         "needHelp": {
             "title": "További Segítségre Van Szüksége?",
-            "desc": "Látogassa meg támogatási oldalunkat vagy lépjen kapcsolatba velünk közvetlenül személyes segítségért",
-            "contact": "Kapcsolatfelvétel a Támogatással",
-            "download": "Alkalmazás Letöltése"
+            "desc": "Látogassa meg támogatási oldalunkat vagy lépjen kapcsolatba velünk közvetlenül személyes segítségért"
         },
-        "metaTitle": "Súgó - Professzionális puzzle vágóvonal generátor és SVG tervező",
-        "metaDescription": "Sajátítsa el a JigsawDesignert: a tökéletes szoftver puzzle vágóvonalak generálásához. Tanulja meg a lézeres vágáshoz optimalizált SVG-k és Voronoi minták készítését.",
-        "metaKeywords": "puzzle vágóvonal generátor, stancrajz készítő, lézeres vágás SVG, puzzle tervező szoftver",
+        "metaTitle": "Súgó és puzzle generálási útmutató",
+        "metaDescription": "Ismerje meg, hogyan generálhat kirakó-vágóvonalakat, szerkeszthet vektoralakzatokat, kezelhet projekteket és exportálhat SVG-fájlokat a JigsawDesignerrel.",
         "interfaceContent": {
             "title": "Szerkesztő és vágóvonal felület",
             "intro": "A JigsawDesigner szerkesztője professzionális vektoralapú munkaterületet biztosít precíziós vágóvonalak és stancrajzok tervezéséhez.",
@@ -320,8 +300,8 @@
                     },
                     {
                         "icon": "✒️",
-                        "name": "Toll",
-                        "desc": "Szabad útvonalak rajzolása"
+                        "name": "Ceruza",
+                        "desc": "Sima szabadkézi útvonalak rajzolása"
                     },
                     {
                         "icon": "📏",
@@ -348,7 +328,12 @@
                         "name": "Bézier",
                         "desc": "Bézier-görbék rajzolása vezérlőpontokkal"
                     }
-                ]
+                ],
+                "buttons": {
+                    "import": "Meglévő SVG-fájlok importálása a projektbe",
+                    "export": "A terv exportálása SVG-fájlként",
+                    "projectName": "A projekt nevét és az alakzatok számát mutatja"
+                }
             },
             "canvas": {
                 "title": "Végtelen Vászon",
@@ -471,7 +456,7 @@
                 "sections": {
                     "language": {
                         "title": "Nyelvi Beállítások",
-                        "desc": "Alkalmazás nyelvének módosítása. Támogatja a rendszer alapértelmezését vagy válasszon 40+ nyelvből."
+                        "desc": "Használja a rendszer nyelvét, vagy válasszon az alkalmazás által támogatott nyelvek közül."
                     },
                     "subscription": {
                         "title": "Előfizetés Kezelése",
@@ -536,21 +521,6 @@
                 }
             }
         },
-        "industryKeywords": {
-            "title": "Miért a JigsawDesignert válassza vágóvonalakhoz?",
-            "laserCutting": {
-                "title": "SVG lézeres vágáshoz",
-                "desc": "Tiszta, precíz SVG útvonalakat generál, amelyek Glowforge, Cricut és CO2 lézerekre vannak optimalizálva."
-            },
-            "dieline": {
-                "title": "Egyedi stancrajzok",
-                "desc": "Hozzon létre egyedi vágóvonalakat Voronoi mintákkal, amelyek garantálják, hogy minden darab egyedi legyen."
-            },
-            "manufacturing": {
-                "title": "Gyártásra kész",
-                "desc": "Exportálja terveit professzionális vektorformátumokban (SVG, PDF), amelyek kész masszív gyártásra vagy kézi vágásra."
-            }
-        },
         "projectLibraryContent": {
             "title": "Projekt Könyvtár",
             "intro": "A Projekt Könyvtár a központ az összes puzzle terv kezeléséhez. Hozzáférés az üdvözlő képernyőről vagy Fájl → Projekt Könyvtár.",
@@ -584,7 +554,7 @@
                         },
                         "share": {
                             "title": "Link létrehozása",
-                            "desc": "iCloud link generálása. Küldje el barátoknak és látni fogják a projektjét"
+                            "desc": "Hozzon létre iCloud-hivatkozást, amely csak olvasási hozzáférést ad a címzetteknek a Megosztott projektek kiválasztott projektjéhez."
                         },
                         "delete": {
                             "title": "Törlés",
@@ -609,15 +579,26 @@
             "sharedProjects": {
                 "title": "Megosztott Projektek",
                 "icon": "👥",
-                "desc": "Együttműködési tér a más felhasználók által megosztott projektekhez.",
+                "desc": "Tekintse meg a más felhasználók által iCloudon keresztül megosztott projekteket.",
                 "features": [
                     "Fogadjon kollégák vagy barátok által megosztott projekteket",
-                    "Csak olvasási vagy szerkesztési hozzáférés az engedélyek szerint",
-                    "Valós idejű szinkronizálás a projekt tulajdonosával",
+                    "Csak olvasási hozzáférés a megosztott projektekhez",
+                    "A frissítések azután jelenhetnek meg, hogy az iCloud szinkronizálta a tulajdonos módosításait",
                     "Meghívó linken keresztül fogadja el a megosztásokat"
                 ],
-                "howTo": "Amikor valaki megosztja Önnel a projektet, automatikusan megjelenik itt. Kattintson a megnyitáshoz és az együttműködéshez."
+                "howTo": "Érvényes megosztási hivatkozás elfogadása után a projekt csak olvasható nézetben jelenhet meg a Megosztott projektek között."
             }
         }
+    },
+    "Common": {
+        "appName": "JigsawDesigner",
+        "appStoreAria": "JigsawDesigner megtekintése az App Store-ban"
+    },
+    "Consent": {
+        "title": "Opcionális analitika",
+        "description": "Engedélyezze az opcionális mérést a Google Analytics 4 segítségével, hogy megértsük a webhely használatát. A választás a böngésző localStorage tárhelyén marad, a GA4 pedig csak elfogadás után töltődik be.",
+        "privacyLink": "Adatvédelmi szabályzat elolvasása",
+        "reject": "Opcionális analitika elutasítása",
+        "accept": "Opcionális analitika elfogadása"
     }
 }

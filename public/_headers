@@ -1,3 +1,24 @@
 # https://developers.cloudflare.com/workers/static-assets/headers
+/*
+  Strict-Transport-Security: max-age=31536000
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+  Cross-Origin-Opener-Policy: same-origin-allow-popups
+  Content-Security-Policy-Report-Only: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' 'report-sample' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' 'report-sample'; img-src 'self' data: blob: https://www.google-analytics.com https://*.google-analytics.com; font-src 'self' data:; connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com; frame-src https://www.youtube-nocookie.com; media-src 'self'; worker-src 'self' blob:; manifest-src 'self'
+
 /_next/static/*
+  Cache-Control: public,max-age=31536000,immutable
+
+/*.png
+  Cache-Control: public,max-age=86400,stale-while-revalidate=604800
+
+/*.svg
+  Cache-Control: public,max-age=86400,stale-while-revalidate=604800
+
+/*.webp
+  Cache-Control: public,max-age=31536000,immutable
+
+/og-jigsawdesigner-v1.jpg
   Cache-Control: public,max-age=31536000,immutable

@@ -2,23 +2,24 @@
     "Navigation": {
         "features": "Kenmerken",
         "download": "Downloaden",
-        "github": "GitHub",
-        "getStarted": "Beginnen",
         "home": "Start",
         "support": "Ondersteuning",
-        "help": "Helpcentrum"
+        "help": "Helpcentrum",
+        "pricing": "Prijzen",
+        "language": "Taal",
+        "openMenu": "Menu openen",
+        "closeMenu": "Menu sluiten"
     },
     "Hero": {
         "version": "{version} Uitgebracht - Probeer het nu!",
         "titlePart1": "Ontwerp Puzzels als een <br/>",
         "titleProfessional": "Pro",
-        "subtitle": "De krachtigste puzzelontwerptool voor Apple-platforms. Native prestaties, SVG-precisie en algoritme-gestuurde generatie.",
-        "download": "Downloaden",
+        "subtitle": "Een professioneel ontwerpprogramma voor legpuzzels op iPhone, iPad en Mac, met nauwkeurige SVG-bewerking en algoritmische generatie.",
         "learnMore": "Meer Informatie"
     },
     "Features": {
         "title": "Krachtige Functies",
-        "subtitle": "Alles wat je nodig hebt om puzzels van professionele kwaliteit te maken.",
+        "subtitle": "Gerichte hulpmiddelen voor het genereren en bewerken van eigen puzzelontwerpen.",
         "list": {
             "customization": {
                 "title": "Onbeperkte Aanpassing",
@@ -26,7 +27,7 @@
             },
             "workflow": {
                 "title": "Razendsnelle Workflow",
-                "description": "Verander uren handmatig werk in seconden. Genereer complexe puzzelpatronen in slechts 3 seconden met onze geavanceerde engine."
+                "description": "Verminder herhaald handmatig overtrekken met algoritmische generatie van puzzelpatronen."
             },
             "anywhere": {
                 "title": "Overal Ontwerpen",
@@ -37,34 +38,38 @@
     "Footer": {
         "privacy": "Privacybeleid",
         "support": "Ondersteuning",
-        "github": "GitHub",
-        "rights": "© {year} JigsawDesigner. Alle rechten voorbehouden."
+        "rights": "© {year} JigsawDesigner. Alle rechten voorbehouden.",
+        "pricing": "Prijzen",
+        "terms": "Servicevoorwaarden",
+        "refund": "Restitutiebeleid",
+        "help": "Helpcentrum"
     },
     "Privacy": {
         "title": "Privacybeleid",
+        "metaDescription": "De app verwerkt ontwerpbestanden hoofdzakelijk op uw apparaat. Wij verkopen geen persoonsgegevens.",
         "introduction": {
             "title": "Inleiding",
-            "content": "JigsawDesigner (\"wij\", \"onze\" of \"ons\") respecteert uw privacy en zet zich in om deze te beschermen. Dit Privacybeleid legt uit hoe wij uw informatie verzamelen, gebruiken en beschermen wanneer u onze applicatie en website gebruikt."
+            "content": "Dit beleid legt uit hoe JigsawDesigner informatie verwerkt in de app en op deze website, waaronder optionele cloudfuncties, openbare publicatie, een noodzakelijke taalvoorkeur en optionele analyse."
         },
         "dataCollection": {
             "title": "Gegevensverzameling",
-            "content": "Wij verzamelen geen persoonlijke gegevens.",
-            "content2": "JigsawDesigner is ontworpen om uw bestanden lokaal op uw apparaat te verwerken. Uw ontwerpen, afbeeldingen en projecten verlaten uw apparaat nooit, tenzij u er expliciet voor kiest om ze te exporteren of te delen.",
+            "content": "De app verwerkt ontwerpbestanden hoofdzakelijk op uw apparaat.",
+            "content2": "Als u iCloud inschakelt, kunnen projectgegevens worden gesynchroniseerd via de iCloud- en CloudKit-diensten van Apple. Bij publicatie wordt een geselecteerd project naar een openbare CloudKit-database gestuurd; een deellink kan alleen-lezen toegang geven tot een geselecteerd project.",
             "list": {
-                "behavior": "Wij volgen uw gebruiksgedrag niet.",
-                "upload": "Wij uploaden uw foto's, zoals puzzelafbeeldingen, niet naar servers.",
-                "sell": "Wij verkopen uw gegevens niet aan derden."
+                "behavior": "Nadat u zelf een taal hebt gekozen, bewaart de site maximaal één jaar een noodzakelijke cookie voor die taalvoorkeur. Uw keuze voor optionele analyse wordt daarvan gescheiden opgeslagen in de localStorage van deze browser. Met uw toestemming kan Google Analytics 4 bezoeken en interacties meten; Cloudflare verwerkt verzoeken en beveiligingsgegevens die nodig zijn om de site aan te bieden.",
+                "upload": "Media of diensten van derden, zoals een videoprovider, worden pas benaderd nadat u ervoor kiest die inhoud te laden of openen; hun eigen privacyvoorwaarden zijn dan van toepassing.",
+                "sell": "Wij verkopen geen persoonsgegevens."
             }
         },
         "analytics": {
-            "title": "App-analyse",
-            "content": "We kunnen standaard opt-in analyses van Apple gebruiken om de prestaties en stabiliteit van de app te verbeteren (bijv. crashrapporten). Deze gegevens zijn anoniem en identificeren u niet persoonlijk. U kunt zich op elk moment afmelden via de instellingen van uw apparaat."
+            "title": "Analyse en dienstverleners",
+            "content": "Apple kan optionele app-analyse en crashinformatie verstrekken volgens uw apparaatinstellingen. Optionele websiteanalyse gebruikt Google Analytics 4 pas na toestemming, die in de localStorage van de browser wordt opgeslagen. Cloudflare host en beschermt de site. U kunt analyse weigeren zonder de taalkeuze te beïnvloeden."
         },
         "contact": {
             "title": "Neem Contact Op",
             "content": "Als u vragen heeft over dit Privacybeleid, neem dan contact met ons op via:"
         },
-        "lastUpdated": "Laatst bijgewerkt: 10 december 2025"
+        "lastUpdated": "Laatst bijgewerkt: 16 augustus 2026"
     },
     "Support": {
         "hero": {
@@ -85,11 +90,11 @@
             "title": "Veelgestelde Vragen",
             "q1": {
                 "question": "Is JigsawDesigner een eenmalige aankoop?",
-                "answer": "Ja, JigsawDesigner biedt een levenslange licentieoptie en abonnementsplannen. Bekijk de App Store voor de laatste prijzen."
+                "answer": "JigsawDesigner biedt maandelijkse en jaarlijkse Apple-abonnementen; Apple toont de actuele prijs voor uw Store."
             },
             "q2": {
                 "question": "Kan ik mijn ontwerpen exporteren voor commercieel gebruik?",
-                "answer": "Absoluut. Alle ontwerpen die met JigsawDesigner zijn gemaakt, zijn van u. U kunt ze exporteren als SVG of PDF voor productie of commercieel drukwerk."
+                "answer": "Premium-abonnees kunnen SVG-bestanden exporteren. Commercieel gebruik hangt ook af van de rechten op afbeeldingen, lettertypen, sjablonen en andere inhoud in het ontwerp."
             },
             "q3": {
                 "question": "Ondersteunt het aangepaste stanslijnen?",
@@ -146,12 +151,12 @@
                 "desc": "Bewerk de controlepunten van vormen. Pas de geometrie van de vorm nauwkeurig aan door punten te slepen."
             },
             "pen": {
-                "title": "Pengereedschap",
-                "desc": "Vrije vorm pad tekenen. Klik en sleep om Bezier-curven en organische vormen te maken."
+                "title": "Potloodgereedschap",
+                "desc": "Teken vloeiende vrijehandspaden, waaronder open contouren die u kunt voortzetten of verbinden."
             },
             "line": {
                 "title": "lijngereedschap",
-                "desc": "Teken rechte lijnen. Perfect voor geometrische ontwerpen en nauwkeurige verbindingen."
+                "desc": "Teken rechte lijnen."
             },
             "rect": {
                 "title": "Rechthoekgereedschap",
@@ -198,10 +203,6 @@
             }
         },
         "generationContent": {
-            "howItWorks": {
-                "title": "Hoe Het Werkt",
-                "desc": "JigsawDesigner gebruikt geavanceerde C++ algoritmen met OpenCV en Boost bibliotheken om puzzelstukjes van hoge kwaliteit te genereren met behulp van Voronoi-diagrammen en DCEL-gegevensstructuren."
-            },
             "steps": {
                 "1": {
                     "title": "Grenscontour Importeren",
@@ -209,19 +210,19 @@
                 },
                 "2": {
                     "title": "Sleuf-sjabloon Selecteren",
-                    "desc": "Kies een sleufontwerp (Standaard Convex, Multipoint, enz.) om te bepalen hoe de stukken in elkaar grijpen."
+                    "desc": "Sjablonen definiëren de vorm van verbindingen. Ingebouwde sjablonen: Standaard Convex, Standaard Concaaf, Rechte Lijn"
                 },
                 "3": {
                     "title": "Parameters Configureren",
-                    "desc": "Gebruik de Inspector om Rastergrootte, Aantal stukjes en Sleufafstand in te stellen."
+                    "desc": "Stel in de Inspector rastergrootte, aantal stukken en het bereik van de verbindingsafstand in. Deze parameters beïnvloeden de dichtheid en complexiteit van de gegenereerde snijlijnen."
                 },
                 "4": {
                     "title": "Snijlijnen Genereren",
-                    "desc": "Klik op \"Genereer Jigsaw\". Binnen enkele seconden heeft u een stansmes dat klaar is voor lasersnijden of printen."
+                    "desc": "Voer de generator uit, controleer het resultaat en pas de instellingen zo nodig aan voordat u een SVG exporteert."
                 }
             },
             "title": "Gids voor het Genereren van Snijlijnen",
-            "desc": "JigsawDesigner maakt gebruik van geavanceerde C++-algoritmen (Voronoi & DCEL) om professionele snijlijnen te genereren. Volg deze 4 stappen:"
+            "desc": "JigsawDesigner gebruikt C++-algoritmen, waaronder Voronoi- en DCEL-technieken, om aanpasbare snijlijnen voor legpuzzels te genereren. Volg deze vier stappen:"
         },
         "importExportContent": {
             "import": {
@@ -246,7 +247,7 @@
             },
             "premium": {
                 "title": "Premium Functie",
-                "desc": "Premium abonnement vereist om gegenereerde puzzels te exporteren. Gratis gebruikers kunnen ontwerpen en genereren, maar export is beperkt."
+                "desc": "Nieuwe gebruikers krijgen {count} gratis puzzelgeneraties. SVG-export en onbeperkte generatie vereisen een actief Apple-abonnement."
             }
         },
         "shortcutsContent": {
@@ -272,35 +273,14 @@
             }
         },
         "troubleshooting": {
-            "title": "Probleemoplossing",
-            "items": {
-                "shapes": {
-                    "title": "Vormen verschijnen niet",
-                    "content": "Controleer of je in de juiste tekenmodus bent. Controleer of de canvasgrootte ruimte heeft voor je vorm. Controleer of de vormvulling/lijnkleuren niet transparant zijn."
-                },
-                "select": {
-                    "title": "Kan geen vorm selecteren",
-                    "content": "Schakel over naar het Selectiegereedschap (cursorpictogram). Zorg ervoor dat de vorm niet achter andere verborgen is. Probeer Ctrl+Klik te gebruiken om in groepen te boren."
-                },
-                "fail": {
-                    "title": "Puzzelgeneratie mislukt",
-                    "content": "Zorg ervoor dat je grensvorm een gesloten pad is. Verminder het aantal stukjes voor complexe vormen. Controleer of sleufsjablonen geldig zijn."
-                },
-                "export": {
-                    "title": "Export is uitgeschakeld",
-                    "content": "Premium abonnement vereist om gegenereerde puzzels te exporteren. De gratis laag staat ontwerp toe, maar beperkt de exportfunctionaliteit."
-                }
-            }
+            "title": "Probleemoplossing"
         },
         "needHelp": {
             "title": "Meer Hulp Nodig?",
-            "desc": "Bezoek onze ondersteuningspagina of neem direct contact met ons op voor persoonlijke hulp",
-            "contact": "Neem Contact Op",
-            "download": "Download"
+            "desc": "Bezoek onze ondersteuningspagina of neem direct contact met ons op voor persoonlijke hulp"
         },
-        "metaTitle": "Helpcentrum - Professionele Jigsaw Snijlijn Generator & SVG Designer",
-        "metaDescription": "Beheers JigsawDesigner: De ultieme software voor het genereren van snijlijnen voor puzzels. Leer hoe u lasergesneden SVG’s en Voronoi-patronen maakt.",
-        "metaKeywords": "puzzle snijlijn generator, puzzel stanslijn maker, laser snij SVG, puzzel ontwerp software, Voronoi generator",
+        "metaTitle": "Helpcentrum & Gids voor Puzzelgeneratie",
+        "metaDescription": "Leer hoe u met JigsawDesigner snijlijnen voor legpuzzels genereert, vectorvormen bewerkt, projecten beheert en SVG-bestanden exporteert.",
         "interfaceContent": {
             "title": "Editor & Snijlijn Interface",
             "intro": "De JigsawDesigner-editor biedt een professionele vector-werkruimte voor het ontwerpen van precisie snijlijnen en stansmessen.",
@@ -320,8 +300,8 @@
                     },
                     {
                         "icon": "✒️",
-                        "name": "Pen",
-                        "desc": "Vrije paden tekenen"
+                        "name": "Potlood",
+                        "desc": "Vloeiende vrijehandspaden tekenen"
                     },
                     {
                         "icon": "📏",
@@ -350,9 +330,9 @@
                     }
                 ],
                 "buttons": {
-                    "import": "Bestaande SVG-bestanden importeren",
-                    "export": "Ontwerp exporteren als SVG",
-                    "projectName": "Toont projectnaam en aantal vormen"
+                    "import": "Bestaande SVG-bestanden in uw project importeren",
+                    "export": "Uw ontwerp als SVG-bestand exporteren",
+                    "projectName": "Toont de projectnaam en het aantal vormen"
                 }
             },
             "canvas": {
@@ -418,7 +398,7 @@
                     },
                     "custom": {
                         "title": "Aangepaste Sjablonen",
-                        "desc": "Ontwerp uw eigen unieke slotvormen met de Bézier-tekentools. Perfect voor onderscheidende puzzelstijlen."
+                        "desc": "Ontwerp uw eigen unieke slotvormen met de Bézier-tekentools."
                     }
                 }
             },
@@ -476,7 +456,7 @@
                 "sections": {
                     "language": {
                         "title": "Taalinstellingen",
-                        "desc": "Wijzig de taal. Systeemstandaard of 40+ talen."
+                        "desc": "Gebruik de systeemtaal of kies een van de door de app ondersteunde talen."
                     },
                     "subscription": {
                         "title": "Abonnementsbeheer",
@@ -541,21 +521,6 @@
                 }
             }
         },
-        "industryKeywords": {
-            "title": "Waarom JigsawDesigner voor Snijlijnen?",
-            "laserCutting": {
-                "title": "Laser Snij SVG",
-                "desc": "Genereer schone, nauwkeurige SVG-paden die zijn geoptimaliseerd voor Glowforge, Cricut en CO2-lasers."
-            },
-            "dieline": {
-                "title": "Aangepaste Puzzelstanslijnen",
-                "desc": "Creëer unieke stanslijnen met Voronoi-patronen die ervoor zorgen dat elk puzzelstukje uniek is."
-            },
-            "manufacturing": {
-                "title": "Klaar voor Fabricage",
-                "desc": "Exporteer ontwerpen in professionele vectorformaten (SVG, PDF) voor massaproductie of handmatig snijden."
-            }
-        },
         "projectLibraryContent": {
             "title": "Projectbibliotheek",
             "intro": "De Projectbibliotheek is uw centrale hub voor het beheren van alle designs.",
@@ -588,7 +553,7 @@
                         },
                         "share": {
                             "title": "Link Maken",
-                            "desc": "Genereer een iCloud-deellink. Stuur deze link naar collega's of vrienden - wanneer ze hem openen, verschijnt uw project in hun sectie Gedeelde Projecten."
+                            "desc": "Maak een iCloud-link die ontvangers alleen-lezen toegang geeft tot het geselecteerde project in Gedeelde projecten."
                         },
                         "delete": {
                             "title": "Verwijderen",
@@ -614,15 +579,26 @@
             "sharedProjects": {
                 "title": "Gedeelde Projecten",
                 "icon": "👥",
-                "desc": "Samenwerkingsruimte voor projecten die met u zijn gedeeld door andere gebruikers via iCloud.",
+                "desc": "Bekijk projecten die andere gebruikers via iCloud met u delen.",
                 "features": [
                     "Ontvang projecten gedeeld door collega's of vrienden",
-                    "Alleen-lezen of bewerkingstoegang op basis van machtigingen",
-                    "Realtime synchronisatie met de projecteigenaar",
+                    "Alleen-lezen toegang tot gedeelde projecten",
+                    "Updates kunnen verschijnen nadat iCloud de wijzigingen van de eigenaar heeft gesynchroniseerd",
                     "Accepteer delingen via uitnodigingslink"
                 ],
-                "howTo": "Wanneer iemand een project met u deelt, verschijnt het hier automatisch. Klik om te openen en samen te werken."
+                "howTo": "Na aanvaarding van een geldige deellink kan het project in Gedeelde projecten verschijnen om alleen te bekijken."
             }
         }
+    },
+    "Common": {
+        "appName": "JigsawDesigner",
+        "appStoreAria": "Bekijk JigsawDesigner in de App Store"
+    },
+    "Consent": {
+        "title": "Optionele analyse",
+        "description": "Sta optionele meting met Google Analytics 4 toe om ons inzicht te geven in het gebruik van de website. Uw keuze wordt opgeslagen in de localStorage van deze browser; GA4 wordt pas geladen nadat u toestemming geeft.",
+        "privacyLink": "Lees het privacybeleid",
+        "reject": "Optionele analyse weigeren",
+        "accept": "Optionele analyse toestaan"
     }
 }

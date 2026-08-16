@@ -1,112 +1,73 @@
-import {useTranslations} from 'next-intl';
-import {Link} from '@/i18n/navigation';
-import Image from "next/image";
+import type {Metadata} from "next";
+import {notFound} from "next/navigation";
+import {useTranslations} from "next-intl";
+import {getTranslations, setRequestLocale} from "next-intl/server";
 
-export default function PrivacyPage() {
-  const tNav = useTranslations('Navigation');
-  const tFoot = useTranslations('Footer');
-  const tPrivacy = useTranslations('Privacy');
+import Breadcrumbs from "@/components/Breadcrumbs";
+import JsonLd from "@/components/JsonLd";
+import SiteFooter from "@/components/SiteFooter";
+import SiteHeader from "@/components/SiteHeader";
+import {PRODUCT_FACTS} from "@/config/product";
+import {isRouteAvailable, isSiteLocale, type SiteLocale} from "@/config/seo";
+import {createBreadcrumbJsonLd, createPageMetadata} from "@/lib/seo";
 
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
+  const {locale} = await params;
+  if (!isSiteLocale(locale) || !isRouteAvailable("/privacy", locale)) notFound();
+  const privacy = await getTranslations({locale, namespace: "Privacy"});
+  return createPageMetadata({locale, pathname: "/privacy", title: privacy("title"), description: privacy("metaDescription")});
+}
+
+export default async function PrivacyPage({params}: {params: Promise<{locale: string}>}) {
+  const {locale} = await params;
+  if (!isSiteLocale(locale) || !isRouteAvailable("/privacy", locale)) notFound();
+  setRequestLocale(locale);
+  return <PrivacyContent locale={locale} />;
+}
+
+function PrivacyContent({locale}: {locale: SiteLocale}) {
+  const privacy = useTranslations("Privacy");
+  const navigation = useTranslations("Navigation");
+  const breadcrumbItems = [
+    {label: navigation("home"), href: "/"},
+    {label: privacy("title")},
+  ];
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Navigation */}
-      <nav className="fixed w-full z-50 bg-background/80 backdrop-blur-md border-b border-border transition-all duration-300">
-        <div className="container mx-auto px-6 md:px-12 h-16 flex items-center justify-between">
-          <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-            <div className="relative w-8 h-8 rounded-lg overflow-hidden shadow-sm">
-                <Image
-                src="/app-icon.png"
-                alt="JigsawDesigner Icon"
-                fill
-                className="object-cover"
-                />
-            </div>
-            <span className="text-xl font-bold tracking-tight">JigsawDesigner</span>
-          </Link>
-          <div className="flex items-center space-x-8 text-sm font-medium">
-            <Link href="/" className="hover:text-primary transition-colors">{tNav('home')}</Link>
-            <Link href="/support" className="hover:text-primary transition-colors">{tNav('support')}</Link>
-          </div>
+      <JsonLd data={createBreadcrumbJsonLd({
+        locale,
+        items: [
+          {name: navigation("home"), pathname: "/"},
+          {name: privacy("title"), pathname: "/privacy"},
+        ],
+      })} />
+      <SiteHeader />
+      <main className="container mx-auto max-w-4xl px-6 pt-32 pb-24 md:px-12 md:pt-40">
+        <Breadcrumbs items={breadcrumbItems} ariaLabel={privacy("title")} />
+        <h1 className="text-4xl font-bold tracking-tight md:text-5xl">{privacy("title")}</h1>
+        <div className="mt-12 space-y-10 text-[1.05rem] leading-8 text-gray-600 dark:text-gray-300">
+          <PolicySection title={privacy("introduction.title")}><p>{privacy("introduction.content")}</p></PolicySection>
+          <PolicySection title={privacy("dataCollection.title")}>
+            <p><strong className="text-foreground">{privacy("dataCollection.content")}</strong> {privacy("dataCollection.content2")}</p>
+            <ul className="mt-5 list-disc space-y-3 ps-6">
+              <li>{privacy("dataCollection.list.behavior")}</li>
+              <li>{privacy("dataCollection.list.upload")}</li>
+              <li>{privacy("dataCollection.list.sell")}</li>
+            </ul>
+          </PolicySection>
+          <PolicySection title={privacy("analytics.title")}><p>{privacy("analytics.content")}</p></PolicySection>
+          <PolicySection title={privacy("contact.title")}>
+            <p>{privacy("contact.content")}</p>
+            <a href={`mailto:${PRODUCT_FACTS.supportEmail}`} className="mt-2 inline-flex text-primary-dark hover:underline dark:text-primary-light">{PRODUCT_FACTS.supportEmail}</a>
+          </PolicySection>
+          <p className="border-t border-border pt-8 text-sm text-gray-600 dark:text-gray-300">{privacy("lastUpdated")}</p>
         </div>
-      </nav>
-
-      <div className="container mx-auto px-6 md:px-12 pt-32 pb-24 max-w-4xl">
-        <h1 className="text-4xl md:text-5xl font-bold mb-12">{tPrivacy('title')}</h1>
-        
-        <div className="prose prose-lg dark:prose-invert max-w-none text-gray-600 dark:text-gray-300 space-y-8">
-            <section>
-                <h2 className="text-2xl font-bold text-foreground mb-4">{tPrivacy('introduction.title')}</h2>
-                <p>
-                    {tPrivacy('introduction.content')}
-                </p>
-            </section>
-
-            <section>
-                <h2 className="text-2xl font-bold text-foreground mb-4">{tPrivacy('dataCollection.title')}</h2>
-                <p>
-                    <strong>{tPrivacy('dataCollection.content')}</strong> {tPrivacy('dataCollection.content2')}
-                </p>
-                <ul className="list-disc pl-5 mt-4 space-y-2">
-                    <li>{tPrivacy('dataCollection.list.behavior')}</li>
-                    <li>{tPrivacy('dataCollection.list.upload')}</li>
-                    <li>{tPrivacy('dataCollection.list.sell')}</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2 className="text-2xl font-bold text-foreground mb-4">{tPrivacy('analytics.title')}</h2>
-                <p>
-                   {tPrivacy('analytics.content')}
-                </p>
-            </section>
-
-             <section>
-                <h2 className="text-2xl font-bold text-foreground mb-4">{tPrivacy('contact.title')}</h2>
-                <p>
-                    {tPrivacy('contact.content')}
-                    <br/>
-                    <a href="mailto:zixzeus@jigsawdesigner.com" className="text-primary hover:underline">zixzeus@jigsawdesigner.com</a>
-                </p>
-            </section>
-            
-            <section className="pt-8 border-t border-border text-sm text-gray-500">
-                <p>{tPrivacy('lastUpdated')}</p>
-            </section>
-        </div>
-      </div>
-      
-      <Footer />
+      </main>
+      <SiteFooter />
     </div>
   );
 }
 
-function Footer() {
-    const tNav = useTranslations('Navigation');
-    const tFoot = useTranslations('Footer');
-
-    return (
-      <footer className="border-t border-border bg-background-secondary py-12">
-        <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center space-x-2 opacity-80">
-            <div className="relative w-6 h-6 rounded overflow-hidden">
-                 <Image
-                 src="/app-icon.png"
-                 alt="JigsawDesigner Icon"
-                 fill
-                 className="object-cover"
-                 />
-            </div>
-            <span className="font-semibold">JigsawDesigner</span>
-          </div>
-          
-          <div className="text-sm text-gray-500">
-             {tFoot('rights', {year: new Date().getFullYear()})}
-          </div>
-          <div className="flex gap-8 text-sm text-gray-500">
-             <Link href="/" className="hover:text-primary transition-colors">{tNav('home')}</Link>
-             <Link href="/support" className="hover:text-primary transition-colors">{tNav('support')}</Link>
-          </div>
-        </div>
-      </footer>
-    )
+function PolicySection({title, children}: {title: string; children: React.ReactNode}) {
+  return <section><h2 className="mb-4 text-2xl font-bold text-foreground">{title}</h2>{children}</section>;
 }

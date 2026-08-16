@@ -2,23 +2,24 @@
     "Navigation": {
         "features": "Característiques",
         "download": "Descarregar",
-        "github": "GitHub",
-        "getStarted": "Començar",
         "home": "Inici",
         "support": "Suport",
-        "help": "Centre d'Ajuda"
+        "help": "Centre d'Ajuda",
+        "pricing": "Preus",
+        "language": "Idioma",
+        "openMenu": "Obre el menú",
+        "closeMenu": "Tanca el menú"
     },
     "Hero": {
         "version": "{version} Llançat - Prova-ho ara!",
         "titlePart1": "Dissenya Puzzles Com un <br/>",
         "titleProfessional": "Professional",
-        "subtitle": "L'eina de disseny de puzzles més potent per a plataformes Apple. Rendiment natiu, precisió SVG i generació impulsada per algoritmes.",
-        "download": "Descarregar",
+        "subtitle": "Una eina professional de disseny de trencaclosques per a iPhone, iPad i Mac, amb edició SVG precisa i generació mitjançant algoritmes.",
         "learnMore": "Saber Més"
     },
     "Features": {
         "title": "Característiques Potents",
-        "subtitle": "Tot el que necessites per crear puzzles de qualitat professional.",
+        "subtitle": "Eines específiques per generar i editar dissenys de trencaclosques personalitzats.",
         "list": {
             "customization": {
                 "title": "Personalització Il·limitada",
@@ -26,7 +27,7 @@
             },
             "workflow": {
                 "title": "Flux de Treball Ràpid com el Llamp",
-                "description": "Converteix hores de treball manual en segons. Genera patrons de puzzle complexos en només 3 segons amb el nostre motor avançat."
+                "description": "Redueix el traçat manual repetitiu amb la generació algorítmica de patrons de trencaclosques."
             },
             "anywhere": {
                 "title": "Dissenya a Qualsevol Lloc",
@@ -37,34 +38,38 @@
     "Footer": {
         "privacy": "Privacitat",
         "support": "Suport",
-        "github": "GitHub",
-        "rights": "© {year} JigsawDesigner. Tots els drets reservats."
+        "rights": "© {year} JigsawDesigner. Tots els drets reservats.",
+        "pricing": "Preus",
+        "terms": "Condicions del servei",
+        "refund": "Política de reemborsaments",
+        "help": "Centre d'Ajuda"
     },
     "Privacy": {
         "title": "Política de Privacitat",
+        "metaDescription": "L’aplicació processa principalment els fitxers de disseny al teu dispositiu. No venem informació personal.",
         "introduction": {
             "title": "Introducció",
-            "content": "JigsawDesigner (\"nosaltres\", \"nostre\" o \"ens\") respecta la teva privacitat i es compromet a protegir-la. Aquesta Política de Privacitat explica com recopilem, utilitzem i protegim la teva informació quan utilitzes la nostra aplicació i lloc web."
+            "content": "Aquesta política explica com JigsawDesigner tracta la informació a l’aplicació i en aquest lloc web, incloses les funcions opcionals al núvol, la publicació pública, la preferència d’idioma necessària i l’analítica opcional."
         },
         "dataCollection": {
             "title": "Recollida de Dades",
-            "content": "No recopilem dades personals.",
-            "content2": "JigsawDesigner està dissenyat per processar els teus fitxers localment al teu dispositiu. Els teus dissenys, imatges i projectes mai surten del teu dispositiu tret que decideixis explícitament exportar-los o compartir-los.",
+            "content": "L’aplicació processa principalment els fitxers de disseny al teu dispositiu.",
+            "content2": "Si actives iCloud, les dades dels projectes es poden sincronitzar mitjançant els serveis iCloud i CloudKit d’Apple. En publicar, el projecte seleccionat s’envia a una base de dades pública de CloudKit, i un enllaç pot donar accés només de lectura al projecte seleccionat.",
             "list": {
-                "behavior": "No rastregem el teu comportament d'ús.",
-                "upload": "No pugem les teves fotos, com ara imatges de puzzles, a cap servidor.",
-                "sell": "No venem les teves dades a tercers."
+                "behavior": "Després que triïs activament un idioma, el lloc desa durant un màxim d’un any una galeta necessària de preferència d’idioma. La teva elecció sobre l’analítica opcional es desa per separat al localStorage d’aquest navegador. Si hi dones consentiment, Google Analytics 4 pot mesurar visites i interaccions; Cloudflare processa les sol·licituds i les dades de seguretat necessàries per oferir el lloc.",
+                "upload": "Només es contacta amb mitjans o serveis de tercers, com ara un proveïdor de vídeo, després que decideixis carregar o obrir aquell contingut; aleshores s’apliquen les seves pròpies condicions de privadesa.",
+                "sell": "No venem informació personal."
             }
         },
         "analytics": {
-            "title": "Anàlisi de l'Aplicació",
-            "content": "Podem utilitzar les analítiques estàndard de Apple (amb opció d'inclusió) per millorar el rendiment i l'estabilitat de l'aplicació (per exemple, informes d'errors). Aquestes dades són anònimes i no t'identifiquen personalment. Pots optar per no participar en qualsevol moment a través de la configuració del teu dispositiu."
+            "title": "Analítica i proveïdors de serveis",
+            "content": "Apple pot proporcionar analítica opcional de l’app i informació d’errors segons la configuració del dispositiu. L’analítica opcional del lloc utilitza Google Analytics 4 només després del consentiment, que es desa al localStorage del navegador. Cloudflare allotja i protegeix el lloc. Pots rebutjar l’analítica sense afectar la selecció d’idioma."
         },
         "contact": {
             "title": "Contacta amb Nosaltres",
             "content": "Si tens alguna pregunta sobre aquesta Política de Privacitat, sisplau contacta amb nosaltres a:"
         },
-        "lastUpdated": "Última Actualització: 10 de desembre de 2025"
+        "lastUpdated": "Última actualització: 16 d’agost de 2026"
     },
     "Support": {
         "hero": {
@@ -85,11 +90,11 @@
             "title": "Preguntes Freqüents",
             "q1": {
                 "question": "És JigsawDesigner una compra única?",
-                "answer": "Sí, JigsawDesigner ofereix una opció de llicència de per vida així com plans de subscripció. Consulta l'App Store per veure els preus més recents."
+                "answer": "JigsawDesigner ofereix subscripcions mensuals i anuals d’Apple; Apple mostra el preu actual per a la teva botiga."
             },
             "q2": {
                 "question": "Puc exportar els meus dissenys per a ús comercial?",
-                "answer": "Absolutament. Tots els dissenys creats amb JigsawDesigner són teus. Pots exportar-los com a SVG o PDF per a la fabricació o impressió comercial."
+                "answer": "Els subscriptors Premium poden exportar fitxers SVG. L’ús comercial també depèn dels drets sobre les imatges, tipografies, plantilles i altres continguts inclosos al disseny."
             },
             "q3": {
                 "question": "Admet línies de tall personalitzades?",
@@ -146,12 +151,12 @@
                 "desc": "Edita els punts de control de les formes. Ajusta la geometria de la forma amb precisió arrossegant punts."
             },
             "pen": {
-                "title": "Eina Ploma",
-                "desc": "Dibuix de camí lliure. Fes clic i arrossega per crear corbes Bezier i formes orgàniques."
+                "title": "Eina Llapis",
+                "desc": "Dibuixa traços suaus a mà alçada, inclosos contorns oberts que pots continuar o unir."
             },
             "line": {
                 "title": "Eina de Línia",
-                "desc": "Dibuixa línies rectes. Perfecte per a dissenys geomètrics i connexions precises."
+                "desc": "Dibuixa línies rectes."
             },
             "rect": {
                 "title": "Eina de Rectangle",
@@ -198,10 +203,6 @@
             }
         },
         "generationContent": {
-            "howItWorks": {
-                "title": "Com Funciona",
-                "desc": "JigsawDesigner utilitza algoritmes C++ avançats amb biblioteques OpenCV i Boost per generar peces de puzzle d'alta qualitat utilitzant diagrames de Voronoi i estructures de dades DCEL."
-            },
             "steps": {
                 "1": {
                     "title": "Importar contorn límit",
@@ -209,19 +210,19 @@
                 },
                 "2": {
                     "title": "Seleccionar plantilla d'encaix",
-                    "desc": "Tria un disseny d'encaix (Estàndard Convex, Multipunt, etc.) per definir com es connecten les peces."
+                    "desc": "Les plantilles defineixen com es connecten les peces del trencaclosques. Plantilles integrades: Convex Estàndard, Còncau Estàndard, Línia Recta"
                 },
                 "3": {
                     "title": "Configurar paràmetres",
-                    "desc": "Utilitza l'Inspector per establir la mida de la graella, el nombre de peces i la distància d'encaix."
+                    "desc": "Utilitza l’Inspector per definir la mida de la quadrícula, el nombre de peces i l’interval de distància de les ranures. Aquests paràmetres afecten la densitat i la complexitat de les línies generades."
                 },
                 "4": {
                     "title": "Generar línies de tall",
-                    "desc": "Fes clic a \"Generar trencaclosques\". En segons, tindràs un troquel llest per a tall làser o impressió."
+                    "desc": "Executa el generador, revisa el resultat i ajusta la configuració quan calgui abans d’exportar un SVG."
                 }
             },
             "title": "Guia de generació de línies de tall",
-            "desc": "JigsawDesigner utilitza algorismes C++ avançats per generar línies de tall professionals. Segueix aquests 4 passos:"
+            "desc": "JigsawDesigner utilitza algoritmes C++, incloses tècniques de Voronoi i DCEL, per generar línies de tall de trencaclosques personalitzables. Segueix aquests quatre passos:"
         },
         "importExportContent": {
             "import": {
@@ -246,7 +247,7 @@
             },
             "premium": {
                 "title": "Característica Premium",
-                "desc": "Es requereix subscripció Premium per exportar els puzzles generats. Els usuaris gratuïts poden dissenyar i generar, però l'exportació està limitada."
+                "desc": "Els usuaris nous reben {count} generacions de trencaclosques gratuïtes. L’exportació SVG i la generació il·limitada requereixen una subscripció d’Apple activa."
             }
         },
         "shortcutsContent": {
@@ -272,35 +273,14 @@
             }
         },
         "troubleshooting": {
-            "title": "Resolució de Problemes",
-            "items": {
-                "shapes": {
-                    "title": "Les formes no apareixen",
-                    "content": "Verifica que estàs en el mode de dibuix correcte. Comprova que la mida del llenç tingui espai per a la teva forma. Comprova que els colors de farciment/traç de la forma no siguin transparents."
-                },
-                "select": {
-                    "title": "No es pot seleccionar la forma",
-                    "content": "Canvia a l'Eina de Selecció (icona del cursor). Assegura't que la forma no estigui amagada darrere d'altres. Prova d'utilitzar Ctrl+Clic per aprofundir en grups."
-                },
-                "fail": {
-                    "title": "Fallada en la generació del puzzle",
-                    "content": "Assegura't que la teva forma límit és un camí tancat. Redueix el nombre de peces per a formes complexes. Comprova que les plantilles de ranures siguin vàlides."
-                },
-                "export": {
-                    "title": "L'exportació està desactivada",
-                    "content": "Es requereix subscripció Premium per exportar els puzzles generats. El nivell gratuït permet el disseny però limita la funcionalitat d'exportació."
-                }
-            }
+            "title": "Resolució de Problemes"
         },
         "needHelp": {
             "title": "Necessites Més Ajuda?",
-            "desc": "Visita la nostra pàgina de suport o contacta amb nosaltres directament per a assistència personal",
-            "contact": "Contactar amb Suport",
-            "download": "Descarregar Aplicació"
+            "desc": "Visita la nostra pàgina de suport o contacta amb nosaltres directament per a assistència personal"
         },
-        "metaTitle": "Centre d'ajuda - Generador professional de línies de tall de trencaclosques i dissenyador SVG",
-        "metaDescription": "Domina JigsawDesigner: El programari definitiu per a la generació de línies de tall de trencaclosques. Aprèn a crear SVGs per a tall làser i patrons Voronoi.",
-        "metaKeywords": "generador de línies de tall, creador de troquels, SVG per a tall làser, programari de disseny de trencaclosques",
+        "metaTitle": "Centre d'ajuda i guia de generació de trencaclosques",
+        "metaDescription": "Aprèn a generar línies de tall de trencaclosques, editar formes vectorials, gestionar projectes i exportar fitxers SVG amb JigsawDesigner.",
         "interfaceContent": {
             "title": "Interfície d'editor i tall",
             "intro": "L'editor de JigsawDesigner ofereix un espai de treball vectorial professional per dissenyar línies de tall i troquels de precisió.",
@@ -320,8 +300,8 @@
                     },
                     {
                         "icon": "✒️",
-                        "name": "Ploma",
-                        "desc": "Dibuixeu traçats lliures"
+                        "name": "Llapis",
+                        "desc": "Dibuixa traços suaus a mà alçada"
                     },
                     {
                         "icon": "📏",
@@ -348,7 +328,12 @@
                         "name": "Bézier",
                         "desc": "Dibuixeu corbes Bézier amb punts de control"
                     }
-                ]
+                ],
+                "buttons": {
+                    "import": "Importa fitxers SVG existents al projecte",
+                    "export": "Exporta el disseny com a fitxer SVG",
+                    "projectName": "Mostra el nom del projecte i el nombre de formes"
+                }
             },
             "canvas": {
                 "title": "Llenç Infinit",
@@ -471,7 +456,7 @@
                 "sections": {
                     "language": {
                         "title": "Configuració d'Idioma",
-                        "desc": "Canvieu l'idioma de l'aplicació. Admet el predeterminat del sistema o trieu entre 40+ idiomes."
+                        "desc": "Utilitza l’idioma del sistema o tria un dels idiomes compatibles amb l’aplicació."
                     },
                     "subscription": {
                         "title": "Gestió de Subscripció",
@@ -536,21 +521,6 @@
                 }
             }
         },
-        "industryKeywords": {
-            "title": "Per què triar JigsawDesigner?",
-            "laserCutting": {
-                "title": "SVG per a tall làser",
-                "desc": "Genera camins SVG nets i precisos optimitzats per a Glowforge, Cricut i làsers CO2."
-            },
-            "dieline": {
-                "title": "Troquels personalitzats",
-                "desc": "Crea línies de tall úniques amb patrons Voronoi que asseguren que cada peça sigui única."
-            },
-            "manufacturing": {
-                "title": "Llest per a la fabricació",
-                "desc": "Exporta dissenys en formats vectorials professionals (SVG, PDF) llestos per a producció en massa o tall manual."
-            }
-        },
         "projectLibraryContent": {
             "title": "Biblioteca de Projectes",
             "intro": "La Biblioteca de Projectes és el vostre centre per gestionar tots els dissenys de trencaclosques. Accediu des de la pantalla de benvinguda o Fitxer → Biblioteca de Projectes.",
@@ -584,7 +554,7 @@
                         },
                         "share": {
                             "title": "Crear enllaç",
-                            "desc": "Generar un enllaç d'iCloud. Envieu-lo als amics i veuran el vostre projecte"
+                            "desc": "Genera un enllaç d’iCloud que dona als destinataris accés només de lectura al projecte seleccionat a Projectes compartits."
                         },
                         "delete": {
                             "title": "Suprimir",
@@ -609,15 +579,26 @@
             "sharedProjects": {
                 "title": "Projectes Compartits",
                 "icon": "👥",
-                "desc": "Espai de col·laboració per a projectes compartits amb vosaltres per altres usuaris.",
+                "desc": "Consulta els projectes que altres usuaris comparteixen amb tu mitjançant iCloud.",
                 "features": [
                     "Rebeu projectes compartits per col·legues o amics",
-                    "Accés de només lectura o edició segons els permisos",
-                    "Sincronització en temps real amb el propietari del projecte",
+                    "Accés només de lectura als projectes compartits",
+                    "Les actualitzacions poden aparèixer quan iCloud sincronitzi els canvis del propietari",
                     "Accepteu comparticions mitjançant l'enllaç d'invitació"
                 ],
-                "howTo": "Quan algú comparteixi un projecte amb vosaltres, apareixerà automàticament aquí. Feu clic per obrir i col·laborar."
+                "howTo": "Després d’acceptar un enllaç vàlid, el projecte pot aparèixer a Projectes compartits per consultar-lo en mode de només lectura."
             }
         }
+    },
+    "Common": {
+        "appName": "JigsawDesigner",
+        "appStoreAria": "Mostra JigsawDesigner a l’App Store"
+    },
+    "Consent": {
+        "title": "Analítica opcional",
+        "description": "Permet el mesurament opcional amb Google Analytics 4 per ajudar-nos a entendre l’ús del lloc web. La teva elecció es desa al localStorage d’aquest navegador i GA4 només es carrega després que ho acceptis.",
+        "privacyLink": "Llegeix la Política de privadesa",
+        "reject": "Rebutja l’analítica opcional",
+        "accept": "Accepta l’analítica opcional"
     }
 }

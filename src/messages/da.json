@@ -1,24 +1,25 @@
 {
     "Navigation": {
         "features": "Funktioner",
-        "download": "Download",
-        "github": "GitHub",
-        "getStarted": "Kom i gang",
+        "download": "Hent",
         "home": "Hjem",
-        "support": "Support",
-        "help": "Hjælpecenter"
+        "support": "Hjælp",
+        "help": "Hjælpecenter",
+        "pricing": "Priser",
+        "language": "Sprog",
+        "openMenu": "Åbn menu",
+        "closeMenu": "Luk menu"
     },
     "Hero": {
         "version": "{version} Udgivet - Prøv det nu!",
         "titlePart1": "Design puslespil som en <br/>",
         "titleProfessional": "Pro",
-        "subtitle": "Det mest kraftfulde værktøj til puslespilsdesign til Apple-platforme. Native ydeevne, SVG-præcision og algoritme-drevet generering.",
-        "download": "Download",
+        "subtitle": "Et professionelt værktøj til design af puslespil på iPhone, iPad og Mac med præcis SVG-redigering og algoritmestyret generering.",
         "learnMore": "Lær mere"
     },
     "Features": {
         "title": "Kraftfulde Funktioner",
-        "subtitle": "Alt hvad du behøver for at skabe puslespil i professionel kvalitet.",
+        "subtitle": "Målrettede værktøjer til at generere og redigere brugerdefinerede puslespilsdesign.",
         "list": {
             "customization": {
                 "title": "Ubegrænset Tilpasning",
@@ -26,7 +27,7 @@
             },
             "workflow": {
                 "title": "Lynhurtigt Workflow",
-                "description": "Forvandl timers manuelt arbejde til sekunder. Generer komplekse puslespilsmønstre på kun 3 sekunder med vores avancerede motor."
+                "description": "Reducer gentagen manuel optegning med algoritmestyret generering af puslespilsmønstre."
             },
             "anywhere": {
                 "title": "Design Hvor som Helst",
@@ -36,35 +37,39 @@
     },
     "Footer": {
         "privacy": "Privatliv",
-        "support": "Support",
-        "github": "GitHub",
-        "rights": "© {year} JigsawDesigner. Alle rettigheder forbeholdes."
+        "support": "Hjælp",
+        "rights": "© {year} JigsawDesigner. Alle rettigheder forbeholdes.",
+        "pricing": "Priser",
+        "terms": "Servicevilkår",
+        "refund": "Refusionspolitik",
+        "help": "Hjælpecenter"
     },
     "Privacy": {
         "title": "Privatlivspolitik",
+        "metaDescription": "Appen behandler primært designfiler på din enhed. Vi sælger ikke personoplysninger.",
         "introduction": {
             "title": "Introduktion",
-            "content": "JigsawDesigner (\"vi\", \"vores\" eller \"os\") respekterer dit privatliv og er forpligtet til at beskytte det. Denne privatlivspolitik forklarer, hvordan vi indsamler, bruger og beskytter dine oplysninger, når du bruger vores applikation og hjemmeside."
+            "content": "Denne politik forklarer, hvordan JigsawDesigner håndterer oplysninger i appen og på dette websted, herunder valgfrie cloudfunktioner, offentlig udgivelse, nødvendig sprogindstilling og valgfri analyse."
         },
         "dataCollection": {
             "title": "Dataindsamling",
-            "content": "Vi indsamler ikke personlige data.",
-            "content2": "JigsawDesigner er designet til at behandle dine filer lokalt på din enhed. Dine designs, billeder og projekter forlader aldrig din enhed, medmindre du eksplicit vælger at eksportere eller dele dem.",
+            "content": "Appen behandler primært designfiler på din enhed.",
+            "content2": "Hvis du aktiverer iCloud, kan projektdata synkroniseres via Apples iCloud- og CloudKit-tjenester. Ved udgivelse sendes et valgt projekt til en offentlig CloudKit-database, og et delingslink kan give skrivebeskyttet adgang til et valgt projekt.",
             "list": {
-                "behavior": "Vi sporer ikke din brugsadfærd.",
-                "upload": "Vi uploader ikke dine fotos, såsom puslespilsbilleder, til nogen servere.",
-                "sell": "Vi sælger ikke dine data til tredjeparter."
+                "behavior": "Når du selv vælger et sprog, gemmer webstedet en nødvendig cookie til sprogindstillingen i op til ét år. Dit valg om valgfri analyse gemmes separat i denne browsers localStorage. Hvis du giver samtykke, kan Google Analytics 4 måle besøg og interaktioner; Cloudflare behandler forespørgsler og sikkerhedsdata, der er nødvendige for at levere webstedet.",
+                "upload": "Tredjepartsmedier eller -tjenester, f.eks. en videoudbyder, kontaktes først, når du vælger at indlæse eller åbne indholdet; derefter gælder deres egne privatlivsvilkår.",
+                "sell": "Vi sælger ikke personoplysninger."
             }
         },
         "analytics": {
-            "title": "Analyse",
-            "content": "Vi kan bruge Apples standard opt-in analytics til at forbedre appens ydeevne og stabilitet (f.eks. nedbrudsrapporter). Disse data er anonyme og identificerer dig ikke personligt. Du kan fravælge dette til enhver tid via dine enhedsindstillinger."
+            "title": "Analyse og tjenesteudbydere",
+            "content": "Apple kan levere valgfri appanalyse og oplysninger om nedbrud i henhold til dine enhedsindstillinger. Valgfri webstedsanalyse bruger først Google Analytics 4 efter samtykke, som gemmes i browserens localStorage. Cloudflare hoster og beskytter webstedet. Du kan afvise analyse uden at påvirke valg af sprog."
         },
         "contact": {
             "title": "Kontakt os",
             "content": "Hvis du har spørgsmål om denne privatlivspolitik, bedes du kontakte os på:"
         },
-        "lastUpdated": "Sidst opdateret: 10. december 2025"
+        "lastUpdated": "Senest opdateret: 16. august 2026"
     },
     "Support": {
         "hero": {
@@ -85,11 +90,11 @@
             "title": "Ofte Stillede Spørgsmål",
             "q1": {
                 "question": "Er JigsawDesigner et engangskøb?",
-                "answer": "Ja, JigsawDesigner tilbyder en livstidslicensmulighed samt abonnementsplaner. Tjek App Store for de nyeste priser."
+                "answer": "JigsawDesigner tilbyder månedlige og årlige Apple-abonnementer; Apple viser den aktuelle pris for din butik."
             },
             "q2": {
                 "question": "Kan jeg eksportere mine designs til kommerciel brug?",
-                "answer": "Absolut. Alle designs skabt med JigsawDesigner er dine. Du kan eksportere dem som SVG eller PDF til fremstilling eller kommercielt tryk."
+                "answer": "Premium-abonnenter kan eksportere SVG-filer. Kommerciel brug afhænger også af rettighederne til billeder, skrifttyper, skabeloner og andet indhold i designet."
             },
             "q3": {
                 "question": "Understøtter det tilpassede skærelinjer?",
@@ -146,12 +151,12 @@
                 "desc": "Rediger formernes kontrolpunkter. Juster formgeometrien præcist ved at trække punkter."
             },
             "pen": {
-                "title": "Penneværktøj",
-                "desc": "Frihåndssti tegning. Klik og træk for at skabe Bezier-kurver og organiske former."
+                "title": "Blyantværktøj",
+                "desc": "Tegn jævne frihåndsstier, herunder åbne konturer, som du kan fortsætte eller sammenføje."
             },
             "line": {
                 "title": "Linjeværktøj",
-                "desc": "Tegn rette linjer. Perfekt til geometriske designs og præcise forbindelser."
+                "desc": "Tegn rette linjer."
             },
             "rect": {
                 "title": "Rektangelværktøj",
@@ -198,10 +203,6 @@
             }
         },
         "generationContent": {
-            "howItWorks": {
-                "title": "Hvordan det Virker",
-                "desc": "JigsawDesigner bruger avancerede C++ algoritmer med OpenCV og Boost biblioteker til at generere højkvalitets puslespilsbrikker ved hjælp af Voronoi-diagrammer og DCEL-datastrukturer."
-            },
             "steps": {
                 "1": {
                     "title": "Importer Grænsekontur",
@@ -209,19 +210,19 @@
                 },
                 "2": {
                     "title": "Vælg Skabelon",
-                    "desc": "Vælg et slots-design (Standard Konveks, Flerpunkts osv.) for at definere, hvordan brikkerne låser sammen."
+                    "desc": "Skabeloner definerer, hvordan puslespilsbrikker forbindes. Indbyggede skabeloner: Standard Konveks, Standard Konkav, Lige Linje"
                 },
                 "3": {
                     "title": "Konfigurer Parametre",
-                    "desc": "Brug Inspektøren til at indstille gitterstørrelse, brikantal og slots-afstand."
+                    "desc": "Brug Inspektør til at angive gitterstørrelse, antal brikker og interval for tapafstand. Parametrene påvirker de genererede skærelinjers tæthed og kompleksitet."
                 },
                 "4": {
                     "title": "Generer Skærelinjer",
-                    "desc": "Klik på \"Generer Jigsaw\". På få sekunder har du en stanseform klar til laserskæring eller tryk."
+                    "desc": "Kør generatoren, gennemgå resultatet, og juster indstillingerne efter behov, før du eksporterer en SVG."
                 }
             },
             "title": "Guide til Generering af Skærelinjer",
-            "desc": "JigsawDesigner bruger avancerede C++ algoritmer til at generere professionelle skærelinjer. Følg disse 4 trin:"
+            "desc": "JigsawDesigner bruger C++-algoritmer, herunder Voronoi- og DCEL-teknikker, til at generere justerbare puslespilsskærelinjer. Følg disse fire trin:"
         },
         "importExportContent": {
             "import": {
@@ -246,7 +247,7 @@
             },
             "premium": {
                 "title": "Premium Funktion",
-                "desc": "Premium-abonnement kræves for at eksportere genererede puslespil. Gratis brugere kan designe og generere, men eksport er begrænset."
+                "desc": "Nye brugere får {count} gratis puslespilsgenereringer. SVG-eksport og ubegrænset generering kræver et aktivt Apple-abonnement."
             }
         },
         "shortcutsContent": {
@@ -272,35 +273,14 @@
             }
         },
         "troubleshooting": {
-            "title": "Fejlfinding",
-            "items": {
-                "shapes": {
-                    "title": "Former vises ikke",
-                    "content": "Verificer, at du er i den rigtige tegnetilstand. Tjek, at lærredstørrelsen har plads til din form. Tjek, at formudfyldnings-/stregfarver ikke er gennemsigtige."
-                },
-                "select": {
-                    "title": "Kan ikke vælge form",
-                    "content": "Skift til Markeringsværktøjet (markør-ikon). Sørg for, at formen ikke er skjult bag andre. Prøv at bruge Ctrl+klik for at bore ind i grupper."
-                },
-                "fail": {
-                    "title": "Puslespilsgenerering fejler",
-                    "content": "Sørg for, at din grænseform er en lukket sti. Reducer antal brikker for komplekse former. Tjek, at slot-skabeloner er gyldige."
-                },
-                "export": {
-                    "title": "Eksport er deaktiveret",
-                    "content": "Premium-abonnement kræves for at eksportere genererede puslespil. Det gratis niveau tillader design men begrænser eksportfunktionalitet."
-                }
-            }
+            "title": "Fejlfinding"
         },
         "needHelp": {
             "title": "Har du brug for mere hjælp?",
-            "desc": "Besøg vores supportside eller kontakt os direkte for personlig assistance",
-            "contact": "Kontakt Support",
-            "download": "Download"
+            "desc": "Besøg vores supportside eller kontakt os direkte for personlig assistance"
         },
-        "metaTitle": "Hjælpecenter - Professionel Jigsaw Skærelinje Generator & SVG Designer",
-        "metaDescription": "Mestre JigsawDesigner: Den ultimative software til generering af skærelinjer til puslespil. Lær at skabe laserskårne SVG’er og Voronoi-mønstre.",
-        "metaKeywords": "puslespil skærelinje generator, stanselinje maker, laserskåret SVG, puslespil design software",
+        "metaTitle": "Hjælpecenter & Guide til Puslespilsgenerering",
+        "metaDescription": "Lær at generere puslespilsskærelinjer, redigere vektorformer, administrere projekter og eksportere SVG-filer med JigsawDesigner.",
         "interfaceContent": {
             "title": "Editor & Skærelinje Grænseflade",
             "intro": "JigsawDesigner-editoren tilbyder et professionelt vektor-arbejdsområde til design af præcise skærelinjer og stanseforme.",
@@ -320,8 +300,8 @@
                     },
                     {
                         "icon": "✒️",
-                        "name": "Pen",
-                        "desc": "Tegn frie stier"
+                        "name": "Blyant",
+                        "desc": "Tegn jævne frihåndsstier"
                     },
                     {
                         "icon": "📏",
@@ -350,9 +330,9 @@
                     }
                 ],
                 "buttons": {
-                    "import": "Importer eksisterende SVG-filer",
-                    "export": "Eksporter design som SVG",
-                    "projectName": "Viser projektnavn og forme antal"
+                    "import": "Importer eksisterende SVG-filer i projektet",
+                    "export": "Eksporter designet som en SVG-fil",
+                    "projectName": "Viser projektnavn og antal former"
                 }
             },
             "canvas": {
@@ -476,7 +456,7 @@
                 "sections": {
                     "language": {
                         "title": "Sprogindstillinger",
-                        "desc": "Skift programsprog. Understøtter systemstandard eller vælg blandt 40+ sprog."
+                        "desc": "Brug systemsproget, eller vælg et af appens understøttede sprog."
                     },
                     "subscription": {
                         "title": "Abonnementsstyring",
@@ -541,21 +521,6 @@
                 }
             }
         },
-        "industryKeywords": {
-            "title": "Hvorfor JigsawDesigner?",
-            "laserCutting": {
-                "title": "Laserskæring SVG",
-                "desc": "Generer rene, præcise SVG-stier optimeret til Glowforge, Cricut og CO2-lasere."
-            },
-            "dieline": {
-                "title": "Tilpassede Stanseforme",
-                "desc": "Skab unikke former med Voronoi-mønstre, der sikrer, at hver brik er unik."
-            },
-            "manufacturing": {
-                "title": "Klar til Produktion",
-                "desc": "Eksporter design i professionelle vektorformater (SVG, PDF) klar til masseproduktion eller håndskæring."
-            }
-        },
         "projectLibraryContent": {
             "title": "Projektbibliotek",
             "intro": "Projektbiblioteket er dit centrum til at administrere alle puslespilsdesigns. Adgang fra velkomstskærmen eller via Filer → Projektbibliotek.",
@@ -589,7 +554,7 @@
                         },
                         "share": {
                             "title": "Opret link",
-                            "desc": "Generer iCloud-link. Send til venner og de ser dit projekt"
+                            "desc": "Opret et iCloud-link, der giver modtagere skrivebeskyttet adgang til det valgte projekt under Delte projekter."
                         },
                         "delete": {
                             "title": "Slet",
@@ -614,15 +579,26 @@
             "sharedProjects": {
                 "title": "Delte Projekter",
                 "icon": "👥",
-                "desc": "Samarbejdsrum for projekter delt med dig af andre brugere.",
+                "desc": "Se projekter, som andre brugere deler med dig via iCloud.",
                 "features": [
                     "Modtag projekter delt af kolleger eller venner",
-                    "Kun læse- eller redigeringsadgang afhængigt af tilladelser",
-                    "Realtidssynkronisering med projektejeren",
+                    "Skrivebeskyttet adgang til delte projekter",
+                    "Opdateringer kan vises, når iCloud har synkroniseret ejerens ændringer",
                     "Accepter delinger via invitationslink"
                 ],
-                "howTo": "Når nogen deler et projekt med dig, vises det her automatisk. Klik for at åbne og samarbejde."
+                "howTo": "Når du har accepteret et gyldigt delingslink, kan projektet vises under Delte projekter med skrivebeskyttet adgang."
             }
         }
+    },
+    "Common": {
+        "appName": "JigsawDesigner",
+        "appStoreAria": "Se JigsawDesigner i App Store"
+    },
+    "Consent": {
+        "title": "Valgfri analyse",
+        "description": "Tillad valgfri måling med Google Analytics 4, så vi bedre kan forstå brugen af webstedet. Dit valg gemmes i denne browsers localStorage, og GA4 indlæses først, når du accepterer.",
+        "privacyLink": "Læs privatlivspolitikken",
+        "reject": "Afvis valgfri analyse",
+        "accept": "Accepter valgfri analyse"
     }
 }

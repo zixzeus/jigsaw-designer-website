@@ -1,46 +1,56 @@
-import createMiddleware from 'next-intl/middleware';
-import {NextRequest, NextResponse} from 'next/server';
-import {countryToLocale, locales} from './i18n/config';
-import {routing} from './i18n/routing';
+import createMiddleware from "next-intl/middleware";
+import {NextResponse} from "next/server";
+import type {NextRequest} from "next/server";
+import {DEFAULT_LOCALE, LEGACY_LOCALE_REDIRECTS} from "./config/seo";
+import {routing} from "./i18n/routing";
 
 const intlMiddleware = createMiddleware(routing);
 
+function permanentRedirect(
+  request: NextRequest,
+  pathname: string,
+  status: 301 | 308,
+) {
+  const url = request.nextUrl.clone();
+  url.pathname = pathname;
+
+  const response = NextResponse.redirect(url, status);
+  response.headers.set("Cache-Control", "public, max-age=86400");
+  return response;
+}
+
+// Next.js 16 Proxy is Node.js-only, while OpenNext Cloudflare currently
+// supports Edge Middleware. Keep this deprecated filename until the adapter
+// gains Node.js Proxy support, then migrate it back to `proxy.ts`.
 export default function middleware(request: NextRequest) {
   const {pathname} = request.nextUrl;
-  const hostname = request.headers.get('host') || '';
+  const hostname = request.headers.get("host") ?? "";
 
-  // 🔧 SEO: 301重定向 www 到非 www（规范化主域名）
-  // 避免重复内容问题，确保所有流量指向同一个规范URL
-  if (hostname.startsWith('www.')) {
-    const newUrl = request.nextUrl.clone();
-    newUrl.host = hostname.replace('www.', '');
-    return NextResponse.redirect(newUrl, 301);
+  // Application fallback for ordinary document routes. Cloudflare must own
+  // whole-host canonicalization because this matcher intentionally excludes
+  // static files; do not treat this as a replacement for an edge redirect.
+  if (hostname.toLowerCase().startsWith("www.")) {
+    const url = request.nextUrl.clone();
+    url.host = hostname.slice(4);
+    const response = NextResponse.redirect(url, 301);
+    response.headers.set("Cache-Control", "public, max-age=86400");
+    return response;
   }
 
-  // 1. Check if user has a preference cookie
-  const hasCookie = request.cookies.has('NEXT_LOCALE');
-  if (hasCookie) {
-    return intlMiddleware(request);
+  if (pathname === "/") {
+    return permanentRedirect(request, `/${DEFAULT_LOCALE}`, 308);
   }
 
-  // 2. Check if path already has a locale
-  const hasLocale = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-  );
-
-  // 3. IP-based redirection for all non-localized paths
-  if (!hasLocale) {
-    const country = request.headers.get('cf-ipcountry') || request.headers.get('x-vercel-ip-country');
-    
-    if (country && countryToLocale[country]) {
-      const targetLocale = countryToLocale[country];
-      const url = request.nextUrl.clone();
-      
-      // Redirect to /[locale]/[path]
-      // e.g. / -> /zh
-      // e.g. /privacy -> /zh/privacy
-      url.pathname = `/${targetLocale}${pathname === '/' ? '' : pathname}`;
-      return NextResponse.redirect(url);
+  for (const [legacyLocale, canonicalLocale] of Object.entries(
+    LEGACY_LOCALE_REDIRECTS,
+  )) {
+    const legacyPrefix = `/${legacyLocale}`;
+    if (pathname === legacyPrefix || pathname.startsWith(`${legacyPrefix}/`)) {
+      return permanentRedirect(
+        request,
+        `/${canonicalLocale}${pathname.slice(legacyPrefix.length)}`,
+        301,
+      );
     }
   }
 
@@ -48,5 +58,5 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
+  matcher: ["/((?!api|_next|_vercel|.*\\..*).*)"],
 };

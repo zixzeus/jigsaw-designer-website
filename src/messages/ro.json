@@ -2,23 +2,24 @@
     "Navigation": {
         "features": "Caracteristici",
         "download": "Descarcă",
-        "github": "GitHub",
-        "getStarted": "Începe",
         "home": "Acasă",
         "support": "Asistență",
-        "help": "Centru de Ajutor"
+        "help": "Centru de Ajutor",
+        "pricing": "Prețuri",
+        "language": "Limbă",
+        "openMenu": "Deschide meniul",
+        "closeMenu": "Închide meniul"
     },
     "Hero": {
         "version": "{version} Lansat - Încercați acum!",
         "titlePart1": "Proiectează Puzzle-uri ca un <br/>",
         "titleProfessional": "Profesionist",
-        "subtitle": "Cel mai puternic instrument de proiectare a puzzle-urilor pentru platformele Apple. Performanță nativă, precizie SVG și generare bazată pe algoritmi.",
-        "download": "Descarcă",
+        "subtitle": "Un instrument profesional de proiectare a puzzle-urilor pentru iPhone, iPad și Mac, cu editare SVG precisă și generare bazată pe algoritmi.",
         "learnMore": "Află Mai Multe"
     },
     "Features": {
         "title": "Caracteristici Puternice",
-        "subtitle": "Tot ce îți trebuie pentru a crea puzzle-uri de calitate profesională.",
+        "subtitle": "Instrumente specializate pentru generarea și editarea designurilor de puzzle personalizate.",
         "list": {
             "customization": {
                 "title": "Personalizare Nelimitată",
@@ -26,7 +27,7 @@
             },
             "workflow": {
                 "title": "Flux de Lucru Rapid",
-                "description": "Transformă orele de muncă manuală în secunde. Generează modele complexe de puzzle în doar 3 secunde cu motorul nostru avansat."
+                "description": "Reduce trasarea manuală repetitivă prin generarea algoritmică a modelelor de puzzle."
             },
             "anywhere": {
                 "title": "Proiectează Oriunde",
@@ -37,34 +38,38 @@
     "Footer": {
         "privacy": "Confidențialitate",
         "support": "Asistență",
-        "github": "GitHub",
-        "rights": "© {year} JigsawDesigner. Toate drepturile rezervate."
+        "rights": "© {year} JigsawDesigner. Toate drepturile rezervate.",
+        "pricing": "Prețuri",
+        "terms": "Termeni și condiții",
+        "refund": "Politica de rambursare",
+        "help": "Centru de Ajutor"
     },
     "Privacy": {
         "title": "Politica de Confidențialitate",
+        "metaDescription": "Aplicația procesează în principal fișierele de design pe dispozitivul tău. Nu vindem informații personale.",
         "introduction": {
             "title": "Introducere",
-            "content": "JigsawDesigner (\"noi\", \"al nostru\" sau \"nouă\") vă respectă confidențialitatea și se angajează să o protejeze. Această Politică de Confidențialitate explică modul în care colectăm, utilizăm și protejăm informațiile dvs. atunci când utilizați aplicația și site-ul nostru web."
+            "content": "Această politică explică modul în care JigsawDesigner gestionează informațiile în aplicație și pe acest site, inclusiv funcțiile cloud opționale, publicarea publică, preferința de limbă și analiza opțională."
         },
         "dataCollection": {
             "title": "Colectarea Datelor",
-            "content": "Nu colectăm date personale.",
-            "content2": "JigsawDesigner este conceput pentru a procesa fișierele dvs. local pe dispozitivul dvs. Designurile, imaginile și proiectele dvs. nu părăsesc niciodată dispozitivul dvs., cu excepția cazului în care alegeți explicit să le exportați sau să le partajați.",
+            "content": "Aplicația procesează în principal fișierele de design pe dispozitivul tău.",
+            "content2": "Dacă activezi iCloud, datele proiectelor se pot sincroniza prin serviciile Apple iCloud și CloudKit. Publicarea trimite proiectul selectat într-o bază CloudKit publică, iar un link de partajare poate oferi acces doar pentru citire la proiectul selectat.",
             "list": {
-                "behavior": "Nu urmărim comportamentul dvs. de utilizare.",
-                "upload": "Nu încărcăm fotografiile dvs., cum ar fi imaginile de puzzle, pe niciun server.",
-                "sell": "Nu vindem datele dvs. către terți."
+                "behavior": "După ce alegi în mod activ o limbă, site-ul salvează timp de cel mult un an un cookie necesar pentru preferința de limbă. Alegerea analizei opționale este salvată separat în localStorage al acestui browser. Cu acordul tău, Google Analytics 4 poate măsura vizite și interacțiuni; Cloudflare procesează solicitările și datele de securitate necesare pentru furnizarea site-ului.",
+                "upload": "Conținutul media sau serviciile terțe, precum un furnizor video, sunt contactate numai după ce alegi să încarci sau să deschizi conținutul; apoi se aplică propriii lor termeni de confidențialitate.",
+                "sell": "Nu vindem informații personale."
             }
         },
         "analytics": {
-            "title": "Analiza Aplicației",
-            "content": "Putem utiliza analizele standard Apple (opt-in) pentru a îmbunătăți performanța și stabilitatea aplicației (de exemplu, rapoarte de blocare). Aceste date sunt anonime și nu vă identifică personal. Puteți renunța în orice moment prin setările dispozitivului dvs."
+            "title": "Analiză și furnizori de servicii",
+            "content": "Apple poate furniza analiză opțională a aplicației și informații despre blocări, conform setărilor dispozitivului. Analiza opțională a site-ului folosește Google Analytics 4 numai după consimțământul salvat în localStorage. Cloudflare găzduiește și protejează site-ul. Poți respinge analiza fără a afecta alegerea limbii."
         },
         "contact": {
             "title": "Contactați-ne",
             "content": "Dacă aveți întrebări despre această Politică de Confidențialitate, vă rugăm să ne contactați la:"
         },
-        "lastUpdated": "Ultima actualizare: 10 decembrie 2025"
+        "lastUpdated": "Ultima actualizare: 16 august 2026"
     },
     "Support": {
         "hero": {
@@ -85,11 +90,11 @@
             "title": "Întrebări Frecvente",
             "q1": {
                 "question": "Este JigsawDesigner o achiziție unică?",
-                "answer": "Da, JigsawDesigner oferă o opțiune de licență pe viață, precum și planuri de abonament. Verificați App Store pentru cele mai recente prețuri."
+                "answer": "JigsawDesigner oferă abonamente Apple lunare și anuale; Apple afișează prețul actual pentru magazinul tău."
             },
             "q2": {
                 "question": "Pot să-mi export designurile pentru uz comercial?",
-                "answer": "Absolut. Toate designurile create cu JigsawDesigner sunt ale tale. Le poți exporta ca SVG sau PDF pentru fabricație sau tipărire comercială."
+                "answer": "Abonații Premium pot exporta fișiere SVG. Utilizarea comercială depinde și de drepturile asupra imaginilor, fonturilor, șabloanelor și altui conținut inclus în design."
             },
             "q3": {
                 "question": "Suportă linii de tăiere personalizate?",
@@ -146,12 +151,12 @@
                 "desc": "Editează punctele de control ale formelor. Ajustează geometria formei precis prin tragerea punctelor."
             },
             "pen": {
-                "title": "Instrument Stilou",
-                "desc": "Desenare cale liberă. Clic și trage pentru a crea curbe Bezier și forme organice."
+                "title": "Instrument Creion",
+                "desc": "Desenează trasee line cu mâna liberă, inclusiv contururi deschise pe care le poți continua sau uni."
             },
             "line": {
                 "title": "Instrument Linie",
-                "desc": "Desenează linii drepte. Perfect pentru designuri geometrice și conexiuni precise."
+                "desc": "Desenează linii drepte."
             },
             "rect": {
                 "title": "Instrument Dreptunghi",
@@ -198,10 +203,6 @@
             }
         },
         "generationContent": {
-            "howItWorks": {
-                "title": "Cum Funcționează",
-                "desc": "JigsawDesigner utilizează algoritmi C++ avansați cu biblioteci OpenCV și Boost pentru a genera piese de puzzle de înaltă calitate folosind diagrame Voronoi și structuri de date DCEL."
-            },
             "steps": {
                 "1": {
                     "title": "Importă conturul limită",
@@ -209,19 +210,19 @@
                 },
                 "2": {
                     "title": "Selectează șablonul îmbinărilor",
-                    "desc": "Alege un design de îmbinare (Standard Convex, Multipunct, etc.) pentru a defini modul în care piesele se conectează."
+                    "desc": "Șabloanele definesc cum se conectează piesele puzzle. Șabloane încorporate: Convex Standard, Concav Standard, Linie Dreaptă"
                 },
                 "3": {
                     "title": "Configurarea parametrilor",
-                    "desc": "Folosește Inspectorul pentru a seta dimensiunea grilei, numărul de piese și distanța între îmbinări."
+                    "desc": "În Inspector, setează dimensiunea grilei, numărul de piese și intervalul distanței îmbinărilor. Parametrii influențează densitatea și complexitatea liniilor generate."
                 },
                 "4": {
                     "title": "Generează liniile de tăiere",
-                    "desc": "Apasă pe \"Generează puzzle\". În câteva secunde, vei avea un model de ștanțare gata pentru tăiere laser sau imprimare."
+                    "desc": "Rulează generatorul, verifică rezultatul și ajustează setările după caz înainte de a exporta un SVG."
                 }
             },
             "title": "Ghid de generare a liniilor de tăiere puzzle",
-            "desc": "JigsawDesigner folosește algoritmi avansați C++ pentru a genera linii de tăiere profesionale care se întrepătrund. Urmează acești 4 pași:"
+            "desc": "JigsawDesigner folosește algoritmi C++, inclusiv tehnici Voronoi și DCEL, pentru a genera linii de tăiere personalizabile. Urmează acești patru pași:"
         },
         "importExportContent": {
             "import": {
@@ -246,7 +247,7 @@
             },
             "premium": {
                 "title": "Caracteristică Premium",
-                "desc": "Abonamentul Premium este necesar pentru a exporta puzzle-urile generate. Utilizatorii gratuiți pot proiecta și genera, dar exportul este limitat."
+                "desc": "Utilizatorii noi primesc {count} generări gratuite de puzzle. Exportul SVG și generarea nelimitată necesită un abonament Apple activ."
             }
         },
         "shortcutsContent": {
@@ -272,35 +273,14 @@
             }
         },
         "troubleshooting": {
-            "title": "Depanare",
-            "items": {
-                "shapes": {
-                    "title": "Formele nu apar",
-                    "content": "Verifică dacă ești în modul de desen corect. Verifică dacă dimensiunea pânzei are loc pentru forma ta. Verifică dacă culorile de umplere/contur ale formei nu sunt transparente."
-                },
-                "select": {
-                    "title": "Nu se poate selecta forma",
-                    "content": "Comută la Instrumentul de Selecție (pictogramă cursor). Asigură-te că forma nu este ascunsă în spatele altora. Încearcă să utilizezi Ctrl+Clic pentru a intra în grupuri."
-                },
-                "fail": {
-                    "title": "Generarea puzzle-ului eșuează",
-                    "content": "Asigură-te că forma graniței tale este o cale închisă. Redu numărul de piese pentru formele complexe. Verifică dacă șabloanele de fante sunt valide."
-                },
-                "export": {
-                    "title": "Exportul este dezactivat",
-                    "content": "Abonamentul Premium este necesar pentru a exporta puzzle-urile generate. Nivelul gratuit permite designul, dar limitează funcționalitatea de export."
-                }
-            }
+            "title": "Depanare"
         },
         "needHelp": {
             "title": "Ai Nevoie de Mai Mult Ajutor?",
-            "desc": "Vizitează pagina noastră de asistență sau contactează-ne direct pentru asistență personală",
-            "contact": "Contactează Asistența",
-            "download": "Descarcă Aplicația"
+            "desc": "Vizitează pagina noastră de asistență sau contactează-ne direct pentru asistență personală"
         },
-        "metaTitle": "Centru de ajutor - Generator profesional de linii de tăiere puzzle și designer SVG",
-        "metaDescription": "Stăpânește JigsawDesigner: Cel mai bun software pentru generarea liniilor de tăiere pentru puzzle-uri. Învață cum să creezi SVG-uri pentru tăiere laser și modele Voronoi.",
-        "metaKeywords": "generator linii tăiere puzzle, creator modele ștanțare, SVG tăiere laser, software design puzzle",
+        "metaTitle": "Centru de ajutor și ghid de generare a puzzle-urilor",
+        "metaDescription": "Află cum să generezi linii de tăiere pentru puzzle, să editezi forme vectoriale, să gestionezi proiecte și să exporți fișiere SVG cu JigsawDesigner.",
         "interfaceContent": {
             "title": "Interfață editor și linii de tăiere",
             "intro": "Editorul JigsawDesigner oferă un spațiu de lucru vectorial profesional pentru proiectarea liniilor de tăiere și a modelelor de ștanțare precise.",
@@ -320,8 +300,8 @@
                     },
                     {
                         "icon": "✒️",
-                        "name": "Stilou",
-                        "desc": "Desenați trasee libere"
+                        "name": "Creion",
+                        "desc": "Desenează trasee line cu mâna liberă"
                     },
                     {
                         "icon": "📏",
@@ -348,7 +328,12 @@
                         "name": "Bézier",
                         "desc": "Desenați curbe Bézier cu puncte de control"
                     }
-                ]
+                ],
+                "buttons": {
+                    "import": "Importă fișiere SVG existente în proiect",
+                    "export": "Exportă designul ca fișier SVG",
+                    "projectName": "Afișează numele proiectului și numărul de forme"
+                }
             },
             "canvas": {
                 "title": "Pânză Infinită",
@@ -471,7 +456,7 @@
                 "sections": {
                     "language": {
                         "title": "Setări Limbă",
-                        "desc": "Schimbați limba aplicației. Suportă implicit de sistem sau alegeți din 40+ limbi."
+                        "desc": "Folosește limba sistemului sau alege una dintre limbile acceptate de aplicație."
                     },
                     "subscription": {
                         "title": "Gestionare Abonament",
@@ -536,21 +521,6 @@
                 }
             }
         },
-        "industryKeywords": {
-            "title": "De ce să alegi JigsawDesigner?",
-            "laserCutting": {
-                "title": "SVG pentru tăiere laser",
-                "desc": "Generează căi SVG curate și precise, optimizate pentru mașinile Glowforge, Cricut și lasere CO2."
-            },
-            "dieline": {
-                "title": "Modele de ștanțare personalizate",
-                "desc": "Creează linii de ștanțare unice cu modele Voronoi care asigură că fiecare piesă este unică."
-            },
-            "manufacturing": {
-                "title": "Gata pentru producție",
-                "desc": "Exportă design-urile în formate vectoriale profesionale (SVG, PDF) gata pentru producție de masă sau tăiere manuală."
-            }
-        },
         "projectLibraryContent": {
             "title": "Biblioteca Proiectelor",
             "intro": "Biblioteca Proiectelor este centrul dvs. pentru gestionarea tuturor designurilor de puzzle. Acces din ecranul de bun venit sau Fișier → Biblioteca Proiectelor.",
@@ -584,7 +554,7 @@
                         },
                         "share": {
                             "title": "Creează link",
-                            "desc": "Generați un link iCloud. Trimiteți prietenilor și vor vedea proiectul dvs."
+                            "desc": "Generează un link iCloud care oferă destinatarilor acces doar pentru citire la proiectul selectat în Proiecte partajate."
                         },
                         "delete": {
                             "title": "Șterge",
@@ -609,15 +579,26 @@
             "sharedProjects": {
                 "title": "Proiecte Partajate",
                 "icon": "👥",
-                "desc": "Spațiu de colaborare pentru proiectele partajate cu dvs. de alți utilizatori.",
+                "desc": "Vezi proiectele pe care alți utilizatori le partajează cu tine prin iCloud.",
                 "features": [
                     "Primiți proiecte partajate de colegi sau prieteni",
-                    "Acces doar citire sau editare în funcție de permisiuni",
-                    "Sincronizare în timp real cu proprietarul proiectului",
+                    "Acces doar pentru citire la proiectele partajate",
+                    "Actualizările pot apărea după ce iCloud sincronizează modificările proprietarului",
                     "Acceptați partajări prin linkul de invitație"
                 ],
-                "howTo": "Când cineva partajează un proiect cu dvs., va apărea automat aici. Faceți clic pentru a deschide și colabora."
+                "howTo": "După acceptarea unui link valid, proiectul poate apărea în Proiecte partajate pentru vizualizare doar în citire."
             }
         }
+    },
+    "Common": {
+        "appName": "JigsawDesigner",
+        "appStoreAria": "Vezi JigsawDesigner în App Store"
+    },
+    "Consent": {
+        "title": "Analiză opțională",
+        "description": "Permite măsurarea opțională cu Google Analytics 4 pentru a ne ajuta să înțelegem utilizarea site-ului. Alegerea este salvată în localStorage al acestui browser, iar GA4 se încarcă numai după acceptare.",
+        "privacyLink": "Citește Politica de confidențialitate",
+        "reject": "Respinge analiza opțională",
+        "accept": "Acceptă analiza opțională"
     }
 }
