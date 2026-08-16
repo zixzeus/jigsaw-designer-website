@@ -272,6 +272,11 @@ function ArticleImage({image}: {image: ContentImage}) {
         sizes="(max-width: 1024px) calc(100vw - 3rem), 824px"
         className="h-auto w-full"
       />
+      {image.caption ? (
+        <figcaption className="border-t border-border px-5 py-3 text-sm leading-6 text-gray-600 dark:text-gray-300">
+          {image.caption}
+        </figcaption>
+      ) : null}
     </figure>
   );
 }

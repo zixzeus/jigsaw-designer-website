@@ -6,6 +6,7 @@ import {getTranslations, setRequestLocale} from "next-intl/server";
 
 import AppStoreCTA from "@/components/AppStoreCTA";
 import JsonLd from "@/components/JsonLd";
+import ProductGallery from "@/components/ProductGallery";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import VideoFacade from "@/components/VideoFacade";
@@ -322,24 +323,7 @@ function TierOneHomeSections({
             <h2 className="text-3xl font-bold tracking-tight md:text-4xl">{content.gallery.title}</h2>
             <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">{content.gallery.intro}</p>
           </div>
-          <div className="mt-10 grid items-start gap-6 md:grid-cols-[minmax(0,0.7fr)_minmax(0,1fr)]">
-            {content.gallery.items.slice(1, 3).map((item) => {
-              const dimensions = getMediaDimensions(item.src);
-              return (
-                <figure key={item.src} className="overflow-hidden rounded-[1.5rem] border border-border bg-background">
-                  <Image
-                    src={item.src}
-                    alt={item.alt}
-                    width={dimensions.width}
-                    height={dimensions.height}
-                    sizes="(max-width: 768px) calc(100vw - 2.5rem), 50vw"
-                    className="h-auto w-full"
-                  />
-                  <figcaption className="border-t border-border px-5 py-4 text-sm font-medium">{item.caption}</figcaption>
-                </figure>
-              );
-            })}
-          </div>
+          <ProductGallery items={content.gallery.items.slice(1)} />
         </div>
       </section>
 

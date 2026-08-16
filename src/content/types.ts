@@ -11,6 +11,7 @@ export function isTierOneLocale(locale: string): locale is TierOneLocale {
 export type ContentImage = {
   src: string;
   alt: string;
+  caption?: string;
   width?: number;
   height?: number;
 };
