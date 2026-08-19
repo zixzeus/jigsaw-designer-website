@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Característiques",
+        "product": "Producte",
+        "showcase": "Exemples",
+        "learn": "Aprèn",
         "download": "Descarregar",
         "home": "Inici",
         "support": "Suport",
@@ -12,26 +15,26 @@
     },
     "Hero": {
         "version": "{version} Llançat - Prova-ho ara!",
-    "titlePart1": "Converteix qualsevol forma en",
-    "titleProfessional": "línies de tall de trencaclosques editables",
-    "subtitle": "Dibuixa o importa un contorn, genera el patró, ajusta els vectors i exporta SVG a l'iPhone, l'iPad o el Mac.",
-    "learnMore": "Consulta com funciona"
+        "titlePart1": "Converteix un contorn tancat en",
+        "titleProfessional": "línies de tall de trencaclosques editables",
+        "subtitle": "Dibuixa o importa un contorn, genera el patró, ajusta els vectors i exporta SVG a l'iPhone, l'iPad o el Mac.",
+        "learnMore": "Consulta com funciona"
     },
     "Features": {
-    "title": "Què pots fer",
-    "subtitle": "Un flux de treball centrat en la generació de línies de tall per a trencaclosques i l'edició SVG.",
+        "title": "Què pots fer",
+        "subtitle": "Un flux de treball centrat en la generació de línies de tall per a trencaclosques i l'edició SVG.",
         "list": {
             "customization": {
-        "title": "Prepara el contorn i el perfil de la ranura",
-        "description": "Dibuixa o importa un contorn SVG tancat i, després, tria una plantilla de ranura de traçat obert, integrada o personalitzada."
+                "title": "Prepara el contorn i el perfil de la ranura",
+                "description": "Dibuixa o importa un contorn SVG tancat i, després, tria una plantilla de ranura de traçat obert, integrada o personalitzada."
             },
             "workflow": {
-        "title": "Genera línies de tall editables",
-        "description": "Defineix els valors de la quadrícula, el nombre de peces i l'espaiat; després, genera el resultat com un grup SVG editable."
+                "title": "Genera línies de tall editables",
+                "description": "Defineix els valors de la quadrícula, el nombre de peces i l'espaiat; després, genera el resultat com un grup SVG editable."
             },
             "anywhere": {
-        "title": "Continua als dispositius Apple",
-        "description": "Treballa a l'iPhone, l'iPad o el Mac, amb sincronització opcional via iCloud quan estigui activada i disponible."
+                "title": "Continua als dispositius Apple",
+                "description": "Treballa a l'iPhone, l'iPad o el Mac, amb sincronització opcional via iCloud quan estigui activada i disponible."
             }
         }
     },
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Com et podem",
             "titlePart2": "ajudar?",
-            "subtitle": "Som aquí per donar suport al teu viatge creatiu. Troba respostes o contacta amb el nostre equip."
+            "subtitle": "Troba respostes a les guies següents o contacta amb nosaltres per un problema concret."
         },
         "documentation": {
             "title": "Documentació",
-            "description": "Explora les nostres guies completes per dominar les característiques i eines de JigsawDesigner.",
+            "description": "Consulta les guies de l'editor, la biblioteca de projectes, la generació i la importació o exportació de fitxers SVG.",
             "action": "Navegar per Articles"
         },
         "email": {
             "title": "Suport per Correu Electrònic",
-            "description": "Necessites ajuda amb un problema específic? El nostre equip de suport està preparat per ajudar-te directament."
+            "description": "Contacta amb nosaltres si les guies no resolen el problema."
         },
         "faq": {
             "title": "Preguntes Freqüents",
@@ -97,14 +100,14 @@
                 "answer": "Els subscriptors Premium poden exportar fitxers SVG. L’ús comercial també depèn dels drets sobre les imatges, tipografies, plantilles i altres continguts inclosos al disseny."
             },
             "q3": {
-                "question": "Admet línies de tall personalitzades?",
-                "answer": "Sí, pots importar camins SVG personalitzats per utilitzar-los com a línies de tall, o utilitzar els nostres algoritmes avançats per generar automàticament patrons únics."
+                "question": "Puc utilitzar un perfil de ranura personalitzat?",
+                "answer": "Sí. Dibuixa o importa un camí SVG obert com a perfil de ranura i revisa les línies de tall generades abans d'exportar."
             }
         }
     },
     "Help": {
-    "title": "Ajuda de JigsawDesigner",
-    "subtitle": "Guies específiques per generar línies de tall de trencaclosques, editar geometria SVG, gestionar plantilles i organitzar projectes.",
+        "title": "Ajuda de JigsawDesigner",
+        "subtitle": "Guies específiques per generar línies de tall de trencaclosques, editar geometria SVG, gestionar plantilles i organitzar projectes.",
         "toc": "Taula de Continguts",
         "sections": {
             "gettingStarted": "Començar",
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Tria una Eina",
-                    "desc": "Selecciona entre les 8 eines de dibuix a la barra d'eines."
+                    "desc": "Utilitza les vuit eines de selecció, edició i dibuix de la barra d'eines."
                 },
                 "3": {
                     "title": "Dibuixa el Teu Disseny",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Generar Puzzle",
-                    "desc": "Fes clic a 'Generar Puzzle' per crear peces que s'entrellacin."
+                    "desc": "Fes clic a «Generar trencaclosques» per crear línies de tall editables dins del contorn."
                 },
                 "5": {
                     "title": "Exportar",
-                    "desc": "Desa el teu puzzle com a SVG per a la fabricació o impressió."
+                    "desc": "Exporta un SVG i comprova'n l'escala, els camins, els grups i les transformacions al programa que utilitzaràs després."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Importar contorn límit",
-                    "desc": "Fes clic a \"Importar SVG\" o dibuixa una forma per definir el límit exterior i les peces especials (\"whimsy\")."
+                    "desc": "Importa un únic contorn exterior tancat i vàlid des d'un SVG, o dibuixa'l a l'editor."
                 },
                 "2": {
                     "title": "Seleccionar plantilla d'encaix",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "Exportar SVG",
-                "desc": "Exporta els teus dissenys i puzzles generats com a fitxers SVG estàndard.",
+                "desc": "El format d'exportació actual és SVG; conserva el paquet .jigsawproject com a fitxer de projecte editable.",
                 "shortcut": "Drecera:",
                 "items": [
-                    "Format SVG 1.1 estàndard",
-                    "Manté totes les transformacions",
-                    "Manté les jerarquies de grups"
+                    "Format d'exportació actual: SVG",
+                    "Conserva el paquet .jigsawproject per continuar editant",
+                    "Comprova l'escala, els grups i les transformacions al programa de destinació"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "Necessites Més Ajuda?",
-            "desc": "Visita la nostra pàgina de suport o contacta amb nosaltres directament per a assistència personal"
+            "desc": "Visita la pàgina de suport per consultar respostes habituals o envia'ns els passos i fitxers necessaris per reproduir el problema."
         },
         "metaTitle": "Centre d'ajuda i guia de generació de trencaclosques",
         "metaDescription": "Aprèn a generar línies de tall de trencaclosques, editar formes vectorials, gestionar projectes i exportar fitxers SVG amb JigsawDesigner.",
         "interfaceContent": {
             "title": "Interfície d'editor i tall",
-            "intro": "L'editor de JigsawDesigner ofereix un espai de treball vectorial professional per dissenyar línies de tall i troquels de precisió.",
+            "intro": "Utilitza l'editor per dibuixar o importar un contorn, editar elements SVG, generar línies de tall de trencaclosques i preparar un SVG per utilitzar-lo en altres programes.",
             "toolbar": {
                 "title": "Barra d'Eines Superior",
                 "desc": "Accés ràpid a totes les eines de dibuix i operacions amb fitxers.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Llenç Infinit",
+                "title": "Llenç del projecte",
                 "desc": "L'àrea de treball principal per crear els vostres dissenys de trencaclosques.",
                 "features": [
-                    "Desplaçament infinit - el llenç s'estén en totes direccions",
+                    "Amplada i alçada definides a la configuració del projecte",
                     "Visualització de regles amb mesures en píxels",
                     "Quadrícula per a alineació precisa",
                     "Ampliació/reducció amb la roda del ratolí o gestos de pessic",
                     "Panoràmica arrossegant amb la barra espaiadora premuda o amb dos dits",
                     "El quadre de selecció apareix quan es selecciona un element"
                 ],
-                "tip": "Utilitzeu ⌘0 per restablir el zoom al 100%, o ⌘1 per ajustar el llenç a la finestra."
+                "tip": "Utilitza el desplaçament o el gest de pessic per fer zoom. Desplaça el llenç arrossegant amb dos dits o mantenint premuda la barra espaiadora mentre arrossegues."
             },
             "toolsPanel": {
                 "title": "Panell d'Eines",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Panell de Capes",
-                "desc": "Gestioneu la jerarquia del vostre disseny.",
+                "desc": "Utilitza el panell Capes per veure i gestionar grups i formes dins de la jerarquia SVG.",
                 "features": [
                     "Visualitzeu grups i formes en estructura d'arbre",
                     "Expandiu grups per veure elements",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Inspector de Projecte",
-                "desc": "L'inspector de la dreta proporciona totes les opcions de configuració del projecte.",
+                "desc": "L'inspector de la dreta mostra la configuració del projecte o de la selecció segons el context.",
                 "sections": {
                     "projectInfo": {
                         "title": "Info del Projecte",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Configuració Avançada",
-                "desc": "Accediu a la configuració completa de l'aplicació mitjançant el diàleg Configuració Avançada.",
+                "desc": "Utilitza Configuració avançada per ajustar l'idioma, la subscripció i les opcions de visualització de l'editor.",
                 "sections": {
                     "language": {
                         "title": "Configuració d'Idioma",
@@ -527,9 +530,9 @@
             "myProjects": {
                 "title": "Els Meus Projectes",
                 "icon": "📁",
-                "desc": "El vostre espai de treball personal per a tots els dissenys de trencaclosques, emmagatzemats de manera segura a iCloud.",
+                "desc": "La secció Els meus projectes desa paquets de projecte localment i els pot sincronitzar mitjançant iCloud/CloudKit quan la sincronització al núvol està activada i disponible.",
                 "features": [
-                    "Sincronització automàtica d'iCloud entre Mac, iPad i iPhone",
+                    "Paquets de projecte locals, amb sincronització opcional mitjançant iCloud/CloudKit quan està activada i disponible",
                     "Creeu projectes nous amb el botó +",
                     "Previsualitzacions de miniatures amb el nom del projecte i la data",
                     "Suprimiu projectes amb el botó vermell de la paperera",
@@ -550,7 +553,7 @@
                         },
                         "publish": {
                             "title": "Publicar",
-                            "desc": "Compartir el disseny amb tots els usuaris de JigsawDesigner"
+                            "desc": "Publica el projecte seleccionat a la biblioteca de Projectes públics perquè altres persones en puguin importar una còpia."
                         },
                         "share": {
                             "title": "Crear enllaç",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Projectes Públics",
                 "icon": "🌐",
-                "desc": "Plantilles de la comunitat disponibles per a tots els usuaris. Navegueu, previsualitzeu i importeu dissenys de la biblioteca pública.",
+                "desc": "Explora els projectes publicats a la biblioteca de Projectes públics, previsualitza'ls i importa'n una còpia a Els meus projectes.",
                 "features": [
-                    "Navegueu per les plantilles creades per l'equip de JigsawDesigner",
+                    "Explora els projectes disponibles a la biblioteca de Projectes públics",
                     "Visualitzeu el nombre de peces abans d'importar",
                     "Feu clic a \"Obrir\" per previsualitzar",
                     "Feu clic a \"Importar\" per copiar als Meus Projectes",
-                    "Fantàstic per aprendre i inspirar-se"
+                    "Utilitza els projectes publicats com a referència per aprendre"
                 ],
-                "howTo": "Seleccioneu un projecte públic i feu clic a \"Importar\" per afegir una còpia a la vostra biblioteca."
+                "howTo": "Selecciona un projecte públic i fes clic a «Importar» per afegir-ne una còpia a Els meus projectes. El projecte d'origen no canvia."
             },
             "sharedProjects": {
                 "title": "Projectes Compartits",

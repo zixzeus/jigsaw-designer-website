@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Funksjoner",
+        "product": "Produkt",
+        "showcase": "Eksempler",
+        "learn": "Lær",
         "download": "Last ned",
         "home": "Hjem",
         "support": "Støtte",
@@ -12,7 +15,7 @@
     },
     "Hero": {
         "version": "{version} Utgitt - Prøv det nå!",
-        "titlePart1": "Gjør enhver form om til",
+        "titlePart1": "Gjør en lukket kontur om til",
         "titleProfessional": "redigerbare skjærelinjer til puslespill",
         "subtitle": "Tegn eller importer et omriss, generer mønsteret, juster vektorene og eksporter SVG på iPhone, iPad eller Mac.",
         "learnMore": "Se hvordan det fungerer"
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Hvordan kan vi",
             "titlePart2": "hjelpe deg?",
-            "subtitle": "Vi er her for å støtte din kreative reise. Finn svar eller kontakt teamet vårt."
+            "subtitle": "Finn svar i Hjelp, løs vanlige problemer eller kontakt kundestøtte."
         },
         "documentation": {
             "title": "Dokumentasjon",
-            "description": "Utforsk våre omfattende guider for å mestre JigsawDesigners funksjoner og verktøy.",
+            "description": "Åpne oppgavebaserte veiledninger for generering, redigering, maler, prosjekter og SVG-eksport.",
             "action": "Bla gjennom artikler"
         },
         "email": {
             "title": "E-poststøtte",
-            "description": "Trenger du hjelp med et spesifikt problem? Vårt supportteam er klart til å hjelpe deg direkte."
+            "description": "Hvis du trenger hjelp med et bestemt problem, kan du sende oss en e-post med plattform, appversjon og tydelige trinn for å gjenskape problemet."
         },
         "faq": {
             "title": "Ofte stilte spørsmål",
@@ -97,8 +100,8 @@
                 "answer": "Premium-abonnenter kan eksportere SVG-filer. Kommersiell bruk avhenger også av rettighetene til bilder, skrifter, maler og annet innhold i designet."
             },
             "q3": {
-                "question": "Støtter det tilpassede skjærelinjer?",
-                "answer": "Ja, du kan importere tilpassede SVG-baner for bruk som skjærelinjer, eller bruke våre avanserte algoritmer for å generere unike mønstre automatisk."
+                "question": "Kan jeg bruke en egendefinert forbindelsesprofil?",
+                "answer": "Ja. Tegn en åpen forbindelsesprofil i malredigeringen eller importer en egnet SVG-bane. Generer og kontroller deretter skjærelinjene."
             }
         }
     },
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Velg et Verktøy",
-                    "desc": "Velg mellom 8 tegneverktøy i verktøylinjen."
+                    "desc": "Velg mellom åtte verktøy for markering, redigering og tegning."
                 },
                 "3": {
                     "title": "Tegn Designet Ditt",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Generer Puslespill",
-                    "desc": "Klikk på 'Generer Puslespill' for å lage sammenlåsende brikker."
+                    "desc": "Generer redigerbare skjærelinjer for puslespill fra den valgte grensen og forbindelsesprofilen."
                 },
                 "5": {
                     "title": "Eksport",
-                    "desc": "Lagre puslespillet ditt som SVG for produksjon eller utskrift."
+                    "desc": "Lagre det redigerbare prosjektet, eksporter SVG og kontroller filen i appen som brukes videre i arbeidsflyten."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Importer grensekontur",
-                    "desc": "Klikk på \"Importer SVG\" eller tegn en vektorform for å definere den ytre grensen og \"whimsy\"-brikkene."
+                    "desc": "Importer eller tegn én gyldig, lukket ytre grense, og behold bare synlig, ulåst geometri som skal brukes i genereringen."
                 },
                 "2": {
                     "title": "Velg spor-mal",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "Eksporter SVG",
-                "desc": "Eksporter designene og de genererte puslespillene dine som standard SVG-filer.",
+                "desc": "Eksporter gjeldende dokument og genererte skjærelinjer som SVG.",
                 "shortcut": "Snarvei:",
                 "items": [
-                    "Standard SVG 1.1-format",
-                    "Beholder alle transformasjoner",
-                    "Beholder gruppehierarkier"
+                    "SVG er gjeldende eksportformat",
+                    "Behold .jigsawproject-kilden for endringer",
+                    "Kontroller skala, grupper og transformasjoner i mottakerappen"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "Trenger du Mer Hjelp?",
-            "desc": "Besøk støttesiden vår eller kontakt oss direkte for personlig assistanse"
+            "desc": "Åpne Kundestøtte eller send oss en e-post hvis veiledningene ikke løser problemet."
         },
         "metaTitle": "Hjelpesenter og guide for puslespillgenerering",
         "metaDescription": "Lær å generere skjærelinjer for puslespill, redigere vektorformer, administrere prosjekter og eksportere SVG-filer med JigsawDesigner.",
         "interfaceContent": {
             "title": "Editor og skjærelinjegrensesnitt",
-            "intro": "JigsawDesigner-editoren gir et profesjonelt vektorarbeidsområde for utforming av presise skjærelinjer og stansemaler.",
+            "intro": "Redigereren samler tegneverktøy, Lag, malkontroller, genereringsinnstillinger og import og eksport av SVG i ett arbeidsområde.",
             "toolbar": {
                 "title": "Øverste Verktøylinje",
                 "desc": "Rask tilgang til alle tegneverktøy og filoperasjoner.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Uendelig Lerret",
+                "title": "Panorer og zoom på lerretet",
                 "desc": "Hovedarbeidsområdet for dine design.",
                 "features": [
-                    "Uendelig rulling i alle retninger",
+                    "Panorer rundt et lerret med definerte prosjektmål",
                     "Linjal med pikselmålinger",
                     "Rutenett for presis justering",
                     "Zoom med rullehjul eller klypegest",
                     "Panorer med mellomromstast eller to fingre",
                     "Valgboks synlig ved valg"
                 ],
-                "tip": "Bruk ⌘0 for å nullstille zoom, ⌘1 for å tilpasse til vindu."
+                "tip": "Bruk Tilpass til vindu eller zoomkontrollene for å få lerretet i bildet."
             },
             "toolsPanel": {
                 "title": "Verktøypanel",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Lagpanel",
-                "desc": "Administrer designhierarkiet.",
+                "desc": "Bruk Lag til å kontrollere grupper og figurer, utvide nestede elementer og styre synlighet eller låsing.",
                 "features": [
                     "Se grupper og former i trestruktur",
                     "Utvid grupper for å se elementer",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Prosjektinspektør",
-                "desc": "Inspektøren til høyre gir alle prosjektkonfigurasjonsalternativer.",
+                "desc": "Bruk inspektøren til å redigere prosjektinnstillinger og informasjon om det gjeldende utvalget.",
                 "sections": {
                     "projectInfo": {
                         "title": "Prosjektinfo",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Avanserte Innstillinger",
-                "desc": "Få tilgang til omfattende programinnstillinger via dialogboksen Avanserte Innstillinger.",
+                "desc": "Åpne Avanserte innstillinger for språk, abonnement, rutenett, linjaler, festing og linjealternativer.",
                 "sections": {
                     "language": {
                         "title": "Språkinnstillinger",
@@ -527,9 +530,9 @@
             "myProjects": {
                 "title": "Mine Prosjekter",
                 "icon": "📁",
-                "desc": "Ditt personlige arbeidsområde for alle puslespilldesign, trygt lagret i iCloud.",
+                "desc": "Opprett og åpne lokale prosjektpakker på nytt. Valgfri iCloud/CloudKit-synkronisering brukes når den er aktivert og tilgjengelig.",
                 "features": [
-                    "Automatisk iCloud-synkronisering på tvers av Mac, iPad og iPhone",
+                    "Valgfri iCloud/CloudKit-synkronisering når aktivert og tilgjengelig",
                     "Opprett nye prosjekter med +-knappen",
                     "Miniatyrforhåndsvisninger med prosjektnavn og dato",
                     "Slett prosjekter med den røde søppelbøtteknappen",
@@ -550,7 +553,7 @@
                         },
                         "publish": {
                             "title": "Publiser",
-                            "desc": "Del designet med alle JigsawDesigner-brukere"
+                            "desc": "Publiser et valgt prosjekt i Offentlige prosjekter, slik at andre kan se det og importere en kopi."
                         },
                         "share": {
                             "title": "Opprett lenke",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Offentlige Prosjekter",
                 "icon": "🌐",
-                "desc": "Fellesskapsmaler tilgjengelig for alle brukere. Bla gjennom, forhåndsvis og importer design fra det offentlige biblioteket.",
+                "desc": "Bla gjennom og forhåndsvis offentlige prosjekter, og importer en kopi til Mine prosjekter.",
                 "features": [
-                    "Bla gjennom maler opprettet av JigsawDesigner-teamet",
+                    "Bla gjennom tilgjengelige offentlige prosjekter",
                     "Se antall brikker før import",
                     "Klikk \"Åpne\" for å forhåndsvise",
                     "Klikk \"Importer\" for å kopiere til Mine Prosjekter",
-                    "Flott for læring og inspirasjon"
+                    "Kontroller et prosjekt før import"
                 ],
-                "howTo": "Velg et offentlig prosjekt og klikk \"Importer\" for å legge til en kopi i biblioteket ditt."
+                "howTo": "Velg et offentlig prosjekt og trykk på Importer for å legge til en kopi i Mine prosjekter. Kontroller innholdet og gjeldende rettigheter før gjenbruk."
             },
             "sharedProjects": {
                 "title": "Delte Prosjekter",

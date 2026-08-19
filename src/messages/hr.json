@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Značajke",
+        "product": "Proizvod",
+        "showcase": "Primjeri",
+        "learn": "Naučite",
         "download": "Preuzmi",
         "home": "Početna",
         "support": "Podrška",
@@ -12,7 +15,7 @@
     },
     "Hero": {
         "version": "{version} Objavljeno - Isprobajte sada!",
-        "titlePart1": "Pretvorite bilo koji oblik u",
+        "titlePart1": "Pretvorite zatvorenu konturu u",
         "titleProfessional": "rezne linije slagalice koje možete uređivati",
         "subtitle": "Nacrtajte ili uvezite obris, generirajte uzorak, uredite vektore i izvezite SVG na iPhoneu, iPadu ili Macu.",
         "learnMore": "Pogledajte kako radi"
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Kako vam možemo",
             "titlePart2": "pomoći?",
-            "subtitle": "Ovdje smo da podržimo vaše kreativno putovanje. Pronađite odgovore ili kontaktirajte naš tim."
+            "subtitle": "Pronađite odgovore u vodičima u nastavku ili nam se javite zbog određenog problema."
         },
         "documentation": {
             "title": "Dokumentacija",
-            "description": "Istražite naše sveobuhvatne vodiče za svladavanje značajki i alata JigsawDesignera.",
+            "description": "Pročitajte vodiče za uređivač, knjižnicu projekata, generiranje te uvoz ili izvoz SVG-a.",
             "action": "Pregledaj Članke"
         },
         "email": {
             "title": "Podrška E-poštom",
-            "description": "Trebate pomoć s određenim problemom? Naš tim za podršku spreman vam je izravno pomoći."
+            "description": "Javite nam se ako vodiči ne riješe vaš problem."
         },
         "faq": {
             "title": "Često Postavljana Pitanja",
@@ -97,8 +100,8 @@
                 "answer": "Premium pretplatnici mogu izvoziti SVG datoteke. Komercijalna uporaba ovisi i o pravima na slike, fontove, predloške i drugi sadržaj u dizajnu."
             },
             "q3": {
-                "question": "Podržava li prilagođene linije rezanja?",
-                "answer": "Da, možete uvesti prilagođene SVG putanje koje ćete koristiti kao linije rezanja ili koristiti naše napredne algoritme za automatsko generiranje jedinstvenih uzoraka."
+                "question": "Mogu li koristiti prilagođeni profil spoja?",
+                "answer": "Da. Nacrtajte ili uvezite otvorenu SVG putanju kao profil spoja, a zatim prije izvoza pregledajte generirane linije rezanja."
             }
         }
     },
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Odaberite Alat",
-                    "desc": "Odaberite između 8 alata za crtanje na alatnoj traci."
+                    "desc": "Upotrijebite osam alata za odabir, uređivanje i crtanje na alatnoj traci."
                 },
                 "3": {
                     "title": "Nacrtajte Svoj Dizajn",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Generiraj Slagalicu",
-                    "desc": "Kliknite 'Generiraj Slagalicu' za stvaranje dijelova koji se međusobno povezuju."
+                    "desc": "Kliknite „Generiraj slagalicu” da biste unutar konture stvorili linije rezanja koje se mogu uređivati."
                 },
                 "5": {
                     "title": "Izvoz",
-                    "desc": "Spremite svoju slagalicu kao SVG za proizvodnju ili ispis."
+                    "desc": "Izvezite SVG pa u programu koji ćete zatim koristiti provjerite mjerilo, putanje, grupe i transformacije."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Uvoz konture granice",
-                    "desc": "Kliknite na \"Uvoz SVG\" ili nacrtajte vektorski oblik za definiranje vanjske granice i posebnih dijelova."
+                    "desc": "Uvezite iz SVG-a jednu valjanu zatvorenu vanjsku granicu ili je nacrtajte u uređivaču."
                 },
                 "2": {
                     "title": "Odabir predloška utora",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "Izvoz SVG",
-                "desc": "Izvezite svoje dizajne i generirane slagalice kao standardne SVG datoteke.",
+                "desc": "Trenutačni format izvoza je SVG; sačuvajte paket .jigsawproject kao projektnu datoteku koja se može uređivati.",
                 "shortcut": "Prečac:",
                 "items": [
-                    "Standardni SVG 1.1 format",
-                    "Zadržava sve transformacije",
-                    "Zadržava hijerarhije grupa"
+                    "Trenutačni format izvoza: SVG",
+                    "Sačuvajte paket .jigsawproject za daljnje uređivanje",
+                    "Provjerite mjerilo, grupe i transformacije u sljedećem programu"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "Trebate Više Pomoći?",
-            "desc": "Posjetite našu stranicu za podršku ili nas kontaktirajte izravno za osobnu pomoć"
+            "desc": "Na stranici podrške pronađite česte odgovore ili nam pošaljite korake i datoteke potrebne za ponavljanje problema."
         },
         "metaTitle": "Centar za pomoć i vodič za izradu puzzli",
         "metaDescription": "Saznajte kako u JigsawDesigneru generirati linije rezanja slagalica, uređivati vektorske oblike, upravljati projektima i izvoziti SVG datoteke.",
         "interfaceContent": {
             "title": "Sučelje editora i linija rezanja",
-            "intro": "JigsawDesigner editor pruža profesionalno vektorsko radno okruženje za dizajniranje preciznih linija rezanja i kalupa.",
+            "intro": "U uređivaču nacrtajte ili uvezite konturu, uređujte SVG elemente, generirajte linije rezanja slagalice i pripremite SVG za uporabu u drugom programu.",
             "toolbar": {
                 "title": "Gornja Alatna Traka",
                 "desc": "Brzi pristup svim alatima za crtanje i operacijama s datotekama.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Beskonačno Platno",
+                "title": "Platno projekta",
                 "desc": "Glavni radni prostor za izradu vaših dizajna slagalica.",
                 "features": [
-                    "Beskonačno pomicanje - platno se širi u svim smjerovima",
+                    "Širina i visina platna određene u postavkama projekta",
                     "Prikaz ravnala s mjerenjima u pikselima",
                     "Mreža za precizno poravnanje",
                     "Zumiranje kotačićem miša ili gestama",
                     "Pomicanje povlačenjem s pritisnutom tipkom space ili s dva prsta",
                     "Okvir za odabir pojavljuje se kada je element odabran"
                 ],
-                "tip": "Koristite ⌘0 za resetiranje zuma na 100%, ili ⌘1 za prilagodbu platna prozoru."
+                "tip": "Zumirajte pomicanjem ili gestom štipanja. Platno pomičite povlačenjem dvama prstima ili držanjem razmaknice tijekom povlačenja."
             },
             "toolsPanel": {
                 "title": "Panel Alata",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Panel Slojeva",
-                "desc": "Upravljajte hijerarhijom vašeg dizajna.",
+                "desc": "Na ploči Slojevi pregledavajte grupe i oblike u SVG hijerarhiji te upravljajte njima.",
                 "features": [
                     "Pregledajte grupe i oblike u strukturi stabla",
                     "Proširite grupe za prikaz stavki",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Inspektor Projekta",
-                "desc": "Inspektor s desne strane pruža sve opcije konfiguracije projekta.",
+                "desc": "Inspektor s desne strane prikazuje postavke projekta ili odabira ovisno o trenutačnom kontekstu.",
                 "sections": {
                     "projectInfo": {
                         "title": "Info o Projektu",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Napredne Postavke",
-                "desc": "Pristupite sveobuhvatnim postavkama aplikacije putem dijaloga Napredne Postavke.",
+                "desc": "U Naprednim postavkama prilagodite jezik, pretplatu i mogućnosti prikaza uređivača.",
                 "sections": {
                     "language": {
                         "title": "Postavke Jezika",
@@ -527,9 +530,9 @@
             "myProjects": {
                 "title": "Moji Projekti",
                 "icon": "📁",
-                "desc": "Vaš osobni radni prostor za sve dizajne slagalica, sigurno pohranjene u iCloud.",
+                "desc": "Moji projekti pohranjuju pakete projekata lokalno i mogu ih sinkronizirati putem iCloud/CloudKita kada je sinkronizacija u oblaku uključena i dostupna.",
                 "features": [
-                    "Automatska iCloud sinkronizacija između Mac, iPad i iPhone uređaja",
+                    "Lokalni paketi projekata s neobaveznom iCloud/CloudKit sinkronizacijom kada je uključena i dostupna",
                     "Kreirajte nove projekte gumbom +",
                     "Pregledi minijatura s nazivom projekta i datumom",
                     "Obrišite projekte crvenim gumbom kante za smeće",
@@ -550,7 +553,7 @@
                         },
                         "publish": {
                             "title": "Objavi",
-                            "desc": "Podijelite dizajn sa svim korisnicima JigsawDesignera"
+                            "desc": "Objavite odabrani projekt u knjižnici Javni projekti kako bi drugi mogli uvesti njegovu kopiju."
                         },
                         "share": {
                             "title": "Stvori poveznicu",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Javni Projekti",
                 "icon": "🌐",
-                "desc": "Predlošci zajednice dostupni svim korisnicima. Pregledajte, pregledajte i uvezite dizajne iz javne knjižnice.",
+                "desc": "Pregledajte projekte objavljene u knjižnici Javni projekti, otvorite njihov pretpregled i uvezite kopiju u Moje projekte.",
                 "features": [
-                    "Pregledajte predloške koje je stvorio tim JigsawDesigner",
+                    "Pregledajte projekte dostupne u knjižnici Javni projekti",
                     "Pogledajte broj komada prije uvoza",
                     "Kliknite \"Otvori\" za pregled",
                     "Kliknite \"Uvezi\" za kopiranje u Moje Projekte",
-                    "Odlično za učenje i inspiraciju"
+                    "Koristite objavljene projekte kao reference za učenje"
                 ],
-                "howTo": "Odaberite javni projekt i kliknite \"Uvezi\" za dodavanje kopije u vašu knjižnicu."
+                "howTo": "Odaberite javni projekt i kliknite „Uvezi” kako biste dodali kopiju u Moje projekte. Izvorni projekt ostaje nepromijenjen."
             },
             "sharedProjects": {
                 "title": "Dijeljeni Projekti",

@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Funkce",
+        "product": "Produkt",
+        "showcase": "Ukázky",
+        "learn": "Naučit se",
         "download": "Stáhnout",
         "home": "Domů",
         "support": "Podpora",
@@ -12,26 +15,26 @@
     },
     "Hero": {
         "version": "{version} Vydáno - Vyzkoušejte nyní!",
-    "titlePart1": "Převeďte libovolný tvar na",
-    "titleProfessional": "upravitelné řezné linie skládačky",
-    "subtitle": "Nakreslete nebo importujte obrys, vygenerujte vzor, upravte vektory a exportujte SVG na iPhonu, iPadu nebo Macu.",
-    "learnMore": "Podívejte se, jak to funguje"
+        "titlePart1": "Převeďte uzavřený obrys na",
+        "titleProfessional": "upravitelné řezné linie skládačky",
+        "subtitle": "Nakreslete nebo importujte obrys, vygenerujte vzor, upravte vektory a exportujte SVG na iPhonu, iPadu nebo Macu.",
+        "learnMore": "Podívejte se, jak to funguje"
     },
     "Features": {
-    "title": "Co můžete dělat",
-    "subtitle": "Cílený pracovní postup pro generování řezných linií skládaček a úpravy SVG.",
+        "title": "Co můžete dělat",
+        "subtitle": "Cílený pracovní postup pro generování řezných linií skládaček a úpravy SVG.",
         "list": {
             "customization": {
-        "title": "Připravte obrys a profil spoje",
-        "description": "Nakreslete nebo importujte uzavřený obrys SVG a poté zvolte vestavěnou nebo vlastní šablonu spoje s otevřenou cestou."
+                "title": "Připravte obrys a profil spoje",
+                "description": "Nakreslete nebo importujte uzavřený obrys SVG a poté zvolte vestavěnou nebo vlastní šablonu spoje s otevřenou cestou."
             },
             "workflow": {
-        "title": "Vygenerujte upravitelné řezné linie",
-        "description": "Nastavte mřížku, počet dílků a rozestupy a poté vygenerujte výsledek jako upravitelnou skupinu SVG."
+                "title": "Vygenerujte upravitelné řezné linie",
+                "description": "Nastavte mřížku, počet dílků a rozestupy a poté vygenerujte výsledek jako upravitelnou skupinu SVG."
             },
             "anywhere": {
-        "title": "Pokračujte na zařízeních Apple",
-        "description": "Pracujte na iPhonu, iPadu nebo Macu s volitelnou synchronizací přes iCloud, pokud je zapnutá a dostupná."
+                "title": "Pokračujte na zařízeních Apple",
+                "description": "Pracujte na iPhonu, iPadu nebo Macu s volitelnou synchronizací přes iCloud, pokud je zapnutá a dostupná."
             }
         }
     },
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Jak vám můžeme",
             "titlePart2": "pomoci?",
-            "subtitle": "Jsme tu, abychom podpořili vaši kreativní cestu. Najděte odpovědi nebo kontaktujte náš tým."
+            "subtitle": "Najděte odpovědi v níže uvedených průvodcích nebo nás kontaktujte s konkrétním problémem."
         },
         "documentation": {
             "title": "Dokumentace",
-            "description": "Prozkoumejte naše komplexní průvodce, abyste zvládli funkce a nástroje JigsawDesigner.",
+            "description": "Přečtěte si průvodce editorem, knihovnou projektů, generováním a importem či exportem SVG.",
             "action": "Procházet Články"
         },
         "email": {
             "title": "E-mailová Podpora",
-            "description": "Potřebujete pomoc s konkrétním problémem? Náš tým podpory je připraven vám přímo pomoci."
+            "description": "Kontaktujte nás, pokud průvodci váš problém nevyřeší."
         },
         "faq": {
             "title": "Často Kladené Otázky",
@@ -97,14 +100,14 @@
                 "answer": "Předplatitelé Premium mohou exportovat soubory SVG. Komerční použití závisí také na právech k obrázkům, písmům, šablonám a dalšímu obsahu návrhu."
             },
             "q3": {
-                "question": "Podporuje to vlastní výsekové linky?",
-                "answer": "Ano, můžete importovat vlastní SVG cesty pro použití jako výsekové linky, nebo použít naše pokročilé algoritmy k automatickému generování jedinečných vzorů."
+                "question": "Mohu použít vlastní profil zámku?",
+                "answer": "Ano. Nakreslete nebo importujte otevřenou cestu SVG jako profil zámku a před exportem zkontrolujte vygenerované linie řezu."
             }
         }
     },
     "Help": {
-    "title": "Nápověda k JigsawDesigneru",
-    "subtitle": "Praktické návody pro generování řezných linií skládaček, úpravy geometrie SVG, správu šablon a organizaci projektů.",
+        "title": "Nápověda k JigsawDesigneru",
+        "subtitle": "Praktické návody pro generování řezných linií skládaček, úpravy geometrie SVG, správu šablon a organizaci projektů.",
         "toc": "Obsah",
         "sections": {
             "gettingStarted": "Začínáme",
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Vyberte Nástroj",
-                    "desc": "Vyberte z 8 kreslicích nástrojů na panelu nástrojů."
+                    "desc": "Použijte osm nástrojů pro výběr, úpravy a kreslení na panelu nástrojů."
                 },
                 "3": {
                     "title": "Nakreslete Svůj Návrh",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Generovat Puzzle",
-                    "desc": "Klikněte na 'Generovat Puzzle' pro vytvoření do sebe zapadajících dílků."
+                    "desc": "Kliknutím na „Generovat puzzle“ vytvoříte uvnitř hranice upravitelné linie řezu."
                 },
                 "5": {
                     "title": "Export a Sdílení",
-                    "desc": "Uložte své puzzle jako SVG pro výrobu nebo tisk."
+                    "desc": "Exportujte SVG a poté v navazujícím programu zkontrolujte jeho měřítko, cesty, skupiny a transformace."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Importovat obrysovou hranici",
-                    "desc": "Klikněte na \"Importovat SVG\" nebo nakreslete vektorový tvar pro definování vnější hranice a speciálních dílků."
+                    "desc": "Importujte ze SVG jednu platnou uzavřenou vnější hranici nebo ji nakreslete v editoru."
                 },
                 "2": {
                     "title": "Vybrat šablonu zámků",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "Export",
-                "desc": "Exportujte své návrhy a vygenerované puzzle jako standardní SVG soubory.",
+                "desc": "Aktuálním exportním formátem je SVG; balíček .jigsawproject si ponechte jako upravitelný soubor projektu.",
                 "shortcut": "Zkratka:",
                 "items": [
-                    "Standardní formát SVG 1.1",
-                    "Zachovává všechny transformace",
-                    "Zachovává hierarchie skupin"
+                    "Aktuální exportní formát: SVG",
+                    "Balíček .jigsawproject si ponechte pro další úpravy",
+                    "V navazujícím programu zkontrolujte měřítko, skupiny a transformace"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "Potřebujete Více Pomoci?",
-            "desc": "Navštivte naši stránku podpory nebo nás kontaktujte přímo pro osobní asistenci"
+            "desc": "Na stránce podpory najdete běžné odpovědi; případně nám pošlete postup a soubory potřebné k reprodukci problému."
         },
         "metaTitle": "Centrum nápovědy a průvodce generováním puzzle",
         "metaDescription": "Zjistěte, jak v JigsawDesigner generovat řezné linie skládaček, upravovat vektorové tvary, spravovat projekty a exportovat soubory SVG.",
         "interfaceContent": {
             "title": "Rozhraní editoru a linií řezu",
-            "intro": "Editor JigsawDesigner poskytuje profesionální vektorové pracovní prostředí pro navrhování přesných linií řezu a výsekových forem.",
+            "intro": "V editoru můžete nakreslit nebo importovat hranici, upravovat prvky SVG, generovat linie řezu puzzle a připravit SVG pro použití v navazujícím programu.",
             "toolbar": {
                 "title": "Horní Panel Nástrojů",
                 "desc": "Rychlý přístup ke všem nástrojům kreslení a operacím se soubory.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Nekonečné Plátno",
+                "title": "Plátno projektu",
                 "desc": "Hlavní pracovní prostor pro vytváření návrhů puzzle.",
                 "features": [
-                    "Nekonečné scrollování - plátno se rozšiřuje ve všech směrech",
+                    "Šířka a výška plátna definované v nastavení projektu",
                     "Zobrazení pravítek s měřením v pixelech",
                     "Mřížka pro přesné zarovnání",
                     "Přiblížení/oddálení kolečkem myši nebo gesty",
                     "Posun tažením se stisknutou mezerníkem nebo dvěma prsty",
                     "Výběrový rámeček se zobrazí při výběru prvku"
                 ],
-                "tip": "Použijte ⌘0 pro reset zoomu na 100%, nebo ⌘1 pro přizpůsobení oknu."
+                "tip": "K přiblížení použijte kolečko nebo gesto sevření. Plátno posunete tažením dvěma prsty nebo tažením se stisknutým mezerníkem."
             },
             "toolsPanel": {
                 "title": "Panel Nástrojů",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Panel Vrstev",
-                "desc": "Spravujte hierarchii vašeho návrhu.",
+                "desc": "Pomocí panelu Vrstvy zobrazíte a spravujete skupiny a tvary v hierarchii SVG.",
                 "features": [
                     "Zobrazit skupiny a tvary ve stromové struktuře",
                     "Rozbalit skupiny pro zobrazení položek",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Inspektor Projektu",
-                "desc": "Inspektor vpravo poskytuje všechny možnosti konfigurace projektu.",
+                "desc": "Inspektor vpravo zobrazuje nastavení projektu nebo výběru podle aktuálního kontextu.",
                 "sections": {
                     "projectInfo": {
                         "title": "Info o Projektu",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Pokročilá Nastavení",
-                "desc": "Přístup ke komplexním nastavením aplikace prostřednictvím dialogu Pokročilá Nastavení.",
+                "desc": "V Pokročilých nastaveních můžete upravit jazyk, předplatné a možnosti zobrazení editoru.",
                 "sections": {
                     "language": {
                         "title": "Nastavení Jazyka",
@@ -527,9 +530,9 @@
             "myProjects": {
                 "title": "Moje Projekty",
                 "icon": "📁",
-                "desc": "Váš osobní pracovní prostor pro všechny návrhy puzzle, bezpečně uložené v iCloud.",
+                "desc": "Moje projekty ukládají balíčky projektů místně a mohou je synchronizovat přes iCloud/CloudKit, když je cloudová synchronizace zapnutá a dostupná.",
                 "features": [
-                    "Automatická synchronizace iCloud mezi Mac, iPad a iPhone",
+                    "Místní balíčky projektů s volitelnou synchronizací iCloud/CloudKit, když je zapnutá a dostupná",
                     "Vytvářejte nové projekty tlačítkem +",
                     "Náhledy miniatur s názvem projektu a datem",
                     "Smažte projekty červeným tlačítkem koše",
@@ -550,7 +553,7 @@
                         },
                         "publish": {
                             "title": "Publikovat",
-                            "desc": "Sdílet návrh se všemi uživateli JigsawDesigner"
+                            "desc": "Publikujte vybraný projekt do knihovny Veřejné projekty, aby si ostatní mohli importovat jeho kopii."
                         },
                         "share": {
                             "title": "Vytvořit odkaz",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Veřejné Projekty",
                 "icon": "🌐",
-                "desc": "Komunitní šablony dostupné všem uživatelům. Procházejte, prohlížejte a importujte návrhy z veřejné knihovny.",
+                "desc": "Procházejte projekty publikované v knihovně Veřejné projekty, zobrazte jejich náhled a importujte kopii do Moje projekty.",
                 "features": [
-                    "Procházejte šablony vytvořené týmem JigsawDesigner",
+                    "Procházejte projekty dostupné v knihovně Veřejné projekty",
                     "Zobrazte počet dílků před importem",
                     "Klikněte \"Otevřít\" pro náhled",
                     "Klikněte \"Importovat\" pro kopírování do Mých Projektů",
-                    "Skvělé pro učení a inspiraci"
+                    "Používejte publikované projekty jako podklady k učení"
                 ],
-                "howTo": "Vyberte veřejný projekt a klikněte \"Importovat\" pro přidání kopie do vaší knihovny."
+                "howTo": "Vyberte veřejný projekt a kliknutím na „Importovat“ přidejte jeho kopii do Moje projekty. Zdrojový projekt zůstane beze změny."
             },
             "sharedProjects": {
                 "title": "Sdílené Projekty",

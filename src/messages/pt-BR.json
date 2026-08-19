@@ -1,6 +1,9 @@
 {
   "Navigation": {
     "features": "Recursos",
+    "product": "Produto",
+    "showcase": "Projetos",
+    "learn": "Aprender",
     "download": "Baixar",
     "home": "Início",
     "support": "Suporte",
@@ -12,26 +15,26 @@
   },
   "Hero": {
     "version": "{version} lançado — experimente agora!",
-        "titlePart1": "Transforme qualquer forma em",
-        "titleProfessional": "linhas de corte editáveis para quebra-cabeças",
-        "subtitle": "Desenhe ou importe um contorno, gere o padrão, ajuste os vetores e exporte SVG no iPhone, iPad ou Mac.",
-        "learnMore": "Veja como funciona"
+    "titlePart1": "Transforme um contorno fechado em",
+    "titleProfessional": "linhas de corte editáveis para quebra-cabeças",
+    "subtitle": "Desenhe ou importe um contorno, gere o padrão, ajuste os vetores e exporte SVG no iPhone, iPad ou Mac.",
+    "learnMore": "Veja como funciona"
   },
   "Features": {
-        "title": "O que você pode fazer",
-        "subtitle": "Um fluxo de trabalho focado na geração de linhas de corte de quebra-cabeças e na edição de SVG.",
+    "title": "O que você pode fazer",
+    "subtitle": "Um fluxo de trabalho focado na geração de linhas de corte de quebra-cabeças e na edição de SVG.",
     "list": {
       "customization": {
-                "title": "Prepare o contorno e o perfil do encaixe",
-                "description": "Desenhe ou importe um contorno SVG fechado e escolha um modelo de encaixe de caminho aberto, integrado ou personalizado."
+        "title": "Prepare o contorno e o perfil do encaixe",
+        "description": "Desenhe ou importe um contorno SVG fechado e escolha um modelo de encaixe de caminho aberto, integrado ou personalizado."
       },
       "workflow": {
-                "title": "Gere linhas de corte editáveis",
-                "description": "Defina os valores de grade, número de peças e espaçamento e gere o resultado como um grupo SVG editável."
+        "title": "Gere linhas de corte editáveis",
+        "description": "Defina os valores de grade, número de peças e espaçamento e gere o resultado como um grupo SVG editável."
       },
       "anywhere": {
-                "title": "Continue nos dispositivos Apple",
-                "description": "Trabalhe no iPhone, iPad ou Mac, com sincronização opcional pelo iCloud quando estiver ativada e disponível."
+        "title": "Continue nos dispositivos Apple",
+        "description": "Trabalhe no iPhone, iPad ou Mac, com sincronização opcional pelo iCloud quando estiver ativada e disponível."
       }
     }
   },
@@ -75,16 +78,16 @@
     "hero": {
       "titlePart1": "Como podemos",
       "titlePart2": "ajudá-lo?",
-      "subtitle": "Estamos aqui para apoiar a sua jornada criativa. Encontre respostas ou entre em contacto com a nossa equipe."
+      "subtitle": "Encontre respostas na Ajuda, resolva problemas comuns ou entre em contato com o suporte."
     },
     "documentation": {
       "title": "Documentação",
-      "description": "Explore os nossos guias completos para dominar as funcionalidades e ferramentas do JigsawDesigner.",
+      "description": "Abra guias orientados a tarefas sobre geração, edição, modelos, projetos e exportação SVG.",
       "action": "Procurar Artigos"
     },
     "email": {
       "title": "Suporte por Email",
-      "description": "Precisa de ajuda com um problema específico? A nossa equipe de suporte está pronta para ajudar diretamente."
+      "description": "Para obter ajuda com um problema específico, envie um e-mail informando a plataforma, a versão do app e etapas claras para reproduzi-lo."
     },
     "faq": {
       "title": "Perguntas Frequentes",
@@ -97,14 +100,14 @@
         "answer": "Assinantes Premium podem exportar arquivos SVG. O uso comercial também depende dos direitos sobre imagens, fontes, modelos e outros conteúdos incluídos no design."
       },
       "q3": {
-        "question": "Suporta linhas de corte personalizadas?",
-        "answer": "Sim, pode importar caminhos SVG personalizados para usar como linhas de corte, ou utilizar os nossos algoritmos avançados para gerar padrões únicos automaticamente."
+        "question": "Posso usar um perfil de encaixe personalizado?",
+        "answer": "Sim. Desenhe um perfil de encaixe com caminho aberto no Editor de Modelos ou importe um caminho SVG adequado. Depois, gere e confira as linhas de corte resultantes."
       }
     }
   },
   "Help": {
-        "title": "Ajuda do JigsawDesigner",
-        "subtitle": "Guias focados em gerar linhas de corte de quebra-cabeças, editar geometria SVG, gerenciar modelos e organizar projetos.",
+    "title": "Ajuda do JigsawDesigner",
+    "subtitle": "Guias focados em gerar linhas de corte de quebra-cabeças, editar geometria SVG, gerenciar modelos e organizar projetos.",
     "toc": "Índice",
     "sections": {
       "gettingStarted": "Primeiros Passos",
@@ -125,7 +128,7 @@
         },
         "2": {
           "title": "Escolha uma Ferramenta",
-          "desc": "Selecione entre 8 ferramentas de desenho na barra de ferramentas."
+          "desc": "Escolha entre oito ferramentas de seleção, edição e desenho."
         },
         "3": {
           "title": "Desenhe o Seu Design",
@@ -133,11 +136,11 @@
         },
         "4": {
           "title": "Gerar Quebra-cabeça",
-          "desc": "Clique em 'Gerar Quebra-cabeça' para criar peças interligadas."
+          "desc": "Gere linhas de corte editáveis a partir do limite e do perfil de encaixe selecionados."
         },
         "5": {
           "title": "Exportar",
-          "desc": "Guarde o seu quebra-cabeça como SVG para fabrico ou impressão."
+          "desc": "Salve o projeto editável, exporte o SVG e valide o arquivo no app usado na etapa seguinte do seu fluxo."
         }
       }
     },
@@ -206,7 +209,7 @@
       "steps": {
         "1": {
           "title": "Importar Contorno Limite",
-          "desc": "Clique em \"Importar SVG\" ou desenhe uma forma para definir o limite externo e as peças \"whimsy\"."
+          "desc": "Importe ou desenhe um único limite externo fechado válido e mantenha apenas a geometria visível e desbloqueada destinada à geração."
         },
         "2": {
           "title": "Selecionar Modelo de Encaixe",
@@ -237,12 +240,12 @@
       },
       "export": {
         "title": "Exportar SVG",
-        "desc": "Exporte os seus designs e quebra-cabeças gerados como arquivos SVG padrão.",
+        "desc": "Exporte o documento atual e as linhas de corte geradas como SVG.",
         "shortcut": "Atalho:",
         "items": [
-          "Formato SVG 1.1 padrão",
-          "Preserva todas as transformações",
-          "Mantém hierarquias de grupos"
+          "SVG é o formato de exportação atual",
+          "Guarde o arquivo .jigsawproject de origem para revisões",
+          "Confira a escala, os grupos e as transformações no app de destino"
         ]
       },
       "premium": {
@@ -277,13 +280,13 @@
     },
     "needHelp": {
       "title": "Precisa de Mais Ajuda?",
-      "desc": "Visite a nossa página de suporte ou contacte-nos diretamente para assistência personalizada"
+      "desc": "Abra o Suporte ou envie um e-mail se os guias não resolverem o problema."
     },
     "metaTitle": "Central de Ajuda e Guia de Geração",
     "metaDescription": "Aprenda a gerar linhas de corte de quebra-cabeças, editar formas vetoriais, gerenciar projetos e exportar arquivos SVG com o JigsawDesigner.",
     "interfaceContent": {
       "title": "Interface de Editor e Corte",
-      "intro": "O editor do JigsawDesigner oferece um espaço de trabalho vetorial profissional para projetar linhas de corte de precisão.",
+      "intro": "O editor reúne ferramentas de desenho, Camadas, controles de modelos, ajustes de geração e importação e exportação de SVG em um só espaço.",
       "toolbar": {
         "title": "Barra de Ferramentas Superior",
         "desc": "Acesso rápido a todas as ferramentas de desenho e operações de arquivo.",
@@ -336,17 +339,17 @@
         }
       },
       "canvas": {
-        "title": "Tela Infinita",
+        "title": "Mover e ampliar a tela",
         "desc": "Espaço de trabalho principal para seus designs.",
         "features": [
-          "Rolagem infinita em todas as direções",
+          "Mova-se por uma tela com dimensões de projeto definidas",
           "Régua com medidas em pixels",
           "Grade para alinhamento preciso",
           "Zoom com roda ou pinça",
           "Panorâmica com barra de espaço ou dois dedos",
           "Caixa de seleção visível"
         ],
-        "tip": "Use ⌘0 para resetar zoom, ⌘1 para ajustar à janela."
+        "tip": "Use Ajustar à janela ou os controles de zoom para enquadrar a tela."
       },
       "toolsPanel": {
         "title": "Painel de Ferramentas",
@@ -372,7 +375,7 @@
       },
       "layersPanel": {
         "title": "Painel de Camadas",
-        "desc": "Gerencie a hierarquia de design.",
+        "desc": "Use Camadas para conferir grupos e formas, expandir itens aninhados e controlar visibilidade ou bloqueio.",
         "features": [
           "Ver grupos e formas",
           "Expandir grupos",
@@ -404,7 +407,7 @@
       },
       "inspector": {
         "title": "Inspetor de Projeto",
-        "desc": "O inspetor lateral fornece todas as opções de configuração do projeto.",
+        "desc": "Use o inspetor para editar os ajustes do projeto e as informações da seleção atual.",
         "sections": {
           "projectInfo": {
             "title": "Info do Projeto",
@@ -452,7 +455,7 @@
       },
       "advancedSettings": {
         "title": "Configurações Avançadas",
-        "desc": "Acesse as configurações completas do aplicativo.",
+        "desc": "Abra os Ajustes Avançados para opções de idioma, assinatura, grade, réguas, encaixe e traço.",
         "sections": {
           "language": {
             "title": "Configurações de Idioma",
@@ -526,9 +529,9 @@
       "intro": "A Biblioteca de Projetos é seu hub central para gerenciar todos os designs.",
       "myProjects": {
         "title": "Meus Projetos",
-        "desc": "Seu espaço pessoal para designs de quebra-cabeças no iCloud.",
+        "desc": "Crie e reabra pacotes de projeto locais; a sincronização opcional pelo iCloud/CloudKit se aplica quando está ativada e disponível.",
         "features": [
-          "Sincronização automática do iCloud entre Mac, iPad e iPhone",
+          "Sincronização opcional pelo iCloud/CloudKit quando ativada e disponível",
           "Crie novos projetos com o botão +",
           "Miniaturas com nome e data do projeto",
           "Exclua projetos usando o botão da lixeira vermelha",
@@ -549,7 +552,7 @@
             },
             "publish": {
               "title": "Publicar",
-              "desc": "Compartilhe seu design com todos os usuários JigsawDesigner. Projetos publicados aparecem na biblioteca de Projetos Públicos."
+              "desc": "Publique um projeto selecionado em Projetos Públicos para que outras pessoas possam visualizá-lo e importar uma cópia."
             },
             "share": {
               "title": "Criar Link",
@@ -566,15 +569,15 @@
       "publicProjects": {
         "title": "Projetos Públicos",
         "icon": "🌐",
-        "desc": "Modelos comcomcompartilhamentodos pela comunidade disponíveis para todos. Navegue, visualize e importe designs da nossa biblioteca pública.",
+        "desc": "Navegue e visualize projetos públicos e importe uma cópia para Meus Projetos.",
         "features": [
-          "Navegue por modelos criados pela equipe JigsawDesigner",
+          "Navegue pelos projetos públicos disponíveis",
           "Veja a contagem de peças antes de importar",
           "Clique em \"Abrir\" para visualizar o design",
           "Clique em \"Importar\" para copiar para Meus Projetos",
-          "Ótimo para aprender e se inspirar"
+          "Confira um projeto antes de importar"
         ],
-        "howTo": "Selecione qualquer projeto público e clique em \"Importar\" para adicionar uma cópia à sua biblioteca pessoal. Você pode então personalizá-lo livremente."
+        "howTo": "Selecione um projeto público e escolha Importar para adicionar uma cópia a Meus Projetos. Confira o conteúdo e os direitos aplicáveis antes de reutilizá-lo."
       },
       "sharedProjects": {
         "title": "Projetos Comcomcompartilhamentodos",

@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Caracteristici",
+        "product": "Produs",
+        "showcase": "Exemple",
+        "learn": "Învață",
         "download": "Descarcă",
         "home": "Acasă",
         "support": "Asistență",
@@ -12,7 +15,7 @@
     },
     "Hero": {
         "version": "{version} Lansat - Încercați acum!",
-        "titlePart1": "Transformă orice formă în",
+        "titlePart1": "Transformă un contur închis în",
         "titleProfessional": "linii de tăiere editabile pentru puzzle",
         "subtitle": "Desenează sau importă un contur, generează modelul, ajustează vectorii și exportă SVG pe iPhone, iPad sau Mac.",
         "learnMore": "Vezi cum funcționează"
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Cum vă putem",
             "titlePart2": "ajuta?",
-            "subtitle": "Suntem aici pentru a sprijini călătoria dvs. creativă. Găsiți răspunsuri sau contactați echipa noastră."
+            "subtitle": "Găsește răspunsuri în Ajutor, rezolvă problemele obișnuite sau contactează asistența."
         },
         "documentation": {
             "title": "Documentație",
-            "description": "Explorați ghidurile noastre cuprinzătoare pentru a stăpâni caracteristicile și instrumentele JigsawDesigner.",
+            "description": "Deschide ghiduri orientate pe sarcini pentru generare, editare, șabloane, proiecte și export SVG.",
             "action": "Răsfoiți Articole"
         },
         "email": {
             "title": "Asistență prin E-mail",
-            "description": "Aveți nevoie de ajutor cu o problemă specifică? Echipa noastră de asistență este gata să vă ajute direct."
+            "description": "Pentru ajutor cu o anumită problemă, trimite-ne un e-mail cu platforma, versiunea aplicației și pași clari de reproducere."
         },
         "faq": {
             "title": "Întrebări Frecvente",
@@ -97,8 +100,8 @@
                 "answer": "Abonații Premium pot exporta fișiere SVG. Utilizarea comercială depinde și de drepturile asupra imaginilor, fonturilor, șabloanelor și altui conținut inclus în design."
             },
             "q3": {
-                "question": "Suportă linii de tăiere personalizate?",
-                "answer": "Da, puteți importa căi SVG personalizate pentru a le utiliza ca linii de tăiere sau puteți utiliza algoritmii noștri avansați pentru a genera modele unice automat."
+                "question": "Pot folosi un profil de îmbinare personalizat?",
+                "answer": "Da. Desenează un profil cu traseu deschis în Editorul de șabloane sau importă un traseu SVG potrivit, apoi generează și verifică liniile de tăiere rezultate."
             }
         }
     },
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Alege un Instrument",
-                    "desc": "Selectează dintre cele 8 instrumente de desen din bara de instrumente."
+                    "desc": "Alege dintre opt instrumente de selectare, editare și desen."
                 },
                 "3": {
                     "title": "Desenează Designul Tău",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Generează Puzzle",
-                    "desc": "Fă clic pe 'Generează Puzzle' pentru a crea piese care se întrepătrund."
+                    "desc": "Generează linii de tăiere editabile din conturul și profilul de îmbinare selectate."
                 },
                 "5": {
                     "title": "Export și Partajare",
-                    "desc": "Salvează puzzle-ul tău ca SVG pentru fabricație sau tipărire."
+                    "desc": "Salvează proiectul editabil, exportă SVG și validează fișierul în aplicația folosită în etapa următoare a fluxului."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Importă conturul limită",
-                    "desc": "Apasă pe \"Importă SVG\" sau desenează o formă vectorială pentru a defini limita exterioară și piesele speciale (\"whimsy\")."
+                    "desc": "Importă sau desenează un singur contur exterior închis valid, apoi păstrează doar geometria vizibilă și deblocată destinată generării."
                 },
                 "2": {
                     "title": "Selectează șablonul îmbinărilor",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "Export",
-                "desc": "Exportă designurile și puzzle-urile generate ca fișiere SVG standard.",
+                "desc": "Exportă documentul curent și liniile de tăiere generate ca SVG.",
                 "shortcut": "Scurtătură:",
                 "items": [
-                    "Format SVG 1.1 standard",
-                    "Păstrează toate transformările",
-                    "Păstrează ierarhiile de grup"
+                    "SVG este formatul curent de export",
+                    "Păstrează sursa .jigsawproject pentru revizii",
+                    "Verifică scara, grupurile și transformările în aplicația de destinație"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "Ai Nevoie de Mai Mult Ajutor?",
-            "desc": "Vizitează pagina noastră de asistență sau contactează-ne direct pentru asistență personală"
+            "desc": "Deschide Asistență sau trimite-ne un e-mail dacă ghidurile nu rezolvă problema."
         },
         "metaTitle": "Centru de ajutor și ghid de generare a puzzle-urilor",
         "metaDescription": "Află cum să generezi linii de tăiere pentru puzzle, să editezi forme vectoriale, să gestionezi proiecte și să exporți fișiere SVG cu JigsawDesigner.",
         "interfaceContent": {
             "title": "Interfață editor și linii de tăiere",
-            "intro": "Editorul JigsawDesigner oferă un spațiu de lucru vectorial profesional pentru proiectarea liniilor de tăiere și a modelelor de ștanțare precise.",
+            "intro": "Editorul reunește instrumentele de desen, Straturile, comenzile pentru șabloane, setările de generare și importul și exportul SVG într-un singur spațiu.",
             "toolbar": {
                 "title": "Bara de Instrumente Superioară",
                 "desc": "Acces rapid la toate instrumentele de desenare și operațiunile cu fișiere.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Pânză Infinită",
+                "title": "Panoramare și zoom pe pânză",
                 "desc": "Spațiul de lucru principal pentru crearea designurilor de puzzle.",
                 "features": [
-                    "Derulare infinită - pânza se extinde în toate direcțiile",
+                    "Panoramează pe o pânză cu dimensiuni de proiect definite",
                     "Afișare rigle cu măsurători în pixeli",
                     "Grilă pentru aliniere precisă",
                     "Zoom înainte/înapoi cu rotița mouse-ului sau gesturi",
                     "Panoramare prin tragere cu bara de spațiu apăsată sau cu două degete",
                     "Caseta de selecție apare când elementul este selectat"
                 ],
-                "tip": "Folosiți ⌘0 pentru resetarea zoom-ului la 100%, sau ⌘1 pentru a potrivi pânza în fereastră."
+                "tip": "Folosește Potrivire în fereastră sau comenzile de zoom pentru a încadra pânza."
             },
             "toolsPanel": {
                 "title": "Panou Instrumente",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Panou Straturi",
-                "desc": "Gestionați ierarhia designului.",
+                "desc": "Folosește Straturi pentru a inspecta grupurile și formele, a extinde elementele imbricate și a controla vizibilitatea sau blocarea.",
                 "features": [
                     "Vizualizați grupuri și forme în structură arborescentă",
                     "Extindeți grupurile pentru a vedea elementele",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Inspector Proiect",
-                "desc": "Inspectorul din dreapta oferă toate opțiunile de configurare a proiectului.",
+                "desc": "Folosește inspectorul pentru a edita setările proiectului și informațiile selecției curente.",
                 "sections": {
                     "projectInfo": {
                         "title": "Info Proiect",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Setări Avansate",
-                "desc": "Accesați setări comprehensive ale aplicației prin dialogul Setări Avansate.",
+                "desc": "Deschide Setări avansate pentru limbă, abonament, grilă, rigle, aliniere și contur.",
                 "sections": {
                     "language": {
                         "title": "Setări Limbă",
@@ -527,9 +530,9 @@
             "myProjects": {
                 "title": "Proiectele Mele",
                 "icon": "📁",
-                "desc": "Spațiul dvs. personal de lucru pentru toate designurile de puzzle, stocate în siguranță în iCloud.",
+                "desc": "Creează și redeschide pachete de proiect locale; sincronizarea opțională iCloud/CloudKit se aplică atunci când este activată și disponibilă.",
                 "features": [
-                    "Sincronizare automată iCloud între Mac, iPad și iPhone",
+                    "Sincronizare opțională iCloud/CloudKit când este activată și disponibilă",
                     "Creați proiecte noi cu butonul +",
                     "Previzualizări miniaturi cu numele proiectului și data",
                     "Ștergeți proiecte cu butonul roșu de gunoi",
@@ -550,7 +553,7 @@
                         },
                         "publish": {
                             "title": "Publică",
-                            "desc": "Partajați designul cu toți utilizatorii JigsawDesigner"
+                            "desc": "Publică un proiect selectat în Proiecte publice, pentru ca alții să îl poată răsfoi și importa o copie."
                         },
                         "share": {
                             "title": "Creează link",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Proiecte Publice",
                 "icon": "🌐",
-                "desc": "Șabloane comunitare disponibile tuturor utilizatorilor. Navigați, previzualizați și importați designuri din biblioteca publică.",
+                "desc": "Răsfoiește și previzualizează proiecte publice, apoi importă o copie în Proiectele mele.",
                 "features": [
-                    "Navigați prin șabloanele create de echipa JigsawDesigner",
+                    "Răsfoiește proiectele publice disponibile",
                     "Vizualizați numărul de piese înainte de import",
                     "Faceți clic pe \"Deschide\" pentru previzualizare",
                     "Faceți clic pe \"Importă\" pentru a copia în Proiectele Mele",
-                    "Excelent pentru învățare și inspirație"
+                    "Verifică un proiect înainte de import"
                 ],
-                "howTo": "Selectați un proiect public și faceți clic pe \"Importă\" pentru a adăuga o copie în biblioteca dvs."
+                "howTo": "Selectează un proiect public și alege Import pentru a adăuga o copie în Proiectele mele. Verifică conținutul și drepturile aplicabile înainte de reutilizare."
             },
             "sharedProjects": {
                 "title": "Proiecte Partajate",

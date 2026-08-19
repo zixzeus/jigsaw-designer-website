@@ -17,6 +17,7 @@ const [seoConfig, productConfig] = await Promise.all([
 const {
   DEFAULT_LOCALE,
   LOCALE_SPECS,
+  PRIMARY_SEO_LOCALES,
   SEO_ROUTES,
   SITE_LOCALES,
 } = seoConfig;
@@ -159,6 +160,65 @@ function visibleFaqEntries(html) {
     });
   }
   return entries;
+}
+
+function tagsWithAttribute(html, attributeName) {
+  return html.match(
+    new RegExp(`<[a-z][^>]*\\b${attributeName}=(['"])[^'"]*\\1[^>]*>`, "gi"),
+  ) ?? [];
+}
+
+function assertMediaEvidence(page, entry) {
+  const {html, pathname} = page;
+  const contentStatusTags = tagsWithAttribute(html, "data-content-status");
+  for (const tag of contentStatusTags) {
+    const status = attribute(tag, "data-content-status");
+    record(status === "published", `${pathname}: rendered content has invalid status ${status ?? "missing"}`);
+  }
+
+  const figures = [...html.matchAll(
+    /(<figure\b[^>]*\bdata-media-evidence=(['"])true\2[^>]*>)([\s\S]*?)<\/figure>/gi,
+  )];
+  const allEvidenceTags = tagsWithAttribute(html, "data-media-evidence");
+  record(
+    figures.length === allEvidenceTags.length,
+    `${pathname}: every media-evidence marker must be on a complete figure`,
+  );
+
+  if (entry.route.kind === "hub") {
+    record(figures.length > 0, `${pathname}: content hub has no source-labelled media evidence`);
+  }
+
+  const allowedSources = new Set(["app-screenshot", "exported-svg", "real-photo", "ai-concept"]);
+  for (const [index, match] of figures.entries()) {
+    const openingTag = match[1];
+    const block = match[3];
+    const label = `${pathname} media evidence ${index + 1}`;
+    const source = attribute(openingTag, "data-media-source");
+    const sourceLabel = attribute(openingTag, "data-media-source-label")?.trim();
+    record(allowedSources.has(source), `${label}: unknown or missing source kind ${source ?? "missing"}`);
+    record(Boolean(sourceLabel), `${label}: source label is missing`);
+
+    const images = tags(block, "img");
+    record(images.length === 1, `${label}: expected exactly one image, found ${images.length}`);
+    if (images[0]) {
+      record(Boolean(attribute(images[0], "alt")?.trim()), `${label}: localized alt text is missing`);
+      record(Number(attribute(images[0], "width")) > 0, `${label}: intrinsic width is missing`);
+      record(Number(attribute(images[0], "height")) > 0, `${label}: intrinsic height is missing`);
+    }
+
+    const conceptLabels = [...block.matchAll(
+      /<([a-z][\w:-]*)\b[^>]*\bdata-concept-label=(['"])true\2[^>]*>([\s\S]*?)<\/\1>/gi,
+    )];
+    if (source === "ai-concept") {
+      record(conceptLabels.length === 1, `${label}: AI concept must have exactly one visible concept label`);
+      if (conceptLabels[0]) {
+        record(Boolean(visibleText(conceptLabels[0][3])), `${label}: AI concept label is empty`);
+      }
+    } else {
+      record(conceptLabels.length === 0, `${label}: non-AI media must not be labelled as an AI concept`);
+    }
+  }
 }
 
 function imageDimensions(buffer) {
@@ -484,6 +544,13 @@ function assertStructuredData(page, entry) {
       record(application.softwareVersion === PRODUCT_FACTS.currentVersion, `${pathname}: SoftwareApplication version is not ${PRODUCT_FACTS.currentVersion}`);
       record(application.downloadUrl === PRODUCT_FACTS.appStoreUrl, `${pathname}: SoftwareApplication downloadUrl is wrong`);
     }
+    const appStoreLinks = tags(page.html, "a").filter(
+      (tag) => attribute(tag, "href") === PRODUCT_FACTS.appStoreUrl,
+    );
+    record(
+      appStoreLinks.length === 2,
+      `${pathname}: homepage must expose exactly two App Store conversion links, found ${appStoreLinks.length}`,
+    );
   } else {
     const breadcrumbs = jsonLdNodesByType(jsonLd, "BreadcrumbList");
     record(breadcrumbs.length === 1, `${pathname}: expected one BreadcrumbList, found ${breadcrumbs.length}`);
@@ -503,6 +570,37 @@ function assertStructuredData(page, entry) {
   if (entry.route.kind === "marketing" && entry.route.pathname !== "/pricing") {
     record(hasJsonLdType(jsonLd, "Article"), `${pathname}: marketing page is missing Article JSON-LD`);
   }
+  if (entry.route.kind === "hub") {
+    const collectionPages = jsonLdNodesByType(jsonLd, "CollectionPage");
+    const itemLists = jsonLdNodesByType(jsonLd, "ItemList");
+    record(collectionPages.length === 1, `${pathname}: expected one CollectionPage, found ${collectionPages.length}`);
+    record(itemLists.length === 1, `${pathname}: expected one ItemList, found ${itemLists.length}`);
+
+    for (const collectionPage of collectionPages) {
+      record(collectionPage.url === page.canonical, `${pathname}: CollectionPage URL does not match canonical`);
+      record(collectionPage.inLanguage === entry.locale, `${pathname}: CollectionPage inLanguage must be ${entry.locale}`);
+      record(typeof collectionPage.name === "string" && collectionPage.name.trim().length > 0, `${pathname}: CollectionPage name is missing`);
+      record(typeof collectionPage.description === "string" && collectionPage.description.trim().length > 0, `${pathname}: CollectionPage description is missing`);
+    }
+
+    for (const itemList of itemLists) {
+      const items = Array.isArray(itemList.itemListElement) ? itemList.itemListElement : [];
+      record(items.length >= 3, `${pathname}: ItemList must contain at least three visible entries`);
+      if (itemList.numberOfItems !== undefined) {
+        record(itemList.numberOfItems === items.length, `${pathname}: ItemList numberOfItems does not match its entries`);
+      }
+      items.forEach((item, index) => {
+        record(item?.["@type"] === "ListItem", `${pathname}: ItemList entry ${index + 1} is not a ListItem`);
+        record(item?.position === index + 1, `${pathname}: ItemList positions are not sequential`);
+        const itemName = typeof item?.name === "string"
+          ? item.name
+          : typeof item?.item?.name === "string"
+            ? item.item.name
+            : "";
+        record(itemName.trim().length > 0, `${pathname}: ItemList entry ${index + 1} has no name`);
+      });
+    }
+  }
   if (entry.route.pathname.startsWith("/help/") || entry.route.kind === "release") {
     record(hasJsonLdType(jsonLd, "TechArticle"), `${pathname}: documentation page is missing TechArticle JSON-LD`);
   }
@@ -519,7 +617,9 @@ function assertStructuredData(page, entry) {
     }
   }
   if (entry.route.pathname === "/support") {
-    record(hasJsonLdType(jsonLd, "FAQPage"), `${pathname}: Support is missing FAQPage JSON-LD`);
+    const supportRoutes = tagsWithAttribute(page.html, "data-support-route");
+    record(supportRoutes.length === 3, `${pathname}: Support must expose exactly three help paths`);
+    record(!hasJsonLdType(jsonLd, "FAQPage"), `${pathname}: Support must not publish FAQ schema without a visible FAQ`);
   }
   assertFaqParity(page, jsonLd);
 }
@@ -720,6 +820,20 @@ async function stopServer() {
 
 const expectedEntries = expectedSitemapEntries();
 
+for (const pathname of ["/showcase", "/learn"]) {
+  const routes = SEO_ROUTES.filter((route) => route.pathname === pathname);
+  record(routes.length === 1, `SEO_ROUTES: expected one ${pathname} route, found ${routes.length}`);
+  const route = routes[0];
+  if (!route) continue;
+  record(route.kind === "hub", `SEO_ROUTES: ${pathname} must be a hub route`);
+  record(route.indexable && route.includeInSitemap, `SEO_ROUTES: ${pathname} must be indexable and included in the sitemap`);
+  record(
+    route.locales.length === PRIMARY_SEO_LOCALES.length &&
+      PRIMARY_SEO_LOCALES.every((locale, index) => route.locales[index] === locale),
+    `SEO_ROUTES: ${pathname} locales must exactly match PRIMARY_SEO_LOCALES`,
+  );
+}
+
 try {
   if (!suppliedBaseUrl) {
     await assertFreshLocalBuild();
@@ -842,6 +956,7 @@ try {
       twitterImage,
     });
     assertStructuredData(page, entry);
+    assertMediaEvidence(page, entry);
   });
 
   const pages = await Promise.all([...pageCache.values()]);
@@ -903,6 +1018,16 @@ try {
         distance.has(page.pathname) && distance.get(page.pathname) <= 3,
         `${page.pathname}: not reachable from ${home} within three clicks`,
       );
+    }
+
+    if (PRIMARY_SEO_LOCALES.includes(locale)) {
+      for (const route of SEO_ROUTES.filter((candidate) => candidate.kind === "hub" && candidate.locales.includes(locale))) {
+        const pathname = localizedPathname(locale, route.pathname);
+        record(
+          graph.get(home)?.has(pathname),
+          `${pathname}: top-level hub must be linked directly from ${home}`,
+        );
+      }
     }
   }
 

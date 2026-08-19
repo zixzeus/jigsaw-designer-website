@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Funktionen",
+        "product": "Produkt",
+        "showcase": "Beispiele",
+        "learn": "Lernen",
         "download": "Herunterladen",
         "home": "Startseite",
         "support": "Hilfe",
@@ -12,26 +15,26 @@
     },
     "Hero": {
         "version": "{version} Veröffentlicht - Jetzt testen!",
-    "titlePart1": "Verwandeln Sie jede Form in",
-    "titleProfessional": "bearbeitbare Puzzle-Schnittlinien",
-    "subtitle": "Zeichnen oder importieren Sie eine Kontur, erzeugen Sie das Muster, bearbeiten Sie die Vektoren und exportieren Sie SVG auf iPhone, iPad oder Mac.",
-    "learnMore": "So funktioniert es"
+        "titlePart1": "Verwandeln Sie eine geschlossene Kontur in",
+        "titleProfessional": "bearbeitbare Puzzle-Schnittlinien",
+        "subtitle": "Zeichnen oder importieren Sie eine Kontur, erzeugen Sie das Muster, bearbeiten Sie die Vektoren und exportieren Sie SVG auf iPhone, iPad oder Mac.",
+        "learnMore": "So funktioniert es"
     },
     "Features": {
-    "title": "Das können Sie tun",
-    "subtitle": "Ein fokussierter Arbeitsablauf zum Erzeugen von Puzzle-Schnittlinien und Bearbeiten von SVG-Dateien.",
+        "title": "Das können Sie tun",
+        "subtitle": "Ein fokussierter Arbeitsablauf zum Erzeugen von Puzzle-Schnittlinien und Bearbeiten von SVG-Dateien.",
         "list": {
             "customization": {
-        "title": "Kontur und Steckprofil vorbereiten",
-        "description": "Zeichnen oder importieren Sie eine geschlossene SVG-Kontur und wählen Sie anschließend eine integrierte oder eigene Steckvorlage mit offenem Pfad."
+                "title": "Kontur und Steckprofil vorbereiten",
+                "description": "Zeichnen oder importieren Sie eine geschlossene SVG-Kontur und wählen Sie anschließend eine integrierte oder eigene Steckvorlage mit offenem Pfad."
             },
             "workflow": {
-        "title": "Bearbeitbare Schnittlinien erzeugen",
-        "description": "Legen Sie Raster, Teileanzahl und Abstände fest und erzeugen Sie das Ergebnis anschließend als bearbeitbare SVG-Gruppe."
+                "title": "Bearbeitbare Schnittlinien erzeugen",
+                "description": "Legen Sie Raster, Teileanzahl und Abstände fest und erzeugen Sie das Ergebnis anschließend als bearbeitbare SVG-Gruppe."
             },
             "anywhere": {
-        "title": "Auf Apple-Geräten weiterarbeiten",
-        "description": "Arbeiten Sie auf iPhone, iPad oder Mac – mit optionaler iCloud-Synchronisierung, wenn sie aktiviert und verfügbar ist."
+                "title": "Auf Apple-Geräten weiterarbeiten",
+                "description": "Arbeiten Sie auf iPhone, iPad oder Mac – mit optionaler iCloud-Synchronisierung, wenn sie aktiviert und verfügbar ist."
             }
         }
     },
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Wie können wir",
             "titlePart2": "Ihnen helfen?",
-            "subtitle": "Wir sind hier, um Ihre kreative Reise zu unterstützen. Finden Sie Antworten oder nehmen Sie Kontakt mit unserem Team auf."
+            "subtitle": "Antworten finden Sie in den folgenden Anleitungen. Bei einem konkreten Problem können Sie uns kontaktieren."
         },
         "documentation": {
             "title": "Dokumentation",
-            "description": "Entdecken Sie unsere umfassenden Leitfäden, um die Funktionen und Werkzeuge von JigsawDesigner zu meistern.",
+            "description": "Lesen Sie Anleitungen zum Editor, zur Projektbibliothek, zur Generierung sowie zum SVG-Import und -Export.",
             "action": "Artikel durchsuchen"
         },
         "email": {
             "title": "E-Mail-Support",
-            "description": "Benötigen Sie Hilfe bei einem bestimmten Problem? Unser Support-Team steht bereit, um Ihnen direkt zu helfen."
+            "description": "Kontaktieren Sie uns, wenn die Anleitungen Ihr Problem nicht lösen."
         },
         "faq": {
             "title": "Häufig gestellte Fragen",
@@ -97,14 +100,14 @@
                 "answer": "Premium-Abonnenten können SVG-Dateien exportieren. Die kommerzielle Nutzung hängt außerdem von den Rechten an enthaltenen Bildern, Schriften, Vorlagen und sonstigen Inhalten ab."
             },
             "q3": {
-                "question": "Unterstützt es benutzerdefinierte Stanzlinien?",
-                "answer": "Ja, Sie können benutzerdefinierte SVG-Pfade als Stanzlinien importieren oder unsere fortschrittlichen Algorithmen verwenden, um automatisch einzigartige Muster zu generieren."
+                "question": "Kann ich ein benutzerdefiniertes Schlitzprofil verwenden?",
+                "answer": "Ja. Zeichnen oder importieren Sie einen offenen SVG-Pfad als Schlitzprofil und prüfen Sie vor dem Export die erzeugten Schnittlinien."
             }
         }
     },
     "Help": {
-    "title": "JigsawDesigner-Hilfe",
-    "subtitle": "Praxisnahe Anleitungen zum Erzeugen von Puzzle-Schnittlinien, Bearbeiten von SVG-Geometrie, Verwalten von Vorlagen und Organisieren von Projekten.",
+        "title": "JigsawDesigner-Hilfe",
+        "subtitle": "Praxisnahe Anleitungen zum Erzeugen von Puzzle-Schnittlinien, Bearbeiten von SVG-Geometrie, Verwalten von Vorlagen und Organisieren von Projekten.",
         "toc": "Inhaltsverzeichnis",
         "sections": {
             "gettingStarted": "Erste Schritte",
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Wählen Sie ein Werkzeug",
-                    "desc": "Wählen Sie aus 8 Zeichenwerkzeugen in der Symbolleiste."
+                    "desc": "Verwenden Sie die acht Auswahl-, Bearbeitungs- und Zeichenwerkzeuge in der Symbolleiste."
                 },
                 "3": {
                     "title": "Zeichnen Sie Ihr Design",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Puzzle generieren",
-                    "desc": "Klicken Sie auf 'Puzzle generieren', um ineinandergreifende Teile zu erstellen."
+                    "desc": "Klicken Sie auf „Puzzle generieren“, um innerhalb der Kontur bearbeitbare Schnittlinien zu erstellen."
                 },
                 "5": {
                     "title": "Exportieren",
-                    "desc": "Speichern Sie Ihr Puzzle als SVG für die Herstellung oder den Druck."
+                    "desc": "Exportieren Sie eine SVG-Datei und prüfen Sie anschließend Maßstab, Pfade, Gruppen und Transformationen in der nachgelagerten Software."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Begrenzungskontur importieren",
-                    "desc": "Klicken Sie auf \"SVG importieren\" oder zeichnen Sie eine Form, um den Rand und die \"Whimsy\"-Teile zu definieren."
+                    "desc": "Importieren Sie eine gültige geschlossene Außenkontur aus einer SVG-Datei oder zeichnen Sie sie im Editor."
                 },
                 "2": {
                     "title": "Schlitz-Vorlage wählen",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "SVG exportieren",
-                "desc": "Exportieren Sie Ihre Designs und generierten Puzzles als Standard-SVG-Dateien.",
+                "desc": "Das aktuelle Exportformat ist SVG; bewahren Sie das .jigsawproject-Paket als bearbeitbare Projektdatei auf.",
                 "shortcut": "Abkürzung:",
                 "items": [
-                    "Standard SVG 1.1 Format",
-                    "Behält alle Transformationen bei",
-                    "Behält Gruppenhierarchien bei"
+                    "Aktuelles Exportformat: SVG",
+                    ".jigsawproject-Paket für die weitere Bearbeitung aufbewahren",
+                    "Maßstab, Gruppen und Transformationen in der nachgelagerten Software prüfen"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "Brauchen Sie mehr Hilfe?",
-            "desc": "Besuchen Sie unsere Support-Seite oder kontaktieren Sie uns direkt für persönliche Unterstützung"
+            "desc": "Auf der Support-Seite finden Sie häufige Antworten. Senden Sie uns andernfalls die Schritte und Dateien, mit denen sich das Problem reproduzieren lässt."
         },
         "metaTitle": "Hilfe-Center & Anleitung zur Puzzlegenerierung",
         "metaDescription": "Erfahren Sie, wie Sie mit JigsawDesigner Puzzle-Schnittlinien erzeugen, Vektorformen bearbeiten, Projekte verwalten und SVG-Dateien exportieren.",
         "interfaceContent": {
             "title": "Editor & Schnittlinien-Interface",
-            "intro": "Der JigsawDesigner-Editor bietet einen professionellen Vektor-Arbeitsbereich für präzise Schnittlinien und Stanzvorlagen.",
+            "intro": "Im Editor können Sie eine Kontur zeichnen oder importieren, SVG-Elemente bearbeiten, Puzzle-Schnittlinien erzeugen und eine SVG-Datei für die weitere Verwendung vorbereiten.",
             "toolbar": {
                 "title": "Obere Werkzeugleiste",
                 "desc": "Schneller Zugriff auf alle Zeichenwerkzeuge und Dateioperationen.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Unendliche Leinwand",
+                "title": "Projektleinwand",
                 "desc": "Der Hauptarbeitsbereich für Ihre Puzzle-Designs.",
                 "features": [
-                    "Unendliches Scrollen in alle Richtungen",
+                    "In den Projekteinstellungen festgelegte Breite und Höhe der Leinwand",
                     "Lineal mit Pixelmessungen",
                     "Raster für präzise Ausrichtung",
                     "Zoomen mit Mausrad oder Geste",
                     "Verschieben mit Leertaste oder zwei Fingern",
                     "Auswahlbox bei Selektion sichtbar"
                 ],
-                "tip": "⌘0 zum Zurücksetzen, ⌘1 zum Anpassen an Fenster."
+                "tip": "Zoomen Sie per Scrollen oder Aufziehgeste. Verschieben Sie die Leinwand mit zwei Fingern oder beim Ziehen mit gedrückter Leertaste."
             },
             "toolsPanel": {
                 "title": "Werkzeug-Panel",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Ebenen-Panel",
-                "desc": "Verwalten Sie die Design-Hierarchie.",
+                "desc": "Im Ebenen-Panel können Sie Gruppen und Formen in der SVG-Hierarchie anzeigen und verwalten.",
                 "features": [
                     "Gruppen und Formen in Baumstruktur",
                     "Gruppen erweitern",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Projektinspektor",
-                "desc": "Der Inspektor auf der rechten Seite bietet alle Projektkonfigurationsoptionen.",
+                "desc": "Der Inspektor auf der rechten Seite zeigt je nach Kontext die Einstellungen des Projekts oder der Auswahl.",
                 "sections": {
                     "projectInfo": {
                         "title": "Projektinfo",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Erweiterte Einstellungen",
-                "desc": "Zugriff auf umfassende App-Einstellungen.",
+                "desc": "In den erweiterten Einstellungen können Sie Sprache, Abonnement und Anzeigeoptionen des Editors anpassen.",
                 "sections": {
                     "language": {
                         "title": "Spracheinstellungen",
@@ -526,9 +529,9 @@
             "intro": "Die Projektbibliothek ist Ihr zentraler Hub für alle Puzzle-Designs.",
             "myProjects": {
                 "title": "Meine Projekte",
-                "desc": "Ihr persönlicher Arbeitsbereich für Puzzle-Designs in iCloud.",
+                "desc": "Unter „Meine Projekte“ werden lokale Projektpakete gespeichert und bei aktivierter und verfügbarer Cloud-Synchronisierung optional über iCloud/CloudKit synchronisiert.",
                 "features": [
-                    "Automatische iCloud-Synchronisierung zwischen Mac, iPad und iPhone",
+                    "Lokale Projektpakete mit optionaler iCloud/CloudKit-Synchronisierung, wenn sie aktiviert und verfügbar ist",
                     "Erstellen Sie neue Projekte mit der + Taste",
                     "Miniaturansichten mit Projektname und Datum",
                     "Löschen Sie Projekte mit dem roten Papierkorb",
@@ -549,7 +552,7 @@
                         },
                         "publish": {
                             "title": "Veröffentlichen",
-                            "desc": "Teilen Sie Ihr Design mit allen JigsawDesigner-Benutzern. Veröffentlichte Projekte erscheinen in der öffentlichen Projektbibliothek."
+                            "desc": "Veröffentlichen Sie das ausgewählte Projekt in der Bibliothek „Öffentliche Projekte“, damit andere eine Kopie importieren können."
                         },
                         "share": {
                             "title": "Link erstellen",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Öffentliche Projekte",
                 "icon": "🌐",
-                "desc": "Von der Community geteilte Vorlagen für alle Benutzer. Durchsuchen, Vorschau und Import von Designs aus unserer öffentlichen Bibliothek.",
+                "desc": "Durchsuchen Sie Projekte in der Bibliothek „Öffentliche Projekte“, sehen Sie eine Vorschau an und importieren Sie eine Kopie in „Meine Projekte“.",
                 "features": [
-                    "Durchsuchen Sie vom JigsawDesigner-Team erstellte Vorlagen",
+                    "Projekte in der Bibliothek „Öffentliche Projekte“ durchsuchen",
                     "Stückzahl vor dem Import anzeigen",
                     "Klicken Sie auf \"Öffnen\" für eine Vorschau",
                     "Klicken Sie auf \"Importieren\" um in Meine Projekte zu kopieren",
-                    "Ideal zum Lernen und zur Inspiration"
+                    "Veröffentlichte Projekte als Lernreferenz verwenden"
                 ],
-                "howTo": "Wählen Sie ein öffentliches Projekt und klicken Sie auf \"Importieren\", um eine Kopie zu Ihrer persönlichen Bibliothek hinzuzufügen. Sie können es dann frei anpassen."
+                "howTo": "Wählen Sie ein öffentliches Projekt und klicken Sie auf „Importieren“, um eine Kopie zu „Meine Projekte“ hinzuzufügen. Das Quellprojekt bleibt unverändert."
             },
             "sharedProjects": {
                 "title": "Geteilte Projekte",

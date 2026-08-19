@@ -1,6 +1,9 @@
 {
   "Navigation": {
     "features": "Ciri-ciri",
+    "product": "Produk",
+    "showcase": "Galeri",
+    "learn": "Belajar",
     "download": "Muat Turun",
     "home": "Laman Utama",
     "support": "Sokongan",
@@ -12,26 +15,26 @@
   },
   "Hero": {
     "version": "{version} Dilancarkan - Cuba sekarang!",
-        "titlePart1": "Ubah sebarang bentuk menjadi",
-        "titleProfessional": "garisan potong teka-teki yang boleh diedit",
-        "subtitle": "Lukis atau import sempadan, jana corak, kemaskan vektor dan eksport SVG pada iPhone, iPad atau Mac.",
-        "learnMore": "Lihat cara ia berfungsi"
+    "titlePart1": "Ubah kontur tertutup menjadi",
+    "titleProfessional": "garisan potong teka-teki yang boleh diedit",
+    "subtitle": "Lukis atau import sempadan, jana corak, kemaskan vektor dan eksport SVG pada iPhone, iPad atau Mac.",
+    "learnMore": "Lihat cara ia berfungsi"
   },
   "Features": {
-        "title": "Perkara yang boleh anda lakukan",
-        "subtitle": "Aliran kerja terfokus untuk menjana garisan potong teka-teki dan menyunting SVG.",
+    "title": "Perkara yang boleh anda lakukan",
+    "subtitle": "Aliran kerja terfokus untuk menjana garisan potong teka-teki dan menyunting SVG.",
     "list": {
       "customization": {
-                "title": "Sediakan sempadan dan profil slot",
-                "description": "Lukis atau import sempadan SVG tertutup, kemudian pilih templat slot laluan terbuka terbina dalam atau tersuai."
+        "title": "Sediakan sempadan dan profil slot",
+        "description": "Lukis atau import sempadan SVG tertutup, kemudian pilih templat slot laluan terbuka terbina dalam atau tersuai."
       },
       "workflow": {
-                "title": "Jana garisan potong yang boleh diedit",
-                "description": "Tetapkan nilai grid, bilangan kepingan dan jarak, kemudian jana hasil sebagai kumpulan SVG yang boleh diedit."
+        "title": "Jana garisan potong yang boleh diedit",
+        "description": "Tetapkan nilai grid, bilangan kepingan dan jarak, kemudian jana hasil sebagai kumpulan SVG yang boleh diedit."
       },
       "anywhere": {
-                "title": "Teruskan pada peranti Apple",
-                "description": "Bekerja pada iPhone, iPad atau Mac, dengan penyegerakan iCloud pilihan apabila didayakan dan tersedia."
+        "title": "Teruskan pada peranti Apple",
+        "description": "Bekerja pada iPhone, iPad atau Mac, dengan penyegerakan iCloud pilihan apabila didayakan dan tersedia."
       }
     }
   },
@@ -75,16 +78,16 @@
     "hero": {
       "titlePart1": "Bagaimana kami boleh",
       "titlePart2": "membantu anda?",
-      "subtitle": "Kami di sini untuk menyokong perjalanan kreatif anda. Cari jawapan atau hubungi pasukan kami."
+      "subtitle": "Cari jawapan dalam Bantuan, selesaikan isu biasa, atau hubungi sokongan."
     },
     "documentation": {
       "title": "Dokumentasi",
-      "description": "Terokai panduan komprehensif kami untuk menguasai ciri dan alat JigsawDesigner.",
+      "description": "Buka panduan berasaskan tugas untuk penjanaan, penyuntingan, templat, projek dan eksport SVG.",
       "action": "Semak Imbas Artikel"
     },
     "email": {
       "title": "Sokongan E-mel",
-      "description": "Perlukan bantuan dengan isu tertentu? Pasukan sokongan kami bersedia untuk membantu anda secara langsung."
+      "description": "Untuk bantuan mengenai isu tertentu, e-mel kepada kami dengan platform, versi aplikasi dan langkah pembiakan semula yang jelas."
     },
     "faq": {
       "title": "Soalan Lazim",
@@ -97,14 +100,14 @@
         "answer": "Pelanggan Premium boleh mengeksport fail SVG. Penggunaan komersial turut bergantung pada hak imej, fon, templat dan kandungan lain dalam reka bentuk."
       },
       "q3": {
-        "question": "Adakah ia menyokong garis acuan tersuai?",
-        "answer": "Ya, anda boleh mengimport laluan SVG tersuai untuk digunakan sebagai garis acuan, atau gunakan algoritma canggih kami untuk menjana corak unik secara automatik."
+        "question": "Bolehkah saya menggunakan profil slot tersuai?",
+        "answer": "Ya. Lukis profil slot laluan terbuka dalam Editor Templat atau import laluan SVG yang sesuai, kemudian jana dan periksa garisan potong yang terhasil."
       }
     }
   },
   "Help": {
-        "title": "Bantuan JigsawDesigner",
-        "subtitle": "Panduan terfokus untuk menjana garisan potong teka-teki, menyunting geometri SVG, mengurus templat dan menyusun projek.",
+    "title": "Bantuan JigsawDesigner",
+    "subtitle": "Panduan terfokus untuk menjana garisan potong teka-teki, menyunting geometri SVG, mengurus templat dan menyusun projek.",
     "toc": "Isi Kandungan",
     "sections": {
       "gettingStarted": "Bermula",
@@ -125,7 +128,7 @@
         },
         "2": {
           "title": "Pilih Alat",
-          "desc": "Pilih daripada 8 alat melukis dalam bar alat."
+          "desc": "Pilih daripada lapan alat pemilihan, penyuntingan dan lukisan."
         },
         "3": {
           "title": "Lukis Reka Bentuk Anda",
@@ -133,11 +136,11 @@
         },
         "4": {
           "title": "Jana Teka-teki",
-          "desc": "Klik 'Jana Teka-teki' untuk mencipta kepingan yang saling berkait."
+          "desc": "Jana garisan potong teka-teki yang boleh diedit daripada sempadan dan profil slot yang dipilih."
         },
         "5": {
           "title": "Eksport",
-          "desc": "Simpan teka-teki anda sebagai SVG untuk pembuatan atau percetakan."
+          "desc": "Simpan projek yang boleh diedit, eksport SVG, kemudian sahkan fail dalam aplikasi hiliran yang digunakan dalam aliran kerja anda."
         }
       }
     },
@@ -206,7 +209,7 @@
       "steps": {
         "1": {
           "title": "Import Kontur Sempadan",
-          "desc": "Klik \"Import SVG\" atau lukis bentuk vektor tersuai untuk menentukan sempadan luar dan kepingan \"whimsy\" dalaman."
+          "desc": "Import atau lukis satu sempadan luar tertutup yang sah, kemudian kekalkan hanya geometri kelihatan dan tidak dikunci yang dimaksudkan untuk penjanaan."
         },
         "2": {
           "title": "Pilih Templat Slot",
@@ -237,12 +240,12 @@
       },
       "export": {
         "title": "Eksport",
-        "desc": "Eksport reka bentuk dan teka-teki yang dijana anda sebagai fail SVG standard.",
+        "desc": "Eksport dokumen semasa dan garisan potong yang dijana sebagai SVG.",
         "shortcut": "Pintasan:",
         "items": [
-          "Format SVG 1.1 standard",
-          "Kekalkan semua transformasi",
-          "Kekalkan hierarki kumpulan"
+          "SVG ialah format eksport semasa",
+          "Simpan sumber .jigsawproject untuk semakan",
+          "Periksa skala, kumpulan dan transformasi dalam aplikasi penerima"
         ]
       },
       "premium": {
@@ -277,13 +280,13 @@
     },
     "needHelp": {
       "title": "Perlukan Lebih Banyak Bantuan?",
-      "desc": "Lawati halaman sokongan kami atau hubungi kami secara langsung untuk bantuan peribadi"
+      "desc": "Buka Sokongan atau e-mel kepada kami jika panduan tidak menyelesaikan isu."
     },
     "metaTitle": "Pusat Bantuan & Panduan Pembuatan Jigsaw",
     "metaDescription": "Ketahui cara menjana garis potong teka-teki, menyunting bentuk vektor, mengurus projek dan mengeksport fail SVG dengan JigsawDesigner.",
     "interfaceContent": {
       "title": "Antara Muka Editor & Garisan Pemotongan",
-      "intro": "Editor JigsawDesigner menyediakan ruang kerja vektor profesional untuk mereka bentuk garisan pemotongan dan corak teka-teki.",
+      "intro": "Editor menghimpunkan alat lukisan, Lapisan, kawalan templat, tetapan penjanaan serta import dan eksport SVG dalam satu ruang kerja.",
       "toolbar": {
         "title": "Bar Alat Atas",
         "desc": "Bar alat menyediakan akses pantas kepada semua alat lukis dan operasi fail.",
@@ -336,17 +339,17 @@
         }
       },
       "canvas": {
-        "title": "Kanvas Tak Terhingga",
+        "title": "Gerak dan Zum Kanvas",
         "desc": "Ruang kerja utama untuk mencipta reka bentuk teka-teki anda.",
         "features": [
-          "Tatal tak terhingga - kanvas meluas ke semua arah",
+          "Gerakkan pandangan di sekeliling kanvas dengan dimensi projek yang ditetapkan",
           "Paparan pembaris dengan ukuran piksel",
           "Lapisan grid untuk penjajaran tepat",
           "Zum masuk/keluar dengan roda skrol atau gerakan cubit",
           "Pan dengan menyeret sambil menekan spacebar atau dua jari",
           "Kotak pemilihan muncul apabila elemen dipilih"
         ],
-        "tip": "Gunakan ⌘0 untuk set semula zum ke 100%, atau ⌘1 untuk memuatkan kanvas dalam tetingkap."
+        "tip": "Gunakan Muat ke Tetingkap atau kawalan zum untuk membingkaikan kanvas."
       },
       "toolsPanel": {
         "title": "Panel Alat",
@@ -372,7 +375,7 @@
       },
       "layersPanel": {
         "title": "Panel Lapisan",
-        "desc": "Urus hierarki reka bentuk anda.",
+        "desc": "Gunakan Lapisan untuk memeriksa kumpulan dan bentuk, mengembangkan item bersarang, serta mengawal keterlihatan atau penguncian.",
         "features": [
           "Lihat kumpulan dan bentuk dalam struktur pokok",
           "Kembangkan kumpulan untuk melihat item",
@@ -404,7 +407,7 @@
       },
       "inspector": {
         "title": "Pemeriksa Projek",
-        "desc": "Pemeriksa di sebelah kanan menyediakan semua pilihan konfigurasi projek.",
+        "desc": "Gunakan pemeriksa untuk mengedit tetapan projek dan maklumat bagi pilihan semasa.",
         "sections": {
           "projectInfo": {
             "title": "Info Projek",
@@ -452,7 +455,7 @@
       },
       "advancedSettings": {
         "title": "Tetapan Lanjutan",
-        "desc": "Akses tetapan aplikasi komprehensif melalui dialog Tetapan Lanjutan.",
+        "desc": "Buka Tetapan Lanjutan untuk pilihan bahasa, langganan, grid, pembaris, sentapan dan garisan.",
         "sections": {
           "language": {
             "title": "Tetapan Bahasa",
@@ -527,9 +530,9 @@
       "myProjects": {
         "title": "Projek Saya",
         "icon": "📁",
-        "desc": "Ruang kerja peribadi anda untuk semua reka bentuk teka-teki, disimpan dengan selamat di iCloud.",
+        "desc": "Cipta dan buka semula pakej projek setempat; penyegerakan iCloud/CloudKit pilihan digunakan apabila didayakan dan tersedia.",
         "features": [
-          "Sinkronisasi iCloud automatik merentas Mac, iPad dan iPhone",
+          "Penyegerakan iCloud/CloudKit pilihan apabila didayakan dan tersedia",
           "Buat projek baru dengan butang +",
           "Pratonton thumbnail dengan nama projek dan tarikh",
           "Padam projek menggunakan butang tong sampah merah",
@@ -550,7 +553,7 @@
             },
             "publish": {
               "title": "Terbit",
-              "desc": "Kongsi reka bentuk dengan semua pengguna JigsawDesigner"
+              "desc": "Terbitkan projek yang dipilih ke Projek Awam supaya orang lain boleh melayarinya dan mengimport salinan."
             },
             "share": {
               "title": "Buat Pautan",
@@ -566,15 +569,15 @@
       "publicProjects": {
         "title": "Projek Awam",
         "icon": "🌐",
-        "desc": "Templat komuniti tersedia untuk semua pengguna. Layari, pratonton dan import reka bentuk dari perpustakaan awam.",
+        "desc": "Layari dan pratonton projek awam, kemudian import salinan ke Projek Saya.",
         "features": [
-          "Layari templat yang dicipta oleh pasukan JigsawDesigner",
+          "Layari projek awam yang tersedia",
           "Lihat kiraan kepingan sebelum import",
           "Klik \"Buka\" untuk pratonton",
           "Klik \"Import\" untuk salin ke Projek Saya",
-          "Bagus untuk pembelajaran dan inspirasi"
+          "Periksa projek sebelum mengimport"
         ],
-        "howTo": "Pilih projek awam dan klik \"Import\" untuk tambah salinan ke perpustakaan anda."
+        "howTo": "Pilih projek awam dan tekan Import untuk menambah salinan ke Projek Saya. Semak kandungan dan hak yang berkenaan sebelum menggunakannya semula."
       },
       "sharedProjects": {
         "title": "Projek Dikongsi",

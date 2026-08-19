@@ -1,6 +1,9 @@
 {
   "Navigation": {
     "features": "Features",
+    "product": "Product",
+    "showcase": "Showcase",
+    "learn": "Learn",
     "pricing": "Pricing",
     "download": "Download",
     "home": "Home",
@@ -12,7 +15,7 @@
   },
   "Hero": {
     "version": "Version {version} is on the App Store",
-    "titlePart1": "Turn any shape into",
+    "titlePart1": "Turn a closed outline into",
     "titleProfessional": "editable puzzle cutlines",
     "subtitle": "Draw or import a boundary, generate the pattern, refine the vectors, and export SVG on iPhone, iPad, or Mac.",
     "learnMore": "See how it works"
@@ -130,16 +133,16 @@
     "hero": {
       "titlePart1": "How can we",
       "titlePart2": "help you?",
-      "subtitle": "We are here to support your creative journey. Find answers or get in touch with our team."
+      "subtitle": "Find answers in the guides below, or contact us about a specific issue."
     },
     "documentation": {
       "title": "Documentation",
-      "description": "Explore our comprehensive guides to master JigsawDesigner features and tools.",
+      "description": "Read guides for the editor, project library, generation, and SVG import or export.",
       "action": "Browse Articles"
     },
     "email": {
       "title": "Email Support",
-      "description": "Need help with a specific issue? Our support team is ready to assist you directly."
+      "description": "Contact us if the guides do not resolve your issue."
     },
     "faq": {
       "title": "Frequently Asked Questions",
@@ -152,8 +155,8 @@
         "answer": "Premium subscribers can export SVG files. Commercial use also depends on the rights to any images, fonts, templates, or other content included in the design."
       },
       "q3": {
-        "question": "Does it support custom die lines?",
-        "answer": "Yes, you can import custom SVG paths to use as die lines, or use our advanced algorithms to generate unique patterns automatically."
+        "question": "Can I use a custom slot profile?",
+        "answer": "Yes. Draw or import an open SVG path as the slot profile, then inspect the generated cutlines before exporting."
       }
     }
   },
@@ -175,7 +178,7 @@
     },
     "interfaceContent": {
       "title": "Editor & Cutline Interface",
-      "intro": "The JigsawDesigner editor provides a professional vector workspace for designing precision jigsaw cutlines and puzzle dielines. Master each tool to create high-quality laser-cut templates.",
+      "intro": "Use the editor to draw or import a boundary, edit SVG elements, generate puzzle cutlines, and prepare an SVG for downstream use.",
       "toolbar": {
         "title": "Top Toolbar",
         "desc": "The toolbar provides quick access to all drawing tools and file operations.",
@@ -228,17 +231,17 @@
         }
       },
       "canvas": {
-        "title": "Infinite Canvas",
+        "title": "Project Canvas",
         "desc": "The main workspace where you create your jigsaw puzzle designs.",
         "features": [
-          "Infinite scrolling - canvas extends in all directions",
+          "Defined canvas width and height set in the project settings",
           "Ruler display with pixel measurements",
           "Grid overlay for precise alignment",
           "Zoom in/out with scroll wheel or pinch gesture",
           "Pan by dragging with spacebar held or two-finger drag",
           "Selection box shows when element is selected"
         ],
-        "tip": "Use ⌘0 to reset zoom to 100%, or ⌘1 to fit canvas to window."
+        "tip": "Use scroll or pinch to zoom. Pan with a two-finger drag, or hold Space while dragging."
       },
       "toolsPanel": {
         "title": "Tools Panel",
@@ -264,7 +267,7 @@
       },
       "layersPanel": {
         "title": "Layers Panel",
-        "desc": "Manage your design hierarchy with the Layers panel - similar to Photoshop or Illustrator.",
+        "desc": "Use the Layers panel to view and manage groups and shapes in the SVG hierarchy.",
         "features": [
           "View all groups and shapes in a tree structure",
           "Expand groups to see nested items",
@@ -296,7 +299,7 @@
       },
       "inspector": {
         "title": "Project Inspector",
-        "desc": "The right-side inspector provides all project configuration options.",
+        "desc": "The right-side inspector shows project or selection settings for the current context.",
         "sections": {
           "projectInfo": {
             "title": "Project Info",
@@ -344,7 +347,7 @@
       },
       "advancedSettings": {
         "title": "Advanced Settings",
-        "desc": "Access comprehensive application settings through the Advanced Settings dialog.",
+        "desc": "Use Advanced Settings to adjust language, subscription, and editor display options.",
         "sections": {
           "language": {
             "title": "Language Settings",
@@ -419,9 +422,9 @@
       "myProjects": {
         "title": "My Projects",
         "icon": "📁",
-        "desc": "Your personal workspace for all jigsaw designs, stored securely in iCloud.",
+        "desc": "My Projects stores local project packages and can sync them through iCloud/CloudKit when cloud sync is enabled and available.",
         "features": [
-          "Automatic iCloud sync across Mac, iPad, and iPhone",
+          "Local project packages, with optional iCloud/CloudKit sync when enabled and available",
           "Create new projects with the + button",
           "Thumbnail previews with project name and date",
           "Delete projects using the red trash button",
@@ -442,7 +445,7 @@
             },
             "publish": {
               "title": "Publish to Public Projects",
-              "desc": "Share your design with all JigsawDesigner users worldwide. Published projects appear in the Public Projects library for everyone to import and learn from."
+              "desc": "Publish the selected project to the Public Projects library so others can import a copy."
             },
             "share": {
               "title": "Create Share Link",
@@ -458,15 +461,15 @@
       "publicProjects": {
         "title": "Public Projects",
         "icon": "🌐",
-        "desc": "Community-shared templates available to all users. Browse, preview, and import designs from our public library.",
+        "desc": "Browse projects published to the Public Projects library, preview them, and import a copy to My Projects.",
         "features": [
-          "Browse templates created by the JigsawDesigner team",
+          "Browse projects available in the Public Projects library",
           "View piece count before importing",
           "Click 'Open' to preview the design",
           "Click 'Import' to copy to your My Projects",
-          "Great for learning and inspiration"
+          "Use published projects as references for learning"
         ],
-        "howTo": "Select any public project and click 'Import' to add a copy to your personal library. You can then customize it freely."
+        "howTo": "Select a public project and click 'Import' to add a copy to My Projects. The source project remains unchanged."
       },
       "sharedProjects": {
         "title": "Shared Projects",
@@ -490,7 +493,7 @@
         },
         "2": {
           "title": "Choose a Tool",
-          "desc": "Select from 8 drawing tools in the toolbar."
+          "desc": "Use the eight selection, editing, and drawing tools in the toolbar."
         },
         "3": {
           "title": "Draw Your Design",
@@ -498,11 +501,11 @@
         },
         "4": {
           "title": "Generate Jigsaw",
-          "desc": "Click \"Generate Jigsaw\" to create puzzle pieces."
+          "desc": "Click \"Generate Jigsaw\" to create editable puzzle cutlines inside the boundary."
         },
         "5": {
           "title": "Export",
-          "desc": "Save your puzzle as SVG for manufacturing or printing."
+          "desc": "Export an SVG, then verify its scale, paths, groups, and transforms in the downstream software you plan to use."
         }
       }
     },
@@ -573,7 +576,7 @@
       "steps": {
         "1": {
           "title": "Import Boundary Contour",
-          "desc": "Start by clicking 'Import SVG' or drawing a custom vector shape to define the outer boundary and interior 'whimsy' shapes of your jigsaw cutline."
+          "desc": "Import one valid closed outer boundary from SVG, or draw one in the editor."
         },
         "2": {
           "title": "Select Slot Template",
@@ -602,12 +605,12 @@
       },
       "export": {
         "title": "Export SVG",
-        "desc": "Export your designs and generated puzzles as standard SVG files.",
+        "desc": "The current export format is SVG; keep the .jigsawproject package as the editable project file.",
         "shortcut": "Shortcut:",
         "items": [
-          "Standard SVG 1.1 format",
-          "Preserves all transforms",
-          "Maintains group hierarchies"
+          "Current export format: SVG",
+          "Keep the .jigsawproject package for continued editing",
+          "Check scale, groups, and transforms in downstream software"
         ]
       },
       "premium": {
@@ -642,7 +645,7 @@
     },
     "needHelp": {
       "title": "Need More Help?",
-      "desc": "Visit our support page or contact us directly for personalized assistance"
+      "desc": "Visit the support page for common answers, or contact us with the steps and files needed to reproduce the issue."
     }
   }
 }

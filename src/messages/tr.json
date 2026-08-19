@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Özellikler",
+        "product": "Ürün",
+        "showcase": "Örnekler",
+        "learn": "Öğren",
         "download": "İndir",
         "home": "Ana Sayfa",
         "support": "Destek",
@@ -12,7 +15,7 @@
     },
     "Hero": {
         "version": "{version} Yayında - Şimdi deneyin!",
-        "titlePart1": "Herhangi bir şekli",
+        "titlePart1": "Kapalı bir konturu",
         "titleProfessional": "düzenlenebilir yapboz kesim çizgilerine dönüştürün",
         "subtitle": "Bir sınır çizin veya içe aktarın, deseni oluşturun, vektörleri düzenleyin ve iPhone, iPad ya da Mac'te SVG olarak dışa aktarın.",
         "learnMore": "Nasıl çalıştığını görün"
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Size nasıl",
             "titlePart2": "yardımcı olabiliriz?",
-            "subtitle": "Yaratıcı yolculuğunuzu desteklemek için buradayız. Cevapları bulun veya ekibimizle iletişime geçin."
+            "subtitle": "Yardım bölümünde yanıt bulun, yaygın sorunları giderin veya destek ekibiyle iletişime geçin."
         },
         "documentation": {
             "title": "Dokümantasyon",
-            "description": "JigsawDesigner'ın özelliklerinde ve araçlarında ustalaşmak için kapsamlı rehberlerimizi keşfedin.",
+            "description": "Oluşturma, düzenleme, şablonlar, projeler ve SVG dışa aktarma için göreve yönelik kılavuzları açın.",
             "action": "Makalelere Göz At"
         },
         "email": {
             "title": "E-posta Desteği",
-            "description": "Belirli bir sorunla ilgili yardıma mı ihtiyacınız var? Destek ekibimiz doğrudan size yardımcı olmaya hazır."
+            "description": "Belirli bir sorun için yardım gerekiyorsa platformunuzu, uygulama sürümünü ve sorunu yeniden oluşturma adımlarını yazarak bize e-posta gönderin."
         },
         "faq": {
             "title": "Sıkça Sorulan Sorular",
@@ -97,8 +100,8 @@
                 "answer": "Premium aboneler SVG dosyalarını dışa aktarabilir. Ticari kullanım ayrıca tasarımdaki görüntü, yazı tipi, şablon ve diğer içeriklerin haklarına bağlıdır."
             },
             "q3": {
-                "question": "Özel kesim çizgilerini destekliyor mu?",
-                "answer": "Evet, kesim çizgileri olarak kullanmak için özel SVG yollarını içe aktarabilir veya benzersiz desenleri otomatik olarak oluşturmak için gelişmiş algoritmalarımızı kullanabilirsiniz."
+                "question": "Özel bir bağlantı profili kullanabilir miyim?",
+                "answer": "Evet. Şablon Düzenleyici'de açık yollu bir bağlantı profili çizin veya uygun bir SVG yolu içe aktarın; ardından oluşan kesim çizgilerini üretip inceleyin."
             }
         }
     },
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Bir Araç Seçin",
-                    "desc": "Araç çubuğundaki 8 çizim aracından birini seçin."
+                    "desc": "Sekiz seçim, düzenleme ve çizim aracından birini seçin."
                 },
                 "3": {
                     "title": "Tasarımınızı Çizin",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Bulmaca Oluştur",
-                    "desc": "Kilitli parçalar oluşturmak için 'Bulmaca Oluştur'a tıklayın."
+                    "desc": "Seçilen sınır ve bağlantı profilinden düzenlenebilir yapboz kesim çizgileri oluşturun."
                 },
                 "5": {
                     "title": "Dışa Aktar",
-                    "desc": "Bulmacanızı üretim veya baskı için SVG olarak kaydedin."
+                    "desc": "Düzenlenebilir projeyi kaydedin, SVG'yi dışa aktarın ve dosyayı iş akışınızın sonraki uygulamasında doğrulayın."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Sınır Konturunu İçe Aktar",
-                    "desc": "\"SVG İçe Aktar\"a tıklayın veya dış sınırı ve \"whimsy\" parçaları tanımlamak için bir şekil çizin."
+                    "desc": "Geçerli bir kapalı dış sınırı içe aktarın veya çizin; yalnızca oluşturma için amaçlanan görünür ve kilidi açık geometriyi bırakın."
                 },
                 "2": {
                     "title": "Geçme Şablonunu Seç",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "SVG Dışa Aktar",
-                "desc": "Tasarımlarınızı ve oluşturulan bulmacaları standart SVG dosyaları olarak dışa aktarın.",
+                "desc": "Geçerli belgeyi ve oluşturulan kesim çizgilerini SVG olarak dışa aktarın.",
                 "shortcut": "Kısayol:",
                 "items": [
-                    "Standart SVG 1.1 formatı",
-                    "Tüm dönüşümleri korur",
-                    "Grup hiyerarşilerini korur"
+                    "SVG geçerli dışa aktarma biçimidir",
+                    "Düzenlemeler için .jigsawproject kaynak dosyasını saklayın",
+                    "Alıcı uygulamada ölçeği, grupları ve dönüşümleri inceleyin"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "Daha Fazla Yardıma mı İhtiyacınız Var?",
-            "desc": "Destek sayfamızı ziyaret edin veya kişiselleştirilmiş yardım için doğrudan bizimle iletişime geçin"
+            "desc": "Kılavuzlar sorunu çözmezse Destek'i açın veya bize e-posta gönderin."
         },
         "metaTitle": "Yardım Merkezi ve Jigsaw Oluşturma Kılavuzu",
         "metaDescription": "JigsawDesigner ile yapboz kesim çizgileri üretmeyi, vektör şekillerini düzenlemeyi, projeleri yönetmeyi ve SVG dosyalarını dışa aktarmayı öğrenin.",
         "interfaceContent": {
             "title": "Editör ve Kesim Arayüzü",
-            "intro": "JigsawDesigner editörü, hassas kesim hatları ve kalıplar tasarlamak için profesyonel bir vektör çalışma alanı sunar.",
+            "intro": "Düzenleyici; çizim araçlarını, Katmanlar'ı, şablon denetimlerini, oluşturma ayarlarını ve SVG içe/dışa aktarmayı tek bir çalışma alanında bir araya getirir.",
             "toolbar": {
                 "title": "Üst Araç Çubuğu",
                 "desc": "Tüm çizim araçlarına ve dosya işlemlerine hızlı erişim.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Sonsuz Tuval",
+                "title": "Tuvali Kaydırma ve Yakınlaştırma",
                 "desc": "Tasarımlarınız için ana çalışma alanı.",
                 "features": [
-                    "Her yöne sonsuz kaydırma",
+                    "Tanımlı proje boyutlarına sahip tuvalde gezinin",
                     "Piksel ölçümlü cetvel",
                     "Hassas hizalama için ızgara",
                     "Tekerlek veya çimdik ile yakınlaştırma",
                     "Boşluk tuşu veya iki parmakla kaydırma",
                     "Seçim kutusu görünürlüğü"
                 ],
-                "tip": "Yakınlaştırmayı sıfırlamak için ⌘0, pencereye sığdırmak için ⌘1 kullanın."
+                "tip": "Tuvali görünüm içine almak için Pencereye Sığdır veya yakınlaştırma denetimlerini kullanın."
             },
             "toolsPanel": {
                 "title": "Araç Paneli",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Katmanlar Paneli",
-                "desc": "Tasarım hiyerarşisini yönetin.",
+                "desc": "Grupları ve şekilleri incelemek, iç içe öğeleri genişletmek ve görünürlüğü ya da kilitlemeyi yönetmek için Katmanlar'ı kullanın.",
                 "features": [
                     "Grupları ve şekilleri ağaç yapısında gör",
                     "Grupları genişlet",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Proje Denetçisi",
-                "desc": "Sağ taraftaki denetçi tüm proje yapılandırma seçeneklerini sağlar.",
+                "desc": "Proje ayarlarını ve geçerli seçimin bilgilerini düzenlemek için denetçiyi kullanın.",
                 "sections": {
                     "projectInfo": {
                         "title": "Proje Bilgisi",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Gelişmiş Ayarlar",
-                "desc": "Kapsamlı uygulama ayarlarına erişin.",
+                "desc": "Dil, abonelik, ızgara, cetveller, yakalama ve kontur seçenekleri için Gelişmiş Ayarlar'ı açın.",
                 "sections": {
                     "language": {
                         "title": "Dil Ayarları",
@@ -526,9 +529,9 @@
             "intro": "Proje Kitaplığı tüm tasarımlarınızı yönetmek için merkezi merkezinizdir.",
             "myProjects": {
                 "title": "Projelerim",
-                "desc": "iCloud'da saklanan bulmaca tasarımları için kişisel çalışma alanınız.",
+                "desc": "Yerel proje paketleri oluşturup yeniden açın; isteğe bağlı iCloud/CloudKit eşzamanlama yalnızca etkin ve kullanılabilir olduğunda uygulanır.",
                 "features": [
-                    "Mac, iPad ve iPhone arasında otomatik iCloud senkronizasyonu",
+                    "Etkin ve kullanılabilir olduğunda isteğe bağlı iCloud/CloudKit eşzamanlama",
                     "+ düğmesiyle yeni projeler oluşturun",
                     "Proje adı ve tarihiyle küçük resim önizlemeleri",
                     "Kırmızı çöp kutusu düğmesiyle projeleri silin",
@@ -549,7 +552,7 @@
                         },
                         "publish": {
                             "title": "Yayınla",
-                            "desc": "Tasarımınızı tüm JigsawDesigner kullanıcılarıyla paylaşın. Yayınlanan projeler Genel Projeler kitaplığında görünür."
+                            "desc": "Seçilen projeyi Genel Projeler'e yayımlayarak başkalarının projeyi incelemesine ve bir kopyasını içe aktarmasına izin verin."
                         },
                         "share": {
                             "title": "Bağlantı Oluştur",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Genel Projeler",
                 "icon": "🌐",
-                "desc": "Tüm kullanıcılar için mevcut topluluk paylaşımlı şablonlar. Genel kitaplığımızdan tasarımları inceleyin, önizleyin ve içe aktarın.",
+                "desc": "Genel projelere göz atın, önizleyin ve Projelerim'e bir kopyasını içe aktarın.",
                 "features": [
-                    "JigsawDesigner ekibi tarafından oluşturulan şablonları inceleyin",
+                    "Kullanılabilir genel projelere göz atın",
                     "İçe aktarmadan önce parça sayısını görüntüleyin",
                     "Tasarımı önizlemek için \"Aç\"a tıklayın",
                     "Projelerime kopyalamak için \"İçe Aktar\"a tıklayın",
-                    "Öğrenme ve ilham için harika"
+                    "İçe aktarmadan önce projeyi inceleyin"
                 ],
-                "howTo": "Herhangi bir genel projeyi seçin ve kişisel kitaplığınıza bir kopya eklemek için \"İçe Aktar\"a tıklayın. Sonra serbestçe özelleştirebilirsiniz."
+                "howTo": "Genel bir proje seçip İçe Aktar'ı seçerek Projelerim'e bir kopya ekleyin. Yeniden kullanmadan önce içeriği ve geçerli hakları kontrol edin."
             },
             "sharedProjects": {
                 "title": "Paylaşılan Projeler",

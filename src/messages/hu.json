@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Funkciók",
+        "product": "Termék",
+        "showcase": "Példák",
+        "learn": "Tanulás",
         "download": "Letöltés",
         "home": "Főoldal",
         "support": "Támogatás",
@@ -12,7 +15,7 @@
     },
     "Hero": {
         "version": "{version} Megjelent - Próbálja ki most!",
-        "titlePart1": "Alakítson bármilyen formát",
+        "titlePart1": "Alakítson egy zárt körvonalat",
         "titleProfessional": "szerkeszthető kirakó-vágóvonalakká",
         "subtitle": "Rajzoljon vagy importáljon körvonalat, hozza létre a mintát, finomítsa a vektorokat, majd exportáljon SVG-t iPhone-on, iPaden vagy Macen.",
         "learnMore": "Nézze meg, hogyan működik"
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Hogyan tudunk",
             "titlePart2": "segíteni Önnek?",
-            "subtitle": "Itt vagyunk, hogy támogassuk kreatív útját. Találjon válaszokat vagy lépjen kapcsolatba csapatunkkal."
+            "subtitle": "Keresse meg a választ az alábbi útmutatókban, vagy forduljon hozzánk egy konkrét problémával."
         },
         "documentation": {
             "title": "Dokumentáció",
-            "description": "Fedezze fel átfogó útmutatóinkat a JigsawDesigner funkcióinak és eszközeinek elsajátításához.",
+            "description": "Olvassa el a szerkesztő, a projektkönyvtár, a generálás, valamint az SVG-import és -export útmutatóit.",
             "action": "Cikkek Böngészése"
         },
         "email": {
             "title": "E-mail Támogatás",
-            "description": "Segítségre van szüksége egy adott problémával kapcsolatban? Támogató csapatunk készen áll, hogy közvetlenül segítsen Önnek."
+            "description": "Lépjen kapcsolatba velünk, ha az útmutatók nem oldják meg a problémát."
         },
         "faq": {
             "title": "Gyakran Ismételt Kérdések",
@@ -97,8 +100,8 @@
                 "answer": "A Premium-előfizetők SVG-fájlokat exportálhatnak. A kereskedelmi felhasználás a tervben lévő képek, betűtípusok, sablonok és más tartalmak jogaitól is függ."
             },
             "q3": {
-                "question": "Támogatja az egyedi vágóvonalakat?",
-                "answer": "Igen, importálhat egyedi SVG útvonalakat vágóvonalakként való használatra, vagy használhatja fejlett algoritmusainkat egyedi minták automatikus generálásához."
+                "question": "Használhatok egyéni illesztési profilt?",
+                "answer": "Igen. Rajzoljon vagy importáljon egy nyitott SVG-útvonalat illesztési profilként, majd exportálás előtt ellenőrizze a létrehozott vágóvonalakat."
             }
         }
     },
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Válassz Eszközt",
-                    "desc": "Válassz a 8 rajzeszköz közül az eszköztáron."
+                    "desc": "Használja az eszköztár nyolc kijelölő-, szerkesztő- és rajzeszközét."
                 },
                 "3": {
                     "title": "Rajzold Meg Terveidet",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Puzzle Generálása",
-                    "desc": "Kattints a 'Puzzle Generálása' gombra az egymásba illeszkedő darabok létrehozásához."
+                    "desc": "A körvonalon belüli szerkeszthető vágóvonalak létrehozásához kattintson a „Puzzle generálása” gombra."
                 },
                 "5": {
                     "title": "Exportálás",
-                    "desc": "Mentsd el puzzle-ödet SVG-ként gyártáshoz vagy nyomtatáshoz."
+                    "desc": "Exportáljon egy SVG-t, majd ellenőrizze annak méretarányát, útvonalait, csoportjait és transzformációit a később használt szoftverben."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Határvonal importálása",
-                    "desc": "Kattintson az \"SVG importálása\" gombra vagy rajzoljon vektoralakzatot a külső határ és a belső formák meghatározásához."
+                    "desc": "Importáljon egyetlen érvényes, zárt külső határt SVG-ből, vagy rajzolja meg a szerkesztőben."
                 },
                 "2": {
                     "title": "Sablon kiválasztása",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "SVG Exportálása",
-                "desc": "Exportáld terveidet és generált puzzle-öidet szabványos SVG fájlokként.",
+                "desc": "A jelenlegi exportformátum SVG; a .jigsawproject csomagot őrizze meg szerkeszthető projektfájlként.",
                 "shortcut": "Gyorsbillentyű:",
                 "items": [
-                    "Szabványos SVG 1.1 formátum",
-                    "Minden átalakítást megőriz",
-                    "Megőrzi a csoport hierarchiákat"
+                    "Jelenlegi exportformátum: SVG",
+                    "Őrizze meg a .jigsawproject csomagot a további szerkesztéshez",
+                    "Ellenőrizze a méretarányt, a csoportokat és a transzformációkat a következő szoftverben"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "További Segítségre Van Szüksége?",
-            "desc": "Látogassa meg támogatási oldalunkat vagy lépjen kapcsolatba velünk közvetlenül személyes segítségért"
+            "desc": "A gyakori válaszokért keresse fel a támogatási oldalt, vagy küldje el nekünk a probléma megismétléséhez szükséges lépéseket és fájlokat."
         },
         "metaTitle": "Súgó és puzzle generálási útmutató",
         "metaDescription": "Ismerje meg, hogyan generálhat kirakó-vágóvonalakat, szerkeszthet vektoralakzatokat, kezelhet projekteket és exportálhat SVG-fájlokat a JigsawDesignerrel.",
         "interfaceContent": {
             "title": "Szerkesztő és vágóvonal felület",
-            "intro": "A JigsawDesigner szerkesztője professzionális vektoralapú munkaterületet biztosít precíziós vágóvonalak és stancrajzok tervezéséhez.",
+            "intro": "A szerkesztőben rajzolhat vagy importálhat körvonalat, szerkeszthet SVG-elemeket, generálhat puzzle-vágóvonalakat, és előkészíthet egy SVG-t más szoftverben való használatra.",
             "toolbar": {
                 "title": "Felső Eszköztár",
                 "desc": "Gyors hozzáférés az összes rajzeszközhöz és fájlművelethez.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Végtelen Vászon",
+                "title": "Projektvászon",
                 "desc": "A fő munkaterület a puzzle-tervek létrehozásához.",
                 "features": [
-                    "Végtelen görgetés - a vászon minden irányban kiterjed",
+                    "A projektbeállításokban megadott vászonszélesség és -magasság",
                     "Vonalzó megjelenítés pixel mérésekkel",
                     "Rács a pontos igazításhoz",
                     "Nagyítás/kicsinyítés egérgörgővel vagy gesztusokkal",
                     "Pásztázás húzással a szóköz billentyű lenyomása mellett vagy két ujjal",
                     "Kijelölési keret jelenik meg, amikor egy elem ki van választva"
                 ],
-                "tip": "Használja a ⌘0 billentyűt a nagyítás 100%-ra állításához, vagy a ⌘1-et a vászon ablakhoz igazításához."
+                "tip": "Nagyításhoz használjon görgetést vagy csippentő mozdulatot. A vásznat kétujjas húzással, illetve húzás közben a szóközt nyomva tartva mozgathatja."
             },
             "toolsPanel": {
                 "title": "Eszközpanel",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Rétegek Panel",
-                "desc": "Kezelje a tervezési hierarchiát.",
+                "desc": "A Rétegek panelen megtekintheti és kezelheti az SVG-hierarchia csoportjait és alakzatait.",
                 "features": [
                     "Csoportok és alakzatok megtekintése fastruktúrában",
                     "Csoportok kibontása elemek megtekintéséhez",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Projekt Felügyelő",
-                "desc": "A jobb oldali felügyelő minden projektkonfigurációs lehetőséget kínál.",
+                "desc": "A jobb oldali felügyelő az aktuális helyzetnek megfelelően a projekt vagy a kijelölés beállításait mutatja.",
                 "sections": {
                     "projectInfo": {
                         "title": "Projekt Információ",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Speciális Beállítások",
-                "desc": "Hozzáférés az átfogó alkalmazásbeállításokhoz a Speciális Beállítások párbeszédpanelen keresztül.",
+                "desc": "A Speciális beállításokban módosíthatja a nyelvet, az előfizetést és a szerkesztő megjelenítési beállításait.",
                 "sections": {
                     "language": {
                         "title": "Nyelvi Beállítások",
@@ -527,9 +530,9 @@
             "myProjects": {
                 "title": "Saját Projektek",
                 "icon": "📁",
-                "desc": "Személyes munkaterület az összes puzzle tervhez, biztonságosan tárolva az iCloudban.",
+                "desc": "A Saját projektek helyben tárolja a projektcsomagokat, és az iCloud/CloudKit segítségével szinkronizálhatja őket, ha a felhőszinkronizálás engedélyezett és elérhető.",
                 "features": [
-                    "Automatikus iCloud szinkronizálás Mac, iPad és iPhone között",
+                    "Helyi projektcsomagok, valamint választható iCloud/CloudKit-szinkronizálás, ha engedélyezett és elérhető",
                     "Új projektek létrehozása a + gombbal",
                     "Miniatűr előnézetek projekt névvel és dátummal",
                     "Projektek törlése a piros kuka gombbal",
@@ -550,7 +553,7 @@
                         },
                         "publish": {
                             "title": "Közzététel",
-                            "desc": "Terv megosztása minden JigsawDesigner felhasználóval"
+                            "desc": "Tegye közzé a kijelölt projektet a Nyilvános projektek könyvtárban, hogy mások importálhassák egy másolatát."
                         },
                         "share": {
                             "title": "Link létrehozása",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Nyilvános Projektek",
                 "icon": "🌐",
-                "desc": "Közösségi sablonok minden felhasználó számára elérhetők. Böngésszen, tekintsen meg előnézetet és importáljon terveket a nyilvános könyvtárból.",
+                "desc": "Böngésszen a Nyilvános projektek könyvtárban közzétett projektek között, tekintse meg őket, és importáljon egy másolatot a Saját projektek közé.",
                 "features": [
-                    "Böngésszen a JigsawDesigner csapat által készített sablonok között",
+                    "Böngésszen a Nyilvános projektek könyvtár projektjei között",
                     "Tekintse meg a darabszámot importálás előtt",
                     "Kattintson a \"Megnyitás\" gombra az előnézethez",
                     "Kattintson az \"Importálás\" gombra a Saját Projektekbe másoláshoz",
-                    "Kiváló tanuláshoz és inspirációhoz"
+                    "Használja a közzétett projekteket tanulási referenciaként"
                 ],
-                "howTo": "Válasszon egy nyilvános projektet és kattintson az \"Importálás\" gombra egy másolat hozzáadásához a könyvtárához."
+                "howTo": "Válasszon egy nyilvános projektet, majd kattintson az „Importálás” gombra, hogy egy másolatot adjon a Saját projektekhez. A forrásprojekt változatlan marad."
             },
             "sharedProjects": {
                 "title": "Megosztott Projektek",

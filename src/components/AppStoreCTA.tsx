@@ -16,6 +16,8 @@ export type AppStoreClickLocation =
   | "footer"
   | "support"
   | "changelog"
+  | "showcase"
+  | "learn"
   | "home-final";
 
 type AppStoreCTAProps = {

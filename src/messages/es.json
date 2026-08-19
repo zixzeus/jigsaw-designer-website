@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Características",
+        "product": "Producto",
+        "showcase": "Galería",
+        "learn": "Aprender",
         "download": "Descargar",
         "home": "Inicio",
         "support": "Soporte",
@@ -12,7 +15,7 @@
     },
     "Hero": {
         "version": "{version} Lanzado - ¡Pruébalo ahora!",
-        "titlePart1": "Convierte cualquier forma en",
+        "titlePart1": "Convierte un contorno cerrado en",
         "titleProfessional": "líneas de corte de rompecabezas editables",
         "subtitle": "Dibuja o importa un contorno, genera el patrón, ajusta los vectores y exporta SVG en iPhone, iPad o Mac.",
         "learnMore": "Mira cómo funciona"
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "¿Cómo podemos",
             "titlePart2": "ayudarte?",
-            "subtitle": "Estamos aquí para apoyar tu viaje creativo. Encuentra respuestas o ponte en contacto con nuestro equipo."
+            "subtitle": "Consulta las guías siguientes o contáctanos si tienes un problema concreto."
         },
         "documentation": {
             "title": "Documentación",
-            "description": "Explora nuestras guías completas para dominar las funciones y herramientas de JigsawDesigner.",
+            "description": "Consulta las guías del editor, la biblioteca de proyectos, la generación y la importación o exportación de SVG.",
             "action": "Explorar Artículos"
         },
         "email": {
             "title": "Soporte por Correo Electrónico",
-            "description": "¿Necesitas ayuda con un problema específico? Nuestro equipo de soporte está listo para ayudarte directamente."
+            "description": "Contáctanos si las guías no resuelven tu problema."
         },
         "faq": {
             "title": "Preguntas Frecuentes",
@@ -97,8 +100,8 @@
                 "answer": "Los suscriptores Premium pueden exportar archivos SVG. El uso comercial también depende de los derechos sobre las imágenes, fuentes, plantillas u otros contenidos incluidos en el diseño."
             },
             "q3": {
-                "question": "¿Soporta líneas de troquel personalizadas?",
-                "answer": "Sí, puedes importar rutas SVG personalizadas para usarlas como líneas de troquel, o utilizar nuestros algoritmos avanzados para generar patrones únicos automáticamente."
+                "question": "¿Puedo usar un perfil de ranura personalizado?",
+                "answer": "Sí. Dibuja o importa una ruta SVG abierta como perfil de ranura y revisa las líneas de corte generadas antes de exportar."
             }
         }
     },
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Elige una Herramienta",
-                    "desc": "Selecciona entre 8 herramientas de dibujo en la barra de herramientas."
+                    "desc": "Usa las ocho herramientas de selección, edición y dibujo de la barra de herramientas."
                 },
                 "3": {
                     "title": "Dibuja Tu Diseño",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Genera el Rompecabezas",
-                    "desc": "Haz clic en 'Generar Rompecabezas' para crear piezas entrelazadas."
+                    "desc": "Haz clic en «Generar rompecabezas» para crear líneas de corte editables dentro del contorno."
                 },
                 "5": {
                     "title": "Exportar",
-                    "desc": "Guarda tu rompecabezas como SVG para fabricación o impresión."
+                    "desc": "Exporta un SVG y comprueba después su escala, rutas, grupos y transformaciones en el programa que vayas a utilizar."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Importar Contorno Límite",
-                    "desc": "Haz clic en \"Importar SVG\" o dibuja una forma vectorial para definir el límite exterior y las piezas \"whimsy\"."
+                    "desc": "Importa desde SVG un único contorno exterior válido y cerrado, o dibújalo en el editor."
                 },
                 "2": {
                     "title": "Seleccionar Plantilla de Ranura",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "Exportar SVG",
-                "desc": "Exporta tus diseños y rompecabezas generados como archivos SVG estándar.",
+                "desc": "El formato de exportación actual es SVG; conserva el paquete .jigsawproject como archivo de proyecto editable.",
                 "shortcut": "Atajo:",
                 "items": [
-                    "Formato SVG 1.1 estándar",
-                    "Preserva todas las transformaciones",
-                    "Mantiene jerarquías de grupos"
+                    "Formato de exportación actual: SVG",
+                    "Conserva el paquete .jigsawproject para seguir editando",
+                    "Comprueba la escala, los grupos y las transformaciones en el programa de destino"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "¿Necesitas Más Ayuda?",
-            "desc": "Visita nuestra página de soporte o contáctanos directamente para asistencia personalizada"
+            "desc": "Visita la página de soporte para consultar respuestas habituales o envíanos los pasos y archivos necesarios para reproducir el problema."
         },
         "metaTitle": "Centro de Ayuda y Guía de Generación",
         "metaDescription": "Aprende a generar líneas de corte de rompecabezas, editar formas vectoriales, gestionar proyectos y exportar archivos SVG con JigsawDesigner.",
         "interfaceContent": {
             "title": "Interfaz de Editor y Corte",
-            "intro": "El editor de JigsawDesigner ofrece un espacio de trabajo vectorial profesional para diseñar líneas de corte de precisión y troqueles.",
+            "intro": "Usa el editor para dibujar o importar un contorno, editar elementos SVG, generar líneas de corte de rompecabezas y preparar un SVG para usarlo en otros programas.",
             "toolbar": {
                 "title": "Barra de Herramientas Superior",
                 "desc": "Acceso rápido a todas las herramientas de dibujo y operaciones de archivo.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Lienzo Infinito",
+                "title": "Lienzo del proyecto",
                 "desc": "El espacio de trabajo principal para tus diseños.",
                 "features": [
-                    "Desplazamiento infinito en todas direcciones",
+                    "Anchura y altura del lienzo definidas en la configuración del proyecto",
                     "Regla con medidas en píxeles",
                     "Cuadrícula para alineación precisa",
                     "Zoom con rueda o gesto de pellizco",
                     "Panorámica arrastrando con espacio o dos dedos",
                     "Caja de selección visible al seleccionar"
                 ],
-                "tip": "Usa ⌘0 para reiniciar zoom, ⌘1 para ajustar a ventana."
+                "tip": "Usa la rueda o el gesto de pellizcar para cambiar el zoom. Desplaza el lienzo arrastrando con dos dedos o manteniendo pulsada la barra espaciadora mientras arrastras."
             },
             "toolsPanel": {
                 "title": "Panel de Herramientas",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Panel de Capas",
-                "desc": "Gestiona la jerarquía de diseño (similar a Photoshop/Illustrator).",
+                "desc": "Usa el panel Capas para ver y gestionar grupos y formas en la jerarquía SVG.",
                 "features": [
                     "Ver grupos y formas en estructura de árbol",
                     "Expandir grupos para ver ítems anidados",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Inspector de Proyecto",
-                "desc": "El inspector del lado derecho proporciona todas las opciones de configuración del proyecto.",
+                "desc": "El inspector de la derecha muestra los ajustes del proyecto o de la selección según el contexto actual.",
                 "sections": {
                     "projectInfo": {
                         "title": "Info del Proyecto",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Ajustes Avanzados",
-                "desc": "Accede a la configuración completa de la aplicación.",
+                "desc": "Usa Configuración avanzada para ajustar el idioma, la suscripción y las opciones de visualización del editor.",
                 "sections": {
                     "language": {
                         "title": "Configuración de Idioma",
@@ -527,9 +530,9 @@
             "myProjects": {
                 "title": "Mis Proyectos",
                 "icon": "📁",
-                "desc": "Tu espacio personal para diseños de rompecabezas, almacenados en iCloud.",
+                "desc": "Mis proyectos guarda paquetes de proyecto localmente y puede sincronizarlos mediante iCloud/CloudKit cuando la sincronización en la nube está activada y disponible.",
                 "features": [
-                    "Sincronización automática de iCloud entre Mac, iPad y iPhone",
+                    "Paquetes de proyecto locales, con sincronización opcional mediante iCloud/CloudKit cuando está activada y disponible",
                     "Crea nuevos proyectos con el botón +",
                     "Vistas previas en miniatura con nombre y fecha del proyecto",
                     "Elimina proyectos usando el botón rojo de papelera",
@@ -550,7 +553,7 @@
                         },
                         "publish": {
                             "title": "Publicar",
-                            "desc": "Comparte tu diseño con todos los usuarios de JigsawDesigner. Los proyectos publicados aparecen en la biblioteca de Proyectos Públicos."
+                            "desc": "Publica el proyecto seleccionado en la biblioteca de Proyectos públicos para que otras personas puedan importar una copia."
                         },
                         "share": {
                             "title": "Crear Enlace",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Proyectos Públicos",
                 "icon": "🌐",
-                "desc": "Plantillas compartidas por la comunidad disponibles para todos. Explora, previsualiza e importa diseños de nuestra biblioteca pública.",
+                "desc": "Explora los proyectos publicados en la biblioteca de Proyectos públicos, previsualízalos e importa una copia a Mis proyectos.",
                 "features": [
-                    "Explora plantillas creadas por el equipo de JigsawDesigner",
+                    "Explora los proyectos disponibles en la biblioteca de Proyectos públicos",
                     "Ve el número de piezas antes de importar",
                     "Haz clic en \"Abrir\" para previsualizar el diseño",
                     "Haz clic en \"Importar\" para copiar a Mis Proyectos",
-                    "Ideal para aprender e inspirarse"
+                    "Usa los proyectos publicados como referencia para aprender"
                 ],
-                "howTo": "Selecciona cualquier proyecto público y haz clic en \"Importar\" para añadir una copia a tu biblioteca personal. Luego puedes personalizarlo libremente."
+                "howTo": "Selecciona un proyecto público y haz clic en «Importar» para añadir una copia a Mis proyectos. El proyecto de origen no cambia."
             },
             "sharedProjects": {
                 "title": "Proyectos Compartidos",

@@ -4,7 +4,6 @@ import {notFound} from "next/navigation";
 import {useTranslations} from "next-intl";
 import {getTranslations, setRequestLocale} from "next-intl/server";
 
-import AppStoreCTA from "@/components/AppStoreCTA";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import SiteFooter from "@/components/SiteFooter";
@@ -30,15 +29,37 @@ export default async function HelpPage({params}: {params: Promise<{locale: strin
   return <HelpContent locale={locale} />;
 }
 
-const splitGuides = [
-  ["getting-started", "sections.gettingStarted"],
-  ["jigsaw-generation", "sections.generation"],
-  ["svg-import-export", "sections.importExport"],
-  ["vector-editing", "sections.tools"],
-  ["templates", "interfaceContent.templatesPanel.title"],
-  ["project-library", "sections.projectLibrary"],
-  ["keyboard-shortcuts", "sections.shortcuts"],
-  ["troubleshooting", "troubleshooting.title"],
+const tierOneGuideGroups = [
+  {
+    titleKey: "sections.gettingStarted",
+    links: [
+      ["getting-started", "sections.gettingStarted"],
+      ["keyboard-shortcuts", "sections.shortcuts"],
+    ],
+  },
+  {
+    titleKey: "sections.generation",
+    links: [["jigsaw-generation", "generationContent.title"]],
+  },
+  {
+    titleKey: "sections.tools",
+    links: [
+      ["vector-editing", "sections.tools"],
+      ["svg-import-export", "sections.importExport"],
+    ],
+  },
+  {
+    titleKey: "interfaceContent.templatesPanel.title",
+    links: [["templates", "interfaceContent.templatesPanel.title"]],
+  },
+  {
+    titleKey: "sections.projectLibrary",
+    links: [["project-library", "sections.projectLibrary"]],
+  },
+  {
+    titleKey: "troubleshooting.title",
+    links: [["troubleshooting", "troubleshooting.title"]],
+  },
 ] as const;
 
 const TIER_ONE_HELP_LEAD_ALT: Record<TierOneLocale, string> = {
@@ -50,7 +71,6 @@ const TIER_ONE_HELP_LEAD_ALT: Record<TierOneLocale, string> = {
 function HelpContent({locale}: {locale: SiteLocale}) {
   const navigation = useTranslations("Navigation");
   const help = useTranslations("Help");
-  const common = useTranslations("Common");
   const tierOneLocale = isTierOneLocale(locale) ? locale : null;
   const showSplitGuides = Boolean(
     tierOneLocale && isRouteAvailable("/help/getting-started", tierOneLocale),
@@ -100,13 +120,23 @@ function HelpContent({locale}: {locale: SiteLocale}) {
         ) : null}
 
         {showSplitGuides ? (
-          <section className="mt-14 border-y border-border py-8">
-            <h2 className="text-2xl font-bold">{help("toc")}</h2>
-            <div className="mt-5 grid gap-x-10 md:grid-cols-2">
-              {splitGuides.map(([slug, labelKey]) => (
-                <Link key={slug} href={`/help/${slug}`} className="flex items-center justify-between gap-4 border-b border-border py-4 font-semibold transition-colors hover:text-primary-dark dark:hover:text-primary-light">
-                  {help(labelKey)} <span aria-hidden="true">→</span>
-                </Link>
+          <section className="mt-14 border-y border-border py-10">
+            <h2 className="text-2xl font-semibold tracking-tight">{help("toc")}</h2>
+            <div className="mt-7 grid gap-px overflow-hidden rounded-2xl border border-border bg-border md:grid-cols-2 lg:grid-cols-3">
+              {tierOneGuideGroups.map((group, index) => (
+                <article key={group.titleKey} className="bg-background p-6 md:p-7">
+                  <span className="text-xs font-semibold tabular-nums text-primary-dark dark:text-primary-light">
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+                  <h3 className="mt-4 text-xl font-semibold">{help(group.titleKey)}</h3>
+                  <div className="mt-5 flex flex-col gap-3 text-sm text-gray-600 dark:text-gray-300">
+                    {group.links.map(([slug, labelKey]) => (
+                      <Link key={slug} href={`/help/${slug}`} className="flex items-center justify-between gap-4 border-t border-border pt-3 transition-colors hover:text-foreground">
+                        <span>{help(labelKey)}</span><span aria-hidden="true">→</span>
+                      </Link>
+                    ))}
+                  </div>
+                </article>
               ))}
             </div>
           </section>
@@ -189,7 +219,9 @@ function HelpContent({locale}: {locale: SiteLocale}) {
         <section className="mt-20 border-t border-border pt-12 text-center">
           <h2 className="text-2xl font-bold">{help("needHelp.title")}</h2>
           <p className="mt-3 text-gray-600 dark:text-gray-300">{help("needHelp.desc")}</p>
-          <AppStoreCTA location="article" pageId="help" label={navigation("download")} ariaLabel={common("appStoreAria")} className="mt-6 inline-flex rounded-full bg-primary-dark px-7 py-3 font-semibold text-white hover:bg-[#1452a3]" />
+          <Link href="/support" className="mt-6 inline-flex rounded-full border border-border px-7 py-3 font-semibold transition-colors hover:border-primary hover:text-primary-dark dark:hover:text-primary-light">
+            {navigation("support")} <span className="ms-2" aria-hidden="true">→</span>
+          </Link>
         </section>
       </main>
       <SiteFooter />
@@ -211,7 +243,16 @@ function HelpImage({
   priority?: boolean;
 }) {
   const {width, height} = getMediaDimensions(src);
-  return <Image src={src} alt={alt} width={width} height={height} sizes="(max-width: 1024px) calc(100vw - 3rem), 1056px" className="mt-10 h-auto w-full rounded-2xl border border-border shadow-sm" priority={priority} />;
+  return (
+    <figure
+      data-media-evidence="true"
+      data-media-source="app-screenshot"
+      data-media-source-label={`JigsawDesigner ${PRODUCT_FACTS.currentVersion}`}
+      className="mt-10 overflow-hidden rounded-2xl border border-border shadow-sm"
+    >
+      <Image src={src} alt={alt} width={width} height={height} sizes="(max-width: 1024px) calc(100vw - 3rem), 1056px" className="h-auto w-full" priority={priority} />
+    </figure>
+  );
 }
 
 function Shortcut({keys, label}: {keys: string; label: string}) {

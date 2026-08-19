@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Ominaisuudet",
+        "product": "Tuote",
+        "showcase": "Esimerkit",
+        "learn": "Opi",
         "download": "Lataa",
         "home": "Koti",
         "support": "Tuki",
@@ -12,7 +15,7 @@
     },
     "Hero": {
         "version": "{version} Julkaistu - Kokeile nyt!",
-        "titlePart1": "Muunna mikä tahansa muoto",
+        "titlePart1": "Muunna suljettu ääriviiva",
         "titleProfessional": "muokattaviksi palapelin leikkauslinjoiksi",
         "subtitle": "Piirrä tai tuo rajaus, luo kuvio, viimeistele vektorit ja vie SVG iPhonella, iPadilla tai Macilla.",
         "learnMore": "Katso, miten se toimii"
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Miten voimme",
             "titlePart2": "auttaa sinua?",
-            "subtitle": "Olemme täällä tukemassa luovaa matkaasi. Löydä vastauksia tai ota yhteyttä tiimiimme."
+            "subtitle": "Etsi vastauksia alla olevista oppaista tai ota meihin yhteyttä tietystä ongelmasta."
         },
         "documentation": {
             "title": "Dokumentaatio",
-            "description": "Tutustu kattaviin oppaisiimme JigsawDesignerin ominaisuuksien ja työkalujen hallitsemiseksi.",
+            "description": "Lue editoria, projektikirjastoa, generointia sekä SVG-tuontia ja -vientiä koskevat oppaat.",
             "action": "Selaa Artikkeleita"
         },
         "email": {
             "title": "Sähköpostituki",
-            "description": "Tarvitsetko apua tietyn ongelman kanssa? Tukitiimimme on valmis auttamaan sinua suoraan."
+            "description": "Ota meihin yhteyttä, jos oppaat eivät ratkaise ongelmaa."
         },
         "faq": {
             "title": "Usein Kysytyt Kysymykset",
@@ -97,8 +100,8 @@
                 "answer": "Premium-tilaajat voivat viedä SVG-tiedostoja. Kaupallinen käyttö riippuu myös malliin sisältyvien kuvien, fonttien, mallipohjien ja muun sisällön oikeuksista."
             },
             "q3": {
-                "question": "Tukeeko se mukautettuja leikkauslinjoja?",
-                "answer": "Kyllä, voit tuoda mukautettuja SVG-polkuja käytettäväksi leikkauslinjoina tai käyttää edistyneitä algoritmejamme luodaksesi ainutlaatuisia kuvioita automaattisesti."
+                "question": "Voinko käyttää mukautettua liitosprofiilia?",
+                "answer": "Kyllä. Piirrä tai tuo avoin SVG-polku liitosprofiiliksi ja tarkista generoidut leikkauslinjat ennen vientiä."
             }
         }
     },
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Valitse Työkalu",
-                    "desc": "Valitse 8 piirustustyökalusta työkaluriviltä."
+                    "desc": "Käytä työkalurivin kahdeksaa valinta-, muokkaus- ja piirustustyökalua."
                 },
                 "3": {
                     "title": "Piirrä Suunnitelmasi",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Generoi Palapeli",
-                    "desc": "Napsauta 'Generoi Palapeli' luodaksesi toisiinsa kytkeytyviä paloja."
+                    "desc": "Luo muokattavat leikkauslinjat ääriviivan sisälle valitsemalla ”Generoi palapeli”."
                 },
                 "5": {
                     "title": "Vienti",
-                    "desc": "Tallenna palapelisi SVG-muodossa valmistusta tai tulostusta varten."
+                    "desc": "Vie SVG ja tarkista sen mittakaava, polut, ryhmät ja muunnokset ohjelmassa, jossa aiot käyttää sitä seuraavaksi."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Tuo rajaviiva",
-                    "desc": "Napsauta \"Tuo SVG\" tai piirrä muoto määrittääksesi ulkorajan ja \"whimsy\"-palat."
+                    "desc": "Tuo SVG:stä yksi kelvollinen suljettu ulkoraja tai piirrä se editorissa."
                 },
                 "2": {
                     "title": "Valitse liitosmalli",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "Vie SVG",
-                "desc": "Vie suunnitelmasi ja generoidut palapelisi vakiomuotoisina SVG-tiedostoina.",
+                "desc": "Nykyinen vientimuoto on SVG; säilytä .jigsawproject-paketti muokattavana projektitiedostona.",
                 "shortcut": "Pikanäppäin:",
                 "items": [
-                    "Vakiomuotoinen SVG 1.1",
-                    "Säilyttää kaikki muunnokset",
-                    "Säilyttää ryhmähierarkiat"
+                    "Nykyinen vientimuoto: SVG",
+                    "Säilytä .jigsawproject-paketti myöhempää muokkausta varten",
+                    "Tarkista mittakaava, ryhmät ja muunnokset seuraavassa ohjelmassa"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "Tarvitsetko Lisää Apua?",
-            "desc": "Vieraile tukisivullamme tai ota meihin yhteyttä suoraan saadaksesi henkilökohtaista apua"
+            "desc": "Etsi yleisiä vastauksia tukisivulta tai lähetä meille ongelman toistamiseen tarvittavat vaiheet ja tiedostot."
         },
         "metaTitle": "Ohjekeskus & Palapelin luontiopas",
         "metaDescription": "Opi generoimaan palapelien leikkausviivoja, muokkaamaan vektorimuotoja, hallitsemaan projekteja ja viemään SVG-tiedostoja JigsawDesignerilla.",
         "interfaceContent": {
             "title": "Editori & Leikkausviiva-käyttöliittymä",
-            "intro": "JigsawDesigner-editori tarjoaa ammattimaisen vektorialueen tarkkojen leikkausviivojen ja stanssien suunnitteluun.",
+            "intro": "Editorissa voit piirtää tai tuoda ääriviivan, muokata SVG-elementtejä, generoida palapelin leikkauslinjoja ja valmistella SVG:n käytettäväksi toisessa ohjelmassa.",
             "toolbar": {
                 "title": "Ylätyökalurivi",
                 "desc": "Nopea pääsy kaikkiin piirtotyökaluihin ja tiedostotoimintoihin.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Ääretön Kangas",
+                "title": "Projektin piirtoalue",
                 "desc": "Päätyötila malleillesi.",
                 "features": [
-                    "Ääretön vieritys kaikkiin suuntiin",
+                    "Projektiasetuksissa määritetyt piirtoalueen leveys ja korkeus",
                     "Viivain pikselimittauksilla",
                     "Ruudukko tarkkaa kohdistusta varten",
                     "Zoomaus hiiren rullalla tai nipistyksellä",
                     "Panoroi välilyönnillä tai kahdella sormella",
                     "Valintalaatikko näkyvissä valinnan aikana"
                 ],
-                "tip": "Käytä ⌘0 nollataksesi zoomin, ⌘1 sovittaaksesi ikkunaan."
+                "tip": "Zoomaa vierittämällä tai nipistyseleellä. Siirrä näkymää vetämällä kahdella sormella tai pitämällä välilyöntiä painettuna vetämisen aikana."
             },
             "toolsPanel": {
                 "title": "Työkalupaneeli",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Tasopaneeli",
-                "desc": "Hallitse suunnitteluhierarkiaa.",
+                "desc": "Tarkastele ja hallitse SVG-hierarkian ryhmiä ja muotoja Tasot-paneelissa.",
                 "features": [
                     "Katso ryhmät ja muodot puurakenteessa",
                     "Laajenna ryhmät nähdäksesi kohteet",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Projektitarkastaja",
-                "desc": "Oikealla oleva tarkastaja tarjoaa kaikki projektikonfiguraatiovaihtoehdot.",
+                "desc": "Oikean reunan tarkastaja näyttää projektin tai valinnan asetukset nykyisen tilanteen mukaan.",
                 "sections": {
                     "projectInfo": {
                         "title": "Projektin tiedot",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Lisäasetukset",
-                "desc": "Pääse kattaviin sovellusasetuksiin Lisäasetukset-valintaikkunan kautta.",
+                "desc": "Lisäasetuksissa voit säätää kieltä, tilausta ja editorin näyttöasetuksia.",
                 "sections": {
                     "language": {
                         "title": "Kieliasetukset",
@@ -527,9 +530,9 @@
             "myProjects": {
                 "title": "Omat Projektit",
                 "icon": "📁",
-                "desc": "Henkilökohtainen työtilasi kaikille palapelimalleille, turvallisesti tallennettu iCloudiin.",
+                "desc": "Omat projektit -osio tallentaa projektipaketit paikallisesti ja voi synkronoida ne iCloudin/CloudKitin kautta, kun pilvisynkronointi on käytössä ja saatavilla.",
                 "features": [
-                    "Automaattinen iCloud-synkronointi Mac, iPad ja iPhone välillä",
+                    "Paikalliset projektipaketit sekä valinnainen iCloud/CloudKit-synkronointi, kun se on käytössä ja saatavilla",
                     "Luo uusia projekteja +-painikkeella",
                     "Pikkukuvaesikatselut projektin nimellä ja päivämäärällä",
                     "Poista projekteja punaisella roskakoripainikkeella",
@@ -550,7 +553,7 @@
                         },
                         "publish": {
                             "title": "Julkaise",
-                            "desc": "Jaa malli kaikkien JigsawDesigner-käyttäjien kanssa"
+                            "desc": "Julkaise valittu projekti Julkiset projektit -kirjastossa, jotta muut voivat tuoda siitä kopion."
                         },
                         "share": {
                             "title": "Luo linkki",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Julkiset Projektit",
                 "icon": "🌐",
-                "desc": "Yhteisömallit kaikkien käyttäjien saatavilla. Selaa, esikatsele ja tuo malleja julkisesta kirjastosta.",
+                "desc": "Selaa Julkiset projektit -kirjastossa julkaistuja projekteja, esikatsele niitä ja tuo kopio Omiin projekteihin.",
                 "features": [
-                    "Selaa JigsawDesigner-tiimin luomia malleja",
+                    "Selaa Julkiset projektit -kirjaston projekteja",
                     "Näytä palojen määrä ennen tuontia",
                     "Napsauta \"Avaa\" esikatseluun",
                     "Napsauta \"Tuo\" kopioidaksesi Omiin Projekteihin",
-                    "Loistava oppimiseen ja inspiraatioon"
+                    "Käytä julkaistuja projekteja oppimisen tukena"
                 ],
-                "howTo": "Valitse julkinen projekti ja napsauta \"Tuo\" lisätäksesi kopion kirjastoosi."
+                "howTo": "Valitse julkinen projekti ja lisää kopio Omiin projekteihin valitsemalla ”Tuo”. Lähdeprojekti ei muutu."
             },
             "sharedProjects": {
                 "title": "Jaetut Projektit",

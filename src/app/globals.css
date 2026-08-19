@@ -12,6 +12,9 @@
   --foreground: #171717;
   --background-secondary: #f5f5f7; /* Apple-like secondary background */
   --border-color: #e5e7eb;
+  --muted-foreground: #5f6368;
+  --subtle-surface: rgba(255, 255, 255, 0.72);
+  color-scheme: light;
 }
 
 @theme inline {
@@ -23,6 +26,7 @@
   --color-primary-ultra-light: var(--primary-ultra-light);
   --color-background-secondary: var(--background-secondary);
   --color-border: var(--border-color);
+  --color-muted-foreground: var(--muted-foreground);
   
   --font-sans: system-ui, -apple-system,
     BlinkMacSystemFont, "Segoe UI", "PingFang SC", "PingFang TC",
@@ -38,7 +42,16 @@
     --background-secondary: #1c1c1e; /* Apple dark mode secondary */
     --border-color: #333333;
     --primary-ultra-light: #1A2533; /* Dark mode version of ultra light */
+    --muted-foreground: #a1a1aa;
+    --subtle-surface: rgba(28, 28, 30, 0.72);
+    color-scheme: dark;
   }
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
 }
 
 body {
@@ -51,4 +64,59 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--primary) 26%, transparent);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.display-title {
+  text-wrap: balance;
+}
+
+.prose-copy {
+  text-wrap: pretty;
+}
+
+.technical-grid {
+  background-color: var(--background-secondary);
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--border-color) 55%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--border-color) 55%, transparent) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.screenshot-frame {
+  border: 1px solid var(--border-color);
+  background: var(--background-secondary);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.08) inset,
+    0 24px 70px rgba(0, 0, 0, 0.08);
+}
+
+.subtle-surface {
+  background: var(--subtle-surface);
+  backdrop-filter: blur(20px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }

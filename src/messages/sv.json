@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Funktioner",
+        "product": "Produkt",
+        "showcase": "Exempel",
+        "learn": "Lär dig",
         "download": "Ladda ner",
         "home": "Hem",
         "support": "Kundsupport",
@@ -12,7 +15,7 @@
     },
     "Hero": {
         "version": "{version} Lanserad - Prova det nu!",
-        "titlePart1": "Förvandla valfri form till",
+        "titlePart1": "Förvandla en sluten kontur till",
         "titleProfessional": "redigerbara skärlinjer för pussel",
         "subtitle": "Rita eller importera en kontur, skapa mönstret, justera vektorerna och exportera SVG på iPhone, iPad eller Mac.",
         "learnMore": "Se hur det fungerar"
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Hur kan vi",
             "titlePart2": "hjälpa dig?",
-            "subtitle": "Vi är här för att stödja din kreativa resa. Hitta svar eller kontakta vårt team."
+            "subtitle": "Hitta svar i Hjälp, lös vanliga problem eller kontakta supporten."
         },
         "documentation": {
             "title": "Dokumentation",
-            "description": "Utforska våra omfattande guider för att bemästra JigsawDesigners funktioner och verktyg.",
+            "description": "Öppna uppgiftsbaserade guider för generering, redigering, mallar, projekt och SVG-export.",
             "action": "Bläddra i artiklar"
         },
         "email": {
             "title": "E-postsupport",
-            "description": "Behöver du hjälp med ett specifikt problem? Vårt supportteam är redo att hjälpa dig direkt."
+            "description": "Om du behöver hjälp med ett specifikt problem kan du mejla oss med plattform, appversion och tydliga steg för att återskapa problemet."
         },
         "faq": {
             "title": "Vanliga frågor",
@@ -97,8 +100,8 @@
                 "answer": "Premium-abonnenter kan exportera SVG-filer. Kommersiell användning beror också på rättigheterna till bilder, typsnitt, mallar och annat innehåll i designen."
             },
             "q3": {
-                "question": "Stöder det anpassade stanslinjer?",
-                "answer": "Ja, du kan importera anpassade SVG-banor för att använda som stanslinjer, eller använda våra avancerade algoritmer för att automatiskt generera unika mönster."
+                "question": "Kan jag använda en anpassad anslutningsprofil?",
+                "answer": "Ja. Rita en öppen anslutningsprofil i mallredigeraren eller importera en lämplig SVG-bana. Generera och kontrollera sedan de resulterande skärlinjerna."
             }
         }
     },
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Välj ett verktyg",
-                    "desc": "Välj bland 8 ritverktyg i verktygsfältet."
+                    "desc": "Välj bland åtta verktyg för markering, redigering och ritning."
                 },
                 "3": {
                     "title": "Rita din design",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Generera pussel",
-                    "desc": "Klicka på 'Generera pussel' för att skapa sammanlänkade bitar."
+                    "desc": "Generera redigerbara skärlinjer för pussel från den valda gränsen och anslutningsprofilen."
                 },
                 "5": {
                     "title": "Exportera",
-                    "desc": "Spara ditt pussel som SVG för tillverkning eller tryck."
+                    "desc": "Spara det redigerbara projektet, exportera SVG och kontrollera filen i appen som används i nästa steg av arbetsflödet."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Importera Gränskontur",
-                    "desc": "Klicka på \"Importera SVG\" eller rita en form för att definiera den yttre gränsen och \"whimsy\"-bitar."
+                    "desc": "Importera eller rita en giltig sluten yttergräns och behåll bara synlig, olåst geometri som ska användas vid genereringen."
                 },
                 "2": {
                     "title": "Välj Slitsmall",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "Exportera SVG",
-                "desc": "Exportera dina designer och genererade pussel som standard-SVG-filer.",
+                "desc": "Exportera det aktuella dokumentet och de genererade skärlinjerna som SVG.",
                 "shortcut": "Genväg:",
                 "items": [
-                    "Standard SVG 1.1-format",
-                    "Behåller alla transformationer",
-                    "Behåller grupphierarkier"
+                    "SVG är det aktuella exportformatet",
+                    "Behåll källfilen .jigsawproject för ändringar",
+                    "Kontrollera skala, grupper och transformeringar i mottagarappen"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "Behöver du mer hjälp?",
-            "desc": "Besök vår supportsida eller kontakta oss direkt för personlig hjälp"
+            "desc": "Öppna Support eller mejla oss om guiderna inte löser problemet."
         },
         "metaTitle": "Hjälpcenter & Guide för Pusselskapande",
         "metaDescription": "Lär dig att generera skärlinjer för pussel, redigera vektorformer, hantera projekt och exportera SVG-filer med JigsawDesigner.",
         "interfaceContent": {
             "title": "Editor & Skärlinje-gränssnitt",
-            "intro": "Editor för JigsawDesigner erbjuder en professionell vektorarbetsyta för att designa exakta skärlinjer och stansmallar.",
+            "intro": "Redigeraren samlar ritverktyg, Lager, mallkontroller, genereringsinställningar samt import och export av SVG på en arbetsyta.",
             "toolbar": {
                 "title": "Övre Verktygsfält",
                 "desc": "Snabb åtkomst till alla ritverktyg och filoperationer.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Oändlig Canvas",
+                "title": "Panorera och zooma på arbetsytan",
                 "desc": "Huvudytan för dina mönster.",
                 "features": [
-                    "Oändlig rullning åt alla håll",
+                    "Panorera på en arbetsyta med definierade projektmått",
                     "Linjal med pixelmått",
                     "Rutnät för exakt justering",
                     "Zooma med scrollhjul eller nyp",
                     "Panorera med mellanslag eller två fingrar",
                     "Markeringsruta synlig vid val"
                 ],
-                "tip": "Använd ⌘0 för att återställa zoom, ⌘1 för att anpassa till fönster."
+                "tip": "Använd Anpassa till fönster eller zoomkontrollerna för att rama in arbetsytan."
             },
             "toolsPanel": {
                 "title": "Verktygspanel",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Lagerpanel",
-                "desc": "Hantera designhierarkin.",
+                "desc": "Använd Lager för att granska grupper och former, expandera kapslade objekt och styra synlighet eller låsning.",
                 "features": [
                     "Se grupper och former i trädstruktur",
                     "Expandera grupper för objekt",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Projektinspektor",
-                "desc": "Inspektören till höger tillhandahåller alla projektkonfigurationsalternativ.",
+                "desc": "Använd granskaren för att redigera projektinställningar och information om den aktuella markeringen.",
                 "sections": {
                     "projectInfo": {
                         "title": "Projektinfo",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Avancerade Inställningar",
-                "desc": "Få tillgång till omfattande programinställningar via dialogrutan Avancerade Inställningar.",
+                "desc": "Öppna Avancerade inställningar för språk, prenumeration, rutnät, linjaler, fästning och linjealternativ.",
                 "sections": {
                     "language": {
                         "title": "Språkinställningar",
@@ -527,9 +530,9 @@
             "myProjects": {
                 "title": "Mina Projekt",
                 "icon": "📁",
-                "desc": "Din personliga arbetsyta för alla pusseldesigner, säkert lagrade i iCloud.",
+                "desc": "Skapa och öppna lokala projektpaket. Valfri iCloud/CloudKit-synkronisering används när den är aktiverad och tillgänglig.",
                 "features": [
-                    "Automatisk iCloud-synk mellan Mac, iPad och iPhone",
+                    "Valfri iCloud/CloudKit-synkronisering när den är aktiverad och tillgänglig",
                     "Skapa nya projekt med +-knappen",
                     "Miniatyrförhandsvisningar med projektnamn och datum",
                     "Ta bort projekt med den röda papperskorgsknappen",
@@ -550,7 +553,7 @@
                         },
                         "publish": {
                             "title": "Publicera",
-                            "desc": "Dela designen med alla JigsawDesigner-användare"
+                            "desc": "Publicera ett valt projekt i Offentliga projekt så att andra kan bläddra i det och importera en kopia."
                         },
                         "share": {
                             "title": "Skapa länk",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Offentliga Projekt",
                 "icon": "🌐",
-                "desc": "Gemenskapsmallar tillgängliga för alla användare. Bläddra, förhandsgranska och importera designer från det offentliga biblioteket.",
+                "desc": "Bläddra bland och förhandsgranska offentliga projekt och importera en kopia till Mina projekt.",
                 "features": [
-                    "Bläddra bland mallar skapade av JigsawDesigner-teamet",
+                    "Bläddra bland tillgängliga offentliga projekt",
                     "Visa antal bitar före import",
                     "Klicka \"Öppna\" för att förhandsgranska",
                     "Klicka \"Importera\" för att kopiera till Mina Projekt",
-                    "Perfekt för lärande och inspiration"
+                    "Granska ett projekt före import"
                 ],
-                "howTo": "Välj ett offentligt projekt och klicka \"Importera\" för att lägga till en kopia i ditt bibliotek."
+                "howTo": "Välj ett offentligt projekt och välj Importera för att lägga till en kopia i Mina projekt. Kontrollera innehållet och tillämpliga rättigheter innan du återanvänder det."
             },
             "sharedProjects": {
                 "title": "Delade Projekt",

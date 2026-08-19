@@ -16,6 +16,54 @@ export type ContentImage = {
   layout?: "wide" | "panel" | "strip";
 };
 
+export type MediaSourceKind =
+  | "app-screenshot"
+  | "exported-svg"
+  | "real-photo"
+  | "ai-concept";
+
+/**
+ * A visible asset with enough provenance to distinguish product evidence from
+ * editorial illustration. Intrinsic dimensions live in config/media.ts so
+ * there is one authoritative size registry for Next/Image and validation.
+ */
+export type MediaEvidence = {
+  src: VersionedMediaPath;
+  alt: string;
+  caption?: string;
+  source: {
+    kind: MediaSourceKind;
+    label: string;
+    original?: string;
+  };
+  /** Required whenever source.kind is "ai-concept". */
+  conceptLabel?: string;
+};
+
+export type ProjectExample = {
+  status: "published" | "draft";
+  title: string;
+  objective: string;
+  inputLabel: string;
+  resultLabel: string;
+  input: MediaEvidence;
+  result: MediaEvidence;
+  template: string;
+  editAction: string;
+  steps: string[];
+  device: string;
+  finishedAsset?: MediaEvidence;
+};
+
+export type LearningEntry = {
+  stage: "understand" | "make" | "edit-export";
+  title: string;
+  description: string;
+  href: string;
+  difficulty: "beginner" | "intermediate";
+  duration: string;
+};
+
 export type ContentSection = {
   id: string;
   title: string;

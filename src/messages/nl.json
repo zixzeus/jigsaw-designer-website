@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Kenmerken",
+        "product": "Product",
+        "showcase": "Voorbeelden",
+        "learn": "Leren",
         "download": "Downloaden",
         "home": "Start",
         "support": "Ondersteuning",
@@ -12,7 +15,7 @@
     },
     "Hero": {
         "version": "{version} Uitgebracht - Probeer het nu!",
-        "titlePart1": "Zet elke vorm om in",
+        "titlePart1": "Zet een gesloten contour om in",
         "titleProfessional": "bewerkbare snijlijnen voor puzzels",
         "subtitle": "Teken of importeer een omtrek, genereer het patroon, verfijn de vectoren en exporteer SVG op iPhone, iPad of Mac.",
         "learnMore": "Bekijk hoe het werkt"
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Hoe kunnen we",
             "titlePart2": "u helpen?",
-            "subtitle": "Wij zijn er om uw creatieve reis te ondersteunen. Vind antwoorden of neem contact op met ons team."
+            "subtitle": "Vind antwoorden in Help, los veelvoorkomende problemen op of neem contact op met ondersteuning."
         },
         "documentation": {
             "title": "Documentatie",
-            "description": "Verken onze uitgebreide gidsen om de functies en tools van JigsawDesigner onder de knie te krijgen.",
+            "description": "Open taakgerichte handleidingen voor genereren, bewerken, sjablonen, projecten en SVG-export.",
             "action": "Blader door Artikelen"
         },
         "email": {
             "title": "E-mailondersteuning",
-            "description": "Hulp nodig bij een specifiek probleem? Ons ondersteuningsteam staat klaar om u direct te helpen."
+            "description": "Stuur ons voor hulp bij een specifiek probleem een e-mail met uw platform, appversie en duidelijke stappen om het probleem te reproduceren."
         },
         "faq": {
             "title": "Veelgestelde Vragen",
@@ -97,8 +100,8 @@
                 "answer": "Premium-abonnees kunnen SVG-bestanden exporteren. Commercieel gebruik hangt ook af van de rechten op afbeeldingen, lettertypen, sjablonen en andere inhoud in het ontwerp."
             },
             "q3": {
-                "question": "Ondersteunt het aangepaste stanslijnen?",
-                "answer": "Ja, u kunt aangepaste SVG-paden importeren om als stanslijnen te gebruiken, of onze geavanceerde algoritmen gebruiken om automatisch unieke patronen te genereren."
+                "question": "Kan ik een aangepast verbindingsprofiel gebruiken?",
+                "answer": "Ja. Teken een open verbindingspad in de Sjablooneditor of importeer een geschikt SVG-pad. Genereer en controleer daarna de resulterende snijlijnen."
             }
         }
     },
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Kies een Gereedschap",
-                    "desc": "Selecteer een van de 8 tekengereedschappen in de werkbalk."
+                    "desc": "Kies uit acht gereedschappen voor selecteren, bewerken en tekenen."
                 },
                 "3": {
                     "title": "Teken Je Ontwerp",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Genereer Puzzel",
-                    "desc": "Klik op 'Genereer Puzzel' om in elkaar grijpende stukjes te maken."
+                    "desc": "Genereer bewerkbare puzzelsnijlijnen op basis van de geselecteerde grens en het verbindingsprofiel."
                 },
                 "5": {
                     "title": "Exporteren",
-                    "desc": "Sla je puzzel op als SVG voor productie of drukwerk."
+                    "desc": "Bewaar het bewerkbare project, exporteer SVG en controleer het bestand in de vervolgapp van uw workflow."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Grenscontour Importeren",
-                    "desc": "Klik op \"Importeer SVG\" of teken een vorm om de buitenste grens en de \"whimsy\" stukken te definiëren."
+                    "desc": "Importeer of teken één geldige gesloten buitengrens en laat alleen zichtbare, ontgrendelde geometrie staan die voor de generatie is bedoeld."
                 },
                 "2": {
                     "title": "Sleuf-sjabloon Selecteren",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "SVG Exporteren",
-                "desc": "Exporteer je ontwerpen en gegenereerde puzzels als standaard SVG-bestanden.",
+                "desc": "Exporteer het huidige document en de gegenereerde snijlijnen als SVG.",
                 "shortcut": "Sneltoets:",
                 "items": [
-                    "Standaard SVG 1.1 formaat",
-                    "Behoudt alle transformaties",
-                    "Behoudt groepshiërarchieën"
+                    "SVG is de huidige exportindeling",
+                    "Bewaar het bronbestand .jigsawproject voor wijzigingen",
+                    "Controleer schaal, groepen en transformaties in de ontvangende app"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "Meer Hulp Nodig?",
-            "desc": "Bezoek onze ondersteuningspagina of neem direct contact met ons op voor persoonlijke hulp"
+            "desc": "Open Ondersteuning of e-mail ons als de handleidingen het probleem niet oplossen."
         },
         "metaTitle": "Helpcentrum & Gids voor Puzzelgeneratie",
         "metaDescription": "Leer hoe u met JigsawDesigner snijlijnen voor legpuzzels genereert, vectorvormen bewerkt, projecten beheert en SVG-bestanden exporteert.",
         "interfaceContent": {
             "title": "Editor & Snijlijn Interface",
-            "intro": "De JigsawDesigner-editor biedt een professionele vector-werkruimte voor het ontwerpen van precisie snijlijnen en stansmessen.",
+            "intro": "De editor brengt tekengereedschappen, Lagen, sjablooninstellingen, generatie-instellingen en SVG-import en -export samen in één werkruimte.",
             "toolbar": {
                 "title": "Bovenste Werkbalk",
                 "desc": "Snelle toegang tot alle tekengereedschappen en bestandsbewerkingen.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Oneindig Canvas",
+                "title": "Het canvas verschuiven en zoomen",
                 "desc": "De belangrijkste werkruimte voor je ontwerpen.",
                 "features": [
-                    "Oneindig scrollen in alle richtingen",
+                    "Beweeg over een canvas met vastgelegde projectafmetingen",
                     "Liniaal met pixelmetingen",
                     "Raster voor nauwkeurige uitlijning",
                     "Zoomen met scrollwiel of knijpbeweging",
                     "Pannen met spatiebalk of twee vingers",
                     "Selectiekader zichtbaar bij selectie"
                 ],
-                "tip": "Gebruik ⌘0 om zoom te resetten, ⌘1 om aan venster aan te passen."
+                "tip": "Gebruik Aanpassen aan venster of de zoomregelaars om het canvas in beeld te brengen."
             },
             "toolsPanel": {
                 "title": "Gereedschapspaneel",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Lagenpaneel",
-                "desc": "Beheer de ontwerphiërarchie.",
+                "desc": "Gebruik Lagen om groepen en vormen te bekijken, geneste items uit te vouwen en zichtbaarheid of vergrendeling te regelen.",
                 "features": [
                     "Zie groepen en vormen in boomstructuur",
                     "Groepen uitvouwen om items te zien",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Projectinspector",
-                "desc": "De inspector aan de rechterkant biedt alle projectconfiguratie-opties.",
+                "desc": "Gebruik het infovenster om projectinstellingen en informatie over de huidige selectie te bewerken.",
                 "sections": {
                     "projectInfo": {
                         "title": "Projectinfo",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Geavanceerde Instellingen",
-                "desc": "Toegang tot uitgebreide app-instellingen.",
+                "desc": "Open Geavanceerde instellingen voor taal, abonnement, raster, linialen, uitlijnen en lijnopties.",
                 "sections": {
                     "language": {
                         "title": "Taalinstellingen",
@@ -526,9 +529,9 @@
             "intro": "De Projectbibliotheek is uw centrale hub voor het beheren van alle designs.",
             "myProjects": {
                 "title": "Mijn Projecten",
-                "desc": "Uw persoonlijke werkruimte voor puzzelontwerpen in iCloud.",
+                "desc": "Maak en open lokale projectpakketten; optionele iCloud/CloudKit-synchronisatie is beschikbaar wanneer deze is ingeschakeld en beschikbaar.",
                 "features": [
-                    "Automatische iCloud-synchronisatie tussen Mac, iPad en iPhone",
+                    "Optionele iCloud/CloudKit-synchronisatie wanneer ingeschakeld en beschikbaar",
                     "Maak nieuwe projecten met de + knop",
                     "Miniatuurvoorbeelden met projectnaam en datum",
                     "Verwijder projecten met de rode prullenbakknop",
@@ -549,7 +552,7 @@
                         },
                         "publish": {
                             "title": "Publiceren",
-                            "desc": "Deel uw ontwerp met alle JigsawDesigner-gebruikers. Gepubliceerde projecten verschijnen in de Openbare Projecten bibliotheek."
+                            "desc": "Publiceer een geselecteerd project in Openbare projecten, zodat anderen het kunnen bekijken en een kopie kunnen importeren."
                         },
                         "share": {
                             "title": "Link Maken",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Openbare Projecten",
                 "icon": "🌐",
-                "desc": "Door de gemeenschap gedeelde sjablonen beschikbaar voor alle gebruikers. Blader door, bekijk en importeer ontwerpen uit onze openbare bibliotheek.",
+                "desc": "Bekijk openbare projecten, bekijk een voorbeeld en importeer een kopie in Mijn projecten.",
                 "features": [
-                    "Blader door sjablonen gemaakt door het JigsawDesigner-team",
+                    "Beschikbare openbare projecten bekijken",
                     "Bekijk het aantal stukken voor het importeren",
                     "Klik op \"Openen\" om een voorbeeld te bekijken",
                     "Klik op \"Importeren\" om naar Mijn Projecten te kopiëren",
-                    "Geweldig om te leren en inspiratie op te doen"
+                    "Controleer een project voordat u het importeert"
                 ],
-                "howTo": "Selecteer een openbaar project en klik op \"Importeren\" om een kopie toe te voegen aan uw persoonlijke bibliotheek. U kunt het dan vrij aanpassen."
+                "howTo": "Selecteer een openbaar project en kies Importeren om een kopie aan Mijn projecten toe te voegen. Controleer de inhoud en toepasselijke rechten voordat u deze opnieuw gebruikt."
             },
             "sharedProjects": {
                 "title": "Gedeelde Projecten",

@@ -2,74 +2,110 @@ import Image from "next/image";
 import {useLocale, useTranslations} from "next-intl";
 
 import {isRouteAvailable, isSiteLocale} from "@/config/seo";
+import {PRODUCT_FACTS} from "@/config/product";
+import {isTierOneLocale, type TierOneLocale} from "@/content/types";
 import {Link} from "@/i18n/navigation";
+
+const tierOneCopy: Record<TierOneLocale, {tagline: string; tutorial: string}> = {
+  en: {
+    tagline: "Editable puzzle cutlines and SVG workflows for Apple devices.",
+    tutorial: "Making guide",
+  },
+  "zh-Hans": {
+    tagline: "面向 Apple 设备的可编辑拼图切割线与 SVG 工作流。",
+    tutorial: "制作教程",
+  },
+  "zh-Hant": {
+    tagline: "適用於 Apple 裝置的可編輯拼圖切割線與 SVG 工作流程。",
+    tutorial: "製作教學",
+  },
+};
 
 export default function SiteFooter() {
   const footer = useTranslations("Footer");
   const navigation = useTranslations("Navigation");
   const common = useTranslations("Common");
   const locale = useLocale();
+  const tierOneLocale = isTierOneLocale(locale) ? locale : null;
   const showTierOneLinks =
     isSiteLocale(locale) && isRouteAvailable("/pricing", locale);
+  const productLabel = tierOneLocale
+    ? navigation("product")
+    : navigation("features");
+  const learnLabel = tierOneLocale
+    ? navigation("learn")
+    : navigation("help");
 
   return (
-    <footer className="border-t border-border bg-background-secondary py-12">
-      <div className="container mx-auto grid gap-8 px-6 md:grid-cols-[1fr_auto] md:px-12">
-        <div>
+    <footer className="border-t border-border bg-background-secondary/70 py-14 md:py-16">
+      <div className="mx-auto grid max-w-7xl gap-12 px-5 md:px-8 lg:grid-cols-[1.35fr_2fr]">
+        <div className="max-w-sm">
           <Link
             href="/"
             className="inline-flex items-center gap-3"
             aria-label={`${common("appName")} — ${navigation("home")}`}
           >
-            <span className="relative h-8 w-8 overflow-hidden rounded-lg">
+            <span className="relative h-9 w-9 overflow-hidden rounded-[0.8rem] ring-1 ring-black/5 dark:ring-white/10">
               <Image
                 src="/app-icon-v1.webp"
                 alt=""
                 fill
-                sizes="32px"
+                sizes="36px"
                 className="object-cover"
               />
             </span>
-            <span className="font-semibold">{common("appName")}</span>
+            <span className="font-semibold tracking-tight">{common("appName")}</span>
           </Link>
+          {tierOneLocale ? (
+            <p className="mt-5 text-sm leading-6 text-gray-600 dark:text-gray-300">
+              {tierOneCopy[tierOneLocale].tagline}
+            </p>
+          ) : null}
         </div>
 
-        <nav
-          aria-label={`${common("appName")} — ${footer("help")}`}
-          className="flex flex-wrap gap-x-6 gap-y-3 text-sm text-gray-600 dark:text-gray-300 md:justify-end"
-        >
-          <Link href="/help" className="hover:text-primary-dark dark:hover:text-primary-light">
-            {footer("help")}
-          </Link>
-          {showTierOneLinks ? (
-            <>
-              <Link href="/pricing" className="hover:text-primary-dark dark:hover:text-primary-light">
-                {footer("pricing")}
-              </Link>
-            </>
-          ) : null}
-          <Link href="/privacy" className="hover:text-primary-dark dark:hover:text-primary-light">
-            {footer("privacy")}
-          </Link>
-          {showTierOneLinks ? (
-            <>
-              <Link href="/terms" className="hover:text-primary-dark dark:hover:text-primary-light">
-                {footer("terms")}
-              </Link>
-              <Link href="/refund-policy" className="hover:text-primary-dark dark:hover:text-primary-light">
-                {footer("refund")}
-              </Link>
-            </>
-          ) : null}
-          <Link href="/support" className="hover:text-primary-dark dark:hover:text-primary-light">
-            {footer("support")}
-          </Link>
-        </nav>
+        <div className="grid gap-9 sm:grid-cols-3">
+          <FooterGroup title={productLabel}>
+            <Link href="/#product">{productLabel}</Link>
+            {showTierOneLinks ? <Link href="/showcase">{navigation("showcase")}</Link> : null}
+            {showTierOneLinks ? <Link href="/pricing">{footer("pricing")}</Link> : null}
+            {showTierOneLinks ? <Link href="/changelog/1-6-0">Version {PRODUCT_FACTS.currentVersion}</Link> : null}
+          </FooterGroup>
 
-        <p className="text-sm text-gray-600 dark:text-gray-300 md:col-span-2">
+          <FooterGroup title={learnLabel}>
+            {showTierOneLinks ? <Link href="/learn">{learnLabel}</Link> : null}
+            <Link href="/help">{footer("help")}</Link>
+            {tierOneLocale ? (
+              <Link href="/how-to-make-a-laser-cut-jigsaw-puzzle">
+                {tierOneCopy[tierOneLocale].tutorial}
+              </Link>
+            ) : null}
+          </FooterGroup>
+
+          <FooterGroup title={footer("support")}>
+            <Link href="/support">{footer("support")}</Link>
+            <Link href="/privacy">{footer("privacy")}</Link>
+            {showTierOneLinks ? <Link href="/terms">{footer("terms")}</Link> : null}
+            {showTierOneLinks ? <Link href="/refund-policy">{footer("refund")}</Link> : null}
+          </FooterGroup>
+        </div>
+
+        <p className="border-t border-border pt-6 text-xs text-gray-500 lg:col-span-2">
           {footer("rights", {year: new Date().getFullYear()})}
         </p>
       </div>
     </footer>
+  );
+}
+
+function FooterGroup({title, children}: {title: string; children: React.ReactNode}) {
+  return (
+    <nav aria-label={title} className="flex flex-col items-start gap-3 text-sm">
+      <h2 className="mb-1 text-xs font-semibold uppercase tracking-[0.14em] text-gray-500">
+        {title}
+      </h2>
+      <div className="flex flex-col items-start gap-3 text-gray-600 [&_a]:transition-colors [&_a]:hover:text-foreground dark:text-gray-300">
+        {children}
+      </div>
+    </nav>
   );
 }

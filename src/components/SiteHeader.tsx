@@ -27,6 +27,13 @@ export default function SiteHeader({
   const showTierOneLinks =
     isSiteLocale(locale) && isRouteAvailable("/pricing", locale);
 
+  const productLabel = showTierOneLinks
+    ? navigation("product")
+    : navigation("features");
+  const learnLabel = showTierOneLinks
+    ? navigation("learn")
+    : navigation("help");
+
   useEffect(() => {
     if (!isMenuOpen) return;
 
@@ -42,14 +49,14 @@ export default function SiteHeader({
   }, [isMenuOpen]);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-border bg-background/90 backdrop-blur-xl">
-      <div className="container mx-auto flex h-16 items-center justify-between gap-4 px-4 md:px-8">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-border/80 bg-background/88 backdrop-blur-2xl">
+      <div className="mx-auto flex h-[4.5rem] max-w-7xl items-center justify-between gap-5 px-5 md:px-8">
         <Link
           href="/"
           className="flex min-w-0 items-center gap-3 transition-opacity hover:opacity-80"
           aria-label={`${common("appName")} — ${navigation("home")}`}
         >
-          <span className="relative h-9 w-9 shrink-0 overflow-hidden rounded-xl shadow-sm">
+          <span className="relative h-9 w-9 shrink-0 overflow-hidden rounded-[0.8rem] shadow-sm ring-1 ring-black/5 dark:ring-white/10">
             <Image
               src="/app-icon-v1.webp"
               alt=""
@@ -66,28 +73,43 @@ export default function SiteHeader({
 
         <nav
           aria-label={navigationLabel}
-          className="hidden items-center gap-5 text-sm font-medium lg:flex"
+          className="hidden items-center gap-1 text-sm font-medium lg:flex"
         >
           <Link
-            href="/#features"
-            className="transition-colors hover:text-primary-dark dark:hover:text-primary-light"
+            href="/#product"
+            className="rounded-full px-3.5 py-2 transition-colors hover:bg-background-secondary hover:text-foreground"
           >
-            {navigation("features")}
-          </Link>
-          <Link
-            href="/help"
-            className="transition-colors hover:text-primary-dark dark:hover:text-primary-light"
-          >
-            {navigation("help")}
+            {productLabel}
           </Link>
           {showTierOneLinks ? (
+            <>
+              <Link
+                href="/showcase"
+                className="rounded-full px-3.5 py-2 transition-colors hover:bg-background-secondary hover:text-foreground"
+              >
+                {navigation("showcase")}
+              </Link>
+              <Link
+                href="/learn"
+                className="rounded-full px-3.5 py-2 transition-colors hover:bg-background-secondary hover:text-foreground"
+              >
+                {learnLabel}
+              </Link>
+              <Link
+                href="/pricing"
+                className="rounded-full px-3.5 py-2 transition-colors hover:bg-background-secondary hover:text-foreground"
+              >
+                {navigation("pricing")}
+              </Link>
+            </>
+          ) : (
             <Link
-              href="/pricing"
-              className="transition-colors hover:text-primary-dark dark:hover:text-primary-light"
+              href="/help"
+              className="rounded-full px-3.5 py-2 transition-colors hover:bg-background-secondary hover:text-foreground"
             >
-              {navigation("pricing")}
+              {learnLabel}
             </Link>
-          ) : null}
+          )}
           {showLanguageSwitcher ? <LanguageSwitcher /> : null}
           <AppStoreCTA
             location="header"
@@ -120,47 +142,50 @@ export default function SiteHeader({
           aria-label={navigationLabel}
           className="border-t border-border bg-background px-5 py-5 shadow-xl lg:hidden"
         >
-          <div className="mx-auto flex max-w-xl flex-col gap-4 text-sm font-medium">
+          <div className="mx-auto flex max-w-xl flex-col text-sm font-medium">
             <Link
               ref={firstMobileLinkRef}
-              href="/"
+              href="/#product"
               onClick={() => setIsMenuOpen(false)}
-              className="rounded-md py-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark hover:text-primary-dark dark:focus-visible:ring-primary-light dark:hover:text-primary-light"
+              className="rounded-xl px-3 py-3.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark hover:bg-background-secondary dark:focus-visible:ring-primary-light"
             >
-              {navigation("home")}
-            </Link>
-            <Link
-              href="/#features"
-              onClick={() => setIsMenuOpen(false)}
-              className="rounded-md py-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark hover:text-primary-dark dark:focus-visible:ring-primary-light dark:hover:text-primary-light"
-            >
-              {navigation("features")}
-            </Link>
-            <Link
-              href="/help"
-              onClick={() => setIsMenuOpen(false)}
-              className="rounded-md py-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark hover:text-primary-dark dark:focus-visible:ring-primary-light dark:hover:text-primary-light"
-            >
-              {navigation("help")}
+              {productLabel}
             </Link>
             {showTierOneLinks ? (
+              <>
+                <Link
+                  href="/showcase"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="rounded-xl px-3 py-3.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark hover:bg-background-secondary dark:focus-visible:ring-primary-light"
+                >
+                  {navigation("showcase")}
+                </Link>
+                <Link
+                  href="/learn"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="rounded-xl px-3 py-3.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark hover:bg-background-secondary dark:focus-visible:ring-primary-light"
+                >
+                  {learnLabel}
+                </Link>
+                <Link
+                  href="/pricing"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="rounded-xl px-3 py-3.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark hover:bg-background-secondary dark:focus-visible:ring-primary-light"
+                >
+                  {navigation("pricing")}
+                </Link>
+              </>
+            ) : (
               <Link
-                href="/pricing"
+                href="/help"
                 onClick={() => setIsMenuOpen(false)}
-                className="rounded-md py-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark hover:text-primary-dark dark:focus-visible:ring-primary-light dark:hover:text-primary-light"
+                className="rounded-xl px-3 py-3.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark hover:bg-background-secondary dark:focus-visible:ring-primary-light"
               >
-                {navigation("pricing")}
+                {learnLabel}
               </Link>
-            ) : null}
-            <Link
-              href="/support"
-              onClick={() => setIsMenuOpen(false)}
-              className="rounded-md py-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark hover:text-primary-dark dark:focus-visible:ring-primary-light dark:hover:text-primary-light"
-            >
-              {navigation("support")}
-            </Link>
+            )}
             {showLanguageSwitcher ? (
-              <div className="border-y border-border py-3">
+              <div className="my-2 border-y border-border px-3 py-3">
                 <LanguageSwitcher />
               </div>
             ) : null}
@@ -168,7 +193,7 @@ export default function SiteHeader({
               location="header"
               label={navigation("download")}
               ariaLabel={common("appStoreAria")}
-              className="rounded-full bg-primary-dark px-4 py-2 text-center text-white shadow-sm transition-colors hover:bg-[#1452a3]"
+              className="mt-2 rounded-full bg-primary-dark px-4 py-3 text-center text-white shadow-sm transition-colors hover:bg-[#1452a3]"
             />
           </div>
         </nav>

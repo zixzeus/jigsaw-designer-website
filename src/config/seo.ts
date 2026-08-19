@@ -98,7 +98,7 @@ export function isSiteLocale(locale: string): locale is SiteLocale {
   return Object.prototype.hasOwnProperty.call(LOCALE_SPECS, locale);
 }
 
-export type SeoRouteKind = "base" | "marketing" | "guide" | "release" | "legal";
+export type SeoRouteKind = "base" | "hub" | "marketing" | "guide" | "release" | "legal";
 
 export interface SeoRoute {
   readonly pathname: string;
@@ -115,6 +115,8 @@ export const SEO_ROUTES = [
   {pathname: "/help", kind: "base", locales: SITE_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
   {pathname: "/support", kind: "base", locales: SITE_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.6},
   {pathname: "/privacy", kind: "base", locales: SITE_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "yearly", priority: 0.3},
+  {pathname: "/showcase", kind: "hub", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
+  {pathname: "/learn", kind: "hub", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
   {pathname: "/pricing", kind: "marketing", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
   {pathname: "/jigsaw-puzzle-generator", kind: "marketing", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
   {pathname: "/jigsaw-dieline-generator", kind: "marketing", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},

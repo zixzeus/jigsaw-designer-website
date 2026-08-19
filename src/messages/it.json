@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Funzionalità",
+        "product": "Prodotto",
+        "showcase": "Progetti",
+        "learn": "Impara",
         "download": "Scarica",
         "home": "Inizio",
         "support": "Supporto",
@@ -12,7 +15,7 @@
     },
     "Hero": {
         "version": "{version} Rilasciato - Provalo ora!",
-        "titlePart1": "Trasforma qualsiasi forma in",
+        "titlePart1": "Trasforma un contorno chiuso in",
         "titleProfessional": "linee di taglio per puzzle modificabili",
         "subtitle": "Disegna o importa un contorno, genera il motivo, perfeziona i vettori ed esporta SVG su iPhone, iPad o Mac.",
         "learnMore": "Scopri come funziona"
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Come possiamo",
             "titlePart2": "aiutarti?",
-            "subtitle": "Siamo qui per supportare il tuo viaggio creativo. Trova risposte o mettiti in contatto con il nostro team."
+            "subtitle": "Consulta le guide qui sotto o contattaci per un problema specifico."
         },
         "documentation": {
             "title": "Documentazione",
-            "description": "Esplora le nostre guide complete per padroneggiare le funzionalità e gli strumenti di JigsawDesigner.",
+            "description": "Consulta le guide sull’editor, la libreria dei progetti, la generazione e l’importazione o esportazione SVG.",
             "action": "Sfoglia Articoli"
         },
         "email": {
             "title": "Supporto Email",
-            "description": "Hai bisogno di aiuto con un problema specifico? Il nostro team di supporto è pronto ad aiutarti direttamente."
+            "description": "Contattaci se le guide non risolvono il problema."
         },
         "faq": {
             "title": "Domande Frequenti",
@@ -97,8 +100,8 @@
                 "answer": "Gli abbonati Premium possono esportare file SVG. L’uso commerciale dipende anche dai diritti su immagini, font, modelli e altri contenuti inclusi nel progetto."
             },
             "q3": {
-                "question": "Supporta linee di fustellatura personalizzate?",
-                "answer": "Sì, puoi importare percorsi SVG personalizzati da utilizzare come linee di fustellatura o utilizzare i nostri algoritmi avanzati per generare automaticamente modelli unici."
+                "question": "Posso usare un profilo di incastro personalizzato?",
+                "answer": "Sì. Disegna o importa un percorso SVG aperto come profilo di incastro, quindi controlla le linee di taglio generate prima dell’esportazione."
             }
         }
     },
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Scegli uno Strumento",
-                    "desc": "Seleziona tra 8 strumenti di disegno nella barra degli strumenti."
+                    "desc": "Usa gli otto strumenti di selezione, modifica e disegno nella barra degli strumenti."
                 },
                 "3": {
                     "title": "Disegna il Tuo Design",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Genera Puzzle",
-                    "desc": "Clicca su 'Genera Puzzle' per creare pezzi a incastro."
+                    "desc": "Fai clic su «Genera puzzle» per creare linee di taglio modificabili all’interno del contorno."
                 },
                 "5": {
                     "title": "Esporta",
-                    "desc": "Salva il tuo puzzle come SVG per la produzione o la stampa."
+                    "desc": "Esporta un SVG, quindi controlla scala, percorsi, gruppi e trasformazioni nel software che userai in seguito."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Importa Contorno Limite",
-                    "desc": "Clicca su \"Importa SVG\" o disegna una forma per definire il confine esterno e le parti \"whimsy\"."
+                    "desc": "Importa da SVG un solo contorno esterno valido e chiuso, oppure disegnalo nell’editor."
                 },
                 "2": {
                     "title": "Seleziona Modello Incastro",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "Esporta SVG",
-                "desc": "Esporta i tuoi design e puzzle generati come file SVG standard.",
+                "desc": "Il formato di esportazione attuale è SVG; conserva il pacchetto .jigsawproject come file di progetto modificabile.",
                 "shortcut": "Scorciatoia:",
                 "items": [
-                    "Formato SVG 1.1 standard",
-                    "Preserva tutte le trasformazioni",
-                    "Mantiene le gerarchie dei gruppi"
+                    "Formato di esportazione attuale: SVG",
+                    "Conserva il pacchetto .jigsawproject per continuare le modifiche",
+                    "Controlla scala, gruppi e trasformazioni nel software di destinazione"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "Hai Bisogno di Più Aiuto?",
-            "desc": "Visita la nostra pagina di supporto o contattaci direttamente per assistenza personalizzata"
+            "desc": "Consulta la pagina di supporto per le risposte comuni o inviaci i passaggi e i file necessari per riprodurre il problema."
         },
         "metaTitle": "Centro Assistenza e Guida alla Generazione",
         "metaDescription": "Scopri come generare linee di taglio per puzzle, modificare forme vettoriali, gestire progetti ed esportare file SVG con JigsawDesigner.",
         "interfaceContent": {
             "title": "Interfaccia Editor e Taglio",
-            "intro": "L’editor di JigsawDesigner offre uno spazio di lavoro vettoriale professionale per progettare linee di taglio di precisione.",
+            "intro": "Usa l’editor per disegnare o importare un contorno, modificare elementi SVG, generare linee di taglio del puzzle e preparare un SVG per altri software.",
             "toolbar": {
                 "title": "Barra degli Strumenti Superiore",
                 "desc": "Accesso rapido a tutti gli strumenti di disegno e operazioni sui file.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Tela Infinita",
+                "title": "Tela del progetto",
                 "desc": "Lo spazio di lavoro principale per i tuoi design.",
                 "features": [
-                    "Scorrimento infinito in tutte le direzioni",
+                    "Larghezza e altezza della tela definite nelle impostazioni del progetto",
                     "Righello con misure in pixel",
                     "Griglia per allineamento preciso",
                     "Zoom con rotella o pizzico",
                     "Panoramica con barra spaziatrice o due dita",
                     "Riquadro di selezione visibile"
                 ],
-                "tip": "Usa ⌘0 per reset zoom, ⌘1 per adattare alla finestra."
+                "tip": "Usa lo scorrimento o il gesto di pizzico per lo zoom. Sposta la tela trascinando con due dita o tenendo premuta la barra spaziatrice durante il trascinamento."
             },
             "toolsPanel": {
                 "title": "Pannello Strumenti",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Pannello Livelli",
-                "desc": "Gestisci la gerarchia del design.",
+                "desc": "Usa il pannello Livelli per visualizzare e gestire gruppi e forme nella gerarchia SVG.",
                 "features": [
                     "Vedi gruppi e forme ad albero",
                     "Espandi gruppi",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Ispettore Progetto",
-                "desc": "L'ispettore laterale fornisce tutte le opzioni di configurazione del progetto.",
+                "desc": "L’ispettore laterale mostra le impostazioni del progetto o della selezione in base al contesto corrente.",
                 "sections": {
                     "projectInfo": {
                         "title": "Info Progetto",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Impostazioni Avanzate",
-                "desc": "Accedi alle impostazioni complete dell'applicazione.",
+                "desc": "Usa le Impostazioni avanzate per modificare lingua, abbonamento e opzioni di visualizzazione dell’editor.",
                 "sections": {
                     "language": {
                         "title": "Impostazioni Lingua",
@@ -526,9 +529,9 @@
             "intro": "La Libreria Progetti è il tuo hub centrale per gestire tutti i design.",
             "myProjects": {
                 "title": "I Miei Progetti",
-                "desc": "Il tuo spazio personale per i design di puzzle in iCloud.",
+                "desc": "I miei progetti archivia i pacchetti di progetto localmente e può sincronizzarli tramite iCloud/CloudKit quando la sincronizzazione cloud è attiva e disponibile.",
                 "features": [
-                    "Sincronizzazione iCloud automatica tra Mac, iPad e iPhone",
+                    "Pacchetti di progetto locali, con sincronizzazione iCloud/CloudKit facoltativa quando è attiva e disponibile",
                     "Crea nuovi progetti con il pulsante +",
                     "Anteprime miniatura con nome e data del progetto",
                     "Elimina progetti usando il pulsante cestino rosso",
@@ -549,7 +552,7 @@
                         },
                         "publish": {
                             "title": "Pubblica",
-                            "desc": "Condividi il tuo design con tutti gli utenti JigsawDesigner. I progetti pubblicati appaiono nella libreria Progetti Pubblici."
+                            "desc": "Pubblica il progetto selezionato nella libreria Progetti pubblici in modo che altri possano importarne una copia."
                         },
                         "share": {
                             "title": "Crea Link",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Progetti Pubblici",
                 "icon": "🌐",
-                "desc": "Modelli condivisi dalla community disponibili per tutti. Sfoglia, anteprima e importa design dalla nostra libreria pubblica.",
+                "desc": "Sfoglia i progetti pubblicati nella libreria Progetti pubblici, visualizzane l’anteprima e importane una copia in I miei progetti.",
                 "features": [
-                    "Sfoglia modelli creati dal team JigsawDesigner",
+                    "Sfoglia i progetti disponibili nella libreria Progetti pubblici",
                     "Visualizza il conteggio pezzi prima dell'importazione",
                     "Clicca \"Apri\" per l'anteprima del design",
                     "Clicca \"Importa\" per copiare in I Miei Progetti",
-                    "Ottimo per imparare e ispirarsi"
+                    "Usa i progetti pubblicati come riferimento per imparare"
                 ],
-                "howTo": "Seleziona qualsiasi progetto pubblico e clicca \"Importa\" per aggiungere una copia alla tua libreria personale. Puoi poi personalizzarlo liberamente."
+                "howTo": "Seleziona un progetto pubblico e fai clic su «Importa» per aggiungerne una copia a I miei progetti. Il progetto di origine rimane invariato."
             },
             "sharedProjects": {
                 "title": "Progetti Condivisi",

@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Funkcje",
+        "product": "Produkt",
+        "showcase": "Przykłady",
+        "learn": "Nauka",
         "download": "Pobierz",
         "home": "Strona Główna",
         "support": "Wsparcie",
@@ -12,7 +15,7 @@
     },
     "Hero": {
         "version": "{version} Wydano - Wypróbuj teraz!",
-        "titlePart1": "Zamień dowolny kształt w",
+        "titlePart1": "Zamień zamknięty obrys w",
         "titleProfessional": "edytowalne linie cięcia puzzli",
         "subtitle": "Narysuj lub zaimportuj obrys, wygeneruj wzór, dopracuj wektory i wyeksportuj SVG na iPhonie, iPadzie lub Macu.",
         "learnMore": "Zobacz, jak to działa"
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Jak możemy Ci",
             "titlePart2": "pomóc?",
-            "subtitle": "Jesteśmy tutaj, aby wspierać Twoją twórczą podróż. Znajdź odpowiedzi lub skontaktuj się z naszym zespołem."
+            "subtitle": "Znajdź odpowiedzi w Pomocy, rozwiąż typowe problemy lub skontaktuj się z pomocą techniczną."
         },
         "documentation": {
             "title": "Dokumentacja",
-            "description": "Zapoznaj się z naszymi kompleksowymi przewodnikami, aby opanować funkcje i narzędzia JigsawDesigner.",
+            "description": "Otwórz przewodniki zadaniowe dotyczące generowania, edycji, szablonów, projektów i eksportu SVG.",
             "action": "Przeglądaj Artykuły"
         },
         "email": {
             "title": "Wsparcie E-mail",
-            "description": "Potrzebujesz pomocy z konkretnym problemem? Nasz zespół wsparcia jest gotowy, aby Ci pomóc bezpośrednio."
+            "description": "Aby uzyskać pomoc w konkretnej sprawie, napisz do nas, podając platformę, wersję aplikacji i jasne kroki odtworzenia problemu."
         },
         "faq": {
             "title": "Często Zadawane Pytania",
@@ -97,8 +100,8 @@
                 "answer": "Subskrybenci Premium mogą eksportować pliki SVG. Użycie komercyjne zależy również od praw do obrazów, czcionek, szablonów i innych treści zawartych w projekcie."
             },
             "q3": {
-                "question": "Czy obsługuje niestandardowe linie cięcia?",
-                "answer": "Tak, możesz importować niestandardowe ścieżki SVG do użycia jako linie cięcia lub użyć naszych zaawansowanych algorytmów do automatycznego generowania unikalnych wzorów."
+                "question": "Czy mogę użyć własnego profilu łączenia?",
+                "answer": "Tak. Narysuj otwartą ścieżkę profilu w Edytorze szablonów lub zaimportuj odpowiednią ścieżkę SVG, a następnie wygeneruj i sprawdź powstałe linie cięcia."
             }
         }
     },
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Wybierz Narzędzie",
-                    "desc": "Wybierz spośród 8 narzędzi rysowania na pasku narzędzi."
+                    "desc": "Wybierz jedno z ośmiu narzędzi do zaznaczania, edycji i rysowania."
                 },
                 "3": {
                     "title": "Narysuj Swój Projekt",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Generuj Puzzle",
-                    "desc": "Kliknij 'Generuj Puzzle', aby stworzyć zazębiające się elementy."
+                    "desc": "Wygeneruj edytowalne linie cięcia puzzli z wybranej granicy i profilu łączenia."
                 },
                 "5": {
                     "title": "Eksport",
-                    "desc": "Zapisz swoje puzzle jako SVG do produkcji lub druku."
+                    "desc": "Zapisz edytowalny projekt, wyeksportuj SVG i sprawdź plik w aplikacji używanej w dalszej części pracy."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Importuj kontur graniczny",
-                    "desc": "Kliknij \"Importuj SVG\" lub narysuj kształt wektorowy, aby zdefiniować zewnętrzną granicę i elementy specjalne."
+                    "desc": "Zaimportuj lub narysuj jedną prawidłową zamkniętą granicę zewnętrzną, a następnie pozostaw tylko widoczną, odblokowaną geometrię przeznaczoną do generowania."
                 },
                 "2": {
                     "title": "Wybierz szablon wypustek",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "Eksport",
-                "desc": "Eksportuj swoje projekty i wygenerowane puzzle jako standardowe pliki SVG.",
+                "desc": "Wyeksportuj bieżący dokument i wygenerowane linie cięcia jako SVG.",
                 "shortcut": "Skrót:",
                 "items": [
-                    "Standardowy format SVG 1.1",
-                    "Zachowuje wszystkie przekształcenia",
-                    "Zachowuje hierarchie grup"
+                    "SVG jest obecnie jedynym formatem eksportu",
+                    "Zachowaj źródłowy plik .jigsawproject do dalszych zmian",
+                    "Sprawdź skalę, grupy i transformacje w aplikacji docelowej"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "Potrzebujesz Więcej Pomocy?",
-            "desc": "Odwiedź naszą stronę wsparcia lub skontaktuj się z nami bezpośrednio, aby uzyskać osobistą pomoc"
+            "desc": "Otwórz Pomoc techniczną lub napisz do nas, jeśli przewodniki nie rozwiążą problemu."
         },
         "metaTitle": "Centrum pomocy i przewodnik generowania puzzli",
         "metaDescription": "Dowiedz się, jak generować linie cięcia puzzli, edytować kształty wektorowe, zarządzać projektami i eksportować pliki SVG w JigsawDesigner.",
         "interfaceContent": {
             "title": "Interfejs edytora i linii cięcia",
-            "intro": "Edytor JigsawDesigner zapewnia profesjonalną przestrzeń roboczą wektorową do projektowania precyzyjnych linii cięcia i wykrojników.",
+            "intro": "Edytor łączy w jednym obszarze narzędzia rysowania, Warstwy, ustawienia szablonów, parametry generowania oraz import i eksport SVG.",
             "toolbar": {
                 "title": "Górny Pasek Narzędzi",
                 "desc": "Szybki dostęp do wszystkich narzędzi rysunkowych i operacji na plikach.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Nieskończone Płótno",
+                "title": "Przesuwanie i powiększanie obszaru roboczego",
                 "desc": "Główna przestrzeń robocza do tworzenia projektów puzzli.",
                 "features": [
-                    "Nieskończone przewijanie - płótno rozszerza się we wszystkich kierunkach",
+                    "Przesuwaj widok po obszarze roboczym o określonych wymiarach projektu",
                     "Wyświetlanie linijek z pomiarami w pikselach",
                     "Siatka do precyzyjnego wyrównania",
                     "Powiększanie/pomniejszanie kółkiem myszy lub gestami",
                     "Przesuwanie przez przeciąganie z wciśniętą spacją lub dwoma palcami",
                     "Ramka zaznaczenia pojawia się po wybraniu elementu"
                 ],
-                "tip": "Użyj ⌘0 aby zresetować zoom do 100%, lub ⌘1 aby dopasować płótno do okna."
+                "tip": "Użyj opcji Dopasuj do okna lub elementów sterowania powiększeniem, aby ustawić obszar roboczy w widoku."
             },
             "toolsPanel": {
                 "title": "Panel Narzędzi",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Panel Warstw",
-                "desc": "Zarządzaj hierarchią projektu.",
+                "desc": "Użyj Warstw, aby przeglądać grupy i kształty, rozwijać zagnieżdżone elementy oraz sterować widocznością i blokadą.",
                 "features": [
                     "Wyświetl grupy i kształty w strukturze drzewa",
                     "Rozwiń grupy aby zobaczyć elementy",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Inspektor Projektu",
-                "desc": "Inspektor po prawej stronie zapewnia wszystkie opcje konfiguracji projektu.",
+                "desc": "Użyj Inspektora, aby edytować ustawienia projektu i informacje o bieżącym zaznaczeniu.",
                 "sections": {
                     "projectInfo": {
                         "title": "Info o Projekcie",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Zaawansowane Ustawienia",
-                "desc": "Uzyskaj dostęp do kompleksowych ustawień aplikacji poprzez okno dialogowe Zaawansowane Ustawienia.",
+                "desc": "Otwórz Ustawienia zaawansowane, aby ustawić język, subskrypcję, siatkę, linijki, przyciąganie i obrys.",
                 "sections": {
                     "language": {
                         "title": "Ustawienia Języka",
@@ -527,9 +530,9 @@
             "myProjects": {
                 "title": "Moje Projekty",
                 "icon": "📁",
-                "desc": "Twoja osobista przestrzeń robocza dla wszystkich projektów puzzli, bezpiecznie przechowywana w iCloud.",
+                "desc": "Twórz i ponownie otwieraj lokalne pakiety projektów; opcjonalna synchronizacja iCloud/CloudKit działa, gdy jest włączona i dostępna.",
                 "features": [
-                    "Automatyczna synchronizacja iCloud między Mac, iPad i iPhone",
+                    "Opcjonalna synchronizacja iCloud/CloudKit, gdy jest włączona i dostępna",
                     "Twórz nowe projekty przyciskiem +",
                     "Podglądy miniatur z nazwą projektu i datą",
                     "Usuń projekty czerwonym przyciskiem kosza",
@@ -550,7 +553,7 @@
                         },
                         "publish": {
                             "title": "Opublikuj",
-                            "desc": "Udostępnij projekt wszystkim użytkownikom JigsawDesigner"
+                            "desc": "Opublikuj wybrany projekt w Projektach publicznych, aby inni mogli go przeglądać i zaimportować kopię."
                         },
                         "share": {
                             "title": "Utwórz link",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Projekty Publiczne",
                 "icon": "🌐",
-                "desc": "Szablony społeczności dostępne dla wszystkich użytkowników. Przeglądaj, podglądaj i importuj projekty z biblioteki publicznej.",
+                "desc": "Przeglądaj projekty publiczne, wyświetlaj podgląd i importuj kopię do Moich projektów.",
                 "features": [
-                    "Przeglądaj szablony utworzone przez zespół JigsawDesigner",
+                    "Przeglądaj dostępne projekty publiczne",
                     "Zobacz liczbę elementów przed importem",
                     "Kliknij \"Otwórz\" aby podejrzeć projekt",
                     "Kliknij \"Importuj\" aby skopiować do Moich Projektów",
-                    "Świetne do nauki i inspiracji"
+                    "Sprawdź projekt przed importem"
                 ],
-                "howTo": "Wybierz projekt publiczny i kliknij \"Importuj\" aby dodać kopię do swojej biblioteki."
+                "howTo": "Wybierz projekt publiczny i kliknij Importuj, aby dodać kopię do Moich projektów. Przed ponownym użyciem sprawdź zawartość i obowiązujące prawa."
             },
             "sharedProjects": {
                 "title": "Udostępnione Projekty",

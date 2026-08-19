@@ -46,6 +46,30 @@ const forbiddenPatterns = [
     label: "fixed USD price",
     pattern: /(?:\$\s*\d|USD\s*\d|\d\s*USD)/g,
   },
+  {
+    label: "unverified advanced or unique-pattern claim",
+    pattern: /\badvanced algorithms?\b|\bunique patterns? automatically\b|先进的算法|先進的演算法|独特的图案|獨特的圖案/gi,
+  },
+  {
+    label: "absolute SVG preservation claim",
+    pattern: /\bstandard SVG 1\.1\b|\bpreserves all transforms\b|\bmaintains group hierarchies\b|标准 SVG 1\.1|標準 SVG 1\.1|保留所有变换|保留所有變形/gi,
+  },
+  {
+    label: "absolute iCloud storage or sync claim",
+    pattern: /\bstored securely in iCloud\b|\bautomatic iCloud sync\b|安全地?存储在 iCloud|安全地?儲存在 iCloud|自动 iCloud 同步|自動 iCloud 同步/gi,
+  },
+  {
+    label: "unverified production-ready export wording",
+    pattern: /\bfor manufacturing or printing\b|用于制造或打印|用於製造或列印/gi,
+  },
+  {
+    label: "unbounded public-project rights claim",
+    pattern: /\ball JigsawDesigner users worldwide\b|\bcustomize it freely\b|所有 JigsawDesigner 用户|所有 JigsawDesigner 使用者|自由地?自定义|自由地?自訂/gi,
+  },
+  {
+    label: "infinite-canvas claim",
+    pattern: /\binfinite canvas\b|无限画布|無限畫布/gi,
+  },
 ];
 
 function flatten(value, prefix = "", result = new Map()) {

@@ -1,6 +1,9 @@
 {
   "Navigation": {
     "features": "Fitur",
+    "product": "Produk",
+    "showcase": "Galeri",
+    "learn": "Pelajari",
     "download": "Unduh",
     "home": "Beranda",
     "support": "Dukungan",
@@ -12,26 +15,26 @@
   },
   "Hero": {
     "version": "{version} Dirilis - Coba sekarang!",
-        "titlePart1": "Ubah bentuk apa pun menjadi",
-        "titleProfessional": "garis potong puzzle yang dapat diedit",
-        "subtitle": "Gambar atau impor batas, buat pola, sesuaikan vektor, lalu ekspor SVG di iPhone, iPad, atau Mac.",
-        "learnMore": "Lihat cara kerjanya"
+    "titlePart1": "Ubah kontur tertutup menjadi",
+    "titleProfessional": "garis potong puzzle yang dapat diedit",
+    "subtitle": "Gambar atau impor batas, buat pola, sesuaikan vektor, lalu ekspor SVG di iPhone, iPad, atau Mac.",
+    "learnMore": "Lihat cara kerjanya"
   },
   "Features": {
-        "title": "Yang dapat Anda lakukan",
-        "subtitle": "Alur kerja terfokus untuk membuat garis potong puzzle dan menyunting SVG.",
+    "title": "Yang dapat Anda lakukan",
+    "subtitle": "Alur kerja terfokus untuk membuat garis potong puzzle dan menyunting SVG.",
     "list": {
       "customization": {
-                "title": "Siapkan batas dan profil slot",
-                "description": "Gambar atau impor batas SVG tertutup, lalu pilih template slot jalur terbuka bawaan atau khusus."
+        "title": "Siapkan batas dan profil slot",
+        "description": "Gambar atau impor batas SVG tertutup, lalu pilih template slot jalur terbuka bawaan atau khusus."
       },
       "workflow": {
-                "title": "Buat garis potong yang dapat diedit",
-                "description": "Atur nilai kisi, jumlah keping, dan jarak, lalu buat hasil sebagai grup SVG yang dapat diedit."
+        "title": "Buat garis potong yang dapat diedit",
+        "description": "Atur nilai kisi, jumlah keping, dan jarak, lalu buat hasil sebagai grup SVG yang dapat diedit."
       },
       "anywhere": {
-                "title": "Lanjutkan di perangkat Apple",
-                "description": "Bekerja di iPhone, iPad, atau Mac, dengan sinkronisasi iCloud opsional saat diaktifkan dan tersedia."
+        "title": "Lanjutkan di perangkat Apple",
+        "description": "Bekerja di iPhone, iPad, atau Mac, dengan sinkronisasi iCloud opsional saat diaktifkan dan tersedia."
       }
     }
   },
@@ -75,16 +78,16 @@
     "hero": {
       "titlePart1": "Bagaimana kami bisa",
       "titlePart2": "membantu Anda?",
-      "subtitle": "Kami di sini untuk mendukung perjalanan kreatif Anda. Temukan jawaban atau hubungi tim kami."
+      "subtitle": "Temukan jawaban dalam panduan di bawah ini, atau hubungi kami untuk masalah tertentu."
     },
     "documentation": {
       "title": "Dokumentasi",
-      "description": "Jelajahi panduan komprehensif kami untuk menguasai fitur dan alat JigsawDesigner.",
+      "description": "Baca panduan tentang editor, perpustakaan proyek, pembuatan, serta impor atau ekspor SVG.",
       "action": "Jelajahi Artikel"
     },
     "email": {
       "title": "Dukungan Email",
-      "description": "Butuh bantuan dengan masalah tertentu? Tim dukungan kami siap membantu Anda secara langsung."
+      "description": "Hubungi kami jika panduan tidak menyelesaikan masalah Anda."
     },
     "faq": {
       "title": "Pertanyaan yang Sering Diajukan",
@@ -97,14 +100,14 @@
         "answer": "Pelanggan Premium dapat mengekspor file SVG. Penggunaan komersial juga bergantung pada hak atas gambar, font, templat, dan konten lain dalam desain."
       },
       "q3": {
-        "question": "Apakah ini mendukung garis potong kustom?",
-        "answer": "Ya, Anda dapat mengimpor jalur SVG khusus untuk digunakan sebagai garis potong, atau menggunakan algoritma canggih kami untuk menghasilkan pola unik secara otomatis."
+        "question": "Dapatkah saya menggunakan profil slot kustom?",
+        "answer": "Ya. Gambar atau impor jalur SVG terbuka sebagai profil slot, lalu periksa garis potong yang dihasilkan sebelum mengekspor."
       }
     }
   },
   "Help": {
-        "title": "Bantuan JigsawDesigner",
-        "subtitle": "Panduan terfokus untuk membuat garis potong puzzle, menyunting geometri SVG, mengelola template, dan menata proyek.",
+    "title": "Bantuan JigsawDesigner",
+    "subtitle": "Panduan terfokus untuk membuat garis potong puzzle, menyunting geometri SVG, mengelola template, dan menata proyek.",
     "toc": "Daftar Isi",
     "sections": {
       "gettingStarted": "Memulai",
@@ -125,7 +128,7 @@
         },
         "2": {
           "title": "Pilih Alat",
-          "desc": "Pilih dari 8 alat gambar di bilah alat."
+          "desc": "Gunakan delapan alat pemilihan, pengeditan, dan menggambar di bilah alat."
         },
         "3": {
           "title": "Gambar Desain Anda",
@@ -133,11 +136,11 @@
         },
         "4": {
           "title": "Hasilkan Puzzle",
-          "desc": "Klik 'Hasilkan Puzzle' untuk membuat potongan yang saling terkait."
+          "desc": "Klik “Hasilkan Puzzle” untuk membuat garis potong yang dapat diedit di dalam kontur."
         },
         "5": {
           "title": "Ekspor",
-          "desc": "Simpan puzzle Anda sebagai SVG untuk pembuatan atau pencetakan."
+          "desc": "Ekspor SVG, lalu periksa skala, jalur, grup, dan transformasinya di perangkat lunak yang akan Anda gunakan berikutnya."
         }
       }
     },
@@ -206,7 +209,7 @@
       "steps": {
         "1": {
           "title": "Impor Kontur Batas",
-          "desc": "Klik \"Impor SVG\" atau gambar bentuk vektor khusus untuk menentukan batas luar dan potongan \"whimsy\" interior."
+          "desc": "Impor satu batas luar tertutup yang valid dari SVG, atau gambar batas tersebut di editor."
         },
         "2": {
           "title": "Pilih Templat Slot",
@@ -237,12 +240,12 @@
       },
       "export": {
         "title": "Ekspor SVG",
-        "desc": "Ekspor desain dan puzzle yang dihasilkan sebagai file SVG standar.",
+        "desc": "Format ekspor saat ini adalah SVG; simpan paket .jigsawproject sebagai file proyek yang dapat diedit.",
         "shortcut": "Pintasan:",
         "items": [
-          "Format SVG 1.1 standar",
-          "Pertahankan semua transformasi",
-          "Pertahankan hierarki grup"
+          "Format ekspor saat ini: SVG",
+          "Simpan paket .jigsawproject untuk pengeditan selanjutnya",
+          "Periksa skala, grup, dan transformasi di perangkat lunak berikutnya"
         ]
       },
       "premium": {
@@ -277,13 +280,13 @@
     },
     "needHelp": {
       "title": "Butuh Bantuan Lebih Lanjut?",
-      "desc": "Kunjungi halaman dukungan kami atau hubungi kami secara langsung untuk bantuan yang dipersonalisasi"
+      "desc": "Kunjungi halaman dukungan untuk jawaban umum, atau kirimkan langkah dan file yang diperlukan untuk mengulangi masalah tersebut."
     },
     "metaTitle": "Pusat Bantuan & Panduan Pembuatan Jigsaw",
     "metaDescription": "Pelajari cara membuat garis potong puzzle, menyunting bentuk vektor, mengelola proyek, dan mengekspor file SVG dengan JigsawDesigner.",
     "interfaceContent": {
       "title": "Antarmuka Editor & Garis Potong",
-      "intro": "Editor JigsawDesigner menyediakan ruang kerja vektor profesional untuk mendesain garis potong dan pola puzzle.",
+      "intro": "Gunakan editor untuk menggambar atau mengimpor kontur, mengedit elemen SVG, membuat garis potong puzzle, dan menyiapkan SVG untuk digunakan di perangkat lunak lain.",
       "toolbar": {
         "title": "Toolbar Atas",
         "desc": "Toolbar menyediakan akses cepat ke semua alat gambar dan operasi file.",
@@ -336,17 +339,17 @@
         }
       },
       "canvas": {
-        "title": "Kanvas Tak Terbatas",
+        "title": "Kanvas proyek",
         "desc": "Ruang kerja utama untuk membuat desain puzzle Anda.",
         "features": [
-          "Gulir tak terbatas - kanvas meluas ke semua arah",
+          "Lebar dan tinggi kanvas yang ditetapkan dalam pengaturan proyek",
           "Tampilan penggaris dengan pengukuran piksel",
           "Lapisan grid untuk penyelarasan tepat",
           "Zoom masuk/keluar dengan roda gulir atau gerakan cubit",
           "Pan dengan menyeret sambil menahan spacebar atau dua jari",
           "Kotak seleksi muncul saat elemen dipilih"
         ],
-        "tip": "Gunakan ⌘0 untuk reset zoom ke 100%, atau ⌘1 untuk menyesuaikan kanvas di jendela."
+        "tip": "Gunakan gulir atau gerakan cubit untuk memperbesar. Geser kanvas dengan seret dua jari, atau tahan tombol Spasi sambil menyeret."
       },
       "toolsPanel": {
         "title": "Panel Alat",
@@ -372,7 +375,7 @@
       },
       "layersPanel": {
         "title": "Panel Layer",
-        "desc": "Kelola hierarki desain Anda.",
+        "desc": "Gunakan panel Lapisan untuk melihat dan mengelola grup serta bentuk dalam hierarki SVG.",
         "features": [
           "Lihat grup dan bentuk dalam struktur pohon",
           "Perluas grup untuk melihat item",
@@ -404,7 +407,7 @@
       },
       "inspector": {
         "title": "Inspektor Proyek",
-        "desc": "Inspektor di sisi kanan menyediakan semua opsi konfigurasi proyek.",
+        "desc": "Inspektor di sisi kanan menampilkan pengaturan proyek atau pilihan sesuai konteks saat ini.",
         "sections": {
           "projectInfo": {
             "title": "Info Proyek",
@@ -452,7 +455,7 @@
       },
       "advancedSettings": {
         "title": "Pengaturan Lanjutan",
-        "desc": "Akses pengaturan aplikasi komprehensif melalui dialog Pengaturan Lanjutan.",
+        "desc": "Gunakan Pengaturan Lanjutan untuk menyesuaikan bahasa, langganan, dan opsi tampilan editor.",
         "sections": {
           "language": {
             "title": "Pengaturan Bahasa",
@@ -527,9 +530,9 @@
       "myProjects": {
         "title": "Proyek Saya",
         "icon": "📁",
-        "desc": "Ruang kerja pribadi Anda untuk semua desain puzzle, disimpan dengan aman di iCloud.",
+        "desc": "Proyek Saya menyimpan paket proyek secara lokal dan dapat menyinkronkannya melalui iCloud/CloudKit saat sinkronisasi cloud diaktifkan dan tersedia.",
         "features": [
-          "Sinkronisasi iCloud otomatis di Mac, iPad dan iPhone",
+          "Paket proyek lokal, dengan sinkronisasi iCloud/CloudKit opsional saat diaktifkan dan tersedia",
           "Buat proyek baru dengan tombol +",
           "Pratinjau thumbnail dengan nama proyek dan tanggal",
           "Hapus proyek menggunakan tombol tempat sampah merah",
@@ -550,7 +553,7 @@
             },
             "publish": {
               "title": "Publikasikan",
-              "desc": "Bagikan desain dengan semua pengguna JigsawDesigner"
+              "desc": "Publikasikan proyek yang dipilih ke perpustakaan Proyek Publik agar orang lain dapat mengimpor salinannya."
             },
             "share": {
               "title": "Buat Tautan",
@@ -566,15 +569,15 @@
       "publicProjects": {
         "title": "Proyek Publik",
         "icon": "🌐",
-        "desc": "Template komunitas tersedia untuk semua pengguna. Jelajahi, pratinjau dan impor desain dari perpustakaan publik.",
+        "desc": "Jelajahi proyek yang diterbitkan di perpustakaan Proyek Publik, lihat pratinjaunya, dan impor salinan ke Proyek Saya.",
         "features": [
-          "Jelajahi template yang dibuat oleh tim JigsawDesigner",
+          "Jelajahi proyek yang tersedia di perpustakaan Proyek Publik",
           "Lihat jumlah potongan sebelum impor",
           "Klik \"Buka\" untuk pratinjau",
           "Klik \"Impor\" untuk menyalin ke Proyek Saya",
-          "Bagus untuk belajar dan inspirasi"
+          "Gunakan proyek yang diterbitkan sebagai referensi belajar"
         ],
-        "howTo": "Pilih proyek publik dan klik \"Impor\" untuk menambahkan salinan ke perpustakaan Anda."
+        "howTo": "Pilih proyek publik dan klik “Impor” untuk menambahkan salinan ke Proyek Saya. Proyek sumber tidak berubah."
       },
       "sharedProjects": {
         "title": "Proyek Bersama",

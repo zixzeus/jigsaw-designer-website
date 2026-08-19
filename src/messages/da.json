@@ -1,6 +1,9 @@
 {
     "Navigation": {
         "features": "Funktioner",
+        "product": "Produkt",
+        "showcase": "Eksempler",
+        "learn": "Lær",
         "download": "Hent",
         "home": "Hjem",
         "support": "Hjælp",
@@ -12,26 +15,26 @@
     },
     "Hero": {
         "version": "{version} Udgivet - Prøv det nu!",
-    "titlePart1": "Lav enhver form om til",
-    "titleProfessional": "redigerbare skærelinjer til puslespil",
-    "subtitle": "Tegn eller importér et omrids, generér mønsteret, juster vektorerne, og eksportér SVG på iPhone, iPad eller Mac.",
-    "learnMore": "Se, hvordan det virker"
+        "titlePart1": "Lav en lukket kontur om til",
+        "titleProfessional": "redigerbare skærelinjer til puslespil",
+        "subtitle": "Tegn eller importér et omrids, generér mønsteret, juster vektorerne, og eksportér SVG på iPhone, iPad eller Mac.",
+        "learnMore": "Se, hvordan det virker"
     },
     "Features": {
-    "title": "Det kan du gøre",
-    "subtitle": "En fokuseret arbejdsgang til generering af skærelinjer til puslespil og redigering af SVG.",
+        "title": "Det kan du gøre",
+        "subtitle": "En fokuseret arbejdsgang til generering af skærelinjer til puslespil og redigering af SVG.",
         "list": {
             "customization": {
-        "title": "Forbered omridset og slidsprofilen",
-        "description": "Tegn eller importér et lukket SVG-omrids, og vælg derefter en indbygget eller brugerdefineret slidskabelon med åben kurve."
+                "title": "Forbered omridset og slidsprofilen",
+                "description": "Tegn eller importér et lukket SVG-omrids, og vælg derefter en indbygget eller brugerdefineret slidskabelon med åben kurve."
             },
             "workflow": {
-        "title": "Generér redigerbare skærelinjer",
-        "description": "Angiv værdier for gitter, antal brikker og afstand, og generér derefter resultatet som en redigerbar SVG-gruppe."
+                "title": "Generér redigerbare skærelinjer",
+                "description": "Angiv værdier for gitter, antal brikker og afstand, og generér derefter resultatet som en redigerbar SVG-gruppe."
             },
             "anywhere": {
-        "title": "Fortsæt på Apple-enheder",
-        "description": "Arbejd på iPhone, iPad eller Mac med valgfri iCloud-synkronisering, når den er slået til og tilgængelig."
+                "title": "Fortsæt på Apple-enheder",
+                "description": "Arbejd på iPhone, iPad eller Mac med valgfri iCloud-synkronisering, når den er slået til og tilgængelig."
             }
         }
     },
@@ -75,16 +78,16 @@
         "hero": {
             "titlePart1": "Hvordan kan vi",
             "titlePart2": "hjælpe dig?",
-            "subtitle": "Vi er her for at støtte din kreative rejse. Find svar eller kontakt vores team."
+            "subtitle": "Find svar i guiderne nedenfor, eller kontakt os om et konkret problem."
         },
         "documentation": {
             "title": "Dokumentation",
-            "description": "Udforsk vores omfattende guider til at mestre JigsawDesigners funktioner og værktøjer.",
+            "description": "Læs guider til editoren, projektbiblioteket, generering samt import og eksport af SVG.",
             "action": "Gennemse Artikler"
         },
         "email": {
             "title": "E-mail Support",
-            "description": "Har du brug for hjælp til et specifikt problem? Vores supportteam er klar til at hjælpe dig direkte."
+            "description": "Kontakt os, hvis guiderne ikke løser problemet."
         },
         "faq": {
             "title": "Ofte Stillede Spørgsmål",
@@ -97,14 +100,14 @@
                 "answer": "Premium-abonnenter kan eksportere SVG-filer. Kommerciel brug afhænger også af rettighederne til billeder, skrifttyper, skabeloner og andet indhold i designet."
             },
             "q3": {
-                "question": "Understøtter det tilpassede skærelinjer?",
-                "answer": "Ja, du kan importere tilpassede SVG-stier til brug som skærelinjer, eller bruge vores avancerede algoritmer til automatisk at generere unikke mønstre."
+                "question": "Kan jeg bruge en tilpasset samlingsprofil?",
+                "answer": "Ja. Tegn eller importer en åben SVG-sti som samlingsprofil, og kontrollér de genererede skærelinjer før eksport."
             }
         }
     },
     "Help": {
-    "title": "Hjælp til JigsawDesigner",
-    "subtitle": "Målrettede vejledninger til generering af skærelinjer til puslespil, redigering af SVG-geometri, håndtering af skabeloner og organisering af projekter.",
+        "title": "Hjælp til JigsawDesigner",
+        "subtitle": "Målrettede vejledninger til generering af skærelinjer til puslespil, redigering af SVG-geometri, håndtering af skabeloner og organisering af projekter.",
         "toc": "Indholdsfortegnelse",
         "sections": {
             "gettingStarted": "Kom i gang",
@@ -125,7 +128,7 @@
                 },
                 "2": {
                     "title": "Vælg et Værktøj",
-                    "desc": "Vælg mellem 8 tegneværktøjer på værktøjslinjen."
+                    "desc": "Brug de otte værktøjer til markering, redigering og tegning på værktøjslinjen."
                 },
                 "3": {
                     "title": "Tegn dit Design",
@@ -133,11 +136,11 @@
                 },
                 "4": {
                     "title": "Generer Puslespil",
-                    "desc": "Klik på 'Generer Puslespil' for at skabe sammenlåsende brikker."
+                    "desc": "Klik på »Generer puslespil« for at oprette redigerbare skærelinjer inden for konturen."
                 },
                 "5": {
                     "title": "Eksport",
-                    "desc": "Gem dit puslespil som SVG til fremstilling eller tryk."
+                    "desc": "Eksportér en SVG, og kontrollér derefter skala, stier, grupper og transformationer i det program, du vil bruge bagefter."
                 }
             }
         },
@@ -206,7 +209,7 @@
             "steps": {
                 "1": {
                     "title": "Importer Grænsekontur",
-                    "desc": "Klik på \"Importer SVG\" eller tegn en form for at definere den ydre grænse og \"whimsy\"-brikker."
+                    "desc": "Importer én gyldig, lukket ydre kontur fra SVG, eller tegn den i editoren."
                 },
                 "2": {
                     "title": "Vælg Skabelon",
@@ -237,12 +240,12 @@
             },
             "export": {
                 "title": "Eksporter SVG",
-                "desc": "Eksporter dine designs og genererede puslespil som standard SVG-filer.",
+                "desc": "Det aktuelle eksportformat er SVG; behold .jigsawproject-pakken som den redigerbare projektfil.",
                 "shortcut": "Genvej:",
                 "items": [
-                    "Klik på Export-knappen i værktøjslinjen",
-                    "Bevarer alle transformationer",
-                    "Bevarer gruppehierarkier"
+                    "Aktuelt eksportformat: SVG",
+                    "Behold .jigsawproject-pakken til videre redigering",
+                    "Kontrollér skala, grupper og transformationer i det efterfølgende program"
                 ]
             },
             "premium": {
@@ -277,13 +280,13 @@
         },
         "needHelp": {
             "title": "Har du brug for mere hjælp?",
-            "desc": "Besøg vores supportside eller kontakt os direkte for personlig assistance"
+            "desc": "Besøg supportsiden for at se almindelige svar, eller send os de trin og filer, der skal bruges til at genskabe problemet."
         },
         "metaTitle": "Hjælpecenter & Guide til Puslespilsgenerering",
         "metaDescription": "Lær at generere puslespilsskærelinjer, redigere vektorformer, administrere projekter og eksportere SVG-filer med JigsawDesigner.",
         "interfaceContent": {
             "title": "Editor & Skærelinje Grænseflade",
-            "intro": "JigsawDesigner-editoren tilbyder et professionelt vektor-arbejdsområde til design af præcise skærelinjer og stanseforme.",
+            "intro": "Brug editoren til at tegne eller importere en kontur, redigere SVG-elementer, generere skærelinjer til puslespil og klargøre en SVG til brug i andre programmer.",
             "toolbar": {
                 "title": "Øverste Værktøjslinje",
                 "desc": "Hurtig adgang til alle tegneværktøjer og filhandlinger.",
@@ -336,17 +339,17 @@
                 }
             },
             "canvas": {
-                "title": "Uendeligt Lærred",
+                "title": "Projektlærred",
                 "desc": "Hovedarbejdsområdet til at skabe dine puslespilsdesigns.",
                 "features": [
-                    "Uendelig scrolling - lærredet udvides i alle retninger",
+                    "Lærredets bredde og højde angives i projektindstillingerne",
                     "Linealvisning med pixelmålinger",
                     "Gitteroverlay til præcis justering",
                     "Zoom ind/ud med musens scrollehjul eller pinch-bevægelse",
                     "Panorer ved at trække med mellemrumstasten holdt nede eller med to fingre",
                     "Valgboks vises når et element er valgt"
                 ],
-                "tip": "Brug ⌘0 til at nulstille zoom til 100%, eller ⌘1 for at tilpasse lærredet til vinduet."
+                "tip": "Brug rulning eller knibebevægelse til at zoome. Panorer med to fingre, eller hold mellemrumstasten nede, mens du trækker."
             },
             "toolsPanel": {
                 "title": "Værktøjspanel",
@@ -372,7 +375,7 @@
             },
             "layersPanel": {
                 "title": "Lagpanel",
-                "desc": "Administrer dit designhierarki.",
+                "desc": "Brug panelet Lag til at se og administrere grupper og figurer i SVG-hierarkiet.",
                 "features": [
                     "Se grupper og figurer i træstruktur",
                     "Udvid grupper for at se elementer",
@@ -404,7 +407,7 @@
             },
             "inspector": {
                 "title": "Projektinspektør",
-                "desc": "Inspektøren til højre giver alle projektkonfigurationsmuligheder.",
+                "desc": "Inspektøren til højre viser indstillinger for projektet eller markeringen i den aktuelle kontekst.",
                 "sections": {
                     "projectInfo": {
                         "title": "Projektinfo",
@@ -452,7 +455,7 @@
             },
             "advancedSettings": {
                 "title": "Avancerede Indstillinger",
-                "desc": "Få adgang til omfattende programindstillinger via dialogboksen Avancerede Indstillinger.",
+                "desc": "Brug Avancerede indstillinger til at justere sprog, abonnement og editorens visningsmuligheder.",
                 "sections": {
                     "language": {
                         "title": "Sprogindstillinger",
@@ -527,9 +530,9 @@
             "myProjects": {
                 "title": "Mine Projekter",
                 "icon": "📁",
-                "desc": "Dit personlige arbejdsområde til alle puslespilsdesigns, sikkert gemt i iCloud.",
+                "desc": "Mine projekter gemmer projektpakker lokalt og kan synkronisere dem via iCloud/CloudKit, når skysynkronisering er slået til og tilgængelig.",
                 "features": [
-                    "Automatisk iCloud-synkronisering på tværs af Mac, iPad og iPhone",
+                    "Lokale projektpakker med valgfri iCloud/CloudKit-synkronisering, når den er slået til og tilgængelig",
                     "Opret nye projekter med +-knappen",
                     "Miniatureforhåndsvisninger med projektnavn og dato",
                     "Slet projekter med den røde papirkurvknap",
@@ -550,7 +553,7 @@
                         },
                         "publish": {
                             "title": "Udgiv",
-                            "desc": "Del designet med alle JigsawDesigner-brugere"
+                            "desc": "Udgiv det valgte projekt i biblioteket Offentlige projekter, så andre kan importere en kopi."
                         },
                         "share": {
                             "title": "Opret link",
@@ -566,15 +569,15 @@
             "publicProjects": {
                 "title": "Offentlige Projekter",
                 "icon": "🌐",
-                "desc": "Fællesskabsskabeloner tilgængelige for alle brugere. Gennemse, forhåndsvis og importer designs fra det offentlige bibliotek.",
+                "desc": "Gennemse projekter, der er udgivet i biblioteket Offentlige projekter, se dem, og importer en kopi til Mine projekter.",
                 "features": [
-                    "Gennemse skabeloner oprettet af JigsawDesigner-teamet",
+                    "Gennemse projekter i biblioteket Offentlige projekter",
                     "Se antal brikker før import",
                     "Klik \"Åbn\" for at forhåndsvise",
                     "Klik \"Importer\" for at kopiere til Mine Projekter",
-                    "Fantastisk til læring og inspiration"
+                    "Brug udgivne projekter som reference til læring"
                 ],
-                "howTo": "Vælg et offentligt projekt og klik \"Importer\" for at tilføje en kopi til dit bibliotek."
+                "howTo": "Vælg et offentligt projekt, og klik på »Importer« for at føje en kopi til Mine projekter. Kildeprojektet ændres ikke."
             },
             "sharedProjects": {
                 "title": "Delte Projekter",

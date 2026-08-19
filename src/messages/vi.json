@@ -1,6 +1,9 @@
 {
   "Navigation": {
     "features": "Tính năng",
+    "product": "Sản phẩm",
+    "showcase": "Trưng bày",
+    "learn": "Học",
     "download": "Tải xuống",
     "home": "Trang chủ",
     "support": "Hỗ trợ",
@@ -12,26 +15,26 @@
   },
   "Hero": {
     "version": "{version} Đã phát hành - Thử ngay!",
-        "titlePart1": "Biến mọi hình dạng thành",
-        "titleProfessional": "đường cắt tranh ghép có thể chỉnh sửa",
-        "subtitle": "Vẽ hoặc nhập đường biên, tạo mẫu, tinh chỉnh các đường vector và xuất SVG trên iPhone, iPad hoặc Mac.",
-        "learnMore": "Xem cách hoạt động"
+    "titlePart1": "Biến một đường viền khép kín thành",
+    "titleProfessional": "đường cắt tranh ghép có thể chỉnh sửa",
+    "subtitle": "Vẽ hoặc nhập đường biên, tạo mẫu, tinh chỉnh các đường vector và xuất SVG trên iPhone, iPad hoặc Mac.",
+    "learnMore": "Xem cách hoạt động"
   },
   "Features": {
-        "title": "Bạn có thể làm gì",
-        "subtitle": "Quy trình tập trung vào việc tạo đường cắt tranh ghép và chỉnh sửa SVG.",
+    "title": "Bạn có thể làm gì",
+    "subtitle": "Quy trình tập trung vào việc tạo đường cắt tranh ghép và chỉnh sửa SVG.",
     "list": {
       "customization": {
-                "title": "Chuẩn bị đường biên và biên dạng khớp nối",
-                "description": "Vẽ hoặc nhập đường biên SVG khép kín, sau đó chọn mẫu khớp nối dạng đường dẫn mở có sẵn hoặc tùy chỉnh."
+        "title": "Chuẩn bị đường biên và biên dạng khớp nối",
+        "description": "Vẽ hoặc nhập đường biên SVG khép kín, sau đó chọn mẫu khớp nối dạng đường dẫn mở có sẵn hoặc tùy chỉnh."
       },
       "workflow": {
-                "title": "Tạo đường cắt có thể chỉnh sửa",
-                "description": "Đặt các giá trị lưới, số mảnh và khoảng cách, sau đó tạo kết quả dưới dạng nhóm SVG có thể chỉnh sửa."
+        "title": "Tạo đường cắt có thể chỉnh sửa",
+        "description": "Đặt các giá trị lưới, số mảnh và khoảng cách, sau đó tạo kết quả dưới dạng nhóm SVG có thể chỉnh sửa."
       },
       "anywhere": {
-                "title": "Tiếp tục trên các thiết bị Apple",
-                "description": "Làm việc trên iPhone, iPad hoặc Mac, với tùy chọn đồng bộ iCloud khi được bật và khả dụng."
+        "title": "Tiếp tục trên các thiết bị Apple",
+        "description": "Làm việc trên iPhone, iPad hoặc Mac, với tùy chọn đồng bộ iCloud khi được bật và khả dụng."
       }
     }
   },
@@ -75,16 +78,16 @@
     "hero": {
       "titlePart1": "Chúng tôi có thể",
       "titlePart2": "giúp gì cho bạn?",
-      "subtitle": "Chúng tôi ở đây để hỗ trợ hành trình sáng tạo của bạn. Tìm câu trả lời hoặc liên hệ với nhóm của chúng tôi."
+      "subtitle": "Tìm câu trả lời trong Trợ giúp, khắc phục sự cố thường gặp hoặc liên hệ hỗ trợ."
     },
     "documentation": {
       "title": "Tài liệu",
-      "description": "Khám phá các hướng dẫn toàn diện của chúng tôi để nắm vững các tính năng và công cụ của JigsawDesigner.",
+      "description": "Mở các hướng dẫn theo từng tác vụ về tạo, chỉnh sửa, mẫu, dự án và xuất SVG.",
       "action": "Duyệt bài viết"
     },
     "email": {
       "title": "Hỗ trợ qua Email",
-      "description": "Cần giúp đỡ với một vấn đề cụ thể? Nhóm hỗ trợ của chúng tôi sẵn sàng giúp bạn trực tiếp."
+      "description": "Nếu cần trợ giúp về một sự cố cụ thể, hãy gửi email kèm nền tảng, phiên bản ứng dụng và các bước tái hiện rõ ràng."
     },
     "faq": {
       "title": "Câu hỏi thường gặp",
@@ -97,14 +100,14 @@
         "answer": "Người đăng ký Premium có thể xuất tệp SVG. Việc sử dụng thương mại còn phụ thuộc vào quyền đối với hình ảnh, phông chữ, mẫu và nội dung khác trong thiết kế."
       },
       "q3": {
-        "question": "Nó có hỗ trợ các đường cắt tùy chỉnh không?",
-        "answer": "Có, bạn có thể nhập các đường dẫn SVG tùy chỉnh để sử dụng làm đường cắt hoặc sử dụng các thuật toán tiên tiến của chúng tôi để tự động tạo ra các mẫu độc đáo."
+        "question": "Tôi có thể dùng biên dạng mối nối tùy chỉnh không?",
+        "answer": "Có. Hãy vẽ một biên dạng mối nối đường mở trong Trình chỉnh sửa mẫu hoặc nhập một đường dẫn SVG phù hợp, sau đó tạo và kiểm tra các đường cắt thu được."
       }
     }
   },
   "Help": {
-        "title": "Trợ giúp JigsawDesigner",
-        "subtitle": "Hướng dẫn tập trung vào việc tạo đường cắt tranh ghép, chỉnh sửa hình học SVG, quản lý mẫu và sắp xếp dự án.",
+    "title": "Trợ giúp JigsawDesigner",
+    "subtitle": "Hướng dẫn tập trung vào việc tạo đường cắt tranh ghép, chỉnh sửa hình học SVG, quản lý mẫu và sắp xếp dự án.",
     "toc": "Mục lục",
     "sections": {
       "gettingStarted": "Bắt đầu",
@@ -125,7 +128,7 @@
         },
         "2": {
           "title": "Chọn công cụ",
-          "desc": "Chọn từ 8 công cụ vẽ trong thanh công cụ."
+          "desc": "Chọn trong tám công cụ chọn, chỉnh sửa và vẽ."
         },
         "3": {
           "title": "Vẽ thiết kế của bạn",
@@ -133,11 +136,11 @@
         },
         "4": {
           "title": "Tạo tranh ghép",
-          "desc": "Nhấp vào 'Tạo tranh ghép' để tạo các mảnh lồng vào nhau."
+          "desc": "Tạo các đường cắt tranh ghép có thể chỉnh sửa từ đường biên và biên dạng mối nối đã chọn."
         },
         "5": {
           "title": "Xuất",
-          "desc": "Lưu tranh ghép của bạn dưới dạng SVG để sản xuất hoặc in ấn."
+          "desc": "Lưu dự án có thể chỉnh sửa, xuất SVG và xác thực tệp trong ứng dụng dùng ở bước tiếp theo của quy trình."
         }
       }
     },
@@ -206,7 +209,7 @@
       "steps": {
         "1": {
           "title": "Nhập Đường bao",
-          "desc": "Nhấp vào \"Nhập SVG\" hoặc vẽ một hình vector để xác định ranh giới bên ngoài và các mảnh \"whimsy\"."
+          "desc": "Nhập hoặc vẽ một đường biên ngoài khép kín hợp lệ, sau đó chỉ giữ lại hình học đang hiển thị, không bị khóa và dành cho việc tạo."
         },
         "2": {
           "title": "Chọn Mẫu Rãnh",
@@ -237,12 +240,12 @@
       },
       "export": {
         "title": "Xuất SVG",
-        "desc": "Xuất các thiết kế và tranh ghép đã tạo của bạn dưới dạng tệp SVG tiêu chuẩn.",
+        "desc": "Xuất tài liệu hiện tại và các đường cắt đã tạo dưới dạng SVG.",
         "shortcut": "Phím tắt:",
         "items": [
-          "Định dạng SVG 1.1 tiêu chuẩn",
-          "Giữ nguyên mọi biến đổi",
-          "Duy trì phân cấp nhóm"
+          "SVG là định dạng xuất hiện tại",
+          "Giữ tệp nguồn .jigsawproject để chỉnh sửa sau",
+          "Kiểm tra tỷ lệ, nhóm và phép biến đổi trong ứng dụng nhận"
         ]
       },
       "premium": {
@@ -277,13 +280,13 @@
     },
     "needHelp": {
       "title": "Cần thêm trợ giúp?",
-      "desc": "Truy cập trang hỗ trợ của chúng tôi hoặc liên hệ trực tiếp với chúng tôi để được hỗ trợ cá nhân"
+      "desc": "Mở Hỗ trợ hoặc gửi email cho chúng tôi nếu các hướng dẫn không giải quyết được sự cố."
     },
     "metaTitle": "Trung tâm Hỗ trợ & Hướng dẫn tạo Jigsaw",
     "metaDescription": "Tìm hiểu cách tạo đường cắt tranh ghép, chỉnh sửa hình dạng vector, quản lý dự án và xuất tệp SVG bằng JigsawDesigner.",
     "interfaceContent": {
       "title": "Giao diện Chỉnh sửa & Đường cắt",
-      "intro": "Trình chỉnh sửa JigsawDesigner cung cấp không gian làm việc vector chuyên nghiệp để thiết kế các đường cắt chính xác.",
+      "intro": "Trình chỉnh sửa tập hợp công cụ vẽ, Lớp, điều khiển mẫu, thiết lập tạo và tính năng nhập/xuất SVG trong một không gian làm việc.",
       "toolbar": {
         "title": "Thanh Công Cụ Trên",
         "desc": "Truy cập nhanh tất cả công cụ vẽ và thao tác tệp.",
@@ -336,17 +339,17 @@
         }
       },
       "canvas": {
-        "title": "Vùng vẽ vô hạn",
+        "title": "Di chuyển và thu phóng vùng vẽ",
         "desc": "Không gian làm việc chính cho thiết kế của bạn.",
         "features": [
-          "Cuộn vô hạn theo mọi hướng",
+          "Di chuyển quanh vùng vẽ có kích thước dự án xác định",
           "Thước đo pixel",
           "Lưới để căn chỉnh chính xác",
           "Phóng to bằng chuột hoặc cử chỉ",
           "Di chuyển bằng phím cách hoặc hai ngón tay",
           "Hiển thị khung chọn"
         ],
-        "tip": "Dùng ⌘0 để đặt lại thu phóng, ⌘1 để vừa màn hình."
+        "tip": "Dùng Vừa cửa sổ hoặc các điều khiển thu phóng để đặt vùng vẽ vừa khung nhìn."
       },
       "toolsPanel": {
         "title": "Bảng công cụ",
@@ -372,7 +375,7 @@
       },
       "layersPanel": {
         "title": "Bảng lớp",
-        "desc": "Quản lý cấu trúc thiết kế.",
+        "desc": "Dùng Lớp để kiểm tra nhóm và hình, mở rộng các mục lồng nhau và kiểm soát khả năng hiển thị hoặc khóa.",
         "features": [
           "Xem nhóm và hình dạng cây",
           "Mở rộng nhóm",
@@ -404,7 +407,7 @@
       },
       "inspector": {
         "title": "Trình kiểm tra Dự án",
-        "desc": "Trình kiểm tra bên phải cung cấp tất cả tùy chọn cấu hình dự án.",
+        "desc": "Dùng trình kiểm tra để chỉnh sửa thiết lập dự án và thông tin của vùng chọn hiện tại.",
         "sections": {
           "projectInfo": {
             "title": "Thông tin Dự án",
@@ -452,7 +455,7 @@
       },
       "advancedSettings": {
         "title": "Cài đặt Nâng cao",
-        "desc": "Truy cập cài đặt ứng dụng toàn diện.",
+        "desc": "Mở Cài đặt nâng cao cho ngôn ngữ, gói đăng ký, lưới, thước, bắt điểm và nét vẽ.",
         "sections": {
           "language": {
             "title": "Cài đặt Ngôn ngữ",
@@ -526,9 +529,9 @@
       "intro": "Thư viện Dự án là trung tâm quản lý tất cả các thiết kế của bạn.",
       "myProjects": {
         "title": "Dự án của tôi",
-        "desc": "Không gian cá nhân cho thiết kế puzzle trong iCloud.",
+        "desc": "Tạo và mở lại các gói dự án cục bộ; tính năng đồng bộ iCloud/CloudKit tùy chọn hoạt động khi được bật và khả dụng.",
         "features": [
-          "Đồng bộ iCloud tự động giữa Mac, iPad và iPhone",
+          "Đồng bộ iCloud/CloudKit tùy chọn khi được bật và khả dụng",
           "Tạo dự án mới bằng nút +",
           "Hình thu nhỏ với tên và ngày dự án",
           "Xóa dự án bằng nút thùng rác đỏ",
@@ -549,7 +552,7 @@
             },
             "publish": {
               "title": "Xuất bản",
-              "desc": "Chia sẻ thiết kế với tất cả người dùng JigsawDesigner. Dự án đã đăng xuất hiện trong thư viện Dự án Công khai."
+              "desc": "Đăng dự án đã chọn lên Dự án công khai để người khác có thể xem và nhập một bản sao."
             },
             "share": {
               "title": "Tạo Liên kết",
@@ -566,15 +569,15 @@
       "publicProjects": {
         "title": "Dự án Công khai",
         "icon": "🌐",
-        "desc": "Mẫu được cộng đồng chia sẻ có sẵn cho tất cả người dùng. Duyệt, xem trước và nhập thiết kế từ thư viện công khai.",
+        "desc": "Duyệt và xem trước các dự án công khai, rồi nhập một bản sao vào Dự án của tôi.",
         "features": [
-          "Duyệt mẫu do đội ngũ JigsawDesigner tạo",
+          "Duyệt các dự án công khai hiện có",
           "Xem số lượng mảnh trước khi nhập",
           "Nhấp \"Mở\" để xem trước thiết kế",
           "Nhấp \"Nhập\" để sao chép vào Dự án của tôi",
-          "Tuyệt vời để học hỏi và lấy cảm hứng"
+          "Kiểm tra dự án trước khi nhập"
         ],
-        "howTo": "Chọn bất kỳ dự án công khai nào và nhấp \"Nhập\" để thêm bản sao vào thư viện cá nhân. Sau đó bạn có thể tùy chỉnh tự do."
+        "howTo": "Chọn một dự án công khai và chọn Nhập để thêm bản sao vào Dự án của tôi. Kiểm tra nội dung và các quyền áp dụng trước khi sử dụng lại."
       },
       "sharedProjects": {
         "title": "Dự án Được Chia sẻ",
