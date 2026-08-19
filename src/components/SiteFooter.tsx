@@ -4,8 +4,6 @@ import {useLocale, useTranslations} from "next-intl";
 import {isRouteAvailable, isSiteLocale} from "@/config/seo";
 import {Link} from "@/i18n/navigation";
 
-import AnalyticsSettingsButton from "./AnalyticsSettingsButton";
-
 export default function SiteFooter() {
   const footer = useTranslations("Footer");
   const navigation = useTranslations("Navigation");
@@ -66,7 +64,6 @@ export default function SiteFooter() {
           <Link href="/support" className="hover:text-primary-dark dark:hover:text-primary-light">
             {footer("support")}
           </Link>
-          <AnalyticsSettingsButton />
         </nav>
 
         <p className="text-sm text-gray-600 dark:text-gray-300 md:col-span-2">

@@ -81,7 +81,7 @@ JigsawDesigner 的 SEO 机会不是继续堆叠一个泛化品牌首页，而是
 | `/[locale]` | 品牌 + 产品类别 | 解释产品、平台、SVG 工作流并引导 App Store |
 | `/[locale]/help` | 产品帮助中心 | 汇总操作入口并向细分帮助页分发内部链接 |
 | `/[locale]/support` | 联系与问题解决 | 提供文档、联系渠道和问题分类 |
-| `/[locale]/privacy` | 隐私与数据处理 | 准确说明应用、CloudKit、Cloudflare、同意后 GA4 和 localStorage |
+| `/[locale]/privacy` | 隐私与数据处理 | 准确说明应用、CloudKit、Cloudflare、必要语言 Cookie 和 GA4 |
 
 ### 4.2 首要语言高意图层
 
@@ -179,7 +179,7 @@ JigsawDesigner 的 SEO 机会不是继续堆叠一个泛化品牌首页，而是
 
 - 使用版本化 WebP 截图，长缓存；旧 PNG/JPG 使用较短缓存，避免陈旧内容长期不可更新。
 - YouTube 使用点击后才加载的 `youtube-nocookie.com` facade，减少首屏第三方负载。
-- GA4 只在明确同意后加载；同意选择存储在 localStorage。locale 由 URL 决定，不声明不存在的语言 cookie。
+- GA4 通过标准 Google tag 在全站直接加载；locale 由 URL 决定，用户主动切换语言后才保存必要的语言偏好 Cookie。
 - 客户端 `NextIntlClientProvider` 只发送客户端组件需要的消息命名空间，避免把完整 Help 字典序列化到所有页面。
 - 维持基础安全头，并先以 `Content-Security-Policy-Report-Only` 观察 Next hydration、GA4 和 YouTube 实际依赖，再决定是否改为强制 CSP。
 - 部署后以真实用户数据判断 Core Web Vitals；本地 Lighthouse 只能作为实验室基线，不能代替 CrUX/RUM。
@@ -292,7 +292,7 @@ JigsawDesigner 的 SEO 机会不是继续堆叠一个泛化品牌首页，而是
 
 - iPhone 宽度下导航、语言切换和 CTA 可用；键盘可访问。
 - `ar`、`he` 的方向与文字布局正确；中文不依赖缺字 fallback。
-- 拒绝分析后不加载 GA；同意后事件正常；隐私页描述与实现一致。
+- 每个页面只加载一次 GA4，`app_store_click` 事件正常，且隐私页描述与实现一致。
 - 页面首屏不加载 YouTube iframe；版本化图片尺寸明确、无明显 CLS。
 
 ## 11. 仍需业务确认的事项

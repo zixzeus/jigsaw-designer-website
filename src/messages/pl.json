@@ -49,27 +49,27 @@
         "metaDescription": "Aplikacja przetwarza pliki projektów głównie na Twoim urządzeniu. Nie sprzedajemy danych osobowych.",
         "introduction": {
             "title": "Wstęp",
-            "content": "Niniejsza polityka wyjaśnia, jak JigsawDesigner przetwarza informacje w aplikacji i w tej witrynie, w tym opcjonalne funkcje chmurowe, publikowanie publiczne, preferencję języka i opcjonalną analitykę."
+            "content": "Niniejsza polityka wyjaśnia, jak JigsawDesigner przetwarza informacje w aplikacji i w tej witrynie, w tym opcjonalne funkcje chmurowe, udostępnianie publiczne, wybór języka na podstawie adresu URL oraz analitykę witryny."
         },
         "dataCollection": {
             "title": "Zbieranie Danych",
             "content": "Aplikacja przetwarza pliki projektów głównie na Twoim urządzeniu.",
             "content2": "Jeśli włączysz iCloud, dane projektów mogą synchronizować się przez usługi Apple iCloud i CloudKit. Publikacja wysyła wybrany projekt do publicznej bazy CloudKit, a link udostępniania może zapewnić dostęp tylko do odczytu do wybranego projektu.",
             "list": {
-                "behavior": "Gdy samodzielnie wybierzesz język, witryna zapisze niezbędny plik cookie preferencji językowej na okres do jednego roku. Wybór opcjonalnej analityki jest przechowywany oddzielnie w localStorage tej przeglądarki. Za zgodą Google Analytics 4 może mierzyć wizyty i interakcje; Cloudflare przetwarza żądania i dane bezpieczeństwa potrzebne do działania witryny.",
+                "behavior": "Gdy samodzielnie wybierzesz język, witryna zapisze niezbędny plik cookie preferencji językowej na okres do jednego roku. Witryna bezpośrednio korzysta z Google Analytics 4 do pomiaru wizyt i interakcji. Zgodnie z warunkami Google firma Google może otrzymywać identyfikatory analityczne, pliki cookie oraz informacje o urządzeniu, przeglądarce i sieci. Cloudflare przetwarza dane dotyczące żądań, dostarczania i bezpieczeństwa, które są niezbędne do działania witryny.",
                 "upload": "Media lub usługi innych firm, na przykład dostawca wideo, są kontaktowane dopiero po wybraniu opcji wczytania lub otwarcia treści; wtedy obowiązują ich własne zasady prywatności.",
                 "sell": "Nie sprzedajemy danych osobowych."
             }
         },
         "analytics": {
             "title": "Analityka i dostawcy usług",
-            "content": "Apple może udostępniać opcjonalne dane analityczne aplikacji i informacje o awariach zgodnie z ustawieniami urządzenia. Opcjonalna analityka witryny używa Google Analytics 4 dopiero po zgodzie zapisanej w localStorage przeglądarki. Cloudflare hostuje i chroni witrynę. Możesz odrzucić analitykę bez wpływu na wybór języka."
+            "content": "Apple może udostępniać opcjonalne dane analityczne aplikacji i informacje o awariach zgodnie z ustawieniami urządzenia. Ta witryna bezpośrednio wczytuje Google Analytics 4, aby mierzyć korzystanie z witryny. Zgodnie z warunkami Google firma Google może otrzymywać identyfikatory analityczne, pliki cookie oraz informacje o urządzeniu, przeglądarce i sieci. Cloudflare hostuje i chroni witrynę."
         },
         "contact": {
             "title": "Skontaktuj Się z Nami",
             "content": "Jeśli masz jakiekolwiek pytania dotyczące niniejszej Polityki Prywatności, skontaktuj się z nami:"
         },
-        "lastUpdated": "Ostatnia aktualizacja: 16 sierpnia 2026"
+        "lastUpdated": "Ostatnia aktualizacja: 19 sierpnia 2026"
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "Zobacz JigsawDesigner w App Store"
-    },
-    "Consent": {
-        "title": "Opcjonalna analityka",
-        "description": "Zezwól na opcjonalny pomiar przez Google Analytics 4, aby pomóc nam zrozumieć korzystanie z witryny. Twój wybór zostanie zapisany w localStorage tej przeglądarki, a GA4 wczyta się dopiero po wyrażeniu zgody.",
-        "privacyLink": "Przeczytaj Politykę prywatności",
-        "reject": "Odrzuć opcjonalną analitykę",
-        "accept": "Zaakceptuj opcjonalną analitykę"
     }
 }

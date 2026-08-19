@@ -49,27 +49,27 @@
     "metaDescription": "O aplicativo processa principalmente os arquivos de design no seu dispositivo. Não vendemos informações pessoais.",
     "introduction": {
       "title": "Introdução",
-      "content": "Esta política explica como o JigsawDesigner trata informações no aplicativo e neste site, incluindo recursos opcionais de nuvem, publicação pública, seleção de idioma por URL e análise opcional."
+      "content": "Esta política explica como o JigsawDesigner trata informações no aplicativo e neste site, incluindo recursos opcionais de nuvem, compartilhamento público, seleção de idioma por URL e análise do site."
     },
     "dataCollection": {
       "title": "Recolha de Dados",
       "content": "O aplicativo processa principalmente os arquivos de design no seu dispositivo.",
       "content2": "Se você ativar o iCloud, os dados dos projetos poderão ser sincronizados pelos serviços iCloud e CloudKit da Apple. A publicação envia o projeto selecionado a um banco de dados público do CloudKit, e um link de compartilhamento pode oferecer acesso somente leitura ao projeto selecionado.",
       "list": {
-        "behavior": "Depois que você escolhe ativamente um idioma, o site salva por até um ano um cookie necessário de preferência de idioma. Sua escolha sobre a análise opcional é salva separadamente no localStorage deste navegador. Com seu consentimento, o Google Analytics 4 pode medir visitas e interações; a Cloudflare processa solicitações e dados de segurança necessários para fornecer o site.",
+        "behavior": "Depois que você escolhe ativamente um idioma, o site salva por até um ano um cookie necessário de preferência de idioma. O site usa diretamente o Google Analytics 4 para medir visitas e interações. De acordo com os termos do Google, o Google pode receber identificadores de análise, cookies e informações sobre o dispositivo, o navegador e a rede. A Cloudflare processa os dados de solicitação, entrega e segurança necessários para operar o site.",
         "upload": "Mídias ou serviços de terceiros, como um provedor de vídeo, só são contatados depois que você escolhe carregar ou abrir o conteúdo; então passam a valer os termos de privacidade desse terceiro.",
         "sell": "Não vendemos informações pessoais."
       }
     },
     "analytics": {
       "title": "Análise e provedores de serviço",
-      "content": "A Apple pode fornecer dados opcionais de análise do aplicativo e de falhas, conforme as configurações do dispositivo. A análise opcional do site usa o Google Analytics 4 somente depois que o consentimento é salvo no localStorage do navegador. A Cloudflare hospeda e protege o site. Você pode recusar a análise sem afetar a seleção de idioma."
+      "content": "A Apple pode fornecer dados opcionais de análise do aplicativo e de falhas, conforme as configurações do dispositivo. Este site carrega diretamente o Google Analytics 4 para medir o uso do site. De acordo com os termos do Google, o Google pode receber identificadores de análise, cookies e informações sobre o dispositivo, o navegador e a rede. A Cloudflare hospeda e protege o site."
     },
     "contact": {
       "title": "Entre em contato",
       "content": "Se tiver alguma dúvida sobre esta Política de Privacidade, contacte-nos em:"
     },
-    "lastUpdated": "Última atualização: 16 de agosto de 2026"
+    "lastUpdated": "Última atualização: 19 de agosto de 2026"
   },
   "Support": {
     "hero": {
@@ -593,12 +593,5 @@
   "Common": {
     "appName": "JigsawDesigner",
     "appStoreAria": "Ver JigsawDesigner na App Store"
-  },
-  "Consent": {
-    "title": "Análise opcional",
-    "description": "Permita a medição opcional do Google Analytics 4 para nos ajudar a entender o uso do site. A seleção de idioma continua disponível se você recusar a análise.",
-    "privacyLink": "Ler a Política de Privacidade",
-    "reject": "Recusar análise opcional",
-    "accept": "Aceitar análise opcional"
   }
 }

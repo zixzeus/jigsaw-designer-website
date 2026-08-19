@@ -49,27 +49,27 @@
     "metaDescription": "Aplikasi terutama memproses file desain di perangkat Anda. Kami tidak menjual informasi pribadi.",
     "introduction": {
       "title": "Pengantar",
-      "content": "Kebijakan ini menjelaskan cara JigsawDesigner menangani informasi di aplikasi dan situs, termasuk fitur cloud opsional, publikasi umum, pilihan bahasa berbasis URL, dan analitik opsional."
+      "content": "Kebijakan ini menjelaskan cara JigsawDesigner menangani informasi di aplikasi dan situs web ini, termasuk fitur cloud opsional, berbagi secara publik, pemilihan bahasa berbasis URL, dan analitik situs web."
     },
     "dataCollection": {
       "title": "Pengumpulan Data",
       "content": "Aplikasi terutama memproses file desain di perangkat Anda.",
       "content2": "Jika iCloud diaktifkan, data proyek dapat disinkronkan melalui layanan iCloud dan CloudKit Apple. Publikasi mengirim proyek yang dipilih ke basis data CloudKit publik, dan tautan berbagi dapat memberi akses hanya-baca ke proyek yang dipilih.",
       "list": {
-        "behavior": "Setelah Anda memilih bahasa secara aktif, situs menyimpan cookie preferensi bahasa yang diperlukan hingga satu tahun. Pilihan analitik opsional disimpan secara terpisah di localStorage peramban ini. Jika Anda menyetujui, Google Analytics 4 dapat mengukur kunjungan dan interaksi; Cloudflare memproses permintaan dan data keamanan yang diperlukan untuk menyediakan situs.",
+        "behavior": "Setelah Anda memilih bahasa secara aktif, situs menyimpan cookie preferensi bahasa yang diperlukan hingga satu tahun. Situs web menggunakan Google Analytics 4 secara langsung untuk mengukur kunjungan dan interaksi. Berdasarkan persyaratan Google, Google dapat menerima pengenal analitik, cookie, serta informasi perangkat, peramban, dan jaringan. Cloudflare memproses data permintaan, pengiriman, dan keamanan yang diperlukan untuk mengoperasikan situs.",
         "upload": "Media atau layanan pihak ketiga, seperti penyedia video, baru dihubungi setelah Anda memilih untuk memuat atau membuka konten tersebut; ketentuan privasi mereka kemudian berlaku.",
         "sell": "Kami tidak menjual informasi pribadi."
       }
     },
     "analytics": {
       "title": "Analitik dan penyedia layanan",
-      "content": "Apple dapat menyediakan analitik aplikasi dan informasi kerusakan opsional sesuai pengaturan perangkat. Analitik situs hanya menggunakan Google Analytics 4 setelah persetujuan disimpan di localStorage peramban. Cloudflare menghosting dan melindungi situs. Anda dapat menolak analitik tanpa memengaruhi pilihan bahasa."
+      "content": "Apple dapat menyediakan analitik aplikasi dan informasi kerusakan yang bersifat opsional sesuai pengaturan perangkat Anda. Situs web ini memuat Google Analytics 4 secara langsung untuk mengukur penggunaan situs. Berdasarkan persyaratan Google, Google dapat menerima pengenal analitik, cookie, serta informasi perangkat, peramban, dan jaringan. Cloudflare menghosting dan melindungi situs."
     },
     "contact": {
       "title": "Hubungi Kami",
       "content": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi kami di:"
     },
-    "lastUpdated": "Terakhir diperbarui: 16 Agustus 2026"
+    "lastUpdated": "Terakhir diperbarui: 19 Agustus 2026"
   },
   "Support": {
     "hero": {
@@ -593,12 +593,5 @@
   "Common": {
     "appName": "JigsawDesigner",
     "appStoreAria": "Lihat JigsawDesigner di App Store"
-  },
-  "Consent": {
-    "title": "Analitik opsional",
-    "description": "Izinkan pengukuran opsional Google Analytics 4 untuk membantu kami memahami penggunaan situs. Pilihan bahasa tetap tersedia jika Anda menolak analitik.",
-    "privacyLink": "Baca Kebijakan Privasi",
-    "reject": "Tolak analitik opsional",
-    "accept": "Terima analitik opsional"
   }
 }

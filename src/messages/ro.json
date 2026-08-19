@@ -49,27 +49,27 @@
         "metaDescription": "Aplicația procesează în principal fișierele de design pe dispozitivul tău. Nu vindem informații personale.",
         "introduction": {
             "title": "Introducere",
-            "content": "Această politică explică modul în care JigsawDesigner gestionează informațiile în aplicație și pe acest site, inclusiv funcțiile cloud opționale, publicarea publică, preferința de limbă și analiza opțională."
+            "content": "Această politică explică modul în care JigsawDesigner gestionează informațiile în aplicație și pe acest site, inclusiv funcțiile cloud opționale, distribuirea publică, selectarea limbii pe baza adresei URL și analiza site-ului."
         },
         "dataCollection": {
             "title": "Colectarea Datelor",
             "content": "Aplicația procesează în principal fișierele de design pe dispozitivul tău.",
             "content2": "Dacă activezi iCloud, datele proiectelor se pot sincroniza prin serviciile Apple iCloud și CloudKit. Publicarea trimite proiectul selectat într-o bază CloudKit publică, iar un link de partajare poate oferi acces doar pentru citire la proiectul selectat.",
             "list": {
-                "behavior": "După ce alegi în mod activ o limbă, site-ul salvează timp de cel mult un an un cookie necesar pentru preferința de limbă. Alegerea analizei opționale este salvată separat în localStorage al acestui browser. Cu acordul tău, Google Analytics 4 poate măsura vizite și interacțiuni; Cloudflare procesează solicitările și datele de securitate necesare pentru furnizarea site-ului.",
+                "behavior": "După ce alegi în mod activ o limbă, site-ul salvează timp de cel mult un an un cookie necesar pentru preferința de limbă. Site-ul folosește direct Google Analytics 4 pentru a măsura vizitele și interacțiunile. Conform termenilor Google, Google poate primi identificatori de analiză, cookie-uri și informații despre dispozitiv, browser și rețea. Cloudflare procesează datele privind solicitările, livrarea și securitatea necesare pentru operarea site-ului.",
                 "upload": "Conținutul media sau serviciile terțe, precum un furnizor video, sunt contactate numai după ce alegi să încarci sau să deschizi conținutul; apoi se aplică propriii lor termeni de confidențialitate.",
                 "sell": "Nu vindem informații personale."
             }
         },
         "analytics": {
             "title": "Analiză și furnizori de servicii",
-            "content": "Apple poate furniza analiză opțională a aplicației și informații despre blocări, conform setărilor dispozitivului. Analiza opțională a site-ului folosește Google Analytics 4 numai după consimțământul salvat în localStorage. Cloudflare găzduiește și protejează site-ul. Poți respinge analiza fără a afecta alegerea limbii."
+            "content": "Apple poate furniza analiză opțională a aplicației și informații despre blocări, conform setărilor dispozitivului. Acest site încarcă direct Google Analytics 4 pentru a măsura utilizarea site-ului. Conform termenilor Google, Google poate primi identificatori de analiză, cookie-uri și informații despre dispozitiv, browser și rețea. Cloudflare găzduiește și protejează site-ul."
         },
         "contact": {
             "title": "Contactați-ne",
             "content": "Dacă aveți întrebări despre această Politică de Confidențialitate, vă rugăm să ne contactați la:"
         },
-        "lastUpdated": "Ultima actualizare: 16 august 2026"
+        "lastUpdated": "Ultima actualizare: 19 august 2026"
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "Vezi JigsawDesigner în App Store"
-    },
-    "Consent": {
-        "title": "Analiză opțională",
-        "description": "Permite măsurarea opțională cu Google Analytics 4 pentru a ne ajuta să înțelegem utilizarea site-ului. Alegerea este salvată în localStorage al acestui browser, iar GA4 se încarcă numai după acceptare.",
-        "privacyLink": "Citește Politica de confidențialitate",
-        "reject": "Respinge analiza opțională",
-        "accept": "Acceptă analiza opțională"
     }
 }

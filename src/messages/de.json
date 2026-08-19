@@ -49,27 +49,27 @@
         "metaDescription": "Die App verarbeitet Designdateien hauptsächlich auf Ihrem Gerät. Wir verkaufen keine personenbezogenen Informationen.",
         "introduction": {
             "title": "Einführung",
-            "content": "Diese Richtlinie erläutert, wie JigsawDesigner Informationen in der App und auf dieser Website verarbeitet, einschließlich optionaler Cloud-Funktionen, öffentlicher Veröffentlichung, notwendiger Spracheinstellungen und optionaler Analyse."
+            "content": "Diese Richtlinie erläutert, wie JigsawDesigner Informationen in der App und auf dieser Website verarbeitet, einschließlich optionaler Cloud-Funktionen, öffentlicher Freigaben, URL-basierter Sprachauswahl und Website-Analyse."
         },
         "dataCollection": {
             "title": "Datenerhebung",
             "content": "Die App verarbeitet Designdateien hauptsächlich auf Ihrem Gerät.",
             "content2": "Wenn Sie iCloud aktivieren, können Projektdaten über Apples iCloud- und CloudKit-Dienste synchronisiert werden. Beim Veröffentlichen wird ein ausgewähltes Projekt an eine öffentliche CloudKit-Datenbank gesendet; ein Freigabelink kann Lesezugriff auf ein ausgewähltes Projekt gewähren.",
             "list": {
-                "behavior": "Nachdem Sie selbst eine Sprache ausgewählt haben, speichert die Website bis zu einem Jahr lang ein notwendiges Cookie für diese Spracheinstellung. Ihre Auswahl zur optionalen Analyse wird getrennt davon im localStorage dieses Browsers gespeichert. Wenn Sie zustimmen, kann Google Analytics 4 Besuche und Interaktionen messen; Cloudflare verarbeitet Anfragen und Sicherheitsdaten, die zur Bereitstellung der Website erforderlich sind.",
+                "behavior": "Nachdem Sie selbst eine Sprache ausgewählt haben, speichert die Website bis zu einem Jahr lang ein notwendiges Cookie für diese Spracheinstellung. Die Website verwendet Google Analytics 4 direkt, um Besuche und Interaktionen zu messen. Gemäß den Bedingungen von Google kann Google Analysekennungen, Cookies sowie Informationen zu Gerät, Browser und Netzwerk erhalten. Cloudflare verarbeitet Anfrage-, Bereitstellungs- und Sicherheitsdaten, die für den Betrieb der Website erforderlich sind.",
                 "upload": "Drittanbieter-Medien oder -Dienste, etwa ein Videoanbieter, werden erst kontaktiert, nachdem Sie den Inhalt laden oder öffnen; dann gelten deren eigene Datenschutzbestimmungen.",
                 "sell": "Wir verkaufen keine personenbezogenen Informationen."
             }
         },
         "analytics": {
             "title": "Analyse und Dienstanbieter",
-            "content": "Apple kann abhängig von Ihren Geräteeinstellungen optionale App-Analyse- und Absturzinformationen bereitstellen. Die optionale Website-Analyse nutzt Google Analytics 4 erst nach Ihrer Einwilligung, die im localStorage des Browsers gespeichert wird. Cloudflare hostet und schützt die Website. Sie können die Analyse ablehnen, ohne die Sprachauswahl zu beeinflussen."
+            "content": "Apple kann abhängig von Ihren Geräteeinstellungen optionale App-Analyse- und Absturzinformationen bereitstellen. Diese Website lädt Google Analytics 4 direkt, um die Nutzung der Website zu messen. Gemäß den Bedingungen von Google kann Google Analysekennungen, Cookies sowie Informationen zu Gerät, Browser und Netzwerk erhalten. Cloudflare hostet und schützt die Website."
         },
         "contact": {
             "title": "Kontaktieren Sie uns",
             "content": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter:"
         },
-        "lastUpdated": "Zuletzt aktualisiert: 16. August 2026"
+        "lastUpdated": "Zuletzt aktualisiert: 19. August 2026"
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "JigsawDesigner im App Store ansehen"
-    },
-    "Consent": {
-        "title": "Optionale Analyse",
-        "description": "Erlauben Sie die optionale Messung mit Google Analytics 4, damit wir die Nutzung der Website besser verstehen. Ihre Auswahl wird im localStorage dieses Browsers gespeichert; GA4 wird erst nach Ihrer Zustimmung geladen.",
-        "privacyLink": "Datenschutzrichtlinie lesen",
-        "reject": "Optionale Analyse ablehnen",
-        "accept": "Optionale Analyse akzeptieren"
     }
 }

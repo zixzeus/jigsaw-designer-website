@@ -49,27 +49,27 @@
         "metaDescription": "Aplikacija uglavnom obrađuje datoteke dizajna na vašem uređaju. Ne prodajemo osobne podatke.",
         "introduction": {
             "title": "Uvod",
-            "content": "Ova pravila objašnjavaju kako JigsawDesigner obrađuje informacije u aplikaciji i na ovom web-mjestu, uključujući neobavezne funkcije oblaka, javnu objavu, jezične postavke i neobaveznu analitiku."
+            "content": "Ova pravila objašnjavaju kako JigsawDesigner obrađuje informacije u aplikaciji i na ovom web-mjestu, uključujući neobavezne funkcije oblaka, javno dijeljenje, odabir jezika na temelju URL-a i analitiku web-mjesta."
         },
         "dataCollection": {
             "title": "Prikupljanje Podataka",
             "content": "Aplikacija uglavnom obrađuje datoteke dizajna na vašem uređaju.",
             "content2": "Ako uključite iCloud, podaci projekata mogu se sinkronizirati putem Appleovih usluga iCloud i CloudKit. Objavljivanje šalje odabrani projekt u javnu bazu CloudKit, a poveznica za dijeljenje može omogućiti pristup samo za čitanje odabranom projektu.",
             "list": {
-                "behavior": "Nakon što sami odaberete jezik, web-mjesto pohranjuje nužni kolačić za jezičnu postavku do godinu dana. Odabir neobavezne analitike sprema se zasebno u localStorage ovog preglednika. Uz vaš pristanak Google Analytics 4 može mjeriti posjete i interakcije; Cloudflare obrađuje zahtjeve i sigurnosne podatke potrebne za isporuku web-mjesta.",
+                "behavior": "Nakon što sami odaberete jezik, web-mjesto pohranjuje nužni kolačić za jezičnu postavku do godinu dana. Web-mjesto izravno upotrebljava Google Analytics 4 za mjerenje posjeta i interakcija. U skladu s Googleovim uvjetima Google može primiti analitičke identifikatore, kolačiće te podatke o uređaju, pregledniku i mreži. Cloudflare obrađuje podatke o zahtjevima, isporuci i sigurnosti potrebne za rad web-mjesta.",
                 "upload": "Mediji ili usluge trećih strana, poput pružatelja videozapisa, kontaktiraju se tek nakon što odlučite učitati ili otvoriti sadržaj; tada vrijede njihovi uvjeti privatnosti.",
                 "sell": "Ne prodajemo osobne podatke."
             }
         },
         "analytics": {
             "title": "Analitika i pružatelji usluga",
-            "content": "Apple može pružati neobaveznu analitiku aplikacije i podatke o rušenjima prema postavkama uređaja. Neobavezna analitika web-mjesta koristi Google Analytics 4 tek nakon pristanka spremljenog u localStorage preglednika. Cloudflare udomljuje i štiti web-mjesto. Analitiku možete odbiti bez utjecaja na odabir jezika."
+            "content": "Apple može pružati neobaveznu analitiku aplikacije i podatke o rušenjima prema postavkama uređaja. Ovo web-mjesto izravno učitava Google Analytics 4 radi mjerenja njegove upotrebe. U skladu s Googleovim uvjetima Google može primiti analitičke identifikatore, kolačiće te podatke o uređaju, pregledniku i mreži. Cloudflare udomljuje i štiti web-mjesto."
         },
         "contact": {
             "title": "Kontaktirajte Nas",
             "content": "Ako imate bilo kakvih pitanja o ovoj Politici Privatnosti, molimo kontaktirajte nas na:"
         },
-        "lastUpdated": "Posljednje ažuriranje: 16. kolovoza 2026."
+        "lastUpdated": "Posljednje ažuriranje: 19. kolovoza 2026."
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "Prikaži JigsawDesigner u App Storeu"
-    },
-    "Consent": {
-        "title": "Neobavezna analitika",
-        "description": "Dopustite neobavezno mjerenje putem Google Analyticsa 4 kako bismo razumjeli upotrebu web-mjesta. Vaš se odabir sprema u localStorage ovog preglednika, a GA4 učitava tek nakon pristanka.",
-        "privacyLink": "Pročitajte Pravila privatnosti",
-        "reject": "Odbij neobaveznu analitiku",
-        "accept": "Prihvati neobaveznu analitiku"
     }
 }

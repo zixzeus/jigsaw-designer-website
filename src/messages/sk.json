@@ -49,27 +49,27 @@
         "metaDescription": "Aplikácia spracúva súbory návrhov predovšetkým vo vašom zariadení. Osobné údaje nepredávame.",
         "introduction": {
             "title": "Úvod",
-            "content": "Tieto zásady vysvetľujú, ako JigsawDesigner spracúva informácie v aplikácii a na tomto webe vrátane voliteľných cloudových funkcií, verejného publikovania, jazykovej voľby a voliteľnej analytiky."
+            "content": "Tieto zásady vysvetľujú, ako JigsawDesigner spracúva informácie v aplikácii a na tomto webe vrátane voliteľných cloudových funkcií, verejného zdieľania, výberu jazyka podľa adresy URL a webovej analytiky."
         },
         "dataCollection": {
             "title": "Zber Údajov",
             "content": "Aplikácia spracúva súbory návrhov predovšetkým vo vašom zariadení.",
             "content2": "Ak zapnete iCloud, údaje projektov sa môžu synchronizovať cez služby Apple iCloud a CloudKit. Publikovanie odošle vybraný projekt do verejnej databázy CloudKit a odkaz na zdieľanie môže poskytnúť prístup len na čítanie k vybranému projektu.",
             "list": {
-                "behavior": "Keď si sami zvolíte jazyk, web uloží nevyhnutný súbor cookie s jazykovou voľbou až na jeden rok. Výber voliteľnej analytiky sa ukladá oddelene do localStorage tohto prehliadača. Ak súhlasíte, Google Analytics 4 môže merať návštevy a interakcie; Cloudflare spracúva požiadavky a bezpečnostné údaje potrebné na poskytovanie webu.",
+                "behavior": "Keď si sami zvolíte jazyk, web uloží nevyhnutný súbor cookie s jazykovou voľbou až na jeden rok. Web priamo používa Google Analytics 4 na meranie návštev a interakcií. Podľa podmienok spoločnosti Google môže Google získavať analytické identifikátory, súbory cookie a informácie o zariadení, prehliadači a sieti. Cloudflare spracúva údaje o požiadavkách, doručovaní a zabezpečení potrebné na prevádzku webu.",
                 "upload": "Médiá alebo služby tretích strán, napríklad poskytovateľ videa, sa kontaktujú až po tom, čo sa rozhodnete obsah načítať alebo otvoriť; potom platia ich vlastné podmienky ochrany súkromia.",
                 "sell": "Osobné údaje nepredávame."
             }
         },
         "analytics": {
             "title": "Analytika a poskytovatelia služieb",
-            "content": "Apple môže podľa nastavení zariadenia poskytovať voliteľnú analytiku aplikácie a údaje o zlyhaniach. Voliteľná analytika webu používa Google Analytics 4 až po súhlase uloženom v localStorage prehliadača. Cloudflare web hostuje a chráni. Analytiku môžete odmietnuť bez vplyvu na výber jazyka."
+            "content": "Apple môže podľa nastavení zariadenia poskytovať voliteľnú analytiku aplikácie a údaje o zlyhaniach. Tento web priamo načítava Google Analytics 4 na meranie používania webu. Podľa podmienok spoločnosti Google môže Google získavať analytické identifikátory, súbory cookie a informácie o zariadení, prehliadači a sieti. Cloudflare web hostuje a chráni."
         },
         "contact": {
             "title": "Kontaktujte Nás",
             "content": "Ak máte akékoľvek otázky týkajúce sa týchto Zásad ochrany osobných údajov, kontaktujte nás prosím na:"
         },
-        "lastUpdated": "Posledná aktualizácia: 16. augusta 2026"
+        "lastUpdated": "Posledná aktualizácia: 19. augusta 2026"
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "Zobraziť JigsawDesigner v App Store"
-    },
-    "Consent": {
-        "title": "Voliteľná analytika",
-        "description": "Povoľte voliteľné meranie pomocou Google Analytics 4, aby sme lepšie pochopili používanie webu. Vaša voľba sa uloží do localStorage tohto prehliadača a GA4 sa načíta až po súhlase.",
-        "privacyLink": "Prečítať zásady ochrany súkromia",
-        "reject": "Odmietnuť voliteľnú analytiku",
-        "accept": "Prijať voliteľnú analytiku"
     }
 }

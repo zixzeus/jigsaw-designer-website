@@ -49,27 +49,27 @@
         "metaDescription": "Sovellus käsittelee suunnittelutiedostot pääasiassa laitteellasi. Emme myy henkilötietoja.",
         "introduction": {
             "title": "Johdanto",
-            "content": "Tämä käytäntö selittää, miten JigsawDesigner käsittelee tietoja sovelluksessa ja tällä verkkosivustolla, mukaan lukien valinnaiset pilvitoiminnot, julkinen julkaiseminen, välttämätön kieliasetus ja valinnainen analytiikka."
+            "content": "Tämä käytäntö selittää, miten JigsawDesigner käsittelee tietoja sovelluksessa ja tällä verkkosivustolla, mukaan lukien valinnaiset pilvitoiminnot, julkinen jakaminen, URL-osoitteeseen perustuva kielivalinta ja verkkosivuston analytiikka."
         },
         "dataCollection": {
             "title": "Tietojen Keruu",
             "content": "Sovellus käsittelee suunnittelutiedostot pääasiassa laitteellasi.",
             "content2": "Jos otat iCloudin käyttöön, projektitiedot voivat synkronoitua Applen iCloud- ja CloudKit-palvelujen kautta. Julkaiseminen lähettää valitun projektin julkiseen CloudKit-tietokantaan, ja jakolinkki voi antaa valittuun projektiin vain luku -oikeuden.",
             "list": {
-                "behavior": "Kun valitset kielen itse, sivusto tallentaa välttämättömän kieliasetusevästeen enintään vuodeksi. Valinnainen analytiikkavalintasi tallennetaan siitä erillään tämän selaimen localStorageen. Suostumuksellasi Google Analytics 4 voi mitata käyntejä ja toimintoja; Cloudflare käsittelee sivuston toimittamiseen tarvittavat pyynnöt ja suojaustiedot.",
+                "behavior": "Kun valitset kielen itse, sivusto tallentaa välttämättömän kieliasetusevästeen enintään vuodeksi. Sivusto käyttää Google Analytics 4:ää suoraan käyntien ja toimintojen mittaamiseen. Googlen ehtojen mukaisesti Google voi vastaanottaa analytiikkatunnisteita, evästeitä sekä laite-, selain- ja verkkotietoja. Cloudflare käsittelee sivuston toiminnan edellyttämiä pyyntö-, toimitus- ja suojaustietoja.",
                 "upload": "Kolmannen osapuolen mediaan tai palveluihin, kuten videopalveluun, otetaan yhteys vasta, kun päätät ladata tai avata kyseisen sisällön; tällöin sovelletaan niiden omia tietosuojakäytäntöjä.",
                 "sell": "Emme myy henkilötietoja."
             }
         },
         "analytics": {
             "title": "Analytiikka ja palveluntarjoajat",
-            "content": "Apple voi toimittaa valinnaisia sovellusanalytiikka- ja kaatumistietoja laiteasetustesi mukaisesti. Valinnainen sivustoanalytiikka käyttää Google Analytics 4:ää vasta suostumuksen jälkeen, ja valinta tallennetaan selaimen localStorageen. Cloudflare ylläpitää ja suojaa sivustoa. Voit hylätä analytiikan vaikuttamatta kielivalintaan."
+            "content": "Apple voi toimittaa valinnaisia sovellusanalytiikka- ja kaatumistietoja laiteasetustesi mukaisesti. Tämä sivusto lataa Google Analytics 4:n suoraan sivuston käytön mittaamiseksi. Googlen ehtojen mukaisesti Google voi vastaanottaa analytiikkatunnisteita, evästeitä sekä laite-, selain- ja verkkotietoja. Cloudflare ylläpitää ja suojaa sivustoa."
         },
         "contact": {
             "title": "Ota Yhteyttä",
             "content": "Jos sinulla on kysyttävää tästä tietosuojaselosteesta, ota meihin yhteyttä osoitteessa:"
         },
-        "lastUpdated": "Päivitetty viimeksi: 16. elokuuta 2026"
+        "lastUpdated": "Päivitetty viimeksi: 19. elokuuta 2026"
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "Näytä JigsawDesigner App Storessa"
-    },
-    "Consent": {
-        "title": "Valinnainen analytiikka",
-        "description": "Salli valinnainen Google Analytics 4 -mittaus, jotta voimme ymmärtää verkkosivuston käyttöä. Valintasi tallennetaan tämän selaimen localStorageen, ja GA4 ladataan vasta hyväksymisen jälkeen.",
-        "privacyLink": "Lue tietosuojakäytäntö",
-        "reject": "Hylkää valinnainen analytiikka",
-        "accept": "Hyväksy valinnainen analytiikka"
     }
 }

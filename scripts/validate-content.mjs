@@ -9,6 +9,7 @@ const messagesDirectory = path.join(root, "src/messages");
 const legacyLocales = new Set(["zh", "pt"]);
 const tierOneNamespaces = new Set(["Pricing", "Terms", "Refund"]);
 const deprecatedMessageKeys = [
+  "Consent",
   "Navigation.github",
   "Navigation.getStarted",
   "Hero.download",

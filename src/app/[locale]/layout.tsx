@@ -6,7 +6,7 @@ import {notFound} from "next/navigation";
 import {isSiteLocale, LOCALE_SPECS} from "@/config/seo";
 import {PRODUCT_FACTS} from "@/config/product";
 import {locales} from "@/i18n/config";
-import AnalyticsConsent from "@/components/AnalyticsConsent";
+import {GA_MEASUREMENT_ID} from "@/lib/analytics";
 
 /**
  * Locale-independent defaults only. Route pages must call
@@ -73,16 +73,31 @@ export default async function LocaleLayout({
   const clientMessages = {
     Navigation: messages.Navigation,
     Common: messages.Common,
-    Consent: messages.Consent,
   };
   const localeSpec = LOCALE_SPECS[locale];
 
   return (
     <html lang={localeSpec.htmlLang} dir={localeSpec.direction}>
+      <head>
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        />
+        <script
+          id="google-analytics"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_MEASUREMENT_ID}');
+            `,
+          }}
+        />
+      </head>
       <body className="antialiased">
         <NextIntlClientProvider messages={clientMessages}>
           {children}
-          <AnalyticsConsent />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -49,27 +49,27 @@
         "metaDescription": "L’app elabora principalmente i file di progetto sul tuo dispositivo. Non vendiamo informazioni personali.",
         "introduction": {
             "title": "Introduzione",
-            "content": "Questa informativa spiega come JigsawDesigner tratta le informazioni nell’app e su questo sito, incluse le funzioni cloud facoltative, la pubblicazione pubblica, la preferenza di lingua necessaria e l’analisi facoltativa."
+            "content": "Questa informativa spiega come JigsawDesigner tratta le informazioni nell’app e su questo sito, incluse le funzioni cloud facoltative, la condivisione pubblica, la selezione della lingua basata sull’URL e l’analisi del sito web."
         },
         "dataCollection": {
             "title": "Raccolta Dati",
             "content": "L’app elabora principalmente i file di progetto sul tuo dispositivo.",
             "content2": "Se abiliti iCloud, i dati dei progetti possono sincronizzarsi tramite i servizi iCloud e CloudKit di Apple. La pubblicazione invia il progetto selezionato a un database CloudKit pubblico, mentre un link di condivisione può fornire accesso in sola lettura al progetto selezionato.",
             "list": {
-                "behavior": "Dopo che hai scelto attivamente una lingua, il sito salva per un massimo di un anno un cookie necessario per la preferenza linguistica. La scelta sull’analisi facoltativa viene salvata separatamente nel localStorage di questo browser. Con il tuo consenso, Google Analytics 4 può misurare visite e interazioni; Cloudflare tratta le richieste e i dati di sicurezza necessari per fornire il sito.",
+                "behavior": "Dopo che hai scelto attivamente una lingua, il sito salva per un massimo di un anno un cookie necessario per la preferenza linguistica. Il sito utilizza direttamente Google Analytics 4 per misurare visite e interazioni. In base ai termini di Google, Google può ricevere identificatori analitici, cookie e informazioni sul dispositivo, sul browser e sulla rete. Cloudflare tratta i dati relativi a richieste, distribuzione e sicurezza necessari per il funzionamento del sito.",
                 "upload": "I media o servizi di terzi, come un fornitore video, vengono contattati solo dopo che scegli di caricare o aprire quel contenuto; si applicano quindi le loro condizioni sulla privacy.",
                 "sell": "Non vendiamo informazioni personali."
             }
         },
         "analytics": {
             "title": "Analisi e fornitori di servizi",
-            "content": "Apple può fornire analisi facoltative dell’app e informazioni sugli arresti anomali in base alle impostazioni del dispositivo. L’analisi facoltativa del sito usa Google Analytics 4 solo dopo il consenso, salvato nel localStorage del browser. Cloudflare ospita e protegge il sito. Puoi rifiutare l’analisi senza influire sulla scelta della lingua."
+            "content": "Apple può fornire analisi facoltative dell’app e informazioni sugli arresti anomali in base alle impostazioni del dispositivo. Questo sito carica direttamente Google Analytics 4 per misurarne l’utilizzo. In base ai termini di Google, Google può ricevere identificatori analitici, cookie e informazioni sul dispositivo, sul browser e sulla rete. Cloudflare ospita e protegge il sito."
         },
         "contact": {
             "title": "Contattaci",
             "content": "Se hai domande su questa Informativa sulla Privacy, contattaci a:"
         },
-        "lastUpdated": "Ultimo aggiornamento: 16 agosto 2026"
+        "lastUpdated": "Ultimo aggiornamento: 19 agosto 2026"
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "Visualizza JigsawDesigner sull’App Store"
-    },
-    "Consent": {
-        "title": "Analisi facoltativa",
-        "description": "Consenti la misurazione facoltativa con Google Analytics 4 per aiutarci a capire l’uso del sito. La tua scelta viene salvata nel localStorage di questo browser e GA4 si carica solo dopo l’accettazione.",
-        "privacyLink": "Leggi l’Informativa sulla privacy",
-        "reject": "Rifiuta l’analisi facoltativa",
-        "accept": "Accetta l’analisi facoltativa"
     }
 }

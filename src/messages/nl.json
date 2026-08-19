@@ -49,27 +49,27 @@
         "metaDescription": "De app verwerkt ontwerpbestanden hoofdzakelijk op uw apparaat. Wij verkopen geen persoonsgegevens.",
         "introduction": {
             "title": "Inleiding",
-            "content": "Dit beleid legt uit hoe JigsawDesigner informatie verwerkt in de app en op deze website, waaronder optionele cloudfuncties, openbare publicatie, een noodzakelijke taalvoorkeur en optionele analyse."
+            "content": "Dit beleid legt uit hoe JigsawDesigner informatie verwerkt in de app en op deze website, waaronder optionele cloudfuncties, openbaar delen, op URL gebaseerde taalkeuze en websiteanalyse."
         },
         "dataCollection": {
             "title": "Gegevensverzameling",
             "content": "De app verwerkt ontwerpbestanden hoofdzakelijk op uw apparaat.",
             "content2": "Als u iCloud inschakelt, kunnen projectgegevens worden gesynchroniseerd via de iCloud- en CloudKit-diensten van Apple. Bij publicatie wordt een geselecteerd project naar een openbare CloudKit-database gestuurd; een deellink kan alleen-lezen toegang geven tot een geselecteerd project.",
             "list": {
-                "behavior": "Nadat u zelf een taal hebt gekozen, bewaart de site maximaal één jaar een noodzakelijke cookie voor die taalvoorkeur. Uw keuze voor optionele analyse wordt daarvan gescheiden opgeslagen in de localStorage van deze browser. Met uw toestemming kan Google Analytics 4 bezoeken en interacties meten; Cloudflare verwerkt verzoeken en beveiligingsgegevens die nodig zijn om de site aan te bieden.",
+                "behavior": "Nadat u zelf een taal hebt gekozen, bewaart de site maximaal één jaar een noodzakelijke cookie voor die taalvoorkeur. De website gebruikt Google Analytics 4 rechtstreeks om bezoeken en interacties te meten. Volgens de voorwaarden van Google kan Google analyse-identificatoren, cookies en informatie over het apparaat, de browser en het netwerk ontvangen. Cloudflare verwerkt gegevens over verzoeken, levering en beveiliging die nodig zijn om de site te exploiteren.",
                 "upload": "Media of diensten van derden, zoals een videoprovider, worden pas benaderd nadat u ervoor kiest die inhoud te laden of openen; hun eigen privacyvoorwaarden zijn dan van toepassing.",
                 "sell": "Wij verkopen geen persoonsgegevens."
             }
         },
         "analytics": {
             "title": "Analyse en dienstverleners",
-            "content": "Apple kan optionele app-analyse en crashinformatie verstrekken volgens uw apparaatinstellingen. Optionele websiteanalyse gebruikt Google Analytics 4 pas na toestemming, die in de localStorage van de browser wordt opgeslagen. Cloudflare host en beschermt de site. U kunt analyse weigeren zonder de taalkeuze te beïnvloeden."
+            "content": "Apple kan optionele app-analyse en crashinformatie verstrekken volgens uw apparaatinstellingen. Deze website laadt Google Analytics 4 rechtstreeks om het gebruik van de site te meten. Volgens de voorwaarden van Google kan Google analyse-identificatoren, cookies en informatie over het apparaat, de browser en het netwerk ontvangen. Cloudflare host en beschermt de site."
         },
         "contact": {
             "title": "Neem Contact Op",
             "content": "Als u vragen heeft over dit Privacybeleid, neem dan contact met ons op via:"
         },
-        "lastUpdated": "Laatst bijgewerkt: 16 augustus 2026"
+        "lastUpdated": "Laatst bijgewerkt: 19 augustus 2026"
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "Bekijk JigsawDesigner in de App Store"
-    },
-    "Consent": {
-        "title": "Optionele analyse",
-        "description": "Sta optionele meting met Google Analytics 4 toe om ons inzicht te geven in het gebruik van de website. Uw keuze wordt opgeslagen in de localStorage van deze browser; GA4 wordt pas geladen nadat u toestemming geeft.",
-        "privacyLink": "Lees het privacybeleid",
-        "reject": "Optionele analyse weigeren",
-        "accept": "Optionele analyse toestaan"
     }
 }

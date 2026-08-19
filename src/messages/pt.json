@@ -49,27 +49,27 @@
         "metaDescription": "A aplicação processa principalmente os ficheiros de design no seu dispositivo. Não vendemos informações pessoais.",
         "introduction": {
             "title": "Introdução",
-            "content": "Esta política explica como o JigsawDesigner trata as informações na aplicação e neste site, incluindo funcionalidades cloud opcionais, publicação pública, preferência de idioma necessária e análise opcional."
+            "content": "Esta política explica como o JigsawDesigner trata as informações na aplicação e neste site, incluindo funcionalidades cloud opcionais, partilha pública, seleção de idioma com base no URL e análise do site."
         },
         "dataCollection": {
             "title": "Recolha de Dados",
             "content": "A aplicação processa principalmente os ficheiros de design no seu dispositivo.",
             "content2": "Se ativar o iCloud, os dados dos projetos podem ser sincronizados através dos serviços iCloud e CloudKit da Apple. A publicação envia o projeto selecionado para uma base de dados pública do CloudKit, e uma ligação de partilha pode dar acesso só de leitura ao projeto selecionado.",
             "list": {
-                "behavior": "Depois de escolher ativamente um idioma, o site guarda durante até um ano um cookie necessário de preferência de idioma. A sua escolha sobre a análise opcional é guardada separadamente no localStorage deste navegador. Se der consentimento, o Google Analytics 4 pode medir visitas e interações; a Cloudflare processa pedidos e dados de segurança necessários para disponibilizar o site.",
+                "behavior": "Depois de escolher ativamente um idioma, o site guarda durante até um ano um cookie necessário de preferência de idioma. O site utiliza diretamente o Google Analytics 4 para medir visitas e interações. De acordo com os termos da Google, a Google pode receber identificadores de análise, cookies e informações sobre o dispositivo, o navegador e a rede. A Cloudflare processa os dados de pedidos, disponibilização e segurança necessários para operar o site.",
                 "upload": "Os conteúdos multimédia ou serviços de terceiros, como um fornecedor de vídeo, só são contactados depois de optar por carregar ou abrir esse conteúdo; aplicam-se então os respetivos termos de privacidade.",
                 "sell": "Não vendemos informações pessoais."
             }
         },
         "analytics": {
             "title": "Análise e fornecedores de serviços",
-            "content": "A Apple pode fornecer dados opcionais de análise da aplicação e de falhas, de acordo com as definições do dispositivo. A análise opcional do site utiliza o Google Analytics 4 apenas depois do consentimento, guardado no localStorage do navegador. A Cloudflare aloja e protege o site. Pode recusar a análise sem afetar a seleção do idioma."
+            "content": "A Apple pode fornecer dados opcionais de análise da aplicação e de falhas, de acordo com as definições do dispositivo. Este site carrega diretamente o Google Analytics 4 para medir a utilização do site. De acordo com os termos da Google, a Google pode receber identificadores de análise, cookies e informações sobre o dispositivo, o navegador e a rede. A Cloudflare aloja e protege o site."
         },
         "contact": {
             "title": "Contacte-nos",
             "content": "Se tiver alguma dúvida sobre esta Política de Privacidade, contacte-nos em:"
         },
-        "lastUpdated": "Última atualização: 16 de agosto de 2026"
+        "lastUpdated": "Última atualização: 19 de agosto de 2026"
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "Ver o JigsawDesigner na App Store"
-    },
-    "Consent": {
-        "title": "Análise opcional",
-        "description": "Permita a medição opcional com o Google Analytics 4 para nos ajudar a compreender a utilização do site. A sua escolha é guardada no localStorage deste navegador e o GA4 só é carregado depois de aceitar.",
-        "privacyLink": "Ler a Política de Privacidade",
-        "reject": "Recusar análise opcional",
-        "accept": "Aceitar análise opcional"
     }
 }

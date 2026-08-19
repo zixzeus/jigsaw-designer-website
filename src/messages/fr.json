@@ -49,27 +49,27 @@
         "metaDescription": "L’application traite principalement les fichiers de conception sur votre appareil. Nous ne vendons pas d’informations personnelles.",
         "introduction": {
             "title": "Introduction",
-            "content": "Cette politique explique comment JigsawDesigner traite les informations dans l’application et sur ce site, notamment les fonctions cloud facultatives, la publication publique, la préférence de langue indispensable et la mesure d’audience facultative."
+            "content": "Cette politique explique comment JigsawDesigner traite les informations dans l’application et sur ce site, notamment les fonctions cloud facultatives, le partage public, la sélection de la langue par l’URL et la mesure d’audience du site."
         },
         "dataCollection": {
             "title": "Collecte de Données",
             "content": "L’application traite principalement les fichiers de conception sur votre appareil.",
             "content2": "Si vous activez iCloud, les données des projets peuvent être synchronisées via les services iCloud et CloudKit d’Apple. La publication envoie le projet sélectionné vers une base CloudKit publique, et un lien de partage peut donner un accès en lecture seule à un projet sélectionné.",
             "list": {
-                "behavior": "Lorsque vous choisissez vous-même une langue, le site enregistre pendant un an au maximum un cookie nécessaire de préférence linguistique. Votre choix concernant l’analyse facultative est enregistré séparément dans le localStorage de ce navigateur. Si vous y consentez, Google Analytics 4 peut mesurer les visites et interactions ; Cloudflare traite les requêtes et données de sécurité nécessaires à la diffusion du site.",
+                "behavior": "Lorsque vous choisissez vous-même une langue, le site enregistre pendant un an au maximum un cookie nécessaire de préférence linguistique. Le site utilise directement Google Analytics 4 pour mesurer les visites et les interactions. Conformément aux conditions de Google, Google peut recevoir des identifiants d’analyse, des cookies ainsi que des informations sur l’appareil, le navigateur et le réseau. Cloudflare traite les données de requête, de diffusion et de sécurité nécessaires au fonctionnement du site.",
                 "upload": "Les médias ou services tiers, comme un fournisseur de vidéos, ne sont contactés qu’après votre choix de charger ou d’ouvrir ce contenu ; leurs propres règles de confidentialité s’appliquent alors.",
                 "sell": "Nous ne vendons pas d’informations personnelles."
             }
         },
         "analytics": {
             "title": "Mesure d’audience et prestataires",
-            "content": "Apple peut fournir des données facultatives d’analyse de l’app et de plantage selon les réglages de votre appareil. L’analyse facultative du site utilise Google Analytics 4 uniquement après votre consentement, enregistré dans le localStorage du navigateur. Cloudflare héberge et protège le site. Vous pouvez refuser cette analyse sans affecter le choix de la langue."
+            "content": "Apple peut fournir des données facultatives d’analyse de l’app et de plantage selon les réglages de votre appareil. Ce site charge directement Google Analytics 4 pour mesurer son utilisation. Conformément aux conditions de Google, Google peut recevoir des identifiants d’analyse, des cookies ainsi que des informations sur l’appareil, le navigateur et le réseau. Cloudflare héberge et protège le site."
         },
         "contact": {
             "title": "Contactez-nous",
             "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à :"
         },
-        "lastUpdated": "Dernière mise à jour : 16 août 2026"
+        "lastUpdated": "Dernière mise à jour : 19 août 2026"
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "Voir JigsawDesigner sur l’App Store"
-    },
-    "Consent": {
-        "title": "Mesure d’audience facultative",
-        "description": "Autorisez la mesure facultative via Google Analytics 4 pour nous aider à comprendre l’utilisation du site. Votre choix est enregistré dans le localStorage de ce navigateur, et GA4 ne se charge qu’après votre acceptation.",
-        "privacyLink": "Lire la politique de confidentialité",
-        "reject": "Refuser la mesure facultative",
-        "accept": "Accepter la mesure facultative"
     }
 }

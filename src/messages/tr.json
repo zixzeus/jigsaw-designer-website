@@ -49,27 +49,27 @@
         "metaDescription": "Uygulama, tasarım dosyalarını ağırlıklı olarak cihazınızda işler. Kişisel bilgileri satmıyoruz.",
         "introduction": {
             "title": "Giriş",
-            "content": "Bu politika, isteğe bağlı bulut özellikleri, herkese açık yayımlama, dil tercihi ve isteğe bağlı analiz dâhil olmak üzere JigsawDesigner’ın uygulamada ve bu web sitesinde bilgileri nasıl işlediğini açıklar."
+            "content": "Bu politika, isteğe bağlı bulut özellikleri, herkese açık paylaşım, URL tabanlı dil seçimi ve web sitesi analizi dâhil olmak üzere JigsawDesigner’ın uygulamada ve bu web sitesinde bilgileri nasıl işlediğini açıklar."
         },
         "dataCollection": {
             "title": "Veri Toplama",
             "content": "Uygulama, tasarım dosyalarını ağırlıklı olarak cihazınızda işler.",
             "content2": "iCloud’u etkinleştirirseniz proje verileri Apple’ın iCloud ve CloudKit hizmetleri üzerinden eşzamanlanabilir. Yayımlama, seçilen projeyi herkese açık bir CloudKit veritabanına gönderir; paylaşım bağlantısı ise seçilen projeye salt okunur erişim sağlayabilir.",
             "list": {
-                "behavior": "Bir dili kendiniz seçtikten sonra site, gerekli dil tercihi çerezini en fazla bir yıl saklar. İsteğe bağlı analiz seçiminiz bundan ayrı olarak tarayıcının localStorage alanında saklanır. Onay verirseniz Google Analytics 4 ziyaretleri ve etkileşimleri ölçebilir; Cloudflare sitenin sunulması için gereken istekleri ve güvenlik verilerini işler.",
+                "behavior": "Bir dili kendiniz seçtikten sonra site, gerekli dil tercihi çerezini en fazla bir yıl saklar. Web sitesi, ziyaretleri ve etkileşimleri ölçmek için Google Analytics 4’ü doğrudan kullanır. Google, kendi şartları uyarınca analiz tanımlayıcılarını, çerezleri ve cihaz, tarayıcı ile ağ bilgilerini alabilir. Cloudflare, web sitesinin çalışması için gereken istek, sunum ve güvenlik verilerini işler.",
                 "upload": "Video sağlayıcısı gibi üçüncü taraf medya veya hizmetlerle yalnızca ilgili içeriği yüklemeyi ya da açmayı seçtikten sonra bağlantı kurulur; ardından kendi gizlilik koşulları geçerli olur.",
                 "sell": "Kişisel bilgileri satmıyoruz."
             }
         },
         "analytics": {
             "title": "Analiz ve hizmet sağlayıcıları",
-            "content": "Apple, cihaz ayarlarınıza göre isteğe bağlı uygulama analizi ve çökme bilgileri sağlayabilir. İsteğe bağlı site analizi Google Analytics 4’ü yalnızca localStorage’da saklanan onaydan sonra kullanır. Cloudflare siteyi barındırır ve korur. Dil seçimini etkilemeden analizi reddedebilirsiniz."
+            "content": "Apple, cihaz ayarlarınıza bağlı olarak isteğe bağlı uygulama analizi ve çökme bilgileri sağlayabilir. Bu web sitesi, kullanımı ölçmek için Google Analytics 4’ü doğrudan yükler. Google, kendi şartları uyarınca analiz tanımlayıcılarını, çerezleri ve cihaz, tarayıcı ile ağ bilgilerini alabilir. Cloudflare siteyi barındırır ve korur."
         },
         "contact": {
             "title": "Bize Ulaşın",
             "content": "Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen bizimle iletişime geçin:"
         },
-        "lastUpdated": "Son güncelleme: 16 Ağustos 2026"
+        "lastUpdated": "Son güncelleme: 19 Ağustos 2026"
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "JigsawDesigner’ı App Store’da görüntüle"
-    },
-    "Consent": {
-        "title": "İsteğe bağlı analiz",
-        "description": "Web sitesinin kullanımını anlamamıza yardımcı olması için Google Analytics 4 ile isteğe bağlı ölçüme izin verin. Seçiminiz bu tarayıcının localStorage alanında saklanır ve GA4 yalnızca kabulünüzden sonra yüklenir.",
-        "privacyLink": "Gizlilik Politikasını okuyun",
-        "reject": "İsteğe bağlı analizi reddet",
-        "accept": "İsteğe bağlı analizi kabul et"
     }
 }

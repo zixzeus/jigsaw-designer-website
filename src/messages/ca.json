@@ -49,27 +49,27 @@
         "metaDescription": "L’aplicació processa principalment els fitxers de disseny al teu dispositiu. No venem informació personal.",
         "introduction": {
             "title": "Introducció",
-            "content": "Aquesta política explica com JigsawDesigner tracta la informació a l’aplicació i en aquest lloc web, incloses les funcions opcionals al núvol, la publicació pública, la preferència d’idioma necessària i l’analítica opcional."
+            "content": "Aquesta política explica com JigsawDesigner tracta la informació a l’aplicació i en aquest lloc web, incloses les funcions opcionals al núvol, la compartició pública, la selecció d’idioma basada en l’URL i l’analítica del lloc web."
         },
         "dataCollection": {
             "title": "Recollida de Dades",
             "content": "L’aplicació processa principalment els fitxers de disseny al teu dispositiu.",
             "content2": "Si actives iCloud, les dades dels projectes es poden sincronitzar mitjançant els serveis iCloud i CloudKit d’Apple. En publicar, el projecte seleccionat s’envia a una base de dades pública de CloudKit, i un enllaç pot donar accés només de lectura al projecte seleccionat.",
             "list": {
-                "behavior": "Després que triïs activament un idioma, el lloc desa durant un màxim d’un any una galeta necessària de preferència d’idioma. La teva elecció sobre l’analítica opcional es desa per separat al localStorage d’aquest navegador. Si hi dones consentiment, Google Analytics 4 pot mesurar visites i interaccions; Cloudflare processa les sol·licituds i les dades de seguretat necessàries per oferir el lloc.",
+                "behavior": "Quan tries activament una llengua, el lloc desa una galeta necessària de preferència lingüística durant un màxim d’un any. El lloc web utilitza directament Google Analytics 4 per mesurar visites i interaccions. D’acord amb les condicions de Google, Google pot rebre identificadors d’analítica, galetes i informació sobre el dispositiu, el navegador i la xarxa. Cloudflare tracta les dades de sol·licitud, lliurament i seguretat necessàries per fer funcionar el lloc.",
                 "upload": "Només es contacta amb mitjans o serveis de tercers, com ara un proveïdor de vídeo, després que decideixis carregar o obrir aquell contingut; aleshores s’apliquen les seves pròpies condicions de privadesa.",
                 "sell": "No venem informació personal."
             }
         },
         "analytics": {
             "title": "Analítica i proveïdors de serveis",
-            "content": "Apple pot proporcionar analítica opcional de l’app i informació d’errors segons la configuració del dispositiu. L’analítica opcional del lloc utilitza Google Analytics 4 només després del consentiment, que es desa al localStorage del navegador. Cloudflare allotja i protegeix el lloc. Pots rebutjar l’analítica sense afectar la selecció d’idioma."
+            "content": "Apple pot proporcionar analítica opcional de l’app i informació d’errors segons la configuració del dispositiu. Aquest lloc web carrega directament Google Analytics 4 per mesurar-ne l’ús. D’acord amb les condicions de Google, Google pot rebre identificadors d’analítica, galetes i informació sobre el dispositiu, el navegador i la xarxa. Cloudflare allotja i protegeix el lloc."
         },
         "contact": {
             "title": "Contacta amb Nosaltres",
             "content": "Si tens alguna pregunta sobre aquesta Política de Privacitat, sisplau contacta amb nosaltres a:"
         },
-        "lastUpdated": "Última actualització: 16 d’agost de 2026"
+        "lastUpdated": "Última actualització: 19 d’agost de 2026"
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "Mostra JigsawDesigner a l’App Store"
-    },
-    "Consent": {
-        "title": "Analítica opcional",
-        "description": "Permet el mesurament opcional amb Google Analytics 4 per ajudar-nos a entendre l’ús del lloc web. La teva elecció es desa al localStorage d’aquest navegador i GA4 només es carrega després que ho acceptis.",
-        "privacyLink": "Llegeix la Política de privadesa",
-        "reject": "Rebutja l’analítica opcional",
-        "accept": "Accepta l’analítica opcional"
     }
 }

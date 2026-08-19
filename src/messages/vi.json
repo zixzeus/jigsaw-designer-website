@@ -49,27 +49,27 @@
     "metaDescription": "Ứng dụng chủ yếu xử lý tệp thiết kế trên thiết bị của bạn. Chúng tôi không bán thông tin cá nhân.",
     "introduction": {
       "title": "Giới thiệu",
-      "content": "Chính sách này giải thích cách JigsawDesigner xử lý thông tin trong ứng dụng và trên trang web, bao gồm tính năng đám mây tùy chọn, xuất bản công khai, lựa chọn ngôn ngữ theo URL và phân tích tùy chọn."
+      "content": "Chính sách này giải thích cách JigsawDesigner xử lý thông tin trong ứng dụng và trên trang web này, bao gồm các tính năng đám mây tùy chọn, chia sẻ công khai, lựa chọn ngôn ngữ dựa trên URL và hoạt động phân tích trang web."
     },
     "dataCollection": {
       "title": "Thu thập dữ liệu",
       "content": "Ứng dụng chủ yếu xử lý tệp thiết kế trên thiết bị của bạn.",
       "content2": "Nếu bật iCloud, dữ liệu dự án có thể đồng bộ qua các dịch vụ iCloud và CloudKit của Apple. Khi xuất bản, dự án đã chọn được gửi tới cơ sở dữ liệu CloudKit công khai; liên kết chia sẻ có thể cấp quyền chỉ đọc đối với dự án đã chọn.",
       "list": {
-        "behavior": "Sau khi bạn chủ động chọn ngôn ngữ, trang web lưu cookie tùy chọn ngôn ngữ cần thiết trong tối đa một năm. Lựa chọn về phân tích tùy chọn được lưu riêng trong localStorage của trình duyệt này. Nếu bạn đồng ý, Google Analytics 4 có thể đo lượt truy cập và tương tác; Cloudflare xử lý yêu cầu và dữ liệu bảo mật cần thiết để cung cấp trang web.",
+        "behavior": "Sau khi bạn chủ động chọn một ngôn ngữ, trang web lưu cookie tùy chọn ngôn ngữ cần thiết trong tối đa một năm. Trang web sử dụng trực tiếp Google Analytics 4 để đo lường lượt truy cập và tương tác. Theo các điều khoản của mình, Google có thể nhận mã định danh dùng cho hoạt động phân tích, cookie và thông tin về thiết bị, trình duyệt cũng như mạng. Cloudflare xử lý dữ liệu yêu cầu, phân phối và bảo mật cần thiết để vận hành trang web.",
         "upload": "Nội dung hoặc dịch vụ của bên thứ ba, chẳng hạn nhà cung cấp video, chỉ được kết nối sau khi bạn chọn tải hoặc mở nội dung; khi đó điều khoản quyền riêng tư của họ sẽ áp dụng.",
         "sell": "Chúng tôi không bán thông tin cá nhân."
       }
     },
     "analytics": {
       "title": "Phân tích và nhà cung cấp dịch vụ",
-      "content": "Apple có thể cung cấp dữ liệu phân tích ứng dụng và sự cố tùy chọn theo cài đặt thiết bị. Phân tích trang web chỉ dùng Google Analytics 4 sau khi sự đồng ý được lưu trong localStorage của trình duyệt. Cloudflare lưu trữ và bảo vệ trang web. Bạn có thể từ chối phân tích mà không ảnh hưởng đến lựa chọn ngôn ngữ."
+      "content": "Apple có thể cung cấp dữ liệu phân tích ứng dụng và thông tin sự cố tùy chọn theo cài đặt thiết bị của bạn. Trang web này tải trực tiếp Google Analytics 4 để đo lường mức sử dụng. Theo các điều khoản của mình, Google có thể nhận mã định danh dùng cho hoạt động phân tích, cookie và thông tin về thiết bị, trình duyệt cũng như mạng. Cloudflare lưu trữ và bảo vệ trang web."
     },
     "contact": {
       "title": "Liên hệ với chúng tôi",
       "content": "Nếu bạn có bất kỳ câu hỏi nào về Chính sách quyền riêng tư này, vui lòng liên hệ với chúng tôi theo địa chỉ:"
     },
-    "lastUpdated": "Cập nhật lần cuối: 16 tháng 8 năm 2026"
+    "lastUpdated": "Cập nhật lần cuối: 19 tháng 8 năm 2026"
   },
   "Support": {
     "hero": {
@@ -593,12 +593,5 @@
   "Common": {
     "appName": "JigsawDesigner",
     "appStoreAria": "Xem JigsawDesigner trên App Store"
-  },
-  "Consent": {
-    "title": "Phân tích tùy chọn",
-    "description": "Cho phép Google Analytics 4 đo lường tùy chọn để giúp chúng tôi hiểu cách trang web được sử dụng. Bạn vẫn có thể chọn ngôn ngữ nếu từ chối phân tích.",
-    "privacyLink": "Đọc Chính sách quyền riêng tư",
-    "reject": "Từ chối phân tích tùy chọn",
-    "accept": "Chấp nhận phân tích tùy chọn"
   }
 }

@@ -49,27 +49,27 @@
         "metaDescription": "La aplicación procesa principalmente los archivos de diseño en tu dispositivo. No vendemos información personal.",
         "introduction": {
             "title": "Introducción",
-            "content": "Esta política explica cómo JigsawDesigner trata la información en la aplicación y en este sitio web, incluidas las funciones opcionales en la nube, la publicación pública, la preferencia de idioma necesaria y la analítica opcional."
+            "content": "Esta política explica cómo JigsawDesigner trata la información en la aplicación y en este sitio web, incluidas las funciones opcionales en la nube, el uso compartido público, la selección de idioma basada en la URL y la analítica del sitio web."
         },
         "dataCollection": {
             "title": "Recopilación de Datos",
             "content": "La aplicación procesa principalmente los archivos de diseño en tu dispositivo.",
             "content2": "Si activas iCloud, los datos de los proyectos pueden sincronizarse mediante los servicios iCloud y CloudKit de Apple. Al publicar, el proyecto seleccionado se envía a una base de datos pública de CloudKit, y un enlace puede dar acceso de solo lectura al proyecto seleccionado.",
             "list": {
-                "behavior": "Después de que elijas activamente un idioma, el sitio guarda durante un máximo de un año una cookie necesaria de preferencia de idioma. Tu elección sobre la analítica opcional se guarda por separado en el localStorage de este navegador. Si das tu consentimiento, Google Analytics 4 puede medir visitas e interacciones; Cloudflare procesa las solicitudes y los datos de seguridad necesarios para ofrecer el sitio.",
+                "behavior": "Cuando eliges activamente un idioma, el sitio guarda durante un máximo de un año una cookie necesaria de preferencia de idioma. El sitio web usa directamente Google Analytics 4 para medir visitas e interacciones. De acuerdo con las condiciones de Google, Google puede recibir identificadores de análisis, cookies e información sobre el dispositivo, el navegador y la red. Cloudflare procesa los datos de solicitudes, entrega y seguridad necesarios para operar el sitio.",
                 "upload": "Solo se contacta con medios o servicios de terceros, como un proveedor de vídeo, después de que decidas cargar o abrir ese contenido; entonces se aplican sus propias condiciones de privacidad.",
                 "sell": "No vendemos información personal."
             }
         },
         "analytics": {
             "title": "Analítica y proveedores de servicios",
-            "content": "Apple puede facilitar analítica opcional de la app e información de fallos según los ajustes del dispositivo. La analítica opcional del sitio usa Google Analytics 4 solo después del consentimiento, que se guarda en el localStorage del navegador. Cloudflare aloja y protege el sitio. Puedes rechazar la analítica sin afectar a la selección de idioma."
+            "content": "Apple puede facilitar analítica opcional de la app e información de fallos según los ajustes del dispositivo. Este sitio web carga directamente Google Analytics 4 para medir su uso. De acuerdo con las condiciones de Google, Google puede recibir identificadores de análisis, cookies e información sobre el dispositivo, el navegador y la red. Cloudflare aloja y protege el sitio."
         },
         "contact": {
             "title": "Contáctanos",
             "content": "Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en:"
         },
-        "lastUpdated": "Última actualización: 16 de agosto de 2026"
+        "lastUpdated": "Última actualización: 19 de agosto de 2026"
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "Ver JigsawDesigner en el App Store"
-    },
-    "Consent": {
-        "title": "Analítica opcional",
-        "description": "Permite la medición opcional con Google Analytics 4 para ayudarnos a comprender el uso del sitio web. Tu elección se guarda en el localStorage de este navegador y GA4 solo se carga después de que aceptes.",
-        "privacyLink": "Leer la Política de privacidad",
-        "reject": "Rechazar la analítica opcional",
-        "accept": "Aceptar la analítica opcional"
     }
 }

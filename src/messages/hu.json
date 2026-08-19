@@ -49,27 +49,27 @@
         "metaDescription": "Az alkalmazás elsősorban az eszközén dolgozza fel a tervfájlokat. Nem értékesítünk személyes adatokat.",
         "introduction": {
             "title": "Bevezetés",
-            "content": "Ez a szabályzat ismerteti, hogyan kezeli a JigsawDesigner az információkat az alkalmazásban és ezen a webhelyen, beleértve az opcionális felhőfunkciókat, a nyilvános közzétételt, a nyelvi beállítást és az opcionális analitikát."
+            "content": "Ez a szabályzat ismerteti, hogyan kezeli a JigsawDesigner az információkat az alkalmazásban és ezen a webhelyen, beleértve az opcionális felhőfunkciókat, a nyilvános megosztást, az URL-alapú nyelvválasztást és a webhelyelemzést."
         },
         "dataCollection": {
             "title": "Adatgyűjtés",
             "content": "Az alkalmazás elsősorban az eszközén dolgozza fel a tervfájlokat.",
             "content2": "Az iCloud engedélyezésekor a projektadatok szinkronizálódhatnak az Apple iCloud és CloudKit szolgáltatásain keresztül. A közzététel a kiválasztott projektet nyilvános CloudKit-adatbázisba küldi, a megosztási hivatkozás pedig csak olvasási hozzáférést adhat a kiválasztott projekthez.",
             "list": {
-                "behavior": "Miután Ön kiválaszt egy nyelvet, a webhely legfeljebb egy évig tárolja a szükséges nyelvi beállítási cookie-t. Az opcionális analitikai választás ettől külön, a böngésző localStorage tárhelyén marad. Hozzájárulásával a Google Analytics 4 mérheti a látogatásokat és interakciókat; a Cloudflare a webhely működéséhez szükséges kéréseket és biztonsági adatokat kezeli.",
+                "behavior": "Miután Ön kiválaszt egy nyelvet, a webhely legfeljebb egy évig tárolja a szükséges nyelvi beállítási cookie-t. A webhely közvetlenül a Google Analytics 4 segítségével méri a látogatásokat és az interakciókat. A Google feltételei szerint a Google analitikai azonosítókat, cookie-kat, valamint eszköz-, böngésző- és hálózati információkat kaphat. A Cloudflare a webhely működtetéséhez szükséges kérés-, kézbesítési és biztonsági adatokat kezeli.",
                 "upload": "Harmadik fél médiájához vagy szolgáltatásához, például videószolgáltatóhoz csak akkor kapcsolódunk, ha Ön a tartalom betöltését vagy megnyitását választja; ezután az adott fél adatvédelmi feltételei érvényesek.",
                 "sell": "Nem értékesítünk személyes adatokat."
             }
         },
         "analytics": {
             "title": "Analitika és szolgáltatók",
-            "content": "Az Apple az eszköz beállításai alapján opcionális alkalmazásanalitikai és összeomlási adatokat biztosíthat. Az opcionális webhelyanalitika csak a böngésző localStorage tárhelyén rögzített hozzájárulás után használja a Google Analytics 4-et. A Cloudflare üzemelteti és védi a webhelyet. Az analitika a nyelvválasztás befolyásolása nélkül elutasítható."
+            "content": "Az Apple az eszköz beállításai alapján opcionális alkalmazásanalitikai és összeomlási adatokat biztosíthat. Ez a webhely közvetlenül betölti a Google Analytics 4-et a webhely használatának méréséhez. A Google feltételei szerint a Google analitikai azonosítókat, cookie-kat, valamint eszköz-, böngésző- és hálózati információkat kaphat. A Cloudflare üzemelteti és védi a webhelyet."
         },
         "contact": {
             "title": "Lépjen Kapcsolatba Velünk",
             "content": "Ha bármilyen kérdése van ezzel az Adatvédelmi Szabályzattal kapcsolatban, kérjük, lépjen kapcsolatba velünk a következő címen:"
         },
-        "lastUpdated": "Utolsó frissítés: 2026. augusztus 16."
+        "lastUpdated": "Utolsó frissítés: 2026. augusztus 19."
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "JigsawDesigner megtekintése az App Store-ban"
-    },
-    "Consent": {
-        "title": "Opcionális analitika",
-        "description": "Engedélyezze az opcionális mérést a Google Analytics 4 segítségével, hogy megértsük a webhely használatát. A választás a böngésző localStorage tárhelyén marad, a GA4 pedig csak elfogadás után töltődik be.",
-        "privacyLink": "Adatvédelmi szabályzat elolvasása",
-        "reject": "Opcionális analitika elutasítása",
-        "accept": "Opcionális analitika elfogadása"
     }
 }

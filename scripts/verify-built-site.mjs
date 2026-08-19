@@ -413,6 +413,24 @@ function assertNoIndexFollow(html, label) {
   }
 }
 
+function assertGoogleAnalytics(html, label) {
+  const scriptBlocks = [...html.matchAll(/(<script\b[^>]*>)([\s\S]*?)<\/script>/gi)];
+  const loaders = scriptBlocks.filter(
+    ([, openingTag]) =>
+      attribute(openingTag, "src") ===
+      "https://www.googletagmanager.com/gtag/js?id=G-3TZD2EK8YR",
+  );
+  const configs = scriptBlocks.filter(
+    ([, openingTag, body]) =>
+      attribute(openingTag, "id") === "google-analytics" &&
+      /gtag\('config',\s*'G-3TZD2EK8YR'\)/.test(body),
+  );
+  record(loaders.length === 1, `${label}: expected one GA4 loader, found ${loaders.length}`);
+  record(configs.length === 1, `${label}: expected one GA4 config, found ${configs.length}`);
+  record(!html.includes("gtag('consent'"), `${label}: obsolete GA4 consent mode is still present`);
+  record(!html.includes("analytics-consent-settings"), `${label}: obsolete analytics consent UI is still present`);
+}
+
 function assertFaqParity(page, jsonLd) {
   const faqPages = jsonLdNodesByType(jsonLd, "FAQPage");
   const visibleEntries = visibleFaqEntries(page.html);
@@ -807,7 +825,7 @@ try {
     record(metadataContent(html, "name", "twitter:title") === ogTitle, `${expectedPath}: Twitter title does not match OG title`);
     record(metadataContent(html, "name", "twitter:description") === description, `${expectedPath}: Twitter description does not match description`);
     record(twitterImage === ogImage, `${expectedPath}: Twitter and OG images differ`);
-    record(!/<script\b[^>]+googletagmanager\.com\/gtag\/js/i.test(html), `${expectedPath}: GA loads before consent`);
+    assertGoogleAnalytics(html, expectedPath);
 
     const alternateTags = linkMetadata(html, "alternate").filter((tag) => attribute(tag, "hreflang"));
     const alternates = mapFromAlternateTags(alternateTags, `${expectedPath} HTML hreflang`);
@@ -900,6 +918,7 @@ try {
       record(canonicalTags.length === 1, `${pathname}: expected exactly one canonical`);
       record(canonical === expectedCanonical, `${pathname}: legal canonical is not self-referencing`);
       assertNoIndexFollow(html, pathname);
+      assertGoogleAnalytics(html, pathname);
       record(linkMetadata(html, "alternate").filter((tag) => attribute(tag, "hreflang")).length === 0, `${pathname}: noindex legal page must not emit hreflang`);
       record((html.match(/<h1\b/gi) ?? []).length === 1, `${pathname}: expected one H1`);
       const jsonLd = parseJsonLd(html, pathname);

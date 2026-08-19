@@ -48,13 +48,6 @@
     "appName": "JigsawDesigner",
     "appStoreAria": "View JigsawDesigner on the App Store"
   },
-  "Consent": {
-    "title": "Optional analytics",
-    "description": "Allow optional Google Analytics 4 measurement to help us understand website usage. Your necessary language preference remains available if you reject analytics.",
-    "privacyLink": "Read the Privacy Policy",
-    "reject": "Reject optional analytics",
-    "accept": "Accept optional analytics"
-  },
   "Pricing": {
     "title": "JigsawDesigner Plans",
     "subtitle": "Try {count} puzzle generations for free. An Apple monthly or yearly subscription unlocks unlimited generation and SVG export.",
@@ -111,27 +104,27 @@
     "metaDescription": "The app primarily processes design files on your device. We do not sell personal information.",
     "introduction": {
       "title": "Introduction",
-      "content": "This policy explains how JigsawDesigner handles information in the app and on this website, including optional cloud features, public sharing, URL-based language selection, and optional analytics."
+      "content": "This policy explains how JigsawDesigner handles information in the app and on this website, including optional cloud features, public sharing, URL-based language selection, and website analytics."
     },
     "dataCollection": {
       "title": "Data Collection",
       "content": "The app primarily processes design files on your device.",
       "content2": "If you enable iCloud, project data may sync through Apple's iCloud and CloudKit services. Publishing sends a selected project to a public CloudKit database, and a share link can provide read-only access to a selected project.",
       "list": {
-        "behavior": "After you actively choose a language, the site stores a necessary language-preference cookie for up to one year. Your optional-analytics choice is stored separately in this browser's localStorage. With your consent, Google Analytics 4 may measure page visits and interactions; Cloudflare processes requests and security data needed to deliver the site.",
+        "behavior": "After you actively choose a language, the site stores a necessary language-preference cookie for up to one year. The website uses Google Analytics 4 directly to measure visits and interactions. Under Google's terms, Google may receive analytics identifiers, cookies, and device, browser, and network information. Cloudflare processes request, delivery, and security data needed to operate the site.",
         "upload": "Third-party media or services, such as a video provider, are contacted only after you choose to load or open that content; their own privacy terms then apply.",
         "sell": "We do not sell personal information."
       }
     },
     "analytics": {
       "title": "Analytics and service providers",
-      "content": "Apple may provide opt-in app analytics and crash information under your device settings. Optional website analytics uses Google Analytics 4 only after consent, which is stored in the browser's localStorage. Cloudflare hosts and protects the site. You can reject analytics without affecting language selection."
+      "content": "Apple may provide opt-in app analytics and crash information under your device settings. This website loads Google Analytics 4 directly to measure website usage. Under Google's terms, Google may receive analytics identifiers, cookies, and device, browser, and network information. Cloudflare hosts and protects the site."
     },
     "contact": {
       "title": "Contact Us",
       "content": "If you have any questions about this Privacy Policy, please contact us at:"
     },
-    "lastUpdated": "Last updated: August 16, 2026"
+    "lastUpdated": "Last updated: August 19, 2026"
   },
   "Support": {
     "hero": {

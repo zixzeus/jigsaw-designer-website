@@ -49,27 +49,27 @@
         "metaDescription": "Appen behandlar främst designfiler på din enhet. Vi säljer inte personuppgifter.",
         "introduction": {
             "title": "Introduktion",
-            "content": "Denna policy förklarar hur JigsawDesigner hanterar information i appen och på denna webbplats, inklusive valfria molnfunktioner, offentlig publicering, nödvändig språkinställning och valfri analys."
+            "content": "Denna policy förklarar hur JigsawDesigner hanterar information i appen och på denna webbplats, inklusive valfria molnfunktioner, offentlig delning, URL-baserat språkval och webbplatsanalys."
         },
         "dataCollection": {
             "title": "Datainsamling",
             "content": "Appen behandlar främst designfiler på din enhet.",
             "content2": "Om du aktiverar iCloud kan projektdata synkroniseras via Apples iCloud- och CloudKit-tjänster. Publicering skickar ett valt projekt till en offentlig CloudKit-databas, och en delningslänk kan ge skrivskyddad åtkomst till ett valt projekt.",
             "list": {
-                "behavior": "När du själv väljer ett språk lagrar webbplatsen en nödvändig cookie för språkinställningen i upp till ett år. Ditt val om valfri analys lagras separat i den här webbläsarens localStorage. Med ditt samtycke kan Google Analytics 4 mäta besök och interaktioner; Cloudflare behandlar förfrågningar och säkerhetsdata som krävs för att leverera webbplatsen.",
+                "behavior": "När du själv väljer ett språk lagrar webbplatsen en nödvändig cookie för språkinställningen i upp till ett år. Webbplatsen använder Google Analytics 4 direkt för att mäta besök och interaktioner. Enligt Googles villkor kan Google ta emot analysidentifierare, cookies samt information om enhet, webbläsare och nätverk. Cloudflare behandlar data om förfrågningar, leverans och säkerhet som behövs för att driva webbplatsen.",
                 "upload": "Tredjepartsmedier eller -tjänster, till exempel en videoleverantör, kontaktas först när du väljer att läsa in eller öppna innehållet; då gäller deras egna integritetsvillkor.",
                 "sell": "Vi säljer inte personuppgifter."
             }
         },
         "analytics": {
             "title": "Analys och tjänsteleverantörer",
-            "content": "Apple kan tillhandahålla valfri appanalys och kraschinformation enligt dina enhetsinställningar. Valfri webbplatsanalys använder Google Analytics 4 först efter samtycke, som lagras i webbläsarens localStorage. Cloudflare är värd för och skyddar webbplatsen. Du kan avvisa analys utan att påverka språkvalet."
+            "content": "Apple kan tillhandahålla valfri appanalys och kraschinformation enligt dina enhetsinställningar. Den här webbplatsen läser in Google Analytics 4 direkt för att mäta användningen av webbplatsen. Enligt Googles villkor kan Google ta emot analysidentifierare, cookies samt information om enhet, webbläsare och nätverk. Cloudflare är värd för och skyddar webbplatsen."
         },
         "contact": {
             "title": "Kontakta oss",
             "content": "Om du har några frågor om denna integritetspolicy, vänligen kontakta oss på:"
         },
-        "lastUpdated": "Senast uppdaterad: 16 augusti 2026"
+        "lastUpdated": "Senast uppdaterad: 19 augusti 2026"
     },
     "Support": {
         "hero": {
@@ -593,12 +593,5 @@
     "Common": {
         "appName": "JigsawDesigner",
         "appStoreAria": "Visa JigsawDesigner i App Store"
-    },
-    "Consent": {
-        "title": "Valfri analys",
-        "description": "Tillåt valfri mätning med Google Analytics 4 för att hjälpa oss förstå användningen av webbplatsen. Ditt val lagras i den här webbläsarens localStorage och GA4 läses in först efter att du godkänner.",
-        "privacyLink": "Läs integritetspolicyn",
-        "reject": "Avvisa valfri analys",
-        "accept": "Godkänn valfri analys"
     }
 }
