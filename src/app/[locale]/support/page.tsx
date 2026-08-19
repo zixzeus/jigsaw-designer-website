@@ -9,57 +9,21 @@ import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import {PRODUCT_FACTS} from "@/config/product";
 import {isRouteAvailable, isSiteLocale, type SiteLocale} from "@/config/seo";
-import {isTierOneLocale, type TierOneLocale} from "@/content/types";
+import {isTierOneLocale} from "@/content/types";
+import {getGeneratedSiteTranslation, hasGeneratedLocaleContent} from "@/content/localized-content";
+import {supportPageCopy} from "@/content/page-copy";
 import {Link} from "@/i18n/navigation";
 import {createBreadcrumbJsonLd, createPageMetadata} from "@/lib/seo";
-
-const tierOneCopy: Record<TierOneLocale, {
-  title: string;
-  subtitle: string;
-  documentationTitle: string;
-  documentationDescription: string;
-  troubleshootingTitle: string;
-  troubleshootingDescription: string;
-  emailTitle: string;
-  emailDescription: string;
-}> = {
-  en: {
-    title: "Support for JigsawDesigner",
-    subtitle: "Start with the product guides, work through common issues, or email support with the project and device details that matter.",
-    documentationTitle: "Product guides",
-    documentationDescription: "Find setup, generation, vector editing, template, project, and keyboard references.",
-    troubleshootingTitle: "Troubleshooting",
-    troubleshootingDescription: "Check import, generation, export, project, and subscription issues step by step.",
-    emailTitle: "Contact support",
-    emailDescription: "For a specific problem, include your device, app version, expected result, and what happened instead.",
-  },
-  "zh-Hans": {
-    title: "JigsawDesigner 支持",
-    subtitle: "先查阅产品指南或常见问题；如需邮件支持，请一并说明项目、设备与问题细节。",
-    documentationTitle: "产品指南",
-    documentationDescription: "查找开始使用、拼图生成、矢量编辑、模板、项目和快捷键文档。",
-    troubleshootingTitle: "故障排查",
-    troubleshootingDescription: "逐步检查导入、生成、导出、项目与订阅问题。",
-    emailTitle: "联系支持",
-    emailDescription: "遇到具体问题时，请提供设备、App 版本、预期结果和实际情况。",
-  },
-  "zh-Hant": {
-    title: "JigsawDesigner 支援",
-    subtitle: "先查閱產品指南或常見問題；如需電子郵件支援，請一併說明專案、裝置與問題細節。",
-    documentationTitle: "產品指南",
-    documentationDescription: "查找開始使用、拼圖產生、向量編輯、範本、專案與快速鍵文件。",
-    troubleshootingTitle: "疑難排解",
-    troubleshootingDescription: "逐步檢查匯入、產生、匯出、專案與訂閱問題。",
-    emailTitle: "聯絡支援",
-    emailDescription: "遇到具體問題時，請提供裝置、App 版本、預期結果與實際情況。",
-  },
-};
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
   const {locale} = await params;
   if (!isSiteLocale(locale) || !isRouteAvailable("/support", locale)) notFound();
   const support = await getTranslations({locale, namespace: "Support"});
-  const copy = isTierOneLocale(locale) ? tierOneCopy[locale] : null;
+  const copy = isTierOneLocale(locale)
+    ? supportPageCopy[locale]
+    : hasGeneratedLocaleContent(locale)
+      ? getGeneratedSiteTranslation(locale).content.support
+      : null;
   return createPageMetadata({
     locale,
     pathname: "/support",
@@ -79,7 +43,11 @@ function SupportContent({locale}: {locale: SiteLocale}) {
   const support = useTranslations("Support");
   const help = useTranslations("Help");
   const navigation = useTranslations("Navigation");
-  const copy = isTierOneLocale(locale) ? tierOneCopy[locale] : null;
+  const copy = isTierOneLocale(locale)
+    ? supportPageCopy[locale]
+    : hasGeneratedLocaleContent(locale)
+      ? getGeneratedSiteTranslation(locale).content.support
+      : null;
   const troubleshootingHref = isRouteAvailable("/help/troubleshooting", locale)
     ? "/help/troubleshooting"
     : "/help";

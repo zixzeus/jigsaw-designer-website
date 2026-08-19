@@ -5,10 +5,15 @@ import {setRequestLocale} from "next-intl/server";
 import ArticlePage from "@/components/ArticlePage";
 import {
   getMarketingPage,
+  isMarketingSlug,
   marketingSlugs,
 } from "@/content/marketing-pages";
-import {isTierOneLocale, tierOneLocales} from "@/content/types";
-import {isRouteAvailable, isSiteLocale} from "@/config/seo";
+import {
+  getGeneratedSiteTranslation,
+  hasGeneratedLocaleContent,
+} from "@/content/localized-content";
+import {isTierOneLocale} from "@/content/types";
+import {FULL_CONTENT_LOCALES, isRouteAvailable, isSiteLocale} from "@/config/seo";
 import {createPageMetadata} from "@/lib/seo";
 
 type TopicParams = Promise<{locale: string; topic: string}>;
@@ -21,19 +26,23 @@ function resolveTopic(locale: string, topic: string) {
   if (
     !isSiteLocale(locale) ||
     !isRouteAvailable(pathname, locale) ||
-    !isTierOneLocale(locale)
+    !isMarketingSlug(topic)
   ) {
     notFound();
   }
 
-  const content = getMarketingPage(topic, locale);
+  const content = isTierOneLocale(locale)
+    ? getMarketingPage(topic, locale)
+    : hasGeneratedLocaleContent(locale)
+      ? getGeneratedSiteTranslation(locale).content.marketing[topic]
+      : null;
   if (!content) notFound();
 
   return {content, pathname, locale};
 }
 
 export function generateStaticParams() {
-  return tierOneLocales.flatMap((locale) =>
+  return FULL_CONTENT_LOCALES.flatMap((locale) =>
     marketingSlugs.map((topic) => ({locale, topic})),
   );
 }

@@ -44,13 +44,16 @@
     "build": "next build --webpack",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts",
     "check": "npm run check:content && npm run lint && npm run build && npm run typecheck && npm run check:site",
-    "check:content": "node scripts/validate-content.mjs",
+    "check:content": "npm run translation:catalog -- --check && npm run translation:validate -- --all && npm run translation:registry -- --check && node scripts/validate-content.mjs",
     "check:site": "node scripts/verify-built-site.mjs",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "dev": "next dev",
     "lint": "eslint . --max-warnings=0",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "start": "next start",
+    "translation:catalog": "node scripts/export-translation-catalog.mjs",
+    "translation:registry": "node scripts/generate-translation-registry.mjs",
+    "translation:validate": "node scripts/validate-translation-files.mjs",
     "typecheck": "tsc --noEmit"
   }
 }

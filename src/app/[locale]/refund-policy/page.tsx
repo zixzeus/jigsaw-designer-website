@@ -7,18 +7,15 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
-import {isRouteAvailable, isSiteLocale} from "@/config/seo";
-import {
-  isTierOneLocale,
-  tierOneLocales,
-  type TierOneLocale,
-} from "@/content/types";
+import {isRouteAvailable, isSiteLocale, SITE_LOCALES, type SiteLocale} from "@/config/seo";
+import {hasGeneratedLocaleContent} from "@/content/localized-content";
+import {isTierOneLocale} from "@/content/types";
 import {createBreadcrumbJsonLd, createPageMetadata} from "@/lib/seo";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return tierOneLocales.map((locale) => ({locale}));
+  return SITE_LOCALES.map((locale) => ({locale}));
 }
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
@@ -30,12 +27,16 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
 
 export default async function RefundPolicyPage({params}: {params: Promise<{locale: string}>}) {
   const {locale} = await params;
-  if (!isSiteLocale(locale) || !isTierOneLocale(locale) || !isRouteAvailable("/refund-policy", locale)) notFound();
+  if (
+    !isSiteLocale(locale) ||
+    !isRouteAvailable("/refund-policy", locale) ||
+    (!isTierOneLocale(locale) && !hasGeneratedLocaleContent(locale))
+  ) notFound();
   setRequestLocale(locale);
   return <RefundContent locale={locale} />;
 }
 
-function RefundContent({locale}: {locale: TierOneLocale}) {
+function RefundContent({locale}: {locale: SiteLocale}) {
   const refund = useTranslations("Refund");
   const navigation = useTranslations("Navigation");
   const breadcrumbItems = [

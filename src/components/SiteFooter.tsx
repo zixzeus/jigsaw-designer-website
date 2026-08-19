@@ -3,36 +3,27 @@ import {useLocale, useTranslations} from "next-intl";
 
 import {isRouteAvailable, isSiteLocale} from "@/config/seo";
 import {PRODUCT_FACTS} from "@/config/product";
-import {isTierOneLocale, type TierOneLocale} from "@/content/types";
+import {isTierOneLocale} from "@/content/types";
+import {getGeneratedSiteTranslation, hasGeneratedLocaleContent} from "@/content/localized-content";
+import {footerPageCopy} from "@/content/page-copy";
 import {Link} from "@/i18n/navigation";
-
-const tierOneCopy: Record<TierOneLocale, {tagline: string; tutorial: string}> = {
-  en: {
-    tagline: "Editable puzzle cutlines and SVG workflows for Apple devices.",
-    tutorial: "Making guide",
-  },
-  "zh-Hans": {
-    tagline: "面向 Apple 设备的可编辑拼图切割线与 SVG 工作流。",
-    tutorial: "制作教程",
-  },
-  "zh-Hant": {
-    tagline: "適用於 Apple 裝置的可編輯拼圖切割線與 SVG 工作流程。",
-    tutorial: "製作教學",
-  },
-};
 
 export default function SiteFooter() {
   const footer = useTranslations("Footer");
   const navigation = useTranslations("Navigation");
   const common = useTranslations("Common");
   const locale = useLocale();
-  const tierOneLocale = isTierOneLocale(locale) ? locale : null;
+  const localizedFooter = isTierOneLocale(locale)
+    ? footerPageCopy[locale]
+    : isSiteLocale(locale) && hasGeneratedLocaleContent(locale)
+      ? getGeneratedSiteTranslation(locale).content.footer
+      : null;
   const showTierOneLinks =
     isSiteLocale(locale) && isRouteAvailable("/pricing", locale);
-  const productLabel = tierOneLocale
+  const productLabel = localizedFooter
     ? navigation("product")
     : navigation("features");
-  const learnLabel = tierOneLocale
+  const learnLabel = localizedFooter
     ? navigation("learn")
     : navigation("help");
 
@@ -56,9 +47,9 @@ export default function SiteFooter() {
             </span>
             <span className="font-semibold tracking-tight">{common("appName")}</span>
           </Link>
-          {tierOneLocale ? (
+          {localizedFooter ? (
             <p className="mt-5 text-sm leading-6 text-gray-600 dark:text-gray-300">
-              {tierOneCopy[tierOneLocale].tagline}
+              {localizedFooter.tagline}
             </p>
           ) : null}
         </div>
@@ -74,9 +65,9 @@ export default function SiteFooter() {
           <FooterGroup title={learnLabel}>
             {showTierOneLinks ? <Link href="/learn">{learnLabel}</Link> : null}
             <Link href="/help">{footer("help")}</Link>
-            {tierOneLocale ? (
+            {localizedFooter ? (
               <Link href="/how-to-make-a-laser-cut-jigsaw-puzzle">
-                {tierOneCopy[tierOneLocale].tutorial}
+                {localizedFooter.tutorial}
               </Link>
             ) : null}
           </FooterGroup>

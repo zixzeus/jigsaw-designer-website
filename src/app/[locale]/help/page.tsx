@@ -11,6 +11,10 @@ import SiteHeader from "@/components/SiteHeader";
 import {getMediaDimensions, type VersionedMediaPath} from "@/config/media";
 import {PRODUCT_FACTS} from "@/config/product";
 import {isRouteAvailable, isSiteLocale, type SiteLocale} from "@/config/seo";
+import {
+  getGeneratedSiteTranslation,
+  hasGeneratedLocaleContent,
+} from "@/content/localized-content";
 import {isTierOneLocale, type TierOneLocale} from "@/content/types";
 import {Link} from "@/i18n/navigation";
 import {createBreadcrumbJsonLd, createPageMetadata, localizedAbsoluteUrl} from "@/lib/seo";
@@ -72,8 +76,14 @@ function HelpContent({locale}: {locale: SiteLocale}) {
   const navigation = useTranslations("Navigation");
   const help = useTranslations("Help");
   const tierOneLocale = isTierOneLocale(locale) ? locale : null;
+  const generatedContent = !tierOneLocale && hasGeneratedLocaleContent(locale)
+    ? getGeneratedSiteTranslation(locale).content
+    : null;
+  const fullLeadAlt = tierOneLocale
+    ? TIER_ONE_HELP_LEAD_ALT[tierOneLocale]
+    : generatedContent?.help["jigsaw-generation"].leadImage?.alt;
   const showSplitGuides = Boolean(
-    tierOneLocale && isRouteAvailable("/help/getting-started", tierOneLocale),
+    (tierOneLocale || generatedContent) && isRouteAvailable("/help/getting-started", locale),
   );
 
   const techArticle = {
@@ -114,7 +124,7 @@ function HelpContent({locale}: {locale: SiteLocale}) {
         {showSplitGuides ? (
           <HelpImage
             src="/generated-result-editable-v1-6.webp"
-            alt={tierOneLocale ? TIER_ONE_HELP_LEAD_ALT[tierOneLocale] : ""}
+            alt={fullLeadAlt ?? help("interfaceContent.title")}
             priority
           />
         ) : null}

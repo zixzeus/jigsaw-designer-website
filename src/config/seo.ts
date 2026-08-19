@@ -53,6 +53,12 @@ export const PRIMARY_SEO_LOCALES = [
   "zh-Hant",
 ] as const satisfies readonly SiteLocale[];
 
+export const FULL_CONTENT_LOCALES = SITE_LOCALES;
+
+export const GENERATED_CONTENT_LOCALES = SITE_LOCALES.filter(
+  (locale) => !PRIMARY_SEO_LOCALES.includes(locale as (typeof PRIMARY_SEO_LOCALES)[number]),
+);
+
 export const LOCALE_SPECS = {
   en: {locale: "en", label: "English", htmlLang: "en", hreflang: "en", openGraphLocale: "en_US", direction: "ltr"},
   "zh-Hans": {locale: "zh-Hans", label: "简体中文", htmlLang: "zh-Hans", hreflang: "zh-Hans", openGraphLocale: "zh_CN", direction: "ltr"},
@@ -115,26 +121,26 @@ export const SEO_ROUTES = [
   {pathname: "/help", kind: "base", locales: SITE_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
   {pathname: "/support", kind: "base", locales: SITE_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.6},
   {pathname: "/privacy", kind: "base", locales: SITE_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "yearly", priority: 0.3},
-  {pathname: "/showcase", kind: "hub", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
-  {pathname: "/learn", kind: "hub", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
-  {pathname: "/pricing", kind: "marketing", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
-  {pathname: "/jigsaw-puzzle-generator", kind: "marketing", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
-  {pathname: "/jigsaw-dieline-generator", kind: "marketing", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
-  {pathname: "/laser-cut-jigsaw-puzzle-svg", kind: "marketing", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
-  {pathname: "/custom-jigsaw-puzzle-template", kind: "marketing", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
-  {pathname: "/svg-puzzle-editor", kind: "marketing", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
-  {pathname: "/how-to-make-a-laser-cut-jigsaw-puzzle", kind: "guide", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
-  {pathname: "/changelog/1-6-0", kind: "release", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "yearly", priority: 0.6},
-  {pathname: "/help/getting-started", kind: "guide", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
-  {pathname: "/help/jigsaw-generation", kind: "guide", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
-  {pathname: "/help/svg-import-export", kind: "guide", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
-  {pathname: "/help/vector-editing", kind: "guide", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
-  {pathname: "/help/templates", kind: "guide", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
-  {pathname: "/help/project-library", kind: "guide", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
-  {pathname: "/help/keyboard-shortcuts", kind: "guide", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
-  {pathname: "/help/troubleshooting", kind: "guide", locales: PRIMARY_SEO_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
-  {pathname: "/terms", kind: "legal", locales: PRIMARY_SEO_LOCALES, indexable: false, includeInSitemap: false, changeFrequency: "yearly", priority: 0.1},
-  {pathname: "/refund-policy", kind: "legal", locales: PRIMARY_SEO_LOCALES, indexable: false, includeInSitemap: false, changeFrequency: "yearly", priority: 0.1},
+  {pathname: "/showcase", kind: "hub", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
+  {pathname: "/learn", kind: "hub", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
+  {pathname: "/pricing", kind: "marketing", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
+  {pathname: "/jigsaw-puzzle-generator", kind: "marketing", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
+  {pathname: "/jigsaw-dieline-generator", kind: "marketing", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
+  {pathname: "/laser-cut-jigsaw-puzzle-svg", kind: "marketing", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
+  {pathname: "/custom-jigsaw-puzzle-template", kind: "marketing", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
+  {pathname: "/svg-puzzle-editor", kind: "marketing", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
+  {pathname: "/how-to-make-a-laser-cut-jigsaw-puzzle", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.8},
+  {pathname: "/changelog/1-6-0", kind: "release", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "yearly", priority: 0.6},
+  {pathname: "/help/getting-started", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
+  {pathname: "/help/jigsaw-generation", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
+  {pathname: "/help/svg-import-export", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
+  {pathname: "/help/vector-editing", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
+  {pathname: "/help/templates", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
+  {pathname: "/help/project-library", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
+  {pathname: "/help/keyboard-shortcuts", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
+  {pathname: "/help/troubleshooting", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
+  {pathname: "/terms", kind: "legal", locales: FULL_CONTENT_LOCALES, indexable: false, includeInSitemap: false, changeFrequency: "yearly", priority: 0.1},
+  {pathname: "/refund-policy", kind: "legal", locales: FULL_CONTENT_LOCALES, indexable: false, includeInSitemap: false, changeFrequency: "yearly", priority: 0.1},
 ] as const satisfies readonly SeoRoute[];
 
 export function normalizeSeoPathname(pathname: string): string {

@@ -6,9 +6,14 @@ import ArticlePage from "@/components/ArticlePage";
 import {
   changelogSlugs,
   getChangelogPage,
+  isChangelogSlug,
 } from "@/content/changelog-pages";
-import {isTierOneLocale, tierOneLocales} from "@/content/types";
-import {isRouteAvailable, isSiteLocale} from "@/config/seo";
+import {
+  getGeneratedSiteTranslation,
+  hasGeneratedLocaleContent,
+} from "@/content/localized-content";
+import {isTierOneLocale} from "@/content/types";
+import {FULL_CONTENT_LOCALES, isRouteAvailable, isSiteLocale} from "@/config/seo";
 import {createPageMetadata} from "@/lib/seo";
 
 type ChangelogParams = Promise<{locale: string; slug: string}>;
@@ -21,19 +26,23 @@ function resolveChangelog(locale: string, slug: string) {
   if (
     !isSiteLocale(locale) ||
     !isRouteAvailable(pathname, locale) ||
-    !isTierOneLocale(locale)
+    !isChangelogSlug(slug)
   ) {
     notFound();
   }
 
-  const content = getChangelogPage(slug, locale);
+  const content = isTierOneLocale(locale)
+    ? getChangelogPage(slug, locale)
+    : hasGeneratedLocaleContent(locale)
+      ? getGeneratedSiteTranslation(locale).content.changelog[slug]
+      : null;
   if (!content) notFound();
 
   return {content, pathname, locale};
 }
 
 export function generateStaticParams() {
-  return tierOneLocales.flatMap((locale) =>
+  return FULL_CONTENT_LOCALES.flatMap((locale) =>
     changelogSlugs.map((slug) => ({locale, slug})),
   );
 }

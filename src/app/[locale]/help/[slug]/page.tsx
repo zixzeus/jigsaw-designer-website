@@ -3,9 +3,13 @@ import {notFound} from "next/navigation";
 import {setRequestLocale} from "next-intl/server";
 
 import ArticlePage from "@/components/ArticlePage";
-import {getHelpPage, helpSlugs} from "@/content/help-pages";
-import {isTierOneLocale, tierOneLocales} from "@/content/types";
-import {isRouteAvailable, isSiteLocale} from "@/config/seo";
+import {getHelpPage, helpSlugs, isHelpSlug} from "@/content/help-pages";
+import {
+  getGeneratedSiteTranslation,
+  hasGeneratedLocaleContent,
+} from "@/content/localized-content";
+import {isTierOneLocale} from "@/content/types";
+import {FULL_CONTENT_LOCALES, isRouteAvailable, isSiteLocale} from "@/config/seo";
 import {createPageMetadata} from "@/lib/seo";
 
 type HelpParams = Promise<{locale: string; slug: string}>;
@@ -18,19 +22,23 @@ function resolveHelp(locale: string, slug: string) {
   if (
     !isSiteLocale(locale) ||
     !isRouteAvailable(pathname, locale) ||
-    !isTierOneLocale(locale)
+    !isHelpSlug(slug)
   ) {
     notFound();
   }
 
-  const content = getHelpPage(slug, locale);
+  const content = isTierOneLocale(locale)
+    ? getHelpPage(slug, locale)
+    : hasGeneratedLocaleContent(locale)
+      ? getGeneratedSiteTranslation(locale).content.help[slug]
+      : null;
   if (!content) notFound();
 
   return {content, pathname, locale};
 }
 
 export function generateStaticParams() {
-  return tierOneLocales.flatMap((locale) =>
+  return FULL_CONTENT_LOCALES.flatMap((locale) =>
     helpSlugs.map((slug) => ({locale, slug})),
   );
 }

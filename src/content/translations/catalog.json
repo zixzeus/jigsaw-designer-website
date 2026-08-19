@@ -1,0 +1,5031 @@
+{
+  "sourceLocale": "en",
+  "sourceHash": "abc1339e7d1f2592",
+  "entries": [
+    {
+      "id": "t_005931875dea6673",
+      "text": "Draw and edit vector geometry",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_00930abd465038d1",
+      "text": "Project library",
+      "paths": [
+        "content.help.getting-started.related.2.title",
+        "content.help.svg-import-export.related.1.title",
+        "content.help.troubleshooting.related.0.title",
+        "content.home.devices.capabilities.3.title",
+        "content.showcase.projects.2.resultLabel"
+      ]
+    },
+    {
+      "id": "t_00a522830617840f",
+      "text": "Draw or import the connection shape used by the generator.",
+      "paths": [
+        "content.home.devices.capabilities.2.description"
+      ]
+    },
+    {
+      "id": "t_00a60aa62a4be3a2",
+      "text": "JigsawDesigner 1.6 SVG workspace on Mac with a dragon project visible",
+      "paths": [
+        "content.home.devices.items.0.evidence.alt"
+      ]
+    },
+    {
+      "id": "t_00c74facc099b808",
+      "text": "Treat piece count as a target input and inspect the generated result.",
+      "paths": [
+        "content.help.jigsaw-generation.faq.1.answer"
+      ]
+    },
+    {
+      "id": "t_00cf1b09e2ab64cd",
+      "text": "⌘/ — Open JigsawDesigner Help",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.2.bullets.2"
+      ]
+    },
+    {
+      "id": "t_010b6c1be61ece87",
+      "text": "Selection and view commands remain available beside the canvas.",
+      "paths": [
+        "content.help.vector-editing.sections.2.image.caption"
+      ]
+    },
+    {
+      "id": "t_01362594a5e6f5d8",
+      "text": "The generator serializes the project geometry and selected slot template for its native C++ engine. The generated SVG is then imported back into the document as an editable group, so generation is part of the vector workflow rather than a final locked preview.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.sections.0.paragraphs.1"
+      ]
+    },
+    {
+      "id": "t_0177fc310ba24ead",
+      "text": "The in-app result is ready for close inspection and vector refinement.",
+      "paths": [
+        "content.showcase.projects.1.result.caption"
+      ]
+    },
+    {
+      "id": "t_0195b5dea959dd92",
+      "text": "Inspect, edit, and export the result",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_01bd0270cc520bb4",
+      "text": "Getting Started with JigsawDesigner",
+      "paths": [
+        "content.help.getting-started.seoTitle",
+        "content.help.getting-started.title"
+      ]
+    },
+    {
+      "id": "t_01e78f474c83869b",
+      "text": "On this page",
+      "paths": [
+        "content.changelog.1-6-0.labels.contents",
+        "content.help.getting-started.labels.contents",
+        "content.help.jigsaw-generation.labels.contents",
+        "content.help.keyboard-shortcuts.labels.contents",
+        "content.help.project-library.labels.contents",
+        "content.help.svg-import-export.labels.contents",
+        "content.help.templates.labels.contents",
+        "content.help.troubleshooting.labels.contents",
+        "content.help.vector-editing.labels.contents",
+        "content.marketing.custom-jigsaw-puzzle-template.labels.contents",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.labels.contents",
+        "content.marketing.jigsaw-dieline-generator.labels.contents",
+        "content.marketing.jigsaw-puzzle-generator.labels.contents",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.labels.contents",
+        "content.marketing.svg-puzzle-editor.labels.contents"
+      ]
+    },
+    {
+      "id": "t_02ed1bd48a6dbe28",
+      "text": "See the workflow",
+      "paths": [
+        "content.home.hero.secondaryLabel"
+      ]
+    },
+    {
+      "id": "t_03dba198b9333de4",
+      "text": "Is a dieline the same as an image?",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.faq.0.question"
+      ]
+    },
+    {
+      "id": "t_044494adb3548ee9",
+      "text": "Continue validation downstream",
+      "paths": [
+        "content.showcase.labels.limitationTitle"
+      ]
+    },
+    {
+      "id": "t_045fca1cefdc0778",
+      "text": "See how a closed boundary, slot template, and generation settings become an SVG group.",
+      "paths": [
+        "content.learn.paths.0.entries.1.description"
+      ]
+    },
+    {
+      "id": "t_04ec8bf45adfc1b0",
+      "text": "Resize and rotate selections on the canvas",
+      "paths": [
+        "content.changelog.1-6-0.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_05c768b9bd4db9d5",
+      "text": "A practical workflow for designing a puzzle boundary, generating cutlines, editing the SVG, and validating it in downstream laser-cutting software.",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.seoDescription"
+      ]
+    },
+    {
+      "id": "t_064b6d58353b5f34",
+      "text": "A closed irregular boundary with a slot template and generation settings ready in JigsawDesigner",
+      "paths": [
+        "content.home.hero.input.alt"
+      ]
+    },
+    {
+      "id": "t_06b72bc2ed4ffb1e",
+      "text": "Path editing",
+      "paths": [
+        "content.home.devices.capabilities.1.title"
+      ]
+    },
+    {
+      "id": "t_06d705e1a886ec5d",
+      "text": "Grid size controls the generation grid.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.sections.1.bullets.0"
+      ]
+    },
+    {
+      "id": "t_079c575d5a3d33e9",
+      "text": "Create a new project and draw a closed outer contour, or import a suitable SVG boundary. Set the canvas size and check that the intended geometry is visible and selectable.",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_07acc264d3e594d0",
+      "text": "Open a project’s context menu to open or rename it, publish it to Public Projects, create a share link, or delete it. Publishing makes an importable public copy; the current share-link permission is read-only.",
+      "paths": [
+        "content.help.project-library.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_07bc899217bcfc8e",
+      "text": "Outer boundary",
+      "paths": [
+        "content.home.primer.boundaryLabel"
+      ]
+    },
+    {
+      "id": "t_07d4104295212d7e",
+      "text": "Treat fabrication as a separate validation stage",
+      "paths": [
+        "content.home.downstream.title"
+      ]
+    },
+    {
+      "id": "t_07e4693e348b5c8a",
+      "text": "iPad editor",
+      "paths": [
+        "content.home.devices.items.1.evidence.caption"
+      ]
+    },
+    {
+      "id": "t_087eba069996dc82",
+      "text": "Generate editable jigsaw puzzle cutlines from an SVG boundary, tune piece and slot parameters, refine the result, and export SVG on Apple devices.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.seoDescription"
+      ]
+    },
+    {
+      "id": "t_08e75bc3e9877187",
+      "text": "How to Generate Jigsaw Puzzle Cutlines",
+      "paths": [
+        "content.help.jigsaw-generation.seoTitle"
+      ]
+    },
+    {
+      "id": "t_0912b7bf50f1e8b3",
+      "text": "Resolve common issues with selection, SVG import, jigsaw generation, export access, iCloud synchronization, and project files.",
+      "paths": [
+        "content.help.troubleshooting.seoDescription"
+      ]
+    },
+    {
+      "id": "t_09945e1024f50074",
+      "text": "Jigsaw generation combines your vector boundary, a slot-template path, and project parameters in the native C++ engine. The resulting SVG is imported back into the editor as a group.",
+      "paths": [
+        "content.help.jigsaw-generation.intro"
+      ]
+    },
+    {
+      "id": "t_09fbf699cf57d6c5",
+      "text": "JigsawDesigner purchases are currently offered through Apple. Contact support if you need help identifying the correct purchase or subscription.",
+      "paths": [
+        "messageNamespaces.Refund.content.intro"
+      ]
+    },
+    {
+      "id": "t_0a048bb1a01aafd5",
+      "text": "Project Info keeps document and generation values separate from the selected shape’s properties.",
+      "paths": [
+        "content.help.vector-editing.sections.4.image.caption"
+      ]
+    },
+    {
+      "id": "t_0a73bd561d1330fa",
+      "text": "A closed puzzle boundary, selected slot template, and generation values ready in JigsawDesigner",
+      "paths": [
+        "content.help.jigsaw-generation.leadImage.alt",
+        "content.help.jigsaw-generation.sections.2.image.alt",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.leadImage.alt",
+        "content.marketing.jigsaw-puzzle-generator.leadImage.alt",
+        "content.marketing.jigsaw-puzzle-generator.sections.0.image.alt"
+      ]
+    },
+    {
+      "id": "t_0ab82e815a827735",
+      "text": "Start by confirming that the boundary is a valid closed path, the slot template is valid, and the requested density is reasonable for the contour.",
+      "paths": [
+        "content.help.jigsaw-generation.faq.0.answer"
+      ]
+    },
+    {
+      "id": "t_0b262e276ee7b48b",
+      "text": "Jigsaw dieline generator",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.related.1.title",
+        "content.marketing.jigsaw-puzzle-generator.related.0.title",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.related.0.title"
+      ]
+    },
+    {
+      "id": "t_0b435aa9341c18dd",
+      "text": "Use the full canvas view for composition, then zoom in when a path or connection needs closer inspection.",
+      "paths": [
+        "content.help.vector-editing.sections.0.image.caption"
+      ]
+    },
+    {
+      "id": "t_0b73c877113d00cb",
+      "text": "Recognize what JigsawDesigner creates—and what remains a machine-specific decision.",
+      "paths": [
+        "content.learn.paths.0.outcome"
+      ]
+    },
+    {
+      "id": "t_0be22dfd7f091169",
+      "text": "Generated puzzle cutlines inside the irregular boundary, selected as an editable group in JigsawDesigner",
+      "paths": [
+        "content.showcase.projects.0.result.alt"
+      ]
+    },
+    {
+      "id": "t_0c21e6b86cebf214",
+      "text": "Use the project context menu",
+      "paths": [
+        "content.help.project-library.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_0c9cb448b9b77484",
+      "text": "Learn by stage",
+      "paths": [
+        "content.home.learn.eyebrow"
+      ]
+    },
+    {
+      "id": "t_0d32b59fb540c203",
+      "text": "What you can do",
+      "paths": [
+        "content.changelog.1-6-0.labels.highlights",
+        "content.help.getting-started.labels.highlights",
+        "content.help.jigsaw-generation.labels.highlights",
+        "content.help.keyboard-shortcuts.labels.highlights",
+        "content.help.project-library.labels.highlights",
+        "content.help.svg-import-export.labels.highlights",
+        "content.help.templates.labels.highlights",
+        "content.help.troubleshooting.labels.highlights",
+        "content.help.vector-editing.labels.highlights",
+        "content.marketing.custom-jigsaw-puzzle-template.labels.highlights",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.labels.highlights",
+        "content.marketing.jigsaw-dieline-generator.labels.highlights",
+        "content.marketing.jigsaw-puzzle-generator.labels.highlights",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.labels.highlights",
+        "content.marketing.svg-puzzle-editor.labels.highlights"
+      ]
+    },
+    {
+      "id": "t_0e3fb6ad74d81ca9",
+      "text": "A detailed dragon-shaped vector boundary with multiple internal animal outlines before puzzle generation",
+      "paths": [
+        "content.showcase.projects.1.input.alt"
+      ]
+    },
+    {
+      "id": "t_0e7b7cd72fdb84db",
+      "text": "Use selection, point editing, layers, and transforms to refine the SVG.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.related.2.description",
+        "content.marketing.svg-puzzle-editor.related.2.description"
+      ]
+    },
+    {
+      "id": "t_0f9f68ebb94dfad7",
+      "text": "Generate and inspect a jigsaw puzzle SVG, then validate scale, units, strokes, kerf, material, and machine settings in your downstream cutting software.",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.seoDescription"
+      ]
+    },
+    {
+      "id": "t_0fd9df8d4302b271",
+      "text": "JigsawDesigner Project Showcase | Real In-App Examples",
+      "paths": [
+        "content.showcase.seoTitle"
+      ]
+    },
+    {
+      "id": "t_0fe717fd631b0ae9",
+      "text": "Prepare the input geometry",
+      "paths": [
+        "content.help.jigsaw-generation.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_103493bb7e69a927",
+      "text": "Pencil processing produces smoother paths, and open contours can be continued or joined. Point Edit remains available for refining anchors and Bezier handles after drawing.",
+      "paths": [
+        "content.changelog.1-6-0.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_103c829da589a319",
+      "text": "Why does generation fail?",
+      "paths": [
+        "content.help.jigsaw-generation.faq.0.question"
+      ]
+    },
+    {
+      "id": "t_10705c04d61c0580",
+      "text": "Product screenshot · JigsawDesigner 1.6.0 for Mac",
+      "paths": [
+        "content.learn.paths.0.entries.0.media.source.label",
+        "content.learn.paths.1.entries.0.media.source.label",
+        "content.learn.paths.2.entries.0.media.source.label",
+        "content.showcase.projects.0.input.source.label",
+        "content.showcase.projects.0.result.source.label",
+        "content.showcase.projects.1.input.source.label",
+        "content.showcase.projects.1.result.source.label",
+        "content.showcase.projects.2.input.source.label",
+        "content.showcase.projects.2.result.source.label"
+      ]
+    },
+    {
+      "id": "t_120919ce0efd1a52",
+      "text": "Import common SVG shapes and groups",
+      "paths": [
+        "content.help.svg-import-export.highlights.0"
+      ]
+    },
+    {
+      "id": "t_123e142cea41dff8",
+      "text": "Import common SVG geometry and embedded resources, keep projects editable, and export a portable SVG document from JigsawDesigner.",
+      "paths": [
+        "content.help.svg-import-export.seoDescription"
+      ]
+    },
+    {
+      "id": "t_1302af2a285966a6",
+      "text": "Zoom into the boundary and internal connections. Use Layers, selection, point editing, grouping, scaling, and rotation to correct the vector document. Save the editable project before export.",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_1303b42f87329df3",
+      "text": "Delete or Forward Delete — Delete selected element(s)",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.1.bullets.4"
+      ]
+    },
+    {
+      "id": "t_131671f6af2bfa7a",
+      "text": "Draw a boundary or import an existing SVG",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.highlights.0"
+      ]
+    },
+    {
+      "id": "t_13879fe6e91a086a",
+      "text": "Generate a pattern across a complex dragon outline while retaining the smaller shapes inside it.",
+      "paths": [
+        "content.showcase.projects.1.objective"
+      ]
+    },
+    {
+      "id": "t_1417cbfa91126266",
+      "text": "Choose and test a slot template",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.highlights.1"
+      ]
+    },
+    {
+      "id": "t_14e5ffeec6647aa2",
+      "text": "The App Store displays the current price for your region.",
+      "paths": [
+        "content.home.plans.storeNote"
+      ]
+    },
+    {
+      "id": "t_150439a3ce7556bf",
+      "text": "Yes. The project preserves editable source geometry and assets for revisions.",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.faq.1.answer"
+      ]
+    },
+    {
+      "id": "t_1579318086e71c24",
+      "text": "The screenshots are from JigsawDesigner 1.6.0 on Mac.",
+      "paths": [
+        "content.showcase.evidencePoints.0"
+      ]
+    },
+    {
+      "id": "t_15a69257562b1c63",
+      "text": "SVG is the current and only export format.",
+      "paths": [
+        "content.help.svg-import-export.sections.2.note"
+      ]
+    },
+    {
+      "id": "t_173838b6a2a507ba",
+      "text": "Resize and rotate around the selection center",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.sections.1.bullets.3"
+      ]
+    },
+    {
+      "id": "t_17a8b1b10a74a77d",
+      "text": "A project ready for generation after its boundary, template, and values are reviewed.",
+      "paths": [
+        "content.learn.paths.1.entries.0.media.caption"
+      ]
+    },
+    {
+      "id": "t_1818e6ffacfb542b",
+      "text": "Remove hidden or duplicate cutting geometry",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.sections.1.bullets.2"
+      ]
+    },
+    {
+      "id": "t_184e3361bd3eb495",
+      "text": "After export",
+      "paths": [
+        "content.home.downstream.eyebrow"
+      ]
+    },
+    {
+      "id": "t_187c45873a6c131b",
+      "text": "Try the core generation workflow.",
+      "paths": [
+        "content.home.plans.freeSummary"
+      ]
+    },
+    {
+      "id": "t_18867570b6bb0e34",
+      "text": "These JigsawDesigner team examples were captured in JigsawDesigner 1.6.0 on Mac. Each one records the input, the in-app result, and the next vector edit.",
+      "paths": [
+        "content.showcase.intro"
+      ]
+    },
+    {
+      "id": "t_18f2f03228a8b42e",
+      "text": "Refine the result without mistaking the export for a finished machine setup.",
+      "paths": [
+        "content.learn.paths.2.outcome"
+      ]
+    },
+    {
+      "id": "t_19601e99dcf1c44d",
+      "text": "Export the document as SVG, then configure production-specific properties in the software responsible for printing or cutting. Stroke colors, kerf compensation, units, material profiles, and machine settings depend on that downstream environment.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_19643f721da33ef6",
+      "text": "Export SVG and validate downstream",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.highlights.3"
+      ]
+    },
+    {
+      "id": "t_1a37d726c7317dd2",
+      "text": "Slot templates",
+      "paths": [
+        "content.help.jigsaw-generation.related.0.title",
+        "content.help.vector-editing.related.2.title"
+      ]
+    },
+    {
+      "id": "t_1a638233690d8f97",
+      "text": "Persist, export, and delete custom templates",
+      "paths": [
+        "content.help.templates.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_1a77ff3cf09d6ad8",
+      "text": "SVG puzzle editor",
+      "paths": [
+        "content.changelog.1-6-0.related.0.title"
+      ]
+    },
+    {
+      "id": "t_1aaf27e38c48fb7f",
+      "text": "Export SVG, import it into the software used by your equipment, and assign the correct operations. Confirm units, stroke interpretation, kerf, material settings, speed, power, and safety procedures using the vendor's documentation. Run a small test first.",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.3.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_1bb2c9238b04c8cf",
+      "text": "Start with the geometry: the outer boundary, internal cutlines, the connection profile, and the SVG handed to another app.",
+      "paths": [
+        "content.learn.paths.0.description"
+      ]
+    },
+    {
+      "id": "t_1c5c36fb53b7729f",
+      "text": "Free",
+      "paths": [
+        "content.home.plans.freeName",
+        "content.pricing.freeName"
+      ]
+    },
+    {
+      "id": "t_1c6815bcb1f4cb50",
+      "text": "Custom slot profiles",
+      "paths": [
+        "content.home.devices.capabilities.2.title"
+      ]
+    },
+    {
+      "id": "t_1c72714f1b8ccadb",
+      "text": "JigsawDesigner includes Standard Convex, Standard Concave, and Straight Line templates. Select one in the Templates panel before generation to change the connection profile supplied to the engine.",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_1cd9d0cc6063e8c0",
+      "text": "JigsawDesigner 1.6.0 Changelog",
+      "paths": [
+        "content.changelog.1-6-0.seoTitle"
+      ]
+    },
+    {
+      "id": "t_1d5304898ffa48a5",
+      "text": "From a vector boundary to puzzle cutlines",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_1d8fa2ea8113f4c6",
+      "text": "Tools panel with selection, canvas, zoom, and quick-action controls",
+      "paths": [
+        "content.help.vector-editing.sections.2.image.alt"
+      ]
+    },
+    {
+      "id": "t_1da2255cbfa96790",
+      "text": "No. Normal saves keep a local project package. Cloud synchronization can also occur when enabled and available.",
+      "paths": [
+        "content.help.project-library.faq.0.answer"
+      ]
+    },
+    {
+      "id": "t_1ddab5138210141f",
+      "text": "Puzzle cutlines generated across a detailed dragon silhouette in JigsawDesigner",
+      "paths": [
+        "content.showcase.projects.1.result.alt"
+      ]
+    },
+    {
+      "id": "t_1de8c535c288ca39",
+      "text": "Inspect the imported groups and scale before choosing or drawing a closed boundary for generation.",
+      "paths": [
+        "content.showcase.projects.2.editAction"
+      ]
+    },
+    {
+      "id": "t_1e058f2c07f58e88",
+      "text": "Refine the paths, then export SVG",
+      "paths": [
+        "content.home.workflow.items.2.title"
+      ]
+    },
+    {
+      "id": "t_1e3cc2d68fe0e54a",
+      "text": "Choose one of three paths: understand cutlines, complete a project, or refine and export SVG.",
+      "paths": [
+        "content.home.learn.intro"
+      ]
+    },
+    {
+      "id": "t_1ea211c5fbcbde49",
+      "text": "Imported SVG to an organized project",
+      "paths": [
+        "content.showcase.projects.2.title"
+      ]
+    },
+    {
+      "id": "t_1ef2ca1a3719d92e",
+      "text": "Closed vector boundary",
+      "paths": [
+        "content.help.jigsaw-generation.highlights.0"
+      ]
+    },
+    {
+      "id": "t_1f0dbab79a4fa21b",
+      "text": "Import and edit SVG puzzle geometry with drawing tools, point editing, layers, groups, transforms, accurate zoom, and SVG export on Apple devices.",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.seoDescription"
+      ]
+    },
+    {
+      "id": "t_1feb9e6fdebf17f3",
+      "text": "Not used—this example documents SVG import and project organization",
+      "paths": [
+        "content.showcase.projects.2.template"
+      ]
+    },
+    {
+      "id": "t_20278663d68b898f",
+      "text": "My Projects",
+      "paths": [
+        "content.help.project-library.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_2072a5462d1964c2",
+      "text": "A slot template supplies the connection profile used by the puzzle generator. Start with one of three built-in profiles or create an open vector path that fits your own visual language.",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.intro"
+      ]
+    },
+    {
+      "id": "t_208afdad2b8d2321",
+      "text": "Import the SVG into the software used by your cutter. Assign operation types, speed, power, passes, kerf compensation, and material-specific settings there. Run the device vendor's recommended safety checks and a small test before committing material.",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_20f66579b9cff87d",
+      "text": "Minimum and maximum slot distance constrain connection placement.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.sections.1.bullets.2"
+      ]
+    },
+    {
+      "id": "t_21506c15dc9f3311",
+      "text": "Product guides",
+      "paths": [
+        "content.support.documentationTitle"
+      ]
+    },
+    {
+      "id": "t_219069f383d85117",
+      "text": "2. Choose a template and generate",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_21a8900f2b19029b",
+      "text": "Yes. The Apple app target supports iPhone, iPad, and Mac, with layouts adapted for each form factor.",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.faq.1.answer"
+      ]
+    },
+    {
+      "id": "t_22c170d863a7d27c",
+      "text": "Create, open, rename, and delete projects from My Projects. Normal saves first write a local .jigsawproject package. When the project prefers cloud storage and iCloud is available, the app also schedules CloudKit synchronization.",
+      "paths": [
+        "content.help.project-library.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_23597a099c95ff3d",
+      "text": "SVG export",
+      "paths": [
+        "content.home.plans.premiumFeatures.1",
+        "content.pricing.exportLabel",
+        "messageNamespaces.Pricing.features.export"
+      ]
+    },
+    {
+      "id": "t_24e18ba7bb9a8b63",
+      "text": "See the JigsawDesigner 1.6.0 improvements to SVG resources, selection transforms, Pencil paths, open contours, accurate zoom, and project migration.",
+      "paths": [
+        "content.changelog.1-6-0.seoDescription"
+      ]
+    },
+    {
+      "id": "t_2524e8b51f526cf9",
+      "text": "Learn",
+      "paths": [
+        "content.learn.labels.pageName"
+      ]
+    },
+    {
+      "id": "t_25685a6f0e7ec3cb",
+      "text": "Continue generating and export SVG.",
+      "paths": [
+        "content.home.plans.premiumSummary"
+      ]
+    },
+    {
+      "id": "t_25b76c88b6c71d3c",
+      "text": "Use selection handles, Layers, Point Edit, grouping, and Inspector values to make the document ready for the next tool in your workflow.",
+      "paths": [
+        "content.home.workflow.items.2.description"
+      ]
+    },
+    {
+      "id": "t_25cf585e932711b2",
+      "text": "If the file is destined for printing, craft, or cutting, open the SVG in the relevant downstream software and confirm document units, scale, stroke handling, material settings, and machine-specific requirements there.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.sections.2.paragraphs.1"
+      ]
+    },
+    {
+      "id": "t_2624e74597d2fe19",
+      "text": "Point Edit exposes path anchors for detailed refinement after drawing.",
+      "paths": [
+        "content.changelog.1-6-0.sections.2.image.caption"
+      ]
+    },
+    {
+      "id": "t_26a1e142b228dc4e",
+      "text": "Version 1.6.0 more reliably preserves embedded images, gradients, patterns, and clipping paths while importing, editing, saving, and reopening a project. Project packages keep document.svg beside content-addressed assets so editable source files can remain portable.",
+      "paths": [
+        "content.changelog.1-6-0.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_26b6ffc44801f6c8",
+      "text": "What the dieline generator creates",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_26d9c2a107e147b5",
+      "text": "billed monthly by Apple",
+      "paths": [
+        "messageNamespaces.Pricing.monthly.period"
+      ]
+    },
+    {
+      "id": "t_2814ae2ae885ade6",
+      "text": "Use a simple, deliberate contour",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.sections.1.bullets.1"
+      ]
+    },
+    {
+      "id": "t_2850c54f4e938a63",
+      "text": "Editable SVG",
+      "paths": [
+        "content.home.primer.svgLabel"
+      ]
+    },
+    {
+      "id": "t_289a6df4d1003978",
+      "text": "⌘S — Save Project",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.0.bullets.1"
+      ]
+    },
+    {
+      "id": "t_28b675b01dcb60fc",
+      "text": "Are projects stored only in iCloud?",
+      "paths": [
+        "content.help.project-library.faq.0.question"
+      ]
+    },
+    {
+      "id": "t_2975610ccdb362f0",
+      "text": "Draw with eight editor tools",
+      "paths": [
+        "content.help.getting-started.highlights.1"
+      ]
+    },
+    {
+      "id": "t_29e043f1790a7cfd",
+      "text": "Jigsaw Puzzle Generator for Mac, iPad, and iPhone",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.title"
+      ]
+    },
+    {
+      "id": "t_2a18965c27f565e0",
+      "text": "JigsawDesigner 1.6 vector selection interface on iPhone",
+      "paths": [
+        "content.home.devices.items.2.evidence.alt"
+      ]
+    },
+    {
+      "id": "t_2a21df49a3a77d6d",
+      "text": "SVG is the interchange format for bringing vector geometry into JigsawDesigner and taking finished geometry into another workflow. The editable .jigsawproject package is a separate source format for preserving project state and assets.",
+      "paths": [
+        "content.help.svg-import-export.intro"
+      ]
+    },
+    {
+      "id": "t_2a74e55643fa21aa",
+      "text": "Built-in or custom slot path",
+      "paths": [
+        "content.help.jigsaw-generation.highlights.1"
+      ]
+    },
+    {
+      "id": "t_2a78e4e6459e298a",
+      "text": "On-canvas scale and rotation",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.highlights.2"
+      ]
+    },
+    {
+      "id": "t_2a875176ab851d4a",
+      "text": "Review boundaries, templates, parameters, and output inspection.",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.related.2.description",
+        "content.marketing.jigsaw-puzzle-generator.related.2.description"
+      ]
+    },
+    {
+      "id": "t_2b335ba6a2d3fa32",
+      "text": "Refine the vector geometry",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_2b74e4272a37272b",
+      "text": "How to Make a Jigsaw Puzzle SVG for a Laser-Cutting Workflow",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.title"
+      ]
+    },
+    {
+      "id": "t_2b91cbcab1aaf0fe",
+      "text": "Create a Custom Jigsaw Puzzle Slot Template",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.title"
+      ]
+    },
+    {
+      "id": "t_2bdea8190f4e013d",
+      "text": "4. Termination",
+      "paths": [
+        "messageNamespaces.Terms.sections.termination.title"
+      ]
+    },
+    {
+      "id": "t_2c12b6a5b77c4721",
+      "text": "Use Select, Point Edit, Pencil, Line, Rectangle, Circle, Polygon, and Bezier tools with layers, groups, transforms, and undo.",
+      "paths": [
+        "content.help.vector-editing.seoDescription"
+      ]
+    },
+    {
+      "id": "t_2c5742b88ccebf3c",
+      "text": "A project or cloud update is missing",
+      "paths": [
+        "content.help.troubleshooting.sections.3.title"
+      ]
+    },
+    {
+      "id": "t_2caa5a9ab9e7a4c6",
+      "text": "Generated cutlines remain editable in the document.",
+      "paths": [
+        "content.learn.paths.0.entries.0.media.caption"
+      ]
+    },
+    {
+      "id": "t_2d283a808382339c",
+      "text": "Unlimited",
+      "paths": [
+        "content.pricing.unlimited"
+      ]
+    },
+    {
+      "id": "t_2d62034121d2e43d",
+      "text": "Use the Subscriptions settings for your Apple Account. Billing and cancellation are handled by Apple.",
+      "paths": [
+        "content.pricing.faq.1.answer"
+      ]
+    },
+    {
+      "id": "t_2d6783d7a5d838cb",
+      "text": "Can I import an SVG that references an online image?",
+      "paths": [
+        "content.help.svg-import-export.faq.0.question"
+      ]
+    },
+    {
+      "id": "t_2d8606f7a1e52813",
+      "text": "Locked or hidden ancestors affect editing",
+      "paths": [
+        "content.help.vector-editing.sections.3.bullets.2"
+      ]
+    },
+    {
+      "id": "t_2dda0bcf1c5b5db3",
+      "text": "Need a button-by-button reference?",
+      "paths": [
+        "content.learn.labels.referenceTitle"
+      ]
+    },
+    {
+      "id": "t_2e44797d5c6bb3d1",
+      "text": "Export SVG",
+      "paths": [
+        "content.home.downstream.steps.0.title"
+      ]
+    },
+    {
+      "id": "t_2f9546d95f56d88d",
+      "text": "Standard Concave",
+      "paths": [
+        "content.help.templates.highlights.1"
+      ]
+    },
+    {
+      "id": "t_2fbaab4baad1ca4f",
+      "text": "Generation is one step inside the project—not the end of the design process.",
+      "paths": [
+        "content.home.workflow.intro"
+      ]
+    },
+    {
+      "id": "t_2fc57009b7e9ed15",
+      "text": "Choose the path that matches where you are now. The short product guides explain the geometry; the Help Center handles interface details; the making tutorial covers the downstream checks JigsawDesigner does not perform for you.",
+      "paths": [
+        "content.learn.intro"
+      ]
+    },
+    {
+      "id": "t_2ff4c4b96cd2cdbd",
+      "text": "JigsawDesigner does not replace cutting software, equipment documentation, or safe operating procedures.",
+      "paths": [
+        "content.home.downstream.note"
+      ]
+    },
+    {
+      "id": "t_306d75c1d68f2f65",
+      "text": "A custom slot profile shown as selected in the Templates panel",
+      "paths": [
+        "content.showcase.projects.1.template"
+      ]
+    },
+    {
+      "id": "t_30783fc185672155",
+      "text": "JigsawDesigner hands off SVG geometry. Your cutting software and equipment remain responsible for operations, material settings, and safety.",
+      "paths": [
+        "content.home.downstream.intro"
+      ]
+    },
+    {
+      "id": "t_311220deb1ca0c8a",
+      "text": "Premium",
+      "paths": [
+        "content.home.plans.premiumName",
+        "content.pricing.premiumName"
+      ]
+    },
+    {
+      "id": "t_31347202e255cdee",
+      "text": "View JigsawDesigner on the App Store",
+      "paths": [
+        "content.learn.labels.appStoreAria",
+        "content.showcase.labels.appStoreAria"
+      ]
+    },
+    {
+      "id": "t_31bb79323268b506",
+      "text": "Use Import SVG and choose a file. Common paths, shapes, text, images, groups, transforms, clip paths, and use references can be parsed into the document. Inspect the result because complex SVG features can vary.",
+      "paths": [
+        "content.help.svg-import-export.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_31eaddb7bc010db3",
+      "text": "Keyboard shortcuts",
+      "paths": [
+        "content.help.vector-editing.related.1.title"
+      ]
+    },
+    {
+      "id": "t_31f431402d04d874",
+      "text": "A dieline describes vector boundaries and internal cutlines; it is not a rendered photograph of a finished puzzle. JigsawDesigner uses the supplied boundary, slot path, grid, target piece count, and distance settings to construct SVG geometry.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_31f6fbbf6a920b9b",
+      "text": "Algorithm-driven internal cutlines",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.highlights.0"
+      ]
+    },
+    {
+      "id": "t_32007eefb10eafa3",
+      "text": "Full SVG workspace",
+      "paths": [
+        "content.home.devices.items.0.title"
+      ]
+    },
+    {
+      "id": "t_3203ec2d0e803059",
+      "text": "The generated cutlines return to the document as a selectable SVG group.",
+      "paths": [
+        "content.showcase.projects.0.result.caption"
+      ]
+    },
+    {
+      "id": "t_321f77d7ef636da3",
+      "text": "Optional iCloud synchronization",
+      "paths": [
+        "content.help.project-library.highlights.1"
+      ]
+    },
+    {
+      "id": "t_322dbc26abf1f8ca",
+      "text": "This guide does not certify the SVG for a particular cutter or material. Production validation remains your responsibility.",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.3.note"
+      ]
+    },
+    {
+      "id": "t_3243d42bbc1194a7",
+      "text": "Target piece count guides the requested puzzle density.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.sections.1.bullets.1"
+      ]
+    },
+    {
+      "id": "t_3278cbe7104672eb",
+      "text": "Learn with a project open",
+      "paths": [
+        "content.learn.labels.ctaTitle"
+      ]
+    },
+    {
+      "id": "t_32e2434a01124ca6",
+      "text": "Unlimited puzzle generation",
+      "paths": [
+        "content.home.plans.premiumFeatures.0"
+      ]
+    },
+    {
+      "id": "t_3352d5626eeadc96",
+      "text": "Use selection, point editing, layers, grouping, resize, and rotation to refine a result.",
+      "paths": [
+        "content.learn.paths.2.entries.0.description"
+      ]
+    },
+    {
+      "id": "t_33c0972b5783cb67",
+      "text": "Inspect the exported file at its intended scale before using material.",
+      "paths": [
+        "content.home.primer.note"
+      ]
+    },
+    {
+      "id": "t_3440b3d8847b5ac4",
+      "text": "Subscriptions are purchased, billed, renewed, cancelled, and refunded through Apple. The app does not currently offer direct website purchases.",
+      "paths": [
+        "messageNamespaces.Terms.sections.subscriptions.content"
+      ]
+    },
+    {
+      "id": "t_34c9f84e0d628572",
+      "text": "Not included",
+      "paths": [
+        "content.pricing.notIncluded"
+      ]
+    },
+    {
+      "id": "t_3510e15d8d4f2441",
+      "text": "Editable vector groups and paths",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.highlights.1"
+      ]
+    },
+    {
+      "id": "t_36001f7b6f52b0bf",
+      "text": "/custom-jigsaw-puzzle-template",
+      "paths": [
+        "content.showcase.projects.1.guideHref"
+      ]
+    },
+    {
+      "id": "t_365902c62af225aa",
+      "text": "Monthly or yearly through Apple",
+      "paths": [
+        "content.pricing.appleBilling"
+      ]
+    },
+    {
+      "id": "t_3699e0b72bd86ca3",
+      "text": "For a specific problem, include your device, app version, expected result, and what happened instead.",
+      "paths": [
+        "content.support.emailDescription"
+      ]
+    },
+    {
+      "id": "t_374023e743bf1e53",
+      "text": "Persistent templates available to new projects",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.highlights.3"
+      ]
+    },
+    {
+      "id": "t_37496e18729950b4",
+      "text": "Use Point Edit only after selecting compatible geometry",
+      "paths": [
+        "content.help.troubleshooting.sections.0.bullets.3"
+      ]
+    },
+    {
+      "id": "t_3889efbf5851873b",
+      "text": "Shape Info reports values for the current selection and provides element-level actions.",
+      "paths": [
+        "content.help.vector-editing.sections.3.image.caption"
+      ]
+    },
+    {
+      "id": "t_389407b380408eff",
+      "text": "Open the Template Editor, enter a name, and draw an open Bezier path. Edit anchors as needed, or import an SVG path as a starting point.",
+      "paths": [
+        "content.help.templates.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_390d4c59e5f741dd",
+      "text": "Generate inside the chosen boundary",
+      "paths": [
+        "content.home.workflow.items.1.title"
+      ]
+    },
+    {
+      "id": "t_3942b2ebcc636e97",
+      "text": "Import and export template SVG",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.highlights.2"
+      ]
+    },
+    {
+      "id": "t_394eaecf05cf68f3",
+      "text": "Create and edit puzzle cutlines on Apple devices",
+      "paths": [
+        "content.changelog.1-6-0.labels.ctaTitle",
+        "content.help.getting-started.labels.ctaTitle",
+        "content.help.jigsaw-generation.labels.ctaTitle",
+        "content.help.keyboard-shortcuts.labels.ctaTitle",
+        "content.help.project-library.labels.ctaTitle",
+        "content.help.svg-import-export.labels.ctaTitle",
+        "content.help.templates.labels.ctaTitle",
+        "content.help.troubleshooting.labels.ctaTitle",
+        "content.help.vector-editing.labels.ctaTitle",
+        "content.marketing.custom-jigsaw-puzzle-template.labels.ctaTitle",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.labels.ctaTitle",
+        "content.marketing.jigsaw-dieline-generator.labels.ctaTitle",
+        "content.marketing.jigsaw-puzzle-generator.labels.ctaTitle",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.labels.ctaTitle",
+        "content.marketing.svg-puzzle-editor.labels.ctaTitle"
+      ]
+    },
+    {
+      "id": "t_3b315d048d2b6ce0",
+      "text": "See the complete boundary-to-SVG generation workflow.",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.related.0.description",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.related.1.description",
+        "content.marketing.jigsaw-dieline-generator.related.0.description",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.related.1.description",
+        "content.marketing.svg-puzzle-editor.related.0.description"
+      ]
+    },
+    {
+      "id": "t_3b3b4c269687147a",
+      "text": "Compare Free and Premium",
+      "paths": [
+        "content.home.plans.pricingLabel"
+      ]
+    },
+    {
+      "id": "t_3b49ae9e8c8853d2",
+      "text": "Create, edit, import, export, and reuse custom open-path slot templates for jigsaw cutline generation in JigsawDesigner.",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.seoDescription"
+      ]
+    },
+    {
+      "id": "t_3b6832ccc87f95f0",
+      "text": "Keep the connection profile as an open path",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.sections.1.bullets.0"
+      ]
+    },
+    {
+      "id": "t_3b86284288d22656",
+      "text": "Accurate zoom, Fit to Window, and project migration",
+      "paths": [
+        "content.changelog.1-6-0.highlights.3"
+      ]
+    },
+    {
+      "id": "t_3c86e10754852283",
+      "text": "A complex imported SVG selected in JigsawDesigner with its layer groups and dimensions visible",
+      "paths": [
+        "content.showcase.projects.2.input.alt"
+      ]
+    },
+    {
+      "id": "t_3cb9a69d22950239",
+      "text": "Yes. The generated SVG returns to the editor as a group that can be selected, organized, transformed, and edited.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.faq.1.answer"
+      ]
+    },
+    {
+      "id": "t_3cc46c6441bf55f0",
+      "text": "Yes. The Template Editor supports SVG import and export.",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.faq.1.answer"
+      ]
+    },
+    {
+      "id": "t_3d6751ea11a50ab6",
+      "text": "SVG import",
+      "paths": [
+        "content.home.devices.capabilities.0.title"
+      ]
+    },
+    {
+      "id": "t_3d8f00e6c0910c62",
+      "text": "SVG import and export reference",
+      "paths": [
+        "content.learn.paths.2.entries.1.title"
+      ]
+    },
+    {
+      "id": "t_3db20d82a667bd46",
+      "text": "Open this focused JigsawDesigner guide.",
+      "paths": [
+        "content.help.getting-started.related.0.description",
+        "content.help.getting-started.related.1.description",
+        "content.help.getting-started.related.2.description",
+        "content.help.jigsaw-generation.related.0.description",
+        "content.help.jigsaw-generation.related.1.description",
+        "content.help.jigsaw-generation.related.2.description",
+        "content.help.keyboard-shortcuts.related.0.description",
+        "content.help.keyboard-shortcuts.related.1.description",
+        "content.help.keyboard-shortcuts.related.2.description",
+        "content.help.project-library.related.0.description",
+        "content.help.project-library.related.1.description",
+        "content.help.project-library.related.2.description",
+        "content.help.svg-import-export.related.0.description",
+        "content.help.svg-import-export.related.1.description",
+        "content.help.svg-import-export.related.2.description",
+        "content.help.templates.related.0.description",
+        "content.help.templates.related.1.description",
+        "content.help.templates.related.2.description",
+        "content.help.troubleshooting.related.0.description",
+        "content.help.troubleshooting.related.1.description",
+        "content.help.troubleshooting.related.2.description",
+        "content.help.vector-editing.related.0.description",
+        "content.help.vector-editing.related.1.description",
+        "content.help.vector-editing.related.2.description"
+      ]
+    },
+    {
+      "id": "t_3ddb37d50feb11a9",
+      "text": "Choose the right tool",
+      "paths": [
+        "content.help.vector-editing.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_3e07d7c819c7d214",
+      "text": "A real import check inside the editor; the artwork is evidence of app rendering, not a physical product.",
+      "paths": [
+        "content.showcase.projects.2.input.caption"
+      ]
+    },
+    {
+      "id": "t_3e768309558ef90d",
+      "text": "Check the current SVG-only handoff and what to verify in downstream software.",
+      "paths": [
+        "content.learn.paths.2.entries.1.description"
+      ]
+    },
+    {
+      "id": "t_3e8e53a60aa00efa",
+      "text": "Open vector artwork and inspect its visible structure.",
+      "paths": [
+        "content.home.devices.capabilities.0.description"
+      ]
+    },
+    {
+      "id": "t_3ecad28021a6fb54",
+      "text": "In Project Info, set grid size, target piece count, minimum slot distance, and maximum slot distance. Review the selected template and values, then choose Generate Jigsaw.",
+      "paths": [
+        "content.help.jigsaw-generation.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_3fd8d2544faa0450",
+      "text": "JigsawDesigner Project Library with editable local puzzle projects",
+      "paths": [
+        "content.help.getting-started.leadImage.alt",
+        "content.help.project-library.leadImage.alt",
+        "content.help.project-library.sections.0.image.alt"
+      ]
+    },
+    {
+      "id": "t_4000b4b856cfe37c",
+      "text": "Generated jigsaw dielines ready for inspection in the vector editor",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.2.image.alt"
+      ]
+    },
+    {
+      "id": "t_4095586bdb4df1bf",
+      "text": "Laser-Cut Jigsaw Puzzle SVG Workflow",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.seoTitle"
+      ]
+    },
+    {
+      "id": "t_409abb234ba44037",
+      "text": "Use JigsawDesigner for the vector design stage",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_416fe7549ffbc248",
+      "text": "First confirm the local project package exists in My Projects. Cloud synchronization additionally requires iCloud availability and a project configured for cloud storage. Public publishing and share acceptance are separate CloudKit operations.",
+      "paths": [
+        "content.help.troubleshooting.sections.3.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_419e1ab1aa7c102d",
+      "text": "Compare the visible artwork and inspect its groups in Layers.",
+      "paths": [
+        "content.showcase.projects.2.steps.1"
+      ]
+    },
+    {
+      "id": "t_41f28dabe457dba7",
+      "text": "Standard Convex",
+      "paths": [
+        "content.help.templates.highlights.0"
+      ]
+    },
+    {
+      "id": "t_42af02f49a6850a8",
+      "text": "Import and Export SVG Files",
+      "paths": [
+        "content.help.svg-import-export.title"
+      ]
+    },
+    {
+      "id": "t_42da0bd8db48ad74",
+      "text": "Objective",
+      "paths": [
+        "content.home.showcase.objectiveLabel",
+        "content.showcase.labels.objective"
+      ]
+    },
+    {
+      "id": "t_437265aaa1757c96",
+      "text": "Edit and export",
+      "paths": [
+        "content.learn.paths.2.title"
+      ]
+    },
+    {
+      "id": "t_44132fe0750a1e4c",
+      "text": "SVG groups and shapes in the Layers panel",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.sections.2.image.alt"
+      ]
+    },
+    {
+      "id": "t_44369ca0532e4c74",
+      "text": "About these examples",
+      "paths": [
+        "content.showcase.evidenceTitle"
+      ]
+    },
+    {
+      "id": "t_453e01649ee371c0",
+      "text": "Reveal and unlock the relevant layer",
+      "paths": [
+        "content.help.troubleshooting.sections.0.bullets.1"
+      ]
+    },
+    {
+      "id": "t_466260dff27badcb",
+      "text": "JigsawDesigner currently exports SVG. SVG export is included with Premium.",
+      "paths": [
+        "content.home.faq.items.2.answer"
+      ]
+    },
+    {
+      "id": "t_46a097fdff439f79",
+      "text": "Boundary points selected for vector editing around generated puzzle cutlines in JigsawDesigner",
+      "paths": [
+        "content.learn.paths.2.entries.0.media.alt"
+      ]
+    },
+    {
+      "id": "t_471bae272ff871cb",
+      "text": "Find setup, generation, vector editing, template, project, and keyboard references.",
+      "paths": [
+        "content.support.documentationDescription"
+      ]
+    },
+    {
+      "id": "t_4746f7f85ad0c8bc",
+      "text": "Local save and optional cloud sync",
+      "paths": [
+        "content.help.troubleshooting.highlights.3"
+      ]
+    },
+    {
+      "id": "t_478341f4cb406298",
+      "text": "Use the Command key with the following letters.",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_47949e4491e24210",
+      "text": "Version 1.6.0 supports smoother Pencil output and workflows for continuing or joining open contours. Inspect the join and use Point Edit when the transition needs refinement.",
+      "paths": [
+        "content.help.vector-editing.sections.5.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_47d9376ca2628698",
+      "text": "Selection and locked layers",
+      "paths": [
+        "content.help.troubleshooting.highlights.0"
+      ]
+    },
+    {
+      "id": "t_48b54ac0bcccaf6c",
+      "text": "Turn a closed outline into editable puzzle cutlines",
+      "paths": [
+        "content.home.hero.title"
+      ]
+    },
+    {
+      "id": "t_48bd1a3b42aaf1ef",
+      "text": "Internal cutlines",
+      "paths": [
+        "content.home.primer.cutlineLabel"
+      ]
+    },
+    {
+      "id": "t_49458590d2a690cc",
+      "text": "Is puzzle generation unlimited for free users?",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.faq.2.question"
+      ]
+    },
+    {
+      "id": "t_49e2600c80771570",
+      "text": "Next edit",
+      "paths": [
+        "content.home.showcase.editLabel",
+        "content.showcase.labels.editAction"
+      ]
+    },
+    {
+      "id": "t_4ae1cde8f0342504",
+      "text": "Project Info contains the project name, canvas size, jigsaw parameters, document statistics, and generation controls. These values apply to the document rather than an individual selected shape.",
+      "paths": [
+        "content.help.vector-editing.sections.4.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_4ae2ef0916bdb4d5",
+      "text": "Slot template guide",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.related.2.title"
+      ]
+    },
+    {
+      "id": "t_4b6ebdcd16ba8249",
+      "text": "Breadcrumbs",
+      "paths": [
+        "content.changelog.1-6-0.labels.breadcrumbs",
+        "content.help.getting-started.labels.breadcrumbs",
+        "content.help.jigsaw-generation.labels.breadcrumbs",
+        "content.help.keyboard-shortcuts.labels.breadcrumbs",
+        "content.help.project-library.labels.breadcrumbs",
+        "content.help.svg-import-export.labels.breadcrumbs",
+        "content.help.templates.labels.breadcrumbs",
+        "content.help.troubleshooting.labels.breadcrumbs",
+        "content.help.vector-editing.labels.breadcrumbs",
+        "content.learn.labels.breadcrumbs",
+        "content.marketing.custom-jigsaw-puzzle-template.labels.breadcrumbs",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.labels.breadcrumbs",
+        "content.marketing.jigsaw-dieline-generator.labels.breadcrumbs",
+        "content.marketing.jigsaw-puzzle-generator.labels.breadcrumbs",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.labels.breadcrumbs",
+        "content.marketing.svg-puzzle-editor.labels.breadcrumbs",
+        "content.showcase.labels.breadcrumbs"
+      ]
+    },
+    {
+      "id": "t_4b91565d56968171",
+      "text": "Inspect anchor placement and curve continuity",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.sections.1.bullets.2"
+      ]
+    },
+    {
+      "id": "t_4bb2106fd2de0a43",
+      "text": "Jigsaw Dieline Generator with SVG Editing",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.title"
+      ]
+    },
+    {
+      "id": "t_4bdacf870dba6463",
+      "text": "Open Learn",
+      "paths": [
+        "content.home.learn.viewAllLabel"
+      ]
+    },
+    {
+      "id": "t_4d3367f14ec9548d",
+      "text": "Inspect imported artwork on the canvas, in Layers, and in Shape Info.",
+      "paths": [
+        "content.changelog.1-6-0.leadImage.caption",
+        "content.changelog.1-6-0.sections.0.image.caption",
+        "content.help.svg-import-export.leadImage.caption",
+        "content.help.svg-import-export.sections.0.image.caption",
+        "content.marketing.svg-puzzle-editor.leadImage.caption",
+        "content.marketing.svg-puzzle-editor.sections.0.image.caption"
+      ]
+    },
+    {
+      "id": "t_4ddeb1e05f643614",
+      "text": "Cutline anatomy",
+      "paths": [
+        "content.home.primer.eyebrow"
+      ]
+    },
+    {
+      "id": "t_4ea0030b7c658907",
+      "text": "Make a laser-cut jigsaw puzzle",
+      "paths": [
+        "content.learn.paths.1.entries.0.title"
+      ]
+    },
+    {
+      "id": "t_4f93d1db4b80ed17",
+      "text": "The editor reports a real zoom percentage, supports Fit to Window, and keeps screen-sized anchors and handles useful across a wide zoom range. Version 1.6.0 also includes migration for local and iCloud projects created by earlier releases, plus stability fixes.",
+      "paths": [
+        "content.changelog.1-6-0.sections.3.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_4fc7df08f001ae44",
+      "text": "⌘N — New Project",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.0.bullets.0"
+      ]
+    },
+    {
+      "id": "t_4fe7f7f56caa25f9",
+      "text": "Choose a slot template",
+      "paths": [
+        "content.help.jigsaw-generation.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_5058c239532278ad",
+      "text": "Generate, zoom in, and inspect intersections rather than assuming the first result is final.",
+      "paths": [
+        "content.showcase.projects.1.steps.2"
+      ]
+    },
+    {
+      "id": "t_520abfaac9a0a206",
+      "text": "12 min",
+      "paths": [
+        "content.learn.paths.1.entries.0.duration"
+      ]
+    },
+    {
+      "id": "t_5255dda20f1354de",
+      "text": "Generated puzzle cutlines inside the irregular boundary, selected as an editable group",
+      "paths": [
+        "content.home.hero.result.alt"
+      ]
+    },
+    {
+      "id": "t_52622f78737a66f4",
+      "text": "Undo and redo command-based changes",
+      "paths": [
+        "content.help.vector-editing.sections.3.bullets.3"
+      ]
+    },
+    {
+      "id": "t_5276370997e961bd",
+      "text": "Keep editable studies organized for later revisions.",
+      "paths": [
+        "content.home.devices.capabilities.3.description"
+      ]
+    },
+    {
+      "id": "t_529ca13906e601c5",
+      "text": "Compact selection workflow",
+      "paths": [
+        "content.home.devices.items.2.title"
+      ]
+    },
+    {
+      "id": "t_52e30dce5751d49a",
+      "text": "Where can I see the current price?",
+      "paths": [
+        "content.pricing.faq.0.question"
+      ]
+    },
+    {
+      "id": "t_52f50eaec91535ca",
+      "text": "Home",
+      "paths": [
+        "content.changelog.1-6-0.labels.home",
+        "content.help.getting-started.labels.home",
+        "content.help.jigsaw-generation.labels.home",
+        "content.help.keyboard-shortcuts.labels.home",
+        "content.help.project-library.labels.home",
+        "content.help.svg-import-export.labels.home",
+        "content.help.templates.labels.home",
+        "content.help.troubleshooting.labels.home",
+        "content.help.vector-editing.labels.home",
+        "content.learn.labels.home",
+        "content.marketing.custom-jigsaw-puzzle-template.labels.home",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.labels.home",
+        "content.marketing.jigsaw-dieline-generator.labels.home",
+        "content.marketing.jigsaw-puzzle-generator.labels.home",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.labels.home",
+        "content.marketing.svg-puzzle-editor.labels.home",
+        "content.showcase.labels.home"
+      ]
+    },
+    {
+      "id": "t_530724b921d6303d",
+      "text": "Create a project, draw or import SVG geometry, generate puzzle cutlines, save your editable project, and export SVG.",
+      "paths": [
+        "content.help.getting-started.seoDescription"
+      ]
+    },
+    {
+      "id": "t_53afa3e4bb9841d8",
+      "text": "Generated cutlines return to Layers as an editable group.",
+      "paths": [
+        "content.help.getting-started.sections.2.image.caption",
+        "content.help.jigsaw-generation.sections.3.image.caption",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.1.image.caption",
+        "content.marketing.jigsaw-puzzle-generator.sections.2.image.caption"
+      ]
+    },
+    {
+      "id": "t_53b4cdc157c7e7a5",
+      "text": "JigsawDesigner Troubleshooting Guide",
+      "paths": [
+        "content.help.troubleshooting.seoTitle"
+      ]
+    },
+    {
+      "id": "t_53fc8af6eb62c3a2",
+      "text": "7 min",
+      "paths": [
+        "content.learn.paths.0.entries.1.duration"
+      ]
+    },
+    {
+      "id": "t_541a1c5bd9e5e9f7",
+      "text": "JigsawDesigner produces and edits SVG geometry. Material choice, kerf, power, speed, scale, and device safety remain part of the downstream cutting workflow. Physical samples will be added here only when source photos and process details can be verified.",
+      "paths": [
+        "content.showcase.labels.limitationBody"
+      ]
+    },
+    {
+      "id": "t_54b26fb4ccab0f48",
+      "text": "JigsawDesigner includes five free generations. Premium unlocks unlimited generation and SVG export through an Apple subscription.",
+      "paths": [
+        "content.learn.labels.ctaDescription"
+      ]
+    },
+    {
+      "id": "t_553ddd6158b4fda5",
+      "text": "Prepare one closed outer boundary and choose the slot profile.",
+      "paths": [
+        "content.showcase.projects.0.steps.0"
+      ]
+    },
+    {
+      "id": "t_5561bea5aa6920b1",
+      "text": "Undo, redo, copy, and selection",
+      "paths": [
+        "content.help.keyboard-shortcuts.highlights.1"
+      ]
+    },
+    {
+      "id": "t_55b35a21070d4085",
+      "text": "Use a closed outer boundary for the puzzle area. Keep the intended boundary visible and unlocked, and remove geometry that should not participate in generation.",
+      "paths": [
+        "content.help.jigsaw-generation.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_565cb043ad1813cf",
+      "text": "Review the boundary, slot template, and Project Info values before generation.",
+      "paths": [
+        "content.help.jigsaw-generation.leadImage.caption",
+        "content.help.jigsaw-generation.sections.2.image.caption",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.leadImage.caption",
+        "content.marketing.jigsaw-puzzle-generator.leadImage.caption",
+        "content.marketing.jigsaw-puzzle-generator.sections.0.image.caption"
+      ]
+    },
+    {
+      "id": "t_56d1be2411e29978",
+      "text": "JigsawDesigner can create and accept CloudKit share links. The current share implementation sets public permission to read-only, so recipients can view a shared project but are not granted editing access.",
+      "paths": [
+        "content.help.project-library.sections.3.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_580a0820d1c52fe4",
+      "text": "Manage Projects, iCloud Sync, and Sharing",
+      "paths": [
+        "content.help.project-library.title"
+      ]
+    },
+    {
+      "id": "t_580b9980413c626c",
+      "text": "Yes. The generated cutlines return to the document as editable SVG geometry.",
+      "paths": [
+        "content.home.faq.items.1.answer"
+      ]
+    },
+    {
+      "id": "t_580d9ebf0c4f1253",
+      "text": "Use Layers to inspect hierarchy, toggle visibility, and lock elements. Projects are stored as .jigsawproject packages with document metadata, SVG, and embedded assets. Export produces a portable SVG document.",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_58287a16e29b9d62",
+      "text": "Choose built-in jigsaw slot templates or draw, import, edit, export, persist, and delete custom open-path templates.",
+      "paths": [
+        "content.help.templates.seoDescription"
+      ]
+    },
+    {
+      "id": "t_583b4ac6f43002ea",
+      "text": "Shared Projects",
+      "paths": [
+        "content.help.project-library.sections.3.title"
+      ]
+    },
+    {
+      "id": "t_584d867c29b6e980",
+      "text": "Keep the returned SVG group editable in Layers.",
+      "paths": [
+        "content.showcase.projects.0.steps.2"
+      ]
+    },
+    {
+      "id": "t_59bda8589d02b814",
+      "text": "Export a standard SVG document",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.highlights.2"
+      ]
+    },
+    {
+      "id": "t_59fbbd7e8de1c5b2",
+      "text": "3. Subscriptions and Payments",
+      "paths": [
+        "messageNamespaces.Terms.sections.subscriptions.title"
+      ]
+    },
+    {
+      "id": "t_5a30ff9035274a8c",
+      "text": "Three built-in starting templates",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.highlights.0"
+      ]
+    },
+    {
+      "id": "t_5a39306551ef6431",
+      "text": "Which export formats are supported?",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.faq.0.question"
+      ]
+    },
+    {
+      "id": "t_5aab427dc12130c1",
+      "text": "Puzzle generation",
+      "paths": [
+        "content.pricing.generationLabel"
+      ]
+    },
+    {
+      "id": "t_5b2223742aa85c48",
+      "text": "Reference the current Mac shortcuts for project files, SVG import and export, undo, redo, copy, delete, selection, grouping, and Help.",
+      "paths": [
+        "content.help.keyboard-shortcuts.seoDescription"
+      ]
+    },
+    {
+      "id": "t_5b854fc804f8ecb4",
+      "text": "The outer path can be inspected and adjusted point by point.",
+      "paths": [
+        "content.learn.paths.2.entries.0.media.caption"
+      ]
+    },
+    {
+      "id": "t_5bc3b084be7ac420",
+      "text": "⇧⌘Z — Redo",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.1.bullets.1"
+      ]
+    },
+    {
+      "id": "t_5c2998f25e1e0a9e",
+      "text": "JigsawDesigner 1.6.0 · iPhone, iPad, and Mac",
+      "paths": [
+        "content.home.hero.eyebrow"
+      ]
+    },
+    {
+      "id": "t_5c7f4b9f0903ab0b",
+      "text": "Troubleshoot JigsawDesigner",
+      "paths": [
+        "content.help.troubleshooting.title"
+      ]
+    },
+    {
+      "id": "t_5d0c9dd12c930d6d",
+      "text": "The current share link implementation is read-only.",
+      "paths": [
+        "content.help.project-library.faq.1.answer"
+      ]
+    },
+    {
+      "id": "t_5d3f5b8bd8c3b10f",
+      "text": "5 puzzle generations",
+      "paths": [
+        "content.home.plans.freeFeatures.0"
+      ]
+    },
+    {
+      "id": "t_5d6c3ca117b43705",
+      "text": "Confirm the outer boundary is a valid closed path and the chosen slot template is a valid open path. Try a simpler contour or lower target density, then inspect any error shown by the generation operation.",
+      "paths": [
+        "content.help.troubleshooting.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_5dfe855e1a9fbc6a",
+      "text": "JigsawDesigner does not currently sell subscriptions or licenses directly through this website.",
+      "paths": [
+        "messageNamespaces.Refund.content.direct"
+      ]
+    },
+    {
+      "id": "t_5e221f23df2c1b9f",
+      "text": "A detailed imported SVG selected in JigsawDesigner with its Layers hierarchy and Shape Info visible",
+      "paths": [
+        "content.home.workflow.items.0.evidence.alt"
+      ]
+    },
+    {
+      "id": "t_5e60ff3dcc7052c9",
+      "text": "Touch-based vector editing",
+      "paths": [
+        "content.home.devices.items.1.title"
+      ]
+    },
+    {
+      "id": "t_5e69ad50b9e11134",
+      "text": "What a jigsaw dieline contains",
+      "paths": [
+        "content.learn.paths.0.entries.0.title"
+      ]
+    },
+    {
+      "id": "t_5e7f391a4ac0e4de",
+      "text": "Review the outer silhouette and its internal vector shapes.",
+      "paths": [
+        "content.showcase.projects.1.steps.0"
+      ]
+    },
+    {
+      "id": "t_5fe50f97f33cc68b",
+      "text": "Confirm the document scale",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.2.bullets.1"
+      ]
+    },
+    {
+      "id": "t_6008685e8e6bd2d2",
+      "text": "Understand the geometry, finish one project, then go deeper",
+      "paths": [
+        "content.home.learn.title"
+      ]
+    },
+    {
+      "id": "t_605144d5a176a8c1",
+      "text": "JigsawDesigner vector editor with puzzle geometry",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.sections.0.image.alt"
+      ]
+    },
+    {
+      "id": "t_6127e3143f52a688",
+      "text": "Simple Apple subscription",
+      "paths": [
+        "content.pricing.eyebrow"
+      ]
+    },
+    {
+      "id": "t_61e2a3f881168974",
+      "text": "Source",
+      "paths": [
+        "content.learn.labels.source",
+        "content.showcase.labels.source"
+      ]
+    },
+    {
+      "id": "t_621868b43e123c78",
+      "text": "Open a layered SVG, verify that its visible composition arrived, and retain it alongside other editable projects.",
+      "paths": [
+        "content.showcase.projects.2.objective"
+      ]
+    },
+    {
+      "id": "t_6325665c8f131a10",
+      "text": "Generate and export SVG cutlines",
+      "paths": [
+        "content.help.getting-started.highlights.3"
+      ]
+    },
+    {
+      "id": "t_63ae23c34540787f",
+      "text": "Import paths, rectangles, circles, text, images, and grouped geometry. Version 1.6.0 improves preservation of embedded images, gradients, patterns, and clipping paths when editing, saving, and reopening projects.",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_64a30a03dbbb980f",
+      "text": "Project file, publishing, and sharing actions are grouped in the context menu.",
+      "paths": [
+        "content.help.project-library.sections.1.image.caption"
+      ]
+    },
+    {
+      "id": "t_64ef9b0d5a996881",
+      "text": "Custom slot templates",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.related.1.title",
+        "content.marketing.svg-puzzle-editor.related.1.title"
+      ]
+    },
+    {
+      "id": "t_64fdde7776934c63",
+      "text": "Create or reopen a project from the library.",
+      "paths": [
+        "content.help.getting-started.leadImage.caption"
+      ]
+    },
+    {
+      "id": "t_65966b2b8ba526f7",
+      "text": "Template",
+      "paths": [
+        "content.home.showcase.templateLabel",
+        "content.showcase.labels.template"
+      ]
+    },
+    {
+      "id": "t_6610dea062730a0c",
+      "text": "Select and multi-select",
+      "paths": [
+        "content.help.vector-editing.highlights.0"
+      ]
+    },
+    {
+      "id": "t_662f66e10cab0205",
+      "text": "Detailed silhouette with internal openings",
+      "paths": [
+        "content.showcase.projects.1.title"
+      ]
+    },
+    {
+      "id": "t_665174070ba660cb",
+      "text": "Choose a slot profile in Templates before generation.",
+      "paths": [
+        "content.help.templates.leadImage.caption"
+      ]
+    },
+    {
+      "id": "t_667e1b1692767ec2",
+      "text": "The current project library keeps imported artwork and generated studies together.",
+      "paths": [
+        "content.showcase.projects.2.result.caption"
+      ]
+    },
+    {
+      "id": "t_671fb6bd5d574789",
+      "text": "JigsawDesigner Project Library Guide",
+      "paths": [
+        "content.help.project-library.seoTitle"
+      ]
+    },
+    {
+      "id": "t_67a8c05d6d836c89",
+      "text": "Review supported inputs, parameters, result inspection, and common generation problems.",
+      "paths": [
+        "content.learn.paths.1.entries.1.description"
+      ]
+    },
+    {
+      "id": "t_6832b28ecc04560a",
+      "text": "Point Edit anchors shown around a generated puzzle boundary in JigsawDesigner",
+      "paths": [
+        "content.home.workflow.items.2.evidence.alt"
+      ]
+    },
+    {
+      "id": "t_6851f5539a87eae7",
+      "text": "Complete a making workflow",
+      "paths": [
+        "content.home.learn.links.1.title"
+      ]
+    },
+    {
+      "id": "t_687dcd916455ae0d",
+      "text": "Jigsaw generation fails",
+      "paths": [
+        "content.help.troubleshooting.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_68d6736f21c3de53",
+      "text": "This guide covers the vector-design portion of a laser-cut puzzle project. JigsawDesigner creates and exports SVG geometry; your cutting software and equipment documentation remain the authority for production settings and safety.",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.intro"
+      ]
+    },
+    {
+      "id": "t_695e3b238633d90f",
+      "text": "Editable puzzle cutlines and SVG workflows for Apple devices.",
+      "paths": [
+        "content.footer.tagline"
+      ]
+    },
+    {
+      "id": "t_69be922fb7cf379b",
+      "text": "Generated result",
+      "paths": [
+        "content.showcase.projects.0.resultLabel",
+        "content.showcase.projects.1.resultLabel"
+      ]
+    },
+    {
+      "id": "t_6a8ed58ba861f3af",
+      "text": "The generator returns editable vector geometry.",
+      "paths": [
+        "content.home.workflow.items.1.evidence.caption"
+      ]
+    },
+    {
+      "id": "t_6b39c7e89114a394",
+      "text": "Validate all production settings downstream",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.highlights.3"
+      ]
+    },
+    {
+      "id": "t_6ba078d90a6a0e75",
+      "text": "Manage locally saved projects, optional iCloud sync, public project publishing and imports, and read-only CloudKit share links.",
+      "paths": [
+        "content.help.project-library.seoDescription"
+      ]
+    },
+    {
+      "id": "t_6bf4727d31a8e879",
+      "text": "Click to select an element, Shift-click to add to the selection, and use group drill-down when editing nested content. On-canvas handles resize and rotate around the selection center; Shape Info provides exact transform and geometry values.",
+      "paths": [
+        "content.help.vector-editing.sections.3.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_6bf784048cac9150",
+      "text": "Confirm the active tool",
+      "paths": [
+        "content.help.troubleshooting.sections.0.bullets.0"
+      ]
+    },
+    {
+      "id": "t_6c83cdba7010ee26",
+      "text": "Create the geometry of a puzzle as editable vector cutlines. JigsawDesigner combines algorithm-driven generation with drawing, point editing, layers, transforms, custom slot templates, and SVG export.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.intro"
+      ]
+    },
+    {
+      "id": "t_6c9f9b8fa2c90033",
+      "text": "Verify the exported SVG in the downstream software used by your equipment before committing material.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.2.note"
+      ]
+    },
+    {
+      "id": "t_6cee5927f7804823",
+      "text": "Lock proportions during scaling",
+      "paths": [
+        "content.help.vector-editing.sections.3.bullets.0"
+      ]
+    },
+    {
+      "id": "t_6d00068afb3a3e66",
+      "text": "Fill a closed, hand-shaped outline with a puzzle pattern while preserving its outer contour.",
+      "paths": [
+        "content.showcase.projects.0.objective"
+      ]
+    },
+    {
+      "id": "t_6d3f848ca647a118",
+      "text": "1. Agreement to Terms",
+      "paths": [
+        "messageNamespaces.Terms.sections.agreement.title"
+      ]
+    },
+    {
+      "id": "t_6d954972f6ecc1b6",
+      "text": "Imported SVG artwork selected in JigsawDesigner with its Layers hierarchy and Shape Info visible",
+      "paths": [
+        "content.help.svg-import-export.leadImage.alt",
+        "content.help.svg-import-export.sections.0.image.alt",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.0.image.alt",
+        "content.marketing.svg-puzzle-editor.leadImage.alt",
+        "content.marketing.svg-puzzle-editor.sections.0.image.alt"
+      ]
+    },
+    {
+      "id": "t_6da06666d7e8a642",
+      "text": "Create or import the puzzle boundary",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.highlights.0"
+      ]
+    },
+    {
+      "id": "t_6dea67add81acf91",
+      "text": "Accurate zoom and migration from earlier projects",
+      "paths": [
+        "content.changelog.1-6-0.sections.3.title"
+      ]
+    },
+    {
+      "id": "t_6e597942496eb8e6",
+      "text": "Edit anchors and Bezier handles",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.sections.1.bullets.2"
+      ]
+    },
+    {
+      "id": "t_6f58987c84623a20",
+      "text": "Billing",
+      "paths": [
+        "content.pricing.billingLabel"
+      ]
+    },
+    {
+      "id": "t_6fa4c895a391d2b1",
+      "text": "Build, import, and reuse the connection shape used by the generator.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.related.1.description",
+        "content.marketing.svg-puzzle-editor.related.1.description"
+      ]
+    },
+    {
+      "id": "t_700f983f3196498b",
+      "text": "Learn by workflow",
+      "paths": [
+        "content.learn.eyebrow"
+      ]
+    },
+    {
+      "id": "t_70af0ee9a3b2fa4d",
+      "text": "Export a portable SVG",
+      "paths": [
+        "content.help.svg-import-export.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_7125b815259beb41",
+      "text": "These shortcuts reflect the current macOS menu commands. On iPhone and iPad, use the corresponding toolbar, menu, or touch controls when a hardware-keyboard shortcut is unavailable.",
+      "paths": [
+        "content.help.keyboard-shortcuts.intro"
+      ]
+    },
+    {
+      "id": "t_71f789c3da9d3d67",
+      "text": "Premium adds unlimited generation and SVG export. Apple handles monthly and yearly subscriptions.",
+      "paths": [
+        "content.home.plans.intro"
+      ]
+    },
+    {
+      "id": "t_724d40b855e5aadc",
+      "text": "Can I send the SVG directly to any cutter?",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.faq.0.question"
+      ]
+    },
+    {
+      "id": "t_7268212fa9acdc5b",
+      "text": "Edit the generated group before exporting SVG",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.highlights.3"
+      ]
+    },
+    {
+      "id": "t_7269a1613f8da22d",
+      "text": "Use a small test and the equipment vendor’s guidance before committing a full sheet.",
+      "paths": [
+        "content.home.downstream.steps.2.description"
+      ]
+    },
+    {
+      "id": "t_72d99fadd6299e81",
+      "text": "Create a project on iPhone, iPad, or Mac, then inspect the generated geometry before exporting SVG.",
+      "paths": [
+        "content.showcase.labels.ctaDescription"
+      ]
+    },
+    {
+      "id": "t_72eb11fe12af598a",
+      "text": "Jigsaw Dieline Generator & SVG Cutline Editor",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.seoTitle"
+      ]
+    },
+    {
+      "id": "t_72f0125501a7b909",
+      "text": "Open the related guide",
+      "paths": [
+        "content.showcase.labels.openGuide"
+      ]
+    },
+    {
+      "id": "t_7382ae9357692a17",
+      "text": "SVG import and export",
+      "paths": [
+        "content.help.jigsaw-generation.related.2.title",
+        "content.help.project-library.related.1.title",
+        "content.help.troubleshooting.related.1.title",
+        "content.help.vector-editing.related.0.title"
+      ]
+    },
+    {
+      "id": "t_73d600948d03e3b0",
+      "text": "Public project publishing and import",
+      "paths": [
+        "content.help.project-library.highlights.2"
+      ]
+    },
+    {
+      "id": "t_73d9cf39e83000e5",
+      "text": "Edit commands",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_741205fa2ded65de",
+      "text": "Inspect generated cutlines as editable vector geometry before downstream validation.",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.leadImage.caption"
+      ]
+    },
+    {
+      "id": "t_7539555158407aad",
+      "text": "⌘G — Ungroup the selected group",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.2.bullets.1"
+      ]
+    },
+    {
+      "id": "t_75c43f42bf057ef6",
+      "text": "Smoother Pencil paths and open-path workflows",
+      "paths": [
+        "content.changelog.1-6-0.highlights.2"
+      ]
+    },
+    {
+      "id": "t_75edea431e40f7ef",
+      "text": "Bezier-based custom paths",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.highlights.1"
+      ]
+    },
+    {
+      "id": "t_75fece846cd018d8",
+      "text": "Intermediate",
+      "paths": [
+        "content.learn.labels.intermediate"
+      ]
+    },
+    {
+      "id": "t_7656e512dfa8afe6",
+      "text": "Choose a path",
+      "paths": [
+        "content.learn.startLabel"
+      ]
+    },
+    {
+      "id": "t_768dab552aec3009",
+      "text": "Bring in an SVG or draw a closed contour with vector tools. Check its scale, groups, and visible geometry on the canvas before generation.",
+      "paths": [
+        "content.home.workflow.items.0.description"
+      ]
+    },
+    {
+      "id": "t_77b30e5e78b3337a",
+      "text": "The projects are deliberately different: a freeform boundary, a detailed silhouette with internal openings, and an imported SVG handoff. Together they show where generation ends and vector work continues.",
+      "paths": [
+        "content.showcase.projectsIntro"
+      ]
+    },
+    {
+      "id": "t_788cd8f9f3eaa515",
+      "text": "Edit Bezier anchors and control handles",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.1.bullets.2"
+      ]
+    },
+    {
+      "id": "t_792f3e61dc9a7765",
+      "text": "Keep the editable project and export the geometry needed downstream.",
+      "paths": [
+        "content.home.downstream.steps.0.description"
+      ]
+    },
+    {
+      "id": "t_796848fba5ae1fcf",
+      "text": "Product-owned examples",
+      "paths": [
+        "content.home.showcase.eyebrow",
+        "content.showcase.eyebrow"
+      ]
+    },
+    {
+      "id": "t_7b903e64239b85b8",
+      "text": "Jigsaw generation guide",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.related.2.title",
+        "content.marketing.jigsaw-puzzle-generator.related.2.title"
+      ]
+    },
+    {
+      "id": "t_7c098f9e34230692",
+      "text": "Each example documents an actual editor state or project-library state.",
+      "paths": [
+        "content.showcase.evidencePoints.1"
+      ]
+    },
+    {
+      "id": "t_7c1ab96e398452da",
+      "text": "The generated result remains part of the document tree, preserving the ability to select, group, transform, and inspect it before export.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.0.paragraphs.1"
+      ]
+    },
+    {
+      "id": "t_7c2bf27a4115c966",
+      "text": "No. JigsawDesigner currently offers monthly and yearly subscriptions only through Apple.",
+      "paths": [
+        "content.pricing.faq.2.answer"
+      ]
+    },
+    {
+      "id": "t_7c35eb9ae81ac136",
+      "text": "Local project packages",
+      "paths": [
+        "content.help.project-library.highlights.0"
+      ]
+    },
+    {
+      "id": "t_7cd36ac2a6f1c2c6",
+      "text": "⌘C — Copy selected element(s)",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.1.bullets.2"
+      ]
+    },
+    {
+      "id": "t_7cf6bb68e5c540bc",
+      "text": "Generated puzzle cutlines selected as editable vector geometry in JigsawDesigner",
+      "paths": [
+        "content.learn.paths.0.entries.0.media.alt"
+      ]
+    },
+    {
+      "id": "t_7d030f36fd1d8fea",
+      "text": "How to Make a Laser-Cut Jigsaw Puzzle SVG",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.seoTitle"
+      ]
+    },
+    {
+      "id": "t_7d2aa52d5c965f51",
+      "text": "Yearly subscription: price shown by Apple for your storefront",
+      "paths": [
+        "messageNamespaces.Terms.sections.subscriptions.yearly"
+      ]
+    },
+    {
+      "id": "t_7d97c5ef25a0e97b",
+      "text": "Choose a template",
+      "paths": [
+        "content.help.templates.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_7da5bade74747fea",
+      "text": "Open the App Store listing. Apple shows the current localized price for your storefront.",
+      "paths": [
+        "content.pricing.faq.0.answer"
+      ]
+    },
+    {
+      "id": "t_7dc8814d8e55b8a9",
+      "text": "Smoother Pencil paths",
+      "paths": [
+        "content.help.vector-editing.highlights.2"
+      ]
+    },
+    {
+      "id": "t_7e1cd1b51cd026d9",
+      "text": "Deselect and select again",
+      "paths": [
+        "content.help.troubleshooting.sections.0.bullets.2"
+      ]
+    },
+    {
+      "id": "t_7e5bde1c5a9768a8",
+      "text": "JigsawDesigner creates editable SVG cutline geometry. Use it for the design stage, then move the exported SVG into your cutting software to apply the settings required by your material and equipment.",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.intro"
+      ]
+    },
+    {
+      "id": "t_7ee5d39cf62e7240",
+      "text": "Can the exported SVG go directly to every laser cutter?",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.faq.0.question"
+      ]
+    },
+    {
+      "id": "t_7f49c06d4d3ccb91",
+      "text": "Use your equipment documentation and downstream software to confirm that the file and settings suit your setup.",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.sections.2.note"
+      ]
+    },
+    {
+      "id": "t_7f4ff747f4f71443",
+      "text": "The Project Library brings together your projects, public projects, and projects shared through CloudKit. Local persistence remains part of every normal save; cloud features apply when enabled and available.",
+      "paths": [
+        "content.help.project-library.intro"
+      ]
+    },
+    {
+      "id": "t_7fe2e34291b95af6",
+      "text": "How boundary-to-cutline generation works",
+      "paths": [
+        "content.learn.paths.0.entries.1.title"
+      ]
+    },
+    {
+      "id": "t_8016d87890afa234",
+      "text": "Project context menu with open, rename, publish, share-link, and delete actions",
+      "paths": [
+        "content.help.project-library.sections.1.image.alt"
+      ]
+    },
+    {
+      "id": "t_80cdc862bb0705c6",
+      "text": "Set generation values and start",
+      "paths": [
+        "content.help.jigsaw-generation.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_81558aee6c29376a",
+      "text": "Record the final material and machine settings outside JigsawDesigner for repeatability.",
+      "paths": [
+        "content.home.downstream.steps.3.description"
+      ]
+    },
+    {
+      "id": "t_81f0f88dc008e209",
+      "text": "No. A dieline is vector geometry that describes boundaries and cutlines.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.faq.0.answer"
+      ]
+    },
+    {
+      "id": "t_82e1e83d893c2751",
+      "text": "2. Draw or import geometry",
+      "paths": [
+        "content.help.getting-started.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_83539f3c1f4f9430",
+      "text": "Run generation and inspect the SVG",
+      "paths": [
+        "content.help.jigsaw-generation.sections.3.title"
+      ]
+    },
+    {
+      "id": "t_839b41c58de8ba81",
+      "text": "Use Select for whole elements and Point Edit for anchor-level changes. Layers reveal nested groups, while lock and visibility controls help protect or isolate sections of a complex design.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_843d52d64734539a",
+      "text": "Physical production settings remain part of the downstream workflow.",
+      "paths": [
+        "content.showcase.evidencePoints.2"
+      ]
+    },
+    {
+      "id": "t_847aeddf8bd004e3",
+      "text": "One workflow, three Apple devices",
+      "paths": [
+        "content.home.devices.eyebrow"
+      ]
+    },
+    {
+      "id": "t_855a8437889b7563",
+      "text": "8 min",
+      "paths": [
+        "content.learn.paths.1.entries.1.duration",
+        "content.learn.paths.2.entries.0.duration"
+      ]
+    },
+    {
+      "id": "t_85805f25b8a1b7c9",
+      "text": "Generated puzzle cutlines selected as a group in JigsawDesigner",
+      "paths": [
+        "content.home.workflow.items.1.evidence.alt"
+      ]
+    },
+    {
+      "id": "t_859eebf50749d4e1",
+      "text": "Editable generated SVG group",
+      "paths": [
+        "content.help.jigsaw-generation.highlights.3"
+      ]
+    },
+    {
+      "id": "t_85a35f286eef885c",
+      "text": "JigsawDesigner turns a drawn or imported vector boundary into editable puzzle geometry. Choose a slot template, set generation parameters, run the native C++ engine, and keep refining the resulting SVG inside the same project.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.intro"
+      ]
+    },
+    {
+      "id": "t_85c3e93055341ca4",
+      "text": "Choose the profile and tune the distance range.",
+      "paths": [
+        "content.showcase.projects.1.steps.1"
+      ]
+    },
+    {
+      "id": "t_8678ebd226dce0be",
+      "text": "Do not assume that. It is vector geometry for a downstream workflow; verify format handling and production settings in the software and documentation for your equipment.",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.faq.0.answer"
+      ]
+    },
+    {
+      "id": "t_86880115cffe29b1",
+      "text": "Learn Jigsaw Cutlines, SVG Editing & Export | JigsawDesigner",
+      "paths": [
+        "content.learn.seoTitle"
+      ]
+    },
+    {
+      "id": "t_86dc27997306f765",
+      "text": "Richer SVG documents survive the edit-save-reopen cycle",
+      "paths": [
+        "content.changelog.1-6-0.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_87608aad98918e81",
+      "text": "Use the Tools panel for quick actions",
+      "paths": [
+        "content.help.vector-editing.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_87e0acec21efc9a8",
+      "text": "Three projects, from source geometry to editable result",
+      "paths": [
+        "content.showcase.title"
+      ]
+    },
+    {
+      "id": "t_881ff57fca97d7ab",
+      "text": "Support for JigsawDesigner",
+      "paths": [
+        "content.support.title"
+      ]
+    },
+    {
+      "id": "t_883c9a88828d189c",
+      "text": "Understand puzzle cutlines",
+      "paths": [
+        "content.home.learn.links.0.title",
+        "content.learn.paths.0.title"
+      ]
+    },
+    {
+      "id": "t_88a6b25e5e1d47ba",
+      "text": "The outer boundary defines the puzzle silhouette. Internal cutlines divide it into pieces, while a slot profile shapes the connections along those lines. JigsawDesigner keeps this geometry as editable SVG paths and groups. Material, kerf, power, speed, and other production settings still belong in the downstream software used with your equipment.",
+      "paths": [
+        "content.home.primer.intro"
+      ]
+    },
+    {
+      "id": "t_88c07eb6c6a8110a",
+      "text": "Can I buy Premium on this website?",
+      "paths": [
+        "content.pricing.faq.2.question"
+      ]
+    },
+    {
+      "id": "t_89233c7165f38b25",
+      "text": "Open guide",
+      "paths": [
+        "content.learn.labels.openGuide"
+      ]
+    },
+    {
+      "id": "t_89b2849a202a9956",
+      "text": "Draw or import a custom open path",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_8a105193caa605d7",
+      "text": "Will the output always contain the exact target number of pieces?",
+      "paths": [
+        "content.help.jigsaw-generation.faq.1.question"
+      ]
+    },
+    {
+      "id": "t_8a8c6d2cc247ed30",
+      "text": "Grouping and Help",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_8ab726592dabc92d",
+      "text": "Lock proportions while scaling",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.1.bullets.1"
+      ]
+    },
+    {
+      "id": "t_8ae1b17c7dfc4b28",
+      "text": "Inspect imported geometry, groups, and scale before choosing the closed generation boundary.",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.0.image.caption"
+      ]
+    },
+    {
+      "id": "t_8b1cbd774cde1c23",
+      "text": "Save the editable source project",
+      "paths": [
+        "content.help.svg-import-export.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_8b43a7ffe3721743",
+      "text": "Does JigsawDesigner guarantee every piece is unique?",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.faq.1.question"
+      ]
+    },
+    {
+      "id": "t_8b840a6e356bf882",
+      "text": "Use the screen that fits the stage of the project",
+      "paths": [
+        "content.home.devices.title"
+      ]
+    },
+    {
+      "id": "t_8d4ec00dcb8f68d9",
+      "text": "Continue and join open paths",
+      "paths": [
+        "content.help.vector-editing.sections.5.title"
+      ]
+    },
+    {
+      "id": "t_8dbb88645fe3ec68",
+      "text": "Custom SVG open paths",
+      "paths": [
+        "content.help.templates.highlights.3"
+      ]
+    },
+    {
+      "id": "t_8ed540f706315e53",
+      "text": "Monthly subscription",
+      "paths": [
+        "messageNamespaces.Pricing.monthly.name"
+      ]
+    },
+    {
+      "id": "t_9069c81e9a707b82",
+      "text": "SVG Puzzle Editor for Mac, iPad, and iPhone",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.title"
+      ]
+    },
+    {
+      "id": "t_9079ba2920253565",
+      "text": "SVG export for downstream use",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.highlights.3"
+      ]
+    },
+    {
+      "id": "t_914bbaf1c89bc225",
+      "text": "Learn the current selection, Pencil, and point-editing tools.",
+      "paths": [
+        "content.changelog.1-6-0.related.1.description"
+      ]
+    },
+    {
+      "id": "t_919e43393f0fe68d",
+      "text": "Reuse the template and inspect each result",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_91abc9865a80cd8a",
+      "text": "billed yearly by Apple",
+      "paths": [
+        "messageNamespaces.Pricing.yearly.period"
+      ]
+    },
+    {
+      "id": "t_91d5d7f527fdc7a1",
+      "text": "Generated cutlines remain selectable and editable before SVG export.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.leadImage.caption"
+      ]
+    },
+    {
+      "id": "t_92073f6768c740ab",
+      "text": "Refund Policy",
+      "paths": [
+        "messageNamespaces.Refund.title"
+      ]
+    },
+    {
+      "id": "t_921234085ca3aff4",
+      "text": "1. Create a project",
+      "paths": [
+        "content.help.getting-started.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_9225b727a7b78a6b",
+      "text": "Start with a built-in connection profile",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_93e91aa45b7a9d08",
+      "text": "Step-by-step vector workflow",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.eyebrow"
+      ]
+    },
+    {
+      "id": "t_941572194f4c82c5",
+      "text": "Project and SVG file commands",
+      "paths": [
+        "content.help.keyboard-shortcuts.highlights.0"
+      ]
+    },
+    {
+      "id": "t_9442fae1949b6c45",
+      "text": "⌘I — Import SVG",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.0.bullets.3"
+      ]
+    },
+    {
+      "id": "t_94d49b8beef11e77",
+      "text": "Learn how editable puzzle cutlines are generated and refined.",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.related.1.description",
+        "content.marketing.jigsaw-puzzle-generator.related.0.description",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.related.0.description"
+      ]
+    },
+    {
+      "id": "t_94dd486d5fa5f5b9",
+      "text": "The real workflow",
+      "paths": [
+        "content.home.workflow.eyebrow"
+      ]
+    },
+    {
+      "id": "t_9500962d553304c9",
+      "text": "1. Prepare the outer boundary",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_959ae3cc93eaa8a8",
+      "text": "Organize, save, and export",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_95b863933569712f",
+      "text": "Selection handles resize and rotate an editable generated group on the canvas.",
+      "paths": [
+        "content.changelog.1-6-0.sections.1.image.caption"
+      ]
+    },
+    {
+      "id": "t_95bba5ff819ceeab",
+      "text": "Choose built-in or custom slot templates",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.highlights.1"
+      ]
+    },
+    {
+      "id": "t_9634d6dac3649256",
+      "text": "The App Store displays the current price and availability for your region. This website does not process purchases.",
+      "paths": [
+        "content.pricing.storeNote"
+      ]
+    },
+    {
+      "id": "t_96d8937023594c84",
+      "text": "Eight drawing and editing tools",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.highlights.0"
+      ]
+    },
+    {
+      "id": "t_96dadbcf2a4e585b",
+      "text": "JigsawDesigner Keyboard Shortcuts",
+      "paths": [
+        "content.help.keyboard-shortcuts.seoTitle"
+      ]
+    },
+    {
+      "id": "t_96de02ede5609f71",
+      "text": "Controls that shape the generated pattern",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_96e7ab18911c20dc",
+      "text": "/jigsaw-puzzle-generator",
+      "paths": [
+        "content.showcase.projects.0.guideHref"
+      ]
+    },
+    {
+      "id": "t_97bc46004d6a60a4",
+      "text": "Switch to Select, inspect the Layers hierarchy, and check whether the element or an ancestor is locked or hidden. Drill into a group when you need a nested child rather than the top-level group.",
+      "paths": [
+        "content.help.troubleshooting.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_97d63b951d121071",
+      "text": "Choose a built-in or custom slot profile, set grid and distance values, and generate. Review the result instead of treating the first output as final.",
+      "paths": [
+        "content.home.workflow.items.1.description"
+      ]
+    },
+    {
+      "id": "t_97d7bc6bdb0a0ebf",
+      "text": "3. Generate, save, and export",
+      "paths": [
+        "content.help.getting-started.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_97dbd53ae56fb2de",
+      "text": "Which export format does JigsawDesigner support?",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.faq.0.question"
+      ]
+    },
+    {
+      "id": "t_983464543cfe39b0",
+      "text": "On-canvas selection resize and rotation",
+      "paths": [
+        "content.changelog.1-6-0.highlights.1"
+      ]
+    },
+    {
+      "id": "t_9996fc6c73be3da8",
+      "text": "Jigsaw generation",
+      "paths": [
+        "content.help.getting-started.related.0.title",
+        "content.help.templates.related.0.title",
+        "content.help.troubleshooting.related.2.title"
+      ]
+    },
+    {
+      "id": "t_99c8108545eb0d51",
+      "text": "Imported SVG artwork selected in JigsawDesigner 1.6.0 with its Layers hierarchy and Shape Info visible",
+      "paths": [
+        "content.changelog.1-6-0.leadImage.alt",
+        "content.changelog.1-6-0.sections.0.image.alt"
+      ]
+    },
+    {
+      "id": "t_9a2e5ca2bc8979b6",
+      "text": "Repeat generation with adjusted inputs when necessary",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.2.bullets.3"
+      ]
+    },
+    {
+      "id": "t_9a4b69f9deb13175",
+      "text": "Zoom in on connections and edges, use Layers to isolate groups, and verify the document dimensions. Keep a saved JigsawDesigner project so you can return to editable source geometry if the downstream test reveals a problem.",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_9a9ae8a55624f879",
+      "text": "Scale, rotate, group, lock, and hide",
+      "paths": [
+        "content.help.vector-editing.highlights.3"
+      ]
+    },
+    {
+      "id": "t_9aac7459185b44bd",
+      "text": "Jigsaw generation reference",
+      "paths": [
+        "content.learn.paths.1.entries.1.title"
+      ]
+    },
+    {
+      "id": "t_9aee61333d3b272f",
+      "text": "Shift-select multiple elements",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.sections.1.bullets.0"
+      ]
+    },
+    {
+      "id": "t_9b41b95d3a4bd4a1",
+      "text": "Use the Layers panel, selection tools, point editing, grouping, on-canvas resize and rotation, and Inspector values to refine generated geometry. SVG is the current and only export format.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_9b6bb460f9123324",
+      "text": "Custom templates are persisted and can be included in newly created projects. Generation combines the template with the current boundary and parameters, so inspect the resulting connections each time rather than assuming one profile fits every boundary or density.",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_9baa84524c30d7ee",
+      "text": "Jigsaw Puzzle Generator for Mac, iPad & iPhone",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.seoTitle"
+      ]
+    },
+    {
+      "id": "t_9bf0033efa81b4fa",
+      "text": "Opened SVG",
+      "paths": [
+        "content.showcase.projects.2.inputLabel"
+      ]
+    },
+    {
+      "id": "t_9c1db1ff08a29c63",
+      "text": "What changes with Premium",
+      "paths": [
+        "content.pricing.comparisonTitle"
+      ]
+    },
+    {
+      "id": "t_9c9ce8cb38d6b447",
+      "text": "The JigsawDesigner project library containing several product-owned SVG and puzzle examples",
+      "paths": [
+        "content.showcase.projects.2.result.alt"
+      ]
+    },
+    {
+      "id": "t_9cf6306fb4a40933",
+      "text": "Laser-cut jigsaw SVG workflow",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.related.0.title",
+        "content.marketing.jigsaw-dieline-generator.related.1.title"
+      ]
+    },
+    {
+      "id": "t_9e610be0b759e654",
+      "text": "JigsawDesigner provides editable SVG geometry. It does not certify a file for a particular machine, material, or manufacturing process.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.sections.2.note"
+      ]
+    },
+    {
+      "id": "t_9e81bf75ae8a9621",
+      "text": "The current app exports SVG only. Free users receive 5 generations; Premium unlocks unlimited generation and SVG export.",
+      "paths": [
+        "content.help.getting-started.sections.2.note"
+      ]
+    },
+    {
+      "id": "t_9e83e84009d3522c",
+      "text": "Yes. Draw a closed vector boundary or import suitable SVG geometry, then choose the boundary used for generation.",
+      "paths": [
+        "content.home.faq.items.0.answer"
+      ]
+    },
+    {
+      "id": "t_9ef23c9928a8f9d5",
+      "text": "Select moves and transforms elements; Point Edit changes anchors and handles; Pencil draws freehand paths; Line, Rectangle, Circle, and Polygon create common shapes; Bezier creates controlled curves.",
+      "paths": [
+        "content.help.vector-editing.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_9f34bd60120b3674",
+      "text": "Does the app choose laser settings?",
+      "paths": [
+        "content.home.faq.items.3.question"
+      ]
+    },
+    {
+      "id": "t_9f93e11b10ad7bef",
+      "text": "Input",
+      "paths": [
+        "content.showcase.projects.0.inputLabel",
+        "content.showcase.projects.1.inputLabel"
+      ]
+    },
+    {
+      "id": "t_9ff3debabb62f346",
+      "text": "Try {count} puzzle generations for free. An Apple monthly or yearly subscription unlocks unlimited generation and SVG export.",
+      "paths": [
+        "messageNamespaces.Pricing.subtitle"
+      ]
+    },
+    {
+      "id": "t_a00697f53e2978b9",
+      "text": "Prepare a boundary, choose a connection profile, generate, inspect, and move the SVG into a downstream making workflow.",
+      "paths": [
+        "content.learn.paths.1.description"
+      ]
+    },
+    {
+      "id": "t_a0309cc4658fc400",
+      "text": "Set grid size, target piece count, and slot distance",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.highlights.2"
+      ]
+    },
+    {
+      "id": "t_a09e44e35825c04f",
+      "text": "No subscription",
+      "paths": [
+        "content.pricing.noSubscription"
+      ]
+    },
+    {
+      "id": "t_a0c27cab696e3adf",
+      "text": "JigsawDesigner Plans",
+      "paths": [
+        "messageNamespaces.Pricing.title"
+      ]
+    },
+    {
+      "id": "t_a0cf8d84747bd228",
+      "text": "Hand the SVG to the next tool",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_a1a45a37860c636b",
+      "text": "Pan and zoom around the workspace to inspect the full contour or a small connection. Rulers and the optional grid provide scale context while you draw and edit.",
+      "paths": [
+        "content.help.vector-editing.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_a1e4fa22a2d47cde",
+      "text": "Draw and refine the open connection profile before saving it as a template.",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.leadImage.caption"
+      ]
+    },
+    {
+      "id": "t_a2664a9bf4306807",
+      "text": "The current and only export format is SVG.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.faq.0.answer"
+      ]
+    },
+    {
+      "id": "t_a28f693c727a0d40",
+      "text": "Follow this short path from a blank project to an editable puzzle document. The interface adapts to iPhone, iPad, and Mac, while the same project model keeps SVG geometry, templates, and settings together.",
+      "paths": [
+        "content.help.getting-started.intro"
+      ]
+    },
+    {
+      "id": "t_a2cdf547584e505b",
+      "text": "Make and document",
+      "paths": [
+        "content.home.downstream.steps.3.title"
+      ]
+    },
+    {
+      "id": "t_a3c976c74310116b",
+      "text": "Editing commands operate on the current document selection. Text fields keep their normal editing behavior when they have focus.",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_a54938b1f2419f9d",
+      "text": "Creating a project from the JigsawDesigner Project Library",
+      "paths": [
+        "content.help.getting-started.sections.0.image.alt"
+      ]
+    },
+    {
+      "id": "t_a5ceaf498979064d",
+      "text": "Subscription questions",
+      "paths": [
+        "content.pricing.faqTitle"
+      ]
+    },
+    {
+      "id": "t_a68f8334b23d4508",
+      "text": "Can I import a custom template from SVG?",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.faq.1.question"
+      ]
+    },
+    {
+      "id": "t_a6c4f064d123a490",
+      "text": "Use grid size and target piece count to describe the density you want. Slot-distance settings affect where the chosen connection profile is placed. Because the result is algorithmic, treat these values as design inputs and inspect the actual generated geometry before using it downstream.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_a6f0c06aaddd3f8e",
+      "text": "From source geometry to an SVG you can keep editing",
+      "paths": [
+        "content.home.workflow.title"
+      ]
+    },
+    {
+      "id": "t_a7c1f8b45c5bb5f0",
+      "text": "Apple handles billing and refund requests for App Store purchases under its current policies and local requirements.",
+      "paths": [
+        "messageNamespaces.Refund.content.appStore"
+      ]
+    },
+    {
+      "id": "t_a7c3f998e4ad13bc",
+      "text": "Reading time",
+      "paths": [
+        "content.learn.labels.duration"
+      ]
+    },
+    {
+      "id": "t_a87159f8c92300fc",
+      "text": "Draw or import the boundary, select a slot template, choose generation parameters, and inspect the resulting paths. Correct overlaps, unwanted elements, scale, or orientation before export.",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_a87d613a51e9303e",
+      "text": "Generated jigsaw cutlines selected as an editable group in JigsawDesigner",
+      "paths": [
+        "content.help.getting-started.sections.2.image.alt",
+        "content.help.jigsaw-generation.sections.3.image.alt",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.1.image.alt",
+        "content.marketing.jigsaw-dieline-generator.leadImage.alt",
+        "content.marketing.jigsaw-puzzle-generator.sections.2.image.alt",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.leadImage.alt"
+      ]
+    },
+    {
+      "id": "t_a8a013823992bee6",
+      "text": "Can I edit the puzzle after generation?",
+      "paths": [
+        "content.home.faq.items.1.question",
+        "content.marketing.jigsaw-puzzle-generator.faq.1.question"
+      ]
+    },
+    {
+      "id": "t_a932eb20920bb88c",
+      "text": "Yearly subscription",
+      "paths": [
+        "messageNamespaces.Pricing.yearly.name"
+      ]
+    },
+    {
+      "id": "t_a957ae1205a1f3be",
+      "text": "Contact support with the platform, app version shown in the App Store build, a minimal project, and clear reproduction steps. Do not send sensitive credentials.",
+      "paths": [
+        "content.help.troubleshooting.sections.3.note"
+      ]
+    },
+    {
+      "id": "t_a96add92f4ecb3ce",
+      "text": "Terms of Service",
+      "paths": [
+        "messageNamespaces.Terms.title"
+      ]
+    },
+    {
+      "id": "t_aa3928016dc7bf45",
+      "text": "Save the project so the source artwork and generated studies remain easy to reopen.",
+      "paths": [
+        "content.showcase.projects.2.steps.2"
+      ]
+    },
+    {
+      "id": "t_aa60e219797737d5",
+      "text": "Edit Puzzle Geometry with Vector Tools",
+      "paths": [
+        "content.help.vector-editing.title"
+      ]
+    },
+    {
+      "id": "t_aaeaf2497f64a015",
+      "text": "JigsawDesigner 1.6.0: SVG Fidelity and Faster Vector Editing",
+      "paths": [
+        "content.changelog.1-6-0.title"
+      ]
+    },
+    {
+      "id": "t_ac484a0f2115055b",
+      "text": "Generated jigsaw cutlines selected with resize and rotation handles in JigsawDesigner 1.6.0",
+      "paths": [
+        "content.changelog.1-6-0.sections.1.image.alt"
+      ]
+    },
+    {
+      "id": "t_acc98633ae40267f",
+      "text": "Create or import a custom template",
+      "paths": [
+        "content.help.templates.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_ad1f295c60867ea8",
+      "text": "Custom connection profiles",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.highlights.2"
+      ]
+    },
+    {
+      "id": "t_adfcfee70333e00b",
+      "text": "Shape Info showing position, scale, rotation, size, and actions for a selected SVG group",
+      "paths": [
+        "content.help.vector-editing.sections.3.image.alt"
+      ]
+    },
+    {
+      "id": "t_ae0e373f54d7704b",
+      "text": "File commands",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_ae2a805b3c9d4f27",
+      "text": "Anchor-level edits remain available after generation.",
+      "paths": [
+        "content.home.workflow.items.2.evidence.caption"
+      ]
+    },
+    {
+      "id": "t_ae34582a7c0f895e",
+      "text": "⌘E — Export SVG",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.0.bullets.4"
+      ]
+    },
+    {
+      "id": "t_ae4412ffe3ed64ab",
+      "text": "JigsawDesigner Advanced Settings with SVG selected as the export format",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.3.image.alt"
+      ]
+    },
+    {
+      "id": "t_ae9001e0feea15cc",
+      "text": "Draw or import a vector boundary, choose a slot profile, generate the internal pattern, then refine the SVG before it leaves your project.",
+      "paths": [
+        "content.home.hero.subtitle"
+      ]
+    },
+    {
+      "id": "t_aea8e5664d14f70a",
+      "text": "Vector editing",
+      "paths": [
+        "content.help.getting-started.related.1.title",
+        "content.help.keyboard-shortcuts.related.0.title",
+        "content.help.svg-import-export.related.0.title",
+        "content.help.templates.related.1.title"
+      ]
+    },
+    {
+      "id": "t_aebf904e678b92ca",
+      "text": "JigsawDesigner Templates panel",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.sections.0.image.alt"
+      ]
+    },
+    {
+      "id": "t_aed803b462b51198",
+      "text": "Generated SVG",
+      "paths": [
+        "content.home.hero.resultLabel"
+      ]
+    },
+    {
+      "id": "t_af92e495144ccac9",
+      "text": "Native vector editing",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.eyebrow"
+      ]
+    },
+    {
+      "id": "t_afd11787189c6093",
+      "text": "SVG import and export guide",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.related.2.title"
+      ]
+    },
+    {
+      "id": "t_b03b600f1581e5b3",
+      "text": "Grouping and Help shortcuts",
+      "paths": [
+        "content.help.keyboard-shortcuts.highlights.3"
+      ]
+    },
+    {
+      "id": "t_b103de6f31b03cd3",
+      "text": "Select the generated group, inspect its bounds, and switch to point editing for local boundary adjustments.",
+      "paths": [
+        "content.showcase.projects.0.editAction"
+      ]
+    },
+    {
+      "id": "t_b13c2bb61affa0ca",
+      "text": "Select and transform document elements",
+      "paths": [
+        "content.help.vector-editing.sections.3.title"
+      ]
+    },
+    {
+      "id": "t_b157b02ad7111586",
+      "text": "Inspect the handoff",
+      "paths": [
+        "content.home.downstream.steps.1.title"
+      ]
+    },
+    {
+      "id": "t_b16efcf4249e89b0",
+      "text": "Create a local project",
+      "paths": [
+        "content.help.getting-started.highlights.0"
+      ]
+    },
+    {
+      "id": "t_b17b4bad720dc339",
+      "text": "The Help Center is organized by getting started, generation, SVG handoff, vector editing, templates, projects, shortcuts, and troubleshooting.",
+      "paths": [
+        "content.learn.labels.referenceDescription"
+      ]
+    },
+    {
+      "id": "t_b1be143b26fe0caf",
+      "text": "Confirm the intended boundary and internal paths",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.sections.1.bullets.0"
+      ]
+    },
+    {
+      "id": "t_b218d5b0efe2cbbc",
+      "text": "What happened",
+      "paths": [
+        "content.showcase.labels.process"
+      ]
+    },
+    {
+      "id": "t_b303e69ae05f04fe",
+      "text": "A closed boundary and puzzle generation controls ready for a complete JigsawDesigner workflow",
+      "paths": [
+        "content.learn.paths.1.entries.0.media.alt"
+      ]
+    },
+    {
+      "id": "t_b3052584a9a23c08",
+      "text": "Choose Generate Jigsaw and wait for the progress operation to finish. The generated SVG returns as a named group. Zoom into boundaries and connections, inspect Layers, and repeat with adjusted inputs if needed.",
+      "paths": [
+        "content.help.jigsaw-generation.sections.3.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_b3d2f8de52e61352",
+      "text": "JigsawDesigner drawing toolbar",
+      "paths": [
+        "content.help.getting-started.sections.1.image.alt"
+      ]
+    },
+    {
+      "id": "t_b440fca7234cc2cb",
+      "text": "Unlimited jigsaw generation",
+      "paths": [
+        "messageNamespaces.Pricing.features.unlimited"
+      ]
+    },
+    {
+      "id": "t_b4f30f4ccd44f638",
+      "text": "Open the Template Editor, name the template, and draw the profile with Bezier anchors and handles. You can edit points, clear the path, or import an existing SVG path as a starting point.",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_b514551e19387af2",
+      "text": "Reusable connection profiles",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.eyebrow"
+      ]
+    },
+    {
+      "id": "t_b5f0e9f1b65bcfd5",
+      "text": "Unless custom license terms are presented with the app, your use of the Apple-distributed app is governed by Apple's Standard Licensed Application End User License Agreement (Standard EULA) and the applicable Apple Media Services Terms and Conditions.",
+      "paths": [
+        "messageNamespaces.Terms.sections.license.content"
+      ]
+    },
+    {
+      "id": "t_b616bc83d9e2e9c7",
+      "text": "You will be ready to",
+      "paths": [
+        "content.learn.labels.outcome"
+      ]
+    },
+    {
+      "id": "t_b6570b029d819566",
+      "text": "JigsawDesigner product walkthrough",
+      "paths": [
+        "content.home.downstream.videoTitle"
+      ]
+    },
+    {
+      "id": "t_b729b6f2e29dd67e",
+      "text": "Start with the product guides, work through common issues, or email support with the project and device details that matter.",
+      "paths": [
+        "content.support.subtitle"
+      ]
+    },
+    {
+      "id": "t_b739e409ef5d05cd",
+      "text": "Remote HTTP image references are not fetched. Embed required assets in the SVG or project instead.",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.sections.0.note"
+      ]
+    },
+    {
+      "id": "t_b75a06c03d42298c",
+      "text": "Making guide",
+      "paths": [
+        "content.footer.tutorial"
+      ]
+    },
+    {
+      "id": "t_b77865304c6a0a94",
+      "text": "Custom slot path in the Template Editor",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.sections.1.image.alt"
+      ]
+    },
+    {
+      "id": "t_b7e20d072761a253",
+      "text": "Import the SVG into a project.",
+      "paths": [
+        "content.showcase.projects.2.steps.0"
+      ]
+    },
+    {
+      "id": "t_b7f23ab7ce8f464b",
+      "text": "No. Configure machine and material settings in the downstream cutting software.",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.faq.1.answer"
+      ]
+    },
+    {
+      "id": "t_b8adfdd91beef4fd",
+      "text": "Included",
+      "paths": [
+        "content.pricing.included"
+      ]
+    },
+    {
+      "id": "t_b8f3a66f1cd8eac3",
+      "text": "Smoother Pencil curves and better open contours",
+      "paths": [
+        "content.changelog.1-6-0.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_b924ae34fc7662f0",
+      "text": "Backward and forward Delete handling",
+      "paths": [
+        "content.help.keyboard-shortcuts.highlights.2"
+      ]
+    },
+    {
+      "id": "t_b94bb949b2313ce5",
+      "text": "Explore the complete SVG editing workflow.",
+      "paths": [
+        "content.changelog.1-6-0.related.0.description"
+      ]
+    },
+    {
+      "id": "t_b9623a1a7166566e",
+      "text": "Selection handles now support direct resize and rotation around the selection center. Proportion locking and Inspector values remain available when a precise numeric adjustment is more appropriate.",
+      "paths": [
+        "content.changelog.1-6-0.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_ba4bebff80ef732b",
+      "text": "Point and Bezier handle editing",
+      "paths": [
+        "content.help.vector-editing.highlights.1"
+      ]
+    },
+    {
+      "id": "t_ba8e09b30d806bd7",
+      "text": "⌘Z — Undo",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.1.bullets.0"
+      ]
+    },
+    {
+      "id": "t_baddf8d8df3ebfb4",
+      "text": "Keep the .jigsawproject package as the editable source and use SVG for interchange.",
+      "paths": [
+        "content.help.svg-import-export.faq.1.answer"
+      ]
+    },
+    {
+      "id": "t_bafe236594b6bd51",
+      "text": "Edit anchors, groups, transforms, and drawing paths.",
+      "paths": [
+        "content.home.devices.capabilities.1.description"
+      ]
+    },
+    {
+      "id": "t_bb2a74e65ff5b9e2",
+      "text": "4. Export SVG and validate in cutting software",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.3.title"
+      ]
+    },
+    {
+      "id": "t_bb5d332cfc1d4450",
+      "text": "Open the full showcase",
+      "paths": [
+        "content.home.showcase.viewAllLabel"
+      ]
+    },
+    {
+      "id": "t_bb828f7bb034aed7",
+      "text": "No such guarantee is made. Inspect the generated geometry for your intended design and workflow.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.faq.1.answer"
+      ]
+    },
+    {
+      "id": "t_bbaf732de96ad4c9",
+      "text": "Preserve embedded images and paint resources",
+      "paths": [
+        "content.help.svg-import-export.highlights.1"
+      ]
+    },
+    {
+      "id": "t_bbccc45bad110a5f",
+      "text": "Validate the real cutting setup downstream",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_bbf4ae03b850630f",
+      "text": "Help Center",
+      "paths": [
+        "content.changelog.1-6-0.labels.help",
+        "content.help.getting-started.labels.help",
+        "content.help.jigsaw-generation.labels.help",
+        "content.help.keyboard-shortcuts.labels.help",
+        "content.help.project-library.labels.help",
+        "content.help.svg-import-export.labels.help",
+        "content.help.templates.labels.help",
+        "content.help.troubleshooting.labels.help",
+        "content.help.vector-editing.labels.help",
+        "content.marketing.custom-jigsaw-puzzle-template.labels.help",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.labels.help",
+        "content.marketing.jigsaw-dieline-generator.labels.help",
+        "content.marketing.jigsaw-puzzle-generator.labels.help",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.labels.help",
+        "content.marketing.svg-puzzle-editor.labels.help"
+      ]
+    },
+    {
+      "id": "t_bc91c83329a51767",
+      "text": "CloudKit projects shared with the user",
+      "paths": [
+        "content.help.project-library.sections.3.image.alt"
+      ]
+    },
+    {
+      "id": "t_bd5dd4896eebaec5",
+      "text": "The generated SVG remains selectable and editable.",
+      "paths": [
+        "content.home.hero.result.caption"
+      ]
+    },
+    {
+      "id": "t_be982e398e5a029d",
+      "text": "⌘O — Open Project",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.0.bullets.2"
+      ]
+    },
+    {
+      "id": "t_bec2cde63815541a",
+      "text": "The app currently includes 5 free generations. An active Premium subscription unlocks unlimited generation and SVG export.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.faq.2.answer"
+      ]
+    },
+    {
+      "id": "t_bedb419e51f6218a",
+      "text": "Download JigsawDesigner from the App Store. Current pricing and availability are shown for your storefront.",
+      "paths": [
+        "content.changelog.1-6-0.labels.ctaDescription",
+        "content.help.getting-started.labels.ctaDescription",
+        "content.help.jigsaw-generation.labels.ctaDescription",
+        "content.help.keyboard-shortcuts.labels.ctaDescription",
+        "content.help.project-library.labels.ctaDescription",
+        "content.help.svg-import-export.labels.ctaDescription",
+        "content.help.templates.labels.ctaDescription",
+        "content.help.troubleshooting.labels.ctaDescription",
+        "content.help.vector-editing.labels.ctaDescription",
+        "content.marketing.custom-jigsaw-puzzle-template.labels.ctaDescription",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.labels.ctaDescription",
+        "content.marketing.jigsaw-dieline-generator.labels.ctaDescription",
+        "content.marketing.jigsaw-puzzle-generator.labels.ctaDescription",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.labels.ctaDescription",
+        "content.marketing.svg-puzzle-editor.labels.ctaDescription"
+      ]
+    },
+    {
+      "id": "t_bf0bc549c0af7abd",
+      "text": "⌘A — Select all shapes",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.1.bullets.3"
+      ]
+    },
+    {
+      "id": "t_bf1050fc0c634528",
+      "text": "Edit and export SVG",
+      "paths": [
+        "content.home.learn.links.2.title"
+      ]
+    },
+    {
+      "id": "t_bfab69f7d35bc75b",
+      "text": "An open custom slot path in the JigsawDesigner Template Editor",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.leadImage.alt"
+      ]
+    },
+    {
+      "id": "t_bfb24099db259bed",
+      "text": "Custom Jigsaw Puzzle Template SVG",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.seoTitle"
+      ]
+    },
+    {
+      "id": "t_c050521ee368002a",
+      "text": "Getting started",
+      "paths": [
+        "content.help.keyboard-shortcuts.related.1.title",
+        "content.help.project-library.related.0.title"
+      ]
+    },
+    {
+      "id": "t_c05d356ffbad32bb",
+      "text": "Access may be limited when required by law, Apple platform rules, account security, or misuse of public-sharing features.",
+      "paths": [
+        "messageNamespaces.Terms.sections.termination.content"
+      ]
+    },
+    {
+      "id": "t_c080eee5b85af3c9",
+      "text": "Mac workspace",
+      "paths": [
+        "content.home.devices.items.0.evidence.caption"
+      ]
+    },
+    {
+      "id": "t_c0d37a47b2eb12bb",
+      "text": "Straight Line",
+      "paths": [
+        "content.help.templates.highlights.2"
+      ]
+    },
+    {
+      "id": "t_c0f8b77809b39914",
+      "text": "Dragon-shaped SVG geometry on the JigsawDesigner canvas with rulers and grid",
+      "paths": [
+        "content.help.vector-editing.sections.0.image.alt"
+      ]
+    },
+    {
+      "id": "t_c1363e5230eb9476",
+      "text": "The app does not fetch remote HTTP images. Embed the image or use a local supported resource.",
+      "paths": [
+        "content.help.svg-import-export.faq.0.answer"
+      ]
+    },
+    {
+      "id": "t_c192cbd2dc6d8f8e",
+      "text": "Read the complete making guide",
+      "paths": [
+        "content.home.downstream.tutorialLabel"
+      ]
+    },
+    {
+      "id": "t_c24aaade6ab631f2",
+      "text": "Import or export does not behave as expected",
+      "paths": [
+        "content.help.troubleshooting.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_c2769006a8882ae2",
+      "text": "Open the Project Library and choose New Project. A new project starts with an 800 × 600 canvas, a target of 100 pieces, and the built-in slot templates. You can change these settings before generation.",
+      "paths": [
+        "content.help.getting-started.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_c2ebe21e90d796e2",
+      "text": "Select Standard Convex, Standard Concave, Straight Line, or a custom slot template. Set grid size, target piece count, and slot-distance values, then run Generate Jigsaw.",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_c3084700b7453e24",
+      "text": "Saving a custom template adds it to persistent template storage so it can be available to new projects. Export SVG for a portable copy. Built-in templates cannot be edited or deleted, while custom templates can.",
+      "paths": [
+        "content.help.templates.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_c318e1888bee587c",
+      "text": "Keep only the geometry needed by the next workflow",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.2.bullets.2"
+      ]
+    },
+    {
+      "id": "t_c375d37425aa31c8",
+      "text": "Can I use my own outline?",
+      "paths": [
+        "content.home.faq.items.0.question"
+      ]
+    },
+    {
+      "id": "t_c3dcfc4e4836ae72",
+      "text": "Last updated: August 16, 2026",
+      "paths": [
+        "messageNamespaces.Refund.lastUpdated",
+        "messageNamespaces.Terms.lastUpdated"
+      ]
+    },
+    {
+      "id": "t_c4598ccb3fd49e37",
+      "text": "Earlier product walkthrough. Use the 1.6.0 screenshots above as the reference for the current interface.",
+      "paths": [
+        "content.home.downstream.videoCaption"
+      ]
+    },
+    {
+      "id": "t_c47631df108697c3",
+      "text": "JigsawDesigner 1.6 vector editing interface on iPad",
+      "paths": [
+        "content.home.devices.items.1.evidence.alt"
+      ]
+    },
+    {
+      "id": "t_c54f287085a97674",
+      "text": "How do I manage or cancel a subscription?",
+      "paths": [
+        "content.pricing.faq.1.question"
+      ]
+    },
+    {
+      "id": "t_c5633a28201440dc",
+      "text": "Follow three concise learning paths: understand puzzle cutlines, complete a boundary-to-SVG project, then edit and export the vector result.",
+      "paths": [
+        "content.learn.seoDescription"
+      ]
+    },
+    {
+      "id": "t_c5c66aafb87cd19b",
+      "text": "Confirm units, scale, duplicate paths, stroke interpretation, and intended operations.",
+      "paths": [
+        "content.home.downstream.steps.1.description"
+      ]
+    },
+    {
+      "id": "t_c61edc8def24bef9",
+      "text": "The source geometry includes a complex outer silhouette and several internal openings.",
+      "paths": [
+        "content.showcase.projects.1.input.caption"
+      ]
+    },
+    {
+      "id": "t_c6283a91a519f48d",
+      "text": "Choose a closed boundary and slot template, set grid, target piece count, and distance parameters, then inspect the generated SVG.",
+      "paths": [
+        "content.help.jigsaw-generation.seoDescription"
+      ]
+    },
+    {
+      "id": "t_c644bb4c6b2bf108",
+      "text": "Generate editable SVG paths",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.highlights.0"
+      ]
+    },
+    {
+      "id": "t_c652d98f1b339f83",
+      "text": "The boundary, selected profile, and generation controls before running the generator.",
+      "paths": [
+        "content.showcase.projects.0.input.caption"
+      ]
+    },
+    {
+      "id": "t_c65a0d30544cff44",
+      "text": "Showcase",
+      "paths": [
+        "content.showcase.labels.pageName"
+      ]
+    },
+    {
+      "id": "t_c6916efb3e5497df",
+      "text": "Start with 5 free generations",
+      "paths": [
+        "content.home.plans.title"
+      ]
+    },
+    {
+      "id": "t_c6bb7bcf6bf1f10b",
+      "text": "JigsawDesigner SVG Import and Export Guide",
+      "paths": [
+        "content.help.svg-import-export.seoTitle"
+      ]
+    },
+    {
+      "id": "t_c6f1342debc5f159",
+      "text": "Treat the generated result as vector geometry: inspect groups, adjust points and transforms, then export SVG at the intended scale.",
+      "paths": [
+        "content.learn.paths.2.description"
+      ]
+    },
+    {
+      "id": "t_c718eca414a71dd0",
+      "text": "Group and ungroup use the current app-specific bindings.",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_c729461686e2b2ba",
+      "text": "Generate Jigsaw Puzzle Cutlines",
+      "paths": [
+        "content.help.jigsaw-generation.title"
+      ]
+    },
+    {
+      "id": "t_c7aee4f95bbaad65",
+      "text": "Multi-selection, grouping, and layers",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.highlights.1"
+      ]
+    },
+    {
+      "id": "t_c8f36d9c3914c778",
+      "text": "Create, import, manage, and reuse connection profiles.",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.related.2.description"
+      ]
+    },
+    {
+      "id": "t_c977c09747a613eb",
+      "text": "Choose Select, Point Edit, Pencil, Line, Rectangle, Circle, Polygon, or Bezier. Pencil supports smoother freehand paths, while open contours can be continued or joined in the current editor.",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_c9b235408eacc5a4",
+      "text": "Use Export SVG to write the current document as SVG. The export includes document geometry, groups, transforms, and preserved resources supported by the writer.",
+      "paths": [
+        "content.help.svg-import-export.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_c9b60e3a9bc75d8e",
+      "text": "Check import, generation, export, project, and subscription issues step by step.",
+      "paths": [
+        "content.support.troubleshootingDescription"
+      ]
+    },
+    {
+      "id": "t_c9d16e6be45e2697",
+      "text": "By accessing or using JigsawDesigner, you agree to be bound by these Terms of Service. If you do not agree, you may not use our services.",
+      "paths": [
+        "messageNamespaces.Terms.sections.agreement.content"
+      ]
+    },
+    {
+      "id": "t_c9d4bb5d94149a29",
+      "text": "An element cannot be selected or edited",
+      "paths": [
+        "content.help.troubleshooting.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_ca63976606799fea",
+      "text": "Three: Standard Convex, Standard Concave, and Straight Line.",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.faq.0.answer"
+      ]
+    },
+    {
+      "id": "t_ca7fe67a76e21efe",
+      "text": "Explore real JigsawDesigner 1.6.0 project screenshots showing custom boundaries, generated puzzle cutlines, SVG import, and editable vector results.",
+      "paths": [
+        "content.showcase.seoDescription"
+      ]
+    },
+    {
+      "id": "t_cb19305b1b11b937",
+      "text": "Create, reopen, and organize local projects from the library.",
+      "paths": [
+        "content.help.project-library.leadImage.caption",
+        "content.help.project-library.sections.0.image.caption"
+      ]
+    },
+    {
+      "id": "t_cb3c9c09b40519c5",
+      "text": "Selecting a jigsaw slot template",
+      "paths": [
+        "content.help.jigsaw-generation.sections.1.image.alt"
+      ]
+    },
+    {
+      "id": "t_cb4509a21465e59e",
+      "text": "JigsawDesigner Help",
+      "paths": [
+        "content.help.getting-started.eyebrow",
+        "content.help.jigsaw-generation.eyebrow",
+        "content.help.keyboard-shortcuts.eyebrow",
+        "content.help.project-library.eyebrow",
+        "content.help.svg-import-export.eyebrow",
+        "content.help.templates.eyebrow",
+        "content.help.troubleshooting.eyebrow",
+        "content.help.vector-editing.eyebrow"
+      ]
+    },
+    {
+      "id": "t_ccb41c25c37e4a01",
+      "text": "Bring SVG artwork into an editable document",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_cd04a16fe994f41b",
+      "text": "Boundary and template validation",
+      "paths": [
+        "content.help.troubleshooting.highlights.2"
+      ]
+    },
+    {
+      "id": "t_cd77e9ba2bf2ed4e",
+      "text": "SVG is the current export format; production settings remain in the downstream workflow.",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.3.image.caption"
+      ]
+    },
+    {
+      "id": "t_cdcb4444780eaed0",
+      "text": "Select a built-in or custom slot template in the Templates panel. The highlighted template supplies the connection profile used for generation.",
+      "paths": [
+        "content.help.jigsaw-generation.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_cde967fb21718fcf",
+      "text": "Use a native Apple-platform editor for puzzle boundaries, templates, and generated cutlines. Work with paths and common SVG shapes, organize nested groups, and keep the document editable from import through export.",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.intro"
+      ]
+    },
+    {
+      "id": "t_ce28e0c75355701b",
+      "text": "Unlimited generation and SVG export in one plan.",
+      "paths": [
+        "content.pricing.premiumDescription"
+      ]
+    },
+    {
+      "id": "t_cf38a4e7605fba83",
+      "text": "A selected slot template beside a closed puzzle boundary ready for generation in JigsawDesigner",
+      "paths": [
+        "content.help.templates.leadImage.alt"
+      ]
+    },
+    {
+      "id": "t_cf7d182d7a7e8e99",
+      "text": "Remote HTTP images are blocked, as are script and foreignObject content. Embed required images instead of relying on a remote URL.",
+      "paths": [
+        "content.help.svg-import-export.sections.0.note"
+      ]
+    },
+    {
+      "id": "t_cf9b6cfb20e0a397",
+      "text": "Save editable .jigsawproject packages",
+      "paths": [
+        "content.help.svg-import-export.highlights.2"
+      ]
+    },
+    {
+      "id": "t_d016320a00c695b6",
+      "text": "Start with the outer contour you want the puzzle to occupy. It can be drawn with JigsawDesigner's Pencil, Bezier, Line, Rectangle, Circle, or Polygon tools, or imported from an SVG file.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_d08ad5a78b812843",
+      "text": "Beginner",
+      "paths": [
+        "content.learn.labels.beginner"
+      ]
+    },
+    {
+      "id": "t_d135a4fadb09d036",
+      "text": "JigsawDesigner Vector Editing Guide",
+      "paths": [
+        "content.help.vector-editing.seoTitle"
+      ]
+    },
+    {
+      "id": "t_d1f2f1fcc186c588",
+      "text": "Prepare exported SVG geometry for a downstream cutting workflow.",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.related.0.description",
+        "content.marketing.jigsaw-dieline-generator.related.1.description"
+      ]
+    },
+    {
+      "id": "t_d1fc5799eece9bdd",
+      "text": "Request an eligible refund through Apple's Report a Problem service or the purchase-history tools available for your Apple Account.",
+      "paths": [
+        "messageNamespaces.Refund.content.process"
+      ]
+    },
+    {
+      "id": "t_d212bdf3f2f645b7",
+      "text": "Save the editable project before exporting SVG",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.sections.1.bullets.3"
+      ]
+    },
+    {
+      "id": "t_d259a42f543f92b3",
+      "text": "Navigate the canvas",
+      "paths": [
+        "content.help.vector-editing.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_d284ed58860060bc",
+      "text": "What should I use for later editing?",
+      "paths": [
+        "content.help.svg-import-export.faq.1.question"
+      ]
+    },
+    {
+      "id": "t_d2c37e68b28bec04",
+      "text": "Each JigsawDesigner team example records the objective, source geometry, in-app result, and the next vector edit.",
+      "paths": [
+        "content.home.showcase.intro"
+      ]
+    },
+    {
+      "id": "t_d2d42cc7442985c3",
+      "text": "Boundary",
+      "paths": [
+        "content.home.hero.inputLabel"
+      ]
+    },
+    {
+      "id": "t_d37d10b84f1d4a7c",
+      "text": "Inputs, in-app results, and the next edit",
+      "paths": [
+        "content.home.showcase.title"
+      ]
+    },
+    {
+      "id": "t_d3dc12ac28e39958",
+      "text": "Contact support",
+      "paths": [
+        "content.support.emailTitle"
+      ]
+    },
+    {
+      "id": "t_d3f8cef0db44cb04",
+      "text": "Export the template SVG as a portable backup",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.sections.1.bullets.3"
+      ]
+    },
+    {
+      "id": "t_d4b6ada92229c685",
+      "text": "Play the product walkthrough",
+      "paths": [
+        "content.home.downstream.videoPlayLabel"
+      ]
+    },
+    {
+      "id": "t_d5033cce13425afa",
+      "text": "For import, use a local SVG with embedded resources and inspect unsupported or blocked content. For export, confirm Premium access; current export is SVG only. Keep the source .jigsawproject before simplifying a complex document.",
+      "paths": [
+        "content.help.troubleshooting.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_d53f8c9757efe7e3",
+      "text": "Inspect layers and connections",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.highlights.1"
+      ]
+    },
+    {
+      "id": "t_d5d3f0a70e7d18a3",
+      "text": "/help/svg-import-export",
+      "paths": [
+        "content.showcase.projects.2.guideHref"
+      ]
+    },
+    {
+      "id": "t_d66472071414f333",
+      "text": "Check document-level values",
+      "paths": [
+        "content.help.vector-editing.sections.4.title"
+      ]
+    },
+    {
+      "id": "t_d6afbd5e8ae8590a",
+      "text": "Does the editor work on iPhone as well as Mac and iPad?",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.faq.1.question"
+      ]
+    },
+    {
+      "id": "t_d6e4c71676d42852",
+      "text": "Questions before you start",
+      "paths": [
+        "content.home.faq.title"
+      ]
+    },
+    {
+      "id": "t_d6e9893d26554f49",
+      "text": "The closed boundary before generation.",
+      "paths": [
+        "content.home.hero.input.caption"
+      ]
+    },
+    {
+      "id": "t_d9447c7ceb31cfa8",
+      "text": "Try the generation workflow before you subscribe.",
+      "paths": [
+        "content.pricing.freeDescription"
+      ]
+    },
+    {
+      "id": "t_d9ece9cc2b2c7d20",
+      "text": "Drawing an open slot profile in the Template Editor",
+      "paths": [
+        "content.help.templates.sections.1.image.alt"
+      ]
+    },
+    {
+      "id": "t_daa7fbe82ee2f1c4",
+      "text": "SVG handoff workflow",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.eyebrow"
+      ]
+    },
+    {
+      "id": "t_db4d04d3d3812107",
+      "text": "Look for unintended overlaps or duplicate paths",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.2.bullets.0"
+      ]
+    },
+    {
+      "id": "t_db57d708c1d1ec8c",
+      "text": "Project Info with canvas size, jigsaw settings, document statistics, and generation controls",
+      "paths": [
+        "content.help.vector-editing.sections.4.image.alt"
+      ]
+    },
+    {
+      "id": "t_dbc5bceac6e40d3e",
+      "text": "A cutline file is geometry, not a machine preset",
+      "paths": [
+        "content.home.primer.title"
+      ]
+    },
+    {
+      "id": "t_dbcb2abd9fcdb829",
+      "text": "Follow the full handoff, including scale, line handling, material tests, and machine safety checks.",
+      "paths": [
+        "content.learn.paths.1.entries.0.description"
+      ]
+    },
+    {
+      "id": "t_dbd56a34d60f9450",
+      "text": "Browse the Help Center",
+      "paths": [
+        "content.learn.labels.referenceLink"
+      ]
+    },
+    {
+      "id": "t_dccccd2dd209fbd1",
+      "text": "Slot templates define the connection path supplied to jigsaw generation. Built-in templates are protected; custom templates can be created, updated, exported, persisted, and deleted.",
+      "paths": [
+        "content.help.templates.intro"
+      ]
+    },
+    {
+      "id": "t_dce4e6a2d594781e",
+      "text": "Irregular boundary to editable cutlines",
+      "paths": [
+        "content.showcase.projects.0.title"
+      ]
+    },
+    {
+      "id": "t_dd56c2e67bf1ec52",
+      "text": "Create and Manage Slot Templates",
+      "paths": [
+        "content.help.templates.title"
+      ]
+    },
+    {
+      "id": "t_de0c30d6c29e3fea",
+      "text": "SVG import diagnostics",
+      "paths": [
+        "content.help.troubleshooting.highlights.1"
+      ]
+    },
+    {
+      "id": "t_de9491e946409b1d",
+      "text": "Export SVG only",
+      "paths": [
+        "content.help.svg-import-export.highlights.3"
+      ]
+    },
+    {
+      "id": "t_dfb3d3fb09a1c407",
+      "text": "Public Projects available for import",
+      "paths": [
+        "content.help.project-library.sections.2.image.alt"
+      ]
+    },
+    {
+      "id": "t_dff06379da5582cd",
+      "text": "Version 1.6.0 overview",
+      "paths": [
+        "content.changelog.1-6-0.eyebrow"
+      ]
+    },
+    {
+      "id": "t_e047f8371b6be51b",
+      "text": "Jigsaw puzzle generator",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.related.0.title",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.related.1.title",
+        "content.marketing.jigsaw-dieline-generator.related.0.title",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.related.1.title",
+        "content.marketing.svg-puzzle-editor.related.0.title"
+      ]
+    },
+    {
+      "id": "t_e143a83d73de65b1",
+      "text": "Finish a repeatable boundary-to-SVG workflow with an explicit inspection checklist.",
+      "paths": [
+        "content.learn.paths.1.outcome"
+      ]
+    },
+    {
+      "id": "t_e19411c2c523c716",
+      "text": "Public Projects",
+      "paths": [
+        "content.help.project-library.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_e1962d163683422a",
+      "text": "Check scale and document dimensions",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.sections.1.bullets.1"
+      ]
+    },
+    {
+      "id": "t_e1b076a59b2ff691",
+      "text": "Drill into nested groups",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.sections.1.bullets.1"
+      ]
+    },
+    {
+      "id": "t_e1b8166498c87b00",
+      "text": "The selected slot template supplies the connection path.",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.sections.1.bullets.3"
+      ]
+    },
+    {
+      "id": "t_e2259c97846e96fb",
+      "text": "Separate the outer contour, internal cutlines, slot profile, and editable SVG result.",
+      "paths": [
+        "content.learn.paths.0.entries.0.description"
+      ]
+    },
+    {
+      "id": "t_e25ea069a10fb7bd",
+      "text": "Import existing SVG geometry",
+      "paths": [
+        "content.help.getting-started.highlights.2"
+      ]
+    },
+    {
+      "id": "t_e29a456e5546a38a",
+      "text": "A custom concave slot profile selected from the Templates panel",
+      "paths": [
+        "content.showcase.projects.0.template"
+      ]
+    },
+    {
+      "id": "t_e331cf03130b3b2f",
+      "text": "SVG Puzzle Editor for Mac, iPad & iPhone",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.seoTitle"
+      ]
+    },
+    {
+      "id": "t_e40450ac4deb8938",
+      "text": "Work from the smallest reproducible project and keep the editable source package. The checks below separate geometry problems, selection state, subscription access, and cloud availability.",
+      "paths": [
+        "content.help.troubleshooting.intro"
+      ]
+    },
+    {
+      "id": "t_e466bfa90052da75",
+      "text": "Frequently asked questions",
+      "paths": [
+        "content.changelog.1-6-0.labels.faq",
+        "content.help.getting-started.labels.faq",
+        "content.help.jigsaw-generation.labels.faq",
+        "content.help.keyboard-shortcuts.labels.faq",
+        "content.help.project-library.labels.faq",
+        "content.help.svg-import-export.labels.faq",
+        "content.help.templates.labels.faq",
+        "content.help.troubleshooting.labels.faq",
+        "content.help.vector-editing.labels.faq",
+        "content.marketing.custom-jigsaw-puzzle-template.labels.faq",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.labels.faq",
+        "content.marketing.jigsaw-dieline-generator.labels.faq",
+        "content.marketing.jigsaw-puzzle-generator.labels.faq",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.labels.faq",
+        "content.marketing.svg-puzzle-editor.labels.faq"
+      ]
+    },
+    {
+      "id": "t_e4f247ab295f0cf7",
+      "text": "Which format can I export?",
+      "paths": [
+        "content.home.faq.items.2.question"
+      ]
+    },
+    {
+      "id": "t_e532654478566880",
+      "text": "Resize and rotate a selection on the canvas",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.1.bullets.0"
+      ]
+    },
+    {
+      "id": "t_e5386949d110ebc5",
+      "text": "Select a suitable boundary and slot template, configure generation parameters, and run Generate Jigsaw. Inspect the returned SVG group, save the .jigsawproject source document, and export SVG when ready.",
+      "paths": [
+        "content.help.getting-started.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_e55a100fa7bd9deb",
+      "text": "Understand the supported SVG handoff workflow.",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.related.2.description"
+      ]
+    },
+    {
+      "id": "t_e5abca6c2559e5d0",
+      "text": "Slot profile",
+      "paths": [
+        "content.home.primer.slotLabel"
+      ]
+    },
+    {
+      "id": "t_e5cf89983399eed4",
+      "text": "G — Group selected shapes",
+      "paths": [
+        "content.help.keyboard-shortcuts.sections.2.bullets.0"
+      ]
+    },
+    {
+      "id": "t_e6af0b6054096674",
+      "text": "Generate jigsaw dielines from a vector boundary, customize slot profiles, edit paths and layers, and export an SVG for your next workflow.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.seoDescription"
+      ]
+    },
+    {
+      "id": "t_e7755e87b27eb9cb",
+      "text": "Grid and target piece controls",
+      "paths": [
+        "content.help.jigsaw-generation.highlights.2"
+      ]
+    },
+    {
+      "id": "t_e9d52cf6878203d2",
+      "text": "Version 1.6.0 focuses on keeping richer SVG projects intact and making common vector-editing actions feel more direct. The source project identifies the build as 1.6.0 (36); check the App Store listing for the version currently available in your storefront.",
+      "paths": [
+        "content.changelog.1-6-0.intro"
+      ]
+    },
+    {
+      "id": "t_e9dca8c2bbd34ece",
+      "text": "Vector editing guide",
+      "paths": [
+        "content.changelog.1-6-0.related.1.title",
+        "content.marketing.jigsaw-dieline-generator.related.2.title",
+        "content.marketing.svg-puzzle-editor.related.2.title"
+      ]
+    },
+    {
+      "id": "t_eaadd05d83340131",
+      "text": "6 min",
+      "paths": [
+        "content.learn.paths.0.entries.0.duration",
+        "content.learn.paths.2.entries.1.duration"
+      ]
+    },
+    {
+      "id": "t_eacc49915386d85d",
+      "text": "Troubleshooting",
+      "paths": [
+        "content.help.jigsaw-generation.related.1.title",
+        "content.help.keyboard-shortcuts.related.2.title",
+        "content.help.project-library.related.2.title",
+        "content.help.svg-import-export.related.2.title",
+        "content.help.templates.related.2.title",
+        "content.support.troubleshootingTitle"
+      ]
+    },
+    {
+      "id": "t_eb8806cb11d74847",
+      "text": "More reliable embedded SVG resources",
+      "paths": [
+        "content.changelog.1-6-0.highlights.0"
+      ]
+    },
+    {
+      "id": "t_ebf2b35bf1b8d23f",
+      "text": "Generate and inspect cutline geometry",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.highlights.2"
+      ]
+    },
+    {
+      "id": "t_ec0cf20997fc214d",
+      "text": "Import or draw the source geometry",
+      "paths": [
+        "content.home.workflow.items.0.title"
+      ]
+    },
+    {
+      "id": "t_ec71702914b934b5",
+      "text": "Accurate zoom from 1% to 3200%",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.highlights.3"
+      ]
+    },
+    {
+      "id": "t_ec80c63f4a5f006b",
+      "text": "Can recipients edit a shared project?",
+      "paths": [
+        "content.help.project-library.faq.1.question"
+      ]
+    },
+    {
+      "id": "t_ec87a5d9e212d0ad",
+      "text": "Group or ungroup elements with undo and redo",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.1.bullets.3"
+      ]
+    },
+    {
+      "id": "t_ece00ddb8506c5d7",
+      "text": "A .jigsawproject package stores project.json, document.svg, and content-addressed assets. Use it when you want to reopen the complete editable project, including settings and embedded image data.",
+      "paths": [
+        "content.help.svg-import-export.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_ed0657d99fbfba5d",
+      "text": "iPhone editor",
+      "paths": [
+        "content.home.devices.items.2.evidence.caption"
+      ]
+    },
+    {
+      "id": "t_ed4370f3318d3ef7",
+      "text": "Read-only CloudKit share links",
+      "paths": [
+        "content.help.project-library.highlights.3"
+      ]
+    },
+    {
+      "id": "t_ed6ab036ee731b6a",
+      "text": "Does JigsawDesigner set kerf or laser power?",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.faq.1.question"
+      ]
+    },
+    {
+      "id": "t_eda7ce9b23af9487",
+      "text": "Complete one project",
+      "paths": [
+        "content.learn.paths.1.title"
+      ]
+    },
+    {
+      "id": "t_edb86cff1912b1bb",
+      "text": "Choose Select, Point Edit, Pencil, Line, Rectangle, Circle, Polygon, or Bezier from the editor. To reuse an existing boundary, import an SVG and inspect it on the canvas and in Layers.",
+      "paths": [
+        "content.help.getting-started.sections.1.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_eeb73b36d4ad280a",
+      "text": "Start with your own boundary",
+      "paths": [
+        "content.showcase.labels.ctaTitle"
+      ]
+    },
+    {
+      "id": "t_ef4ee0dab44e977e",
+      "text": "Monthly subscription: price shown by Apple for your storefront",
+      "paths": [
+        "messageNamespaces.Terms.sections.subscriptions.monthly"
+      ]
+    },
+    {
+      "id": "t_f024c4703f873c1c",
+      "text": "Set the target density and generate the pattern.",
+      "paths": [
+        "content.showcase.projects.0.steps.1"
+      ]
+    },
+    {
+      "id": "t_f029231a32b98356",
+      "text": "Point Edit anchors shown around a puzzle boundary in JigsawDesigner 1.6.0",
+      "paths": [
+        "content.changelog.1-6-0.sections.2.image.alt"
+      ]
+    },
+    {
+      "id": "t_f057e410b8df18dc",
+      "text": "Imported SVG shown with its actual document structure.",
+      "paths": [
+        "content.home.workflow.items.0.evidence.caption"
+      ]
+    },
+    {
+      "id": "t_f0a29c5053535224",
+      "text": "A project can be published to the public CloudKit database for community discovery. Public projects can be browsed and imported as a copy into My Projects.",
+      "paths": [
+        "content.help.project-library.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_f100fa9ba6098917",
+      "text": "Editable vector cutlines",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.eyebrow"
+      ]
+    },
+    {
+      "id": "t_f1291079980211a5",
+      "text": "2. Use License",
+      "paths": [
+        "messageNamespaces.Terms.sections.license.title"
+      ]
+    },
+    {
+      "id": "t_f14c4d4355c99de7",
+      "text": "Three working examples",
+      "paths": [
+        "content.showcase.projectsTitle"
+      ]
+    },
+    {
+      "id": "t_f1c7e2e7796f9053",
+      "text": "Advanced Settings showing SVG as the default export format in JigsawDesigner",
+      "paths": [
+        "content.help.svg-import-export.sections.2.image.alt"
+      ]
+    },
+    {
+      "id": "t_f239e9d4fb5daa20",
+      "text": "From first boundary to a checked SVG",
+      "paths": [
+        "content.learn.title"
+      ]
+    },
+    {
+      "id": "t_f27540db6af0a96f",
+      "text": "{count} generations",
+      "paths": [
+        "content.pricing.freeGeneration"
+      ]
+    },
+    {
+      "id": "t_f2856548444666fc",
+      "text": "Native Apple puzzle design",
+      "paths": [
+        "content.marketing.jigsaw-puzzle-generator.eyebrow"
+      ]
+    },
+    {
+      "id": "t_f309e4ab2716eddf",
+      "text": "Advanced Settings confirms SVG as the current export format; use Export SVG in the editor to write the document.",
+      "paths": [
+        "content.help.svg-import-export.sections.2.image.caption"
+      ]
+    },
+    {
+      "id": "t_f349eff09d696984",
+      "text": "3. Inspect and edit the paths",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.2.title"
+      ]
+    },
+    {
+      "id": "t_f3648e0c3661d668",
+      "text": "The Tools panel shows the active tool and keeps common selection and canvas commands close by. Use it to copy or delete the current selection, reset or zoom the view, and select or deselect shapes.",
+      "paths": [
+        "content.help.vector-editing.sections.2.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_f3d269ac598344d0",
+      "text": "SVG remains the current and only export format.",
+      "paths": [
+        "content.changelog.1-6-0.sections.3.note"
+      ]
+    },
+    {
+      "id": "t_f4aa1e9d4298fda1",
+      "text": "An irregular closed boundary with a custom slot template selected and generation settings visible in JigsawDesigner",
+      "paths": [
+        "content.showcase.projects.0.input.alt"
+      ]
+    },
+    {
+      "id": "t_f4c680de1a70e26a",
+      "text": "Inspect narrow areas and internal openings, then adjust individual paths where the downstream workflow requires more clearance.",
+      "paths": [
+        "content.showcase.projects.1.editAction"
+      ]
+    },
+    {
+      "id": "t_f58d57d2df43c556",
+      "text": "Built-in and custom slot templates",
+      "paths": [
+        "content.help.templates.sections.0.image.alt"
+      ]
+    },
+    {
+      "id": "t_f60a61b51fb20509",
+      "text": "Keyboard Shortcuts for the Mac Editor",
+      "paths": [
+        "content.help.keyboard-shortcuts.title"
+      ]
+    },
+    {
+      "id": "t_f641b384b8136ff0",
+      "text": "Continue exploring",
+      "paths": [
+        "content.changelog.1-6-0.labels.related",
+        "content.help.getting-started.labels.related",
+        "content.help.jigsaw-generation.labels.related",
+        "content.help.keyboard-shortcuts.labels.related",
+        "content.help.project-library.labels.related",
+        "content.help.svg-import-export.labels.related",
+        "content.help.templates.labels.related",
+        "content.help.troubleshooting.labels.related",
+        "content.help.vector-editing.labels.related",
+        "content.marketing.custom-jigsaw-puzzle-template.labels.related",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.labels.related",
+        "content.marketing.jigsaw-dieline-generator.labels.related",
+        "content.marketing.jigsaw-puzzle-generator.labels.related",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.labels.related",
+        "content.marketing.svg-puzzle-editor.labels.related"
+      ]
+    },
+    {
+      "id": "t_f6b2fea3636ab91f",
+      "text": "Use Layers for nested hierarchy",
+      "paths": [
+        "content.help.vector-editing.sections.3.bullets.1"
+      ]
+    },
+    {
+      "id": "t_f712ae8beab81b27",
+      "text": "Point Edit anchors shown around a puzzle boundary in JigsawDesigner",
+      "paths": [
+        "content.help.vector-editing.leadImage.alt",
+        "content.help.vector-editing.sections.1.image.alt",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.2.image.alt",
+        "content.marketing.svg-puzzle-editor.sections.1.image.alt"
+      ]
+    },
+    {
+      "id": "t_f8429356cb7cab32",
+      "text": "Edit generated SVG geometry",
+      "paths": [
+        "content.learn.paths.2.entries.0.title"
+      ]
+    },
+    {
+      "id": "t_f89d27f7bb1146db",
+      "text": "Prepare a Jigsaw Puzzle SVG for a Laser-Cutting Workflow",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.title"
+      ]
+    },
+    {
+      "id": "t_f97e513137358c4d",
+      "text": "JigsawDesigner Slot Template Guide",
+      "paths": [
+        "content.help.templates.seoTitle"
+      ]
+    },
+    {
+      "id": "t_f9c187632fe5e72f",
+      "text": "Preflight the SVG geometry",
+      "paths": [
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.sections.1.title"
+      ]
+    },
+    {
+      "id": "t_fa1e360e9858d98a",
+      "text": "JigsawDesigner provides eight focused tools for creating and refining SVG geometry. Selection state, element hierarchy, and undoable commands keep edits connected to the real document tree.",
+      "paths": [
+        "content.help.vector-editing.intro"
+      ]
+    },
+    {
+      "id": "t_fa57a4c9990b8ba5",
+      "text": "Do not assume that. Import it into your downstream software and validate format handling, scale, operations, and equipment settings first.",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.faq.0.answer"
+      ]
+    },
+    {
+      "id": "t_fa963da40efa2df0",
+      "text": "Open the Templates panel and select Standard Convex, Standard Concave, Straight Line, or one of your custom templates before generation.",
+      "paths": [
+        "content.help.templates.sections.0.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_fb0fae4cb1914eb0",
+      "text": "Point Edit exposes the source path anchors while the generated group remains organized in Layers.",
+      "paths": [
+        "content.help.vector-editing.leadImage.caption",
+        "content.help.vector-editing.sections.1.image.caption",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.2.image.caption",
+        "content.marketing.svg-puzzle-editor.sections.1.image.caption"
+      ]
+    },
+    {
+      "id": "t_fb747983f524a587",
+      "text": "Import SVG into the current project",
+      "paths": [
+        "content.help.svg-import-export.sections.0.title"
+      ]
+    },
+    {
+      "id": "t_fb8c1854abaceb70",
+      "text": "No. Validate units, scale, material, kerf, operations, power, speed, and safety in the downstream workflow for your equipment.",
+      "paths": [
+        "content.home.faq.items.3.answer"
+      ]
+    },
+    {
+      "id": "t_fbfb00ca3b0edec6",
+      "text": "Run a material test",
+      "paths": [
+        "content.home.downstream.steps.2.title"
+      ]
+    },
+    {
+      "id": "t_fc83b04dcb581251",
+      "text": "How many templates are built in?",
+      "paths": [
+        "content.marketing.custom-jigsaw-puzzle-template.faq.0.question"
+      ]
+    },
+    {
+      "id": "t_fcc2ad3cff8eba70",
+      "text": "View on the App Store",
+      "paths": [
+        "content.changelog.1-6-0.labels.ctaLabel",
+        "content.help.getting-started.labels.ctaLabel",
+        "content.help.jigsaw-generation.labels.ctaLabel",
+        "content.help.keyboard-shortcuts.labels.ctaLabel",
+        "content.help.project-library.labels.ctaLabel",
+        "content.help.svg-import-export.labels.ctaLabel",
+        "content.help.templates.labels.ctaLabel",
+        "content.help.troubleshooting.labels.ctaLabel",
+        "content.help.vector-editing.labels.ctaLabel",
+        "content.home.hero.primaryLabel",
+        "content.learn.labels.appStoreLabel",
+        "content.marketing.custom-jigsaw-puzzle-template.labels.ctaLabel",
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.labels.ctaLabel",
+        "content.marketing.jigsaw-dieline-generator.labels.ctaLabel",
+        "content.marketing.jigsaw-puzzle-generator.labels.ctaLabel",
+        "content.marketing.laser-cut-jigsaw-puzzle-svg.labels.ctaLabel",
+        "content.marketing.svg-puzzle-editor.labels.ctaLabel",
+        "content.showcase.labels.appStoreLabel",
+        "messageNamespaces.Pricing.cta"
+      ]
+    },
+    {
+      "id": "t_fd424a94ba5bdc50",
+      "text": "The same core editor is available on Mac, iPad, and iPhone. The screenshots below come from the current 1.6 product build.",
+      "paths": [
+        "content.home.devices.intro"
+      ]
+    },
+    {
+      "id": "t_fdef1dadbf6ec469",
+      "text": "Should I keep the JigsawDesigner project after export?",
+      "paths": [
+        "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.faq.1.question"
+      ]
+    },
+    {
+      "id": "t_ffb2d87c7083dd60",
+      "text": "Product screenshot · JigsawDesigner 1.6.0",
+      "paths": [
+        "content.home.devices.items.0.evidence.source.label",
+        "content.home.devices.items.1.evidence.source.label",
+        "content.home.devices.items.2.evidence.source.label",
+        "content.home.hero.input.source.label",
+        "content.home.hero.result.source.label",
+        "content.home.workflow.items.0.evidence.source.label",
+        "content.home.workflow.items.1.evidence.source.label",
+        "content.home.workflow.items.2.evidence.source.label"
+      ]
+    },
+    {
+      "id": "t_ffe6531e435f3292",
+      "text": "SVG is the current export format.",
+      "paths": [
+        "content.marketing.svg-puzzle-editor.faq.0.answer"
+      ]
+    }
+  ]
+}

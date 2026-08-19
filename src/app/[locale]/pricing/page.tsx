@@ -9,110 +9,16 @@ import JsonLd from "@/components/JsonLd";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import {PRODUCT_FACTS} from "@/config/product";
-import {isRouteAvailable, isSiteLocale} from "@/config/seo";
-import {isTierOneLocale, tierOneLocales, type TierOneLocale} from "@/content/types";
+import {FULL_CONTENT_LOCALES, isRouteAvailable, isSiteLocale, type SiteLocale} from "@/config/seo";
+import {isTierOneLocale} from "@/content/types";
+import {getGeneratedSiteTranslation, hasGeneratedLocaleContent} from "@/content/localized-content";
+import {formatCount, pricingPageCopy, type PricingCopy} from "@/content/page-copy";
 import {createBreadcrumbJsonLd, createPageMetadata} from "@/lib/seo";
-
-type PricingCopy = {
-  eyebrow: string;
-  freeName: string;
-  freeDescription: string;
-  premiumName: string;
-  premiumDescription: string;
-  comparisonTitle: string;
-  generationLabel: string;
-  freeGeneration: (count: number) => string;
-  unlimited: string;
-  exportLabel: string;
-  notIncluded: string;
-  included: string;
-  billingLabel: string;
-  noSubscription: string;
-  appleBilling: string;
-  storeNote: string;
-  faqTitle: string;
-  faq: Array<{question: string; answer: string}>;
-};
-
-const pageCopy: Record<TierOneLocale, PricingCopy> = {
-  en: {
-    eyebrow: "Simple Apple subscription",
-    freeName: "Free",
-    freeDescription: "Try the generation workflow before you subscribe.",
-    premiumName: "Premium",
-    premiumDescription: "Unlimited generation and SVG export in one plan.",
-    comparisonTitle: "What changes with Premium",
-    generationLabel: "Puzzle generation",
-    freeGeneration: (count) => `${count} generations`,
-    unlimited: "Unlimited",
-    exportLabel: "SVG export",
-    notIncluded: "Not included",
-    included: "Included",
-    billingLabel: "Billing",
-    noSubscription: "No subscription",
-    appleBilling: "Monthly or yearly through Apple",
-    storeNote: "The App Store displays the current price and availability for your region. This website does not process purchases.",
-    faqTitle: "Subscription questions",
-    faq: [
-      {question: "Where can I see the current price?", answer: "Open the App Store listing. Apple shows the current localized price for your storefront."},
-      {question: "How do I manage or cancel a subscription?", answer: "Use the Subscriptions settings for your Apple Account. Billing and cancellation are handled by Apple."},
-      {question: "Can I buy Premium on this website?", answer: "No. JigsawDesigner currently offers monthly and yearly subscriptions only through Apple."},
-    ],
-  },
-  "zh-Hans": {
-    eyebrow: "简单的 Apple 订阅",
-    freeName: "Free",
-    freeDescription: "订阅前先体验生成工作流。",
-    premiumName: "Premium",
-    premiumDescription: "一个方案包含无限生成和 SVG 导出。",
-    comparisonTitle: "升级 Premium 后的变化",
-    generationLabel: "拼图生成",
-    freeGeneration: (count) => `${count} 次生成`,
-    unlimited: "无限",
-    exportLabel: "SVG 导出",
-    notIncluded: "不包含",
-    included: "包含",
-    billingLabel: "订阅周期",
-    noSubscription: "无需订阅",
-    appleBilling: "通过 Apple 按月或按年订阅",
-    storeNote: "App Store 会显示你所在地区当前的价格与可用性；本网站不处理购买。",
-    faqTitle: "订阅常见问题",
-    faq: [
-      {question: "在哪里查看当前价格？", answer: "打开 App Store 页面，Apple 会根据你的商店地区显示当前本地价格。"},
-      {question: "如何管理或取消订阅？", answer: "请前往 Apple 账户的“订阅”设置。扣费、管理与取消均由 Apple 处理。"},
-      {question: "可以在这个网站购买 Premium 吗？", answer: "不可以。JigsawDesigner 当前仅通过 Apple 提供月订阅和年订阅。"},
-    ],
-  },
-  "zh-Hant": {
-    eyebrow: "簡單的 Apple 訂閱",
-    freeName: "Free",
-    freeDescription: "訂閱前先體驗產生工作流程。",
-    premiumName: "Premium",
-    premiumDescription: "一個方案包含無限產生與 SVG 匯出。",
-    comparisonTitle: "升級 Premium 後的變化",
-    generationLabel: "拼圖產生",
-    freeGeneration: (count) => `${count} 次產生`,
-    unlimited: "無限",
-    exportLabel: "SVG 匯出",
-    notIncluded: "不包含",
-    included: "包含",
-    billingLabel: "訂閱週期",
-    noSubscription: "無需訂閱",
-    appleBilling: "透過 Apple 按月或按年訂閱",
-    storeNote: "App Store 會顯示所在地區目前的價格與供應狀況；本網站不處理購買。",
-    faqTitle: "訂閱常見問題",
-    faq: [
-      {question: "在哪裡查看目前價格？", answer: "開啟 App Store 頁面，Apple 會依商店地區顯示目前的本地價格。"},
-      {question: "如何管理或取消訂閱？", answer: "請前往 Apple 帳號的「訂閱」設定。扣款、管理與取消均由 Apple 處理。"},
-      {question: "可以在此網站購買 Premium 嗎？", answer: "不可以。JigsawDesigner 目前僅透過 Apple 提供月訂閱與年訂閱。"},
-    ],
-  },
-};
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return tierOneLocales.map((locale) => ({locale}));
+  return FULL_CONTENT_LOCALES.map((locale) => ({locale}));
 }
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
@@ -129,16 +35,22 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
 
 export default async function PricingPage({params}: {params: Promise<{locale: string}>}) {
   const {locale} = await params;
-  if (!isSiteLocale(locale) || !isTierOneLocale(locale) || !isRouteAvailable("/pricing", locale)) notFound();
+  if (
+    !isSiteLocale(locale) ||
+    !isRouteAvailable("/pricing", locale) ||
+    (!isTierOneLocale(locale) && !hasGeneratedLocaleContent(locale))
+  ) notFound();
   setRequestLocale(locale);
   return <PricingContent locale={locale} />;
 }
 
-function PricingContent({locale}: {locale: TierOneLocale}) {
+function PricingContent({locale}: {locale: SiteLocale}) {
   const pricing = useTranslations("Pricing");
   const navigation = useTranslations("Navigation");
   const common = useTranslations("Common");
-  const copy = pageCopy[locale];
+  const copy: PricingCopy = isTierOneLocale(locale)
+    ? pricingPageCopy[locale]
+    : getGeneratedSiteTranslation(locale).content.pricing;
   const breadcrumb = createBreadcrumbJsonLd({
     locale,
     items: [
@@ -198,7 +110,7 @@ function PricingContent({locale}: {locale: TierOneLocale}) {
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">
-                <ComparisonRow label={copy.generationLabel} free={copy.freeGeneration(PRODUCT_FACTS.freeGenerationLimit)} premium={copy.unlimited} />
+                <ComparisonRow label={copy.generationLabel} free={formatCount(copy.freeGeneration, PRODUCT_FACTS.freeGenerationLimit)} premium={copy.unlimited} />
                 <ComparisonRow label={copy.exportLabel} free={copy.notIncluded} premium={copy.included} />
                 <ComparisonRow label={copy.billingLabel} free={copy.noSubscription} premium={copy.appleBilling} />
               </tbody>

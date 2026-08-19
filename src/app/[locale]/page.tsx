@@ -14,6 +14,10 @@ import {PRODUCT_FACTS, type PremiumEntitlement} from "@/config/product";
 import {isRouteAvailable, isSiteLocale, SITE_LOCALES, type SiteLocale} from "@/config/seo";
 import {showcasePages, type HubProjectExample} from "@/content/hub-pages";
 import {HOME_PAGES, type HomePageContent} from "@/content/home-pages";
+import {
+  getGeneratedSiteTranslation,
+  hasGeneratedLocaleContent,
+} from "@/content/localized-content";
 import {isTierOneLocale, type MediaEvidence} from "@/content/types";
 import {Link} from "@/i18n/navigation";
 import {absoluteUrl, createPageMetadata, localizedAbsoluteUrl} from "@/lib/seo";
@@ -25,12 +29,31 @@ const premiumFeatureKeys = {
   svgExport: "features.export",
 } as const satisfies Record<PremiumEntitlement, string>;
 
+function getFullHomeContent(locale: SiteLocale): {
+  content: HomePageContent;
+  projects: HubProjectExample[];
+} | null {
+  if (isTierOneLocale(locale)) {
+    return {
+      content: HOME_PAGES[locale],
+      projects: showcasePages[locale].projects,
+    };
+  }
+  if (!hasGeneratedLocaleContent(locale)) return null;
+  const generated = getGeneratedSiteTranslation(locale).content;
+  return {
+    content: generated.home,
+    projects: generated.showcase.projects,
+  };
+}
+
 export async function generateMetadata({params}: {params: HomeParams}): Promise<Metadata> {
   const {locale} = await params;
   if (!isSiteLocale(locale) || !isRouteAvailable("/", locale)) notFound();
 
-  if (isTierOneLocale(locale)) {
-    const content = HOME_PAGES[locale];
+  const fullContent = getFullHomeContent(locale);
+  if (fullContent) {
+    const content = fullContent.content;
     return createPageMetadata({locale, pathname: "/", title: content.hero.title, description: content.hero.subtitle});
   }
 
@@ -45,7 +68,7 @@ export default async function Home({params}: {params: HomeParams}) {
   if (!isSiteLocale(locale) || !isRouteAvailable("/", locale)) notFound();
 
   setRequestLocale(locale);
-  const premiumFeatureList = isTierOneLocale(locale)
+  const premiumFeatureList = getFullHomeContent(locale)
     ? await getTranslations({locale, namespace: "Pricing"}).then((pricing) =>
         PRODUCT_FACTS.premiumEntitlements.map((entitlement) => pricing(premiumFeatureKeys[entitlement])),
       )
@@ -57,7 +80,8 @@ export default async function Home({params}: {params: HomeParams}) {
 function HomeContent({locale, premiumFeatureList}: {locale: SiteLocale; premiumFeatureList?: string[]}) {
   const heroMessages = useTranslations("Hero");
   const support = useTranslations("Support");
-  const content = isTierOneLocale(locale) ? HOME_PAGES[locale] : null;
+  const fullContent = getFullHomeContent(locale);
+  const content = fullContent?.content ?? null;
   const faq = content?.faq.items ?? [1, 2, 3].map((number) => ({
     question: support(`faq.q${number}.question`),
     answer: support(`faq.q${number}.answer`),
@@ -126,8 +150,8 @@ function HomeContent({locale, premiumFeatureList}: {locale: SiteLocale; premiumF
     <div className="min-h-screen bg-background text-foreground">
       <JsonLd data={structuredData} />
       <SiteHeader />
-      {content && isTierOneLocale(locale) ? (
-        <TierOneHome content={content} projects={showcasePages[locale].projects.filter((project) => project.status === "published").slice(0, 3)} />
+      {content && fullContent ? (
+        <TierOneHome content={content} projects={fullContent.projects.filter((project) => project.status === "published").slice(0, 3)} />
       ) : (
         <BaselineHome />
       )}

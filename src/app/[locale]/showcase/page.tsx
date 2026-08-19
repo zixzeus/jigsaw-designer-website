@@ -8,9 +8,13 @@ import JsonLd from "@/components/JsonLd";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import EvidenceFigure from "@/components/hubs/EvidenceFigure";
-import {isRouteAvailable, isSiteLocale} from "@/config/seo";
+import {FULL_CONTENT_LOCALES, isRouteAvailable, isSiteLocale} from "@/config/seo";
 import {getShowcasePage} from "@/content/hub-pages";
-import {isTierOneLocale, tierOneLocales} from "@/content/types";
+import {
+  getGeneratedSiteTranslation,
+  hasGeneratedLocaleContent,
+} from "@/content/localized-content";
+import {isTierOneLocale} from "@/content/types";
 import {Link} from "@/i18n/navigation";
 import {
   absoluteUrl,
@@ -24,19 +28,22 @@ const pathname = "/showcase";
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return tierOneLocales.map((locale) => ({locale}));
+  return FULL_CONTENT_LOCALES.map((locale) => ({locale}));
 }
 
 function resolvePage(locale: string) {
   if (
     !isSiteLocale(locale) ||
-    !isTierOneLocale(locale) ||
     !isRouteAvailable(pathname, locale)
   ) {
     notFound();
   }
 
-  const content = getShowcasePage(locale);
+  const content = isTierOneLocale(locale)
+    ? getShowcasePage(locale)
+    : hasGeneratedLocaleContent(locale)
+      ? getGeneratedSiteTranslation(locale).content.showcase
+      : null;
   if (!content) notFound();
 
   return {content, locale};

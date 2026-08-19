@@ -44,6 +44,31 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Full-content localization
+
+The public site ships the complete product, Showcase, Learn, marketing, Help,
+Pricing, changelog, Terms, and Refund content in all 33 active locales.
+
+```bash
+# Rebuild the stable English catalog after source-copy changes
+npm run translation:catalog
+
+# Have ChatGPT update only the new or changed IDs in the target locale file
+npm run translation:validate -- es
+
+# Regenerate the typed locale registry after locale files change
+npm run translation:registry
+
+# Validate all locale files, metadata, routes, and generated pages
+npm run check
+```
+
+Locale files live in `src/content/translations`. Translation files are accepted
+only when their source hash, 677-entry key set, placeholders, protected product
+terms, and expected writing system pass validation. Missing translations fail
+the build; the site does not silently fall back to English. External machine
+translation APIs are not part of this workflow.
+
 ## Deploying To Production
 
 | Command                           | Action                                       |

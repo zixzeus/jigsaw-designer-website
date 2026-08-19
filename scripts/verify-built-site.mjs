@@ -17,7 +17,7 @@ const [seoConfig, productConfig] = await Promise.all([
 const {
   DEFAULT_LOCALE,
   LOCALE_SPECS,
-  PRIMARY_SEO_LOCALES,
+  FULL_CONTENT_LOCALES,
   SEO_ROUTES,
   SITE_LOCALES,
 } = seoConfig;
@@ -828,9 +828,9 @@ for (const pathname of ["/showcase", "/learn"]) {
   record(route.kind === "hub", `SEO_ROUTES: ${pathname} must be a hub route`);
   record(route.indexable && route.includeInSitemap, `SEO_ROUTES: ${pathname} must be indexable and included in the sitemap`);
   record(
-    route.locales.length === PRIMARY_SEO_LOCALES.length &&
-      PRIMARY_SEO_LOCALES.every((locale, index) => route.locales[index] === locale),
-    `SEO_ROUTES: ${pathname} locales must exactly match PRIMARY_SEO_LOCALES`,
+    route.locales.length === FULL_CONTENT_LOCALES.length &&
+      FULL_CONTENT_LOCALES.every((locale, index) => route.locales[index] === locale),
+    `SEO_ROUTES: ${pathname} locales must exactly match FULL_CONTENT_LOCALES`,
   );
 }
 
@@ -1020,7 +1020,7 @@ try {
       );
     }
 
-    if (PRIMARY_SEO_LOCALES.includes(locale)) {
+    if (FULL_CONTENT_LOCALES.includes(locale)) {
       for (const route of SEO_ROUTES.filter((candidate) => candidate.kind === "hub" && candidate.locales.includes(locale))) {
         const pathname = localizedPathname(locale, route.pathname);
         record(
