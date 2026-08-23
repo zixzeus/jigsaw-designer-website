@@ -42,6 +42,8 @@ const PROTECTED_TERMS = [
   "Project Info",
   "Point Edit",
   "Straight Line",
+  "Whimsy",
+  "whimsy",
   "App Store",
   "CloudKit",
   "Cloudflare",

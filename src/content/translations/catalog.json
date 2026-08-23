@@ -1,6 +1,6 @@
 {
   "sourceLocale": "en",
-  "sourceHash": "abc1339e7d1f2592",
+  "sourceHash": "563f0e658e130729",
   "entries": [
     {
       "id": "t_005931875dea6673",
@@ -169,6 +169,13 @@
       ]
     },
     {
+      "id": "t_0785d69cd0181b40",
+      "text": "Tabs or knobs and their matching blanks or sockets are formed along shared piece edges.",
+      "paths": [
+        "content.home.primer.parts.2.description"
+      ]
+    },
+    {
       "id": "t_079c575d5a3d33e9",
       "text": "Create a new project and draw a closed outer contour, or import a suitable SVG boundary. Set the canvas size and check that the intended geometry is visible and selectable.",
       "paths": [
@@ -180,13 +187,6 @@
       "text": "Open a project’s context menu to open or rename it, publish it to Public Projects, create a share link, or delete it. Publishing makes an importable public copy; the current share-link permission is read-only.",
       "paths": [
         "content.help.project-library.sections.1.paragraphs.0"
-      ]
-    },
-    {
-      "id": "t_07bc899217bcfc8e",
-      "text": "Outer boundary",
-      "paths": [
-        "content.home.primer.boundaryLabel"
       ]
     },
     {
@@ -277,13 +277,6 @@
       "text": "Use the full canvas view for composition, then zoom in when a path or connection needs closer inspection.",
       "paths": [
         "content.help.vector-editing.sections.0.image.caption"
-      ]
-    },
-    {
-      "id": "t_0b73c877113d00cb",
-      "text": "Recognize what JigsawDesigner creates—and what remains a machine-specific decision.",
-      "paths": [
-        "content.learn.paths.0.outcome"
       ]
     },
     {
@@ -563,13 +556,6 @@
       ]
     },
     {
-      "id": "t_1bb2c9238b04c8cf",
-      "text": "Start with the geometry: the outer boundary, internal cutlines, the connection profile, and the SVG handed to another app.",
-      "paths": [
-        "content.learn.paths.0.description"
-      ]
-    },
-    {
       "id": "t_1c5c36fb53b7729f",
       "text": "Free",
       "paths": [
@@ -790,13 +776,6 @@
       ]
     },
     {
-      "id": "t_26b6ffc44801f6c8",
-      "text": "What the dieline generator creates",
-      "paths": [
-        "content.marketing.jigsaw-dieline-generator.sections.0.title"
-      ]
-    },
-    {
       "id": "t_26d9c2a107e147b5",
       "text": "billed monthly by Apple",
       "paths": [
@@ -808,13 +787,6 @@
       "text": "Use a simple, deliberate contour",
       "paths": [
         "content.marketing.custom-jigsaw-puzzle-template.sections.1.bullets.1"
-      ]
-    },
-    {
-      "id": "t_2850c54f4e938a63",
-      "text": "Editable SVG",
-      "paths": [
-        "content.home.primer.svgLabel"
       ]
     },
     {
@@ -1045,13 +1017,6 @@
       ]
     },
     {
-      "id": "t_31f431402d04d874",
-      "text": "A dieline describes vector boundaries and internal cutlines; it is not a rendered photograph of a finished puzzle. JigsawDesigner uses the supplied boundary, slot path, grid, target piece count, and distance settings to construct SVG geometry.",
-      "paths": [
-        "content.marketing.jigsaw-dieline-generator.sections.0.paragraphs.0"
-      ]
-    },
-    {
       "id": "t_31f6fbbf6a920b9b",
       "text": "Algorithm-driven internal cutlines",
       "paths": [
@@ -1115,13 +1080,6 @@
       ]
     },
     {
-      "id": "t_33c0972b5783cb67",
-      "text": "Inspect the exported file at its intended scale before using material.",
-      "paths": [
-        "content.home.primer.note"
-      ]
-    },
-    {
       "id": "t_3440b3d8847b5ac4",
       "text": "Subscriptions are purchased, billed, renewed, cancelled, and refunded through Apple. The app does not currently offer direct website purchases.",
       "paths": [
@@ -1133,6 +1091,13 @@
       "text": "Not included",
       "paths": [
         "content.pricing.notIncluded"
+      ]
+    },
+    {
+      "id": "t_3505e4671374f803",
+      "text": "A puzzle cut pattern combines a closed puzzle outline with piece-separation cutlines. Tabs or knobs and their matching blanks or sockets form the interlock along shared piece edges; they are features of those cutlines, not a separate output layer.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.0.paragraphs.0"
       ]
     },
     {
@@ -1516,13 +1481,6 @@
       ]
     },
     {
-      "id": "t_48bd1a3b42aaf1ef",
-      "text": "Internal cutlines",
-      "paths": [
-        "content.home.primer.cutlineLabel"
-      ]
-    },
-    {
       "id": "t_49458590d2a690cc",
       "text": "Is puzzle generation unlimited for free users?",
       "paths": [
@@ -1605,13 +1563,6 @@
         "content.help.svg-import-export.sections.0.image.caption",
         "content.marketing.svg-puzzle-editor.leadImage.caption",
         "content.marketing.svg-puzzle-editor.sections.0.image.caption"
-      ]
-    },
-    {
-      "id": "t_4ddeb1e05f643614",
-      "text": "Cutline anatomy",
-      "paths": [
-        "content.home.primer.eyebrow"
       ]
     },
     {
@@ -1848,6 +1799,13 @@
       ]
     },
     {
+      "id": "t_59e3c945f4970309",
+      "text": "Puzzle cut design",
+      "paths": [
+        "content.home.primer.eyebrow"
+      ]
+    },
+    {
       "id": "t_59fbbd7e8de1c5b2",
       "text": "3. Subscriptions and Payments",
       "paths": [
@@ -1956,7 +1914,8 @@
       "id": "t_5e69ad50b9e11134",
       "text": "What a jigsaw dieline contains",
       "paths": [
-        "content.learn.paths.0.entries.0.title"
+        "content.learn.paths.0.entries.0.title",
+        "content.marketing.jigsaw-dieline-generator.sections.0.title"
       ]
     },
     {
@@ -2086,6 +2045,13 @@
       "text": "JigsawDesigner Project Library Guide",
       "paths": [
         "content.help.project-library.seoTitle"
+      ]
+    },
+    {
+      "id": "t_67912b6ee130567a",
+      "text": "The anatomy of a jigsaw cut pattern",
+      "paths": [
+        "content.home.primer.title"
       ]
     },
     {
@@ -2253,6 +2219,13 @@
       "paths": [
         "content.marketing.jigsaw-puzzle-generator.related.1.description",
         "content.marketing.svg-puzzle-editor.related.1.description"
+      ]
+    },
+    {
+      "id": "t_6fb8c5e583d59611",
+      "text": "Distinguish the puzzle outline, piece-separation cutlines, interlock profile, optional whimsy pieces, and editable SVG output.",
+      "paths": [
+        "content.learn.paths.0.entries.0.description"
       ]
     },
     {
@@ -2428,6 +2401,20 @@
       ]
     },
     {
+      "id": "t_798214a77ca4e083",
+      "text": "Every cut pattern begins with a closed puzzle outline. Inside it, shared cut paths divide the design into individual pieces. Tabs and matching blanks form the interlocks along those shared edges. A whimsy is different: it is a complete, recognizable figural piece integrated into the cut pattern.",
+      "paths": [
+        "content.home.primer.intro"
+      ]
+    },
+    {
+      "id": "t_79c526f3f800b527",
+      "text": "JigsawDesigner applies the selected slot template to eligible piece-separation edges and keeps the result as editable SVG geometry. Whimsy pieces must be designed or imported and checked manually; the generator does not create them automatically. Material, kerf, power, speed, and safety settings remain downstream.",
+      "paths": [
+        "content.home.primer.note"
+      ]
+    },
+    {
       "id": "t_7b903e64239b85b8",
       "text": "Jigsaw generation guide",
       "paths": [
@@ -2443,13 +2430,6 @@
       ]
     },
     {
-      "id": "t_7c1ab96e398452da",
-      "text": "The generated result remains part of the document tree, preserving the ability to select, group, transform, and inspect it before export.",
-      "paths": [
-        "content.marketing.jigsaw-dieline-generator.sections.0.paragraphs.1"
-      ]
-    },
-    {
       "id": "t_7c2bf27a4115c966",
       "text": "No. JigsawDesigner currently offers monthly and yearly subscriptions only through Apple.",
       "paths": [
@@ -2461,6 +2441,13 @@
       "text": "Local project packages",
       "paths": [
         "content.help.project-library.highlights.0"
+      ]
+    },
+    {
+      "id": "t_7cc0d2a3fd9625ef",
+      "text": "A complete, recognizable themed piece. JigsawDesigner does not currently generate Whimsy pieces automatically.",
+      "paths": [
+        "content.home.primer.parts.3.description"
       ]
     },
     {
@@ -2611,10 +2598,24 @@
       ]
     },
     {
+      "id": "t_84595f8f3b0c846b",
+      "text": "A whimsy is a complete figural piece with a recognizable silhouette—not a generic term for inner paths. JigsawDesigner does not currently generate Whimsy pieces automatically; design or import the geometry deliberately and inspect its integration with surrounding cutlines.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.0.paragraphs.1"
+      ]
+    },
+    {
       "id": "t_847aeddf8bd004e3",
       "text": "One workflow, three Apple devices",
       "paths": [
         "content.home.devices.eyebrow"
+      ]
+    },
+    {
+      "id": "t_847b0cbf4dbf2a73",
+      "text": "Tabs and blanks",
+      "paths": [
+        "content.home.primer.parts.2.title"
       ]
     },
     {
@@ -2651,6 +2652,13 @@
       "text": "Choose the profile and tune the distance range.",
       "paths": [
         "content.showcase.projects.1.steps.1"
+      ]
+    },
+    {
+      "id": "t_85e1b7ddc22fb411",
+      "text": "Start with the cut pattern: puzzle outline, piece-separation cutlines, interlock profile, and optional whimsy pieces. Then distinguish the design geometry from the SVG handoff.",
+      "paths": [
+        "content.learn.paths.0.description"
       ]
     },
     {
@@ -2701,13 +2709,6 @@
       "paths": [
         "content.home.learn.links.0.title",
         "content.learn.paths.0.title"
-      ]
-    },
-    {
-      "id": "t_88a6b25e5e1d47ba",
-      "text": "The outer boundary defines the puzzle silhouette. Internal cutlines divide it into pieces, while a slot profile shapes the connections along those lines. JigsawDesigner keeps this geometry as editable SVG paths and groups. Material, kerf, power, speed, and other production settings still belong in the downstream software used with your equipment.",
-      "paths": [
-        "content.home.primer.intro"
       ]
     },
     {
@@ -3123,6 +3124,13 @@
       ]
     },
     {
+      "id": "t_9eb137b14dfec73d",
+      "text": "Whimsy (optional figural piece)",
+      "paths": [
+        "content.home.primer.parts.3.title"
+      ]
+    },
+    {
       "id": "t_9ef23c9928a8f9d5",
       "text": "Select moves and transforms elements; Point Edit changes anchors and handles; Pencil draws freehand paths; Line, Rectangle, Circle, and Polygon create common shapes; Bezier creates controlled curves.",
       "paths": [
@@ -3455,6 +3463,13 @@
       ]
     },
     {
+      "id": "t_b09dfad3101c49d7",
+      "text": "Puzzle outline",
+      "paths": [
+        "content.home.primer.parts.0.title"
+      ]
+    },
+    {
       "id": "t_b103de6f31b03cd3",
       "text": "Select the generated group, inspect its bounds, and switch to point editing for local boundary adjustments.",
       "paths": [
@@ -3515,6 +3530,13 @@
       "text": "Choose Generate Jigsaw and wait for the progress operation to finish. The generated SVG returns as a named group. Zoom into boundaries and connections, inspect Layers, and repeat with adjusted inputs if needed.",
       "paths": [
         "content.help.jigsaw-generation.sections.3.paragraphs.0"
+      ]
+    },
+    {
+      "id": "t_b36176b123f7a8c5",
+      "text": "Shared internal paths divide the outline into individual puzzle pieces.",
+      "paths": [
+        "content.home.primer.parts.1.description"
       ]
     },
     {
@@ -3592,6 +3614,13 @@
       "text": "Custom slot path in the Template Editor",
       "paths": [
         "content.marketing.custom-jigsaw-puzzle-template.sections.1.image.alt"
+      ]
+    },
+    {
+      "id": "t_b7a97988b98e7034",
+      "text": "Output: editable SVG cut geometry",
+      "paths": [
+        "content.home.primer.svgLabel"
       ]
     },
     {
@@ -4102,6 +4131,13 @@
       ]
     },
     {
+      "id": "t_cc0b7af1e10d8265",
+      "text": "Recognize what the generator creates, what must be designed manually, and what remains a machine-specific decision.",
+      "paths": [
+        "content.learn.paths.0.outcome"
+      ]
+    },
+    {
       "id": "t_ccb41c25c37e4a01",
       "text": "Bring SVG artwork into an editable document",
       "paths": [
@@ -4348,13 +4384,6 @@
       ]
     },
     {
-      "id": "t_dbc5bceac6e40d3e",
-      "text": "A cutline file is geometry, not a machine preset",
-      "paths": [
-        "content.home.primer.title"
-      ]
-    },
-    {
       "id": "t_dbcb2abd9fcdb829",
       "text": "Follow the full handoff, including scale, line handling, material tests, and machine safety checks.",
       "paths": [
@@ -4383,6 +4412,13 @@
       ]
     },
     {
+      "id": "t_dd1877716630a78d",
+      "text": "JigsawDesigner uses the supplied boundary, slot path, grid, target piece count, and distance settings to construct SVG geometry. The generated result remains part of the document tree, so it can be selected, grouped, transformed, and inspected before export.",
+      "paths": [
+        "content.marketing.jigsaw-dieline-generator.sections.0.paragraphs.2"
+      ]
+    },
+    {
       "id": "t_dd56c2e67bf1ec52",
       "text": "Create and Manage Slot Templates",
       "paths": [
@@ -4408,6 +4444,13 @@
       "text": "Public Projects available for import",
       "paths": [
         "content.help.project-library.sections.2.image.alt"
+      ]
+    },
+    {
+      "id": "t_dfb8582c0e2d0568",
+      "text": "The closed outer contour defines the finished puzzle’s silhouette.",
+      "paths": [
+        "content.home.primer.parts.0.description"
       ]
     },
     {
@@ -4461,13 +4504,6 @@
       "text": "The selected slot template supplies the connection path.",
       "paths": [
         "content.marketing.jigsaw-puzzle-generator.sections.1.bullets.3"
-      ]
-    },
-    {
-      "id": "t_e2259c97846e96fb",
-      "text": "Separate the outer contour, internal cutlines, slot profile, and editable SVG result.",
-      "paths": [
-        "content.learn.paths.0.entries.0.description"
       ]
     },
     {
@@ -4548,13 +4584,6 @@
       ]
     },
     {
-      "id": "t_e5abca6c2559e5d0",
-      "text": "Slot profile",
-      "paths": [
-        "content.home.primer.slotLabel"
-      ]
-    },
-    {
       "id": "t_e5cf89983399eed4",
       "text": "G — Group selected shapes",
       "paths": [
@@ -4589,6 +4618,13 @@
         "content.changelog.1-6-0.related.1.title",
         "content.marketing.jigsaw-dieline-generator.related.2.title",
         "content.marketing.svg-puzzle-editor.related.2.title"
+      ]
+    },
+    {
+      "id": "t_ea231cb7bd2d9b5b",
+      "text": "Piece-separation cutlines",
+      "paths": [
+        "content.home.primer.parts.1.title"
       ]
     },
     {

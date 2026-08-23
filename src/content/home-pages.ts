@@ -15,6 +15,13 @@ type HomeWorkflowStep = {
   evidence: MediaEvidence;
 };
 
+type HomePrimerPart = {
+  id: "perimeter" | "piece-boundaries" | "interlock" | "whimsy";
+  number: string;
+  title: string;
+  description: string;
+};
+
 export type HomePageContent = {
   hero: {
     eyebrow: string;
@@ -31,9 +38,7 @@ export type HomePageContent = {
     eyebrow: string;
     title: string;
     intro: string;
-    boundaryLabel: string;
-    cutlineLabel: string;
-    slotLabel: string;
+    parts: HomePrimerPart[];
     svgLabel: string;
     note: string;
   };
@@ -149,14 +154,37 @@ export const HOME_PAGES: Record<TierOneLocale, HomePageContent> = {
       ),
     },
     primer: {
-      eyebrow: "Cutline anatomy",
-      title: "A cutline file is geometry, not a machine preset",
-      intro: "The outer boundary defines the puzzle silhouette. Internal cutlines divide it into pieces, while a slot profile shapes the connections along those lines. JigsawDesigner keeps this geometry as editable SVG paths and groups. Material, kerf, power, speed, and other production settings still belong in the downstream software used with your equipment.",
-      boundaryLabel: "Outer boundary",
-      cutlineLabel: "Internal cutlines",
-      slotLabel: "Slot profile",
-      svgLabel: "Editable SVG",
-      note: "Inspect the exported file at its intended scale before using material.",
+      eyebrow: "Puzzle cut design",
+      title: "The anatomy of a jigsaw cut pattern",
+      intro: "Every cut pattern begins with a closed puzzle outline. Inside it, shared cut paths divide the design into individual pieces. Tabs and matching blanks form the interlocks along those shared edges. A whimsy is different: it is a complete, recognizable figural piece integrated into the cut pattern.",
+      parts: [
+        {
+          id: "perimeter",
+          number: "01",
+          title: "Puzzle outline",
+          description: "The closed outer contour defines the finished puzzle’s silhouette.",
+        },
+        {
+          id: "piece-boundaries",
+          number: "02",
+          title: "Piece-separation cutlines",
+          description: "Shared internal paths divide the outline into individual puzzle pieces.",
+        },
+        {
+          id: "interlock",
+          number: "03",
+          title: "Tabs and blanks",
+          description: "Tabs or knobs and their matching blanks or sockets are formed along shared piece edges.",
+        },
+        {
+          id: "whimsy",
+          number: "04",
+          title: "Whimsy (optional figural piece)",
+          description: "A complete, recognizable themed piece. JigsawDesigner does not currently generate Whimsy pieces automatically.",
+        },
+      ],
+      svgLabel: "Output: editable SVG cut geometry",
+      note: "JigsawDesigner applies the selected slot template to eligible piece-separation edges and keeps the result as editable SVG geometry. Whimsy pieces must be designed or imported and checked manually; the generator does not create them automatically. Material, kerf, power, speed, and safety settings remain downstream.",
     },
     workflow: {
       eyebrow: "The real workflow",
@@ -286,14 +314,17 @@ export const HOME_PAGES: Record<TierOneLocale, HomePageContent> = {
       result: screenshot("/generated-result-editable-v1-6.webp", "不规则边界内生成的拼图切割线，并作为可编辑分组被选中", "生成的 SVG 仍可选择和编辑。", sourceLabels["zh-Hans"]),
     },
     primer: {
-      eyebrow: "切割线构成",
-      title: "切割线文件是矢量几何，不是设备预设",
-      intro: "外边界决定拼图的整体轮廓，内部切割线把轮廓分成拼图片，卡槽轮廓则塑造连接位置。JigsawDesigner 会把这些内容保留为可编辑的 SVG 路径和分组。材料、切缝、功率、速度等生产参数仍需在设备对应的下游软件中设置。",
-      boundaryLabel: "外边界",
-      cutlineLabel: "内部切割线",
-      slotLabel: "卡槽轮廓",
-      svgLabel: "可编辑 SVG",
-      note: "使用材料前，请按目标尺寸检查导出的文件。",
+      eyebrow: "拼图切割设计",
+      title: "拼图切割图的专业构成",
+      intro: "每套切割图都始于闭合的拼图外轮廓，内部共享切割线再把图形分成一片片拼图片。凸榫与匹配的凹口沿这些共享边界形成互锁连接。Whimsy 则不同：它是一整片具有可识别具象轮廓的特殊拼图片。",
+      parts: [
+        {id: "perimeter", number: "01", title: "拼图外轮廓", description: "闭合的外部轮廓线决定成品拼图的整体外形。"},
+        {id: "piece-boundaries", number: "02", title: "分片切割线", description: "共享的内部路径把外轮廓分隔成一片片独立拼图片。"},
+        {id: "interlock", number: "03", title: "凸榫与凹口", description: "凸榫与匹配的凹口沿相邻拼图片的共享边界形成。"},
+        {id: "whimsy", number: "04", title: "Whimsy（可选具象异形片）", description: "一整片具有可识别主题轮廓的特殊拼图片；JigsawDesigner 当前不会自动生成 Whimsy。"},
+      ],
+      svgLabel: "输出：可编辑 SVG 切割几何",
+      note: "JigsawDesigner 会把所选卡槽模板应用到符合距离条件的分片边缘，并将结果保留为可编辑 SVG 几何。Whimsy 需要手工设计或导入并检查衔接，生成器当前不会自动创建；材料、切缝、功率、速度和安全参数仍需在下游流程中处理。",
     },
     workflow: {
       eyebrow: "真实工作流",
@@ -374,10 +405,17 @@ export const HOME_PAGES: Record<TierOneLocale, HomePageContent> = {
       result: screenshot("/generated-result-editable-v1-6.webp", "不規則邊界內產生的拼圖切割線，並以可編輯群組選取", "產生的 SVG 仍可選取與編輯。", sourceLabels["zh-Hant"]),
     },
     primer: {
-      eyebrow: "切割線構成",
-      title: "切割線檔案是向量幾何，不是設備預設",
-      intro: "外邊界決定拼圖的整體輪廓，內部切割線把輪廓分成拼圖片，卡槽輪廓則塑造連接位置。JigsawDesigner 會將這些內容保留為可編輯的 SVG 路徑與群組。材料、切縫、功率、速度等生產參數仍需於設備對應的下游軟體中設定。",
-      boundaryLabel: "外邊界", cutlineLabel: "內部切割線", slotLabel: "卡槽輪廓", svgLabel: "可編輯 SVG", note: "使用材料前，請依目標尺寸檢查匯出的檔案。",
+      eyebrow: "拼圖切割設計",
+      title: "拼圖切割圖的專業構成",
+      intro: "每套切割圖都始於封閉的拼圖外輪廓，內部共享切割線再把圖形分成一片片拼圖片。凸榫與匹配的凹口沿這些共享邊界形成互鎖連接。Whimsy 則不同：它是一整片具有可辨識具象輪廓的特殊拼圖片。",
+      parts: [
+        {id: "perimeter", number: "01", title: "拼圖外輪廓", description: "封閉的外部輪廓線決定成品拼圖的整體外形。"},
+        {id: "piece-boundaries", number: "02", title: "分片切割線", description: "共享的內部路徑把外輪廓分隔成一片片獨立拼圖片。"},
+        {id: "interlock", number: "03", title: "凸榫與凹口", description: "凸榫與匹配的凹口沿相鄰拼圖片的共享邊界形成。"},
+        {id: "whimsy", number: "04", title: "Whimsy（可選具象異形片）", description: "一整片具有可辨識主題輪廓的特殊拼圖片；JigsawDesigner 目前不會自動產生 Whimsy。"},
+      ],
+      svgLabel: "輸出：可編輯 SVG 切割幾何",
+      note: "JigsawDesigner 會將所選凹槽範本套用到符合距離條件的分片邊緣，並將結果保留為可編輯 SVG 幾何。Whimsy 需要手動設計或匯入並檢查銜接，產生器目前不會自動建立；材料、切縫、功率、速度與安全參數仍需在下游流程中處理。",
     },
     workflow: {
       eyebrow: "真實工作流程", title: "從來源幾何到可繼續編輯的 SVG", intro: "產生只是專案中的一個步驟，不是設計流程的終點。",

@@ -537,14 +537,14 @@ export const learnPages: Record<TierOneLocale, LearnPageContent> = {
         number: "01",
         title: "Understand puzzle cutlines",
         description:
-          "Start with the geometry: the outer boundary, internal cutlines, the connection profile, and the SVG handed to another app.",
-        outcome: "Recognize what JigsawDesigner creates—and what remains a machine-specific decision.",
+          "Start with the cut pattern: puzzle outline, piece-separation cutlines, interlock profile, and optional whimsy pieces. Then distinguish the design geometry from the SVG handoff.",
+        outcome: "Recognize what the generator creates, what must be designed manually, and what remains a machine-specific decision.",
         entries: [
           {
             id: "cutline-primer",
             stage: "understand",
             title: "What a jigsaw dieline contains",
-            description: "Separate the outer contour, internal cutlines, slot profile, and editable SVG result.",
+            description: "Distinguish the puzzle outline, piece-separation cutlines, interlock profile, optional whimsy pieces, and editable SVG output.",
             href: "/jigsaw-dieline-generator",
             difficulty: "beginner",
             duration: "6 min",
@@ -668,14 +668,14 @@ export const learnPages: Record<TierOneLocale, LearnPageContent> = {
         id: "understand",
         number: "01",
         title: "理解拼图切割线",
-        description: "先理解几何组成：外边界、内部切割线、连接轮廓，以及交给其他应用的 SVG。",
-        outcome: "分清 JigsawDesigner 生成的内容，以及仍需按设备决定的设置。",
+        description: "从切割图入手：拼图外轮廓、分片切割线、互锁轮廓和可选的 Whimsy 具象异形片，再区分设计几何与 SVG 衔接文件。",
+        outcome: "分清生成器自动创建的内容、需要手工设计的内容，以及仍需按设备决定的设置。",
         entries: [
           {
             id: "cutline-primer",
             stage: "understand",
             title: "拼图刀模包含什么",
-            description: "区分外轮廓、内部切割线、卡槽轮廓与可编辑 SVG 结果。",
+            description: "区分拼图外轮廓、分片切割线、互锁轮廓、可选的 Whimsy 具象异形片与可编辑 SVG 输出。",
             href: "/jigsaw-dieline-generator",
             difficulty: "beginner",
             duration: "6 分钟",
@@ -773,14 +773,14 @@ export const learnPages: Record<TierOneLocale, LearnPageContent> = {
         id: "understand",
         number: "01",
         title: "理解拼圖切割線",
-        description: "先理解幾何組成：外邊界、內部切割線、連接輪廓，以及交給其他應用程式的 SVG。",
-        outcome: "分清 JigsawDesigner 產生的內容，以及仍需按裝置決定的設定。",
+        description: "從切割圖入手：拼圖外輪廓、分片切割線、互鎖輪廓和可選的 Whimsy 具象異形片，再區分設計幾何與 SVG 銜接檔案。",
+        outcome: "分清產生器自動建立的內容、需要手動設計的內容，以及仍需按裝置決定的設定。",
         entries: [
           {
             id: "cutline-primer",
             stage: "understand",
             title: "拼圖刀模包含什麼",
-            description: "區分外輪廓、內部切割線、卡槽輪廓與可編輯 SVG 結果。",
+            description: "區分拼圖外輪廓、分片切割線、互鎖輪廓、可選的 Whimsy 具象異形片與可編輯 SVG 輸出。",
             href: "/jigsaw-dieline-generator",
             difficulty: "beginner",
             duration: "6 分鐘",

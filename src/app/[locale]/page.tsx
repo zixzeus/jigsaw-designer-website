@@ -419,24 +419,65 @@ function FaqToggleIcon() {
 }
 
 function CutlineDiagram({content}: {content: HomePageContent["primer"]}) {
+  const markerPositions = {
+    perimeter: {x: 154, y: 82},
+    "piece-boundaries": {x: 385, y: 112},
+    interlock: {x: 278, y: 267},
+    whimsy: {x: 385, y: 218},
+  } as const;
+
   return (
-    <figure className="technical-grid overflow-hidden rounded-[1.6rem] border border-border p-4 md:p-6">
-      <svg role="img" aria-labelledby="cutline-diagram-title" viewBox="0 0 760 440" className="h-auto w-full text-foreground">
-        <title id="cutline-diagram-title">{content.title}</title>
-        <defs><marker id="diagram-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="currentColor" /></marker></defs>
-        <path d="M154 82C220 42 310 69 370 53C440 34 548 54 598 111C650 171 631 267 589 331C546 397 445 378 373 389C291 402 177 384 139 311C98 232 89 122 154 82Z" fill="var(--background)" stroke="currentColor" strokeWidth="4" />
-        <g fill="none" stroke="var(--primary)" strokeWidth="3">
-          <path d="M248 67C249 107 248 130 260 153C278 188 310 171 310 203C310 235 278 217 260 251C248 275 249 327 247 380" />
-          <path d="M409 55C411 106 405 140 420 164C440 195 470 174 470 207C470 241 437 217 420 254C408 280 411 331 410 383" />
-          <path d="M118 205C177 207 206 199 232 215C264 235 243 267 278 267C311 267 287 236 325 217C355 201 389 208 421 216C455 225 469 253 498 245C527 237 510 207 549 200C576 195 602 205 626 207" />
-        </g>
-        <g fontSize="16" fontWeight="600" fill="currentColor">
-          <text x="24" y="54">{content.boundaryLabel}</text><path d="M119 57L156 87" stroke="currentColor" strokeWidth="2" markerEnd="url(#diagram-arrow)" />
-          <text x="535" y="44">{content.cutlineLabel}</text><path d="M584 51L472 159" stroke="currentColor" strokeWidth="2" markerEnd="url(#diagram-arrow)" />
-          <text x="24" y="409">{content.slotLabel}</text><path d="M116 398L258 260" stroke="currentColor" strokeWidth="2" markerEnd="url(#diagram-arrow)" />
-        </g>
-        <g transform="translate(535 354)"><rect width="172" height="48" rx="24" fill="var(--primary-dark)" /><text x="86" y="30" textAnchor="middle" fontSize="15" fontWeight="700" fill="white">{content.svgLabel}</text></g>
-      </svg>
+    <figure className="overflow-hidden rounded-[1.6rem] border border-border bg-background">
+      <div className="technical-grid p-4 md:p-6">
+        <svg role="img" aria-labelledby="cutline-diagram-title cutline-diagram-description" viewBox="0 0 760 420" className="h-auto w-full text-foreground">
+          <title id="cutline-diagram-title">{content.title}</title>
+          <desc id="cutline-diagram-description">{content.intro}</desc>
+
+          <path d="M154 82C220 42 310 69 370 53C440 34 548 54 598 111C650 171 631 267 589 331C546 397 445 378 373 389C291 402 177 384 139 311C98 232 89 122 154 82Z" fill="var(--background)" stroke="currentColor" strokeWidth="4" />
+
+          <g fill="none" stroke="var(--primary)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3">
+            <path d="M385 51C383 91 376 119 385 165" />
+            <path d="M118 205C177 207 206 199 232 215C264 235 243 267 278 267C307 267 290 232 330 205" />
+            <path d="M440 205C475 202 487 185 511 194C535 203 518 228 546 235C572 241 601 224 626 207" />
+            <path d="M352 268C330 292 307 291 295 317C282 344 275 365 247 380" />
+            <path d="M418 268C438 292 436 319 425 343C418 357 414 371 410 383" />
+          </g>
+
+          <path d="M385 165L399 203L440 205L407 229L418 268L385 246L352 268L363 229L330 205L371 203Z" fill="var(--primary-ultra-light)" stroke="var(--primary)" strokeLinejoin="round" strokeWidth="4" />
+
+          <circle cx="278" cy="267" r="28" fill="none" stroke="var(--primary)" strokeDasharray="5 7" strokeWidth="2" />
+
+          {content.parts.map((part) => {
+            const {x, y} = markerPositions[part.id];
+            return (
+              <g key={part.id} transform={`translate(${x} ${y})`} aria-hidden="true">
+                <circle r="22" fill="var(--primary-dark)" stroke="var(--background)" strokeWidth="4" />
+                <text y="6" textAnchor="middle" fontSize="16" fontWeight="800" fill="white">{part.number.replace(/^0/, "")}</text>
+              </g>
+            );
+          })}
+        </svg>
+      </div>
+
+      <figcaption className="border-t border-border p-5 md:p-6">
+        <ol className="grid gap-x-7 gap-y-5 sm:grid-cols-2">
+          {content.parts.map((part) => (
+            <li key={part.id} className="flex gap-3">
+              <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary-dark text-xs font-bold tabular-nums text-white" aria-hidden="true">{part.number.replace(/^0/, "")}</span>
+              <div>
+                <h3 className="font-semibold leading-6">{part.title}</h3>
+                <p className="mt-1 text-sm leading-6 text-gray-600 dark:text-gray-300">{part.description}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+        <p className="mt-6 flex items-center gap-2 border-t border-border pt-4 text-sm font-semibold text-primary-dark dark:text-primary-light">
+          <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5 shrink-0" fill="none">
+            <path d="M7 3.5h7l4 4V20.5H7zM14 3.5v4h4M10 13h5M10 16h4" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.6" />
+          </svg>
+          <span>{content.svgLabel}</span>
+        </p>
+      </figcaption>
     </figure>
   );
 }
