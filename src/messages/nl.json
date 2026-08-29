@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Uitgebracht - Probeer het nu!",
-        "titlePart1": "Zet een gesloten contour om in",
-        "titleProfessional": "bewerkbare snijlijnen voor puzzels",
-        "subtitle": "Teken of importeer een omtrek, genereer het patroon, verfijn de vectoren en exporteer SVG op iPhone, iPad of Mac.",
+        "titlePart1": "Maak aangepaste snijlijnen voor legpuzzels",
+        "titleProfessional": "van elke contour",
+        "subtitle": "Teken of importeer een vectorcontour, genereer het patroon, verfijn elk pad en exporteer een bewerkbare SVG op Mac, iPad of iPhone.",
         "learnMore": "Bekijk hoe het werkt"
     },
     "Features": {

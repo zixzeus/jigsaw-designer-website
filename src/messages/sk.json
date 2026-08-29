@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Vydané - Vyskúšajte teraz!",
-        "titlePart1": "Premeňte uzavretý obrys na",
-        "titleProfessional": "upraviteľné rezné línie skladačky",
-        "subtitle": "Nakreslite alebo importujte obrys, vygenerujte vzor, upravte vektory a exportujte SVG na iPhone, iPade alebo Macu.",
+        "titlePart1": "Vytvorte vlastné rezné línie skladačky",
+        "titleProfessional": "z ľubovoľného obrysu",
+        "subtitle": "Nakreslite alebo importujte vektorový obrys, vygenerujte vzor, dolaďte každú krivku a exportujte upraviteľný súbor SVG na Mac, iPad alebo iPhone.",
         "learnMore": "Pozrite sa, ako to funguje"
     },
     "Features": {

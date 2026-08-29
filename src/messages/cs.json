@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Vydáno - Vyzkoušejte nyní!",
-        "titlePart1": "Převeďte uzavřený obrys na",
-        "titleProfessional": "upravitelné řezné linie skládačky",
-        "subtitle": "Nakreslete nebo importujte obrys, vygenerujte vzor, upravte vektory a exportujte SVG na iPhonu, iPadu nebo Macu.",
+        "titlePart1": "Vytvořte vlastní řezné linie skládačky",
+        "titleProfessional": "z libovolného obrysu",
+        "subtitle": "Nakreslete nebo importujte vektorový obrys, vygenerujte vzor, dolaďte každou křivku a exportujte upravitelný soubor SVG na Mac, iPad nebo iPhone.",
         "learnMore": "Podívejte se, jak to funguje"
     },
     "Features": {

@@ -1,6 +1,6 @@
 {
   "sourceLocale": "en",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "entries": [
     {
       "id": "t_005931875dea6673",
@@ -1471,13 +1471,6 @@
       "text": "Selection and locked layers",
       "paths": [
         "content.help.troubleshooting.highlights.0"
-      ]
-    },
-    {
-      "id": "t_48b54ac0bcccaf6c",
-      "text": "Turn a closed outline into editable puzzle cutlines",
-      "paths": [
-        "content.home.hero.title"
       ]
     },
     {
@@ -3320,6 +3313,13 @@
       ]
     },
     {
+      "id": "t_a947481046025be4",
+      "text": "Draw or import a vector boundary, generate the pattern, refine every path, and export an editable SVG—on Mac, iPad, or iPhone.",
+      "paths": [
+        "content.home.hero.subtitle"
+      ]
+    },
+    {
       "id": "t_a957ae1205a1f3be",
       "text": "Contact support with the platform, app version shown in the App Store build, a minimal project, and clear reproduction steps. Do not send sensitive credentials.",
       "paths": [
@@ -3359,6 +3359,13 @@
       "text": "Generated jigsaw cutlines selected with resize and rotation handles in JigsawDesigner 1.6.0",
       "paths": [
         "content.changelog.1-6-0.sections.1.image.alt"
+      ]
+    },
+    {
+      "id": "t_ac67b07638b7b8c2",
+      "text": "Create custom jigsaw cutlines from any outline",
+      "paths": [
+        "content.home.hero.title"
       ]
     },
     {
@@ -3408,13 +3415,6 @@
       "text": "JigsawDesigner Advanced Settings with SVG selected as the export format",
       "paths": [
         "content.marketing.how-to-make-a-laser-cut-jigsaw-puzzle.sections.3.image.alt"
-      ]
-    },
-    {
-      "id": "t_ae9001e0feea15cc",
-      "text": "Draw or import a vector boundary, choose a slot profile, generate the internal pattern, then refine the SVG before it leaves your project.",
-      "paths": [
-        "content.home.hero.subtitle"
       ]
     },
     {

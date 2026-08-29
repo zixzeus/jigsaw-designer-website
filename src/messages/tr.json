@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Yayında - Şimdi deneyin!",
-        "titlePart1": "Kapalı bir konturu",
-        "titleProfessional": "düzenlenebilir yapboz kesim çizgilerine dönüştürün",
-        "subtitle": "Bir sınır çizin veya içe aktarın, deseni oluşturun, vektörleri düzenleyin ve iPhone, iPad ya da Mac'te SVG olarak dışa aktarın.",
+        "titlePart1": "Özel yapboz kesim çizgileri oluşturun",
+        "titleProfessional": "istediğiniz konturdan",
+        "subtitle": "Vektörel bir kontur çizin veya içe aktarın, yapboz desenini oluşturun, yolları düzenleyin ve düzenlenebilir SVG’yi Mac, iPad ya da iPhone’da dışa aktarın.",
         "learnMore": "Nasıl çalıştığını görün"
     },
     "Features": {

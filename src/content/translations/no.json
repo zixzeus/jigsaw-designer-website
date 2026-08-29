@@ -1,6 +1,6 @@
 {
   "locale": "no",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_847b0cbf4dbf2a73": "Tapper og innhakk",
     "t_79c526f3f800b527": "JigsawDesigner bruker den valgte sammenføyningsmalen på egnede kanter som skiller brikkene, og beholder resultatet som redigerbar SVG-geometri. Whimsy-brikker må utformes eller importeres og kontrolleres manuelt; generatoren oppretter dem ikke automatisk. Materiale, skjærebredde, effekt, hastighet og sikkerhetsinnstillinger hører til i den etterfølgende arbeidsflyten.",
@@ -215,7 +215,6 @@
     "t_478341f4cb406298": "Bruk Command-tasten med følgende bokstaver.",
     "t_47949e4491e24210": "Versjon 1.6.0 gir jevnere Pencil-resultater og arbeidsflyter for å fortsette eller koble åpne konturer. Kontroller koblingen og bruk Point Edit hvis overgangen må finjusteres.",
     "t_47d9376ca2628698": "Markering og låste lag",
-    "t_48b54ac0bcccaf6c": "Gjør en lukket kontur om til redigerbare skjærelinjer",
     "t_49458590d2a690cc": "Er puslespillgenerering ubegrenset for gratisbrukere?",
     "t_49e2600c80771570": "Neste redigering",
     "t_4ae1cde8f0342504": "Project Info inneholder prosjektnavn, lerretsstørrelse, puslespillparametere, dokumentstatistikk og genereringskontroller. Disse verdiene gjelder dokumentet, ikke én valgt form.",
@@ -471,7 +470,6 @@
     "t_ae2a805b3c9d4f27": "Redigering av individuelle ankerpunkter er fortsatt tilgjengelig etter generering.",
     "t_ae34582a7c0f895e": "⌘E — Eksporter SVG",
     "t_ae4412ffe3ed64ab": "Advanced Settings i JigsawDesigner med SVG valgt som eksportformat",
-    "t_ae9001e0feea15cc": "Tegn eller importer en vektorkontur, velg en forbindelsesprofil, generer det interne mønsteret og finjuster SVG-en før den forlater prosjektet.",
     "t_aea8e5664d14f70a": "Vektorredigering",
     "t_aebf904e678b92ca": "Panelet Templates i JigsawDesigner",
     "t_aed803b462b51198": "Generert SVG",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Det samme hovedverktøyet er tilgjengelig på Mac, iPad og iPhone. Skjermbildene nedenfor kommer fra gjeldende produktbygg 1.6.",
     "t_fdef1dadbf6ec469": "Bør jeg beholde JigsawDesigner-prosjektet etter eksport?",
     "t_ffb2d87c7083dd60": "Produktskjermbilde · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG er gjeldende eksportformat."
+    "t_ffe6531e435f3292": "SVG er gjeldende eksportformat.",
+    "t_ac67b07638b7b8c2": "Lag tilpassede skjærelinjer for puslespill fra en hvilken som helst kontur",
+    "t_a947481046025be4": "Tegn eller importer en vektorgrense, generer mønsteret, finjuster hver bane og eksporter en redigerbar SVG på Mac, iPad eller iPhone."
   }
 }

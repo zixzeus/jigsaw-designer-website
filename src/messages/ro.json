@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Lansat - Încercați acum!",
-        "titlePart1": "Transformă un contur închis în",
-        "titleProfessional": "linii de tăiere editabile pentru puzzle",
-        "subtitle": "Desenează sau importă un contur, generează modelul, ajustează vectorii și exportă SVG pe iPhone, iPad sau Mac.",
+        "titlePart1": "Creați linii de tăiere personalizate pentru puzzle",
+        "titleProfessional": "din orice contur",
+        "subtitle": "Desenați sau importați un contur vectorial, generați modelul, rafinați fiecare traseu și exportați un SVG editabil pe Mac, iPad sau iPhone.",
         "learnMore": "Vezi cum funcționează"
     },
     "Features": {

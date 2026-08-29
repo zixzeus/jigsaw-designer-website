@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Wydano - Wypróbuj teraz!",
-        "titlePart1": "Zamień zamknięty obrys w",
-        "titleProfessional": "edytowalne linie cięcia puzzli",
-        "subtitle": "Narysuj lub zaimportuj obrys, wygeneruj wzór, dopracuj wektory i wyeksportuj SVG na iPhonie, iPadzie lub Macu.",
+        "titlePart1": "Twórz niestandardowe linie cięcia puzzli",
+        "titleProfessional": "z dowolnego obrysu",
+        "subtitle": "Narysuj lub zaimportuj obrys wektorowy, wygeneruj wzór, dopracuj każdą ścieżkę i wyeksportuj edytowalny SVG—na urządzeniu Mac, iPad lub iPhone.",
         "learnMore": "Zobacz, jak to działa"
     },
     "Features": {

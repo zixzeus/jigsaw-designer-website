@@ -1,6 +1,6 @@
 {
   "locale": "nl",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_847b0cbf4dbf2a73": "Noppen en uitsparingen",
     "t_79c526f3f800b527": "JigsawDesigner past het gekozen verbindingssjabloon toe op geschikte randen die puzzelstukken van elkaar scheiden en bewaart het resultaat als bewerkbare SVG-geometrie. Whimsy-stukken moeten worden ontworpen of geïmporteerd en handmatig gecontroleerd; de generator maakt ze niet automatisch. Instellingen voor materiaal, snijbreedte, vermogen, snelheid en veiligheid blijven onderdeel van de vervolgworkflow.",
@@ -215,7 +215,6 @@
     "t_478341f4cb406298": "Gebruik de Command-toets met de volgende letters.",
     "t_47949e4491e24210": "Versie 1.6.0 levert vloeiendere Pencil-uitvoer en workflows om open contouren voort te zetten of te verbinden. Controleer de verbinding en gebruik Point Edit als de overgang moet worden verfijnd.",
     "t_47d9376ca2628698": "Selectie en vergrendelde lagen",
-    "t_48b54ac0bcccaf6c": "Een gesloten contour omzetten in bewerkbare puzzelsnijlijnen",
     "t_49458590d2a690cc": "Is puzzelgeneratie onbeperkt voor gratis gebruikers?",
     "t_49e2600c80771570": "Volgende bewerking",
     "t_4ae1cde8f0342504": "Project Info bevat projectnaam, canvasformaat, puzzelparameters, documentstatistieken en generatieknoppen. Deze waarden gelden voor het document, niet voor één geselecteerde vorm.",
@@ -471,7 +470,6 @@
     "t_ae2a805b3c9d4f27": "Bewerking op ankerpuntniveau blijft na generatie beschikbaar.",
     "t_ae34582a7c0f895e": "⌘E — SVG exporteren",
     "t_ae4412ffe3ed64ab": "Advanced Settings van JigsawDesigner met SVG als exportformaat",
-    "t_ae9001e0feea15cc": "Teken of importeer een vectorcontour, kies een verbindingsprofiel, genereer het interne patroon en verfijn de SVG voordat deze het project verlaat.",
     "t_aea8e5664d14f70a": "Vectorbewerking",
     "t_aebf904e678b92ca": "Paneel Templates van JigsawDesigner",
     "t_aed803b462b51198": "Gegenereerde SVG",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Dezelfde hoofdeditor is beschikbaar op Mac, iPad en iPhone. De schermafbeeldingen hieronder komen uit de huidige productbuild 1.6.",
     "t_fdef1dadbf6ec469": "Moet ik het JigsawDesigner-project na export bewaren?",
     "t_ffb2d87c7083dd60": "Productschermafbeelding · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG is het huidige exportformaat."
+    "t_ffe6531e435f3292": "SVG is het huidige exportformaat.",
+    "t_ac67b07638b7b8c2": "Maak aangepaste snijlijnen voor legpuzzels van elke contour",
+    "t_a947481046025be4": "Teken of importeer een vectorcontour, genereer het patroon, verfijn elk pad en exporteer een bewerkbare SVG op Mac, iPad of iPhone."
   }
 }

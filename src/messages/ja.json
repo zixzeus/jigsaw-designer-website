@@ -15,9 +15,9 @@
   },
   "Hero": {
     "version": "{version} リリース - 今すぐ体験",
-    "titlePart1": "閉じた輪郭から",
-    "titleProfessional": "編集可能なパズルのカットラインを生成",
-    "subtitle": "境界線を描画または読み込み、パターンを生成してベクターを調整し、iPhone、iPad、MacでSVGを書き出せます。",
+    "titlePart1": "任意の輪郭から",
+    "titleProfessional": "ジグソーパズル用のカスタムカットラインを作成",
+    "subtitle": "Mac、iPad、iPhone でベクターの輪郭を描画または読み込み、パターンを生成し、各パスを調整して、編集可能な SVG として書き出せます。",
     "learnMore": "使い方を見る"
   },
   "Features": {

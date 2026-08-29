@@ -1,6 +1,6 @@
 {
   "locale": "fi",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_847b0cbf4dbf2a73": "Ulokkeet ja kolot",
     "t_79c526f3f800b527": "JigsawDesigner käyttää valittua liitosmallia soveltuvilla, paloja erottavilla reunoilla ja säilyttää tuloksen muokattavana SVG-geometriana. Whimsy-palat on suunniteltava tai tuotava ja tarkistettava käsin; generaattori ei luo niitä automaattisesti. Materiaali, leikkausvara, teho, nopeus ja turvallisuusasetukset kuuluvat jatkovaiheeseen.",
@@ -215,7 +215,6 @@
     "t_478341f4cb406298": "Käytä Command-näppäintä seuraavien kirjainten kanssa.",
     "t_47949e4491e24210": "Versio 1.6.0 tukee tasaisempaa Pencil-tulosta sekä avoimien ääriviivojen jatkamista ja yhdistämistä. Tarkista liitos ja käytä Point Edit -toimintoa, kun siirtymä tarvitsee viimeistelyä.",
     "t_47d9376ca2628698": "Valinta ja lukitut tasot",
-    "t_48b54ac0bcccaf6c": "Muunna suljettu ääriviiva muokattaviksi palapelin leikkauslinjoiksi",
     "t_49458590d2a690cc": "Onko palapelin generointi rajatonta ilmaisille käyttäjille?",
     "t_49e2600c80771570": "Seuraava muokkaus",
     "t_4ae1cde8f0342504": "Project Info sisältää projektin nimen, piirtoalueen koon, palapelin parametrit, dokumentin tilastot ja generointiohjaimet. Nämä arvot koskevat dokumenttia, eivät yksittäistä valittua muotoa.",
@@ -471,7 +470,6 @@
     "t_ae2a805b3c9d4f27": "Ankkuripistetason muokkaukset ovat käytettävissä myös generoinnin jälkeen.",
     "t_ae34582a7c0f895e": "⌘E — Vie SVG",
     "t_ae4412ffe3ed64ab": "JigsawDesigner Advanced Settings, jossa SVG on valittu vientimuodoksi",
-    "t_ae9001e0feea15cc": "Piirrä tai tuo vektoriraja, valitse liitosprofiili, generoi sisäinen kuvio ja viimeistele SVG ennen sen siirtämistä projektista.",
     "t_aea8e5664d14f70a": "Vektorimuokkaus",
     "t_aebf904e678b92ca": "JigsawDesigner Templates -paneeli",
     "t_aed803b462b51198": "Generoitu SVG",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Sama peruseditori on käytettävissä Macilla, iPadilla ja iPhonella. Alla olevat näyttökuvat ovat nykyisestä 1.6-tuoteversiosta.",
     "t_fdef1dadbf6ec469": "Kannattaako JigsawDesigner-projekti säilyttää viennin jälkeen?",
     "t_ffb2d87c7083dd60": "Tuotteen näyttökuva · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG on nykyinen vientimuoto."
+    "t_ffe6531e435f3292": "SVG on nykyinen vientimuoto.",
+    "t_ac67b07638b7b8c2": "Luo mukautetut palapelin leikkauslinjat mistä tahansa ääriviivasta",
+    "t_a947481046025be4": "Piirrä tai tuo vektorirajaus, luo kuvio, viimeistele jokainen polku ja vie muokattava SVG Macilla, iPadilla tai iPhonella."
   }
 }

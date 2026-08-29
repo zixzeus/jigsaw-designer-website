@@ -15,9 +15,9 @@
   },
   "Hero": {
     "version": "版本 {version} 現已上架 App Store",
-    "titlePart1": "將封閉輪廓變成",
-    "titleProfessional": "可編輯拼圖切割線",
-    "subtitle": "繪製或匯入邊界、產生拼圖、調整向量，並在 iPhone、iPad 或 Mac 上匯出 SVG。",
+    "titlePart1": "從任意輪廓建立",
+    "titleProfessional": "自訂拼圖切割線",
+    "subtitle": "繪製或匯入向量邊界、產生切割圖樣、逐條調整路徑，再於 Mac、iPad 或 iPhone 匯出可編輯的 SVG。",
     "learnMore": "查看使用方式"
   },
   "Features": {

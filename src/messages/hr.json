@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Objavljeno - Isprobajte sada!",
-        "titlePart1": "Pretvorite zatvorenu konturu u",
-        "titleProfessional": "rezne linije slagalice koje možete uređivati",
-        "subtitle": "Nacrtajte ili uvezite obris, generirajte uzorak, uredite vektore i izvezite SVG na iPhoneu, iPadu ili Macu.",
+        "titlePart1": "Izradite prilagođene rezne linije slagalice",
+        "titleProfessional": "iz bilo koje konture",
+        "subtitle": "Nacrtajte ili uvezite vektorsku granicu, generirajte uzorak, doradite svaku putanju i izvezite SVG koji se može uređivati na Macu, iPadu ili iPhoneu.",
         "learnMore": "Pogledajte kako radi"
     },
     "Features": {

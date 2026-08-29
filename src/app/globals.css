@@ -85,6 +85,12 @@ a {
   text-wrap: pretty;
 }
 
+@media (min-width: 80rem) {
+  .home-hero-shell {
+    padding-inline-start: clamp(2rem, calc((100vw - 80rem) / 2 + 2rem), 7rem);
+  }
+}
+
 .technical-grid {
   background-color: var(--background-secondary);
   background-image:

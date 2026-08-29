@@ -1,6 +1,6 @@
 {
   "locale": "ro",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_847b0cbf4dbf2a73": "Proeminențe și adâncituri",
     "t_79c526f3f800b527": "JigsawDesigner aplică șablonul de îmbinare selectat muchiilor eligibile care separă piesele și păstrează rezultatul ca geometrie SVG editabilă. Piesele Whimsy trebuie proiectate sau importate și verificate manual; generatorul nu le creează automat. Setările pentru material, lățimea tăieturii, putere, viteză și siguranță rămân în fluxul ulterior.",
@@ -215,7 +215,6 @@
     "t_478341f4cb406298": "Folosește tasta Command împreună cu literele următoare.",
     "t_47949e4491e24210": "Versiunea 1.6.0 acceptă rezultate Pencil mai line și fluxuri pentru continuarea sau unirea contururilor deschise. Verifică îmbinarea și folosește Point Edit când tranziția necesită rafinare.",
     "t_47d9376ca2628698": "Selecție și straturi blocate",
-    "t_48b54ac0bcccaf6c": "Transformă un contur închis în linii de tăiere editabile pentru puzzle",
     "t_49458590d2a690cc": "Generarea puzzle-ului este nelimitată pentru utilizatorii planului gratuit?",
     "t_49e2600c80771570": "Următoarea editare",
     "t_4ae1cde8f0342504": "Project Info conține numele proiectului, dimensiunea pânzei, parametrii puzzle-ului, statisticile documentului și controalele de generare. Aceste valori se aplică documentului, nu unei singure forme selectate.",
@@ -471,7 +470,6 @@
     "t_ae2a805b3c9d4f27": "Editările la nivel de ancoră rămân disponibile după generare.",
     "t_ae34582a7c0f895e": "⌘E — Exportă SVG",
     "t_ae4412ffe3ed64ab": "JigsawDesigner Advanced Settings cu SVG selectat ca format de export",
-    "t_ae9001e0feea15cc": "Desenează sau importă o limită vectorială, alege un profil de îmbinare, generează modelul interior, apoi rafinează SVG-ul înainte de a-l scoate din proiect.",
     "t_aea8e5664d14f70a": "Editare vectorială",
     "t_aebf904e678b92ca": "Panoul JigsawDesigner Templates",
     "t_aed803b462b51198": "SVG generat",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Același editor de bază este disponibil pe Mac, iPad și iPhone. Capturile de mai jos provin din versiunea actuală 1.6 a produsului.",
     "t_fdef1dadbf6ec469": "Ar trebui să păstrez proiectul JigsawDesigner după export?",
     "t_ffb2d87c7083dd60": "Captură de ecran a produsului · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG este formatul actual de export."
+    "t_ffe6531e435f3292": "SVG este formatul actual de export.",
+    "t_ac67b07638b7b8c2": "Creați linii de tăiere personalizate pentru puzzle din orice contur",
+    "t_a947481046025be4": "Desenați sau importați un contur vectorial, generați modelul, rafinați fiecare traseu și exportați un SVG editabil pe Mac, iPad sau iPhone."
   }
 }

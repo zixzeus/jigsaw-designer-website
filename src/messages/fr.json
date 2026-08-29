@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Disponible - Essayez maintenant !",
-        "titlePart1": "Transformez un contour fermé en",
-        "titleProfessional": "lignes de puzzle SVG modifiables",
-        "subtitle": "Dessinez ou importez un contour, générez le motif, ajustez les vecteurs et exportez le SVG sur iPhone, iPad ou Mac.",
+        "titlePart1": "Créez des lignes de découpe de puzzle",
+        "titleProfessional": "personnalisées à partir de n’importe quel contour",
+        "subtitle": "Tracez ou importez un contour vectoriel, générez le motif, affinez chaque tracé, puis exportez un SVG modifiable sur Mac, iPad ou iPhone.",
         "learnMore": "Voir comment ça marche"
     },
     "Features": {

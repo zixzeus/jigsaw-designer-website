@@ -1,6 +1,6 @@
 {
   "locale": "id",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_005931875dea6673": "Gambar dan edit geometri vektor",
     "t_00930abd465038d1": "Perpustakaan proyek",
@@ -198,7 +198,6 @@
     "t_478341f4cb406298": "Gunakan tombol Command bersama huruf berikut.",
     "t_47949e4491e24210": "Versi 1.6.0 mendukung keluaran Pencil yang lebih halus serta alur kerja untuk melanjutkan atau menyambungkan kontur terbuka. Periksa sambungan dan gunakan Point Edit bila transisinya perlu disempurnakan.",
     "t_47d9376ca2628698": "Seleksi dan lapisan terkunci",
-    "t_48b54ac0bcccaf6c": "Ubah garis luar tertutup menjadi garis potong puzzle yang dapat diedit",
     "t_49458590d2a690cc": "Apakah pembuatan puzzle tanpa batas untuk pengguna gratis?",
     "t_49e2600c80771570": "Edit berikutnya",
     "t_4ae1cde8f0342504": "Project Info memuat nama proyek, ukuran kanvas, parameter puzzle, statistik dokumen, dan kontrol pembuatan. Nilai ini berlaku untuk dokumen, bukan satu bentuk yang dipilih.",
@@ -464,7 +463,6 @@
     "t_ae2a805b3c9d4f27": "Pengeditan tingkat jangkar tetap tersedia setelah pembuatan.",
     "t_ae34582a7c0f895e": "⌘E — Ekspor SVG",
     "t_ae4412ffe3ed64ab": "JigsawDesigner Advanced Settings dengan SVG dipilih sebagai format ekspor",
-    "t_ae9001e0feea15cc": "Gambar atau impor batas vektor, pilih profil slot, buat pola internal, lalu sempurnakan SVG sebelum meninggalkan proyek Anda.",
     "t_aea8e5664d14f70a": "Pengeditan vektor",
     "t_aebf904e678b92ca": "Panel JigsawDesigner Templates",
     "t_aed803b462b51198": "SVG hasil pembuatan",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Editor inti yang sama tersedia di Mac, iPad, dan iPhone. Tangkapan layar berikut berasal dari build produk 1.6 saat ini.",
     "t_fdef1dadbf6ec469": "Haruskah saya menyimpan proyek JigsawDesigner setelah mengekspor?",
     "t_ffb2d87c7083dd60": "Tangkapan layar produk · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG adalah format ekspor saat ini."
+    "t_ffe6531e435f3292": "SVG adalah format ekspor saat ini.",
+    "t_ac67b07638b7b8c2": "Buat garis potong puzzle kustom dari kontur apa pun",
+    "t_a947481046025be4": "Gambar atau impor kontur vektor, buat pola puzzle, rapikan setiap path, lalu ekspor SVG yang dapat diedit—langsung di Mac, iPad, atau iPhone."
   }
 }

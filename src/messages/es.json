@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Lanzado - ¡Pruébalo ahora!",
-        "titlePart1": "Convierte un contorno cerrado en",
-        "titleProfessional": "líneas de corte de rompecabezas editables",
-        "subtitle": "Dibuja o importa un contorno, genera el patrón, ajusta los vectores y exporta SVG en iPhone, iPad o Mac.",
+        "titlePart1": "Crea líneas de corte de rompecabezas",
+        "titleProfessional": "personalizadas a partir de cualquier contorno",
+        "subtitle": "Dibuja o importa un contorno vectorial, genera el patrón, perfecciona cada trazado y exporta un SVG editable en Mac, iPad o iPhone.",
         "learnMore": "Mira cómo funciona"
     },
     "Features": {

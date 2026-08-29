@@ -1,6 +1,6 @@
 {
   "locale": "fr",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_847b0cbf4dbf2a73": "Tenons et mortaises",
     "t_79c526f3f800b527": "JigsawDesigner applique le modèle d’encoche sélectionné aux bords admissibles qui séparent les pièces et conserve le résultat sous forme de géométrie SVG modifiable. Les pièces Whimsy doivent être conçues ou importées puis vérifiées manuellement ; le générateur ne les crée pas automatiquement. Les réglages de matériau, de largeur de coupe, de puissance, de vitesse et de sécurité restent à effectuer en aval.",
@@ -215,7 +215,6 @@
     "t_478341f4cb406298": "Utilisez la touche Command avec les lettres suivantes.",
     "t_47949e4491e24210": "La version 1.6.0 améliore le lissage du tracé Pencil ainsi que les flux permettant de prolonger ou de raccorder des contours ouverts. Examinez le raccord et utilisez Point Edit si la transition doit être affinée.",
     "t_47d9376ca2628698": "Sélection et calques verrouillés",
-    "t_48b54ac0bcccaf6c": "Transformer un contour fermé en lignes de découpe de puzzle modifiables",
     "t_49458590d2a690cc": "La génération de puzzles est-elle illimitée pour les utilisateurs de l’offre gratuite ?",
     "t_49e2600c80771570": "Prochaine modification",
     "t_4ae1cde8f0342504": "Project Info regroupe le nom du projet, la taille du canevas, les paramètres du puzzle, les statistiques du document et les commandes de génération. Ces valeurs s’appliquent au document, et non à une forme sélectionnée individuellement.",
@@ -471,7 +470,6 @@
     "t_ae2a805b3c9d4f27": "Les modifications au niveau des points d’ancrage restent disponibles après la génération.",
     "t_ae34582a7c0f895e": "⌘E — Exporter le SVG",
     "t_ae4412ffe3ed64ab": "Advanced Settings de JigsawDesigner avec SVG sélectionné comme format d’export",
-    "t_ae9001e0feea15cc": "Dessinez ou importez un contour vectoriel, choisissez un profil d’encoche, générez le motif interne, puis affinez le SVG avant qu’il ne quitte votre projet.",
     "t_aea8e5664d14f70a": "Modification vectorielle",
     "t_aebf904e678b92ca": "Panneau Templates de JigsawDesigner",
     "t_aed803b462b51198": "SVG généré",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Le même éditeur principal est disponible sur Mac, iPad et iPhone. Les captures ci-dessous proviennent de la version 1.6 actuelle du produit.",
     "t_fdef1dadbf6ec469": "Dois-je conserver le projet JigsawDesigner après l’export ?",
     "t_ffb2d87c7083dd60": "Capture du produit · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG est le format d’export actuel."
+    "t_ffe6531e435f3292": "SVG est le format d’export actuel.",
+    "t_ac67b07638b7b8c2": "Créez des lignes de découpe de puzzle personnalisées à partir de n’importe quel contour",
+    "t_a947481046025be4": "Tracez ou importez un contour vectoriel, générez le motif, affinez chaque tracé, puis exportez un SVG modifiable sur Mac, iPad ou iPhone."
   }
 }

@@ -15,9 +15,9 @@
   },
   "Hero": {
     "version": "Version {version} is on the App Store",
-    "titlePart1": "Turn a closed outline into",
-    "titleProfessional": "editable puzzle cutlines",
-    "subtitle": "Draw or import a boundary, generate the pattern, refine the vectors, and export SVG on iPhone, iPad, or Mac.",
+    "titlePart1": "Create custom jigsaw cutlines",
+    "titleProfessional": "from any outline",
+    "subtitle": "Draw or import a vector boundary, generate the pattern, refine every path, and export an editable SVG—on Mac, iPad, or iPhone.",
     "learnMore": "See how it works"
   },
   "Features": {

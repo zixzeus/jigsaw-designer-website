@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Rilasciato - Provalo ora!",
-        "titlePart1": "Trasforma un contorno chiuso in",
-        "titleProfessional": "linee di taglio per puzzle modificabili",
-        "subtitle": "Disegna o importa un contorno, genera il motivo, perfeziona i vettori ed esporta SVG su iPhone, iPad o Mac.",
+        "titlePart1": "Crea linee di taglio personalizzate per puzzle",
+        "titleProfessional": "da qualsiasi contorno",
+        "subtitle": "Disegna o importa un contorno vettoriale, genera il motivo, perfeziona ogni tracciato ed esporta un SVG modificabile su Mac, iPad o iPhone.",
         "learnMore": "Scopri come funziona"
     },
     "Features": {

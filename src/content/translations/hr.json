@@ -1,6 +1,6 @@
 {
   "locale": "hr",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_847b0cbf4dbf2a73": "Izbočine i udubljenja",
     "t_79c526f3f800b527": "JigsawDesigner primjenjuje odabrani predložak spoja na prikladne rubove koji razdvajaju dijelove i zadržava rezultat kao uređivu SVG geometriju. Dijelove Whimsy potrebno je dizajnirati ili uvesti te ručno pregledati; generator ih ne stvara automatski. Materijal, širina reza, snaga, brzina i sigurnosne postavke određuju se u naknadnom postupku.",
@@ -215,7 +215,6 @@
     "t_478341f4cb406298": "Upotrijebite tipku Command sa sljedećim slovima.",
     "t_47949e4491e24210": "Verzija 1.6.0 podržava glađi Pencil izlaz i tijekove za nastavak ili spajanje otvorenih kontura. Pregledajte spoj i upotrijebite Point Edit kada prijelaz treba doraditi.",
     "t_47d9376ca2628698": "Odabir i zaključani slojevi",
-    "t_48b54ac0bcccaf6c": "Pretvorite zatvoreni obris u rezne linije koje se mogu uređivati",
     "t_49458590d2a690cc": "Je li generiranje slagalica neograničeno za besplatne korisnike?",
     "t_49e2600c80771570": "Sljedeća izmjena",
     "t_4ae1cde8f0342504": "Project Info sadrži naziv projekta, veličinu platna, parametre slagalice, statistiku dokumenta i kontrole generiranja. Vrijednosti se odnose na dokument, a ne na pojedini odabrani oblik.",
@@ -471,7 +470,6 @@
     "t_ae2a805b3c9d4f27": "Uređivanje sidrišnih točaka ostaje dostupno nakon generiranja.",
     "t_ae34582a7c0f895e": "⌘E — Izvezi SVG",
     "t_ae4412ffe3ed64ab": "Advanced Settings u JigsawDesigner sa SVG odabranim kao format izvoza",
-    "t_ae9001e0feea15cc": "Nacrtajte ili uvezite vektorsku granicu, odaberite profil spoja, generirajte unutarnji uzorak i doradite SVG prije predaje.",
     "t_aea8e5664d14f70a": "Vektorsko uređivanje",
     "t_aebf904e678b92ca": "Panel Templates u JigsawDesigner",
     "t_aed803b462b51198": "Generirani SVG",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Isti glavni uređivač dostupan je na uređajima Mac, iPad i iPhone. Snimke su iz trenutačne verzije 1.6.",
     "t_fdef1dadbf6ec469": "Trebam li sačuvati projekt JigsawDesigner nakon izvoza?",
     "t_ffb2d87c7083dd60": "Snimka proizvoda · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG je trenutačni format izvoza."
+    "t_ffe6531e435f3292": "SVG je trenutačni format izvoza.",
+    "t_ac67b07638b7b8c2": "Izradite prilagođene rezne linije slagalice iz bilo koje konture",
+    "t_a947481046025be4": "Nacrtajte ili uvezite vektorsku granicu, generirajte uzorak, doradite svaku putanju i izvezite SVG koji se može uređivati na Macu, iPadu ili iPhoneu."
   }
 }

@@ -1,6 +1,6 @@
 {
   "locale": "pl",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_847b0cbf4dbf2a73": "Wypusty i wcięcia",
     "t_79c526f3f800b527": "JigsawDesigner stosuje wybrany szablon połączenia do odpowiednich krawędzi rozdzielających elementy i zachowuje wynik jako edytowalną geometrię SVG. Elementy Whimsy trzeba zaprojektować lub zaimportować i sprawdzić ręcznie; generator nie tworzy ich automatycznie. Materiał, szczelina cięcia, moc, prędkość i ustawienia bezpieczeństwa pozostają po stronie dalszego etapu produkcji.",
@@ -215,7 +215,6 @@
     "t_478341f4cb406298": "Używaj klawisza Command z następującymi literami.",
     "t_47949e4491e24210": "Wersja 1.6.0 obsługuje płynniejszy wynik Pencil oraz procesy kontynuowania i łączenia otwartych konturów. Sprawdź połączenie i użyj Point Edit, gdy przejście wymaga dopracowania.",
     "t_47d9376ca2628698": "Zaznaczenie i zablokowane warstwy",
-    "t_48b54ac0bcccaf6c": "Zamień zamknięty obrys w edytowalne linie cięcia puzzli",
     "t_49458590d2a690cc": "Czy użytkownicy bezpłatni mogą generować puzzle bez ograniczeń?",
     "t_49e2600c80771570": "Następna edycja",
     "t_4ae1cde8f0342504": "Project Info zawiera nazwę projektu, rozmiar obszaru roboczego, parametry puzzli, statystyki dokumentu i elementy sterujące generowaniem. Wartości te dotyczą dokumentu, a nie pojedynczego zaznaczonego kształtu.",
@@ -471,7 +470,6 @@
     "t_ae2a805b3c9d4f27": "Edycja na poziomie punktów kotwiczenia pozostaje dostępna po wygenerowaniu.",
     "t_ae34582a7c0f895e": "⌘E — Eksportuj SVG",
     "t_ae4412ffe3ed64ab": "Advanced Settings w JigsawDesigner z SVG wybranym jako format eksportu",
-    "t_ae9001e0feea15cc": "Narysuj lub zaimportuj granicę wektorową, wybierz profil łączenia, wygeneruj wewnętrzny wzór i dopracuj SVG przed przekazaniem go poza projekt.",
     "t_aea8e5664d14f70a": "Edycja wektorowa",
     "t_aebf904e678b92ca": "Panel Templates w JigsawDesigner",
     "t_aed803b462b51198": "Wygenerowany SVG",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Ten sam główny edytor jest dostępny na urządzeniach Mac, iPad i iPhone. Poniższe zrzuty pochodzą z bieżącej wersji produktu 1.6.",
     "t_fdef1dadbf6ec469": "Czy zachować projekt JigsawDesigner po eksporcie?",
     "t_ffb2d87c7083dd60": "Zrzut ekranu produktu · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG jest bieżącym formatem eksportu."
+    "t_ffe6531e435f3292": "SVG jest bieżącym formatem eksportu.",
+    "t_ac67b07638b7b8c2": "Twórz niestandardowe linie cięcia puzzli z dowolnego obrysu",
+    "t_a947481046025be4": "Narysuj lub zaimportuj obrys wektorowy, wygeneruj wzór, dopracuj każdą ścieżkę i wyeksportuj edytowalny SVG—na urządzeniu Mac, iPad lub iPhone."
   }
 }

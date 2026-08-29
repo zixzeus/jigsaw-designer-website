@@ -134,8 +134,8 @@ export const HOME_PAGES: Record<TierOneLocale, HomePageContent> = {
   en: {
     hero: {
       eyebrow: `JigsawDesigner ${PRODUCT_FACTS.currentVersion} · iPhone, iPad, and Mac`,
-      title: "Turn a closed outline into editable puzzle cutlines",
-      subtitle: "Draw or import a vector boundary, choose a slot profile, generate the internal pattern, then refine the SVG before it leaves your project.",
+      title: "Create custom jigsaw cutlines from any outline",
+      subtitle: "Draw or import a vector boundary, generate the pattern, refine every path, and export an editable SVG—on Mac, iPad, or iPhone.",
       primaryLabel: "View on the App Store",
       secondaryLabel: "See the workflow",
       inputLabel: "Boundary",
@@ -304,8 +304,8 @@ export const HOME_PAGES: Record<TierOneLocale, HomePageContent> = {
   "zh-Hans": {
     hero: {
       eyebrow: `JigsawDesigner ${PRODUCT_FACTS.currentVersion} · iPhone、iPad 与 Mac`,
-      title: "把闭合轮廓变成可编辑拼图切割线",
-      subtitle: "绘制或导入矢量边界，选择卡槽轮廓，生成内部图案，再在项目中继续调整 SVG。",
+      title: "从任意轮廓创建自定义拼图切割线",
+      subtitle: "绘制或导入矢量边界，生成切割图案，逐条调整路径，再在 Mac、iPad 或 iPhone 上导出可编辑的 SVG。",
       primaryLabel: "前往 App Store",
       secondaryLabel: "查看工作流程",
       inputLabel: "原始边界",
@@ -395,8 +395,8 @@ export const HOME_PAGES: Record<TierOneLocale, HomePageContent> = {
   "zh-Hant": {
     hero: {
       eyebrow: `JigsawDesigner ${PRODUCT_FACTS.currentVersion} · iPhone、iPad 與 Mac`,
-      title: "把封閉輪廓變成可編輯拼圖切割線",
-      subtitle: "繪製或匯入向量邊界、選擇卡槽輪廓、產生內部圖樣，再於專案中繼續調整 SVG。",
+      title: "從任意輪廓建立自訂拼圖切割線",
+      subtitle: "繪製或匯入向量邊界、產生切割圖樣、逐條調整路徑，再於 Mac、iPad 或 iPhone 匯出可編輯的 SVG。",
       primaryLabel: "前往 App Store",
       secondaryLabel: "查看工作流程",
       inputLabel: "原始邊界",

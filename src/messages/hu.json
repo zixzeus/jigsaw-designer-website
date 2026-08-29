@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Megjelent - Próbálja ki most!",
-        "titlePart1": "Alakítson egy zárt körvonalat",
-        "titleProfessional": "szerkeszthető kirakó-vágóvonalakká",
-        "subtitle": "Rajzoljon vagy importáljon körvonalat, hozza létre a mintát, finomítsa a vektorokat, majd exportáljon SVG-t iPhone-on, iPaden vagy Macen.",
+        "titlePart1": "Készítsen egyedi kirakó-vágóvonalakat",
+        "titleProfessional": "bármilyen körvonalból",
+        "subtitle": "Rajzoljon vagy importáljon vektoros határvonalat, hozza létre a mintát, finomítsa az egyes útvonalakat, majd exportáljon szerkeszthető SVG-t Macen, iPaden vagy iPhone-on.",
         "learnMore": "Nézze meg, hogyan működik"
     },
     "Features": {

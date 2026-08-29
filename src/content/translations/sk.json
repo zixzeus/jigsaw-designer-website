@@ -1,6 +1,6 @@
 {
   "locale": "sk",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_847b0cbf4dbf2a73": "Výstupky a priehlbiny",
     "t_79c526f3f800b527": "JigsawDesigner použije vybranú šablónu spoja na vhodné hrany oddeľujúce dieliky a výsledok zachová ako upraviteľnú geometriu SVG. Dieliky Whimsy je potrebné navrhnúť alebo importovať a ručne skontrolovať; generátor ich nevytvára automaticky. Materiál, šírka rezu, výkon, rýchlosť a bezpečnostné nastavenia zostávajú súčasťou následného procesu.",
@@ -215,7 +215,6 @@
     "t_478341f4cb406298": "Použite kláves Command s nasledujúcimi písmenami.",
     "t_47949e4491e24210": "Verzia 1.6.0 podporuje plynulejší výstup Pencil a pracovné postupy na pokračovanie alebo spájanie otvorených obrysov. Skontrolujte spoj a použite Point Edit, keď prechod vyžaduje doladenie.",
     "t_47d9376ca2628698": "Výber a uzamknuté vrstvy",
-    "t_48b54ac0bcccaf6c": "Premeňte uzavretý obrys na upraviteľné rezné línie skladačky",
     "t_49458590d2a690cc": "Je generovanie skladačiek pre bezplatných používateľov neobmedzené?",
     "t_49e2600c80771570": "Nasledujúca úprava",
     "t_4ae1cde8f0342504": "Project Info obsahuje názov projektu, veľkosť plátna, parametre skladačky, štatistiky dokumentu a ovládacie prvky generovania. Tieto hodnoty platia pre dokument, nie pre jednotlivý vybraný tvar.",
@@ -471,7 +470,6 @@
     "t_ae2a805b3c9d4f27": "Úpravy na úrovni kotviacich bodov zostávajú dostupné aj po generovaní.",
     "t_ae34582a7c0f895e": "⌘E — Exportovať SVG",
     "t_ae4412ffe3ed64ab": "JigsawDesigner Advanced Settings s SVG vybraným ako formát exportu",
-    "t_ae9001e0feea15cc": "Nakreslite alebo importujte vektorovú hranicu, vyberte profil spoja, vygenerujte vnútorný vzor a pred opustením projektu dolaďte SVG.",
     "t_aea8e5664d14f70a": "Vektorové úpravy",
     "t_aebf904e678b92ca": "Panel JigsawDesigner Templates",
     "t_aed803b462b51198": "Vygenerované SVG",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Rovnaký základný editor je dostupný na Macu, iPade a iPhone. Nasledujúce snímky obrazovky pochádzajú z aktuálnej produktovej verzie 1.6.",
     "t_fdef1dadbf6ec469": "Mám si projekt JigsawDesigner po exporte ponechať?",
     "t_ffb2d87c7083dd60": "Snímka obrazovky produktu · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG je aktuálny formát exportu."
+    "t_ffe6531e435f3292": "SVG je aktuálny formát exportu.",
+    "t_ac67b07638b7b8c2": "Vytvorte vlastné rezné línie skladačky z ľubovoľného obrysu",
+    "t_a947481046025be4": "Nakreslite alebo importujte vektorový obrys, vygenerujte vzor, dolaďte každú krivku a exportujte upraviteľný súbor SVG na Mac, iPad alebo iPhone."
   }
 }

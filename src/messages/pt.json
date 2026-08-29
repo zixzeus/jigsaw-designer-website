@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Lançado - Experimente agora!",
-        "titlePart1": "Transforme um contorno fechado em",
-        "titleProfessional": "linhas de corte editáveis para puzzles",
-        "subtitle": "Desenhe ou importe um contorno, gere o padrão, ajuste os vetores e exporte SVG no iPhone, iPad ou Mac.",
+        "titlePart1": "Crie linhas de corte personalizadas para quebra-cabeças",
+        "titleProfessional": "a partir de qualquer contorno",
+        "subtitle": "Desenhe ou importe um contorno vetorial, gere o padrão, refine cada caminho e exporte um SVG editável no Mac, iPad ou iPhone.",
         "learnMore": "Veja como funciona"
     },
     "Features": {

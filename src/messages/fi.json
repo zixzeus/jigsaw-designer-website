@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Julkaistu - Kokeile nyt!",
-        "titlePart1": "Muunna suljettu ääriviiva",
-        "titleProfessional": "muokattaviksi palapelin leikkauslinjoiksi",
-        "subtitle": "Piirrä tai tuo rajaus, luo kuvio, viimeistele vektorit ja vie SVG iPhonella, iPadilla tai Macilla.",
+        "titlePart1": "Luo mukautetut palapelin leikkauslinjat",
+        "titleProfessional": "mistä tahansa ääriviivasta",
+        "subtitle": "Piirrä tai tuo vektorirajaus, luo kuvio, viimeistele jokainen polku ja vie muokattava SVG Macilla, iPadilla tai iPhonella.",
         "learnMore": "Katso, miten se toimii"
     },
     "Features": {

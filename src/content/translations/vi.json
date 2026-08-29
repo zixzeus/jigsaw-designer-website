@@ -1,6 +1,6 @@
 {
   "locale": "vi",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_005931875dea6673": "Vẽ và chỉnh sửa hình học vector",
     "t_00930abd465038d1": "Thư viện dự án",
@@ -198,7 +198,6 @@
     "t_478341f4cb406298": "Dùng phím Command cùng các chữ cái sau.",
     "t_47949e4491e24210": "Phiên bản 1.6.0 hỗ trợ nét Pencil mượt hơn và quy trình tiếp tục hoặc nối đường bao mở. Kiểm tra mối nối và dùng Point Edit nếu đoạn chuyển tiếp cần tinh chỉnh.",
     "t_47d9376ca2628698": "Vùng chọn và lớp bị khóa",
-    "t_48b54ac0bcccaf6c": "Biến đường bao kín thành đường cắt ghép hình có thể chỉnh sửa",
     "t_49458590d2a690cc": "Người dùng miễn phí có được tạo ghép hình không giới hạn không?",
     "t_49e2600c80771570": "Bước chỉnh sửa tiếp theo",
     "t_4ae1cde8f0342504": "Project Info chứa tên dự án, kích thước vùng vẽ, thông số ghép hình, thống kê tài liệu và điều khiển tạo. Các giá trị này áp dụng cho tài liệu chứ không phải một hình riêng lẻ đang chọn.",
@@ -464,7 +463,6 @@
     "t_ae2a805b3c9d4f27": "Vẫn có thể chỉnh sửa ở cấp điểm neo sau khi tạo.",
     "t_ae34582a7c0f895e": "⌘E — Xuất SVG",
     "t_ae4412ffe3ed64ab": "Advanced Settings của JigsawDesigner với SVG được chọn làm định dạng xuất",
-    "t_ae9001e0feea15cc": "Vẽ hoặc nhập đường biên vector, chọn biên dạng khớp nối, tạo mẫu bên trong rồi tinh chỉnh SVG trước khi chuyển khỏi dự án.",
     "t_aea8e5664d14f70a": "Chỉnh sửa vector",
     "t_aebf904e678b92ca": "Bảng Templates của JigsawDesigner",
     "t_aed803b462b51198": "SVG đã tạo",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Cùng một trình chỉnh sửa cốt lõi có trên Mac, iPad và iPhone. Các ảnh chụp dưới đây lấy từ bản dựng sản phẩm 1.6 hiện tại.",
     "t_fdef1dadbf6ec469": "Tôi có nên giữ dự án JigsawDesigner sau khi xuất không?",
     "t_ffb2d87c7083dd60": "Ảnh chụp sản phẩm · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG là định dạng xuất hiện tại."
+    "t_ffe6531e435f3292": "SVG là định dạng xuất hiện tại.",
+    "t_ac67b07638b7b8c2": "Tạo đường cắt tranh ghép tùy chỉnh từ bất kỳ đường viền nào",
+    "t_a947481046025be4": "Vẽ hoặc nhập đường biên vector, tạo mẫu ghép hình, tinh chỉnh từng đường dẫn rồi xuất SVG có thể chỉnh sửa—ngay trên Mac, iPad hoặc iPhone."
   }
 }

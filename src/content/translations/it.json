@@ -1,6 +1,6 @@
 {
   "locale": "it",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_847b0cbf4dbf2a73": "Sporgenze e incavi",
     "t_79c526f3f800b527": "JigsawDesigner applica il modello di incastro selezionato ai bordi idonei che separano i pezzi e conserva il risultato come geometria SVG modificabile. I pezzi Whimsy devono essere progettati o importati e controllati manualmente; il generatore non li crea automaticamente. Le impostazioni di materiale, larghezza di taglio, potenza, velocità e sicurezza restano affidate al flusso di lavoro successivo.",
@@ -215,7 +215,6 @@
     "t_478341f4cb406298": "Usa il tasto Command con le lettere seguenti.",
     "t_47949e4491e24210": "La versione 1.6.0 offre un risultato Pencil più uniforme e flussi per proseguire o unire i contorni aperti. Controlla la giunzione e usa Point Edit quando la transizione richiede una rifinitura.",
     "t_47d9376ca2628698": "Selezione e livelli bloccati",
-    "t_48b54ac0bcccaf6c": "Trasforma un contorno chiuso in linee di taglio modificabili per puzzle",
     "t_49458590d2a690cc": "La generazione di puzzle è illimitata per gli utenti gratuiti?",
     "t_49e2600c80771570": "Modifica successiva",
     "t_4ae1cde8f0342504": "Project Info contiene nome del progetto, dimensioni del canvas, parametri del puzzle, statistiche del documento e comandi di generazione. Questi valori si applicano al documento, non a una singola forma selezionata.",
@@ -471,7 +470,6 @@
     "t_ae2a805b3c9d4f27": "Le modifiche a livello dei punti di ancoraggio restano disponibili dopo la generazione.",
     "t_ae34582a7c0f895e": "⌘E — Esporta SVG",
     "t_ae4412ffe3ed64ab": "Advanced Settings di JigsawDesigner con SVG selezionato come formato di esportazione",
-    "t_ae9001e0feea15cc": "Disegna o importa un contorno vettoriale, scegli un profilo di incastro, genera il motivo interno e rifinisci il SVG prima che esca dal progetto.",
     "t_aea8e5664d14f70a": "Modifica vettoriale",
     "t_aebf904e678b92ca": "Pannello Templates di JigsawDesigner",
     "t_aed803b462b51198": "SVG generato",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Lo stesso editor principale è disponibile su Mac, iPad e iPhone. Le schermate seguenti provengono dall’attuale build 1.6 del prodotto.",
     "t_fdef1dadbf6ec469": "Devo conservare il progetto JigsawDesigner dopo l’esportazione?",
     "t_ffb2d87c7083dd60": "Schermata del prodotto · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG è il formato di esportazione attuale."
+    "t_ffe6531e435f3292": "SVG è il formato di esportazione attuale.",
+    "t_ac67b07638b7b8c2": "Crea linee di taglio personalizzate per puzzle da qualsiasi contorno",
+    "t_a947481046025be4": "Disegna o importa un contorno vettoriale, genera il motivo, perfeziona ogni tracciato ed esporta un SVG modificabile su Mac, iPad o iPhone."
   }
 }

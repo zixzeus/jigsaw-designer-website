@@ -1,6 +1,6 @@
 {
   "locale": "hu",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_847b0cbf4dbf2a73": "Fülek és bemélyedések",
     "t_79c526f3f800b527": "A JigsawDesigner a kiválasztott kapcsolatsablont az arra alkalmas, darabokat elválasztó élekre alkalmazza, az eredményt pedig szerkeszthető SVG-geometriaként őrzi meg. A Whimsy darabokat meg kell tervezni vagy importálni, majd kézzel ellenőrizni; a generátor nem hozza létre őket automatikusan. Az anyag, a vágási hézag, a teljesítmény, a sebesség és a biztonsági beállítások a későbbi munkafázishoz tartoznak.",
@@ -215,7 +215,6 @@
     "t_478341f4cb406298": "Használja a Command billentyűt a következő betűkkel.",
     "t_47949e4491e24210": "Az 1.6.0 verzió simább Pencil-kimenetet és a nyitott körvonalak folytatására vagy összekapcsolására szolgáló munkafolyamatokat támogat. Ellenőrizze az illesztést, és használja a Point Edit funkciót, ha az átmenet finomításra szorul.",
     "t_47d9376ca2628698": "Kijelölés és zárolt rétegek",
-    "t_48b54ac0bcccaf6c": "Zárt körvonal átalakítása szerkeszthető kirakó-vágóvonalakká",
     "t_49458590d2a690cc": "Korlátlan a kirakógenerálás az ingyenes felhasználók számára?",
     "t_49e2600c80771570": "Következő szerkesztés",
     "t_4ae1cde8f0342504": "A Project Info tartalmazza a projekt nevét, a vászon méretét, a kirakóparamétereket, a dokumentumstatisztikákat és a generálási vezérlőket. Ezek az értékek a dokumentumra, nem pedig egy kijelölt alakzatra vonatkoznak.",
@@ -471,7 +470,6 @@
     "t_ae2a805b3c9d4f27": "A horgonypontszintű szerkesztések generálás után is elérhetők.",
     "t_ae34582a7c0f895e": "⌘E — SVG exportálása",
     "t_ae4412ffe3ed64ab": "JigsawDesigner Advanced Settings, SVG-vel kijelölt exportformátumként",
-    "t_ae9001e0feea15cc": "Rajzoljon vagy importáljon vektoros határvonalat, válasszon csatlakozóprofilt, generálja a belső mintát, majd finomítsa az SVG-t, mielőtt elhagyja a projektet.",
     "t_aea8e5664d14f70a": "Vektorszerkesztés",
     "t_aebf904e678b92ca": "A JigsawDesigner Templates panelje",
     "t_aed803b462b51198": "Generált SVG",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Ugyanaz az alapvető szerkesztő érhető el Macen, iPaden és iPhone-on. Az alábbi képernyőképek a jelenlegi 1.6 termékverzióból származnak.",
     "t_fdef1dadbf6ec469": "Meg kell tartanom a JigsawDesigner-projektet exportálás után?",
     "t_ffb2d87c7083dd60": "Termékképernyőkép · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "Az SVG a jelenlegi exportformátum."
+    "t_ffe6531e435f3292": "Az SVG a jelenlegi exportformátum.",
+    "t_ac67b07638b7b8c2": "Készítsen egyedi kirakó-vágóvonalakat bármilyen körvonalból",
+    "t_a947481046025be4": "Rajzoljon vagy importáljon vektoros határvonalat, hozza létre a mintát, finomítsa az egyes útvonalakat, majd exportáljon szerkeszthető SVG-t Macen, iPaden vagy iPhone-on."
   }
 }

@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Udgivet - Prøv det nu!",
-        "titlePart1": "Lav en lukket kontur om til",
-        "titleProfessional": "redigerbare skærelinjer til puslespil",
-        "subtitle": "Tegn eller importér et omrids, generér mønsteret, juster vektorerne, og eksportér SVG på iPhone, iPad eller Mac.",
+        "titlePart1": "Opret tilpassede skærelinjer til puslespil",
+        "titleProfessional": "fra enhver kontur",
+        "subtitle": "Tegn eller importér en vektorgrænse, generér mønsteret, finjustér hver kurve, og eksportér en redigerbar SVG på Mac, iPad eller iPhone.",
         "learnMore": "Se, hvordan det virker"
     },
     "Features": {

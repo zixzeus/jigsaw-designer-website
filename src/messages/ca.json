@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Llançat - Prova-ho ara!",
-        "titlePart1": "Converteix un contorn tancat en",
-        "titleProfessional": "línies de tall de trencaclosques editables",
-        "subtitle": "Dibuixa o importa un contorn, genera el patró, ajusta els vectors i exporta SVG a l'iPhone, l'iPad o el Mac.",
+        "titlePart1": "Crea línies de tall personalitzades per a trencaclosques",
+        "titleProfessional": "a partir de qualsevol contorn",
+        "subtitle": "Dibuixa o importa un contorn vectorial, genera el patró, perfecciona cada traçat i exporta un SVG editable al Mac, l’iPad o l’iPhone.",
         "learnMore": "Consulta com funciona"
     },
     "Features": {

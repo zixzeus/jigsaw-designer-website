@@ -51,15 +51,18 @@ export async function generateMetadata({params}: {params: HomeParams}): Promise<
   const {locale} = await params;
   if (!isSiteLocale(locale) || !isRouteAvailable("/", locale)) notFound();
 
+  const hero = await getTranslations({locale, namespace: "Hero"});
   const fullContent = getFullHomeContent(locale);
   if (fullContent) {
     const content = fullContent.content;
-    return createPageMetadata({locale, pathname: "/", title: content.hero.title, description: content.hero.subtitle});
+    const title = [...content.hero.title].length > 75
+      ? hero("titlePart1")
+      : content.hero.title;
+    return createPageMetadata({locale, pathname: "/", title, description: content.hero.subtitle});
   }
 
-  const hero = await getTranslations({locale, namespace: "Hero"});
   const fullTitle = `${hero("titlePart1").replace(/<br\s*\/?\s*>/gi, " ").trim()} ${hero("titleProfessional")}`;
-  const title = fullTitle.length > 58 ? hero("titleProfessional") : fullTitle;
+  const title = [...fullTitle].length > 75 ? hero("titlePart1") : fullTitle;
   return createPageMetadata({locale, pathname: "/", title, description: hero("subtitle")});
 }
 
@@ -164,21 +167,21 @@ function TierOneHome({content, projects}: {content: HomePageContent; projects: H
   return (
     <main>
       <section className="overflow-hidden pt-28 pb-16 md:pt-36 md:pb-24">
-        <div className="mx-auto max-w-7xl px-5 md:px-8">
-          <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,0.72fr)_minmax(0,1.28fr)] lg:gap-14">
+        <div className="home-hero-shell mx-auto max-w-[90rem] px-5 md:px-8">
+          <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,0.72fr)_minmax(0,1.28fr)] lg:gap-10 xl:grid-cols-[minmax(22rem,0.68fr)_minmax(0,1.52fr)] xl:gap-12">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary-dark dark:text-primary-light">{content.hero.eyebrow}</p>
-              <h1 className="display-title mt-5 text-4xl font-semibold tracking-[-0.045em] sm:text-5xl md:text-6xl md:leading-[1.02]">{content.hero.title}</h1>
+              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary-dark dark:text-primary-light xl:text-[0.6875rem] xl:tracking-[0.13em]">{content.hero.eyebrow}</p>
+              <h1 className="display-title mt-5 text-4xl font-semibold tracking-[-0.045em] sm:text-5xl md:text-6xl md:leading-[1.02] xl:text-[3.5rem]">{content.hero.title}</h1>
               <p className="prose-copy mt-6 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-300">{content.hero.subtitle}</p>
-              <div className="mt-8 flex flex-wrap items-center gap-5">
-                <AppStoreCTA location="hero" pageId="home" label={content.hero.primaryLabel} className="inline-flex rounded-full bg-primary-dark px-6 py-3 font-semibold text-white transition-colors hover:bg-[#1452a3] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark focus-visible:ring-offset-2" />
+              <div className="mt-8 flex flex-wrap items-center gap-4">
+                <AppStoreCTA location="hero" pageId="home" label={content.hero.primaryLabel} className="inline-flex rounded-full bg-primary-dark px-5 py-3 font-semibold text-white transition-colors hover:bg-[#1452a3] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark focus-visible:ring-offset-2" />
                 <a href="#workflow" className="inline-flex items-center gap-2 font-semibold underline decoration-border underline-offset-8 transition-colors hover:text-primary-dark hover:decoration-primary dark:hover:text-primary-light">
                   {content.hero.secondaryLabel} <span aria-hidden="true">↓</span>
                 </a>
               </div>
             </div>
 
-            <div className="relative grid gap-3 sm:grid-cols-2 sm:items-end" aria-label={content.hero.title}>
+            <div className="relative grid gap-4 sm:grid-cols-2 sm:items-end" aria-label={content.hero.title}>
               <HeroEvidence label={content.hero.inputLabel} evidence={content.hero.input} />
               <HeroEvidence label={content.hero.resultLabel} evidence={content.hero.result} emphasized />
               <div className="pointer-events-none absolute inset-x-[28%] top-1/2 hidden h-px bg-primary/60 sm:block" aria-hidden="true">
@@ -352,7 +355,7 @@ function HeroEvidence({label, evidence, emphasized = false}: {label: string; evi
   return (
     <figure className={`relative overflow-hidden rounded-[1.25rem] border bg-background shadow-xl shadow-black/5 ${emphasized ? "border-primary/40 sm:-translate-y-5" : "border-border"}`} data-media-evidence="true" data-media-source={evidence.source.kind} data-media-source-label={evidence.source.label}>
       <div className="flex items-center justify-between border-b border-border px-4 py-3 text-xs"><span className="font-semibold">{label}</span><span className="text-gray-500">SVG</span></div>
-      <Image src={evidence.src} alt={evidence.alt} width={width} height={height} sizes="(max-width: 640px) calc(100vw - 2.5rem), 360px" className="h-auto w-full" priority />
+      <Image src={evidence.src} alt={evidence.alt} width={width} height={height} sizes="(max-width: 639px) calc(100vw - 2.5rem), (max-width: 767px) calc((100vw - 3.25rem) / 2), (max-width: 1023px) calc((100vw - 4.75rem) / 2), (max-width: 1279px) 29vw, 450px" className="h-auto w-full" loading="eager" priority />
       {evidence.source.kind === "ai-concept" ? <span data-concept-label="true" className="absolute start-3 top-14 rounded-full bg-black/75 px-3 py-1 text-xs font-semibold text-white">{evidence.conceptLabel}</span> : null}
     </figure>
   );

@@ -1,6 +1,6 @@
 {
   "locale": "de",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_847b0cbf4dbf2a73": "Nasen und Aussparungen",
     "t_79c526f3f800b527": "JigsawDesigner wendet die ausgewählte Schlitzvorlage auf geeignete Trennkanten zwischen Puzzleteilen an und bewahrt das Ergebnis als bearbeitbare SVG-Geometrie. Whimsy-Teile müssen entworfen oder importiert und manuell geprüft werden; der Generator erzeugt sie nicht automatisch. Material-, Schnittfugen-, Leistungs-, Geschwindigkeits- und Sicherheitseinstellungen bleiben dem nachgelagerten Arbeitsablauf vorbehalten.",
@@ -215,7 +215,6 @@
     "t_478341f4cb406298": "Verwenden Sie die Befehlstaste zusammen mit den folgenden Buchstaben.",
     "t_47949e4491e24210": "Version 1.6.0 unterstützt glattere Pencil-Ausgaben sowie Arbeitsabläufe zum Fortsetzen oder Verbinden offener Konturen. Prüfen Sie die Verbindung und verwenden Sie Point Edit, wenn der Übergang verfeinert werden muss.",
     "t_47d9376ca2628698": "Auswahl und gesperrte Ebenen",
-    "t_48b54ac0bcccaf6c": "Eine geschlossene Kontur in bearbeitbare Puzzle-Schnittlinien verwandeln",
     "t_49458590d2a690cc": "Ist die Puzzle-Generierung für kostenlose Nutzer unbegrenzt?",
     "t_49e2600c80771570": "Nächster Bearbeitungsschritt",
     "t_4ae1cde8f0342504": "Project Info enthält Projektname, Größe der Arbeitsfläche, Puzzle-Parameter, Dokumentstatistik und Generierungssteuerung. Diese Werte gelten für das Dokument und nicht für eine einzelne ausgewählte Form.",
@@ -471,7 +470,6 @@
     "t_ae2a805b3c9d4f27": "Bearbeitungen auf Ankerebene bleiben nach der Generierung verfügbar.",
     "t_ae34582a7c0f895e": "⌘E — SVG exportieren",
     "t_ae4412ffe3ed64ab": "JigsawDesigner Advanced Settings mit SVG als ausgewähltem Exportformat",
-    "t_ae9001e0feea15cc": "Zeichnen oder importieren Sie eine Vektorbegrenzung, wählen Sie ein Schlitzprofil, erzeugen Sie das innere Muster und verfeinern Sie das SVG, bevor es das Projekt verlässt.",
     "t_aea8e5664d14f70a": "Vektorbearbeitung",
     "t_aebf904e678b92ca": "Bereich Templates in JigsawDesigner",
     "t_aed803b462b51198": "Erzeugtes SVG",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Derselbe grundlegende Editor ist auf Mac, iPad und iPhone verfügbar. Die folgenden Bildschirmaufnahmen stammen aus dem aktuellen Produkt-Build 1.6.",
     "t_fdef1dadbf6ec469": "Sollte ich das JigsawDesigner-Projekt nach dem Export behalten?",
     "t_ffb2d87c7083dd60": "Produktbildschirm · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG ist das aktuelle Exportformat."
+    "t_ffe6531e435f3292": "SVG ist das aktuelle Exportformat.",
+    "t_ac67b07638b7b8c2": "Erstellen Sie individuelle Puzzle-Schnittlinien aus jeder Kontur",
+    "t_a947481046025be4": "Zeichnen oder importieren Sie eine Vektorkontur, erzeugen Sie das Muster, verfeinern Sie jeden Pfad und exportieren Sie ein bearbeitbares SVG – auf Mac, iPad oder iPhone."
   }
 }

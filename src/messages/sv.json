@@ -15,9 +15,9 @@
     },
     "Hero": {
         "version": "{version} Lanserad - Prova det nu!",
-        "titlePart1": "Förvandla en sluten kontur till",
-        "titleProfessional": "redigerbara skärlinjer för pussel",
-        "subtitle": "Rita eller importera en kontur, skapa mönstret, justera vektorerna och exportera SVG på iPhone, iPad eller Mac.",
+        "titlePart1": "Skapa anpassade skärlinjer för pussel",
+        "titleProfessional": "från valfri kontur",
+        "subtitle": "Rita eller importera en vektorgräns, generera mönstret, finjustera varje bana och exportera en redigerbar SVG på Mac, iPad eller iPhone.",
         "learnMore": "Se hur det fungerar"
     },
     "Features": {

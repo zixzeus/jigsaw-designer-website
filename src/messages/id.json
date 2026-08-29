@@ -15,9 +15,9 @@
   },
   "Hero": {
     "version": "{version} Dirilis - Coba sekarang!",
-    "titlePart1": "Ubah kontur tertutup menjadi",
-    "titleProfessional": "garis potong puzzle yang dapat diedit",
-    "subtitle": "Gambar atau impor batas, buat pola, sesuaikan vektor, lalu ekspor SVG di iPhone, iPad, atau Mac.",
+    "titlePart1": "Buat garis potong puzzle kustom",
+    "titleProfessional": "dari kontur apa pun",
+    "subtitle": "Gambar atau impor kontur vektor, buat pola puzzle, rapikan setiap path, lalu ekspor SVG yang dapat diedit—langsung di Mac, iPad, atau iPhone.",
     "learnMore": "Lihat cara kerjanya"
   },
   "Features": {

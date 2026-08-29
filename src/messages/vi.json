@@ -15,9 +15,9 @@
   },
   "Hero": {
     "version": "{version} Đã phát hành - Thử ngay!",
-    "titlePart1": "Biến một đường viền khép kín thành",
-    "titleProfessional": "đường cắt tranh ghép có thể chỉnh sửa",
-    "subtitle": "Vẽ hoặc nhập đường biên, tạo mẫu, tinh chỉnh các đường vector và xuất SVG trên iPhone, iPad hoặc Mac.",
+    "titlePart1": "Tạo đường cắt tranh ghép tùy chỉnh",
+    "titleProfessional": "từ bất kỳ đường viền nào",
+    "subtitle": "Vẽ hoặc nhập đường biên vector, tạo mẫu ghép hình, tinh chỉnh từng đường dẫn rồi xuất SVG có thể chỉnh sửa—ngay trên Mac, iPad hoặc iPhone.",
     "learnMore": "Xem cách hoạt động"
   },
   "Features": {

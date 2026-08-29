@@ -1,6 +1,6 @@
 {
   "locale": "ca",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_847b0cbf4dbf2a73": "Pestanyes i buits",
     "t_79c526f3f800b527": "JigsawDesigner aplica la plantilla d’encaix seleccionada a les vores aptes que separen les peces i conserva el resultat com a geometria SVG editable. Les peces Whimsy s’han de dissenyar o importar i comprovar manualment; el generador no les crea automàticament. Els paràmetres de material, amplada de tall, potència, velocitat i seguretat continuen pertanyent al flux posterior.",
@@ -215,7 +215,6 @@
     "t_478341f4cb406298": "Utilitza la tecla Command amb les lletres següents.",
     "t_47949e4491e24210": "La versió 1.6.0 ofereix un resultat Pencil més suau i fluxos per continuar o unir contorns oberts. Examina la unió i utilitza Point Edit quan calgui refinar-la.",
     "t_47d9376ca2628698": "Selecció i capes bloquejades",
-    "t_48b54ac0bcccaf6c": "Converteix un contorn tancat en línies editables",
     "t_49458590d2a690cc": "La generació és il·limitada per als usuaris gratuïts?",
     "t_49e2600c80771570": "Edició següent",
     "t_4ae1cde8f0342504": "Project Info conté el nom, la mida del llenç, els paràmetres, les estadístiques i els controls. Aquests valors s’apliquen al document, no a una forma seleccionada.",
@@ -471,7 +470,6 @@
     "t_ae2a805b3c9d4f27": "Les edicions dels ancoratges continuen disponibles després de generar.",
     "t_ae34582a7c0f895e": "⌘E — Exporta SVG",
     "t_ae4412ffe3ed64ab": "Advanced Settings de JigsawDesigner amb SVG seleccionat com a format d’exportació",
-    "t_ae9001e0feea15cc": "Dibuixa o importa un contorn vectorial, tria un perfil, genera el patró interior i refina l’SVG abans de transferir-lo.",
     "t_aea8e5664d14f70a": "Edició vectorial",
     "t_aebf904e678b92ca": "Tauler Templates de JigsawDesigner",
     "t_aed803b462b51198": "SVG generat",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "El mateix editor principal està disponible a Mac, iPad i iPhone. Les captures següents provenen de la versió 1.6 actual.",
     "t_fdef1dadbf6ec469": "He de conservar el projecte JigsawDesigner després d’exportar?",
     "t_ffb2d87c7083dd60": "Captura del producte · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG és el format d’exportació actual."
+    "t_ffe6531e435f3292": "SVG és el format d’exportació actual.",
+    "t_ac67b07638b7b8c2": "Crea línies de tall personalitzades per a trencaclosques a partir de qualsevol contorn",
+    "t_a947481046025be4": "Dibuixa o importa un contorn vectorial, genera el patró, perfecciona cada traçat i exporta un SVG editable al Mac, l’iPad o l’iPhone."
   }
 }

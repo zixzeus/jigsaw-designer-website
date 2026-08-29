@@ -1,6 +1,6 @@
 {
   "locale": "tr",
-  "sourceHash": "563f0e658e130729",
+  "sourceHash": "0ccf0aecf5eea3f0",
   "translations": {
     "t_005931875dea6673": "Vektör geometrisi çizin ve düzenleyin",
     "t_00930abd465038d1": "Proje kitaplığı",
@@ -198,7 +198,6 @@
     "t_478341f4cb406298": "Command tuşunu aşağıdaki harflerle birlikte kullanın.",
     "t_47949e4491e24210": "Sürüm 1.6.0, daha akıcı Pencil çıktısını ve açık konturları sürdürme ya da birleştirme iş akışlarını destekler. Birleşimi inceleyin ve geçişin iyileştirilmesi gerekiyorsa Point Edit'i kullanın.",
     "t_47d9376ca2628698": "Seçim ve kilitli katmanlar",
-    "t_48b54ac0bcccaf6c": "Kapalı bir konturu düzenlenebilir yapboz kesim çizgilerine dönüştürün",
     "t_49458590d2a690cc": "Ücretsiz kullanıcılar için yapboz üretimi sınırsız mı?",
     "t_49e2600c80771570": "Sonraki düzenleme",
     "t_4ae1cde8f0342504": "Project Info; proje adını, tuval boyutunu, yapboz parametrelerini, belge istatistiklerini ve üretim denetimlerini içerir. Bu değerler seçili tek bir şekle değil belgeye uygulanır.",
@@ -464,7 +463,6 @@
     "t_ae2a805b3c9d4f27": "Bağlantı noktası düzeyindeki düzenlemeler üretimden sonra da kullanılabilir.",
     "t_ae34582a7c0f895e": "⌘E — SVG'yi Dışa Aktar",
     "t_ae4412ffe3ed64ab": "Dışa aktarma biçimi olarak SVG seçiliyken JigsawDesigner Advanced Settings",
-    "t_ae9001e0feea15cc": "Bir vektör sınırı çizin veya içe aktarın, geçme profili seçin, iç deseni üretin ve SVG'yi projenizden çıkmadan önce iyileştirin.",
     "t_aea8e5664d14f70a": "Vektör düzenleme",
     "t_aebf904e678b92ca": "JigsawDesigner Templates paneli",
     "t_aed803b462b51198": "Oluşturulan SVG",
@@ -683,6 +681,8 @@
     "t_fd424a94ba5bdc50": "Aynı temel düzenleyici Mac, iPad ve iPhone'da kullanılabilir. Aşağıdaki ekran görüntüleri güncel 1.6 ürün derlemesinden alınmıştır.",
     "t_fdef1dadbf6ec469": "Dışa aktardıktan sonra JigsawDesigner projesini saklamalı mıyım?",
     "t_ffb2d87c7083dd60": "Ürün ekran görüntüsü · JigsawDesigner 1.6.0",
-    "t_ffe6531e435f3292": "SVG güncel dışa aktarma biçimidir."
+    "t_ffe6531e435f3292": "SVG güncel dışa aktarma biçimidir.",
+    "t_ac67b07638b7b8c2": "İstediğiniz konturdan özel yapboz kesim çizgileri oluşturun",
+    "t_a947481046025be4": "Vektörel bir kontur çizin veya içe aktarın, yapboz desenini oluşturun, yolları düzenleyin ve düzenlenebilir SVG’yi Mac, iPad ya da iPhone’da dışa aktarın."
   }
 }
