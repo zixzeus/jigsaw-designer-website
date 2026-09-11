@@ -135,6 +135,7 @@ export const SEO_ROUTES = [
   {pathname: "/help/jigsaw-generation", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
   {pathname: "/help/svg-import-export", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
   {pathname: "/help/vector-editing", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
+  {pathname: "/help/interface-guide", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
   {pathname: "/help/templates", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
   {pathname: "/help/project-library", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},
   {pathname: "/help/keyboard-shortcuts", kind: "guide", locales: FULL_CONTENT_LOCALES, indexable: true, includeInSitemap: true, changeFrequency: "monthly", priority: 0.7},

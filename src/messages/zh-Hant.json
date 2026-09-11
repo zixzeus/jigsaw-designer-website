@@ -1,46 +1,46 @@
 {
   "Navigation": {
-    "features": "特性",
+    "features": "功能",
     "product": "產品",
-    "showcase": "作品展示",
-    "learn": "學習",
+    "showcase": "作品",
+    "learn": "教學",
     "pricing": "價格",
     "download": "下載",
     "home": "首頁",
-    "support": "支援",
-    "help": "說明中心",
+    "support": "說明與支援",
+    "help": "使用說明",
     "language": "語言",
     "openMenu": "開啟選單",
     "closeMenu": "關閉選單"
   },
   "Hero": {
     "version": "版本 {version} 現已上架 App Store",
-    "titlePart1": "從任意輪廓建立",
-    "titleProfessional": "自訂拼圖切割線",
-    "subtitle": "繪製或匯入向量邊界、產生切割圖樣、逐條調整路徑，再於 Mac、iPad 或 iPhone 匯出可編輯的 SVG。",
-    "learnMore": "查看使用方式"
+    "titlePart1": "把喜歡的輪廓，",
+    "titleProfessional": "變成獨特的拼圖",
+    "subtitle": "畫出輪廓或匯入圖形，產生拼圖切割線，再慢慢調整每個細節。在 Mac、iPad 或 iPhone 上設計，匯出可編輯的 SVG。",
+    "learnMore": "看看怎麼做"
   },
   "Features": {
-    "title": "你可以做什麼",
-    "subtitle": "一套專注於拼圖切線產生與 SVG 編輯的工作流程。",
+    "title": "為你的拼圖，多添一點創意",
+    "subtitle": "從拼圖切割線到 SVG 編輯，設計需要的工具都在這裡。",
     "list": {
       "customization": {
-        "title": "準備邊界和卡槽輪廓",
-        "description": "繪製或匯入封閉的 SVG 邊界，然後選擇內建或自訂的開放路徑卡槽範本。"
+        "title": "從自己的圖形開始",
+        "description": "畫出封閉輪廓或匯入 SVG，再選擇內建拼接樣式，或設計自己的樣式。"
       },
       "workflow": {
-        "title": "產生可編輯的切線",
-        "description": "設定網格、拼圖片數和間距，然後將結果產生為可編輯的 SVG 群組。"
+        "title": "拼圖成形，還能繼續改",
+        "description": "調整網格、目標片數與間距，產生拼圖後，繼續修改曲線與細節。"
       },
       "anywhere": {
-        "title": "在 Apple 裝置上繼續工作",
-        "description": "在 iPhone、iPad 或 Mac 上工作；iCloud 同步可在啟用且可用時視需要使用。"
+        "title": "用順手的 Apple 裝置創作",
+        "description": "在 Mac、iPad 或 iPhone 上設計。開啟 iCloud 同步後，服務可用時即可同步專案。"
       }
     }
   },
   "Footer": {
-    "privacy": "隱私",
-    "support": "支援",
+    "privacy": "隱私權政策",
+    "support": "聯絡我們",
     "rights": "© {year} JigsawDesigner. 保留所有權利。",
     "pricing": "價格",
     "terms": "服務條款",
@@ -52,18 +52,18 @@
     "appStoreAria": "在 App Store 中檢視 JigsawDesigner"
   },
   "Pricing": {
-    "title": "JigsawDesigner 訂閱方案",
-    "subtitle": "可免費試用 {count} 次拼圖產生。Apple 每月或每年訂閱可解鎖無限產生和 SVG 匯出。",
+    "title": "免費開始，隨需升級",
+    "subtitle": "先免費試做 {count} 次拼圖。需要更多創作空間時，可透過 Apple 訂閱月繳或年繳 Premium 方案，解鎖不限次數製作拼圖與 SVG 匯出。",
     "monthly": {
-      "name": "每月訂閱",
+      "name": "月繳方案",
       "period": "由 Apple 按月計費"
     },
     "yearly": {
-      "name": "每年訂閱",
+      "name": "年繳方案",
       "period": "由 Apple 按年計費"
     },
     "features": {
-      "unlimited": "無限次拼圖產生",
+      "unlimited": "不限次數製作拼圖",
       "export": "SVG 匯出"
     },
     "cta": "前往 App Store"
@@ -112,7 +112,7 @@
     "dataCollection": {
       "title": "資料收集",
       "content": "應用主要在您的裝置上處理設計檔案。",
-      "content2": "啓用 iCloud 後，專案資料可能透過 Apple 的 iCloud 和 CloudKit 服務同步。公開發佈會將所選專案傳送到公開 CloudKit 資料庫，分享連結可向接收者提供所選專案的唯讀存取。",
+      "content2": "啟用 iCloud 後，專案資料可能透過 Apple 的 iCloud 和 CloudKit 服務同步。公開發佈會將所選專案傳送到公開 CloudKit 資料庫，分享連結可向接收者提供所選專案的唯讀存取。",
       "list": {
         "behavior": "當您主動選擇語言後，網站會將必要的語言偏好 Cookie 儲存最長一年。網站直接使用 Google Analytics 4 統計造訪和互動。根據 Google 的條款，Google 可能會接收分析識別碼、Cookie，以及裝置、瀏覽器和網路資訊。Cloudflare 會處理網站運作所需的請求、傳輸和安全防護資料。",
         "upload": "只有在您選擇載入或開啟第三方媒體或服務（例如影片服務供應商）後，網站才會與其連線；屆時適用該第三方的隱私條款。",
@@ -131,32 +131,32 @@
   },
   "Support": {
     "hero": {
-      "titlePart1": "我們如何",
-      "titlePart2": "協助您？",
-      "subtitle": "在說明中心尋找答案、排查常見問題，或聯絡支援。"
+      "titlePart1": "遇到問題？",
+      "titlePart2": "我們來幫你",
+      "subtitle": "查看使用指南、排解常見問題，或直接聯絡我們。"
     },
     "documentation": {
-      "title": "說明文件",
-      "description": "查看針對產生、編輯、範本、專案與 SVG 匯出的任務型指南。",
-      "action": "瀏覽文章"
+      "title": "使用指南",
+      "description": "學習如何製作拼圖、編輯圖形、使用範本、管理專案與匯出 SVG。",
+      "action": "瀏覽教學"
     },
     "email": {
-      "title": "電子郵件支援",
-      "description": "如需處理特定問題，請在電子郵件中註明平台、App 版本與清楚的重現步驟。"
+      "title": "來信聯絡我們",
+      "description": "請告訴我們遇到了什麼問題，並附上裝置型號、App 版本與操作步驟。"
     },
     "faq": {
       "title": "常見問題",
       "q1": {
         "question": "JigsawDesigner 是買斷制嗎？",
-        "answer": "JigsawDesigner 提供 Apple 每月和每年訂閱，價格以您所在 App Store 顯示為準。"
+        "answer": "目前採用訂閱制，可選擇月繳或年繳。詳細價格以你所在地區的 App Store 顯示為準。"
       },
       "q2": {
         "question": "我可以將設計匯出用於商業用途嗎？",
-        "answer": "進階訂閱使用者可以匯出 SVG。商業用途還取決於設計中圖片、字型、範本及其他內容的權利。"
+        "answer": "Premium 訂閱包含 SVG 匯出。如果設計用於商業用途，請確認其中的圖片、字型、範本等內容允許商用。"
       },
       "q3": {
         "question": "可以使用自訂卡槽輪廓嗎？",
-        "answer": "可以。在範本編輯器中繪製開放路徑卡槽輪廓，或匯入合適的 SVG 路徑，然後產生並檢查得到的切割線。"
+        "answer": "可以。在範本編輯器中繪製不封閉的拼接輪廓，或匯入合適的 SVG 路徑，再產生拼圖並檢查拼接效果。"
       }
     }
   },
@@ -196,32 +196,32 @@
           {
             "icon": "✒️",
             "name": "鉛筆",
-            "desc": "繪制平滑的自由路徑"
+            "desc": "繪製平滑的自由路徑"
           },
           {
             "icon": "📏",
             "name": "直線",
-            "desc": "繪制直線"
+            "desc": "繪製直線"
           },
           {
             "icon": "▭",
             "name": "矩形",
-            "desc": "繪制矩形和正方形"
+            "desc": "繪製矩形和正方形"
           },
           {
             "icon": "⭕",
             "name": "圓形",
-            "desc": "繪制圓形和橢圓"
+            "desc": "繪製圓形和橢圓"
           },
           {
             "icon": "⬟",
             "name": "多邊形",
-            "desc": "繪制正多邊形"
+            "desc": "繪製正多邊形"
           },
           {
             "icon": "🎨",
             "name": "貝塞爾",
-            "desc": "使用控制點繪制貝塞爾曲線"
+            "desc": "使用控制點繪製貝塞爾曲線"
           }
         ],
         "buttons": {
@@ -289,11 +289,11 @@
         "templateTypes": {
           "builtin": {
             "title": "內置範本",
-            "desc": "JigsawDesigner 提供的預設計插槽形狀。包括經典的凸形/凹形拼圖接頭。"
+            "desc": "JigsawDesigner 提供的預設計卡槽形狀。包括經典的凸形/凹形拼圖接頭。"
           },
           "custom": {
             "title": "自訂範本",
-            "desc": "使用貝塞爾繪圖工具設計自訂插槽形狀。"
+            "desc": "使用貝塞爾繪圖工具設計自訂卡槽形狀。"
           }
         }
       },
@@ -373,7 +373,7 @@
           },
           "snapToGrid": {
             "title": "對齊網格",
-            "desc": "啓用/禁用對齊網格"
+            "desc": "啟用/禁用對齊網格"
           },
           "gridSpacing": {
             "title": "網格間距",
@@ -390,7 +390,7 @@
         "desc": "使用內置貝塞爾曲線繪圖工具建立自訂插槽範本。",
         "features": [
           "為您的自訂範本命名",
-          "透過點按和拖動繪制貝塞爾曲線",
+          "透過點按和拖動繪製貝塞爾曲線",
           "雙擊完成路徑",
           "編輯單個控制點",
           "匯入現有 SVG 範本",
@@ -496,7 +496,7 @@
           "desc": "從八種選取、編輯與繪圖工具中選擇。"
         },
         "3": {
-          "title": "繪制您的設計",
+          "title": "繪製您的設計",
           "desc": "建立形狀、路徑或匯入現有的 SVG 檔案。"
         },
         "4": {
@@ -520,7 +520,7 @@
       },
       "pen": {
         "title": "鉛筆工具",
-        "desc": "繪制平滑的自由路徑，並可延續或連線開放輪廓。"
+        "desc": "繪製平滑的自由路徑，並可延續或連線開放輪廓。"
       },
       "line": {
         "title": "直線工具",
@@ -528,19 +528,19 @@
       },
       "rect": {
         "title": "矩形工具",
-        "desc": "繪制矩形形狀。從角拖動以建立。"
+        "desc": "繪製矩形形狀。從角拖動以建立。"
       },
       "circle": {
         "title": "圓形工具",
-        "desc": "繪制圓形和橢圓。從中心拖動以設定半徑。"
+        "desc": "繪製圓形和橢圓。從中心拖動以設定半徑。"
       },
       "polygon": {
         "title": "多邊形工具",
-        "desc": "繪制多邊形。單擊以放置每個頂點，雙擊以完成。"
+        "desc": "繪製多邊形。單擊以放置每個頂點，雙擊以完成。"
       },
       "bezier": {
         "title": "貝塞爾工具",
-        "desc": "繪制具有錨點和控制手柄的精確貝塞爾曲線。"
+        "desc": "繪製具有錨點和控制手柄的精確貝塞爾曲線。"
       }
     },
     "operationsContent": {

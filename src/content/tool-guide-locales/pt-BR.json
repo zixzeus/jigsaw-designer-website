@@ -1,0 +1,51 @@
+{
+  "title": "Oito ferramentas em ação",
+  "intro": "Escolha uma ferramenta numerada para comparar capturas reais antes e depois de uma ação. Amplie qualquer captura para conferir os detalhes.",
+  "toolbarLabel": "Barra de desenho do JigsawDesigner",
+  "beforeLabel": "Como usar",
+  "afterLabel": "Ver resultado",
+  "zoomLabel": "Ampliar captura",
+  "closeLabel": "Fechar captura",
+  "tools": {
+    "select": {
+      "name": "Seleção",
+      "action": "Clique no retângulo para selecioná-lo e arraste a borda para mover a forma inteira.",
+      "result": "O retângulo se move junto com a caixa de seleção. Os valores de posição são atualizados no inspetor."
+    },
+    "point-edit": {
+      "name": "Edição de nós",
+      "action": "Selecione o caminho Bézier, ative Edit e arraste um nó para modificar a curva.",
+      "result": "A curva acompanha o movimento do nó. As alças continuam disponíveis para outros ajustes."
+    },
+    "pencil": {
+      "name": "Lápis",
+      "action": "Escolha Pencil, pressione e arraste pela tela de desenho. Solte para finalizar o traço.",
+      "result": "O traço vira um caminho vetorial editável. Clique novamente em Pencil enquanto a ferramenta estiver selecionada para ajustar a suavização."
+    },
+    "line": {
+      "name": "Linha",
+      "action": "Pressione no ponto inicial, arraste até o ponto final e solte.",
+      "result": "Uma linha reta liga os dois pontos."
+    },
+    "rectangle": {
+      "name": "Retângulo",
+      "action": "Pressione em um canto, arraste até o canto oposto e solte.",
+      "result": "Os dois cantos definem o retângulo."
+    },
+    "circle": {
+      "name": "Círculo",
+      "action": "Pressione no centro e arraste para fora para definir o raio. Depois, solte.",
+      "result": "O círculo aparece ao redor do ponto inicial, que é seu centro."
+    },
+    "polygon": {
+      "name": "Polígono",
+      "action": "Clique em cada vértice na sequência. Após pelo menos três pontos, clique no ponto inicial para fechar a forma.",
+      "result": "O último vértice se conecta ao primeiro, formando um polígono fechado."
+    },
+    "bezier": {
+      "name": "Bézier",
+      "action": "Clique para definir o início, arraste as alças do próximo nó e adicione o ponto final. Pressione Enter para concluir a curva aberta.",
+      "result": "A curva continua sendo um caminho editável. Ative Edit para ajustar os nós e as alças."
+    }
+  }
+}

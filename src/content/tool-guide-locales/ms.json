@@ -1,0 +1,51 @@
+{
+  "title": "Lapan alat dalam tindakan",
+  "intro": "Pilih alat bernombor untuk membandingkan paparan aplikasi sebenar sebelum dan selepas tindakan. Besarkan tangkap layar untuk melihat butiran.",
+  "toolbarLabel": "Bar alat lukisan JigsawDesigner",
+  "beforeLabel": "Cara menggunakan",
+  "afterLabel": "Lihat hasil",
+  "zoomLabel": "Besarkan tangkap layar",
+  "closeLabel": "Tutup tangkap layar",
+  "tools": {
+    "select": {
+      "name": "Pemilihan",
+      "action": "Klik segi empat tepat untuk memilihnya, kemudian seret tepinya untuk mengalihkan seluruh bentuk.",
+      "result": "Segi empat tepat bergerak bersama kotak pilihan, dan nilai kedudukan dalam panel sifat dikemas kini."
+    },
+    "point-edit": {
+      "name": "Sunting nod",
+      "action": "Pilih laluan Bézier, beralih kepada penyuntingan nod, kemudian seret titik sauh untuk mengubah lengkung.",
+      "result": "Titik sauh bergerak dan lengkung berubah bersamanya. Pemegang kawalan masih boleh digunakan untuk pelarasan lanjut."
+    },
+    "pencil": {
+      "name": "Pensel",
+      "action": "Pilih pensel, tekan dan seret pada kanvas, kemudian lepaskan untuk menamatkan goresan.",
+      "result": "Goresan menjadi laluan vektor yang boleh disunting. Klik semula pensel yang dipilih untuk membuka pilihan kelicinan."
+    },
+    "line": {
+      "name": "Garis",
+      "action": "Tekan pada titik mula, seret ke titik akhir, kemudian lepaskan.",
+      "result": "Garis lurus menghubungkan kedua-dua titik."
+    },
+    "rectangle": {
+      "name": "Segi empat tepat",
+      "action": "Tekan pada satu sudut, seret ke sudut bertentangan, kemudian lepaskan.",
+      "result": "Kedua-dua sudut menentukan segi empat tepat yang terhasil."
+    },
+    "circle": {
+      "name": "Bulatan",
+      "action": "Tekan pada pusat, seret ke luar untuk menetapkan jejari, kemudian lepaskan.",
+      "result": "Bulatan terhasil dengan titik mula sebagai pusatnya."
+    },
+    "polygon": {
+      "name": "Poligon",
+      "action": "Klik setiap bucu mengikut turutan. Selepas sekurang-kurangnya tiga titik, klik titik mula untuk menutup bentuk.",
+      "result": "Bucu terakhir bersambung dengan bucu pertama untuk membentuk poligon tertutup."
+    },
+    "bezier": {
+      "name": "Lengkung Bézier",
+      "action": "Klik untuk meletakkan titik mula, seret pemegang pada titik sauh seterusnya, kemudian tambah titik akhir. Tekan Enter untuk menamatkan lengkung terbuka.",
+      "result": "Lengkung kekal sebagai laluan yang boleh disunting. Beralih kepada penyuntingan nod untuk melaraskan sauh dan pemegang."
+    }
+  }
+}

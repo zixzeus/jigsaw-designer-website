@@ -112,22 +112,22 @@ const sourceLabels: Record<TierOneLocale, string> = {
 
 export const showcasePages: Record<TierOneLocale, ShowcasePageContent> = {
   en: {
-    seoTitle: "JigsawDesigner Project Showcase | Real In-App Examples",
+    seoTitle: "JigsawDesigner Showcase | Custom Jigsaw Puzzle Designs",
     seoDescription:
       "Explore real JigsawDesigner 1.6.0 project screenshots showing custom boundaries, generated puzzle cutlines, SVG import, and editable vector results.",
-    eyebrow: "Product-owned examples",
-    title: "Three projects, from source geometry to editable result",
+    eyebrow: "Made with JigsawDesigner",
+    title: "Find inspiration for your next puzzle",
     intro:
-      "These JigsawDesigner team examples were captured in JigsawDesigner 1.6.0 on Mac. Each one records the input, the in-app result, and the next vector edit.",
+      "Explore designs made by the JigsawDesigner team. These screenshots from version 1.6.0 on Mac show each project as it takes shape in the app.",
     evidenceTitle: "About these examples",
     evidencePoints: [
       "The screenshots are from JigsawDesigner 1.6.0 on Mac.",
       "Each example documents an actual editor state or project-library state.",
       "Physical production settings remain part of the downstream workflow.",
     ],
-    projectsTitle: "Three working examples",
+    projectsTitle: "A closer look at the designs",
     projectsIntro:
-      "The projects are deliberately different: a freeform boundary, a detailed silhouette with internal openings, and an imported SVG handoff. Together they show where generation ends and vector work continues.",
+      "Start with a freeform shape, explore a detailed dragon silhouette, or bring your own SVG artwork. Each example shows a different way to begin.",
     labels: {
       home: "Home",
       pageName: "Showcase",
@@ -153,9 +153,9 @@ export const showcasePages: Record<TierOneLocale, ShowcasePageContent> = {
         id: "irregular-boundary",
         guideHref: "/jigsaw-puzzle-generator",
         status: "published",
-        title: "Irregular boundary to editable cutlines",
+        title: "A puzzle with its own shape",
         objective:
-          "Fill a closed, hand-shaped outline with a puzzle pattern while preserving its outer contour.",
+          "Turn a hand-drawn outline into a puzzle that keeps its distinctive shape.",
         device: "Mac",
         template: "A custom concave slot profile selected from the Templates panel",
         editAction:
@@ -184,9 +184,9 @@ export const showcasePages: Record<TierOneLocale, ShowcasePageContent> = {
         id: "dragon-silhouette",
         guideHref: "/custom-jigsaw-puzzle-template",
         status: "published",
-        title: "Detailed silhouette with internal openings",
+        title: "A dragon full of detail",
         objective:
-          "Generate a pattern across a complex dragon outline while retaining the smaller shapes inside it.",
+          "Create a puzzle inside a dragon silhouette, with smaller shapes woven into the design.",
         device: "Mac",
         template: "A custom slot profile shown as selected in the Templates panel",
         editAction:
@@ -215,9 +215,9 @@ export const showcasePages: Record<TierOneLocale, ShowcasePageContent> = {
         id: "svg-handoff",
         guideHref: "/help/svg-import-export",
         status: "published",
-        title: "Imported SVG to an organized project",
+        title: "Your artwork, ready for a new idea",
         objective:
-          "Open a layered SVG, verify that its visible composition arrived, and retain it alongside other editable projects.",
+          "Import a layered SVG and save it with your projects, ready to revisit and edit.",
         device: "Mac",
         template: "Not used—this example documents SVG import and project organization",
         editAction:
@@ -245,22 +245,22 @@ export const showcasePages: Record<TierOneLocale, ShowcasePageContent> = {
     ],
   },
   "zh-Hans": {
-    seoTitle: "JigsawDesigner 项目展示｜真实产品内示例",
+    seoTitle: "JigsawDesigner 作品展示｜自定义拼图设计灵感",
     seoDescription:
       "查看 JigsawDesigner 1.6.0 的真实项目截图，了解自定义轮廓、拼图切割线生成、SVG 导入与矢量编辑结果。",
-    eyebrow: "产品方自制示例",
-    title: "三个项目，从源几何到可编辑结果",
+    eyebrow: "用 JigsawDesigner 创作",
+    title: "为你的下一份拼图，找点灵感",
     intro:
-      "以下 JigsawDesigner 团队示例截取自 Mac 上的 JigsawDesigner 1.6.0。每组都记录输入、产品内结果与下一步矢量编辑。",
+      "看看 JigsawDesigner 团队怎样把想法变成设计。以下截图来自 Mac 版 1.6.0，展示作品在 App 中逐步成形的过程。",
     evidenceTitle: "关于这些示例",
     evidencePoints: [
       "截图来自 Mac 上的 JigsawDesigner 1.6.0。",
       "每张图都对应真实的编辑器或项目库状态。",
       "下方图片不代表实体切割成品，也不构成设备适配保证。",
     ],
-    projectsTitle: "三个工作示例",
+    projectsTitle: "走近这些设计",
     projectsIntro:
-      "三个示例分别关注自由轮廓、带内部镂空的复杂图形，以及 SVG 导入衔接。它们共同说明：生成完成之后，矢量工作仍会继续。",
+      "从随手画的轮廓，到细节丰富的龙形，再到导入自己的 SVG 图稿，每个作品都有不同的起点。",
     labels: {
       home: "首页",
       pageName: "项目展示",
@@ -286,8 +286,8 @@ export const showcasePages: Record<TierOneLocale, ShowcasePageContent> = {
         id: "irregular-boundary",
         guideHref: "/jigsaw-puzzle-generator",
         status: "published",
-        title: "不规则轮廓到可编辑切割线",
-        objective: "在保留外部轮廓的同时，为一个闭合的手绘形状生成拼图图案。",
+        title: "不拘一格的拼图外形",
+        objective: "让手绘轮廓变成拼图，保留属于它的独特外形。",
         device: "Mac",
         template: "在模板面板中选中的自定义内凹卡槽轮廓",
         editAction: "选中生成分组，检查边界尺寸，并用点编辑对局部外轮廓继续调整。",
@@ -315,8 +315,8 @@ export const showcasePages: Record<TierOneLocale, ShowcasePageContent> = {
         id: "dragon-silhouette",
         guideHref: "/custom-jigsaw-puzzle-template",
         status: "published",
-        title: "带内部镂空的复杂龙形轮廓",
-        objective: "在复杂龙形外轮廓中生成图案，同时保留内部的小型图形。",
+        title: "细节藏在龙形之中",
+        objective: "沿着龙形轮廓铺开拼图，让内部的小图形融入设计。",
         device: "Mac",
         template: "模板面板中已选中的自定义卡槽轮廓",
         editAction: "检查狭窄区域与内部镂空，并按下游流程需要调整单条路径的间距。",
@@ -344,8 +344,8 @@ export const showcasePages: Record<TierOneLocale, ShowcasePageContent> = {
         id: "svg-handoff",
         guideHref: "/help/svg-import-export",
         status: "published",
-        title: "从导入 SVG 到项目整理",
-        objective: "打开分层 SVG，确认可见构图已导入，并与其他可编辑项目一起保存。",
+        title: "让自己的图稿，有个新开始",
+        objective: "导入分层 SVG，和其他项目一起保存，随时打开继续创作。",
         device: "Mac",
         template: "未使用——本示例记录 SVG 导入和项目整理",
         editAction: "检查导入分组和尺寸，再选择或绘制一个闭合边界用于生成。",
@@ -372,22 +372,22 @@ export const showcasePages: Record<TierOneLocale, ShowcasePageContent> = {
     ],
   },
   "zh-Hant": {
-    seoTitle: "JigsawDesigner 專案展示｜真實產品內範例",
+    seoTitle: "JigsawDesigner 作品展示｜自訂拼圖設計靈感",
     seoDescription:
       "查看 JigsawDesigner 1.6.0 的真實專案截圖，瞭解自訂輪廓、拼圖切割線產生、SVG 匯入與向量編輯結果。",
-    eyebrow: "產品方自製範例",
-    title: "三個專案，從來源幾何到可編輯結果",
+    eyebrow: "用 JigsawDesigner 創作",
+    title: "為你的下一份拼圖，找點靈感",
     intro:
-      "以下 JigsawDesigner 團隊範例截取自 Mac 上的 JigsawDesigner 1.6.0。每組都記錄輸入、產品內結果與下一步向量編輯。",
+      "看看 JigsawDesigner 團隊如何把想法變成設計。以下截圖來自 Mac 版 1.6.0，展示作品在 App 中逐步成形的過程。",
     evidenceTitle: "關於這些範例",
     evidencePoints: [
       "截圖來自 Mac 上的 JigsawDesigner 1.6.0。",
       "每張圖都對應真實的編輯器或專案庫狀態。",
       "下方圖片不代表實體切割成品，也不構成裝置適配保證。",
     ],
-    projectsTitle: "三個工作範例",
+    projectsTitle: "走近這些設計",
     projectsIntro:
-      "三個範例分別關注自由輪廓、含內部鏤空的複雜圖形，以及 SVG 匯入銜接。它們共同說明：產生完成之後，向量工作仍會繼續。",
+      "從隨手畫的輪廓，到細節豐富的龍形，再到匯入自己的 SVG 圖稿，每件作品都有不同的起點。",
     labels: {
       home: "首頁",
       pageName: "專案展示",
@@ -413,8 +413,8 @@ export const showcasePages: Record<TierOneLocale, ShowcasePageContent> = {
         id: "irregular-boundary",
         guideHref: "/jigsaw-puzzle-generator",
         status: "published",
-        title: "不規則輪廓到可編輯切割線",
-        objective: "在保留外部輪廓的同時，為一個封閉的手繪形狀產生拼圖圖案。",
+        title: "不拘一格的拼圖外形",
+        objective: "讓手繪輪廓變成拼圖，保留屬於它的獨特外形。",
         device: "Mac",
         template: "在範本面板中選取的自訂內凹卡槽輪廓",
         editAction: "選取產生群組，檢查邊界尺寸，並用節點編輯繼續調整局部外輪廓。",
@@ -442,8 +442,8 @@ export const showcasePages: Record<TierOneLocale, ShowcasePageContent> = {
         id: "dragon-silhouette",
         guideHref: "/custom-jigsaw-puzzle-template",
         status: "published",
-        title: "含內部鏤空的複雜龍形輪廓",
-        objective: "在複雜龍形外輪廓中產生圖案，同時保留內部的小型圖形。",
+        title: "細節藏在龍形之中",
+        objective: "沿著龍形輪廓鋪開拼圖，讓內部的小圖形融入設計。",
         device: "Mac",
         template: "範本面板中已選取的自訂卡槽輪廓",
         editAction: "檢查狹窄區域與內部鏤空，並按下游流程需要調整單一路徑的間距。",
@@ -471,8 +471,8 @@ export const showcasePages: Record<TierOneLocale, ShowcasePageContent> = {
         id: "svg-handoff",
         guideHref: "/help/svg-import-export",
         status: "published",
-        title: "從匯入 SVG 到專案整理",
-        objective: "開啟分層 SVG，確認可見構圖已匯入，並與其他可編輯專案一起儲存。",
+        title: "讓自己的圖稿，有個新開始",
+        objective: "匯入分層 SVG，和其他專案一起儲存，隨時開啟繼續創作。",
         device: "Mac",
         template: "未使用——本範例記錄 SVG 匯入和專案整理",
         editAction: "檢查匯入群組和尺寸，再選擇或繪製一個封閉邊界用於產生。",
@@ -505,10 +505,10 @@ export const learnPages: Record<TierOneLocale, LearnPageContent> = {
     seoTitle: "Learn Jigsaw Cutlines, SVG Editing & Export | JigsawDesigner",
     seoDescription:
       "Follow three concise learning paths: understand puzzle cutlines, complete a boundary-to-SVG project, then edit and export the vector result.",
-    eyebrow: "Learn by workflow",
-    title: "From first boundary to a checked SVG",
+    eyebrow: "Guides and tutorials",
+    title: "Make your first puzzle. Then make it your own.",
     intro:
-      "Choose the path that matches where you are now. The short product guides explain the geometry; the Help Center handles interface details; the making tutorial covers the downstream checks JigsawDesigner does not perform for you.",
+      "Get to know JigsawDesigner, follow a complete project, or explore the editing tools. The making guide also explains what to check in your cutting software before using a machine.",
     startLabel: "Choose a path",
     labels: {
       home: "Home",
@@ -639,10 +639,10 @@ export const learnPages: Record<TierOneLocale, LearnPageContent> = {
   "zh-Hans": {
     seoTitle: "学习拼图切割线、SVG 编辑与导出｜JigsawDesigner",
     seoDescription: "沿着三条简洁路径学习：理解拼图切割线，完成轮廓到 SVG 的项目，再编辑并导出矢量结果。",
-    eyebrow: "按工作流学习",
-    title: "从第一个轮廓，到经过检查的 SVG",
+    eyebrow: "指南与教程",
+    title: "从第一份拼图，做到自己的风格",
     intro:
-      "从与你当前进度相符的路径开始。简短产品指南解释几何原理，帮助中心回答界面细节，制作教程则覆盖 JigsawDesigner 不会替你完成的下游检查。",
+      "认识 JigsawDesigner，跟着教程做一个完整作品，或深入学习编辑工具。准备实际切割时，制作教程也会带你检查切割软件和设备设置。",
     startLabel: "选择学习路径",
     labels: {
       home: "首页",
@@ -744,10 +744,10 @@ export const learnPages: Record<TierOneLocale, LearnPageContent> = {
   "zh-Hant": {
     seoTitle: "學習拼圖切割線、SVG 編輯與匯出｜JigsawDesigner",
     seoDescription: "沿著三條簡潔路徑學習：理解拼圖切割線，完成輪廓到 SVG 的專案，再編輯並匯出向量結果。",
-    eyebrow: "按工作流程學習",
-    title: "從第一個輪廓，到經過檢查的 SVG",
+    eyebrow: "指南與教學",
+    title: "從第一份拼圖，做出自己的風格",
     intro:
-      "從與目前進度相符的路徑開始。簡短產品指南解釋幾何原理，說明中心回答介面細節，製作教學則涵蓋 JigsawDesigner 不會替你完成的下游檢查。",
+      "認識 JigsawDesigner，跟著教學完成一件作品，或深入學習編輯工具。準備實際切割時，製作教學也會帶你檢查切割軟體與設備設定。",
     startLabel: "選擇學習路徑",
     labels: {
       home: "首頁",

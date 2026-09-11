@@ -1,5 +1,7 @@
 import type {VersionedMediaPath} from "@/config/media";
 import {PRIMARY_SEO_LOCALES, type SiteLocale} from "@/config/seo";
+import type {GuideChapterId} from "@/components/GuideChapter";
+import type {IPhoneExtraChapter} from "@/components/IPhoneGuideContent";
 
 export const tierOneLocales = PRIMARY_SEO_LOCALES;
 
@@ -71,6 +73,12 @@ export type ContentSection = {
   bullets?: string[];
   note?: string;
   image?: ContentImage;
+  guideChapter?: GuideChapterId;
+  guideIntro?: string;
+  iphoneGuide?: IPhoneExtraChapter;
+  iphoneParagraphs?: string[];
+  links?: {href: string; label: string}[];
+  supplements?: ContentSection[];
 };
 
 export type ContentFaq = {

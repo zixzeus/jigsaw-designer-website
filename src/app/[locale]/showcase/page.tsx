@@ -2,6 +2,8 @@ import type {Metadata} from "next";
 import {notFound} from "next/navigation";
 import {setRequestLocale} from "next-intl/server";
 
+import ArtworkGallery from "@/components/ArtworkGallery";
+import {getHomeDesignCopy} from "@/content/home-design";
 import AppStoreCTA from "@/components/AppStoreCTA";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
@@ -73,6 +75,7 @@ export default async function ShowcasePage({
   const {locale} = await params;
   const resolved = resolvePage(locale);
   const {content} = resolved;
+  const homeCopy = getHomeDesignCopy(resolved.locale);
   const projects = content.projects.filter((project) => project.status === "published");
 
   setRequestLocale(resolved.locale);
@@ -116,7 +119,7 @@ export default async function ShowcasePage({
     >
       <JsonLd data={[collectionPage, breadcrumbJsonLd]} />
       <SiteHeader />
-      <main className="mx-auto max-w-7xl px-6 pb-24 pt-28 md:px-12 md:pt-36">
+      <main className="site-shell pb-20 pt-28 md:pt-36">
         <Breadcrumbs
           ariaLabel={content.labels.breadcrumbs}
           items={[
@@ -125,39 +128,25 @@ export default async function ShowcasePage({
           ]}
         />
 
-        <header className="grid gap-10 border-b border-border pb-16 lg:grid-cols-[1.3fr_0.7fr] lg:items-end">
+        <header className="max-w-4xl border-b border-border pb-10">
           <div className="max-w-4xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.22em] text-primary-dark dark:text-primary-light">
+            <p className="section-eyebrow">
               {content.eyebrow}
             </p>
-            <h1 className="mt-5 text-4xl font-bold tracking-tight sm:text-5xl lg:text-7xl lg:leading-[1.04]">
+            <h1 className="display-title mt-4 text-4xl font-semibold tracking-tight sm:text-5xl lg:leading-[1.15]">
               {content.title}
             </h1>
           </div>
-          <p className="max-w-2xl text-lg leading-8 text-gray-600 dark:text-gray-300">
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-600 dark:text-gray-300">
             {content.intro}
           </p>
         </header>
 
-        <section
-          aria-labelledby="evidence-title"
-          className="grid gap-7 border-b border-border py-10 lg:grid-cols-[0.7fr_1.3fr]"
-        >
-          <h2 id="evidence-title" className="text-xl font-semibold">
-            {content.evidenceTitle}
-          </h2>
-          <ul className="grid gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-3 dark:text-gray-300">
-            {content.evidencePoints.map((point) => (
-              <li key={point} className="border-s-2 border-primary ps-4">
-                {point}
-              </li>
-            ))}
-          </ul>
-        </section>
+        <section aria-labelledby="selected-works-title" className="py-12"><h2 id="selected-works-title" className="display-title section-title">{homeCopy.showcaseTitle}</h2><ArtworkGallery titles={[homeCopy.dragon, homeCopy.fruit, homeCopy.sprite]} closeLabel={homeCopy.close} detailLabel={homeCopy.editLink} /></section>
 
-        <section aria-labelledby="projects-title" className="pt-20">
+        <section aria-labelledby="projects-title" className="pt-10">
           <div className="max-w-3xl">
-            <h2 id="projects-title" className="text-3xl font-bold tracking-tight md:text-5xl">
+            <h2 id="projects-title" className="text-2xl font-semibold tracking-tight md:text-3xl">
               {content.projectsTitle}
             </h2>
             <p className="mt-5 text-lg leading-8 text-gray-600 dark:text-gray-300">
@@ -165,7 +154,7 @@ export default async function ShowcasePage({
             </p>
           </div>
 
-          <div className="mt-14 space-y-20">
+          <div className="mt-10 space-y-14">
             {projects.map((project, projectIndex) => (
               <article
                 key={project.id}
@@ -178,7 +167,7 @@ export default async function ShowcasePage({
                     <p className="font-mono text-sm text-gray-500 dark:text-gray-400">
                       {String(projectIndex + 1).padStart(2, "0")}
                     </p>
-                    <h3 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">
+                    <h3 className="display-title mt-4 text-2xl font-semibold tracking-tight md:text-3xl">
                       {project.title}
                     </h3>
                     <dl className="mt-7 space-y-5 text-sm leading-6">
@@ -233,7 +222,7 @@ export default async function ShowcasePage({
           </div>
         </section>
 
-        <aside className="mt-24 grid gap-6 rounded-3xl border border-border bg-background-secondary p-7 md:grid-cols-[0.55fr_1.45fr] md:p-10">
+        <aside className="mt-24 grid gap-6 rounded-xl border border-border bg-background-secondary p-7 md:grid-cols-[0.55fr_1.45fr] md:p-10">
           <h2 className="text-2xl font-bold">{content.labels.limitationTitle}</h2>
           <p className="leading-7 text-gray-600 dark:text-gray-300">
             {content.labels.limitationBody}
@@ -252,7 +241,7 @@ export default async function ShowcasePage({
             pageId="showcase"
             label={content.labels.appStoreLabel}
             ariaLabel={content.labels.appStoreAria}
-            className="inline-flex shrink-0 justify-center rounded-full bg-primary-dark px-7 py-3 font-semibold text-white transition-colors hover:bg-[#1452a3]"
+            className="shrink-0"
           />
         </section>
       </main>

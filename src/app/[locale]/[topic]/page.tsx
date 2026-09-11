@@ -3,6 +3,8 @@ import {notFound} from "next/navigation";
 import {setRequestLocale} from "next-intl/server";
 
 import ArticlePage from "@/components/ArticlePage";
+import CutlineDiagram from "@/components/CutlineDiagram";
+import {HOME_PAGES} from "@/content/home-pages";
 import {
   getMarketingPage,
   isMarketingSlug,
@@ -73,5 +75,16 @@ export default async function MarketingTopicPage({
 
   setRequestLocale(resolvedLocale);
 
-  return <ArticlePage content={content} locale={resolvedLocale} pathname={pathname} />;
+  const primer = topic === "jigsaw-dieline-generator"
+    ? isTierOneLocale(resolvedLocale)
+      ? HOME_PAGES[resolvedLocale].primer
+      : getGeneratedSiteTranslation(resolvedLocale).content.home.primer
+    : undefined;
+
+  return <ArticlePage
+    content={content}
+    locale={resolvedLocale}
+    pathname={pathname}
+    sectionVisuals={primer ? {"what-is-generated": <CutlineDiagram content={primer} />} : undefined}
+  />;
 }

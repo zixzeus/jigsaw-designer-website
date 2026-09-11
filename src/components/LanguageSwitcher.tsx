@@ -57,7 +57,7 @@ export default function LanguageSwitcher() {
         value={locale}
         onChange={onSelectChange}
         disabled={isPending}
-        className="cursor-pointer appearance-none rounded-md bg-transparent py-1 pe-1 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-dark disabled:cursor-wait disabled:opacity-60 dark:text-gray-200 dark:focus:ring-primary-light"
+        className="max-w-[8.5rem] cursor-pointer rounded-md bg-transparent py-2.5 pe-1 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-dark disabled:cursor-wait disabled:opacity-60 dark:text-gray-200 dark:focus:ring-primary-light"
       >
         {locales.map((l) => (
           <option key={l} value={l} className="bg-white text-black">

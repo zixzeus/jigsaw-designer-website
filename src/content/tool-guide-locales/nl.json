@@ -1,0 +1,51 @@
+{
+  "title": "Acht gereedschappen in actie",
+  "intro": "Kies een genummerd gereedschap en vergelijk echte appbeelden vóór en na een handeling. Vergroot een schermafbeelding om de details te bekijken.",
+  "toolbarLabel": "Tekenwerkbalk van JigsawDesigner",
+  "beforeLabel": "Zo werkt het",
+  "afterLabel": "Bekijk het resultaat",
+  "zoomLabel": "Schermafbeelding vergroten",
+  "closeLabel": "Schermafbeelding sluiten",
+  "tools": {
+    "select": {
+      "name": "Selecteren",
+      "action": "Klik op de rechthoek om deze te selecteren. Sleep daarna de rand om de hele vorm te verplaatsen.",
+      "result": "De rechthoek beweegt samen met het selectiekader. De positiewaarden in het infovenster worden bijgewerkt."
+    },
+    "point-edit": {
+      "name": "Punten bewerken",
+      "action": "Selecteer het Bézierpad, schakel over naar Edit en versleep een ankerpunt om de kromme te veranderen.",
+      "result": "De kromme verandert mee met het ankerpunt. De handgrepen blijven beschikbaar voor verdere aanpassingen."
+    },
+    "pencil": {
+      "name": "Potlood",
+      "action": "Kies Pencil, druk en sleep over het tekengebied. Laat los om de lijn af te ronden.",
+      "result": "De lijn wordt een bewerkbaar vectorpad. Klik nogmaals op het geselecteerde Pencil om de vloeiendheid in te stellen."
+    },
+    "line": {
+      "name": "Lijn",
+      "action": "Druk bij het beginpunt, sleep naar het eindpunt en laat los.",
+      "result": "Een rechte lijn verbindt de twee punten."
+    },
+    "rectangle": {
+      "name": "Rechthoek",
+      "action": "Druk bij een hoek, sleep naar de tegenoverliggende hoek en laat los.",
+      "result": "De twee hoeken bepalen de rechthoek."
+    },
+    "circle": {
+      "name": "Cirkel",
+      "action": "Druk in het middelpunt en sleep naar buiten om de straal te bepalen. Laat daarna los.",
+      "result": "De cirkel verschijnt rond het beginpunt, dat het middelpunt vormt."
+    },
+    "polygon": {
+      "name": "Veelhoek",
+      "action": "Klik achtereenvolgens op de hoekpunten. Klik na minstens drie punten op het beginpunt om de vorm te sluiten.",
+      "result": "Het laatste hoekpunt wordt verbonden met het eerste: een gesloten veelhoek."
+    },
+    "bezier": {
+      "name": "Bézier",
+      "action": "Klik voor het beginpunt, trek handgrepen uit het volgende ankerpunt en voeg het eindpunt toe. Druk op Enter om de open kromme af te ronden.",
+      "result": "De kromme blijft een bewerkbaar pad. Gebruik Edit om ankerpunten en handgrepen verder aan te passen."
+    }
+  }
+}

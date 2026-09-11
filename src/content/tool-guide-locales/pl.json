@@ -1,0 +1,51 @@
+{
+  "title": "Osiem narzędzi w praktyce",
+  "intro": "Wybierz ponumerowane narzędzie i porównaj rzeczywiste zrzuty aplikacji przed wykonaniem czynności i po niej. Powiększ zrzut, aby zobaczyć szczegóły.",
+  "toolbarLabel": "Pasek narzędzi rysowania JigsawDesigner",
+  "beforeLabel": "Jak używać",
+  "afterLabel": "Zobacz efekt",
+  "zoomLabel": "Powiększ zrzut ekranu",
+  "closeLabel": "Zamknij zrzut ekranu",
+  "tools": {
+    "select": {
+      "name": "Zaznaczanie",
+      "action": "Kliknij prostokąt, aby go zaznaczyć, a następnie przeciągnij jego krawędź, aby przesunąć cały kształt.",
+      "result": "Prostokąt przesuwa się razem z ramką zaznaczenia. Współrzędne w inspektorze zostają zaktualizowane."
+    },
+    "point-edit": {
+      "name": "Edycja węzłów",
+      "action": "Zaznacz ścieżkę Béziera, wybierz Edit i przeciągnij węzeł, aby zmienić krzywą.",
+      "result": "Krzywa zmienia się wraz z przesunięciem węzła. Uchwyty pozostają dostępne do dalszej regulacji."
+    },
+    "pencil": {
+      "name": "Ołówek",
+      "action": "Wybierz Pencil, naciśnij i przeciągnij po obszarze rysowania. Zwolnij przycisk, aby zakończyć kreskę.",
+      "result": "Kreska staje się edytowalną ścieżką wektorową. Kliknij ponownie aktywne narzędzie Pencil, aby ustawić wygładzanie."
+    },
+    "line": {
+      "name": "Linia",
+      "action": "Naciśnij w punkcie początkowym, przeciągnij do końcowego i zwolnij przycisk.",
+      "result": "Prosta linia łączy oba punkty."
+    },
+    "rectangle": {
+      "name": "Prostokąt",
+      "action": "Naciśnij w jednym narożniku, przeciągnij do przeciwległego i zwolnij przycisk.",
+      "result": "Dwa narożniki wyznaczają prostokąt."
+    },
+    "circle": {
+      "name": "Okrąg",
+      "action": "Naciśnij w środku i przeciągnij na zewnątrz, aby ustawić promień. Następnie zwolnij przycisk.",
+      "result": "Okrąg powstaje wokół punktu początkowego, który jest jego środkiem."
+    },
+    "polygon": {
+      "name": "Wielokąt",
+      "action": "Klikaj kolejne wierzchołki. Po dodaniu co najmniej trzech punktów kliknij punkt początkowy, aby zamknąć kształt.",
+      "result": "Ostatni wierzchołek łączy się z pierwszym, tworząc zamknięty wielokąt."
+    },
+    "bezier": {
+      "name": "Bézier",
+      "action": "Kliknij, aby ustawić początek, wyciągnij uchwyty z następnego węzła i dodaj punkt końcowy. Naciśnij Enter, aby zakończyć otwartą krzywą.",
+      "result": "Krzywa pozostaje edytowalną ścieżką. Wybierz Edit, aby dopracować węzły i uchwyty."
+    }
+  }
+}

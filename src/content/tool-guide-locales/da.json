@@ -1,0 +1,51 @@
+{
+  "title": "Otte værktøjer i brug",
+  "intro": "Vælg et nummereret værktøj, og sammenlign rigtige appbilleder før og efter en handling. Forstør et skærmbillede for at se detaljerne.",
+  "toolbarLabel": "JigsawDesigners tegneværktøjslinje",
+  "beforeLabel": "Sådan gør du",
+  "afterLabel": "Se resultatet",
+  "zoomLabel": "Forstør skærmbillede",
+  "closeLabel": "Luk skærmbillede",
+  "tools": {
+    "select": {
+      "name": "Markering",
+      "action": "Klik på rektanglet for at markere det. Træk derefter i kanten for at flytte hele formen.",
+      "result": "Rektanglet flyttes sammen med markeringsrammen. Positionsværdierne opdateres i inspektøren."
+    },
+    "point-edit": {
+      "name": "Punktredigering",
+      "action": "Markér Bézierkurven, vælg Edit, og træk et ankerpunkt for at ændre kurvens form.",
+      "result": "Kurven følger ankerpunktets bevægelse. Håndtagene er stadig tilgængelige til flere justeringer."
+    },
+    "pencil": {
+      "name": "Blyant",
+      "action": "Vælg Pencil, tryk og træk hen over tegnefladen. Slip for at afslutte stregen.",
+      "result": "Stregen bliver en redigerbar vektorsti. Klik igen på det valgte Pencil-værktøj for at justere udglatningen."
+    },
+    "line": {
+      "name": "Linje",
+      "action": "Tryk ved startpunktet, træk til slutpunktet, og slip.",
+      "result": "En ret linje forbinder de to punkter."
+    },
+    "rectangle": {
+      "name": "Rektangel",
+      "action": "Tryk i et hjørne, træk til det modsatte hjørne, og slip.",
+      "result": "De to hjørner definerer rektanglet."
+    },
+    "circle": {
+      "name": "Cirkel",
+      "action": "Tryk i centrum, og træk udad for at angive radius. Slip derefter.",
+      "result": "Cirklen tegnes omkring startpunktet, som er dens centrum."
+    },
+    "polygon": {
+      "name": "Polygon",
+      "action": "Klik på hvert hjørne i rækkefølge. Efter mindst tre punkter klikker du på startpunktet for at lukke formen.",
+      "result": "Det sidste hjørne forbindes med det første og danner en lukket polygon."
+    },
+    "bezier": {
+      "name": "Bézier",
+      "action": "Klik for at placere startpunktet, træk håndtag ud ved næste anker, og tilføj slutpunktet. Tryk på Retur for at afslutte den åbne kurve.",
+      "result": "Kurven er stadig en redigerbar sti. Vælg Edit for at finjustere ankre og håndtag."
+    }
+  }
+}

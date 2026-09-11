@@ -6,6 +6,11 @@ import {setTimeout as delay} from "node:timers/promises";
 import {fileURLToPath} from "node:url";
 
 import {loadTsModule} from "./lib/load-ts-module.mjs";
+import {attribute, decodeHtml, tags} from "./lib/html.mjs";
+import {verifyInternalFragments} from "./lib/internal-fragments.mjs";
+import {verifyGoogleAnalytics} from "./lib/google-analytics.mjs";
+import {verifyHelpOrganization} from "./lib/help-organization.mjs";
+import {verifyIPhoneGuides} from "./lib/iphone-guide.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const seoConfigPath = path.join(root, "src/config/seo.ts");
@@ -35,34 +40,12 @@ let serverExitDescription = "";
 let serverOutput = "";
 let verifiedSitemapCount = 0;
 let verifiedInternalLinkCount = 0;
+let verifiedFragmentLinkCount = 0;
 let verifiedMediaCount = 0;
 let verificationAborted = false;
 
 function record(condition, message) {
   if (!condition) errors.push(message);
-}
-
-function decodeHtml(value = "") {
-  return value
-    .replaceAll("&quot;", '"')
-    .replaceAll("&#x27;", "'")
-    .replaceAll("&#39;", "'")
-    .replaceAll("&apos;", "'")
-    .replaceAll("&lt;", "<")
-    .replaceAll("&gt;", ">")
-    .replaceAll("&nbsp;", " ")
-    .replace(/&#x([0-9a-f]+);/gi, (_, value) => String.fromCodePoint(Number.parseInt(value, 16)))
-    .replace(/&#(\d+);/g, (_, value) => String.fromCodePoint(Number.parseInt(value, 10)))
-    .replaceAll("&amp;", "&");
-}
-
-function attribute(tag, name) {
-  const match = tag.match(new RegExp(`\\b${name}=(['\"])(.*?)\\1`, "i"));
-  return match ? decodeHtml(match[2]) : undefined;
-}
-
-function tags(html, name) {
-  return html.match(new RegExp(`<${name}\\b[^>]*>`, "gi")) ?? [];
 }
 
 function metadataTags(html, attributeName, attributeValue) {
@@ -185,7 +168,9 @@ function assertMediaEvidence(page, entry) {
     `${pathname}: every media-evidence marker must be on a complete figure`,
   );
 
-  if (entry.route.kind === "hub") {
+  // Help and Learn are article directories; their linked guides carry imagery.
+  // Visual hubs such as Showcase still require source-labelled evidence.
+  if (entry.route.kind === "hub" && !["/learn", "/help"].includes(entry.route.pathname)) {
     record(figures.length > 0, `${pathname}: content hub has no source-labelled media evidence`);
   }
 
@@ -474,21 +459,7 @@ function assertNoIndexFollow(html, label) {
 }
 
 function assertGoogleAnalytics(html, label) {
-  const scriptBlocks = [...html.matchAll(/(<script\b[^>]*>)([\s\S]*?)<\/script>/gi)];
-  const loaders = scriptBlocks.filter(
-    ([, openingTag]) =>
-      attribute(openingTag, "src") ===
-      "https://www.googletagmanager.com/gtag/js?id=G-3TZD2EK8YR",
-  );
-  const configs = scriptBlocks.filter(
-    ([, openingTag, body]) =>
-      attribute(openingTag, "id") === "google-analytics" &&
-      /gtag\('config',\s*'G-3TZD2EK8YR'\)/.test(body),
-  );
-  record(loaders.length === 1, `${label}: expected one GA4 loader, found ${loaders.length}`);
-  record(configs.length === 1, `${label}: expected one GA4 config, found ${configs.length}`);
-  record(!html.includes("gtag('consent'"), `${label}: obsolete GA4 consent mode is still present`);
-  record(!html.includes("analytics-consent-settings"), `${label}: obsolete analytics consent UI is still present`);
+  errors.push(...verifyGoogleAnalytics(html, "G-3TZD2EK8YR").map((error) => `${label}: ${error}`));
 }
 
 function assertFaqParity(page, jsonLd) {
@@ -537,19 +508,32 @@ function assertStructuredData(page, entry) {
   record(!hasJsonLdType(jsonLd, "AggregateRating"), `${pathname}: unverified AggregateRating schema is forbidden`);
 
   if (entry.route.pathname === "/") {
-    for (const type of ["Organization", "WebSite", "SoftwareApplication", "FAQPage"]) {
+    for (const type of ["Organization", "WebSite", "SoftwareApplication"]) {
       record(hasJsonLdType(jsonLd, type), `${pathname}: missing ${type} JSON-LD`);
     }
     for (const application of jsonLdNodesByType(jsonLd, "SoftwareApplication")) {
       record(application.softwareVersion === PRODUCT_FACTS.currentVersion, `${pathname}: SoftwareApplication version is not ${PRODUCT_FACTS.currentVersion}`);
       record(application.downloadUrl === PRODUCT_FACTS.appStoreUrl, `${pathname}: SoftwareApplication downloadUrl is wrong`);
     }
+    record(!hasJsonLdType(jsonLd, "FAQPage"), `${pathname}: homepage FAQ schema must be absent`);
+    record(tagsWithAttribute(page.html, "data-faq-item").length === 0, `${pathname}: homepage must present product features; FAQ belongs on help pages`);
     const appStoreLinks = tags(page.html, "a").filter(
       (tag) => attribute(tag, "href") === PRODUCT_FACTS.appStoreUrl,
     );
+    const expectedPlacements = ["hero", "home-final"];
     record(
-      appStoreLinks.length === 2,
-      `${pathname}: homepage must expose exactly two App Store conversion links, found ${appStoreLinks.length}`,
+      appStoreLinks.length === expectedPlacements.length,
+      `${pathname}: homepage must expose exactly ${expectedPlacements.length} App Store conversion links, found ${appStoreLinks.length}`,
+    );
+    const placementCounts = new Map();
+    for (const tag of appStoreLinks) {
+      const placement = attribute(tag, "data-app-store-placement") ?? "<missing>";
+      placementCounts.set(placement, (placementCounts.get(placement) ?? 0) + 1);
+    }
+    assertExactMap(
+      placementCounts,
+      new Map(expectedPlacements.map((placement) => [placement, 1])),
+      `${pathname} App Store placements`,
     );
   } else {
     const breadcrumbs = jsonLdNodesByType(jsonLd, "BreadcrumbList");
@@ -668,11 +652,14 @@ function collectMediaResources(pages) {
     }
     for (const tag of tags(page.html, "source")) {
       addMediaUrl(resources, attribute(tag, "src"), "media", page.pathname);
-      addSrcSet(resources, attribute(tag, "srcset"), "media", page.pathname);
+      addSrcSet(resources, attribute(tag, "srcset"), "image", page.pathname);
     }
     for (const tag of tags(page.html, "video")) {
       addMediaUrl(resources, attribute(tag, "poster"), "image", page.pathname);
       addMediaUrl(resources, attribute(tag, "src"), "media", page.pathname);
+    }
+    for (const tag of tagsWithAttribute(page.html, "data-video-src")) {
+      addMediaUrl(resources, attribute(tag, "data-video-src"), "media", page.pathname);
     }
     addMediaUrl(resources, page.ogImage, "image", `${page.pathname} Open Graph`);
     addMediaUrl(resources, page.twitterImage, "image", `${page.pathname} Twitter`);
@@ -956,6 +943,8 @@ try {
       twitterImage,
     });
     assertStructuredData(page, entry);
+    errors.push(...verifyHelpOrganization({html: page.html, pathname: entry.route.pathname, locale: entry.locale}));
+    errors.push(...verifyIPhoneGuides({html: page.html, pathname: entry.route.pathname, locale: entry.locale}));
     assertMediaEvidence(page, entry);
   });
 
@@ -984,7 +973,7 @@ try {
     for (const tag of tags(page.html, "a")) {
       const href = attribute(tag, "href");
       if (!href || href.startsWith("#") || /^(?:mailto:|tel:|javascript:)/i.test(href)) continue;
-      const url = new URL(href, productionOrigin);
+      const url = new URL(href, new URL(page.pathname, productionOrigin));
       if (url.origin !== productionOrigin) continue;
       const pathname = normalizePathname(url.pathname);
       localLinks.add(pathname);
@@ -998,6 +987,10 @@ try {
     record(response.status === 200, `Internal link ${pathname} must return direct 200, got ${response.status}`);
   });
   verifiedInternalLinkCount = localLinks.size;
+
+  const fragments = await verifyInternalFragments({pages, origin: productionOrigin, fetchPage});
+  errors.push(...fragments.errors);
+  verifiedFragmentLinkCount = fragments.checkedCount;
 
   for (const locale of new Set(pages.map((page) => page.pathname.split("/")[1]))) {
     const home = `/${locale}`;
@@ -1121,6 +1114,6 @@ if (errors.length) {
   process.exitCode = 1;
 } else {
   console.log(
-    `Built-site verification passed for ${verifiedSitemapCount} exact sitemap URLs, ${verifiedInternalLinkCount} direct internal targets, ${verifiedMediaCount} media assets, metadata, redirects, cache/security headers, structured data, and unavailable-locale 404s.`,
+    `Built-site verification passed for ${verifiedSitemapCount} exact sitemap URLs, ${verifiedInternalLinkCount} direct internal targets, ${verifiedFragmentLinkCount} internal fragment links, ${verifiedMediaCount} media assets, metadata, redirects, cache/security headers, structured data, and unavailable-locale 404s.`,
   );
 }

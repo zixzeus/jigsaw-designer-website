@@ -1,0 +1,51 @@
+{
+  "title": "Opt instrumente în acțiune",
+  "intro": "Alege un instrument numerotat și compară capturi reale înainte și după o acțiune. Mărește o captură pentru a vedea detaliile.",
+  "toolbarLabel": "Bara de desen din JigsawDesigner",
+  "beforeLabel": "Cum se folosește",
+  "afterLabel": "Vezi rezultatul",
+  "zoomLabel": "Mărește captura",
+  "closeLabel": "Închide captura",
+  "tools": {
+    "select": {
+      "name": "Selectare",
+      "action": "Fă clic pe dreptunghi pentru a-l selecta, apoi trage de margine pentru a muta întreaga formă.",
+      "result": "Dreptunghiul se mută împreună cu cadrul de selecție. Valorile poziției se actualizează în inspector."
+    },
+    "point-edit": {
+      "name": "Editarea nodurilor",
+      "action": "Selectează traseul Bézier, activează Edit și trage un nod pentru a modifica forma curbei.",
+      "result": "Curba se schimbă odată cu deplasarea nodului. Mânerele rămân disponibile pentru ajustări suplimentare."
+    },
+    "pencil": {
+      "name": "Creion",
+      "action": "Alege Pencil, apasă și trage pe suprafața de desen, apoi eliberează pentru a termina linia.",
+      "result": "Linia devine un traseu vectorial editabil. Fă din nou clic pe Pencil, cât timp este selectat, pentru a regla netezirea."
+    },
+    "line": {
+      "name": "Linie",
+      "action": "Apasă în punctul de început, trage până la punctul final și eliberează.",
+      "result": "O linie dreaptă unește cele două puncte."
+    },
+    "rectangle": {
+      "name": "Dreptunghi",
+      "action": "Apasă într-un colț, trage până la colțul opus și eliberează.",
+      "result": "Cele două colțuri definesc dreptunghiul."
+    },
+    "circle": {
+      "name": "Cerc",
+      "action": "Apasă în centru și trage spre exterior pentru a stabili raza, apoi eliberează.",
+      "result": "Cercul apare în jurul punctului de început, care este centrul său."
+    },
+    "polygon": {
+      "name": "Poligon",
+      "action": "Fă clic pe fiecare vârf, pe rând. După cel puțin trei puncte, fă clic pe punctul de început pentru a închide forma.",
+      "result": "Ultimul vârf se unește cu primul, formând un poligon închis."
+    },
+    "bezier": {
+      "name": "Bézier",
+      "action": "Fă clic pentru a plasa începutul, trage mânerele nodului următor și adaugă punctul final. Apasă Enter pentru a termina curba deschisă.",
+      "result": "Curba rămâne un traseu editabil. Activează Edit pentru a ajusta nodurile și mânerele."
+    }
+  }
+}

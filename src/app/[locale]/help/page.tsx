@@ -1,21 +1,22 @@
 import type {Metadata} from "next";
-import Image from "next/image";
 import {notFound} from "next/navigation";
 import {useTranslations} from "next-intl";
 import {getTranslations, setRequestLocale} from "next-intl/server";
 
 import Breadcrumbs from "@/components/Breadcrumbs";
+import styles from "@/components/HelpDirectory.module.css";
 import JsonLd from "@/components/JsonLd";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
-import {getMediaDimensions, type VersionedMediaPath} from "@/config/media";
 import {PRODUCT_FACTS} from "@/config/product";
 import {isRouteAvailable, isSiteLocale, type SiteLocale} from "@/config/seo";
+import {getHelpPage, type HelpSlug} from "@/content/help-pages";
+import {getInterfaceGuideCopy} from "@/content/interface-guide";
 import {
   getGeneratedSiteTranslation,
   hasGeneratedLocaleContent,
 } from "@/content/localized-content";
-import {isTierOneLocale, type TierOneLocale} from "@/content/types";
+import {isTierOneLocale} from "@/content/types";
 import {Link} from "@/i18n/navigation";
 import {createBreadcrumbJsonLd, createPageMetadata, localizedAbsoluteUrl} from "@/lib/seo";
 
@@ -33,68 +34,69 @@ export default async function HelpPage({params}: {params: Promise<{locale: strin
   return <HelpContent locale={locale} />;
 }
 
-const tierOneGuideGroups = [
-  {
-    titleKey: "sections.gettingStarted",
-    links: [
-      ["getting-started", "sections.gettingStarted"],
-      ["keyboard-shortcuts", "sections.shortcuts"],
-    ],
-  },
-  {
-    titleKey: "sections.generation",
-    links: [["jigsaw-generation", "generationContent.title"]],
-  },
-  {
-    titleKey: "sections.tools",
-    links: [
-      ["vector-editing", "sections.tools"],
-      ["svg-import-export", "sections.importExport"],
-    ],
-  },
-  {
-    titleKey: "interfaceContent.templatesPanel.title",
-    links: [["templates", "interfaceContent.templatesPanel.title"]],
-  },
-  {
-    titleKey: "sections.projectLibrary",
-    links: [["project-library", "sections.projectLibrary"]],
-  },
-  {
-    titleKey: "troubleshooting.title",
-    links: [["troubleshooting", "troubleshooting.title"]],
-  },
-] as const;
-
-const TIER_ONE_HELP_LEAD_ALT: Record<TierOneLocale, string> = {
-  en: "Generated puzzle cutlines selected as an editable group, with Layers and Shape Info visible in JigsawDesigner",
-  "zh-Hans": "JigsawDesigner 中作为可编辑分组选中的拼图切割线，并显示图层和形状信息",
-  "zh-Hant": "JigsawDesigner 中以可編輯群組選取的拼圖切割線，並顯示圖層與形狀資訊",
-};
+const directoryTopics: {slug: HelpSlug | "interface-guide"; legacyIds: string[]}[] = [
+  {slug: "getting-started", legacyIds: ["getting-started"]},
+  {slug: "interface-guide", legacyIds: ["interface"]},
+  {slug: "vector-editing", legacyIds: ["tools", "operations"]},
+  {slug: "templates", legacyIds: ["templates"]},
+  {slug: "jigsaw-generation", legacyIds: ["jigsaw-cutline-generator"]},
+  {slug: "svg-import-export", legacyIds: ["import-export"]},
+  {slug: "project-library", legacyIds: ["project-library"]},
+  {slug: "keyboard-shortcuts", legacyIds: ["shortcuts"]},
+  {slug: "troubleshooting", legacyIds: ["troubleshooting"]},
+];
 
 function HelpContent({locale}: {locale: SiteLocale}) {
   const navigation = useTranslations("Navigation");
   const help = useTranslations("Help");
-  const tierOneLocale = isTierOneLocale(locale) ? locale : null;
-  const generatedContent = !tierOneLocale && hasGeneratedLocaleContent(locale)
+  const generatedContent = !isTierOneLocale(locale) && hasGeneratedLocaleContent(locale)
     ? getGeneratedSiteTranslation(locale).content
     : null;
-  const fullLeadAlt = tierOneLocale
-    ? TIER_ONE_HELP_LEAD_ALT[tierOneLocale]
-    : generatedContent?.help["jigsaw-generation"].leadImage?.alt;
-  const showSplitGuides = Boolean(
-    (tierOneLocale || generatedContent) && isRouteAvailable("/help/getting-started", locale),
-  );
+  const guide = getInterfaceGuideCopy(locale);
+  const shortTitles: Partial<Record<HelpSlug, string>> = {
+    "getting-started": help("sections.gettingStarted"),
+    "vector-editing": help("sections.tools"),
+    "jigsaw-generation": help("sections.generation"),
+    "svg-import-export": help("sections.importExport"),
+    "keyboard-shortcuts": help("sections.shortcuts"),
+    troubleshooting: help("troubleshooting.title"),
+  };
+  const topics = directoryTopics.flatMap(({slug, legacyIds}) => {
+    const href = `/help/${slug}`;
+    if (!isRouteAvailable(href, locale)) return [];
+    if (slug === "interface-guide") {
+      return [{href, legacyIds, title: guide.title, description: guide.intro}];
+    }
+    const content = isTierOneLocale(locale)
+      ? getHelpPage(slug, locale)
+      : generatedContent?.help[slug];
+    return content
+      ? [{href, legacyIds, title: shortTitles[slug] ?? content.title, description: slug === "vector-editing" ? guide.toolsIntro : slug === "templates" ? guide.templatesIntro : content.seoDescription}]
+      : [];
+  });
 
-  const techArticle = {
+  const collectionPage = {
     "@context": "https://schema.org",
-    "@type": "TechArticle",
-    headline: help("title"),
+    "@type": "CollectionPage",
+    name: help("title"),
     description: help("metaDescription"),
     inLanguage: locale,
-    mainEntityOfPage: localizedAbsoluteUrl(locale, "/help"),
-    author: {"@type": "Organization", name: PRODUCT_FACTS.name},
+    url: localizedAbsoluteUrl(locale, "/help"),
     publisher: {"@type": "Organization", name: PRODUCT_FACTS.name},
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: topics.length,
+      itemListElement: topics.map((topic, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        item: {
+          "@type": "WebPage",
+          name: topic.title,
+          description: topic.description,
+          url: localizedAbsoluteUrl(locale, topic.href),
+        },
+      })),
+    },
   };
   const breadcrumbJsonLd = createBreadcrumbJsonLd({
     locale,
@@ -106,7 +108,7 @@ function HelpContent({locale}: {locale: SiteLocale}) {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <JsonLd data={[techArticle, breadcrumbJsonLd]} />
+      <JsonLd data={[collectionPage, breadcrumbJsonLd]} />
       <SiteHeader />
       <main className="container mx-auto max-w-6xl px-6 pt-28 pb-20 md:px-12 md:pt-36">
         <Breadcrumbs
@@ -121,112 +123,24 @@ function HelpContent({locale}: {locale: SiteLocale}) {
           <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-600 dark:text-gray-300">{help("subtitle")}</p>
         </header>
 
-        {showSplitGuides ? (
-          <HelpImage
-            src="/generated-result-editable-v1-6.webp"
-            alt={fullLeadAlt ?? help("interfaceContent.title")}
-            priority
-          />
-        ) : null}
+        <nav aria-label={help("toc")} className={styles.directory} data-help-directory="true">
+          <ul className={styles.grid}>
+            {topics.map((topic) => (
+              <li key={topic.href} id={topic.legacyIds[0]} className={styles.topic}>
+                {topic.legacyIds.slice(1).map((id) => <span key={id} id={id} className={styles.legacyAnchor} aria-hidden="true" />)}
+                <Link href={topic.href} className={styles.link} data-help-topic={topic.href.split("/").at(-1)}>
+                  <h2 className={styles.title}>
+                    <span>{topic.title}</span>
+                    <span className={styles.arrow} aria-hidden="true">→</span>
+                  </h2>
+                  <p className={styles.description}>{topic.description}</p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
 
-        {showSplitGuides ? (
-          <section className="mt-14 border-y border-border py-10">
-            <h2 className="text-2xl font-semibold tracking-tight">{help("toc")}</h2>
-            <div className="mt-7 grid gap-px overflow-hidden rounded-2xl border border-border bg-border md:grid-cols-2 lg:grid-cols-3">
-              {tierOneGuideGroups.map((group, index) => (
-                <article key={group.titleKey} className="bg-background p-6 md:p-7">
-                  <span className="text-xs font-semibold tabular-nums text-primary-dark dark:text-primary-light">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
-                  <h3 className="mt-4 text-xl font-semibold">{help(group.titleKey)}</h3>
-                  <div className="mt-5 flex flex-col gap-3 text-sm text-gray-600 dark:text-gray-300">
-                    {group.links.map(([slug, labelKey]) => (
-                      <Link key={slug} href={`/help/${slug}`} className="flex items-center justify-between gap-4 border-t border-border pt-3 transition-colors hover:text-foreground">
-                        <span>{help(labelKey)}</span><span aria-hidden="true">→</span>
-                      </Link>
-                    ))}
-                  </div>
-                </article>
-              ))}
-            </div>
-          </section>
-        ) : (
-          <nav aria-label={help("toc")} className="mt-14 rounded-3xl border border-border bg-background-secondary p-7 md:p-10">
-            <h2 className="text-2xl font-bold">{help("toc")}</h2>
-            <div className="mt-6 grid gap-3 sm:grid-cols-2">
-              {[
-                ["getting-started", "sections.gettingStarted"],
-                ["project-library", "sections.projectLibrary"],
-                ["interface", "sections.interface"],
-                ["jigsaw-cutline-generator", "sections.generation"],
-                ["tools", "sections.tools"],
-                ["operations", "sections.operations"],
-                ["import-export", "sections.importExport"],
-                ["shortcuts", "sections.shortcuts"],
-              ].map(([id, key]) => <a key={id} href={`#${id}`} className="rounded-xl bg-background px-4 py-3 hover:text-primary-dark dark:hover:text-primary-light">{help(key)}</a>)}
-            </div>
-          </nav>
-        )}
-
-        {!showSplitGuides ? <div className="mt-20 space-y-20">
-          <HelpSection id="getting-started" title={help("sections.gettingStarted")}>
-            <p>{help("gettingStartedContent.title")}</p>
-            <ol className="mt-6 grid gap-4 md:grid-cols-2">
-              {[1, 2, 3, 4, 5].map((step) => <li key={step} className="rounded-2xl border border-border p-5"><strong>{step}. {help(`gettingStartedContent.steps.${step}.title`)}</strong><p className="mt-2 text-sm text-gray-600 dark:text-gray-300">{help(`gettingStartedContent.steps.${step}.desc`)}</p></li>)}
-            </ol>
-          </HelpSection>
-
-          <HelpSection id="project-library" title={help("sections.projectLibrary")}>
-            <p>{help("projectLibraryContent.intro")}</p>
-            <HelpImage src="/my_projects-v1-6.webp" alt={help("projectLibraryContent.myProjects.title")} />
-          </HelpSection>
-
-          <HelpSection id="interface" title={help("sections.interface")}>
-            <p>{help("interfaceContent.intro")}</p>
-            <HelpImage src="/editor_overview-v1-6.webp" alt={help("interfaceContent.title")} />
-            <div className="mt-7 grid gap-4 md:grid-cols-3">
-              {["layersPanel", "templatesPanel", "inspector"].map((key) => <div key={key} className="rounded-2xl border border-border p-5"><h3 className="font-bold">{help(`interfaceContent.${key}.title`)}</h3><p className="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-300">{help(`interfaceContent.${key}.desc`)}</p></div>)}
-            </div>
-          </HelpSection>
-
-          <HelpSection id="jigsaw-cutline-generator" title={help("generationContent.title")}>
-            <p>{help("generationContent.desc")}</p>
-            <ol className="mt-6 space-y-4">
-              {[1, 2, 3, 4].map((step) => <li key={step} className="rounded-2xl bg-background-secondary p-5"><strong>{help(`generationContent.steps.${step}.title`)}</strong><p className="mt-2 text-gray-600 dark:text-gray-300">{help(`generationContent.steps.${step}.desc`)}</p></li>)}
-            </ol>
-          </HelpSection>
-
-          <HelpSection id="tools" title={help("sections.tools")}>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              {["select", "edit", "pen", "line", "rect", "circle", "polygon", "bezier"].map((tool) => <div key={tool} className="rounded-2xl border border-border p-5"><h3 className="font-bold">{help(`toolsContent.${tool}.title`)}</h3><p className="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-300">{help(`toolsContent.${tool}.desc`)}</p></div>)}
-            </div>
-          </HelpSection>
-
-          <HelpSection id="operations" title={help("sections.operations")}>
-            <div className="grid gap-5 md:grid-cols-3">
-              {["selection", "grouping", "editing"].map((operation) => <div key={operation} className="rounded-2xl bg-background-secondary p-6"><h3 className="font-bold">{help(`operationsContent.${operation}.title`)}</h3><ul className="mt-4 list-disc space-y-2 ps-5 text-sm text-gray-600 dark:text-gray-300">{[0, 1, 2, 3].map((index) => {const key = `operationsContent.${operation}.items.${index}`; return help.has(key) ? <li key={index}>{help(key)}</li> : null;})}</ul></div>)}
-            </div>
-          </HelpSection>
-
-          <HelpSection id="import-export" title={help("sections.importExport")}>
-            <div className="grid gap-5 md:grid-cols-2">
-              {(["import", "export"] as const).map((action) => <div key={action} className="rounded-2xl border border-border p-6"><h3 className="text-xl font-bold">{help(`importExportContent.${action}.title`)}</h3><p className="mt-3 leading-7 text-gray-600 dark:text-gray-300">{help(`importExportContent.${action}.desc`)}</p><ul className="mt-4 list-disc space-y-2 ps-5 text-sm">{[0, 1, 2].map((index) => <li key={index}>{help(`importExportContent.${action}.items.${index}`)}</li>)}</ul></div>)}
-            </div>
-            <p className="mt-5 rounded-2xl bg-primary-ultra-light/40 p-5">
-              {help("importExportContent.premium.desc", {count: PRODUCT_FACTS.freeGenerationLimit})}
-            </p>
-          </HelpSection>
-
-          <HelpSection id="shortcuts" title={help("sections.shortcuts")}>
-            <div className="grid gap-4 md:grid-cols-2">
-              <Shortcut keys="⌘N / ⌘I / ⌘E" label={help("shortcutsContent.file.title")} />
-              <Shortcut keys="⌘C / Delete / ⌘A" label={help("shortcutsContent.edit.title")} />
-              <Shortcut keys="Shift+Click / Ctrl+Click / Esc" label={help("shortcutsContent.selection.title")} />
-            </div>
-          </HelpSection>
-        </div> : null}
-
-        <section className="mt-20 border-t border-border pt-12 text-center">
+        <section className="mt-16 border-t border-border pt-10 text-center">
           <h2 className="text-2xl font-bold">{help("needHelp.title")}</h2>
           <p className="mt-3 text-gray-600 dark:text-gray-300">{help("needHelp.desc")}</p>
           <Link href="/support" className="mt-6 inline-flex rounded-full border border-border px-7 py-3 font-semibold transition-colors hover:border-primary hover:text-primary-dark dark:hover:text-primary-light">
@@ -237,34 +151,4 @@ function HelpContent({locale}: {locale: SiteLocale}) {
       <SiteFooter />
     </div>
   );
-}
-
-function HelpSection({id, title, children}: {id: string; title: string; children: React.ReactNode}) {
-  return <section id={id} className="scroll-mt-24"><h2 className="text-3xl font-bold md:text-4xl">{title}</h2><div className="mt-6 text-[1.05rem] leading-8 text-gray-600 dark:text-gray-300">{children}</div></section>;
-}
-
-function HelpImage({
-  src,
-  alt,
-  priority = false,
-}: {
-  src: VersionedMediaPath;
-  alt: string;
-  priority?: boolean;
-}) {
-  const {width, height} = getMediaDimensions(src);
-  return (
-    <figure
-      data-media-evidence="true"
-      data-media-source="app-screenshot"
-      data-media-source-label={`JigsawDesigner ${PRODUCT_FACTS.currentVersion}`}
-      className="mt-10 overflow-hidden rounded-2xl border border-border shadow-sm"
-    >
-      <Image src={src} alt={alt} width={width} height={height} sizes="(max-width: 1024px) calc(100vw - 3rem), 1056px" className="h-auto w-full" priority={priority} />
-    </figure>
-  );
-}
-
-function Shortcut({keys, label}: {keys: string; label: string}) {
-  return <div className="flex items-center justify-between gap-4 rounded-2xl border border-border p-5"><span>{label}</span><kbd className="rounded-lg bg-background-secondary px-3 py-1 font-mono text-sm">{keys}</kbd></div>;
 }

@@ -1,0 +1,51 @@
+{
+  "title": "Ocho herramientas en acción",
+  "intro": "Elige una herramienta numerada para comparar capturas reales antes y después de usarla. Amplía cualquier captura para ver los detalles.",
+  "toolbarLabel": "Barra de dibujo de JigsawDesigner",
+  "beforeLabel": "Cómo usarla",
+  "afterLabel": "Ver el resultado",
+  "zoomLabel": "Ampliar captura",
+  "closeLabel": "Cerrar captura",
+  "tools": {
+    "select": {
+      "name": "Selección",
+      "action": "Haz clic en el rectángulo para seleccionarlo y arrastra su borde para mover toda la figura.",
+      "result": "El rectángulo se mueve junto con su cuadro de selección. Los valores de posición se actualizan en el inspector."
+    },
+    "point-edit": {
+      "name": "Edición de nodos",
+      "action": "Selecciona el trazado Bézier, activa Edit y arrastra un nodo para modificar la curva.",
+      "result": "La curva cambia al mover el nodo. Sus manejadores siguen disponibles para afinar la forma."
+    },
+    "pencil": {
+      "name": "Lápiz",
+      "action": "Elige Pencil, pulsa y arrastra por el lienzo. Suelta para terminar el trazo.",
+      "result": "El trazo se convierte en un trazado vectorial editable. Pulsa de nuevo Pencil mientras esté seleccionado para ajustar el suavizado."
+    },
+    "line": {
+      "name": "Línea",
+      "action": "Pulsa en el punto inicial, arrastra hasta el punto final y suelta.",
+      "result": "Una línea recta une los dos puntos."
+    },
+    "rectangle": {
+      "name": "Rectángulo",
+      "action": "Pulsa en una esquina, arrastra hasta la esquina opuesta y suelta.",
+      "result": "Las dos esquinas delimitan el rectángulo."
+    },
+    "circle": {
+      "name": "Círculo",
+      "action": "Pulsa en el centro y arrastra hacia fuera para definir el radio. Después, suelta.",
+      "result": "El círculo aparece alrededor del punto inicial, que es su centro."
+    },
+    "polygon": {
+      "name": "Polígono",
+      "action": "Haz clic en cada vértice. Tras colocar al menos tres puntos, pulsa el punto inicial para cerrar la figura.",
+      "result": "El último vértice se une al primero y forma un polígono cerrado."
+    },
+    "bezier": {
+      "name": "Bézier",
+      "action": "Haz clic para colocar el inicio, arrastra los manejadores del siguiente nodo y añade el punto final. Pulsa Intro para terminar la curva abierta.",
+      "result": "La curva sigue siendo un trazado editable. Activa Edit para ajustar sus nodos y manejadores."
+    }
+  }
+}

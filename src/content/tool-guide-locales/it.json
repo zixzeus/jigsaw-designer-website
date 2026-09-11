@@ -1,0 +1,51 @@
+{
+  "title": "Otto strumenti in azione",
+  "intro": "Scegli uno strumento numerato per confrontare schermate reali prima e dopo un’operazione. Ingrandisci una schermata per osservarne i dettagli.",
+  "toolbarLabel": "Barra degli strumenti di disegno di JigsawDesigner",
+  "beforeLabel": "Come si usa",
+  "afterLabel": "Guarda il risultato",
+  "zoomLabel": "Ingrandisci schermata",
+  "closeLabel": "Chiudi schermata",
+  "tools": {
+    "select": {
+      "name": "Selezione",
+      "action": "Fai clic sul rettangolo per selezionarlo, poi trascina il bordo per spostare l’intera forma.",
+      "result": "Il rettangolo si sposta insieme al riquadro di selezione. I valori della posizione si aggiornano nell’inspector."
+    },
+    "point-edit": {
+      "name": "Modifica nodi",
+      "action": "Seleziona il tracciato Bézier, attiva Edit e trascina un nodo per modificare la curva.",
+      "result": "La curva segue lo spostamento del nodo. Le sue maniglie restano disponibili per ulteriori regolazioni."
+    },
+    "pencil": {
+      "name": "Matita",
+      "action": "Scegli Pencil, premi e trascina sull’area di disegno, poi rilascia per terminare il tratto.",
+      "result": "Il tratto diventa un tracciato vettoriale modificabile. Fai di nuovo clic su Pencil mentre è selezionato per regolare la levigatura."
+    },
+    "line": {
+      "name": "Linea",
+      "action": "Premi sul punto iniziale, trascina fino al punto finale e rilascia.",
+      "result": "Una linea retta unisce i due punti."
+    },
+    "rectangle": {
+      "name": "Rettangolo",
+      "action": "Premi su un angolo, trascina fino all’angolo opposto e rilascia.",
+      "result": "I due angoli definiscono il rettangolo."
+    },
+    "circle": {
+      "name": "Cerchio",
+      "action": "Premi al centro e trascina verso l’esterno per impostare il raggio, poi rilascia.",
+      "result": "Il cerchio si forma attorno al punto iniziale, che ne è il centro."
+    },
+    "polygon": {
+      "name": "Poligono",
+      "action": "Fai clic sui vertici in sequenza. Dopo almeno tre punti, fai clic sul punto iniziale per chiudere la forma.",
+      "result": "L’ultimo vertice si collega al primo e forma un poligono chiuso."
+    },
+    "bezier": {
+      "name": "Bézier",
+      "action": "Fai clic per inserire il punto iniziale, trascina le maniglie del nodo successivo e aggiungi il punto finale. Premi Invio per terminare la curva aperta.",
+      "result": "La curva resta un tracciato modificabile. Attiva Edit per regolare nodi e maniglie."
+    }
+  }
+}

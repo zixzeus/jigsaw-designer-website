@@ -1,0 +1,51 @@
+{
+  "title": "Åtta verktyg i praktiken",
+  "intro": "Välj ett numrerat verktyg och jämför riktiga appbilder före och efter ett moment. Förstora en skärmbild för att se detaljerna.",
+  "toolbarLabel": "JigsawDesigners ritverktygsfält",
+  "beforeLabel": "Så gör du",
+  "afterLabel": "Se resultatet",
+  "zoomLabel": "Förstora skärmbilden",
+  "closeLabel": "Stäng skärmbilden",
+  "tools": {
+    "select": {
+      "name": "Markering",
+      "action": "Klicka på rektangeln för att markera den. Dra sedan i kanten för att flytta hela formen.",
+      "result": "Rektangeln flyttas tillsammans med markeringsramen. Positionsvärdena uppdateras i granskaren."
+    },
+    "point-edit": {
+      "name": "Punktredigering",
+      "action": "Markera Bézierbanan, välj Edit och dra en ankarpunkt för att ändra kurvan.",
+      "result": "Kurvan ändras när ankarpunkten flyttas. Handtagen finns kvar för ytterligare justeringar."
+    },
+    "pencil": {
+      "name": "Penna",
+      "action": "Välj Pencil, tryck och dra över ritytan. Släpp för att avsluta strecket.",
+      "result": "Strecket blir en redigerbar vektorbana. Klicka på det valda Pencil-verktyget igen för att ställa in utjämningen."
+    },
+    "line": {
+      "name": "Linje",
+      "action": "Tryck vid startpunkten, dra till slutpunkten och släpp.",
+      "result": "En rak linje förbinder de två punkterna."
+    },
+    "rectangle": {
+      "name": "Rektangel",
+      "action": "Tryck i ett hörn, dra till det motsatta hörnet och släpp.",
+      "result": "De två hörnen bestämmer rektangelns form."
+    },
+    "circle": {
+      "name": "Cirkel",
+      "action": "Tryck i mitten och dra utåt för att ange radien. Släpp sedan.",
+      "result": "Cirkeln skapas runt startpunkten, som är dess mittpunkt."
+    },
+    "polygon": {
+      "name": "Polygon",
+      "action": "Klicka på hörnen i tur och ordning. Efter minst tre punkter klickar du på startpunkten för att sluta formen.",
+      "result": "Det sista hörnet förbinds med det första och bildar en sluten polygon."
+    },
+    "bezier": {
+      "name": "Bézier",
+      "action": "Klicka för att placera startpunkten, dra ut handtag vid nästa ankare och lägg till slutpunkten. Tryck på Retur för att avsluta den öppna kurvan.",
+      "result": "Kurvan är fortfarande en redigerbar bana. Välj Edit för att finjustera ankarpunkter och handtag."
+    }
+  }
+}

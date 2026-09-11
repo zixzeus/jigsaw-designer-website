@@ -1,0 +1,51 @@
+{
+  "title": "Huit outils en action",
+  "intro": "Choisissez un outil numéroté pour comparer de vraies captures avant et après une manipulation. Agrandissez une capture pour en voir les détails.",
+  "toolbarLabel": "Barre de dessin de JigsawDesigner",
+  "beforeLabel": "Mode d’emploi",
+  "afterLabel": "Voir le résultat",
+  "zoomLabel": "Agrandir la capture",
+  "closeLabel": "Fermer la capture",
+  "tools": {
+    "select": {
+      "name": "Sélection",
+      "action": "Cliquez sur le rectangle pour le sélectionner, puis faites glisser son bord pour déplacer toute la forme.",
+      "result": "Le rectangle se déplace avec son cadre de sélection. Sa position est mise à jour dans l’inspecteur."
+    },
+    "point-edit": {
+      "name": "Édition des points",
+      "action": "Sélectionnez le tracé de Bézier, activez Edit, puis déplacez un point d’ancrage pour modifier la courbe.",
+      "result": "La courbe suit le déplacement du point. Ses poignées restent disponibles pour affiner la forme."
+    },
+    "pencil": {
+      "name": "Crayon",
+      "action": "Choisissez Pencil, appuyez et faites glisser sur le canevas. Relâchez pour terminer le trait.",
+      "result": "Le trait devient un tracé vectoriel modifiable. Cliquez à nouveau sur Pencil lorsqu’il est sélectionné pour régler le lissage."
+    },
+    "line": {
+      "name": "Ligne",
+      "action": "Appuyez au point de départ, faites glisser jusqu’au point d’arrivée, puis relâchez.",
+      "result": "Une ligne droite relie les deux points."
+    },
+    "rectangle": {
+      "name": "Rectangle",
+      "action": "Appuyez dans un angle, faites glisser jusqu’à l’angle opposé, puis relâchez.",
+      "result": "Les deux angles délimitent le rectangle."
+    },
+    "circle": {
+      "name": "Cercle",
+      "action": "Appuyez au centre et faites glisser vers l’extérieur pour définir le rayon, puis relâchez.",
+      "result": "Le cercle se forme autour du point de départ, qui en est le centre."
+    },
+    "polygon": {
+      "name": "Polygone",
+      "action": "Cliquez sur chaque sommet. Après au moins trois points, cliquez sur le point de départ pour fermer la forme.",
+      "result": "Le dernier sommet rejoint le premier et forme un polygone fermé."
+    },
+    "bezier": {
+      "name": "Bézier",
+      "action": "Cliquez pour placer le départ, tirez les poignées du point d’ancrage suivant, puis ajoutez le point final. Appuyez sur Entrée pour terminer la courbe ouverte.",
+      "result": "La courbe reste un tracé modifiable. Activez Edit pour affiner ses points d’ancrage et ses poignées."
+    }
+  }
+}

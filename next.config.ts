@@ -71,6 +71,7 @@ const nextConfig: NextConfig = {
           {key: "Cache-Control", value: "public, max-age=3600"},
         ],
       },
+      {source: "/product/generation-demo-v1.mp4", headers: immutableAssetHeaders},
       ...versionedMediaPaths.map((source) => ({
         source,
         headers: immutableAssetHeaders,

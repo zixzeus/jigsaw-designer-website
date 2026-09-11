@@ -229,6 +229,59 @@ for (const [locale, messages] of translations) {
   }
 }
 
+// Product-led homepage copy is independent of the legacy tutorial catalog.
+const homeDirectory = path.join(root, "src/content/home-design-locales");
+const homeFiles = new Set((await readdir(homeDirectory)).filter((name) => name.endsWith(".json")));
+addSetDifference(errors, "homepage", "locale files", new Set(locales.map((locale) => `${locale}.json`)), homeFiles);
+const homeReference = JSON.parse(await readFile(path.join(homeDirectory, "en.json"), "utf8"));
+for (const locale of locales) {
+  const copy = JSON.parse(await readFile(path.join(homeDirectory, `${locale}.json`), "utf8"));
+  addSetDifference(errors, locale, "homepage keys", new Set(Object.keys(homeReference)), new Set(Object.keys(copy)));
+  for (const [key, value] of Object.entries(copy)) {
+    if (typeof value !== "string" || !value.trim()) {errors.push(`${locale}: homepage ${key} is empty`); continue;}
+    for (const {label, pattern} of forbiddenPatterns) {
+      // The user explicitly chose these homepage headline and speed labels on 2026-09-11.
+      // Only their three-second wording is exempt; all other fields and rules still apply.
+      if ((key === "heroAccent" || key === "speedLabel") && label === "three-second guarantee") continue;
+      pattern.lastIndex = 0;
+      if (pattern.test(value)) errors.push(`${locale}: homepage ${key}: ${label}`);
+    }
+  }
+  const homepageTitleLength = [...copy.seoTitle].length + (copy.seoTitle.includes("JigsawDesigner") ? 0 : 17);
+  if (homepageTitleLength > 75) errors.push(`${locale}: homepage SEO title is too long`);
+  if ([...copy.seoDescription].length > 180) errors.push(`${locale}: homepage SEO description is too long`);
+  if (!copy.trial.includes("5") || !copy.trial.includes("Premium") || !copy.trial.includes("SVG")) errors.push(`${locale}: homepage trial must state the 5 generations and Premium SVG entitlement`);
+  if (!copy.finalBody.includes("5") || !copy.finalBody.includes("Premium") || !copy.finalBody.includes("SVG")) errors.push(`${locale}: homepage final CTA must state the free and Premium entitlements`);
+}
+
+for (const guide of ["tool-guide", "interface-guide", "iphone-guide"]) {
+  const directory = path.join(root, `src/content/${guide}-locales`);
+  const files = new Set((await readdir(directory)).filter((name) => name.endsWith(".json")));
+  addSetDifference(errors, guide, "locale files", new Set(locales.map((locale) => `${locale}.json`)), files);
+  const reference = flatten(JSON.parse(await readFile(path.join(directory, "en.json"), "utf8")));
+  for (const locale of locales) {
+    try {
+      const copy = flatten(JSON.parse(await readFile(path.join(directory, `${locale}.json`), "utf8")));
+      addSetDifference(errors, `${locale}:${guide}`, "keys", new Set(reference.keys()), new Set(copy.keys()));
+      for (const [key, value] of copy) {
+        if (typeof value !== "string" || !value.trim()) {
+          errors.push(`${locale}:${guide}:${key}: expected a nonempty string`);
+          continue;
+        }
+        if (!sameMembers(placeholders(reference.get(key)), placeholders(value))) {
+          errors.push(`${locale}:${guide}:${key}: placeholder mismatch`);
+        }
+        for (const {label, pattern} of forbiddenPatterns) {
+          pattern.lastIndex = 0;
+          if (pattern.test(value)) errors.push(`${locale}:${guide}:${key}: ${label}`);
+        }
+      }
+    } catch (error) {
+      errors.push(`${locale}:${guide}: missing or invalid locale file (${error.message})`);
+    }
+  }
+}
+
 const publicSourceDirectories = [
   path.join(root, "src/app"),
   path.join(root, "src/components"),

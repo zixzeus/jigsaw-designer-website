@@ -79,21 +79,19 @@ function PricingContent({locale}: {locale: SiteLocale}) {
             <Breadcrumbs items={[{label: navigation("home"), href: "/"}, {label: pricing("title")}]} ariaLabel={pricing("title")} />
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary-dark dark:text-primary-light">{copy.eyebrow}</p>
-              <h1 className="display-title mt-5 text-4xl font-semibold tracking-[-0.035em] sm:text-5xl md:text-6xl">{pricing("title")}</h1>
+              <h1 className="display-title mt-5 text-3xl font-semibold tracking-[-0.035em] sm:text-5xl md:text-6xl">{pricing("title")}</h1>
               <p className="prose-copy mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">{pricing("subtitle", {count: PRODUCT_FACTS.freeGenerationLimit})}</p>
             </div>
           </div>
         </header>
 
         <section className="mx-auto max-w-6xl px-5 py-14 md:px-8 md:py-20" aria-labelledby="comparison-title">
-          <div className="grid gap-px overflow-hidden rounded-[1.5rem] border border-border bg-border md:grid-cols-2">
+          <div className="grid gap-px overflow-hidden rounded-[1.5rem] border border-border bg-background md:grid-cols-2">
             <article className="bg-background p-7 md:p-9">
-              <p className="text-sm font-semibold text-gray-500">01</p>
               <h2 className="mt-4 text-3xl font-semibold">{copy.freeName}</h2>
               <p className="mt-3 leading-7 text-gray-600 dark:text-gray-300">{copy.freeDescription}</p>
             </article>
-            <article className="bg-primary-ultra-light/45 p-7 md:p-9">
-              <p className="text-sm font-semibold text-primary-dark dark:text-primary-light">02</p>
+            <article className="bg-primary-ultra-light/45 border-t border-border md:border-t-0 md:border-s p-7 md:p-9">
               <h2 className="mt-4 text-3xl font-semibold">{copy.premiumName}</h2>
               <p className="mt-3 leading-7 text-gray-600 dark:text-gray-300">{copy.premiumDescription}</p>
             </article>
@@ -101,12 +99,12 @@ function PricingContent({locale}: {locale: SiteLocale}) {
 
           <h2 id="comparison-title" className="mt-14 text-2xl font-semibold">{copy.comparisonTitle}</h2>
           <div className="mt-6 overflow-x-auto border-y border-border">
-            <table className="w-full min-w-[38rem] border-collapse text-start">
+            <table className="w-full table-fixed border-collapse text-start [overflow-wrap:anywhere]">
               <thead>
                 <tr className="text-sm text-gray-500">
-                  <th scope="col" className="py-4 pe-6 text-start font-medium" />
-                  <th scope="col" className="px-6 py-4 text-start font-medium">{copy.freeName}</th>
-                  <th scope="col" className="px-6 py-4 text-start font-medium text-primary-dark dark:text-primary-light">{copy.premiumName}</th>
+                  <th scope="col" className="py-4 pe-2 sm:pe-6 text-start font-medium" />
+                  <th scope="col" className="px-2 py-4 sm:px-6 text-start font-medium">{copy.freeName}</th>
+                  <th scope="col" className="px-2 py-4 sm:px-6 text-start font-medium text-primary-dark dark:text-primary-light">{copy.premiumName}</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">
@@ -118,7 +116,7 @@ function PricingContent({locale}: {locale: SiteLocale}) {
           </div>
           <div className="mt-8 flex flex-col items-start justify-between gap-5 sm:flex-row sm:items-center">
             <p className="max-w-2xl text-sm leading-6 text-gray-600 dark:text-gray-300">{copy.storeNote}</p>
-            <AppStoreCTA location="pricing" pageId="pricing" label={pricing("cta")} ariaLabel={common("appStoreAria")} className="shrink-0 rounded-full bg-primary-dark px-6 py-3 font-semibold text-white transition-colors hover:bg-[#1452a3]" />
+            <AppStoreCTA location="pricing" pageId="pricing" label={pricing("cta")} ariaLabel={common("appStoreAria")} className="shrink-0" />
           </div>
         </section>
 
@@ -149,9 +147,9 @@ function PricingContent({locale}: {locale: SiteLocale}) {
 function ComparisonRow({label, free, premium}: {label: string; free: string; premium: string}) {
   return (
     <tr>
-      <th scope="row" className="py-5 pe-6 text-start text-sm font-semibold">{label}</th>
-      <td className="px-6 py-5 text-sm text-gray-600 dark:text-gray-300">{free}</td>
-      <td className="px-6 py-5 text-sm font-semibold">{premium}</td>
+      <th scope="row" className="py-5 pe-2 sm:pe-6 text-start text-sm font-semibold">{label}</th>
+      <td className="px-2 py-5 sm:px-6 text-sm text-gray-600 dark:text-gray-300">{free}</td>
+      <td className="px-2 py-5 sm:px-6 text-sm font-semibold">{premium}</td>
     </tr>
   );
 }

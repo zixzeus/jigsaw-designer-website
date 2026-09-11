@@ -1,13 +1,13 @@
 {
     "Navigation": {
         "features": "Fonctionnalités",
-        "product": "Produit",
+        "product": "L’app",
         "showcase": "Galerie",
-        "learn": "Apprendre",
+        "learn": "Guides",
         "download": "Télécharger",
         "home": "Accueil",
         "support": "Assistance",
-        "help": "Centre d'Aide",
+        "help": "Aide",
         "pricing": "Tarifs",
         "language": "Langue",
         "openMenu": "Ouvrir le menu",
@@ -45,7 +45,7 @@
         "pricing": "Tarifs",
         "terms": "Conditions d’utilisation",
         "refund": "Politique de remboursement",
-        "help": "Centre d'Aide"
+        "help": "Centre d’aide"
     },
     "Privacy": {
         "title": "Politique de Confidentialité",

@@ -1,0 +1,51 @@
+{
+  "title": "Osm nástrojů v praxi",
+  "intro": "Vyberte očíslovaný nástroj a porovnejte skutečné snímky aplikace před úpravou a po ní. Snímek můžete zvětšit a prohlédnout si podrobnosti.",
+  "toolbarLabel": "Panel kreslicích nástrojů JigsawDesigner",
+  "beforeLabel": "Jak na to",
+  "afterLabel": "Zobrazit výsledek",
+  "zoomLabel": "Zvětšit snímek",
+  "closeLabel": "Zavřít snímek",
+  "tools": {
+    "select": {
+      "name": "Výběr",
+      "action": "Kliknutím vyberte obdélník. Potom jej tažením za okraj celý přesuňte.",
+      "result": "Obdélník se přesune i s rámečkem výběru. Údaje o poloze v inspektoru se aktualizují."
+    },
+    "point-edit": {
+      "name": "Úprava uzlů",
+      "action": "Vyberte Bézierovu cestu, přepněte na Edit a tažením za uzel změňte křivku.",
+      "result": "Křivka se mění spolu s polohou uzlu. Jeho táhla zůstávají dostupná pro další úpravy."
+    },
+    "pencil": {
+      "name": "Tužka",
+      "action": "Vyberte Pencil, stiskněte a táhněte po plátně. Uvolněním tah dokončíte.",
+      "result": "Tah se změní na upravitelnou vektorovou cestu. Opětovným kliknutím na aktivní Pencil otevřete nastavení vyhlazení."
+    },
+    "line": {
+      "name": "Úsečka",
+      "action": "Stiskněte v počátečním bodě, přetáhněte ke koncovému a uvolněte.",
+      "result": "Oba body propojí přímá úsečka."
+    },
+    "rectangle": {
+      "name": "Obdélník",
+      "action": "Stiskněte v jednom rohu, přetáhněte do protějšího rohu a uvolněte.",
+      "result": "Dva rohy určují výsledný obdélník."
+    },
+    "circle": {
+      "name": "Kružnice",
+      "action": "Stiskněte ve středu a tažením ven určete poloměr. Potom uvolněte.",
+      "result": "Kružnice vznikne kolem počátečního bodu, který je jejím středem."
+    },
+    "polygon": {
+      "name": "Mnohoúhelník",
+      "action": "Postupně klikejte na vrcholy. Po nejméně třech bodech klikněte na počáteční bod a tvar uzavřete.",
+      "result": "Poslední vrchol se spojí s prvním a vznikne uzavřený mnohoúhelník."
+    },
+    "bezier": {
+      "name": "Bézierova křivka",
+      "action": "Kliknutím vložte počátek, u dalšího uzlu vytáhněte táhla a přidejte koncový bod. Klávesou Enter dokončete otevřenou křivku.",
+      "result": "Křivka zůstane upravitelnou cestou. Nástrojem Edit můžete doladit její uzly a táhla."
+    }
+  }
+}

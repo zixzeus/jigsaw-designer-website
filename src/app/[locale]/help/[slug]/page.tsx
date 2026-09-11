@@ -9,6 +9,7 @@ import {
   hasGeneratedLocaleContent,
 } from "@/content/localized-content";
 import {isTierOneLocale} from "@/content/types";
+import {organizeHelpContent} from "@/content/organized-help";
 import {FULL_CONTENT_LOCALES, isRouteAvailable, isSiteLocale} from "@/config/seo";
 import {createPageMetadata} from "@/lib/seo";
 
@@ -34,7 +35,7 @@ function resolveHelp(locale: string, slug: string) {
       : null;
   if (!content) notFound();
 
-  return {content, pathname, locale};
+  return {content: organizeHelpContent(content, locale), pathname, locale};
 }
 
 export function generateStaticParams() {

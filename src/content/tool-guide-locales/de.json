@@ -1,0 +1,51 @@
+{
+  "title": "Acht Werkzeuge in Aktion",
+  "intro": "Wählen Sie ein nummeriertes Werkzeug und vergleichen Sie echte App-Aufnahmen vor und nach der Bearbeitung. Vergrößern Sie eine Aufnahme, um Details zu erkennen.",
+  "toolbarLabel": "Zeichenwerkzeuge von JigsawDesigner",
+  "beforeLabel": "So geht’s",
+  "afterLabel": "Ergebnis ansehen",
+  "zoomLabel": "Aufnahme vergrößern",
+  "closeLabel": "Aufnahme schließen",
+  "tools": {
+    "select": {
+      "name": "Auswahl",
+      "action": "Klicken Sie auf das Rechteck, um es auszuwählen. Ziehen Sie dann an seiner Kante, um die gesamte Form zu verschieben.",
+      "result": "Das Rechteck bewegt sich mit seinem Auswahlrahmen. Die Positionswerte im Inspektor werden aktualisiert."
+    },
+    "point-edit": {
+      "name": "Punkte bearbeiten",
+      "action": "Wählen Sie den Bézierpfad aus, wechseln Sie zu Edit und ziehen Sie einen Ankerpunkt, um die Kurve zu verändern.",
+      "result": "Die Kurve folgt dem verschobenen Ankerpunkt. Seine Griffe bleiben für weitere Anpassungen verfügbar."
+    },
+    "pencil": {
+      "name": "Freihandzeichnen",
+      "action": "Wählen Sie Pencil und ziehen Sie mit gedrückter Maustaste über die Zeichenfläche. Lassen Sie los, um den Strich abzuschließen.",
+      "result": "Der Strich wird zu einem bearbeitbaren Vektorpfad. Klicken Sie erneut auf das aktive Werkzeug Pencil, um die Glättung einzustellen."
+    },
+    "line": {
+      "name": "Linie",
+      "action": "Drücken Sie am Startpunkt, ziehen Sie zum Endpunkt und lassen Sie los.",
+      "result": "Eine gerade Linie verbindet die beiden Punkte."
+    },
+    "rectangle": {
+      "name": "Rechteck",
+      "action": "Drücken Sie an einer Ecke, ziehen Sie zur gegenüberliegenden Ecke und lassen Sie los.",
+      "result": "Die beiden Ecken bestimmen das fertige Rechteck."
+    },
+    "circle": {
+      "name": "Kreis",
+      "action": "Drücken Sie am Mittelpunkt und ziehen Sie nach außen, um den Radius festzulegen. Lassen Sie dann los.",
+      "result": "Der Kreis entsteht um den Startpunkt, der seinen Mittelpunkt bildet."
+    },
+    "polygon": {
+      "name": "Polygon",
+      "action": "Klicken Sie nacheinander auf die Eckpunkte. Klicken Sie nach mindestens drei Punkten erneut auf den Startpunkt, um die Form zu schließen.",
+      "result": "Der letzte Eckpunkt wird mit dem ersten verbunden. So entsteht ein geschlossenes Polygon."
+    },
+    "bezier": {
+      "name": "Bézierkurve",
+      "action": "Klicken Sie für den Startpunkt, ziehen Sie am nächsten Anker die Griffe heraus und setzen Sie den Endpunkt. Drücken Sie die Eingabetaste, um die offene Kurve abzuschließen.",
+      "result": "Die Kurve bleibt ein bearbeitbarer Pfad. Mit Edit passen Sie ihre Ankerpunkte und Griffe weiter an."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Xem tám công cụ hoạt động",
+  "intro": "Chọn công cụ có đánh số để so sánh màn hình ứng dụng thực tế trước và sau thao tác. Phóng to ảnh để xem chi tiết.",
+  "toolbarLabel": "Thanh công cụ vẽ của JigsawDesigner",
+  "beforeLabel": "Cách sử dụng",
+  "afterLabel": "Xem kết quả",
+  "zoomLabel": "Phóng to ảnh chụp",
+  "closeLabel": "Đóng ảnh chụp",
+  "tools": {
+    "select": {
+      "name": "Chọn",
+      "action": "Nhấp vào hình chữ nhật để chọn, rồi kéo cạnh để di chuyển toàn bộ hình.",
+      "result": "Hình chữ nhật di chuyển cùng khung chọn; giá trị vị trí trong bảng thuộc tính cũng được cập nhật."
+    },
+    "point-edit": {
+      "name": "Sửa nút",
+      "action": "Chọn đường Bézier, chuyển sang sửa nút, rồi kéo một điểm neo để đổi hình dạng đường cong.",
+      "result": "Điểm neo di chuyển và đường cong thay đổi theo. Bạn vẫn có thể dùng tay nắm điều khiển để tinh chỉnh."
+    },
+    "pencil": {
+      "name": "Bút chì",
+      "action": "Chọn bút chì, nhấn giữ và kéo trên vùng vẽ, rồi thả để kết thúc nét.",
+      "result": "Nét vẽ trở thành đường véc-tơ có thể chỉnh sửa. Nhấp lại vào bút chì đang chọn để mở tùy chọn độ mượt."
+    },
+    "line": {
+      "name": "Đường thẳng",
+      "action": "Nhấn tại điểm đầu, kéo đến điểm cuối rồi thả.",
+      "result": "Một đường thẳng nối hai điểm."
+    },
+    "rectangle": {
+      "name": "Hình chữ nhật",
+      "action": "Nhấn tại một góc, kéo đến góc đối diện rồi thả.",
+      "result": "Hai góc xác định hình chữ nhật hoàn chỉnh."
+    },
+    "circle": {
+      "name": "Hình tròn",
+      "action": "Nhấn tại tâm, kéo ra ngoài để đặt bán kính rồi thả.",
+      "result": "Hình tròn được tạo với tâm là điểm bắt đầu."
+    },
+    "polygon": {
+      "name": "Đa giác",
+      "action": "Nhấp lần lượt vào các đỉnh. Sau ít nhất ba điểm, nhấp vào điểm đầu để khép kín hình.",
+      "result": "Đỉnh cuối nối với đỉnh đầu, tạo thành đa giác khép kín."
+    },
+    "bezier": {
+      "name": "Đường Bézier",
+      "action": "Nhấp để đặt điểm đầu, kéo tay nắm tại điểm neo tiếp theo rồi thêm điểm cuối. Nhấn Enter để hoàn tất đường cong hở.",
+      "result": "Đường cong vẫn có thể chỉnh sửa. Chuyển sang sửa nút để tinh chỉnh điểm neo và tay nắm."
+    }
+  }
+}

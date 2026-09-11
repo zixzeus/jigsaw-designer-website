@@ -1,10 +1,11 @@
 import Image from "next/image";
 import {notFound} from "next/navigation";
+import type {ReactNode} from "react";
 
 import {getMediaDimensions} from "@/config/media";
 import {PRODUCT_FACTS} from "@/config/product";
 import {isRouteAvailable, type SiteLocale} from "@/config/seo";
-import type {ArticleContent, ContentImage} from "@/content/types";
+import type {ArticleContent, ContentImage, ContentSection} from "@/content/types";
 import {Link} from "@/i18n/navigation";
 import {createBreadcrumbJsonLd, localizedAbsoluteUrl} from "@/lib/seo";
 
@@ -13,6 +14,9 @@ import Breadcrumbs from "./Breadcrumbs";
 import JsonLd from "./JsonLd";
 import SiteFooter from "./SiteFooter";
 import SiteHeader from "./SiteHeader";
+import GuideChapter from "./GuideChapter";
+import GuidePlatform from "./GuidePlatform";
+import IPhoneGuideContent from "./IPhoneGuideContent";
 
 type ArticlePageProps = {
   content: ArticleContent;
@@ -20,6 +24,7 @@ type ArticlePageProps = {
   pathname: string;
   sectionLabel?: string;
   sectionHref?: string;
+  sectionVisuals?: Record<string, ReactNode>;
 };
 
 export default function ArticlePage({
@@ -28,12 +33,13 @@ export default function ArticlePage({
   pathname,
   sectionLabel,
   sectionHref,
+  sectionVisuals,
 }: ArticlePageProps) {
   if (!isRouteAvailable(pathname, locale)) notFound();
 
   const canonical = localizedAbsoluteUrl(locale, pathname);
-  const leadImage = content.leadImage;
   const isHelpArticle = pathname.startsWith("/help/");
+  const leadImage = isHelpArticle ? undefined : content.leadImage;
   const isHowTo = content.schemaType === "HowTo";
   const isRelease = pathname.startsWith("/changelog/");
   const breadcrumbs = [
@@ -115,7 +121,7 @@ export default function ArticlePage({
                       location={isRelease ? "changelog" : "article"}
                       pageId={content.slug}
                       label={content.labels.ctaLabel}
-                      className="mt-8 inline-flex rounded-full bg-primary-dark px-6 py-3 font-semibold text-white transition-colors hover:bg-[#1452a3] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-dark focus-visible:ring-offset-2"
+                      className="mt-8"
                     />
                   ) : null}
                 </div>
@@ -127,7 +133,7 @@ export default function ArticlePage({
           <div className="border-b border-border">
             <nav
               aria-label={content.labels.contents}
-              className="mx-auto flex max-w-7xl gap-7 overflow-x-auto px-5 py-4 text-sm md:px-8"
+              className={`mx-auto flex max-w-7xl px-5 py-4 text-sm md:px-8 ${isHelpArticle ? "flex-wrap items-center gap-x-6 gap-y-3" : "gap-7 overflow-x-auto"}`}
             >
               <span className="shrink-0 font-semibold text-foreground">
                 {content.labels.contents}
@@ -136,7 +142,7 @@ export default function ArticlePage({
                 <a
                   key={section.id}
                   href={`#${section.id}`}
-                  className="shrink-0 text-gray-600 transition-colors hover:text-foreground dark:text-gray-300"
+                  className={`${isHelpArticle ? "min-w-0 py-2" : "shrink-0"} text-gray-600 transition-colors hover:text-foreground dark:text-gray-300`}
                 >
                   {section.title}
                 </a>
@@ -162,6 +168,42 @@ export default function ArticlePage({
 
           <div data-article-flow={isRelease ? "release-timeline" : "sections"}>
             {content.sections.map((section, index) => {
+              if (section.guideChapter) {
+                return <GuideChapter key={section.id} locale={locale} chapter={section.guideChapter} id={section.id} title={section.title} intro={section.guideIntro}>
+                  <SectionDetails section={section} />
+                </GuideChapter>;
+              }
+              const sectionVisual = sectionVisuals?.[section.id];
+              if (section.iphoneGuide) {
+                return <section key={section.id} id={section.id} className="scroll-mt-24 border-t border-border py-10 md:py-14">
+                  <div className="mx-auto max-w-7xl px-5 md:px-8">
+                    <h2 className="display-title text-3xl font-semibold tracking-[-0.025em] md:text-4xl">{section.title}</h2>
+                    <GuidePlatform platform="desktop">
+                      <div className={`mt-8 grid gap-10 ${section.image ? "lg:grid-cols-2 lg:items-center lg:gap-16" : "max-w-4xl"}`}>
+                        <div><SectionDetails section={section} /></div>
+                        {section.image && <ArticleImage image={section.image} />}
+                      </div>
+                    </GuidePlatform>
+                    <GuidePlatform platform="iphone">
+                      <IPhoneGuideContent locale={locale} chapter={section.iphoneGuide} showHeading={false} />
+                      <SectionDetails section={section} />
+                    </GuidePlatform>
+                  </div>
+                </section>;
+              }
+              if (sectionVisual) {
+                return (
+                  <section key={section.id} id={section.id} className="scroll-mt-24 border-t border-border bg-background py-16 md:py-24">
+                    <div className="mx-auto max-w-7xl px-5 md:px-8">
+                      <h2 className="display-title text-3xl font-semibold tracking-[-0.025em] md:text-4xl">{section.title}</h2>
+                      <div className="mt-8 grid min-w-0 gap-8 lg:grid-cols-[minmax(0,1.35fr)_minmax(0,1fr)] lg:items-center lg:gap-12">
+                        <div className="min-w-0">{sectionVisual}</div>
+                        <div className="min-w-0"><SectionDetails section={section} /></div>
+                      </div>
+                    </div>
+                  </section>
+                );
+              }
               const sectionImage = section.image?.src !== leadImage?.src ? section.image : undefined;
               const reverse = index % 2 === 1;
 
@@ -169,7 +211,7 @@ export default function ArticlePage({
                 <section
                   key={section.id}
                   id={section.id}
-                  className={`scroll-mt-24 border-t border-border py-16 md:py-24 ${index % 2 === 1 ? "bg-background-secondary/55" : "bg-background"}`}
+                      className={`scroll-mt-24 border-t border-border ${isHelpArticle ? "py-10 md:py-14" : "py-16 md:py-24"} ${index % 2 === 1 ? "bg-background-secondary/55" : "bg-background"}`}
                 >
                   <div className={`mx-auto grid max-w-7xl gap-10 px-5 md:px-8 ${sectionImage ? "lg:grid-cols-2 lg:items-center lg:gap-16" : "max-w-4xl"}`}>
                     <div className={sectionImage && reverse ? "lg:order-2" : ""}>
@@ -185,29 +227,14 @@ export default function ArticlePage({
                           {section.title}
                         </h2>
                       </div>
-                      <div className="prose-copy mt-6 space-y-5 text-[1.05rem] leading-8 text-gray-600 dark:text-gray-300">
-                        {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-                      </div>
-                      {section.bullets?.length ? (
-                        <ul className="mt-7 divide-y divide-border border-y border-border text-sm leading-6">
-                          {section.bullets.map((bullet) => (
-                            <li key={bullet} className="flex gap-3 py-3.5">
-                              <span className="text-primary-dark dark:text-primary-light" aria-hidden="true">✓</span>
-                              <span>{bullet}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      ) : null}
-                      {section.note ? (
-                        <p className="mt-7 border-s-2 border-primary ps-5 text-sm leading-6 text-gray-700 dark:text-gray-200">
-                          {section.note}
-                        </p>
-                      ) : null}
+                      {section.iphoneParagraphs ? <>
+                        <GuidePlatform platform="desktop"><SectionDetails section={section} /></GuidePlatform>
+                        <GuidePlatform platform="iphone"><SectionDetails section={{...section, paragraphs: section.iphoneParagraphs}} /></GuidePlatform>
+                      </> : <SectionDetails section={section} />}
                     </div>
-                    {sectionImage ? (
-                      <div className={reverse ? "lg:order-1" : ""}>
-                        <ArticleImage image={sectionImage} />
-                      </div>
+                    {sectionImage ? (isHelpArticle
+                      ? <GuidePlatform platform="desktop"><div className={reverse ? "lg:order-1" : ""}><ArticleImage image={sectionImage} /></div></GuidePlatform>
+                      : <div className={reverse ? "lg:order-1" : ""}><ArticleImage image={sectionImage} /></div>
                     ) : null}
                   </div>
                 </section>
@@ -262,6 +289,25 @@ export default function ArticlePage({
       <SiteFooter />
     </div>
   );
+}
+
+function SectionDetails({section}: {section: ContentSection}) {
+  if (!section.paragraphs.length && !section.bullets?.length && !section.note && !section.links?.length && !section.supplements?.length) return null;
+  return <>
+    {section.paragraphs.length > 0 && <div className="prose-copy mt-6 space-y-5 text-[1.05rem] leading-8 text-gray-600 dark:text-gray-300">
+      {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+    </div>}
+    {section.bullets?.length ? <ul className="mt-7 divide-y divide-border border-y border-border text-sm leading-6">
+      {section.bullets.map((bullet) => <li key={bullet} className="flex gap-3 py-3.5"><span className="text-primary-dark dark:text-primary-light" aria-hidden="true">✓</span><span>{bullet}</span></li>)}
+    </ul> : null}
+    {section.note && <p className="mt-7 border-s-2 border-primary ps-5 text-sm leading-6 text-gray-700 dark:text-gray-200">{section.note}</p>}
+    {section.supplements?.map((item) => <div key={item.id} id={item.id} className="mt-8 scroll-mt-28 border-t border-border pt-8">
+      <h3 className="text-xl font-semibold">{item.title}</h3><SectionDetails section={item} />
+    </div>)}
+    {section.links?.length ? <div className="mt-6 flex flex-wrap gap-x-8 gap-y-3">
+      {section.links.map((item) => <Link key={item.href} href={item.href} className="text-link py-2">{item.label}<span aria-hidden="true">→</span></Link>)}
+    </div> : null}
+  </>;
 }
 
 function ArticleImage({

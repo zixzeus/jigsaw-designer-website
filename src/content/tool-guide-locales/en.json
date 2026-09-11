@@ -1,0 +1,19 @@
+{
+  "title": "Eight tools, shown in action",
+  "intro": "Choose a numbered tool to compare real App states before and after an action. Enlarge any screenshot to inspect the details.",
+  "toolbarLabel": "JigsawDesigner drawing toolbar",
+  "beforeLabel": "How to use it",
+  "afterLabel": "See the result",
+  "zoomLabel": "Enlarge screenshot",
+  "closeLabel": "Close screenshot",
+  "tools": {
+    "select": {"name": "Select", "action": "Click the rectangle to select it, then drag its edge to move the whole shape.", "result": "The rectangle moves together with its selection box, and the position values update in the inspector."},
+    "point-edit": {"name": "Point editing", "action": "Select the Bezier path, switch to Edit, then drag an anchor point to reshape the curve.", "result": "The anchor moves and the curve changes with it. Its control handles remain available for further adjustments."},
+    "pencil": {"name": "Pencil", "action": "Choose Pencil, press and drag across the canvas, then release to finish the stroke.", "result": "The stroke becomes an editable vector path. Click the selected Pencil tool again to open its smoothness options."},
+    "line": {"name": "Line", "action": "Press at the start point, drag to the end point, then release.", "result": "A straight line connects the two points."},
+    "rectangle": {"name": "Rectangle", "action": "Press at one corner and drag to the opposite corner, then release.", "result": "The two corners define the completed rectangle."},
+    "circle": {"name": "Circle", "action": "Press at the centre and drag outwards to set the radius, then release.", "result": "A circle appears around the starting point, which is its centre."},
+    "polygon": {"name": "Polygon", "action": "Click each vertex in turn. After at least three points, click the starting point to close the shape.", "result": "The last vertex connects to the first, forming a closed polygon."},
+    "bezier": {"name": "Bezier", "action": "Click to place the start point, drag out handles at the next anchor, then add the end point. Press Enter to finish the open curve.", "result": "The completed curve remains an editable path. Switch to Edit to refine its anchors and handles."}
+  }
+}

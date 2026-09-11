@@ -1,0 +1,20 @@
+.entry { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 36px; align-items: center; overflow: hidden; border: 1px solid var(--border-color); border-radius: 20px; background: var(--background-secondary); }
+.entry:hover { border-color: var(--primary-dark); }
+.entry:focus-visible { outline: 3px solid var(--primary-dark); outline-offset: 5px; }
+.preview { min-width: 0; padding: 24px 0 24px 24px; }
+:global([dir="rtl"]) .preview { padding: 24px 24px 24px 0; }
+.preview img { width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 10px; }
+.copy { min-width: 0; padding-block: 30px; padding-inline-end: 32px; }
+.copy h2 { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; font-size: clamp(22px, 2.2vw, 30px); font-weight: 650; line-height: 1.4; letter-spacing: -.025em; }
+.copy h2 span { flex-shrink: 0; color: var(--primary-dark); }
+.copy p { margin-top: 16px; color: var(--muted-foreground); font-size: 15px; line-height: 1.8; }
+.compact { grid-template-columns: minmax(0, .5fr) minmax(0, 1.4fr); }
+.compact .copy h2 { font-size: 24px; }
+@media (prefers-color-scheme: dark) { .copy h2 span { color: var(--primary-light); } }
+@media (max-width: 767px) {
+  .entry, .compact { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .preview, :global([dir="rtl"]) .preview { padding: 18px 18px 0; }
+  .copy { padding: 22px; }
+  .copy h2, .compact .copy h2 { font-size: 23px; }
+  .copy p { font-size: 14px; }
+}

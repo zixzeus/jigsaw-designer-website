@@ -1,0 +1,51 @@
+{
+  "title": "Osam alata na djelu",
+  "intro": "Odaberite numerirani alat i usporedite stvarne prikaze aplikacije prije i nakon radnje. Povećajte snimku za pregled detalja.",
+  "toolbarLabel": "Alatna traka za crtanje u JigsawDesigneru",
+  "beforeLabel": "Kako se koristi",
+  "afterLabel": "Pogledajte rezultat",
+  "zoomLabel": "Povećaj snimku zaslona",
+  "closeLabel": "Zatvori snimku zaslona",
+  "tools": {
+    "select": {
+      "name": "Odabir",
+      "action": "Kliknite pravokutnik da biste ga odabrali, pa povucite njegov rub kako biste pomaknuli cijeli oblik.",
+      "result": "Pravokutnik se pomiče zajedno s okvirom odabira, a vrijednosti položaja u inspektoru se ažuriraju."
+    },
+    "point-edit": {
+      "name": "Uređivanje čvorova",
+      "action": "Odaberite Bézierovu putanju, uključite uređivanje čvorova i povucite sidrišnu točku kako biste promijenili krivulju.",
+      "result": "Točka se pomiče i krivulja se mijenja s njom. Kontrolne ručice ostaju dostupne za daljnje prilagodbe."
+    },
+    "pencil": {
+      "name": "Olovka",
+      "action": "Odaberite olovku, pritisnite i povucite po platnu, pa otpustite da biste završili potez.",
+      "result": "Potez postaje vektorska putanja koju možete uređivati. Ponovno kliknite odabranu olovku za postavke zaglađivanja."
+    },
+    "line": {
+      "name": "Crta",
+      "action": "Pritisnite u početnoj točki, povucite do završne točke i otpustite.",
+      "result": "Ravna crta povezuje te dvije točke."
+    },
+    "rectangle": {
+      "name": "Pravokutnik",
+      "action": "Pritisnite u jednom kutu, povucite do suprotnog kuta i otpustite.",
+      "result": "Ta dva kuta određuju pravokutnik."
+    },
+    "circle": {
+      "name": "Krug",
+      "action": "Pritisnite u središtu i povucite prema van da biste zadali polumjer, pa otpustite.",
+      "result": "Nastaje krug sa središtem u početnoj točki."
+    },
+    "polygon": {
+      "name": "Mnogokut",
+      "action": "Klikajte vrhove redom. Nakon najmanje tri točke kliknite početnu točku da biste zatvorili oblik.",
+      "result": "Posljednji se vrh povezuje s prvim i nastaje zatvoreni mnogokut."
+    },
+    "bezier": {
+      "name": "Bézierova krivulja",
+      "action": "Klikom postavite početnu točku, na sljedećem sidrištu izvucite ručice, pa dodajte završnu točku. Pritisnite Enter za završetak otvorene krivulje.",
+      "result": "Krivulja ostaje putanja koju možete uređivati. Uključite uređivanje čvorova za prilagodbu sidrišta i ručica."
+    }
+  }
+}

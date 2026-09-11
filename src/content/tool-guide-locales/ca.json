@@ -1,0 +1,51 @@
+{
+  "title": "Vuit eines en acció",
+  "intro": "Tria una eina numerada per comparar captures reals abans i després d’una acció. Amplia qualsevol captura per veure’n els detalls.",
+  "toolbarLabel": "Barra de dibuix del JigsawDesigner",
+  "beforeLabel": "Com es fa servir",
+  "afterLabel": "Veure el resultat",
+  "zoomLabel": "Amplia la captura",
+  "closeLabel": "Tanca la captura",
+  "tools": {
+    "select": {
+      "name": "Selecció",
+      "action": "Fes clic al rectangle per seleccionar-lo i arrossega’n la vora per moure tota la figura.",
+      "result": "El rectangle es mou amb el marc de selecció. Els valors de posició s’actualitzen a l’inspector."
+    },
+    "point-edit": {
+      "name": "Edició de nodes",
+      "action": "Selecciona el traçat Bézier, activa Edit i arrossega un node per modificar la corba.",
+      "result": "La corba canvia quan mous el node. Els seus tiradors continuen disponibles per afinar la forma."
+    },
+    "pencil": {
+      "name": "Llapis",
+      "action": "Tria Pencil, prem i arrossega pel llenç. Deixa anar per acabar el traç.",
+      "result": "El traç es converteix en un traçat vectorial editable. Torna a prémer Pencil mentre estigui seleccionat per ajustar-ne el suavitzat."
+    },
+    "line": {
+      "name": "Línia",
+      "action": "Prem al punt inicial, arrossega fins al punt final i deixa anar.",
+      "result": "Una línia recta uneix els dos punts."
+    },
+    "rectangle": {
+      "name": "Rectangle",
+      "action": "Prem en una cantonada, arrossega fins a la cantonada oposada i deixa anar.",
+      "result": "Les dues cantonades defineixen el rectangle."
+    },
+    "circle": {
+      "name": "Cercle",
+      "action": "Prem al centre i arrossega cap enfora per definir el radi. Després, deixa anar.",
+      "result": "El cercle apareix al voltant del punt inicial, que n’és el centre."
+    },
+    "polygon": {
+      "name": "Polígon",
+      "action": "Fes clic a cada vèrtex per ordre. Després d’almenys tres punts, prem el punt inicial per tancar la figura.",
+      "result": "L’últim vèrtex s’uneix al primer i forma un polígon tancat."
+    },
+    "bezier": {
+      "name": "Bézier",
+      "action": "Fes clic per col·locar l’inici, arrossega els tiradors del node següent i afegeix el punt final. Prem Retorn per acabar la corba oberta.",
+      "result": "La corba continua sent un traçat editable. Activa Edit per ajustar-ne els nodes i els tiradors."
+    }
+  }
+}

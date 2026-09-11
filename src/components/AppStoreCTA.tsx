@@ -9,7 +9,6 @@ import {trackAppStoreClick} from "@/lib/analytics";
 export const APP_STORE_URL = PRODUCT_FACTS.appStoreUrl;
 
 export type AppStoreClickLocation =
-  | "header"
   | "hero"
   | "article"
   | "pricing"
@@ -26,7 +25,6 @@ type AppStoreCTAProps = {
   ariaLabel?: string;
   pageId?: string;
   className?: string;
-  badge?: boolean;
 };
 
 export default function AppStoreCTA({
@@ -35,7 +33,6 @@ export default function AppStoreCTA({
   ariaLabel,
   pageId,
   className = "",
-  badge = false,
 }: AppStoreCTAProps) {
   const locale = useLocale();
   const pathname = usePathname();
@@ -46,28 +43,24 @@ export default function AppStoreCTA({
   return (
     <a
       href={APP_STORE_URL}
+      data-app-store-placement={location}
       target="_blank"
       rel="noopener noreferrer"
       onClick={() =>
         trackAppStoreClick({pageId: resolvedPageId, locale, placement: location})
       }
-      className={className}
+      className={`app-store-badge-link ${className}`}
       aria-label={ariaLabel ?? label}
     >
-      {badge ? (
-        // The official badge is supplied as a local asset and remains legible
-        // when scripts or analytics are unavailable.
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src="/app-store-badge.svg"
-          alt={label}
-          width="162"
-          height="54"
-          className="h-[54px] w-auto"
-        />
-      ) : (
-        label
-      )}
+      {/* Reuse Apple's supplied artwork unchanged; the accessible label is localized. */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/app-store-badge.svg"
+        alt={label}
+        width="162"
+        height="54"
+        className="h-[54px] w-auto"
+      />
     </a>
   );
 }

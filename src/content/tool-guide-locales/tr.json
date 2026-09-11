@@ -1,0 +1,51 @@
+{
+  "title": "Sekiz araç iş başında",
+  "intro": "Numaralı bir araç seçerek işlem öncesi ve sonrası gerçek uygulama ekranlarını karşılaştırın. Ayrıntıları görmek için ekran görüntüsünü büyütün.",
+  "toolbarLabel": "JigsawDesigner çizim araç çubuğu",
+  "beforeLabel": "Nasıl kullanılır",
+  "afterLabel": "Sonucu görün",
+  "zoomLabel": "Ekran görüntüsünü büyüt",
+  "closeLabel": "Ekran görüntüsünü kapat",
+  "tools": {
+    "select": {
+      "name": "Seçim",
+      "action": "Dikdörtgeni seçmek için tıklayın, ardından tüm şekli taşımak için kenarını sürükleyin.",
+      "result": "Dikdörtgen seçim kutusuyla birlikte taşınır ve özellik panelindeki konum değerleri güncellenir."
+    },
+    "point-edit": {
+      "name": "Düğüm düzenleme",
+      "action": "Bézier yolunu seçin, düğüm düzenlemeye geçin ve eğriyi değiştirmek için bir bağlantı noktasını sürükleyin.",
+      "result": "Nokta taşınır ve eğri onunla birlikte değişir. Kontrol tutamaçlarıyla ince ayar yapmaya devam edebilirsiniz."
+    },
+    "pencil": {
+      "name": "Kalem",
+      "action": "Kalemi seçin, tuvalde basılı tutarak sürükleyin ve çizgiyi bitirmek için bırakın.",
+      "result": "Çizgi, düzenlenebilir bir vektör yoluna dönüşür. Yumuşatma seçeneklerini açmak için seçili kaleme yeniden tıklayın."
+    },
+    "line": {
+      "name": "Çizgi",
+      "action": "Başlangıç noktasında basın, bitiş noktasına sürükleyin ve bırakın.",
+      "result": "İki noktayı birleştiren düz bir çizgi oluşur."
+    },
+    "rectangle": {
+      "name": "Dikdörtgen",
+      "action": "Bir köşede basın, karşı köşeye sürükleyin ve bırakın.",
+      "result": "Bu iki köşe dikdörtgeni belirler."
+    },
+    "circle": {
+      "name": "Daire",
+      "action": "Merkezde basın, yarıçapı belirlemek için dışa doğru sürükleyin ve bırakın.",
+      "result": "Başlangıç noktası merkez olacak şekilde bir daire oluşur."
+    },
+    "polygon": {
+      "name": "Çokgen",
+      "action": "Köşeleri sırayla tıklayın. En az üç noktadan sonra şekli kapatmak için başlangıç noktasına tıklayın.",
+      "result": "Son köşe ilk köşeye bağlanır ve kapalı bir çokgen oluşur."
+    },
+    "bezier": {
+      "name": "Bézier eğrisi",
+      "action": "Başlangıç noktasını tıklayarak yerleştirin, sonraki bağlantı noktasında tutamaçları sürükleyin ve bitiş noktasını ekleyin. Açık eğriyi tamamlamak için Enter'a basın.",
+      "result": "Tamamlanan eğri düzenlenebilir bir yol olarak kalır. Noktaları ve tutamaçları ayarlamak için düğüm düzenlemeye geçin."
+    }
+  }
+}

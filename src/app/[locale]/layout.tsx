@@ -1,4 +1,5 @@
 import type {Metadata} from "next";
+import Script from "next/script";
 import "../globals.css";
 import {NextIntlClientProvider} from "next-intl";
 import {getMessages, setRequestLocale} from "next-intl/server";
@@ -77,13 +78,16 @@ export default async function LocaleLayout({
   const localeSpec = LOCALE_SPECS[locale];
 
   return (
-    <html lang={localeSpec.htmlLang} dir={localeSpec.direction}>
-      <head>
-        <script
-          async
+    <html lang={localeSpec.htmlLang} dir={localeSpec.direction} data-scroll-behavior="smooth">
+      <body className="antialiased">
+        <NextIntlClientProvider messages={clientMessages}>
+          {children}
+        </NextIntlClientProvider>
+        <Script
+          strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
         />
-        <script
+        <Script
           id="google-analytics"
           dangerouslySetInnerHTML={{
             __html: `
@@ -94,11 +98,6 @@ export default async function LocaleLayout({
             `,
           }}
         />
-      </head>
-      <body className="antialiased">
-        <NextIntlClientProvider messages={clientMessages}>
-          {children}
-        </NextIntlClientProvider>
       </body>
     </html>
   );

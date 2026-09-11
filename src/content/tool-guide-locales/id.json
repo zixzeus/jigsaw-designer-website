@@ -1,0 +1,51 @@
+{
+  "title": "Delapan alat dalam aksi",
+  "intro": "Pilih alat bernomor untuk membandingkan tampilan aplikasi sebelum dan sesudah tindakan. Perbesar tangkapan layar untuk melihat detailnya.",
+  "toolbarLabel": "Bilah alat gambar JigsawDesigner",
+  "beforeLabel": "Cara menggunakan",
+  "afterLabel": "Lihat hasil",
+  "zoomLabel": "Perbesar tangkapan layar",
+  "closeLabel": "Tutup tangkapan layar",
+  "tools": {
+    "select": {
+      "name": "Seleksi",
+      "action": "Klik persegi panjang untuk memilihnya, lalu seret tepinya untuk memindahkan seluruh bentuk.",
+      "result": "Persegi panjang berpindah bersama kotak seleksi, dan nilai posisi di panel properti ikut diperbarui."
+    },
+    "point-edit": {
+      "name": "Edit simpul",
+      "action": "Pilih jalur Bézier, beralih ke pengeditan simpul, lalu seret titik jangkar untuk mengubah kurva.",
+      "result": "Titik jangkar berpindah dan kurva ikut berubah. Gagang kontrol tetap tersedia untuk penyesuaian lebih lanjut."
+    },
+    "pencil": {
+      "name": "Pensil",
+      "action": "Pilih pensil, tekan dan seret di kanvas, lalu lepaskan untuk menyelesaikan goresan.",
+      "result": "Goresan menjadi jalur vektor yang dapat diedit. Klik lagi pensil yang sedang dipilih untuk membuka opsi kehalusan."
+    },
+    "line": {
+      "name": "Garis",
+      "action": "Tekan di titik awal, seret ke titik akhir, lalu lepaskan.",
+      "result": "Garis lurus menghubungkan kedua titik."
+    },
+    "rectangle": {
+      "name": "Persegi panjang",
+      "action": "Tekan di satu sudut, seret ke sudut yang berlawanan, lalu lepaskan.",
+      "result": "Kedua sudut menentukan persegi panjang yang terbentuk."
+    },
+    "circle": {
+      "name": "Lingkaran",
+      "action": "Tekan di pusat, seret ke luar untuk menentukan jari-jari, lalu lepaskan.",
+      "result": "Lingkaran terbentuk dengan titik awal sebagai pusatnya."
+    },
+    "polygon": {
+      "name": "Poligon",
+      "action": "Klik tiap titik sudut secara berurutan. Setelah minimal tiga titik, klik titik awal untuk menutup bentuk.",
+      "result": "Titik sudut terakhir terhubung ke titik pertama, membentuk poligon tertutup."
+    },
+    "bezier": {
+      "name": "Kurva Bézier",
+      "action": "Klik untuk meletakkan titik awal, seret gagang pada titik jangkar berikutnya, lalu tambahkan titik akhir. Tekan Enter untuk menyelesaikan kurva terbuka.",
+      "result": "Kurva tetap menjadi jalur yang dapat diedit. Beralih ke pengeditan simpul untuk menyempurnakan jangkar dan gagangnya."
+    }
+  }
+}

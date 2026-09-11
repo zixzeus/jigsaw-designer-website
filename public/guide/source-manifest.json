@@ -1,0 +1,416 @@
+{
+  "capture": "English macOS development build and iPhone simulator; screenshots preserved without redraw",
+  "assets": [
+    {
+      "src": "/guide/workspace-v1.webp",
+      "width": 1365,
+      "height": 768,
+      "source": "screenshots/15-dev-overview.png"
+    },
+    {
+      "src": "/guide/project-parameters-v1.webp",
+      "width": 299,
+      "height": 640,
+      "source": "screenshots/15-dev-overview.png",
+      "crop": {
+        "left": 1066,
+        "top": 0,
+        "width": 299,
+        "height": 640
+      }
+    },
+    {
+      "src": "/guide/object-properties-v1.webp",
+      "width": 344,
+      "height": 700,
+      "source": "screenshots/12-shape-inspector.png",
+      "crop": {
+        "left": 1232,
+        "top": 0,
+        "width": 344,
+        "height": 700
+      }
+    },
+    {
+      "src": "/guide/selected-object-v1.webp",
+      "width": 881,
+      "height": 675,
+      "source": "screenshots/12-shape-inspector.png",
+      "crop": {
+        "left": 350,
+        "top": 85,
+        "width": 881,
+        "height": 675
+      }
+    },
+    {
+      "src": "/guide/template-library-v1.webp",
+      "width": 345,
+      "height": 650,
+      "source": "screenshots/03-template-library.png",
+      "crop": {
+        "left": 0,
+        "top": 70,
+        "width": 345,
+        "height": 650
+      }
+    },
+    {
+      "src": "/guide/template-new-v1.webp",
+      "width": 692,
+      "height": 572,
+      "source": "screenshots/18-template-new-empty.png"
+    },
+    {
+      "src": "/guide/template-nodes-v1.webp",
+      "width": 692,
+      "height": 572,
+      "source": "screenshots/22-template-wave-handles.png"
+    },
+    {
+      "src": "/guide/template-ready-v1.webp",
+      "width": 692,
+      "height": 572,
+      "source": "screenshots/23-template-wave-ready.png"
+    },
+    {
+      "src": "/guide/template-saved-v1.webp",
+      "width": 345,
+      "height": 360,
+      "source": "screenshots/24-template-saved-library.png",
+      "crop": {
+        "left": 0,
+        "top": 70,
+        "width": 345,
+        "height": 360
+      }
+    },
+    {
+      "src": "/guide/layers-v1.webp",
+      "width": 345,
+      "height": 650,
+      "source": "screenshots/12-shape-inspector.png",
+      "crop": {
+        "left": 0,
+        "top": 70,
+        "width": 345,
+        "height": 650
+      }
+    },
+    {
+      "src": "/guide/node-handles-v1.webp",
+      "width": 240,
+      "height": 185,
+      "source": "screenshots/31-bezier-point-edit.png",
+      "crop": {
+        "left": 670,
+        "top": 410,
+        "width": 240,
+        "height": 185
+      }
+    },
+    {
+      "src": "/guide/settings-editor-v1.webp",
+      "width": 501,
+      "height": 700,
+      "source": "screenshots/07-advanced-editor.png"
+    },
+    {
+      "src": "/guide/settings-pencil-v1.webp",
+      "width": 501,
+      "height": 700,
+      "source": "screenshots/08-pencil-distances.png"
+    },
+    {
+      "src": "/guide/settings-export-v1.webp",
+      "width": 501,
+      "height": 700,
+      "source": "screenshots/09-export-performance-settings.png"
+    },
+    {
+      "src": "/guide/generation-before-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "screenshots/25-generation-before.png"
+    },
+    {
+      "src": "/guide/generation-after-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "screenshots/27-generation-after.png"
+    },
+    {
+      "src": "/guide/iphone-workspace-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/01-editor-generation-result.png"
+    },
+    {
+      "src": "/guide/iphone-layers-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/12-expanded-layers.png"
+    },
+    {
+      "src": "/guide/iphone-tools-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/03-pencil-options.png"
+    },
+    {
+      "src": "/guide/tools/bezier-after-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/bezier-after.jpg"
+    },
+    {
+      "src": "/guide/tools/bezier-before-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/bezier-before.jpg"
+    },
+    {
+      "src": "/guide/tools/circle-after-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/circle-after.jpg"
+    },
+    {
+      "src": "/guide/tools/circle-before-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/circle-before.jpg"
+    },
+    {
+      "src": "/guide/tools/line-after-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/line-after.jpg"
+    },
+    {
+      "src": "/guide/tools/line-before-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/line-before.jpg"
+    },
+    {
+      "src": "/guide/tools/pencil-after-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/pencil-after.jpg"
+    },
+    {
+      "src": "/guide/tools/pencil-before-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/pencil-before.jpg"
+    },
+    {
+      "src": "/guide/tools/pencil-options-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/pencil-options.jpg"
+    },
+    {
+      "src": "/guide/tools/point-edit-after-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/point-edit-after.jpg"
+    },
+    {
+      "src": "/guide/tools/point-edit-before-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/point-edit-before.jpg"
+    },
+    {
+      "src": "/guide/tools/polygon-after-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/polygon-after.jpg"
+    },
+    {
+      "src": "/guide/tools/polygon-before-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/polygon-before.jpg"
+    },
+    {
+      "src": "/guide/tools/rectangle-after-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/rectangle-after.jpg"
+    },
+    {
+      "src": "/guide/tools/rectangle-before-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/rectangle-before.jpg"
+    },
+    {
+      "src": "/guide/tools/select-after-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/select-after.jpg"
+    },
+    {
+      "src": "/guide/tools/select-before-v1.webp",
+      "width": 1576,
+      "height": 768,
+      "source": "tools/select-before.jpg"
+    },
+    {
+      "src": "/guide/iphone/02-project-parameters-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/02-project-parameters.png",
+      "sourceSha256": "6caf6bd556d95237838f17be2dbfa1860620448a0ad4d1eeafa0ae3130b591ce",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/04-selection-actions-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/04-selection-actions.png",
+      "sourceSha256": "43992427dad440d3bfa5651434b8f257f29c02057ee7d52ce652bb0bde64817a",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/05-object-properties-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/05-object-properties.png",
+      "sourceSha256": "4c42dd26a8df392272e3eb9fc2ba9b763a0e9249713dd81158e120254b09136c",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/06-slot-template-library-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/06-slot-template-library.png",
+      "sourceSha256": "a6593213097483e12369d42533172e8147625c6023d2f0af2c491bda24c962b3",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/07-custom-template-drawn-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/07-custom-template-drawn.png",
+      "sourceSha256": "a27ddcdabc04f0dbcb1816ec4d06b5e2df2e9e67a3c35edfc5e549405dfd8f28",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/08-template-node-editing-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/08-template-node-editing.png",
+      "sourceSha256": "641ee6b798166e87e50dd0c5e37c4d5b3a41b963d91c55e35ee3021c0f7d260b",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/09-template-saved-reselected-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/09-template-saved-reselected.png",
+      "sourceSha256": "1072994b70cfbe6c41aa508f00c632063026fc14ca2e2faa52219dac23d1de8c",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/10-outline-before-generation-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/10-outline-before-generation.png",
+      "sourceSha256": "49026a851a4a9041db25931bc8179ace8563d76ffd54181466d91b15c2ed087e",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/11-outline-after-generation-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/11-outline-after-generation.png",
+      "sourceSha256": "45b16e7565d78e2bda1f35c3c9076f0b4a89ae823e2bdc28e4a1dd41a9786708",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/13-main-menu-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/13-main-menu.png",
+      "sourceSha256": "4f28479938790e0e2239d51ba34b818fe727990eaa70894f5964d6a3eae730f6",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/14-advanced-settings-top-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/14-advanced-settings-top.png",
+      "sourceSha256": "3fe11ee816486667d4723b5a51b1b58a0bf273080323835e3db1d7a4f84da262",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/15-svg-export-save-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/15-svg-export-save.png",
+      "sourceSha256": "ba31c7821f1301a726843f20e94d3ae78bdf4f5d9f8cbef4266a8704d10f1dad",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/16-svg-import-picker-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/16-svg-import-picker.png",
+      "sourceSha256": "bba09c49b0f3f6193f73cb2c8101ea04b063210ded4f41129d292b327257181a",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/17-svg-reimport-result-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/17-svg-reimport-result.png",
+      "sourceSha256": "60850717fa104d0ff90cc3d262cf0f24c3f1d95ca4fa056edd8b00cec112482b",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/18-project-library-v1.webp",
+      "width": 1320,
+      "height": 2868,
+      "source": "iphone/screenshots/18-project-library.png",
+      "sourceSha256": "4306299b8fb21a81196f372e1f97b6cc0576109588f628378c420f3a2e45c29f",
+      "displayRotationClockwiseDegrees": 0,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/19-landscape-editor-v1.webp",
+      "width": 2868,
+      "height": 1320,
+      "source": "iphone/screenshots/19-landscape-editor.png",
+      "sourceSha256": "b80fa322afbc4a1468a706e6793e40b468d2a18909ef2aa8a588594c381e56e8",
+      "displayRotationClockwiseDegrees": 90,
+      "encoding": "lossless WebP"
+    },
+    {
+      "src": "/guide/iphone/20-landscape-sidebar-v1.webp",
+      "width": 2868,
+      "height": 1320,
+      "source": "iphone/screenshots/20-landscape-sidebar.png",
+      "sourceSha256": "0294052307dc6d4aa958f3249176348c409d02d9826788557e714cbeb2c96147",
+      "displayRotationClockwiseDegrees": 90,
+      "encoding": "lossless WebP"
+    }
+  ]
+}

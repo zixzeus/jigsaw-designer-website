@@ -1,13 +1,13 @@
 {
     "Navigation": {
-        "features": "Características",
-        "product": "Producto",
+        "features": "Funciones",
+        "product": "La app",
         "showcase": "Galería",
-        "learn": "Aprender",
+        "learn": "Guías",
         "download": "Descargar",
         "home": "Inicio",
         "support": "Soporte",
-        "help": "Centro de Ayuda",
+        "help": "Ayuda",
         "pricing": "Precios",
         "language": "Idioma",
         "openMenu": "Abrir menú",
@@ -43,9 +43,9 @@
         "support": "Soporte",
         "rights": "© {year} JigsawDesigner. Todos los derechos reservados.",
         "pricing": "Precios",
-        "terms": "Términos del servicio",
+        "terms": "Condiciones de uso",
         "refund": "Política de reembolsos",
-        "help": "Centro de Ayuda"
+        "help": "Centro de ayuda"
     },
     "Privacy": {
         "title": "Política de Privacidad",

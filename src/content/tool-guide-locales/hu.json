@@ -1,0 +1,51 @@
+{
+  "title": "Nyolc eszköz működés közben",
+  "intro": "Válassz egy számozott eszközt, és hasonlítsd össze az alkalmazás valódi képernyőképeit a művelet előtt és után. A részletekhez nagyítsd fel a képet.",
+  "toolbarLabel": "A JigsawDesigner rajzeszköztára",
+  "beforeLabel": "Így használd",
+  "afterLabel": "Az eredmény",
+  "zoomLabel": "Képernyőkép nagyítása",
+  "closeLabel": "Képernyőkép bezárása",
+  "tools": {
+    "select": {
+      "name": "Kijelölés",
+      "action": "Kattints a téglalapra a kijelöléséhez, majd húzd el a szélénél fogva az egész alakzatot.",
+      "result": "A téglalap a kijelölési kerettel együtt mozdul el. A tulajdonságpanelen frissülnek a helyzetértékek."
+    },
+    "point-edit": {
+      "name": "Pontszerkesztés",
+      "action": "Jelöld ki a Bézier-görbét, válts az Edit eszközre, és húzz el egy csomópontot a görbe alakításához.",
+      "result": "A görbe követi a csomópont mozgását. A vezérlőkarokkal tovább finomíthatod az alakját."
+    },
+    "pencil": {
+      "name": "Ceruza",
+      "action": "Válaszd a Pencil eszközt, nyomd le az egérgombot, és húzd végig a vásznon. A vonás befejezéséhez engedd fel a gombot.",
+      "result": "A vonás szerkeszthető vektoros útvonallá válik. Kattints újra az aktív Pencil eszközre a simítás beállításához."
+    },
+    "line": {
+      "name": "Vonal",
+      "action": "Nyomd le a gombot a kezdőpontban, húzd a végpontig, majd engedd fel.",
+      "result": "Egy egyenes vonal köti össze a két pontot."
+    },
+    "rectangle": {
+      "name": "Téglalap",
+      "action": "Nyomd le a gombot az egyik saroknál, húzd az átellenes sarokig, majd engedd fel.",
+      "result": "A két sarok határozza meg a téglalapot."
+    },
+    "circle": {
+      "name": "Kör",
+      "action": "Nyomd le a gombot a középpontban, és kifelé húzva állítsd be a sugarat. Ezután engedd fel.",
+      "result": "A kör a kezdőpont körül jön létre, amely a középpontja lesz."
+    },
+    "polygon": {
+      "name": "Sokszög",
+      "action": "Kattints sorban a csúcsokra. Legalább három pont után kattints a kezdőpontra az alakzat bezárásához.",
+      "result": "Az utolsó csúcs összekapcsolódik az elsővel, és zárt sokszög jön létre."
+    },
+    "bezier": {
+      "name": "Bézier-görbe",
+      "action": "Kattintással helyezd el a kezdőpontot, húzd ki a következő csomópont vezérlőkarjait, majd add hozzá a végpontot. Az Enterrel fejezd be a nyitott görbét.",
+      "result": "A görbe szerkeszthető útvonal marad. Az Edit eszközzel finomíthatod a csomópontokat és a vezérlőkarokat."
+    }
+  }
+}

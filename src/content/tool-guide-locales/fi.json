@@ -1,0 +1,51 @@
+{
+  "title": "Kahdeksan työkalua käytännössä",
+  "intro": "Valitse numeroitu työkalu ja vertaa aitoja sovelluskuvia ennen toimintoa ja sen jälkeen. Suurenna kuva nähdäksesi yksityiskohdat.",
+  "toolbarLabel": "JigsawDesignerin piirtotyökalupalkki",
+  "beforeLabel": "Näin käytät työkalua",
+  "afterLabel": "Katso tulos",
+  "zoomLabel": "Suurenna näyttökuva",
+  "closeLabel": "Sulje näyttökuva",
+  "tools": {
+    "select": {
+      "name": "Valinta",
+      "action": "Valitse suorakulmio klikkaamalla sitä. Siirrä koko muoto vetämällä sen reunasta.",
+      "result": "Suorakulmio siirtyy valintakehyksineen. Sijaintiarvot päivittyvät ominaisuuspaneeliin."
+    },
+    "point-edit": {
+      "name": "Pisteiden muokkaus",
+      "action": "Valitse Bézier-polku, ota Edit käyttöön ja muuta käyrää vetämällä ankkuripistettä.",
+      "result": "Käyrä muuttuu ankkuripisteen mukana. Ohjauskahvoilla voit jatkaa muodon hienosäätöä."
+    },
+    "pencil": {
+      "name": "Kynä",
+      "action": "Valitse Pencil, paina ja vedä piirtoalueella. Viimeistele veto vapauttamalla painike.",
+      "result": "Vedosta syntyy muokattava vektoripolku. Avaa tasoitusasetukset klikkaamalla valittua Pencil-työkalua uudelleen."
+    },
+    "line": {
+      "name": "Viiva",
+      "action": "Paina aloituspisteessä, vedä loppupisteeseen ja vapauta.",
+      "result": "Suora viiva yhdistää pisteet."
+    },
+    "rectangle": {
+      "name": "Suorakulmio",
+      "action": "Paina yhdessä kulmassa, vedä vastakkaiseen kulmaan ja vapauta.",
+      "result": "Kaksi kulmaa määrittävät suorakulmion."
+    },
+    "circle": {
+      "name": "Ympyrä",
+      "action": "Paina keskipisteessä ja määritä säde vetämällä ulospäin. Vapauta lopuksi.",
+      "result": "Ympyrä syntyy aloituspisteen ympärille. Aloituspiste on sen keskipiste."
+    },
+    "polygon": {
+      "name": "Monikulmio",
+      "action": "Klikkaa kärkipisteitä järjestyksessä. Kun pisteitä on vähintään kolme, sulje muoto klikkaamalla aloituspistettä.",
+      "result": "Viimeinen kärki yhdistyy ensimmäiseen ja muodostaa suljetun monikulmion."
+    },
+    "bezier": {
+      "name": "Bézier",
+      "action": "Aseta aloituspiste klikkaamalla, vedä seuraavan ankkuripisteen kahvat esiin ja lisää loppupiste. Viimeistele avoin käyrä painamalla Enter.",
+      "result": "Käyrä säilyy muokattavana polkuna. Hienosäädä ankkuripisteitä ja kahvoja Edit-työkalulla."
+    }
+  }
+}

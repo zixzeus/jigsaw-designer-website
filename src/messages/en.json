@@ -8,33 +8,33 @@
     "download": "Download",
     "home": "Home",
     "support": "Support",
-    "help": "Help Center",
+    "help": "Help",
     "language": "Language",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
   "Hero": {
     "version": "Version {version} is on the App Store",
-    "titlePart1": "Create custom jigsaw cutlines",
-    "titleProfessional": "from any outline",
-    "subtitle": "Draw or import a vector boundary, generate the pattern, refine every path, and export an editable SVG—on Mac, iPad, or iPhone.",
+    "titlePart1": "Turn your outline into",
+    "titleProfessional": "a unique jigsaw",
+    "subtitle": "Draw or import a shape, generate the puzzle cutlines, and refine the details. Export an editable SVG on Mac, iPad, or iPhone.",
     "learnMore": "See how it works"
   },
   "Features": {
     "title": "What you can do",
-    "subtitle": "A focused workflow for puzzle cutline generation and SVG editing.",
+    "subtitle": "Everything you need to design puzzle cutlines and edit SVG artwork.",
     "list": {
       "customization": {
-        "title": "Prepare the boundary and slot profile",
-        "description": "Draw or import a closed SVG boundary, then choose a built-in or custom open-path slot template."
+        "title": "Start with your own shape",
+        "description": "Draw a closed outline or import an SVG. Then choose a built-in connector style or create your own."
       },
       "workflow": {
         "title": "Generate editable cutlines",
-        "description": "Set grid, piece-count, and spacing values, then generate the result as an editable SVG group."
+        "description": "Adjust the grid, target piece count, and spacing. The generated puzzle stays editable, so you can keep refining it."
       },
       "anywhere": {
-        "title": "Continue on Apple devices",
-        "description": "Work on iPhone, iPad, or Mac, with optional iCloud sync when it is enabled and available."
+        "title": "Create on your Apple devices",
+        "description": "Design on Mac, iPad, or iPhone. Enable iCloud sync to keep your projects in sync when the service is available."
       }
     }
   },
@@ -52,8 +52,8 @@
     "appStoreAria": "View JigsawDesigner on the App Store"
   },
   "Pricing": {
-    "title": "JigsawDesigner Plans",
-    "subtitle": "Try {count} puzzle generations for free. An Apple monthly or yearly subscription unlocks unlimited generation and SVG export.",
+    "title": "Free to start. More with Premium.",
+    "subtitle": "Try {count} puzzle generations for free. Upgrade to Premium for unlimited generation and SVG export, with a monthly or yearly Apple subscription.",
     "monthly": {
       "name": "Monthly subscription",
       "period": "billed monthly by Apple"
@@ -136,9 +136,9 @@
       "subtitle": "Find answers in the guides below, or contact us about a specific issue."
     },
     "documentation": {
-      "title": "Documentation",
+      "title": "Guides and tutorials",
       "description": "Read guides for the editor, project library, generation, and SVG import or export.",
-      "action": "Browse Articles"
+      "action": "Browse guides"
     },
     "email": {
       "title": "Email Support",

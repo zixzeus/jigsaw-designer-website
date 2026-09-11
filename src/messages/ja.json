@@ -1,13 +1,13 @@
 {
   "Navigation": {
     "features": "機能",
-    "product": "製品",
+    "product": "製品紹介",
     "showcase": "作例",
-    "learn": "学ぶ",
+    "learn": "使い方ガイド",
     "download": "ダウンロード",
     "home": "ホーム",
     "support": "サポート",
-    "help": "ヘルプセンター",
+    "help": "ヘルプ",
     "pricing": "料金プラン",
     "language": "言語",
     "openMenu": "メニューを開く",
@@ -41,7 +41,7 @@
   "Footer": {
     "privacy": "プライバシー",
     "support": "サポート",
-    "rights": "© {year} JigsawDesigner. 無断転載を禁じます。",
+    "rights": "© {year} JigsawDesigner. All rights reserved.",
     "pricing": "料金プラン",
     "terms": "利用規約",
     "refund": "返金ポリシー",
