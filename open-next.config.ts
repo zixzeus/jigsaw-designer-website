@@ -3,6 +3,6 @@ import staticAssetsIncrementalCache from "@opennextjs/cloudflare/overrides/incre
 
 export default defineCloudflareConfig({
   // Content pages are prerendered. Bundle those entries with Workers static
-  // assets; the country-aware App Store redirect runs uncached per request.
+  // assets; the legacy App Store redirect runs uncached per request.
   incrementalCache: staticAssetsIncrementalCache,
 });

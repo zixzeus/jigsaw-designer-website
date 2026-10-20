@@ -1,39 +1,30 @@
 # App Store download links
 
-Apple storefront paths use country codes (`cn`, `us`, `jp`), independently of
-the website language (`zh-Hans`, `en`, `ja`). All badges share `AppStoreCTA`.
+Every official badge is a normal link directly to the JigsawDesigner product
+page. There is no region picker, browser storage preference or IP geolocation.
 
-## Resolution order
+Apple URL paths use country codes, independently of website language codes.
+`APP_STORE_STOREFRONTS` maps the 33 website locales to explicit storefronts:
+`zh-Hans` to `cn`, `en` to `us`, `ja` to `jp`, and so on. The same helper supplies
+homepage structured data. Unknown locales safely use the US product URL.
 
-1. An explicit region selected next to the badge, saved in browser local storage.
-2. The current request's trusted Cloudflare `cf.country`.
-3. The website locale's explicit storefront mapping, with US as the final default.
+## Why the automatic region redirect was removed
 
-The saved region applies across pages and languages. Selecting Automatic clears
-it. If storage is blocked, the selection still works on the current page.
+On 2026-10-20, the website saw the proxy's country as US while Apple's network
+route resolved to China. The automatic redirect overrode the Chinese page's
+storefront, and Apple redirected that US product URL to `/cn/iphone/today`, losing
+the app ID. Manually selecting China worked but added unwanted UI and left the
+default click broken. Chinese badges now link straight to the verified `/cn/app/`
+product page, without requiring a choice or an extra website redirect.
 
-The badge opens `/api/app-store?locale=…`, adding `country=…` for a manual choice.
-This route responds with an uncached 302 to the fixed JigsawDesigner app ID.
-Unrecognized countries and locales cannot change the destination host or app.
-Homepage structured data uses the stable locale-specific Apple URL.
+The old `/api/app-store?locale=…` endpoint remains for cached pages. It follows the
+locale mapping and ignores obsolete `country` parameters and IP headers. It
+returns 302 with no-store/noindex and cannot redirect to another host or app.
 
-## Why a manual choice is needed
+## Verification boundary
 
-On 2026-10-20, a regionless Apple link and explicit non-China storefront links
-were observed redirecting to `/cn`, then `/cn/iphone/today`, losing the app ID.
-The explicit China product link worked. The same browser network was identified
-as US by Cloudflare, so automatic IP selection alone cannot handle split proxies
-or a visitor whose App Store region differs from their network.
-
-The 175-country allowlist is from Apple's product-page region selector, checked
-on 2026-10-20. It describes Apple storefronts, not guaranteed app availability in
-every territory. The 32 locale-default storefronts and 10 additional common
-storefronts were independently checked using Apple's lookup API for this app ID.
-
-## Verification
-
-`npm run check` runs the URL regression tests and checks all generated badges,
-localized download metadata, fallback redirects, explicit-region overrides and
-non-cacheable responses. Browser QA must also check selection synchronization,
-reload/language persistence, Automatic reset, keyboard access and mobile/RTL
-layout, then follow a selected-region badge to the actual Apple product page.
+`npm run check` validates all 33 locale mappings, generated badges, schema and
+legacy redirects. Browser QA must click the badge without setting a region and
+inspect the final Apple page. Check Chinese and English separately: a valid US
+product link can still be redirected by Apple on a split Chinese proxy. A static
+language mapping is not a guarantee of Apple's behavior on every network.

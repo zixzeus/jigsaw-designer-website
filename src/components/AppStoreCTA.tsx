@@ -1,8 +1,10 @@
-import {getLocale} from "next-intl/server";
+"use client";
 
-import {APP_STORE_COUNTRIES} from "@/config/product";
-import {getAppStoreCopy} from "@/content/app-store";
-import AppStoreCTAClient from "./AppStoreCTAClient";
+import {useLocale} from "next-intl";
+
+import {getAppStoreUrl} from "@/config/product";
+import {usePathname} from "@/i18n/navigation";
+import {trackAppStoreClick} from "@/lib/analytics";
 
 export type AppStoreClickLocation =
   | "hero"
@@ -23,15 +25,38 @@ export type AppStoreCTAProps = {
   className?: string;
 };
 
-export default async function AppStoreCTA(props: AppStoreCTAProps) {
-  const locale = await getLocale();
-  // Send identical names/order to the client: browser and server ICU versions
-  // can differ, which otherwise causes hydration errors in translated options.
-  const names = new Intl.DisplayNames([locale, "en"], {type: "region"});
-  const collator = new Intl.Collator(locale);
-  const countries = APP_STORE_COUNTRIES
-    .map((code) => ({code, name: names.of(code.toUpperCase()) ?? code.toUpperCase()}))
-    .sort((a, b) => collator.compare(a.name, b.name));
+export default function AppStoreCTA({
+  location,
+  label,
+  ariaLabel,
+  pageId,
+  className = "",
+}: AppStoreCTAProps) {
+  const locale = useLocale();
+  const pathname = usePathname();
+  const pathnameSegments = pathname.split("/").filter(Boolean);
+  if (pathnameSegments[0] === locale) pathnameSegments.shift();
+  const resolvedPageId = pageId ?? (pathnameSegments.join("/") || "home");
 
-  return <AppStoreCTAClient {...props} locale={locale} copy={getAppStoreCopy(locale)} countries={countries} />;
+  return (
+    <a
+      href={getAppStoreUrl(locale)}
+      data-app-store-placement={location}
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={() => trackAppStoreClick({pageId: resolvedPageId, locale, placement: location})}
+      className={`app-store-badge-link ${className}`}
+      aria-label={ariaLabel ?? label}
+    >
+      {/* Reuse Apple's supplied artwork unchanged; the accessible label is localized. */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/app-store-badge.svg"
+        alt={label}
+        width="162"
+        height="54"
+        className="h-[54px] w-auto"
+      />
+    </a>
+  );
 }

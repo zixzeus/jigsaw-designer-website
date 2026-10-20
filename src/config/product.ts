@@ -41,50 +41,20 @@ export const APP_STORE_STOREFRONTS = {
   ca: "es",
 } as const satisfies Record<SiteLocale, string>;
 
-// Apple App Store region selector, verified 2026-10-20:
-// https://apps.apple.com/cn/app/jigsawdesigner/id6751882340
-export const APP_STORE_COUNTRIES = [
-  "ae", "af", "ag", "ai", "al", "am", "ao", "ar", "at", "au", "az", "ba",
-  "bb", "be", "bf", "bg", "bh", "bj", "bm", "bn", "bo", "br", "bs", "bt",
-  "bw", "by", "bz", "ca", "cd", "cg", "ch", "ci", "cl", "cm", "cn", "co",
-  "cr", "cv", "cy", "cz", "de", "dk", "dm", "do", "dz", "ec", "ee", "eg",
-  "es", "fi", "fj", "fm", "fr", "ga", "gb", "gd", "ge", "gh", "gm", "gr",
-  "gt", "gw", "gy", "hk", "hn", "hr", "hu", "id", "ie", "il", "in", "iq",
-  "is", "it", "jm", "jo", "jp", "ke", "kg", "kh", "kn", "kr", "kw", "ky",
-  "kz", "la", "lb", "lc", "lk", "lr", "lt", "lu", "lv", "ly", "ma", "md",
-  "me", "mg", "mk", "ml", "mm", "mn", "mo", "mr", "ms", "mt", "mu", "mv",
-  "mw", "mx", "my", "mz", "na", "ne", "ng", "ni", "nl", "no", "np", "nr",
-  "nz", "om", "pa", "pe", "pg", "ph", "pk", "pl", "pt", "pw", "py", "qa",
-  "ro", "rs", "ru", "rw", "sa", "sb", "sc", "se", "sg", "si", "sk", "sl",
-  "sn", "sr", "st", "sv", "sz", "tc", "td", "th", "tj", "tm", "tn", "to",
-  "tr", "tt", "tw", "tz", "ua", "ug", "us", "uy", "uz", "vc", "ve", "vg",
-  "vn", "vu", "xk", "ye", "za", "zm", "zw",
-] as const;
-
-const appStoreCountries = new Set<string>(APP_STORE_COUNTRIES);
-
-export function isAppStoreCountry(value: string): boolean {
-  return appStoreCountries.has(value);
-}
-
 function appStoreLocale(locale: string): SiteLocale {
   return Object.prototype.hasOwnProperty.call(APP_STORE_STOREFRONTS, locale)
     ? locale as SiteLocale
     : "en";
 }
 
-export function getAppStoreUrl(locale: string, country?: string | null): string {
-  const normalizedCountry = country?.toLowerCase() ?? "";
-  const storefront = isAppStoreCountry(normalizedCountry)
-    ? normalizedCountry
-    : APP_STORE_STOREFRONTS[appStoreLocale(locale)];
+export function getAppStoreUrl(locale: string): string {
+  const storefront = APP_STORE_STOREFRONTS[appStoreLocale(locale)];
   return `https://apps.apple.com/${storefront}/app/jigsawdesigner/id${PRODUCT_FACTS.appStoreId}`;
 }
 
-export function getAppStoreDownloadPath(locale: string, country?: string | null): string {
-  const normalizedCountry = country?.toLowerCase() ?? "";
-  const path = `/api/app-store?locale=${appStoreLocale(locale)}`;
-  return isAppStoreCountry(normalizedCountry) ? `${path}&country=${normalizedCountry}` : path;
+/** Legacy download endpoint retained for previously cached pages. */
+export function getAppStoreDownloadPath(locale: string): string {
+  return `/api/app-store?locale=${appStoreLocale(locale)}`;
 }
 
 export interface ProductFacts {
