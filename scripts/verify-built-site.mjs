@@ -26,7 +26,7 @@ const {
   SEO_ROUTES,
   SITE_LOCALES,
 } = seoConfig;
-const {PRODUCT_FACTS} = productConfig;
+const {PRODUCT_FACTS, getAppStoreUrl, getAppStoreDownloadPath} = productConfig;
 
 const productionOrigin = PRODUCT_FACTS.websiteOrigin.replace(/\/+$/, "");
 const suppliedBaseUrl = process.env.SITE_URL?.replace(/\/+$/, "");
@@ -503,6 +503,15 @@ function assertFaqParity(page, jsonLd) {
 
 function assertStructuredData(page, entry) {
   const {jsonLd, pathname} = page;
+  const expectedAppStoreUrl = getAppStoreUrl(entry.locale);
+  const expectedDownloadPath = getAppStoreDownloadPath(entry.locale);
+  // Check every conversion entry, including pricing, help and feature pages.
+  for (const tag of tags(page.html, "a")) {
+    const href = attribute(tag, "href") ?? "";
+    if (attribute(tag, "data-app-store-placement") || href.includes("apps.apple.com")) {
+      record(href === expectedDownloadPath, `${pathname}: App Store link must point to ${expectedDownloadPath}, got ${href}`);
+    }
+  }
   record(jsonLd.length > 0, `${pathname}: JSON-LD is missing`);
   record(!hasJsonLdType(jsonLd, "Offer"), `${pathname}: fixed Offer schema is forbidden`);
   record(!hasJsonLdType(jsonLd, "AggregateRating"), `${pathname}: unverified AggregateRating schema is forbidden`);
@@ -513,12 +522,12 @@ function assertStructuredData(page, entry) {
     }
     for (const application of jsonLdNodesByType(jsonLd, "SoftwareApplication")) {
       record(application.softwareVersion === PRODUCT_FACTS.currentVersion, `${pathname}: SoftwareApplication version is not ${PRODUCT_FACTS.currentVersion}`);
-      record(application.downloadUrl === PRODUCT_FACTS.appStoreUrl, `${pathname}: SoftwareApplication downloadUrl is wrong`);
+      record(application.downloadUrl === expectedAppStoreUrl, `${pathname}: SoftwareApplication downloadUrl is wrong`);
     }
     record(!hasJsonLdType(jsonLd, "FAQPage"), `${pathname}: homepage FAQ schema must be absent`);
     record(tagsWithAttribute(page.html, "data-faq-item").length === 0, `${pathname}: homepage must present product features; FAQ belongs on help pages`);
     const appStoreLinks = tags(page.html, "a").filter(
-      (tag) => attribute(tag, "href") === PRODUCT_FACTS.appStoreUrl,
+      (tag) => attribute(tag, "href") === expectedDownloadPath,
     );
     const expectedPlacements = ["hero", "home-final"];
     record(
@@ -851,6 +860,29 @@ try {
   const robotsCache = cacheDirectives(robotsResponse.headers.get("cache-control") ?? "");
   record(robotsCache.has("public") && positiveCacheLifetime(robotsCache, "max-age"), "/robots.txt: public cache lifetime is missing");
 
+  // Local production has no Cloudflare country metadata, so each locale must
+  // fall back to its explicit storefront without caching the redirect.
+  await runInBatches(SITE_LOCALES, 8, async (locale) => {
+    const downloadPath = getAppStoreDownloadPath(locale);
+    const response = await fetchLocal(downloadPath, {redirect: "manual"});
+    record(response.status === 302, `${downloadPath}: expected temporary App Store redirect`);
+    const destination = response.headers.get("location") ?? "";
+    if (!suppliedBaseUrl) {
+      record(destination === getAppStoreUrl(locale), `${downloadPath}: wrong fallback storefront`);
+    } else {
+      record(/^https:\/\/apps\.apple\.com\/[a-z]{2}\/app\/jigsawdesigner\/id6751882340$/.test(destination), `${downloadPath}: wrong App Store destination`);
+    }
+    record(response.headers.get("cache-control")?.includes("no-store"), `${downloadPath}: redirect must not be cached`);
+    record(response.headers.get("x-robots-tag") === "noindex", `${downloadPath}: redirect should not be indexed`);
+  });
+  for (const [locale, country] of [["en", "cn"], ["zh-Hans", "us"], ["ja", "gb"]]) {
+    const downloadPath = getAppStoreDownloadPath(locale, country);
+    const response = await fetchLocal(downloadPath, {redirect: "manual"});
+    record(response.status === 302, `${downloadPath}: explicit region must temporarily redirect`);
+    record(response.headers.get("location") === getAppStoreUrl(locale, country), `${downloadPath}: explicit region must override detected region and page language`);
+    record(response.headers.get("cache-control")?.includes("no-store"), `${downloadPath}: explicit region must not be cached`);
+  }
+
   const sitemapResponse = await fetchLocal("/sitemap.xml", {redirect: "manual"});
   const sitemap = await sitemapResponse.text();
   record(sitemapResponse.status === 200, `/sitemap.xml: expected 200, got ${sitemapResponse.status}`);
@@ -975,6 +1007,8 @@ try {
       if (!href || href.startsWith("#") || /^(?:mailto:|tel:|javascript:)/i.test(href)) continue;
       const url = new URL(href, new URL(page.pathname, productionOrigin));
       if (url.origin !== productionOrigin) continue;
+      // Conversion routes intentionally redirect to Apple; validate separately.
+      if (url.pathname === "/api/app-store") continue;
       const pathname = normalizePathname(url.pathname);
       localLinks.add(pathname);
       if (pathname.split("/")[1] === page.pathname.split("/")[1]) links.add(pathname);

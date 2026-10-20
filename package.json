@@ -43,7 +43,7 @@
   "scripts": {
     "build": "next build --webpack",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts",
-    "check": "npm run check:content && npm run lint && npm run build && npm run typecheck && npm run check:site",
+    "check": "node --test scripts/lib/app-store.test.mjs && npm run check:content && npm run lint && npm run build && npm run typecheck && npm run check:site",
     "check:content": "npm run translation:catalog -- --check && npm run translation:validate -- --all && npm run translation:registry -- --check && node scripts/validate-content.mjs",
     "check:site": "node scripts/verify-built-site.mjs",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",

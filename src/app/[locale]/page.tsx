@@ -11,7 +11,7 @@ import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import VideoFacade from "@/components/VideoFacade";
 import {getMediaDimensions} from "@/config/media";
-import {PRODUCT_FACTS} from "@/config/product";
+import {getAppStoreUrl, PRODUCT_FACTS} from "@/config/product";
 import {isRouteAvailable, isSiteLocale, SITE_LOCALES} from "@/config/seo";
 import {getHomeDesignCopy, HOME_FEATURE_MEDIA as media} from "@/content/home-design";
 import {Link} from "@/i18n/navigation";
@@ -38,7 +38,7 @@ export default async function Home({params}: {params: HomeParams}) {
     {"@context": "https://schema.org", "@type": "Organization", "@id": organizationId, name: PRODUCT_FACTS.name, url: PRODUCT_FACTS.websiteOrigin, logo: absoluteUrl(PRODUCT_FACTS.appIcon), contactPoint: {"@type": "ContactPoint", contactType: "customer support", email: PRODUCT_FACTS.supportEmail}},
     {"@context": "https://schema.org", "@type": "WebSite", "@id": websiteId, name: PRODUCT_FACTS.name, url: PRODUCT_FACTS.websiteOrigin, inLanguage: SITE_LOCALES, publisher: {"@id": organizationId}},
     {"@context": "https://schema.org", "@type": "WebPage", "@id": `${canonical}#webpage`, name: c.seoTitle, description: c.seoDescription, url: canonical, inLanguage: locale, isPartOf: {"@id": websiteId}},
-    {"@context": "https://schema.org", "@type": "SoftwareApplication", name: PRODUCT_FACTS.name, applicationCategory: "DesignApplication", operatingSystem: PRODUCT_FACTS.operatingSystems.join(", "), description: c.seoDescription, url: canonical, downloadUrl: PRODUCT_FACTS.appStoreUrl, softwareVersion: PRODUCT_FACTS.currentVersion, isAccessibleForFree: PRODUCT_FACTS.freeGenerationLimit > 0, publisher: {"@id": organizationId}},
+    {"@context": "https://schema.org", "@type": "SoftwareApplication", name: PRODUCT_FACTS.name, applicationCategory: "DesignApplication", operatingSystem: PRODUCT_FACTS.operatingSystems.join(", "), description: c.seoDescription, url: canonical, downloadUrl: getAppStoreUrl(locale), softwareVersion: PRODUCT_FACTS.currentVersion, isAccessibleForFree: PRODUCT_FACTS.freeGenerationLimit > 0, publisher: {"@id": organizationId}},
   ];
   return (
     <div className="min-h-screen bg-background text-foreground">
