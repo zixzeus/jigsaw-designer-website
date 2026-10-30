@@ -1,22 +1,46 @@
-# Next.js Framework Starter
+# JigsawDesigner website
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/next-starter-template)
+The multilingual product and support website for [JigsawDesigner](https://jigsawdesigner.com),
+built with Next.js and deployed on Cloudflare Workers through the OpenNext adapter.
+The native app and its App Store purchase channel are maintained separately.
 
-<!-- dash-content-start -->
+## Paddle review preparation — October 30, 2026
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It's deployed on Cloudflare Workers as a [static website](https://developers.cloudflare.com/workers/static-assets/).
+The website materials are prepared for Paddle review under
+**Guangzhou Axing E - Commerce Co., Ltd.** The company's product portfolio includes
+JigsawDesigner and NestCoda, listed together at [nestcoda.com/products](https://nestcoda.com/products).
+Prepared website content and an active Paddle catalog do **not** mean that Paddle has
+approved the company or domains, or that production charging is enabled.
 
-This template uses [OpenNext](https://opennext.js.org/) via the [OpenNext Cloudflare adapter](https://opennext.js.org/cloudflare), which works by taking the Next.js build output and transforming it, so that it can run in Cloudflare Workers.
+JigsawDesigner website checkout is **not yet available**. This repository contains
+pricing and conditional purchase, refund and privacy information in all 33 site
+languages; it does not load Paddle checkout, accept website payments, or activate
+Paddle entitlements in the app. App Store subscriptions remain available. Apple
+handles their billing and refunds, and the final App Store price depends on the
+customer's storefront.
 
-<!-- dash-content-end -->
+The following records are configured in the Paddle **Live catalog**, for future
+website purchasing after approval and completion of delivery/entitlement work:
 
-Outside of this repo, you can start a new project with this template using [C3](https://developers.cloudflare.com/pages/get-started/c3/) (the `create-cloudflare` CLI):
+| Record | Value |
+| :--- | :--- |
+| Product | `pro_01m66c42rcpvbre6tmeneph4jf` |
+| Monthly price | **USD 12.99/month** — `pri_01m66c9phqsfcc8xk1m0v3b2k5` |
+| Yearly price | **USD 99.99/year** — `pri_01m66ckj4dhexajpfab9zvr4tq` |
+| Tax treatment | Excludes applicable tax; the final total and currency appear at checkout |
+| Trial / quantity | No trial; quantity 1 |
 
-```bash
-npm create cloudflare@latest -- --template=cloudflare/templates/next-starter-template
-```
+These catalog identifiers are documentation only and are not connected to a
+purchase flow in this website. Public support remains
+[zixzeus@jigsawdesigner.com](mailto:zixzeus@jigsawdesigner.com).
+Future Paddle website orders may request a refund within 14 days through
+[paddle.net](https://paddle.net), subject to Paddle's current refund policy and
+applicable law. App Store refunds follow Apple's separate process.
 
-A live public deployment of this template is available at [https://next-starter-template.templates.workers.dev](https://next-starter-template.templates.workers.dev)
+Website pricing and company details are centralized in `src/config/commerce.ts`.
+Localized conditional commerce copy lives in `src/content/commerce-locales`;
+`src/content/commerce.ts` enforces the complete locale mapping. The content check
+keeps website purchasing in the pending state until an intentional launch change.
 
 ## Getting Started
 
@@ -64,19 +88,30 @@ npm run check
 ```
 
 Locale files live in `src/content/translations`. Translation files are accepted
-only when their source hash, 677-entry key set, placeholders, protected product
+only when their source hash, 681-entry key set, placeholders, protected product
 terms, and expected writing system pass validation. Missing translations fail
 the build; the site does not silently fall back to English. External machine
 translation APIs are not part of this workflow.
 
-## Deploying To Production
+## Production release
 
-| Command                           | Action                                       |
-| :-------------------------------- | :------------------------------------------- |
-| `npm run build`                   | Build your production site                   |
-| `npm run preview`                 | Preview your build locally, before deploying |
-| `npm run build && npm run deploy` | Deploy your production site to Cloudflare    |
-| `npm wrangler tail`               | View real-time logs for all Workers          |
+GitHub `main` deploys through **Cloudflare Workers Builds: jigsaw-designer-website**.
+The release gates are:
+
+```bash
+npm run check
+npx --no-install opennextjs-cloudflare build
+```
+
+Review desktop, 390px mobile, long German text and Arabic RTL before completing
+release acceptance. Stage only the intended website files, verify the staged diff,
+then push the authorized release to `main`. Wait for the Cloudflare provider check
+and verify current production HTML with a fresh query parameter or a no-cache
+request. A local build or successful push alone does not confirm a live deployment.
+
+`npm run dev` starts local development; `npm run preview` builds and previews the
+Worker locally. Existing untracked project materials must not be included in a
+release unless explicitly intended.
 
 ## Learn More
 

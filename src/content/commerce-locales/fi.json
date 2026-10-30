@@ -1,0 +1,10 @@
+{
+  "heading": "Verkkosivuston tilaukset",
+  "taxNote": "Verkkosivuston hinnat ovat USD-valuutassa eivätkä sisällä sovellettavia veroja. Lopullinen summa ja valuutta näytetään kassalla.",
+  "pending": "Verkkosivustolla maksaminen Paddlen kautta ei ole vielä käytettävissä. Näitä tilauksia ei tällä hetkellä voi ostaa tai aktivoida täällä.",
+  "appleNote": "App Store -tilaukset ovat edelleen saatavilla kuukausi- tai vuositilauksina. Apple hoitaa laskutuksen ja hyvitykset; lopullinen hinta määräytyy alueellisen kauppasi mukaan.",
+  "terms": "Kun verkkosivustolla ostaminen avataan, Paddle toimii verkkosivuston tilausten jälleenmyyjänä ja maksutapahtumista oikeudellisesti vastaavana myyjänä. Ohjelmiston toimittaja vastaa tuotteen toimittamisesta ja teknisestä tuesta. Tilaukset uusiutuvat kuukausittain tai vuosittain, kunnes ne perutaan. Tuettu tuote, toimitustapa, verot ja kokonaissumma näytetään ennen maksua. Peruminen estää tulevat uusimiset eikä automaattisesti hyvitä aiempia veloituksia.",
+  "refund": "Tulevista verkkosivuston Paddle-tilauksista voit pyytää hyvitystä 14 päivän kuluessa osoitteessa paddle.net. Hyvitysoikeus määräytyy Paddlen voimassa olevan hyvityskäytännön ja sovellettavan lain mukaan; pyyntö ei takaa hyväksyntää. Tilauksen peruminen ei automaattisesti hyvitä maksua. App Store -ostoissa noudatetaan Applen hyvitysmenettelyä osoitteessa reportaproblem.apple.com.",
+  "privacy": "Verkkosivustolla maksaminen ei ole vielä käytettävissä, eikä tämä verkkosivusto tällä hetkellä kerää Paddle-tilauksia. Jos verkkosivustolla ostaminen avataan, Paddle käsittelee maksu- ja laskutustietoja oman tietosuojailmoituksensa mukaisesti. Ohjelmiston toimittaja voi säilyttää yhteystietoja, tilaustunnisteita ja tilauksen tilan käyttöoikeuden ja tuen tarjoamiseksi. Tämä verkkosivusto ei tallenna korttitietoja. Ota meihin yhteyttä, jos haluat tarkastaa, korjata tai poistaa toimittajan säilyttämiä tietoja.",
+  "updated": "Päivitetty viimeksi: 30. lokakuuta 2026"
+}

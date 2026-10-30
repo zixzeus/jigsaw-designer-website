@@ -8,6 +8,7 @@ import JsonLd from "@/components/JsonLd";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import {PRODUCT_FACTS} from "@/config/product";
+import {getCommerceCopy} from "@/content/commerce";
 import {isRouteAvailable, isSiteLocale, type SiteLocale} from "@/config/seo";
 import {isTierOneLocale} from "@/content/types";
 import {getGeneratedSiteTranslation, hasGeneratedLocaleContent} from "@/content/localized-content";
@@ -40,8 +41,10 @@ export default async function SupportPage({params}: {params: Promise<{locale: st
 }
 
 function SupportContent({locale}: {locale: SiteLocale}) {
+  const commerce = getCommerceCopy(locale);
   const support = useTranslations("Support");
   const help = useTranslations("Help");
+  const footer = useTranslations("Footer");
   const navigation = useTranslations("Navigation");
   const copy = isTierOneLocale(locale)
     ? supportPageCopy[locale]
@@ -106,6 +109,12 @@ function SupportContent({locale}: {locale: SiteLocale}) {
               <a href={`mailto:${PRODUCT_FACTS.supportEmail}`}>{PRODUCT_FACTS.supportEmail} <span aria-hidden="true">→</span></a>
             </SupportRoute>
           </div>
+          <aside className="mt-10 rounded-3xl border border-border bg-background-secondary p-6 md:p-8">
+            <h2 className="text-2xl font-semibold">{commerce.heading}</h2>
+            <p className="mt-4 leading-7 text-gray-600 dark:text-gray-300">{commerce.pending}</p>
+            <p className="mt-3 leading-7 text-gray-600 dark:text-gray-300">{commerce.appleNote}</p>
+            <Link href="/refund-policy" className="mt-4 inline-flex font-semibold text-primary-dark hover:underline dark:text-primary-light">{footer("refund")}</Link>
+          </aside>
         </section>
       </main>
       <SiteFooter />

@@ -24,7 +24,6 @@ const deprecatedMessageKeys = [
 const forbiddenPatterns = [
   {label: "deprecated 1.5 version", pattern: /\bv?1\.5(?:\.\d+)?\b/gi},
   {label: "unsupported PDF or PNG export wording", pattern: /\b(?:PDF|PNG)\b/gi},
-  {label: "Paddle checkout wording", pattern: /\bPaddle\b/gi},
   {
     label: "lifetime or perpetual licence wording",
     pattern: /\b(?:lifetime|perpetual)\b|终身(?:许可|许可证|授权)?|終身(?:許可|授權)?/gi,
@@ -41,10 +40,6 @@ const forbiddenPatterns = [
   {
     label: "editable real-time collaboration claim",
     pattern: /\breal[ -]time (?:co-?editing|collaboration)\b|实时(?:协作|共同编辑)|即時(?:協作|共同編輯)/gi,
-  },
-  {
-    label: "fixed USD price",
-    pattern: /(?:\$\s*\d|USD\s*\d|\d\s*USD)/g,
   },
   {
     label: "unverified advanced or unique-pattern claim",
@@ -254,7 +249,7 @@ for (const locale of locales) {
   if (!copy.finalBody.includes("5") || !copy.finalBody.includes("Premium") || !copy.finalBody.includes("SVG")) errors.push(`${locale}: homepage final CTA must state the free and Premium entitlements`);
 }
 
-for (const guide of ["tool-guide", "interface-guide", "iphone-guide"]) {
+for (const guide of ["tool-guide", "interface-guide", "iphone-guide", "commerce"]) {
   const directory = path.join(root, `src/content/${guide}-locales`);
   const files = new Set((await readdir(directory)).filter((name) => name.endsWith(".json")));
   addSetDifference(errors, guide, "locale files", new Set(locales.map((locale) => `${locale}.json`)), files);
@@ -281,6 +276,11 @@ for (const guide of ["tool-guide", "interface-guide", "iphone-guide"]) {
     }
   }
 }
+
+const {WEBSITE_COMMERCE} = await loadTsModule(path.join(root, "src/config/commerce.ts"));
+if (WEBSITE_COMMERCE.status !== "pending") errors.push("Website purchasing must remain pending until checkout and delivery are approved");
+if (WEBSITE_COMMERCE.currency !== "USD" || WEBSITE_COMMERCE.plans.monthly.amountMinor !== 1299 || WEBSITE_COMMERCE.plans.yearly.amountMinor !== 9999) errors.push("Website prices must be USD 12.99 monthly and USD 99.99 yearly");
+if (WEBSITE_COMMERCE.legalEntity !== "Guangzhou Axing E - Commerce Co., Ltd.") errors.push("Website legal entity does not match the confirmed company");
 
 const publicSourceDirectories = [
   path.join(root, "src/app"),

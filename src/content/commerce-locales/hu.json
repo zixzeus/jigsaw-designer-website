@@ -1,0 +1,10 @@
+{
+  "heading": "Weboldali csomagok",
+  "taxNote": "A weboldalon szereplő árak USD-ben értendők, és nem tartalmazzák az alkalmazandó adókat. A végösszeg és a pénznem fizetéskor jelenik meg.",
+  "pending": "A Paddle rendszerén keresztüli weboldali fizetés még nem érhető el. Ezek a csomagok jelenleg nem vásárolhatók meg és nem aktiválhatók itt.",
+  "appleNote": "Az App Store-előfizetések továbbra is havi vagy éves időszakra érhetők el. A számlázást és a visszatérítéseket az Apple kezeli; a végső ár a regionális áruháztól függ.",
+  "terms": "Amikor elindul a weboldali vásárlás, a Paddle a weboldali rendelések viszonteladójaként és a tranzakciókért jogilag felelős kereskedőként jár el. A szoftver szolgáltatója felel a termék átadásáért és a műszaki támogatásért. Az előfizetések lemondásig havonta vagy évente megújulnak. A támogatott termék, az átadás módja, az adók és a végösszeg fizetés előtt megjelennek. A lemondás leállítja a jövőbeli megújításokat, és nem téríti vissza automatikusan a korábbi terheléseket.",
+  "refund": "A jövőbeli, Paddle rendszerén keresztül leadott weboldali rendelések esetén 14 napon belül kérhet visszatérítést a paddle.net oldalon. A jogosultságot a Paddle aktuális visszatérítési szabályzata és az alkalmazandó jog határozza meg; a kérelem benyújtása nem garantálja annak jóváhagyását. Az előfizetés lemondása nem jelenti a fizetés automatikus visszatérítését. Az App Store-vásárlásokra az Apple visszatérítési eljárása vonatkozik a reportaproblem.apple.com oldalon.",
+  "privacy": "A weboldali fizetés még nem érhető el, és ez a weboldal jelenleg nem gyűjt Paddle-rendeléseket. Ha elindul a weboldali vásárlás, a Paddle a saját adatvédelmi tájékoztatója szerint kezeli a fizetési és számlázási adatokat. A szoftver szolgáltatója a hozzáférés és a támogatás biztosítása érdekében megőrizheti az elérhetőségeket, a rendelésazonosítókat és az előfizetés állapotát. Ez a weboldal nem tárol kártyaadatokat. A szolgáltatónál tárolt adatokhoz való hozzáférés, azok helyesbítése vagy törlése ügyében lépjen kapcsolatba velünk.",
+  "updated": "Utolsó frissítés: 2026. október 30."
+}

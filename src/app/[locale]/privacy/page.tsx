@@ -8,6 +8,8 @@ import JsonLd from "@/components/JsonLd";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import {PRODUCT_FACTS} from "@/config/product";
+import {WEBSITE_COMMERCE} from "@/config/commerce";
+import {getCommerceCopy} from "@/content/commerce";
 import {isRouteAvailable, isSiteLocale, type SiteLocale} from "@/config/seo";
 import {createBreadcrumbJsonLd, createPageMetadata} from "@/lib/seo";
 
@@ -27,6 +29,7 @@ export default async function PrivacyPage({params}: {params: Promise<{locale: st
 
 function PrivacyContent({locale}: {locale: SiteLocale}) {
   const privacy = useTranslations("Privacy");
+  const commerce = getCommerceCopy(locale);
   const navigation = useTranslations("Navigation");
   const breadcrumbItems = [
     {label: navigation("home"), href: "/"},
@@ -56,11 +59,16 @@ function PrivacyContent({locale}: {locale: SiteLocale}) {
             </ul>
           </PolicySection>
           <PolicySection title={privacy("analytics.title")}><p>{privacy("analytics.content")}</p></PolicySection>
+          <PolicySection title={commerce.heading}>
+            <p>{commerce.privacy}</p>
+            <a href={WEBSITE_COMMERCE.privacyPolicyUrl} className="mt-3 inline-block break-all text-primary-dark hover:underline dark:text-primary-light">paddle.com/legal/privacy</a>
+          </PolicySection>
           <PolicySection title={privacy("contact.title")}>
-            <p>{privacy("contact.content")}</p>
+            <p><bdi>{WEBSITE_COMMERCE.legalEntity}</bdi></p>
+            <p className="mt-3">{privacy("contact.content")}</p>
             <a href={`mailto:${PRODUCT_FACTS.supportEmail}`} className="mt-2 inline-flex text-primary-dark hover:underline dark:text-primary-light">{PRODUCT_FACTS.supportEmail}</a>
           </PolicySection>
-          <p className="border-t border-border pt-8 text-sm text-gray-600 dark:text-gray-300">{privacy("lastUpdated")}</p>
+          <p className="border-t border-border pt-8 text-sm text-gray-600 dark:text-gray-300">{commerce.updated}</p>
         </div>
       </main>
       <SiteFooter />

@@ -9,6 +9,8 @@ import JsonLd from "@/components/JsonLd";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import {PRODUCT_FACTS} from "@/config/product";
+import {WEBSITE_COMMERCE} from "@/config/commerce";
+import {getCommerceCopy} from "@/content/commerce";
 import {FULL_CONTENT_LOCALES, isRouteAvailable, isSiteLocale, type SiteLocale} from "@/config/seo";
 import {isTierOneLocale} from "@/content/types";
 import {getGeneratedSiteTranslation, hasGeneratedLocaleContent} from "@/content/localized-content";
@@ -48,9 +50,25 @@ function PricingContent({locale}: {locale: SiteLocale}) {
   const pricing = useTranslations("Pricing");
   const navigation = useTranslations("Navigation");
   const common = useTranslations("Common");
-  const copy: PricingCopy = isTierOneLocale(locale)
+  const commerce = getCommerceCopy(locale);
+  const originalCopy: PricingCopy = isTierOneLocale(locale)
     ? pricingPageCopy[locale]
     : getGeneratedSiteTranslation(locale).content.pricing;
+  const copy: PricingCopy = {
+    ...originalCopy,
+    storeNote: commerce.appleNote,
+    faq: originalCopy.faq.map((item, index) => ({
+      ...item,
+      answer: index === 0
+        ? `${commerce.appleNote} ${commerce.taxNote}`
+        : index === 2 ? commerce.pending : item.answer,
+    })),
+  };
+  const websitePrice = new Intl.NumberFormat(locale, {
+    style: "currency",
+    currency: WEBSITE_COMMERCE.currency,
+    currencyDisplay: "code",
+  });
   const breadcrumb = createBreadcrumbJsonLd({
     locale,
     items: [
@@ -117,6 +135,23 @@ function PricingContent({locale}: {locale: SiteLocale}) {
           <div className="mt-8 flex flex-col items-start justify-between gap-5 sm:flex-row sm:items-center">
             <p className="max-w-2xl text-sm leading-6 text-gray-600 dark:text-gray-300">{copy.storeNote}</p>
             <AppStoreCTA location="pricing" pageId="pricing" label={pricing("cta")} ariaLabel={common("appStoreAria")} className="shrink-0" />
+          </div>
+        </section>
+
+        <section className="border-t border-border py-14 md:py-20" aria-labelledby="website-plans-title" data-website-checkout={WEBSITE_COMMERCE.status}>
+          <div className="mx-auto max-w-6xl px-5 md:px-8">
+            <h2 id="website-plans-title" className="display-title text-3xl font-semibold tracking-tight md:text-4xl">{commerce.heading}</h2>
+            <p className="mt-5 max-w-3xl rounded-2xl border border-primary/20 bg-primary-ultra-light/40 p-5 font-medium leading-7">{commerce.pending}</p>
+            <div className="mt-8 grid gap-5 sm:grid-cols-2">
+              {(["monthly", "yearly"] as const).map((period) => (
+                <article key={period} className="rounded-3xl border border-border p-7 md:p-9">
+                  <h3 className="text-lg font-semibold">{pricing(`${period}.name`)}</h3>
+                  <p className="mt-4 text-3xl font-semibold tracking-tight"><bdi>{websitePrice.format(WEBSITE_COMMERCE.plans[period].amountMinor / 100)}</bdi></p>
+                  <p className="mt-3 text-sm text-gray-600 dark:text-gray-300">{PRODUCT_FACTS.name} Premium</p>
+                </article>
+              ))}
+            </div>
+            <p className="mt-6 max-w-3xl text-sm leading-6 text-gray-600 dark:text-gray-300">{commerce.taxNote}</p>
           </div>
         </section>
 

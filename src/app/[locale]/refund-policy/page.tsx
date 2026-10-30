@@ -3,6 +3,9 @@ import {notFound} from "next/navigation";
 import {useTranslations} from "next-intl";
 import {getTranslations, setRequestLocale} from "next-intl/server";
 
+import {WEBSITE_COMMERCE} from "@/config/commerce";
+import {getCommerceCopy} from "@/content/commerce";
+
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import SiteFooter from "@/components/SiteFooter";
@@ -38,6 +41,7 @@ export default async function RefundPolicyPage({params}: {params: Promise<{local
 
 function RefundContent({locale}: {locale: SiteLocale}) {
   const refund = useTranslations("Refund");
+  const commerce = getCommerceCopy(locale);
   const navigation = useTranslations("Navigation");
   const breadcrumbItems = [
     {label: navigation("home"), href: "/"},
@@ -53,15 +57,19 @@ function RefundContent({locale}: {locale: SiteLocale}) {
       <main className="container mx-auto max-w-4xl px-6 pt-32 pb-24 md:px-12 md:pt-40">
         <Breadcrumbs items={breadcrumbItems} ariaLabel={refund("title")} />
         <h1 className="text-4xl font-bold md:text-5xl">{refund("title")}</h1>
-        <p className="mt-4 text-sm text-gray-600 dark:text-gray-300">{refund("lastUpdated")}</p>
+        <p className="mt-4 text-sm text-gray-600 dark:text-gray-300">{commerce.updated}</p>
         <div className="mt-12 space-y-8 text-[1.05rem] leading-8 text-gray-600 dark:text-gray-300">
           <p>{refund("content.intro")}</p>
           <section className="rounded-3xl border border-border bg-background-secondary p-8">
             <p>{refund("content.appStore")}</p>
             <p className="mt-4">{refund("content.process")}</p>
+            <a href={WEBSITE_COMMERCE.appleRefundUrl} className="mt-4 inline-block break-all text-primary-dark hover:underline dark:text-primary-light">reportaproblem.apple.com</a>
           </section>
           <section className="rounded-3xl border border-primary/15 bg-primary-ultra-light/30 p-8">
-            <p>{refund("content.direct")}</p>
+            <h2 className="text-2xl font-semibold text-foreground">{commerce.heading}</h2>
+            <p className="mt-4 font-medium">{commerce.pending}</p>
+            <p className="mt-4">{commerce.refund}</p>
+            <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-primary-dark dark:text-primary-light"><a href={WEBSITE_COMMERCE.customerSupportUrl} className="hover:underline">paddle.net</a><a href={WEBSITE_COMMERCE.refundPolicyUrl} className="break-all hover:underline">paddle.com/legal/refund-policy</a></div>
           </section>
         </div>
       </main>

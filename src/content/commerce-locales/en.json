@@ -1,0 +1,10 @@
+{
+  "heading": "Website plans",
+  "taxNote": "Website prices are in USD, excluding applicable taxes. The final total and currency will be shown at checkout.",
+  "pending": "Paddle website checkout is not yet available. These plans cannot currently be purchased or activated here.",
+  "appleNote": "App Store subscriptions remain available monthly or yearly. Apple handles billing and refunds; the final price depends on your storefront.",
+  "terms": "When website purchasing opens, Paddle will be the reseller and merchant of record for website orders. The software provider is responsible for product delivery and technical support. Subscriptions renew monthly or yearly until canceled. The supported product, delivery method, taxes and total will be shown before payment. Canceling stops future renewals and does not automatically refund past charges.",
+  "refund": "For future Paddle website orders, you may request a refund within 14 days through paddle.net. Eligibility follows Paddle’s current Refund Policy and applicable law; a request does not guarantee approval. Canceling a subscription does not automatically refund a payment. App Store purchases follow Apple’s refund process through reportaproblem.apple.com.",
+  "privacy": "Website checkout is not yet available and this website does not currently collect Paddle orders. If website purchasing opens, Paddle will process payment and billing information under its own privacy notice. The software provider may retain contact details, order identifiers and subscription status to deliver access and support. This website will not store card details. Contact us about access, correction or deletion of information held by the provider.",
+  "updated": "Last updated: October 30, 2026"
+}
